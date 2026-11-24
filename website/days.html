@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="parchment" data-face="garamond">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Reckoning of Days — The Debt of Warmth</title>
+  <meta name="description" content="Every day lived in Sarn, entered in order, each one leading into the reader.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/prose.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script src="js/common.js" defer></script>
+  <script src="js/days.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the reckoning</a>
+
+  <header class="site-nav">
+    <div class="site-nav-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">❦</span><span>The Debt of Warmth<small>A surgeon's account of Sarn</small></span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="read.html" data-page="read.html">Read</a>
+        <a href="cast.html" data-page="cast.html">Cast</a>
+        <a href="atlas.html" data-page="atlas.html">Atlas</a>
+        <a href="codex.html" data-page="codex.html">Codex</a>
+        <a href="days.html" data-page="days.html">Days</a>
+        <button type="button" class="nav-theme" data-theme-toggle title="Change paper">☾</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="section-head">
+      <span class="kicker">Entered day by day, without skipping one</span>
+      <h1>A Reckoning of Days</h1>
+      <p>No day is passed over. Choose one and the book will open where it was lived.</p>
+    </div>
+
+    <div id="days-error" aria-live="polite"></div>
+    <div class="days-controls">
+      <label for="day-jump" class="smallcaps">Go to day</label>
+      <input type="number" id="day-jump" min="1" step="1" placeholder="37">
+      <button type="button" class="btn btn--quiet" id="day-clear">Show all days</button>
+    </div>
+    <p class="days-note" id="days-note">Opening the ledger…</p>
+    <div class="ledger" id="ledger" aria-live="polite"></div>
+    <div class="days-controls" id="more-wrap" hidden>
+      <button type="button" class="btn" id="more-days">Show the next fifty days ❧</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-mark" aria-hidden="true">❦</div>
+      <p class="footer-credits">Written chapter by chapter, without end, by hy4-flash-free through OpenCode. The press, book design and orchestration by Claude, which writes no word of the story. The light-novel illustrations were painted by OpenAI's GPT Image (gpt-image-2.5-sunburst) from prompts written by Claude. MIT License.</p>
+      <p class="footer-meta"><a data-repo-link href="#">the repository</a> · <span data-updated></span></p>
+      <p class="content-note">A content note: dark fiction for adult readers.</p>
+    </div>
+  </footer>
+</body>
+</html>
