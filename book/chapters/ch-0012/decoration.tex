@@ -1,0 +1,61 @@
+\begin{tikzpicture}
+  % the chapter's heart: a weak board waiting over the river that comes up as it always comes
+  \fill[gold, opacity=0.04] (0,0.05) ellipse (4.55 and 1.50);
+
+  % the river under the thaw, dark and moving where no slate enters
+  \fill[night!90] (0,-0.58) ellipse (3.92 and 0.80);
+  \begin{scope}
+    \clip (0,-0.58) ellipse (3.84 and 0.73);
+    \draw[faded!72, line width=0.75pt, opacity=0.26]
+      (-3.70,-0.78) .. controls (-2.20,-0.95) and (-0.80,-0.62) .. (0.60,-0.80)
+                   .. controls (1.90,-0.96) and (3.00,-0.66) .. (3.70,-0.82);
+    \draw[gold!55!rubric, line width=0.70pt, opacity=0.17]
+      (-3.50,-0.48) .. controls (-1.90,-0.30) and (-0.60,-0.66) .. (0.80,-0.46)
+                   .. controls (2.10,-0.28) and (3.00,-0.58) .. (3.60,-0.44);
+    \draw[faded!60, line width=0.55pt, opacity=0.18]
+      (-3.20,-0.20) .. controls (-1.60,-0.38) and (0.20,-0.12) .. (1.70,-0.30)
+                   .. controls (2.70,-0.42) and (3.20,-0.22) .. (3.50,-0.28);
+    % coils coming up under the board, called weather
+    \draw[decorate, decoration={coil,aspect=0.35,segment length=6pt,amplitude=2pt},
+          faded!70, line width=0.55pt, opacity=0.24] (-3.05,-0.62) -- (-1.25,-0.62);
+    \draw[decorate, decoration={coil,aspect=0.35,segment length=6pt,amplitude=2pt},
+          gold!50!faded, line width=0.55pt, opacity=0.20] (0.45,-0.66) -- (2.65,-0.66);
+  \end{scope}
+
+  % the board: bowed in the middle, set down, trodden by nobody
+  \fill[ash!55!vellum, opacity=0.62]
+    (-4.05,0.24) .. controls (-1.90,0.06) and (1.90,0.06) .. (4.05,0.24)
+    -- (4.05,-0.02) .. controls (1.90,-0.20) and (-1.90,-0.20) .. (-4.05,-0.02) -- cycle;
+  \draw[faded!88!ink, line width=1.15pt]
+    (-4.05,0.24) .. controls (-1.90,0.06) and (1.90,0.06) .. (4.05,0.24)
+    -- (4.05,-0.02) .. controls (1.90,-0.20) and (-1.90,-0.20) .. (-4.05,-0.02) -- cycle;
+  \draw[faded!72, line width=0.50pt, opacity=0.44]
+    (-3.80,0.16) .. controls (-1.70,0.00) and (1.70,0.00) .. (3.80,0.16);
+  \draw[faded!65, line width=0.45pt, opacity=0.32]
+    (-3.55,0.06) .. controls (-1.50,-0.08) and (1.40,-0.08) .. (3.25,0.06);
+
+  % a split run along the grain, stopping a thumb's breadth short of the end
+  \draw[ink, line width=1.45pt, opacity=0.13]
+    (-3.72,0.01) -- (-2.20,-0.03) -- (-0.90,-0.07) -- (0.50,-0.06) -- (1.62,-0.01) -- (2.10,0.01);
+  \draw[faded!88!ink, line width=0.85pt, opacity=0.80]
+    (-3.74,0.02) -- (-2.22,-0.02) -- (-0.92,-0.06) -- (0.48,-0.05) -- (1.60,0.00) -- (2.08,0.02);
+  \draw[faded, line width=0.55pt, dotted, opacity=0.44] (2.18,0.02) -- (2.94,0.10);
+  \fill[faded!70!ink, opacity=0.55] (2.10,0.01) circle (0.022);
+
+  % the missing step: an empty slot set beside the board, never touched
+  \draw[faded, line width=0.55pt, dotted, opacity=0.36]
+    (2.34,0.52) -- (3.86,0.52) -- (3.86,0.76) -- (2.34,0.76) -- cycle;
+  \draw[faded!60, line width=0.45pt, opacity=0.22] (2.46,0.64) -- (3.74,0.64);
+
+  % four, four and a gap: the count the fire keeps and the bell tells
+  \foreach \tx in {-2.70,-2.35,-2.00,-1.65,-1.15,-0.80,-0.45,-0.10}{
+    \draw[faded!85!ink, line width=1.05pt] (\tx,1.02) -- (\tx,1.34);
+  }
+  \draw[faded, line width=0.55pt, dotted, opacity=0.46] (0.40,1.02) -- (0.40,1.35);
+  \draw[faded!60, line width=0.45pt, opacity=0.30] (-3.00,1.18) -- (0.90,1.18);
+
+  \node at (-4.42,0.02) {\pgfornament[width=1.25cm,color=ornament]{85}};
+  \node at ( 4.42,0.02) {\pgfornament[width=1.25cm,color=ornament,symmetry=v]{85}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.58) {the board waits over the water};
+\end{tikzpicture}
