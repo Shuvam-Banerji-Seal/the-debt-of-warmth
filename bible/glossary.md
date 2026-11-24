@@ -56,6 +56,8 @@
 
 **The clinical ear.** The ability to hear a faulty vessel before touching it. Dan possesses it to an unnatural degree; the Kiln-Masters of Sill have quietly noted it.
 
+**Closed counting room (the Greybank saying).** A counting room shut during the last war with the damper closed, in which the men inside died of the breath rather than of the war's hand. On Ilmen 26, Y.H. 813 a man come downriver from Greybank told it at the Low Kiln well as a curiosity with a date, eighteen leagues east; the yard took it for history and nobody joined it to any kiln in the district. In houses that keep their breath in fours and a gap the saying is heard differently, though no one says so aloud.
+
 **The Cold.** The absence of Warm; a material substance in Sarn, with a place to put what is taken.
 
 **Cold Acre.** A barley-and-turnip hamlet two leagues north of Sill on the ridge, with one well that never freezes.
@@ -194,7 +196,7 @@
 
 **Kept.** The highest rank in Sarn: a vessel the Court has made effectively unbreakable. Fewer than twenty exist; they are spoken of with pity and no longer feel the cold. Also a term for chattel slaves in Grath.
 
-**Kiln's breath.** The invisible poison of a closed kiln house or cellar; it kills in sleep and is called a merciful death by those who have not identified the body.
+**Kiln's breath.** The invisible poison of a closed kiln house or cellar; it kills in sleep and is called a merciful death by those who have not identified the body. On Ilmen 26, Y.H. 813 a man come downriver from Greybank described at the well a counting room shut in the last war with the damper closed and the men inside dead of the breath; he said it as something that happened eighteen leagues east, and nobody in the yard connected it to the kiln's own missing fifth breath under their roofs.
 
 **Kiln-hound.** A feral dog of old kilns whose hot breath carries the kiln's own poison.
 
@@ -352,7 +354,7 @@
 
 **Thane of Clay.** Grath's ruler, chosen by the kiln-masters of Sill and confirmed by the Court's factor at Greybank.
 
-**The thaw.** The spring working season, when the brook comes up and the clay goes soft. Debts in Low Kiln are often put off until then, in the phrase *you'll pay for it in the thaw*. Through Ilmen 19–25, Y.H. 813 the thaw came on in frost-bloom written back on the well-lip, oiled paper hanging slack in its frame, a silence where an argument used to stand, more hairlines stopping short of the edge of the Ilm, an early low note from the Singing Sill and a high clay-heavy brook, and the district had one word for all of it: weather. On Ilmen 25 a weak board in the plank walk at the Weir was said plainly to be still there and trodden by nobody.
+**The thaw.** The spring working season, when the brook comes up and the clay goes soft. Debts in Low Kiln are often put off until then, in the phrase *you'll pay for it in the thaw*. Through Ilmen 19–25, Y.H. 813 the thaw came on in frost-bloom written back on the well-lip, oiled paper hanging slack in its frame, a silence where an argument used to stand, more hairlines stopping short of the edge of the Ilm, an early low note from the Singing Sill and a high clay-heavy brook, and the district had one word for all of it: weather. On Ilmen 25 a weak board in the plank walk at the Weir was said plainly to be still there and trodden by nobody. On Silt 1 a new hairline of grey gathered in the corner of the Vail kiln-house beside the clean dark line where the old Ash ridge had turned; Sella stood over it with a broom, called it the thaw and did not sweep it.
 
 **Thin.** A vessel that leaks faster than it takes in; the common condition of the poor, the spent and the returned poor. Also the bottom rank of a vessel.
 
