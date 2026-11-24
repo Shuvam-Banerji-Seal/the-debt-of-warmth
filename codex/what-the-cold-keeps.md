@@ -21,7 +21,7 @@ Past the last pass no map is honest. I carried that sentence out of Keld and set
 
 # The country itself
 
-There is no weather in the Waste. Weather is a change, and the cold there does not change. It is not a great cold, the way Stone is cold in Sill; it is a level, patient cold that has nowhere to go and all the time in the world to get there. A man does not freeze in it so much as come gradually to agree with it.
+There is no weather in the Waste. Weather is a change, and the cold there does not change. It is not a great cold, the way Stone is cold in Sill; it is an even, patient cold that has nowhere to go and all the time in the world to get there. A man does not freeze in it so much as come gradually to agree with it.
 
 The Keeping teaches that the Waste is the sink where everything unheld goes. I have no quarrel with that; a man who has worked a quarry knows about sinks. What the Keeping does not teach is that a sink is a country, and a country has people in it, and those people have no use for a slate. There is nothing to count out there. No ember changes hands, no mark is made, no collector comes with his iron tube and his clean figure. The Court has never opened an account beyond the pass, which is the only mercy in this world that costs the Court nothing.
 
