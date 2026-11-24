@@ -10,7 +10,7 @@
 
 **The Afterdrop.** The worsening before recovery in a rekindled or rewarmed vessel. The ordinary cause is a graft settling; midwives call it the second chill.
 
-**The Ash.** Grey silt that gathers where promises are unkept, in corners and under beds, invisible in daylight and plain by tallow-light. The poor leave it on the Last Day and burn it next morning.
+**The Ash.** Grey silt that gathers where promises are unkept, in corners and under beds, invisible in daylight and plain by tallow-light. The poor leave it on the Last Day and burn it next morning. On Stone 29, Y.H. 812 a woman at the tubs told a girl beside her that the grey would be left where it lay until the Last Day and burned the morning afterward and called dealt with.
 
 **Ash-mite.** A small grey mite that lives in the Ash and drinks the thin edge of a sleeper's measure. Invisible by day; troublesome in poor rooms.
 
@@ -120,7 +120,7 @@
 
 **The Five (Five Cold Days).** The five days outside the months at the year's end: Kindling, Weighing, the Long Night, the Remembering and the Last Day.
 
-**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 12, Y.H. 812 he has heard it five times from four sources --- a cup across a birth room, a pot in the Vail house, the district's own reading slate twice, and a dying man at the Hearth Drawing, the fifth and the first from a person --- and nobody has tapped any of them for him. On Stone 13 a pot was turned toward before it was set down and gave nothing --- an interval with the shape of a sound, not a sixth hearing, which the boy kept as an object. On Stone 17 a second pot was turned toward under the Vail roof and gave nothing; the two intervals lie on a separate tray from the hearings, and through Stone 20 the count stands at five from four sources with no sixth.
+**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 12, Y.H. 812 he has heard it five times from four sources --- a cup across a birth room, a pot in the Vail house, the district's own reading slate twice, and a dying man at the Hearth Drawing, the fifth and the first from a person --- and nobody has tapped any of them for him. On Stone 13 a pot was turned toward before it was set down and gave nothing --- an interval with the shape of a sound, not a sixth hearing, which the boy kept as an object. On Stone 17 a second pot was turned toward under the Vail roof and gave nothing; the two intervals lie on a separate tray from the hearings, On Stone 22 a vessel carried past the Vail door gave it too far and too muffled to confirm, and on Stone 25 a pot cracked all the way through two paces from the basket and was called a pot gone wrong; both went on the separate tray of intervals, and through Stone 30 the count stands at five from four sources with no sixth.
 
 **The full note.** The full sound a sound vessel gives under the knuckle; a cracked vessel answers flat. The first tool of the clinical ear.
 
@@ -138,7 +138,7 @@
 
 **Greybank.** The Court's granary and factor's house eighteen leagues downriver of Sill, where the Clay Road ends and the Hearth Road begins.
 
-**Grey fingers.** The discoloration of a collector's fingertips after years of drawing Warm; a mark of the trade and, in extreme cases, of exhaustion.
+**Grey fingers.** The discoloration of a collector's fingertips after years of drawing Warm; a mark of the trade and, in extreme cases, of exhaustion. On Stone 22, Y.H. 812 a collector fetched for a neighbour two doors down had them the colour of skimmed milk gone off under a cuff soft from washing; the boy filed him on a tray of his own, not joined to the woman at the flare or to the clerk at the Cross.
 
 **H**
 
@@ -198,6 +198,8 @@
 
 **Last Day.** The fifth and last of the Five Cold Days. Bread is baked, and the grey Ash in the corners is left where it lies to be burned the next morning and called dealt with.
 
+**The last market.** The Account-day at the end of Stone, when the year's stores are counted into the last tend and the Five are spoken of as three days off by a district that has already decided what it will pay. Sill's last market of Y.H. 812 fell on Stone 30; no market is held during the Five that follow.
+
 **Ledgerhand.** The Court's script: Grathic grammar with the verbs removed, in a neat upright hand, all in the passive voice.
 
 **Levy.** The share a Grathic household owes to the account, spoken of in loaves and bits rather than named outright: three of the four loaves baked in Grain go on the levy. People speak around the word, not at the thing it counts.
@@ -205,6 +207,8 @@
 **The Listening Stones.** Standing stones in the high Rim against which the Vorr sit for days and come away with numbers.
 
 **The living patch.** A graft of wall taken from a donor and set over a break, held until the vessel takes.
+
+**Loan that can hear.** A debt whose borrower has an ear for vessels. A loan that can hear is worth more than the debt that holds the borrower and can therefore be called; in the Vail house on Stone 22, Y.H. 812 such a loan was exercised when a flat note passed the door and Tarn's head turned a degree, and it bought nobody anything.
 
 **The Long Night.** The third of the Five; no fire after dusk, and stories of the Return are told in the dark.
 
@@ -234,7 +238,7 @@
 
 **O**
 
-**One in twelve.** The figure printed on the Weighing notices and read aloud at Account-day: one part in twelve of a household's measure is kept back for the Hearth. It is spoken as *one in twelve, as the notice says*, in a voice that makes a market lean in. What Low Kiln actually gives is another matter; see **Deduction**.
+**One in twelve.** The figure printed on the Weighing notices and read aloud at Account-day: one part in twelve of a household's measure is kept back for the Hearth. It is spoken as *one in twelve, as the notice says*, in a voice that makes a market lean in. It was read again at the year's last market on Stone 30, Y.H. 812, as the levy was called for the feast and said not to be called by the man who read it. What Low Kiln actually gives is another matter; see **Deduction**.
 
 **Opened.** The rank of a vessel that has cut a way and can move Warm deliberately within the self.
 
@@ -247,6 +251,8 @@
 **P**
 
 **The Peat Line.** The wet frontier where Sere's northern advance stopped in Y.H. 634 and where the two powers trade, raid and buy measures.
+
+**Pot gone wrong.** A Grathic household's name for a vessel cracked from lip to foot. The phrase names the vessel, not the sound it made, and a pot gone wrong is swept around and gone past rather than decided about. On Stone 25, Y.H. 812 one cracked two paces from the boy in the Clay Yard and nobody called the knock a sound.
 
 **Quiet ash.** The Court's licensed medicine, sold to the rich who want their previous life to stop arriving in dreams.
 
