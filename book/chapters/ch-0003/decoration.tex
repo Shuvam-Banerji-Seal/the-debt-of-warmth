@@ -1,0 +1,37 @@
+\begin{tikzpicture}
+  % flourished rules at the far ends of the account
+  \node at (-4.25,0) {\pgfornament[width=2cm,color=ornament,symmetry=v]{101}};
+  \node at ( 4.25,0) {\pgfornament[width=2cm,color=ornament,symmetry=v]{101}};
+
+  % the clean slate, framed in wood and wiped before the touching
+  \draw[ornament, line width=2.2pt] (-3.15,-0.74) rectangle (3.15,0.74);
+  \draw[faded, line width=0.7pt]    (-3.0,-0.59) rectangle (3.0,0.59);
+  \fill[night!90]                   (-2.96,-0.55) rectangle (2.96,0.55);
+  \draw[gold!45!ornament, line width=0.4pt] (-2.82,-0.41) rectangle (2.82,0.41);
+
+  % the slate is clean: a pale patch where a thumb has been wiped
+  \fill[vellum, opacity=0.08] (-2.25,-0.04) ellipse (0.62 and 0.3);
+
+  % twelve strokes scored on the slate; the twelfth is taken
+  \foreach \i in {0,...,10}{
+    \pgfmathsetmacro{\x}{-2.35 + \i*0.42}
+    \draw[faded, line width=1.0pt] (\x,-0.26) -- (\x,0.24);
+  }
+  \draw[rubric, line width=1.7pt] (2.27,-0.33) -- (2.27,0.33);
+  \draw[rubric, line width=1.0pt] (2.13,0.29) -- (2.41,-0.29);
+  \fill[rubric] (2.27,0.46) circle (0.045);
+
+  % the hand that wants cleaning: a thumbprint the apron has passed over
+  \draw[faded!75, line width=0.5pt] (-3.72,0.12) ellipse (0.32 and 0.34);
+  \draw[faded!65, line width=0.5pt] (-3.72,0.12) ellipse (0.22 and 0.24);
+  \draw[rubric!50!faded, line width=0.5pt] (-3.72,0.12) ellipse (0.12 and 0.14);
+  \draw[vellum, line width=1.6pt, opacity=0.8] (-4.08,-0.22) -- (-3.36,0.46);
+
+  % the flat note, as the slate is set down on its block
+  \draw[gold, line width=1.0pt] (-0.9,-0.98) -- (0.9,-0.98);
+  \draw[gold!45!vellum, line width=0.4pt] (-0.9,-1.02) -- (0.9,-1.02);
+  \draw[gold, line width=0.8pt] (-0.9,-1.06) -- (-0.9,-0.9);
+  \draw[gold, line width=0.8pt] ( 0.9,-1.06) -- ( 0.9,-0.9);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.5) {one in twelve, as the notice says};
+\end{tikzpicture}
