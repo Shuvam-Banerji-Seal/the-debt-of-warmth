@@ -1,0 +1,46 @@
+% Cover emblem for "The Debt of Warmth", from the author's cover_motif:
+% a cupped hand in profile holding a single coal; a hairline crack runs
+% through the palm, and the coal's heat escapes along it as one thin thread
+% of gold. Coordinates in inches, centred in the cover medallion.
+\definecolor{ember}{HTML}{E8762B}\definecolor{emberdk}{HTML}{7A1A0C}
+% warmth glow behind the coal
+\shade[inner color=ember!65,outer color=tooling,opacity=0.40] (0,0.02) circle (0.60);
+% wrist and forearm, rising from the lower left
+\fill[tooling,opacity=0.55] (-0.80,-1.02) -- (-0.32,-1.02) -- (-0.14,-0.50) -- (-0.56,-0.40) -- cycle;
+\draw[gold,line width=1pt,line join=round] (-0.80,-1.02) .. controls (-0.70,-0.72) .. (-0.56,-0.40)
+  (-0.32,-1.02) .. controls (-0.22,-0.76) .. (-0.14,-0.50);
+\draw[golddk,line width=0.4pt] (-0.62,-0.86) .. controls (-0.48,-0.88) .. (-0.30,-0.90);
+% the cupped palm
+\path[fill=tooling,opacity=0.7] (-0.66,-0.20) .. controls (-0.55,-0.62) and (0.45,-0.66) .. (0.66,-0.18)
+   -- (0.50,-0.10) .. controls (0.30,-0.40) and (-0.36,-0.42) .. (-0.50,-0.10) -- cycle;
+\draw[gold,line width=1.1pt,line join=round] (-0.66,-0.20) .. controls (-0.55,-0.62) and (0.45,-0.66) .. (0.66,-0.18);
+\draw[golddk,line width=0.5pt] (-0.50,-0.10) .. controls (-0.36,-0.42) and (0.30,-0.40) .. (0.50,-0.10);
+\draw[golddk,line width=0.35pt,opacity=0.8] (-0.30,-0.47) .. controls (-0.05,-0.52) .. (0.22,-0.47);
+% thumb curling over on the left
+\fill[tooling,opacity=0.75] (-0.66,-0.20) .. controls (-0.80,0.02) and (-0.72,0.22) .. (-0.52,0.24)
+   .. controls (-0.46,0.16) and (-0.50,0.02) .. (-0.50,-0.10) -- cycle;
+\draw[gold,line width=1pt,line join=round] (-0.66,-0.20) .. controls (-0.80,0.02) and (-0.72,0.22) .. (-0.52,0.24)
+   .. controls (-0.46,0.16) and (-0.50,0.02) .. (-0.50,-0.10);
+\draw[golddk,line width=0.4pt] (-0.62,0.14) .. controls (-0.58,0.18) .. (-0.54,0.17);
+% four fingers on the right, curled up and over the coal
+\foreach \i/\dx/\h in {0/0.00/0.62,1/-0.07/0.56,2/-0.14/0.48,3/-0.21/0.40}{
+  \begin{scope}[shift={(\dx,0)}]
+    \fill[tooling,opacity=0.8] (0.66,-0.18) .. controls (0.86,0.05) and (0.80,\h) .. (0.58,\h+0.02)
+      .. controls (0.52,\h-0.02) .. (0.50,\h-0.08) .. controls (0.66,\h-0.12) and (0.66,0.02) .. (0.50,-0.10) -- cycle;
+    \draw[gold,line width=0.8pt,line join=round] (0.66,-0.18) .. controls (0.86,0.05) and (0.80,\h) .. (0.58,\h+0.02)
+      .. controls (0.52,\h-0.02) .. (0.50,\h-0.08);
+    \draw[golddk,line width=0.35pt] (0.76,\h-0.24) .. controls (0.70,\h-0.21) .. (0.63,\h-0.20);
+  \end{scope}}
+% the coal in the palm
+\def\Coal{(-0.30,-0.22) -- (-0.36,-0.04) -- (-0.22,0.12) -- (-0.02,0.18) -- (0.18,0.12) -- (0.30,-0.02) -- (0.26,-0.22) -- (0.04,-0.30) -- cycle}
+\shade[inner color=ember,outer color=emberdk] \Coal;
+\draw[gold,line width=0.7pt,line join=round] \Coal;
+\draw[goldhi,line width=0.5pt,opacity=0.9] (-0.20,-0.10) -- (-0.04,-0.02) -- (0.10,-0.12) (-0.04,-0.02) -- (0.00,0.12) (0.10,-0.12) -- (0.20,0.00);
+% the hairline crack through the palm
+\def\Crack{(0.04,-0.31) -- (0.00,-0.40) -- (0.06,-0.47) -- (0.01,-0.55) -- (0.05,-0.63)}
+\draw[tooling,line width=1.2pt,line cap=round] \Crack;
+\draw[goldhi,line width=0.45pt,line cap=round] \Crack;
+% ...and the heat escaping along it as one thin thread of gold
+\draw[goldhi,line width=2.6pt,opacity=0.18,line cap=round] (0.05,-0.63) .. controls (0.10,-0.78) and (-0.06,-0.88) .. (0.02,-1.02) .. controls (0.08,-1.10) and (0.20,-1.08) .. (0.24,-1.14);
+\draw[gold,line width=0.7pt,line cap=round] (0.05,-0.63) .. controls (0.10,-0.78) and (-0.06,-0.88) .. (0.02,-1.02) .. controls (0.08,-1.10) and (0.20,-1.08) .. (0.24,-1.14);
+\fill[goldhi] (0.24,-1.14) circle (0.018);
