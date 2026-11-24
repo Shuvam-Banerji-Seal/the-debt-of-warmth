@@ -210,6 +210,11 @@ The shed where Garl Vail's wheel stands with its seat worn hollow on the left si
 The narrow loft above the wheel-shed where the house's clay-bound hands sleep; Tarn has slept here for six of his seven years and keeps his few things in an unmarked clay pot. On the third day the foundling is given a bed under the Vail roof while Tarn is given this loft --- a poor household sorting its own members and calling the sorting kindness. Tarn came down the ladder with a broom when the boy was laid on the straw, and said *He's a foundling. I'm a debt. Don't put us in the same sentence, Sella.*
 **Relations:** Above the Vail wheel-shed, inside the Vail kiln-house.
 
+### The back room
+**Kind:** work room, kept closed. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+A room off the wheel-shed which the house does not enter in any roll it shows. Men come into it whose names are not spoken and speak in low voices; Jorra Vail comes out of it with slate dust worked into the creases of his forearms, grey and fine and not the bone-coloured slip of the wheel, and says *the back room's cold* to nobody in particular. The boy watches the dust and wants to know which slate was broken and whether it was a birth-slate, and cannot ask. Sella shifts the damper instead of answering. The broken slates under the drying rack remain unshown.
+**Relations:** Inside the Vail kiln-house, off the wheel-shed; the Debt Loft is above the shed.
+
 ### The close ground of Sill
 *The small features of the birth-town drawn on `atlas/home-settlement`: the land a child of Low Kiln knows by foot. Direction and distance are from the Cross unless the entry says otherwise.*
 
@@ -232,6 +237,11 @@ The kiln-master's house of Berr Clay, Thane of Clay, above the terrace. The red 
 **Kind:** house, holding. **Region:** Low Kiln, Sill.
 The two-room clay-daubed house of Dessa and Mira Silt, three doors from the Vail kiln-house; its front room is the birth room of Chapter 1, where Corin is born on Stone 7, Y.H. 812. The floor is trodden ash packed until it has the spring of old bread, and a grey ridge of Ash runs along the skirting board from the bench by the door, under the door and into the next room, left there until the Last Day. The room holds a board-bed with a fold of grey wool, a stool by the wall, a hearth with a slip pot, and the birth-slate propped on the bench within the midwife's right hand, its writing turned under. The door does not shut; a low song from a woman working below comes up through the floor. The slip pits are a walk away, counted in nineteen steps to the drying rack. The stone at the newborn's belly was warmed at the Vail hearth across the yard and carried here in a rag; on the third morning it is left behind in the fold of grey wool on the abandoned bed when Sella carries the boy away, and the cup across the room gives its flat note to the empty bed. Alda sets a cup down twice in this room on the second day and neither time does anyone say what the sound was.
 **Relations:** In Low Kiln, east of the slip pits of the Clay Yard; the Vail kiln-house is three doors west, down the yard.
+
+### The Drawing house
+**Kind:** dwelling, death-house. **Region:** Low Kiln, Sill; two doors down the Clay Yard from the Vail kiln-house.
+An unnamed neighbour's clay-daubed house, the same room as a birth room and the Vail kiln-house with its bench by the door, its pot on the bench, its draught under the door and the grey of the Ash in a corner. Sella Vail carried the boy here before the kiln's first breath on Stone 12, Y.H. 812, and set the basket at the edge of the light where he could see the collection and not be part of it, never where a slate lay open. A dying neighbour on a board-bed against the far wall gave under the collector's cold iron tube, left with a pale round place on his arm where the iron had been; a rekindled child on a folded quilt at the other side of the hearth grew worse before the day was out. The Ash ridge along this room's skirting board is thicker by a finger's width than the ridge at Vail and turns the corner by the door without a break. The boy counted the room's nails four, four and a knot the width of a thumb, the same gap as under the Vail roof.
+**Relations:** Two doors down the Clay Yard from the Vail kiln-house; House Silt is three doors down in the other direction.
 
 ### House Reed
 **Kind:** house, holding. **Region:** Low Kiln, Sill.

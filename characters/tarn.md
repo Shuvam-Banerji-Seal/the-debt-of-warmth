@@ -54,14 +54,20 @@ He wants a slate with his own name on it and no mark against it. He wants to be 
 
 **Garl Vail** — he was sent for a collector and turned back. The dead man's coat still hangs behind the door and Tarn has never once touched it.
 
+**Ch 4.** He called Sella *house* and put the knife back twice where it could be checked; his broom stopped two strokes at the Vail pot's note without a turn of the head, and the boy watched and kept the silence as carefully as he did. Six of seven years counted, the seventh not. Jorra came in from the back room with slate dust and said the back room was cold; Tarn said nothing about that either. Dessa's cough went by him as weather, as it always did. The one thing he owns stays kept.
+
 ## Arc So Far
 
 He enters already sweeping, before anyone wakes, a bent man of twenty-two with grey Ash in the creases of his knuckles and a pale ring round his left wrist where the clip sat in Y.H. 806. Six years of a seven-year term lie behind him and he has counted every one and will not count the next. In Chapter 2 he pockets the small bench knife and then says of his own accord that he took it and put it back and they can check; he stops his broom for two strokes when a pot is set down and gives its flat note, turns his head a degree and says nothing; he banks the coals without looking at the fire. When the foundling is given a bed and he is given the loft he makes one short sentence of it and goes back to sweeping. His deference has a nail in it, and the nail is the one possession the house cannot check.
+
+On Days 5 and 6 he sweeps twice and says nothing. The small knife goes into his pocket and back onto the sill where it can be checked, announced unasked both times; the broom stops for two strokes when a Vail pot gives its flat note through the wall, and he does not turn his head or name the sound. The reader sees the second ear in the house; nobody under the roof does. Six years of seven are behind him and he will not count the seventh, which is the one entry in the house the house cannot check. He keeps his head down over the broom and the one thing he owns out of the house's reach.
 
 ## Chapter Log
 
 - Ch 1: Does not appear; the broom, the knife and the loft are held for Chapter 2.
 - Ch 2: Swept the kiln-house before anyone woke and stopped for two strokes at a pot's flat note without turning his head or naming the sound. Put the small bench knife in his pocket, then took it out and put it back where it could be checked and said so unasked. Told Sella *Six years. One to go. I've counted every one, and I won't count the next.* Carried up from the Debt Loft with a broom on the third day, banked the coals, and said *He's a foundling. I'm a debt. Don't put us in the same sentence, Sella.* when the boy was given a bed. Heard the second flat note of the three days from a pot set down on the bench and did not say what it was.
+
+- Ch 4: Days 5 and 6. Swept before light on Stone 11 and again at dusk on Stone 12, with Ash in his knuckles and the pale ring at his left wrist. Took the small bench knife out and put it back where it could be checked, saying so unasked both times. His broom stopped for two strokes at the flat note of a pot through the shed wall and he did not turn his head, name the sound or say that it was a sound at all --- the second ear in the house, witnessed only by the reader. Said *yes, house; I'll sweep it; I swept it this morning; I'll sweep it again* to the ground and kept his head down over the broom. Six of seven years counted, the seventh not counted. He said nothing about the note all day, and nobody asked him to.
 
 ## Secrets (private)
 

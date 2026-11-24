@@ -114,7 +114,7 @@
 
 **The Five (Five Cold Days).** The five days outside the months at the year's end: Kindling, Weighing, the Long Night, the Remembering and the Last Day.
 
-**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 10, Y.H. 812 he has heard it from a cup, a pot and the district's own reading slate, and nobody has tapped any of them for him.
+**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 12, Y.H. 812 he has heard it five times from four sources --- a cup across a birth room, a pot in the Vail house, the district's own reading slate twice, and a dying man at the Hearth Drawing, the fifth and the first from a person --- and nobody has tapped any of them for him.
 
 **The full note.** The full sound a sound vessel gives under the knuckle; a cracked vessel answers flat. The first tool of the clinical ear.
 
@@ -138,7 +138,7 @@
 
 **Hearth.** The great source of the Warm, a chamber of stone beneath the Keel, said to hold what the world had when it was made.
 
-**The Hearth Drawing.** The first collection of the year, on Stone 12; a collector may draw from the dying and the newly born on the same day.
+**The Hearth Drawing.** The first collection of the year, on Stone 12; a collector may draw from the dying and the newly born on the same day. In Y.H. 812 the year's first measure was taken in a Low Kiln death-house and entered on a slate in the same figure the Cross had read aloud on Account-day; before the day was out a newly born child in the same room grew worse on the third day of a return.
 
 **Hearth-fire (Hearth-flame).** The flame kept behind a grating of cold iron in the Weighing Hall; it has never gone out and no priest may touch it.
 

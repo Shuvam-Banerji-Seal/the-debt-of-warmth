@@ -53,14 +53,20 @@ He wants the wheel to stay in the house and the fire to hold and nobody to write
 
 **Berr Clay, the Thane of Clay** — Jorra threw a stone at his door in Y.H. 810 and denied it. The Thane suspects the boy is with the Broken Slates and lets him be, which Jorra finds more frightening than being watched.
 
+**Ch 4.** Sella's hand went to the mark before the kiln and not at the bank; he shifted the damper before she had finished and again at dusk, and did not take up her silence about the back room. The boy was at the edge of his notice as a thing that hears: he spoke to the pots and not to him, and came in from the back room with slate dust worked into his forearms --- grey and fine, not slip --- and said *the back room's cold* to nobody. He wanted the boy outside the name Vail and the hollow seat his, and did not say either.
+
 ## Arc So Far
 
 He enters at the wheel with his weight in the hollow his father wore and has spent three years failing to fill --- slip dried to the colour of old bone up both forearms, the left little finger bent from a splinter at eleven, a story about a fight he tells because a fight sounds more like him. In Chapter 2 he says one flat sentence about the foundling and is refused an answer, and the sentence is sealed by the boy's arrival: a child lies under the roof and nobody has written him as Vail. He does not look at his mother while obeying her instantly, speaks to the pots before people, goes quiet when the levy is spoken of, and has given none of the men who come into the back room a word they can carry away. He is the most careful keeper of the Vail fire in four generations and is quietly helping the people who want to burn every slate in Sill, and has never once thought the two facts cannot live in the same man.
+
+On Days 5 and 6 the back room comes into the house on his forearms as slate dust, grey and fine, worked into the creases past the bend of the little finger, and not the bone-coloured slip of the wheel. He tells the pots *you'll do*, shifts the damper before Sella has finished telling him and shifts it again at dusk, and says *the back room's cold* to nobody in particular --- not an answer and not a question, shaped so nobody can take it further. Sella does not take it further. The boy watches the dust and wants to know which slate was broken, and whether it was a birth-slate, and keeps the questions where questions can last for years.
 
 ## Chapter Log
 
 - Ch 1: Does not appear; the wheel, the hollow seat and his objecting are held for Chapter 2.
 - Ch 2: At first light stood at the wheel with slip-coloured forearms and the bent finger, told the pot the slip was too thick and it would crack at the shoulder, and went quiet when the levy was spoken of. When Sella said the boy would come under the roof he said *he's not Vail*, did not look at her, and was not answered. On the third day sat in the hollow seat as the boy was carried in, obeyed Sella's instruction about the damper before she had finished, told a pot *you'll do*, spoke once to Tarn about a rasp, and never addressed the child. Nobody wrote the foundling as Vail.
+
+- Ch 4: Days 5 and 6. At the wheel with slip dried to old bone on both forearms and the bent little finger, speaking to the pots and not to the boy, obeying Sella before she had finished and shifting the damper before she had finished again. At dusk came in from the back room with slate dust worked into the forearms --- grey and fine, not slip --- and said *the back room's cold* to nobody, answering no question about where he had been and giving Sella nothing to take further. Garl's coat kept its salt shape on its peg and his hollow seat stayed unfilled; he did not look at the basket.
 
 ## Secrets (private)
 

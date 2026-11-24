@@ -7,7 +7,7 @@ born: "Y.H. 788, Low Kiln, Sill, Grath"
 species: human (Grathic; returned thin)
 origin: "Low Kiln, Sill, Grath; House Silt"
 affiliation: "the slip pits, Clay Yard, Low Kiln"
-status: "alive at the close of Day 3; believes her child went in the levy among the Forty and will believe it three years; dies Day 38, Ilmen 9, Y.H. 813, drowned in the Slip Brook, uncollected"
+status: "alive at the close of Day 6; believes her child went in the levy among the Forty and will believe it three years; dies Day 38, Ilmen 9, Y.H. 813, drowned in the Slip Brook, uncollected"
 first_appearance: 1
 ---
 
@@ -53,14 +53,20 @@ She wants to be warm once without anyone entering it against her account. She th
 
 **Nils of Stonemouth** — the quarry hand who left before the child was born. She has not heard from him, and has begun to hope she never does, because a man who returns after three years is a man who will ask questions about a boy.
 
+**Ch 4.** Her son passed her threshold in a basket at dusk and she did not look into it; the figure from the Cross has long since become a person laid out of reach, and the nineteen steps have gone out of her feet into her thumb. Sella carried him past without a word and went on toward the bed; Alda was not there to be asked. The cough went on being weather.
+
 ## Arc So Far
 
 On Day 1 she is the woman in the room whose count is not about the pits. She holds the thing she will not hold by naming dates and loaves and steps instead of her child; when Sella's hand hovers, she smiles the door shut and looks away. On Day 2 she coughs from the pits and calls it weather, rubs the sieve-wire scar, and says a body can be warm and still be gone --- in the proverb-form, where it can be taken as advice. On the third morning she follows the bundle to the end of the yard and stops; her count goes from a rhythm to a straight line and then to nothing. Alda tells her the boy went in the levy and gives dates faster than dates have any business arriving, and she believes it because disbelief would be a thing she would have to carry. The reader is meant to take her for a bystander and to be wrong for three years. Already on the page are the nineteen steps, the pale scar, the door-shut smile, the little hot one, and a crust from the fire of the house that took him.
+
+On the dusk of Day 6 she appears at her own threshold three doors down the Clay Yard and is still not a speaking part. The cough comes up out of the pits and she calls it *weather*; her thumb goes to the pale sieve-wire scar and the door-shut smile arranges her face while the nineteen steps go out of her feet and into her thumb, counted because the count keeps a larger thing out of the room. She does not look into the basket passing the doorway and does not know her son is in it. She has taken the figure read aloud at the Cross and made it a person and laid that person down out of reach, and the laying down now feels like a fact and not a thing she did.
 
 ## Chapter Log
 
 - Ch 1: Lay on the pallet through the birth and the night, face turned toward the wall where the room allowed it. Counted nineteen out and nineteen back until the count stopped and her pulse took it up. Rubbed the sieve-wire scar while deciding how much to say; got specific --- nineteen steps twice daily since Y.H. 806, four loaves baked in Grain, three to the levy and one eaten with her feet up, the seventh of Stone in eight hundred and twelve --- and would not name the child. Called him the little hot one and the flower. Pressed the wool flat at his shoulder with two fingers that stayed longer than the cloth required. Smiled the *door shut* while Sella Vail's hand hovered. Took Mira's crust of Vail-smoked barley bread.
 - Ch 2: On Day 2 coughed from the pits, called it weather, rubbed the pale sieve-wire scar and got specific about steps, loaves and the day of the month; said a body can be warm and still be gone without looking at the child. On the third morning got up while Sella was at the bench, followed the covered bundle to the end of the Clay Yard and took none of the nineteen steps after it. Pulse in throat, thumb on scar, the door-shut smile; said nothing and did not say his name. Heard Alda say he had gone in the levy among the children taken for the account, asked only *where*, and asked nothing further as the dates went on arriving. She believes him spent and will believe it three years.
+
+- Ch 4: Day 6, dusk. Stood at the threshold of House Silt three doors down with her shoulder against the jamb as Sella carried the basket past. The cough came up out of the pits and she said *weather*; her thumb went to the pale sieve-wire scar, the door-shut smile came down, and the nineteen steps went out of her feet and into her thumb, counted because the count kept a larger thing out of the room. She did not look into the basket. The boy's mouth worked under the wool and Sella shifted the basket up against her hip and went on toward the bed. She does not know her son is in it and will not say the number or the name.
 
 ## Secrets (private)
 
