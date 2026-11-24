@@ -47,6 +47,8 @@ When a map is made, move it from this list into the Atlas, add any new place nam
 
 Chapter 7 added `the drying racks` to `memory/places.md`; they are already marked on `atlas/home-settlement`, so no new map is wanted.
 
+Chapter 9 added no new named places. It changed the state of places already on the maps --- the well water tastes different and the ice is honeyed under the mud, a hairline has opened in the Ilm, the Singing Sill gives its note early and the Slip Brook runs clay-heavy a little higher than it should --- all of which are noted in `memory/places.md`. The Fishstairs will want the Silt flood line read against the day the river puts the steps back out of line, but that is already drawn on `atlas/home-settlement` as the dotted Breaking line; no new map is wanted.
+
 ## Drawn
 
 - **24 Nov 2026** — `atlas/world/` — *Sarn, the bowl between Hearth and Waste*, kind world, 2400 × 1600. Inked chart of the whole known bowl: Rim and Waste, Sallow Sea and Vhalen, Keel and Hearth, Grath, Fenmarch, Empty Cantons, Sere, the Peat Line, the four roads, the Ilm and the Ferr, with a star-riveted cartouche, compass, league scale, sign convention and surveyor's marginal notes. Drawn under the slug `world` rather than the planned `sarn`, as requested. Every named place and road already existed in `memory/places.md`; no additions were needed.

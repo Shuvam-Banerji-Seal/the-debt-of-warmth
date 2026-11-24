@@ -305,7 +305,7 @@ A small hearth-maids' niche where birth-slates are left overnight and the Return
 
 ### The yard well
 **Kind:** well. **Region:** Low Kiln, Sill.
-The shared well of the low houses, with a stone lip and a little roof, a short walk from the drying racks. It is not the never-freezing well of Cold Acre.
+The shared well of the low houses, with a stone lip and a little roof, a short walk from the drying racks. It is not the never-freezing well of Cold Acre. On Ilmen 2, Y.H. 813 a woman letting down the bucket said the water tasted different, and a man come up from the Ilm said the ice was honeyed under the mud; the yard called the change a warm spell and then the weather, and nobody said the word for the thaw. The boy kept the shape of the unnamed thing because keeping a shape was the only work available to him.
 **Relations:** In Low Kiln, east of the Clay Yard.
 
 ### The barley fields
@@ -459,7 +459,7 @@ A collapsed kiln with grey clay that will not take a glaze and an ash throat dee
 
 ### The Ilm
 **Kind:** river. **Region:** Grath to the Sallow Sea.
-The great silty river of Grath, frozen from Stone into Ilmen and breaking in the Silt flood called the Breaking. On Stone 19, Y.H. 812 a man come up from the river held a palm's breadth of its ice up to the tallow light in the Clay Yard: a dark hair ran in from one edge and stopped a thumb's breadth short of the other, and he said the water under it had gone different. On Stone 21 a man come back from looking at it brought a number he would not give, shut in a fist with the thumb tucked under, and said it had come a hair further. A woman from High Kiln said the thaw would come early; the yard wanted it late, because a late thaw puts off the levy, and Sella called the crack weather. The boy filed the hairline as a shape, not a cause, beside the other gaps.
+The great silty river of Grath, frozen from Stone into Ilmen and breaking in the Silt flood called the Breaking. On Stone 19, Y.H. 812 a man come up from the river held a palm's breadth of its ice up to the tallow light in the Clay Yard: a dark hair ran in from one edge and stopped a thumb's breadth short of the other, and he said the water under it had gone different. On Stone 21 a man come back from looking at it brought a number he would not give, shut in a fist with the thumb tucked under, and said it had come a hair further. On Ilmen 2, Y.H. 813 the ice was called honeyed under the mud and the water at the well tasted different; on Ilmen 7 the same hairline came up into the open skin of the river, longer than a man could lift, and a man come back from looking said it had come a hair further with a figure shut in his fist that he thought better of giving. The boy set it beside the missing step at the Fishstairs and the gap in the told bell and kept the three apart. A woman from High Kiln said the thaw would come early; the yard wanted it late, because a late thaw puts off the levy, and Sella called the crack weather. The boy filed the hairline as a shape, not a cause, beside the other gaps.
 **Relations:** Rises in the Rim about 120 leagues west of Sill; passes Stonemouth, the Weir and Sill; runs east through Greybank and reaches the Sallow Sea some 80 leagues below Sill.
 
 ### The Ferr
@@ -469,7 +469,7 @@ A colder tributary carrying lead dust from the western workings; its water is sa
 
 ### The Slip Brook
 **Kind:** brook. **Region:** Low Kiln, Sill.
-A narrow clay-coloured stream through the Clay Yard whose colour the children of Low Kiln read as weather. On Stone 25, Y.H. 812 it carried a skin the colour of skimmed milk gone grey that held under the wind without breaking, and on Stone 27 it still carried it; both were read as weather.
+A narrow clay-coloured stream through the Clay Yard whose colour the children of Low Kiln read as weather. On Stone 25, Y.H. 812 it carried a skin the colour of skimmed milk gone grey that held under the wind without breaking, and on Stone 27 it still carried it; both were read as weather. On Ilmen 2, Y.H. 813 it had lost its stiff skin and moved under a thin grey film that broke and closed again around the stones; by Ilmen 8 it ran clay-heavy and a little higher than it should, under a film that no longer held the wind, and a child who went near the bank was called back by the middle of the yard. The boy set the higher brook beside the honeyed ice under the mud at the Ilm and the hairline that had come up out of the thaw, three objects in three places, and made no cause of them.
 **Relations:** Runs behind the Vail kiln-house and enters the Ilm at Sill.
 
 ### The Clay Road
@@ -513,7 +513,7 @@ Roads, wells and doorways with no people; the ledger's empty squares after Y.H. 
 
 ### The Singing Sill
 **Kind:** river ledge, wonder. **Region:** Sill, the Ilm.
-The hard stone under the falls that gives a low note when the Warm rises in Ilmen; the town takes its name from it.
+The hard stone under the falls that gives a low note when the Warm rises in Ilmen; the town takes its name from it. On Ilmen 7, Y.H. 813 it gave its low note a little earlier than it should, coming up through the boards of the well-platform, and the yard called it weather while the neighbours argued an early thaw against a late one.
 **Relations:** Under the Ilm at Sill, below the Fishstairs and the north bridge.
 
 ---
