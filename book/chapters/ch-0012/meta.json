@@ -1,0 +1,107 @@
+{
+  "number": 12,
+  "title": "The River Stirring",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "The man who said the ice held has stopped saying it. The man who knows the number keeps it in his fist. Between them a board waits over the water, and the river comes up as it always comes.",
+    "attribution": "A saying of Low Kiln, Sill"
+  },
+  "days": {"start": 48, "end": 54},
+  "when": "Days 48–54 · Ilmen 19–25, Y.H. 813",
+  "where": "Low Kiln, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a forty-eight-to-fifty-four-day-old body carried everywhere; no present-tense Chicago break and no \\memory{} tag are planned this chapter --- the old life stays offstage --- and there is no departure from his eyes, no Court or collector-interior scene",
+  "mode": "passage",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "berr-clay",
+    "garl-vail",
+    "dessa-silt"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "the drying racks",
+    "the yard well",
+    "House Silt",
+    "the Slip Brook",
+    "the Ilm",
+    "the Singing Sill",
+    "the Fishstairs",
+    "the Cross",
+    "the plank walk",
+    "the Weir",
+    "the Eel House",
+    "Nine Pots",
+    "the Bone Orchard"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Slack Frame",
+      "day": 48,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 48, Ilmen 19, Ninthday, morning at the yard well and under the Vail roof. A fresh frost-bloom stands on the stone lip where the Warm has lately left; the oiled paper in the Vail window sits slack in its frame; the neighbour who used to say the ice held now says nothing at all. Sella calls it the thaw and feeds the fire (T085). When the wind turns off the water the thin barley smell does not come, and the empty place in the fold beside the one crust is felt again and carried into the new day without being named (T086, T060). The boy is forty-eight days old, carried in the basket with the fold at his chin; his hand outside the wool goes up an inch toward the bucket and comes down. The man who said the ice was honeyed now keeps his counsel; a number is not yet spoken. Six hearings stay six, no seventh, the nearly-full note still on its own tray (T061, T082). Changes: the thaw takes a second visible signature and the unspoken taking crosses into a new day. Advances T085, T086, T061, T082, T060, T058, T071/T072, T065. Withheld: no third crust, no naming of who took it, no explanation of frost or fold.",
+      "target_words": 2600
+    },
+    {
+      "n": 2,
+      "title": "One in Twelve",
+      "day": 49,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 49, Ilmen 20, Tenthday, Account-day, morning through midday at the Cross. Sella carries the boy down at a half-pace from every open slate and sets the basket in the moot-post's shade; Berr Clay, short, red wool cord folded under his coat and green of glaze at one corner of his mouth, wipes his thumb twice, reads one in twelve as the notice says, calls the levy for the thaw and takes himself out of his own sentence (T015, T041, T047, T077). The true subtraction goes over the top of the basket and the crowd goes back to the pigs; the bell goes four, four and a gap and nobody crosses himself (T078). No seventh hearing comes, no pauses join, and there is no new sighting of the neat dark hand (T061, T082, T002). The clerk at the Fishstairs remains a fact on its own tray for a measure nobody called (T090). Changes: the district's printed figure passes another day unchallenged over a still-unentered body. Advances T015, T077, T041, T047, T078, T061, T082, T090, T058, T071/T072. Withheld: no one in three, no Marra, no sixth sighting, no joining of the record-first hands.",
+      "target_words": 2400
+    },
+    {
+      "n": 3,
+      "title": "Slate Dust",
+      "day": 50,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 50, Ilmen 21, Firstday, morning and afternoon in the Clay Yard, the wheel-shed and under the Vail roof. Jorra comes in from the back room with fine grey slate dust worked into the creases past his bent little finger and says nothing about where he has been; the men are not named and the broken birth-slates stay under the drying racks (T035). He tells a pot it will do, tells the wheel it does not care whose hands, only if they are steady, moves the damper ahead of Sella's instruction with the bent finger leading, does not say the back room is cold and does not look toward the bed. Tarn's knife is on its sill with six years counted and the seventh held back; Ash is worked into his knuckles and his head does not turn at a vessel's note --- his ear is not spoken of, and the two silences under one roof keep their equality (T036, T076). Garl's salt coat, hollow seat, clean dark line and proverb said to the pot hold (T009, T013, T065). Changes: the dust returns after clean days and the loan that can hear stays uncalled. Advances T035, T076, T036, T009, T013, T065, T058, T071/T072. Withheld: no broken slate shown, no men named, no back room entered, he's-not-Vail stays sealed.",
+      "target_words": 2200
+    },
+    {
+      "n": 4,
+      "title": "The Fifth Note",
+      "day": 51,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 51, Ilmen 22, Secondday, mid-morning under the Vail roof. Alda Reed comes short with soap-and-milk and the birth-slates under her arm, lays the slates writing-down before she turns to the fold, presses the fold flat at his shoulder a breath too long, touches the little tin once inside her bodice without opening it, makes the two-finger sign at the red edge of the birth-flower without knowing it and covers the sign with the same unasked-for date she gave Dessa (T089, T023, T007). The exact dates --- Stone seven, the account up on the eighth, a cooper's seventh in Mud End, a potter's third child in Stonemouth --- come faster than the question needs them. On a narrow slate she writes a fifth note in the second hand and turns it face-down toward a floorboard in a house the boy cannot name (T023). She says warm and breathing, exact and not true, and does not say the woman's name or the third day; the lie told for mercy is eleven days old and still curdles against a death nobody entered (T008, T073). Changes: the hidden record grows a fifth page and the lie remains uncorrectable. Advances T023, T089, T007, T008, T073, T084, T058, T071/T072. Withheld: the tin stays shut and unopened, the note unread, the name and number unsaid.",
+      "target_words": 2400
+    },
+    {
+      "n": 5,
+      "title": "Nearly Full",
+      "day": 52,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 52, Ilmen 23, Thirdday, morning through dusk in the Clay Yard and under the Vail roof. A pot set down in the yard out of a woman's shadow answers nearly full again under nobody's knuckle --- air under the note and a want in it, not the flat answer of the six hearings and not a silence. He files it on its own tray as a second earthly answer to the interval carried since Stone 13, advanced and not paid (T082). Nearly and full are still two sounds and no Grathic word holds the first; he has no hand to tap either pot and ask it to say the thing again (T061). The three intervals from Stone 13, Stone 17 and Stone 25 remain objects beside the nearly-full note, not hearings; the six hearings stay six, five from four sources and one from a person, and no seventh comes (T061, T082). Tarn's head does not turn; the two ears keep the same silence (T076). Changes: the third sound returns and the interval gains a second answer that buys no hand. Advances T082, T061, T076, T071/T072, T065. Withheld: no seventh hearing, no tapping, no naming of nearly, no joining of the answer to the hearings, no third thing.",
+      "target_words": 2400
+    },
+    {
+      "n": 6,
+      "title": "Two Cords",
+      "day": 53,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 53, Ilmen 24, Fourthday, dawn at the Fishstairs and the drying racks. Mira Silt works the eels with pale slime dried on her sleeves, silt in the hollow of her neck and her head held to the right where the top of her left ear had been; she answers a question about the run with a question and her own answer, and flicks eel-bones against her thumb while deciding whether to lie (T025). Shifting a basket shows the grey cord with the second cord twisted twice beneath it, never carried upriver to Nine Pots, never lifted at a door, the knots on neither counted. The two cords stay side by side in the boy's file, unjoined, and Mira's board is still set beside Orra's without touching it (T059, T025, T024). A figure is spoken and her thumb goes under her apron to the grey cord and stays; the thin child upriver is not spoken of. Changes: the two private records are seen again and held apart. Advances T059, T025, T024, T077, T084, T071/T072. Withheld: knots uncounted, Nine Pots unvisited, Orra offstage, no naming of the child or the crust's taker, no sixth sighting of the neat dark hand.",
+      "target_words": 2200
+    },
+    {
+      "n": 7,
+      "title": "The River Under the Ice",
+      "day": 54,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 54, Ilmen 25, Fifthday, before light at the yard well and the racks into dusk under the Vail roof. More hairlines show in the Ilm ice, running in and stopping short of the edge; the Singing Sill gives its low note a little earlier than it should and the yard calls it weather (T085). Tarn agrees with the ones who want the thaw early and the ones who want it late and keeps wanting the late one, because a late thaw puts off the paying; the number for what the thaw will cost goes from fist to mouth to shoulder and is never given (T077, T036). For the first time it is said plainly that the weak board in the plank walk at the Weir is still there and trodden by nobody, held beside the missing Fishstairs step and the hairline that stops short of the edge (T083). The boy is fifty-four days old; the empty place beside the one crust is carried through seven days unnamed (T086); the carried fire keeps four, four and a gap and the clean dark line where the Ash turned is not swept (T065, T013, T009). Nothing joined, paid or explained; the count goes on. Changes: the stirring river gains a plainly-noticed gap that no slate will enter. Advances T085, T083, T077, T036, T086, T065, T013, T009, T061, T071/T072. Withheld: no accident on the board, no explanation of the thaw, no recognition, no name or number from Dessa, no Marra, no one in three, no ending.",
+      "target_words": 2800
+    }
+  ]
+}
