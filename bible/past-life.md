@@ -75,6 +75,8 @@ The last things he knew were orderless. The hiss of the fuel. The orange light o
 
 He was wrong about the thirty years. It was less than a second before the warmth reached wherever it was going.
 
+There had been a woman at the edge of the flare light, in a coat the colour of wet ash, holding a slate. He had noticed her the way he noticed exits: without interest, and with the certainty that he would not see her again. She had not come into the light. She had not touched the child. She had been writing, and the writing had not stopped when the van took him. What he could not have known, with the heat coming up through his sleeves and the cold leaving his hands, was that the warmth going out of him did not cool. It went into the child under the dashboard, and a thread of it stayed behind, too hot to settle, too tangled with an unpaid promise to be banked. In another world a woman in a grey coat would look up from her slate at that thread and write down a word she had not hoped to write in twenty years.
+
 ## What was left unfinished
 
 The call. He had promised Nina he would call her on the drive home; he had meant to; he had even composed the first line of it in his head, something about the lake in the summer and a boat, a thing he had promised for nine years and never delivered. There was Tasha Broussard's chart, which he had signed and never reopened. There was a letter he had started to Elena and never sent, in a drawer in the apartment, containing one honest sentence. There was his father's casket, slightly crooked in the aisle. There was Des, who would get the call at 3 a.m. and would laugh about it for exactly one minute before putting the radio down. There was a half-read book on the bedside table and a coffee gone cold beside it.
@@ -85,11 +87,15 @@ All of it is finished now in the only world that knew what it meant. None of it 
 
 1. **Tasha's chart.** His private conviction that an institution can absorb a man's guilt and hand him back clean. He will recognise the Warm Court's accounting instantly and distrust his own reflections in it.
 2. **The missed call.** It gives the saga its first `\memory{...}` line and its pattern: every important death in Sarn will arrive with something unsaid, and he will reach for a phone that is not there.
-3. **The burn on his own body.** He dies with a branching red map across his ribs and forearm. In Grath, that map is a birthmark — the only inheritance he brought. It is the proof, when he finally sees it on another man, that the theft was real.
+3. **The burn on his own body.** He dies with a branching red map across his ribs and forearm. In Grath that map is a birthmark — the only inheritance he brought, and the reason the midwife crosses herself and calls it a birth-flower. The woman with the slate writes his new name, Corin, before she has seen his face. It is the proof, when he finally sees the same branching pattern on another man's forearm, that the theft was real and that he is not the first.
 4. **The boxer's chin.** Enough training to take a punch and wait. It will save him once and cost him once, and he will never be a fighter, only a man who knows what a fight feels like in the mouth.
-5. **The clinical eye.** He reads a body faster than anyone in Sarn and has no explanation for it that he can give. This is the thing that makes people frightened of him and the thing that makes Rusk teach him.
+5. **The clinical eye.** He reads a body faster than anyone in Sarn and has no explanation for it that he can give. This is the thing that makes people frightened of him and the thing that makes Rusk teach him. What they want is not his knowledge but his willingness to decide: a man who can look at a body and say *this one is gone; leave it* without saying a prayer first.
 6. **His scientific habits.** He tests, records, repeats. In a world of sacred craft, method is heresy. He will do it anyway, in secret, with a charcoal stick and a slate, and this will eventually be the lever that moves the whole world.
 7. **His contempt for his own comfort.** He worked until his body broke and called it duty. In Sarn, where comfort is stolen from the poor, this habit makes him dangerous to himself: he will accept cold the way a penitent accepts a hair shirt and will not notice that others are paying for it.
+
+8. **The hot trace.** He died giving, not being robbed. Warmth that leaves a vessel in an act of giving does not cool into the bank; it stays hot and keeps the shape of the promise it was tangled with. This is what made him portable across worlds, and part of it is attached still to the child he pulled from the minivan.
+
+9. **The missed call as mechanism.** The words of the call never cross. What crosses is their weight: a promise nine years unpaid, heavy enough at the moment his vessel broke to make him unbankable. The Warm Court calls such a man an unclosed account. A faction inside the Court has been looking for one for centuries.
 
 ## A sensory ledger of the first life
 
@@ -109,3 +115,5 @@ These are the details that will break through, whole and present-tense, at unlik
 ## The hinge
 
 A man dies with too much warmth in him and wakes with too little. The last thing he sees is a fire; the first thing he will know in Sarn is a stone that has been warmed against a baby's belly and is already going cold. That is the hinge the whole saga turns on. Everything after it is a long, exact argument about who paid for the heat, and whether a life can be returned to the people it was taken from without destroying the man who is trying to return it.
+
+The woman at the crash was Marra, a collector of the Warm Court, and the faction she serves is called the Unbanked. They did not make the blizzard and they did not put the minivan on the ice. They wanted a vessel that gave at the moment of breaking, and there was one, in a country they could not have named, on a night when a man who had spent his life deciding who was beyond help finally ran out of decisions to make. They paid for a whole return. They paid to have his memories left in him, which is the most expensive single thing a banker in Sarn can buy. The child in the minivan lived, and grew, and is still warm on a planet the Court has never heard of. To go back to her, Dan will one day learn, he would have to draw the warmth back out of the woman she became. That is the last account, and it cannot be settled by dying again.
