@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+  % the warmth of the room on one side, the cold of the iron on the other
+  \fill[rubric, opacity=0.045] (-2.7,-0.55) ellipse (2.5 and 1.25);
+  \fill[night,  opacity=0.055] ( 2.7, 0.35) ellipse (2.0 and 1.15);
+
+  % the fold of cloth, opened, that held the tube
+  \fill[night!80!vellum, opacity=0.4] (-2.5,-0.22) .. controls (-1.4,-0.7) and (0.4,-0.74) .. (2.45,-0.42)
+       .. controls (1.2,-0.5) and (-1.0,-0.5) .. (-2.5,-0.22) -- cycle;
+  \draw[faded!60, line width=0.5pt, opacity=0.6] (-2.5,-0.22) .. controls (-1.4,-0.7) and (0.4,-0.74) .. (2.45,-0.42);
+
+  % the cold iron tube: a shaded cylinder, its bore open at the right
+  \fill[ash!78!night] (-1.9,-0.15) rectangle (2.0,0.45);
+  \fill[ash!55!night] (-1.9,0.15) ellipse (0.12 and 0.30);
+  \fill[night!90]     ( 2.0,0.15) ellipse (0.13 and 0.30);
+  \draw[ash!70!vellum, line width=0.6pt] (-1.9,0.15) ellipse (0.12 and 0.30);
+  \draw[ash!55!vellum, line width=0.6pt] ( 2.0,0.15) ellipse (0.13 and 0.30);
+  \fill[night] (2.0,0.15) ellipse (0.075 and 0.20);
+  \draw[ash!35!vellum, line width=0.7pt, opacity=0.55] (-1.8,0.36) -- (1.9,0.36);
+  \draw[ash!85!night,  line width=0.5pt, opacity=0.5]  (-1.8,-0.08) -- (1.9,-0.08);
+
+  % exact, unhurried graduations; the measure taken at the mouth
+  \foreach \i in {0,...,6}{
+    \pgfmathsetmacro{\x}{-1.55 + \i*0.5}
+    \draw[ash!45!vellum, line width=0.6pt, opacity=0.65] (\x,0.18) -- (\x,0.42);
+  }
+  \draw[gold, line width=1.1pt] (1.72,0.14) -- (1.72,0.46);
+
+  % the measure, banked: a bead gathering at the mouth
+  \draw[gold, line width=0.5pt, opacity=0.7] (2.0,0.05) -- (2.12,-0.12);
+  \fill[gold, opacity=0.35] (2.13,-0.2) ellipse (0.17 and 0.10);
+  \fill[gold] (2.13,-0.2) circle (0.075);
+
+  % the small flat knock, as rings at the mouth, not a line across the room
+  \draw[gold!50!faded, line width=0.5pt, opacity=0.5] (2.0,0.15) ++(-55:0.42) arc (-55:55:0.42);
+  \draw[gold!40!faded, line width=0.4pt, opacity=0.3] (2.0,0.15) ++(-55:0.60) arc (-55:55:0.60);
+
+  % the grey ridge along the skirting, thicker here, turning the corner without a break
+  \draw[ash!80!faded, line width=2.6pt, opacity=0.7] (-4.3,-1.0) -- (2.9,-1.0);
+  \draw[ash!80!faded, line width=2.6pt, opacity=0.7] (2.9,-1.0) -- (2.9,-0.62);
+  \draw[ash!45!faded, line width=0.6pt, opacity=0.5] (-4.3,-0.94) -- (2.84,-0.94);
+
+  \node at (0,-1.26) {\pgfornament[width=3.4cm,color=ornament,symmetry=v]{80}};
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.5) {a figure read, a measure taken};
+\end{tikzpicture}
