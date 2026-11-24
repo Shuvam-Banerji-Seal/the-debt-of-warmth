@@ -201,6 +201,11 @@ p { margin: 0 0 1em; }
 }
 .nav-links a:hover { color: var(--rubric); border-bottom-color: var(--gold); }
 .nav-links a[aria-current="page"] { color: var(--rubric); border-bottom-color: var(--rubric); }
+.nav-theme {
+  border: 1px solid var(--rule); background: transparent; color: var(--muted);
+  width: 2rem; height: 2rem; line-height: 1; font-size: 1rem;
+}
+.nav-theme:hover { color: var(--rubric); border-color: var(--gold); }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -216,6 +221,7 @@ p { margin: 0 0 1em; }
 .btn:hover { background: var(--gold); color: var(--btn-ink); text-decoration: none; transform: translateY(-1px); }
 .btn:active { transform: translateY(0); }
 .btn--primary { background: var(--rubric); border-color: var(--rubric); color: var(--btn-ink); }
+.btn--large { font-size: .88rem; padding: .95rem 1.5rem; letter-spacing: .14em; }
 .btn--primary:hover { background: var(--gold); border-color: var(--gold); }
 .btn--quiet { border-color: transparent; background: transparent; box-shadow: none; color: var(--muted); }
 .btn--quiet:hover { background: var(--panel); color: var(--ink); }

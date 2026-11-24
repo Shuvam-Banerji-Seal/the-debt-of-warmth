@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="parchment" data-face="garamond">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Cast — The Debt of Warmth</title>
+  <meta name="description" content="The people of Sarn and of the life before it: their portraits, epithets and private sheets.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/prose.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script src="js/common.js" defer></script>
+  <script src="js/cast.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the cast</a>
+
+  <header class="site-nav">
+    <div class="site-nav-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">❦</span><span>The Debt of Warmth<small>A surgeon's account of Sarn</small></span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="read.html" data-page="read.html">Read</a>
+        <a href="cast.html" data-page="cast.html">Cast</a>
+        <a href="atlas.html" data-page="atlas.html">Atlas</a>
+        <a href="codex.html" data-page="codex.html">Codex</a>
+        <a href="days.html" data-page="days.html">Days</a>
+        <button type="button" class="nav-theme" data-theme-toggle title="Change paper">☾</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div id="cast-error" aria-live="polite"></div>
+    <div class="section-head">
+      <span class="kicker">Those who have been met</span>
+      <h1>The Cast of Sarn</h1>
+      <p>Names, faces and the words they will not say aloud.</p>
+    </div>
+
+    <div id="cast-grid-wrap"><p class="loading-note">Calling the roll…</p></div>
+
+    <label class="cast-toggle" id="spoiler-label" hidden>
+      <input type="checkbox" id="spoilers">
+      <span>Show those not yet met (spoilers)</span>
+    </label>
+  </main>
+
+  <dialog id="sheet-dialog" aria-labelledby="sheet-title">
+    <div class="dialog-bar">
+      <h2 id="sheet-title">Character</h2>
+      <button type="button" id="sheet-close" aria-label="Close the sheet">×</button>
+    </div>
+    <div class="dialog-body" id="sheet-body"><p class="loading-note">Finding the sheet…</p></div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-mark" aria-hidden="true">❦</div>
+      <p class="footer-credits">Written chapter by chapter, without end, by hy4-flash-free through OpenCode. The press, book design and orchestration by Claude, which writes no word of the story. The light-novel illustrations were painted by OpenAI's GPT Image (gpt-image-2.5-sunburst) from prompts written by Claude. MIT License.</p>
+      <p class="footer-meta"><a data-repo-link href="#">the repository</a> · <span data-updated></span></p>
+      <p class="content-note">A content note: dark fiction for adult readers.</p>
+    </div>
+  </footer>
+</body>
+</html>
