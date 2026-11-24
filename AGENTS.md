@@ -52,6 +52,7 @@ Your own choices for this saga (point of view, motifs, recurring images, idiolec
 | `characters/<slug>.svg` | Ink-sketch portrait (see `design/PORTRAIT-GUIDE.md`) | yes |
 | `characters/_minor.md` | One-line entries for walk-on characters | no |
 | `atlas/<slug>/map.html` + `meta.json` | Your hand-made maps (see `design/MAP-GUIDE.md`) | yes (Atlas) |
+| `codex/<slug>.md` | In-world documents (songs, laws, ledgers, letters, sermons), canon written from inside the world | yes (The Codex of Sarn) |
 | `book/chapters/ch-NNNN/meta.json` | Chapter metadata (schema in `design/templates/chapter-meta.json`) | yes |
 | `book/chapters/ch-NNNN/plan.md` | Your beat sheet for the chapter | no |
 | `book/chapters/ch-NNNN/scene-NN.tex` | **The story itself**, one LaTeX file per scene | yes |

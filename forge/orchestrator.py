@@ -43,6 +43,7 @@ BUILD_EVERY = int(os.environ.get("CHRONICLE_BUILD_EVERY", "5"))
 CONSOLIDATE_EVERY = 10
 PROTECTED = ["design", "forge", "fonts", "AGENTS.md", "opencode.json", "README.md", ".gitignore",
              "pdf", "STATUS.md"]
+PROTECT_ROOT_PDFS = True  # the atelier turns this off: the root PDF belongs to the press
 TRANSIENT = re.compile(r"rate.?limit|too many requests|\b429\b|quota|overloaded|temporarily unavailable|"
                        r"\b50[234]\b|bad gateway|service unavailable|ECONNRESET|ETIMEDOUT|socket hang up|"
                        r"database is locked|concurrent requests|insufficient|credit", re.I)
@@ -119,7 +120,7 @@ def save_state(s: dict) -> None:
 def restore_protected(allowed: set[str] | None = None, current_chapter: int | None = None) -> None:
     """Undo any edit the author made outside its remit."""
     allowed = allowed or set()
-    paths = list(PROTECTED) + [p.name for p in ROOT.glob("*.pdf")]
+    paths = list(PROTECTED) + ([p.name for p in ROOT.glob("*.pdf")] if PROTECT_ROOT_PDFS else [])
     status = git("status", "--porcelain", "--untracked-files=all", "--", *paths, "book/chapters")
     for line in status.splitlines():
         code, path = line[:2], line[3:].strip().strip('"')

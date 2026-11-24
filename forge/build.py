@@ -530,6 +530,27 @@ def volume_master(v: int) -> Path | None:
     return out
 
 
+def codex_tex() -> list[str]:
+    docs = []
+    for p in sorted((ROOT / "codex").glob("*.md")):
+        fm, body = md2tex.parse_front_matter(p.read_text(encoding="utf-8", errors="replace"))
+        if not fm.get("title") or len(body.split()) < 200:
+            continue
+        docs.append((str(fm.get("title")), str(fm.get("kind", "")), str(fm.get("provenance", "")), body))
+    if not docs:
+        return []
+    L = ["\\chapter*{The Codex of Sarn}", "\\markboth{The Codex of Sarn}{The Codex of Sarn}",
+         "\\addcontentsline{toc}{chapter}{The Codex of Sarn}",
+         "{\\centering\\FellFont\\itshape\\small\\color{faded} Documents of the world, gathered from its ledgers, shrines, roads and kitchens.\\par}\\bigskip"]
+    for title, kind, prov, body in docs:
+        L.append(f"\\clearpage\\phantomsection\\addcontentsline{{toc}}{{section}}{{{esc(title)}}}")
+        L.append(f"\\CRsheetheading{{{esc(title)}}}")
+        if kind or prov:
+            L.append(f"{{\\centering\\FellFont\\itshape\\footnotesize\\color{{faded}} {esc(kind)}{' \u00b7 ' if kind and prov else ''}{esc(prov)}\\par}}\\medskip")
+        L.append(md2tex.blocks(body, r"\subsection*"))
+    return L
+
+
 def _backmatter_all(chapters: list[int]) -> list[str]:
     L = []
     chars = characters()
@@ -541,6 +562,7 @@ def _backmatter_all(chapters: list[int]) -> list[str]:
     if maps:
         L += ["\\chapter*{The Atlas}", "\\markboth{The Atlas}{The Atlas}", "\\addcontentsline{toc}{chapter}{The Atlas}"]
         L += maps
+    L += codex_tex()
     if chapters:
         tl = timeline_tex(0, 10 ** 9)
         if tl:
