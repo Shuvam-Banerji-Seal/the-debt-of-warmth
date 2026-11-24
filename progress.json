@@ -12,12 +12,12 @@
     "map-home",
     "portraits"
   ],
-  "chapter": 2,
-  "step": "publish",
-  "scene": 6,
+  "chapter": 3,
+  "step": "plan",
+  "scene": 1,
   "consolidated_through": 0,
   "built": {
-    "1": 1
+    "1": 2
   },
   "calls": 38,
   "failures_in_row": 0,

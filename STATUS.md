@@ -2,7 +2,7 @@
 
 - Chapters complete: **2**
 - Words of story: **26,217**
-- Current chapter: 2 (step: publish, scene 6)
+- Current chapter: 3 (step: plan, scene 1)
 - Last chapter: He's Not Vail (Days 2–3 · Stone 8 and Stone 9, Y.H. 812, an Eighthday and a Ninthday · the Ilm under ice and the Vail kiln breathing through the wall)
 - Author calls so far: 38 (tokens in 3,711,959, out 967,168)
 - Updated: 2026-11-24 18:52
