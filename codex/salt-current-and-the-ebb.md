@@ -130,7 +130,7 @@ I have left all of it standing. He takes the verbs out because a thing always tr
 
 # In the margin, in the leaning counting-house hand
 
-A Council tally-man wrote this below the song, in the sloped letters used for tallies and never for decrees:
+A Council tally-man wrote this below the song, in the sloped letters of tallies, never of decrees:
 
 > They pay for the tide that's entered, not the tide that's seen.
 > I have stopped telling them which is which.
