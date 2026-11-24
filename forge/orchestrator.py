@@ -494,9 +494,9 @@ def check_meta(n: int):
             if pe is not None and not (pe <= a <= pe + 1):
                 probs.append(f"days.start is {a} but the previous chapter ended on Day {pe}: it must be {pe} or {pe + 1}. Never skip days between chapters.")
             passage = str(m.get("mode", "normal")).lower() == "passage"
-            max_span = 30 if passage else 3
+            max_span = 6 if passage else 3
             if b < a or b - a > max_span:
-                probs.append(f"days {a}..{b} is not allowed for mode '{m.get('mode', 'normal')}' (normal: a chapter covers at most 3 new days; passage: at most 30, with every day dated).")
+                probs.append(f"days {a}..{b} is not allowed for mode '{m.get('mode', 'normal')}' (normal: at most 3 new days; passage: at most 7 days). Every day must be lived on the page.")
         except (KeyError, TypeError, ValueError):
             probs.append("meta.json \"days\" must be {\"start\": int, \"end\": int}.")
         if words(chpath(n) / "plan.md") < 350:
@@ -549,11 +549,23 @@ def write_scene(n: int, k: int, state: dict) -> None:
                 f"and book/chapters/{build.chdir(n - 1).name}/summary.md") if last else "plan/next.md"
     else:
         prev = "bible/past-life.md (especially the death) and plan/next.md, because this is the very first scene of the saga"
-    opening = ("This is the first scene of the chapter: begin with a drop capital, e.g. \\dropcap{T}{he frost} had..."
+    opening = ("This is the first scene of the chapter: its first paragraph begins with a drop capital, e.g. \\dropcap{T}{he frost} had..."
                if k == 1 else "Do not use \\dropcap in this scene.")
+    day = sp.get("day")
+    prev_days = [p.get("day") for p in plan[:k - 1] if not p.get("flashback")]
+    if sp.get("flashback"):
+        daymark = ("This scene is a flashback to the past life: no \\daymark at its start. If it returns to the present "
+                   "on a day not yet marked in this chapter, put \\daymark{N}{date} where that day begins.")
+    elif day is not None and (k == 1 or not prev_days or prev_days[-1] != day):
+        daymark = (f"This scene opens Day {day}. The very first line of the file must be \\daymark{{{day}}}{{<the in-world date of Day {day}, "
+                   f"per bible/calendar.md, e.g. as written in memory/timeline.md>}}" + (", followed by a blank line and then the drop-capital paragraph." if k == 1 else ".")
+                   + f" If the scene runs past midnight into Day {int(day) + 1}, put \\daymark{{{int(day) + 1}}}{{date}} on its own line where the new day begins.")
+    else:
+        daymark = (f"This scene continues Day {day}; do not repeat its \\daymark. If the scene runs past midnight into the next day, "
+                   "put \\daymark{N}{date} on its own line where the new day begins.")
     task = prompt("chapter-scene.md", n=n, k=k, kk=f"{k:02d}", total=total, chdir=d.name,
                   scene_title=sp.get("title", f"scene {k}"), prev_text=prev, min_words=min_words,
-                  target=target, opening=opening)
+                  target=target, opening=opening, daymark=daymark)
     allowed = {rel}
     call_author(task, f"ch{n} scene {k}", state, allowed=allowed, current_chapter=n)
     f = d / f"scene-{k:02d}.tex"
@@ -581,6 +593,33 @@ def write_scene(n: int, k: int, state: dict) -> None:
     save_state(state)
     commit(f"ch {n}: scene {k} ({words(f)} words)")
     log(f"  scene {k}/{total} accepted: {words(f)} words")
+
+
+MIN_DAY_WORDS = 800
+
+
+def check_days(n: int):
+    """Every day of the chapter's range is on the page, marked and lived."""
+    def check():
+        m = build.load_json(chpath(n) / "meta.json", {}) or {}
+        try:
+            a, b = int(m["days"]["start"]), int(m["days"]["end"])
+        except Exception:
+            return []
+        have = build.day_sections(n)
+        pe = prev_end_day(n)
+        files = ", ".join(f.relative_to(ROOT).as_posix() for f in build.scene_files(n))
+        probs = []
+        for d in range(a, b + 1):
+            if d not in have:
+                probs.append(f"Day {d} has no \\daymark{{{d}}}{{date}} in the scenes ({files}). If the day is narrated, insert its mark on its own line exactly where it begins. If it is not narrated, write it: append a full section for Day {d} (at least {MIN_DAY_WORDS} words, opened by its \\daymark) at the right place, so that no day of his life is skipped. Only if the chapter honestly ends earlier may you instead lower days.end in meta.json.")
+            elif have[d] < MIN_DAY_WORDS and not (d == a and pe == a):
+                probs.append(f"Day {d} has only {have[d]} words on the page; every day must be lived for at least {MIN_DAY_WORDS}. Deepen that day's section in place: more of its hours, its work, food, weather, bodies and talk. No summary.")
+        extra = sorted(d for d in have if d < a or d > b)
+        if extra:
+            probs.append(f"The scenes mark days {extra}, outside the chapter's range {a}..{b}. Fix meta.json days or the marks so that they agree.")
+        return probs
+    return check
 
 
 def check_close_a(n: int):
@@ -762,8 +801,18 @@ def chapter(state: dict) -> None:
         while state["scene"] <= total and not STOP:
             write_scene(n, state["scene"], state)
         if state["scene"] > total:
-            state["step"] = "close_a"
+            state["step"] = "days"
             save_state(state)
+    if state["step"] == "days" and not STOP:
+        scenes = {f.relative_to(ROOT).as_posix() for f in build.scene_files(n)}
+        left = repair_loop(f"chapter {n} days", check_days(n), state, attempts=3,
+                           allowed=scenes | {(d / "meta.json").relative_to(ROOT).as_posix()}, current_chapter=n)
+        for k in range(1, len(build.scene_files(n)) + 1):
+            ensure_compiles(n, k, state)
+        log(f"  days check: {'every day present' if not left else 'still: ' + '; '.join(left)[:300]}")
+        state["step"] = "close_a"
+        save_state(state)
+        commit(f"ch {n}: every day on the page")
     if state["step"] == "close_a" and not STOP:
         log(f"CHAPTER {n}: close (summary, state, timeline)")
         m = build.load_json(d / "meta.json", {}) or {}
