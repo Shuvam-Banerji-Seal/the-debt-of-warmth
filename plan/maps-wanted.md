@@ -21,7 +21,7 @@
 
 6. **`the-old-kiln`** — *The Old Kiln and the ash throat* — kind: dungeon — 2400 × 1600 — **DRAWN 25 Nov 2026**. The collapsed kiln a league south of Sill, grey clay that will not take a glaze, ash deeper than a man, the slate from its throat. Draw for the early experiments and the first spiral.
 
-7. **`the-hearthseat`** — *The Hearthseat on the Keel* — kind: city — 1600 × 2200. The Weighing Hall, the grating of cold iron over the never-out fire, the College of Assessors in Slate Row, the sealed files, the rooms of the fewer than twenty Kept. A cool, clean, un-warmed map; the ink should look filed rather than inked.
+7. **`the-hearthseat`** — *The Hearthseat on the Keel* — kind: city — 1600 × 2200 — **DRAWN 25 Nov 2026**. The Weighing Hall, the grating of cold iron over the never-out fire, the College of Assessors in Slate Row, the sealed files, the rooms of the fewer than twenty Kept. A cool, clean, un-warmed map; the ink should look filed rather than inked.
 
 8. **`keld`** — *Keld Keep and the First Seam* — kind: dungeon — 1600 × 2200. The duelling floor cut into stone, Warden's seat, the deep survey shaft, the Listening Stones five leagues higher, the Cold Pass ten leagues beyond. Mark the passing of a seam-serpent as a change in the numbers, not a creature. Hot-lead warning for the Sweating in the margin.
 

@@ -56,6 +56,48 @@ The room where the year's measures are read at the Weighing and where the Hearth
 The school where the value of a life is taught and Ledgerhand written; it holds the only right to enter a lawful deduction and keeps a second file of names removed from the rolls. Provost Wessen teaches here.
 **Relations:** In Slate Row in the Hearthseat, 150 leagues south-east of Sill; an assessor's house stands in Sill's own Slate Row, built in Y.H. 776.
 
+*The close ground of the Court city drawn on `atlas/the-hearthseat`: the rooms a surveyor of the Keeping could put a name to. Direction is from the Weighing Hall.*
+
+### Slate Row of the Hearthseat
+**Kind:** court quarter, street. **Region:** the Hearthseat, on the Keel.
+The Hearthseat's own Court quarter, holding the College of Assessors and the officers' counting rooms; the year's measures are read aloud here at the Weighing. On a chart it is lettered simply *Slate Row*, but in scenes it must be told apart from Sill's quarter of the same name: `\place[Slate Row of the Hearthseat]{Slate Row}`.
+**Relations:** Inside the Hearthseat, 150 leagues south-east of Sill; the College of Assessors stands here.
+
+### The Hearth-fire
+**Kind:** flame, wonder. **Region:** the Weighing Hall, the Hearthseat.
+The never-out flame behind a grating of cold iron, said to be a tongue of the Hearth drawn up through the Keel; it has never gone out and no priest has ever been allowed to touch it. Even the Kept are not asked to stand near it.
+**Relations:** In the Weighing Hall, above the Hearth chamber; 150 leagues south-east of Sill.
+
+### The Weighing notice
+**Kind:** printed notice, board. **Region:** the Hearthseat.
+The notice set up by the Weighing Hall on which one part in twelve is printed as the deduction; it is the figure the districts read and the figure the College teaches its own to write against.
+**Relations:** Beside the Weighing Hall in the Hearthseat.
+
+### The Steward's room
+**Kind:** room, office. **Region:** the Hearthseat.
+The room of the head of the Keeping, off the Weighing Hall, where a slate is kept flat under the fingertips while a person is still speaking and where the sealed file is read.
+**Relations:** Inside the Hearthseat, beside the Weighing Hall.
+
+### The sealed files
+**Kind:** archive, strong-room. **Region:** the Hearthseat.
+The Court's locked archive, kept by the Steward of the Hearth. It holds the copy of the Keld survey's crossed-out entry of Y.H. 588, the private authorisation of a whole return of forty unspent measures with the purchaser left unrecorded, and the Court's private answer to the Unbanked. Haldre's suppressed paper is kept in a drawer beside it.
+**Relations:** Inside the Hearthseat, near the Weighing Hall.
+
+### The bank at the Hearthseat
+**Kind:** bank, hall. **Region:** the Hearthseat.
+The first of the Keeping's two banks, where measures drawn in the districts are pressed into newborn vessels; the second stands at Greybank. The rolls of the dead are carried forward here and never closed.
+**Relations:** Inside the Hearthseat on the Keel; the bank at Greybank is 150 leagues west-north-west by road.
+
+### The rooms of the Kept
+**Kind:** chambers. **Region:** the Hearthseat.
+Fewer than twenty rooms kept near the fire for the Kept vessels, who hold three hundred measures and feel nothing at all.
+**Relations:** Inside the Hearthseat, on the Keel.
+
+### The back rooms of the Hearthseat
+**Kind:** work rooms. **Region:** the Hearthseat.
+Plain rooms behind the College where blent-work is said to be done — condemned in law and spoken of only in the back rooms. The law gives a blent person the measure of the vessel its donor had, which in practice means no measure at all.
+**Relations:** Inside the Hearthseat, behind the College of Assessors in Slate Row.
+
 ### Vhalen
 **Kind:** realm, merchant republic. **Region:** Sallow coast.
 A ring of port towns governed by a Council of Tides, living on salt, glass, rope, ships and contracts written on paper that rots.
