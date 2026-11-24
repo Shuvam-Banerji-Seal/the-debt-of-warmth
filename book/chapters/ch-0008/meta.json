@@ -1,0 +1,100 @@
+{
+  "number": 8,
+  "title": "The Five Cold Days",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "One fire goes from door to door and every house says it kept it. The grey is burned in the morning and called gone. The name nobody spoke at the Remembering is the only thing that stays put.",
+    "attribution": "A saying of the Low Kiln yards, Sill"
+  },
+  "days": {"start": 25, "end": 30},
+  "when": "Days 25–30 · Kindling–Ilmen 1, Y.H. 812–813",
+  "where": "The Vail kiln-house, Low Kiln, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a twenty-five-to-thirty-day-old body carried everywhere; no present-tense Chicago break this chapter, the old life surfacing only as a past-tense gesture and shape of absence; no departure from his eyes",
+  "mode": "passage",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "berr-clay",
+    "garl-vail"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "the back room",
+    "the drying racks",
+    "House Silt",
+    "House Reed",
+    "the birth-flower shrine",
+    "the yard well",
+    "the Slip Brook",
+    "the Ilm",
+    "the Cross",
+    "Slate Row",
+    "the Court's room",
+    "the moot-post",
+    "the Bone Orchard",
+    "Greybank",
+    "Lake Michigan"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Fire Carried In",
+      "day": 25,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 25, Kindling, Y.H. 812: before first light a clay dish comes up the Clay Yard with a coal under ash, handed from hearth to hearth, and Sella Vail tips it into the Vail fire without saying where it came from or what it cost. She touches the widow's mark before the opening and at no other hour. The boy is carried to the threshold and watches a fire enter the house from somewhere he cannot see or reach; he extends his count to its light --- four, four, and a place where a fifth would be if there were a fifth. The year's first measure is taken offstage by a collector and entered without a figure spoken in the house. Work, gruel and the two uneaten crusts go on as before; at the bank the mark is not touched. Changes: a fire enters from an unseen, unmentioned source and the private count acquires a hypothetical fifth. Advances T079, T071/T072, T082, T077, T009, T013, T036, T060, T086, T065, T058, T044. Withheld: no explanation of the Hearth-flame, the cold iron, the levy or the mark; no sixth hearing; no joining.",
+      "target_words": 2400
+    },
+    {
+      "n": 2,
+      "title": "The Clean Voice",
+      "day": 26,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 26, Weighing, Y.H. 812: the year's measures are read aloud in a clean voice that wears a temple's clothes --- the passive grammar of Berr Clay's Cross now in an officer's mouth. The boy is carried only to the fringe, with a half-pace kept from every open slate. Somebody else's whole return is announced for a person not in the room; a name is read that the household will not repeat, and the boy counts the silence after it as he counts a gap in the kiln. Berr is glimpsed, red cord folded under his coat and thumb wiped, explaining nothing, his box still locked. The Court's room reaches him only as a voice through a doorway with a bench, a pot, a draught and a place where a line should stand and does not; he files it apart from the other rooms. Changes: the institution's grammar gains a temple voice, a whole return belongs to somebody absent, and an unspoken name becomes another gap. Advances T047, T015, T077, T073, T082, T081, T058, T041, T036, T071/T072. Withheld: no figure given as one in three, no forty, no Marra, no purchaser, no boy's own return, no roll, no box, no entering of a Court room.",
+      "target_words": 2600
+    },
+    {
+      "n": 3,
+      "title": "The Long Night",
+      "day": 27,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 27, the Long Night, Y.H. 812: no fire after dusk. Ordinary work by day, then the house sits in the dark telling stories of the Return --- a child who knew warmth before a face, a man who came back with somebody else's hands, a hearth-maid's dates where wonder should stand. The boy listens to the voices instead of the flames and counts the gaps between them, filing them with the intervals rather than the hearings; the count stays five from four sources. In one story of the year the bell comes back four, four and a gap, and he keeps the told bell beside the heard one without joining them. Cold arrives at cheek, temple, wrist; the child wants the breast and the crust and is not answered. Tarn holds his seventh year back in the dark; Jorra does not mention the back room; Garl's coat is a shape in the room. Changes: a story's silence is kept as the same kind of object as a vessel's interval, and the year is told in the shape of the bell. Advances T082, T078, T061, T071/T072, T036, T060, T086, T044, T009, T065. Withheld: no sixth hearing, no explanation of the Return, no present-tense break, no Grathic word for the gap.",
+      "target_words": 2400
+    },
+    {
+      "n": 4,
+      "title": "The Name Left Out",
+      "day": 28,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 28, the Remembering, Y.H. 812: names of the dead pass along the yard, but under the Vail roof Garl's name is not spoken. The coat keeps its peg, the wheel-seat its hollow on the left and the Ash ridge its unbroken corner; Sella goes around the name as she goes around Ash in a corner. The boy counts the silence where the name should be and files it with the other gaps, still not a hearing. Alda Reed comes with birth-slates and exact dates; where a name should stand she gives a date, touches the tin once inside her bodice unopened, crosses two fingers at the red edge of the birth-flower without knowing it and covers the sign with the same unasked-for date. The hand goes to the pocket-place and finds wool where a lit rectangle with a name had lain; the shape of a boat promise on cold water comes and goes in the old register, untagged, no name looked at. The charred slate stays in the kiln ash, the two crusts in the fold. Changes: an absence where a name should be joins the private file, and remembering restores nobody. Advances T009, T013, T031, T073, T007/T008, T023, T044, T082, T061, T071/T072, T058, T035/T036, T060/T086. Withheld: Garl's name is not said in the house; no tin opened, no roll, no explanation of where a man's warmth went.",
+      "target_words": 2600
+    },
+    {
+      "n": 5,
+      "title": "The Grey Left Where It Lay",
+      "day": 29,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 29, the Last Day, Y.H. 812: bread is baked, but the two brown-edged crusts in the fold are neither eaten, lifted nor named, and no third crust is given. Mira Silt comes up from the eels, brisk, answering a question with a question and her own answer; her thumb goes under her apron to the grey cord when a figure is spoken, the second cord twisted twice beneath it glimpsed again and the knots not counted. Sella will not let anyone sweep the Ash early; the ridge is measured again by thumb --- near two thumbs at Vail, a finger's width thicker two doors down --- and left where it lies, and the boy reads a thing left in place as still accounted for. Garl's coat, hollow seat and proverb keep the house in his shape. Tarn's knife is back on its sill and the seventh year held back; Jorra moves the damper before Sella has finished and does not say the back room was cold. At the bank the mark is not touched. Changes: the household bakes and leaves its dead where they lay; a kept thing needs no moving to be an account. Advances T013, T009, T031, T060, T086, T025, T059, T044, T071/T072, T036, T035, T079, T065, T077. Withheld: no early sweeping, no eating of either crust, no count of the knots, no explanation.",
+      "target_words": 2500
+    },
+    {
+      "n": 6,
+      "title": "The Account Carried In",
+      "day": 30,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 30, Ilmen 1, Firstday, Y.H. 813, the Opening of the Slates: the Ash burned the morning after the Last Day is called gone; the coals remain banked under ash, so the widow's mark is not touched. The new year's slates are opened in Slate Row, spoken of from the yard as a direction rather than a place anybody goes; one in twelve stays printed and unchallenged. The boy is thirty days old and carries his private count into a year the district has already entered. Work turns toward the thaw and the slip pits; the Ilm still holds under its ice and the small pale river stone in House Silt is not mentioned. Sella puts the fold right without looking at his face, feeds him from the house's own dish and says nothing about where warmth came from. Nothing has been joined: five hearings from four sources and no sixth, intervals and the unspoken name apart, five pauses unjoined, the Drawing collector's hand apart, the charred slate untouched. Close on the fire keeping four, four and a gap and the boy's hand going up an inch toward the warmth and coming down. Advances T013, T009, T079, T015, T077, T071/T072, T060, T086, T058, T035/T036, T085, T061, T082, T065. Withheld: no ending, no joining, no explanation, no one in three, no forty, no Marra, no roll, no box, no knots counted, no tin's contents.",
+      "target_words": 2400
+    }
+  ]
+}
