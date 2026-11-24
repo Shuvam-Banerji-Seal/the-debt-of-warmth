@@ -11,12 +11,17 @@
 ## Where to read it
 | What | Where |
 |---|---|
-| **The complete book** (every chapter so far, the cast with portraits, the atlas, the lore, the reckoning of days and three indices) | **`The-Debt-of-Warmth.pdf` at the root of this repository**, rebuilt after every chapter |
-| The same, plus the volume in progress | the `latest` release |
+| **The complete book, PDF**: every chapter so far, colour plates, the cast with art, the atlas, the Codex, the reckoning of days, three indices | **`The-Debt-of-Warmth.pdf`** at the root, rebuilt after every chapter |
+| **The complete book, EPUB 3**: the same content for e-readers, with every day of the hero's life in the table of contents | **`The-Debt-of-Warmth.epub`** at the root |
+| **Each chapter as its own PDF** | the `volume-NNN` releases (for example `volume-001` holds chapters 1–20) |
+| The rolling complete book, the volume in progress and the cover | the `latest` release |
 | Completed volumes (20 chapters each) | `pdf/vol-NNN.pdf` |
 | Progress | `STATUS.md` |
 
-The root PDF is committed on every build while it is small, then every (size in MB ÷ 2) chapters as it grows, which keeps the git history manageable. GitHub refuses single files over 100 MB, so once the whole book passes about 95 MB it continues in the `latest` release (which allows files up to 2 GB), while `pdf/` keeps the volumes.
+The root files are committed on every build while they are under 10 MB, then every (size in MB ÷ 5) chapters. GitHub refuses files over 100 MB, so beyond that the whole book continues in the `latest` release.
+
+## Illustrations
+The light-novel colour plates and character art in `art/` are painted by OpenAI's `gpt-image-2.5-sunburst`. **Claude writes every prompt by hand** from the author's canon (appearance notes, chapter chronicles); the prompts are kept in `art/prompts/` and costs in `art/ledger.jsonl`. Character art is generated first and then passed as reference images to the scene plates, so faces stay consistent. Run `python3 forge/illustrate.py` (it needs `OPENAI_API_KEY` in a git-ignored `.env`). The author model can neither read the key nor edit `art/`.
 
 ## How the repository is laid out
 ```
@@ -27,6 +32,8 @@ memory/                   state of the world now, day-by-day timeline, story so 
 characters/               one sheet (.md) and ink portrait (.svg) per character
 atlas/<slug>/             hand-made HTML maps, rendered to the Atlas
 book/chapters/ch-NNNN/    meta.json, plan.md, scene-NN.tex, summary.md, decoration.tex, chapter.tex
+codex/                    in-world documents (songs, laws, ledgers, letters), printed as the Codex of Sarn
+art/                      light-novel illustrations (WebP) and the prompts that made them
 book/volumes/             generated LaTeX masters, 20 chapters per volume, plus the compendium
 design/                   book class, cover, textures, guides and templates for the author
 forge/                    the orchestrator, build system, prompts
@@ -39,9 +46,13 @@ forge/                    the orchestrator, build system, prompts
 4. **Decorate:** a TikZ headpiece designed for the chapter and proof-compiled.
 5. **Publish:** commit and push. A background publisher re-typesets the complete book (and the current volume) without pausing the writing, then places it at the repository root and in the release. Every 10 chapters the author consolidates memory, draws a new map and adds portraits.
 
+## Two workers
+- **The press** (`storyforge`) writes chapters: plan, scenes, a check that every day is on the page, close and decorate.
+- **The atelier** (`storyforge-atelier`) runs beside it and keeps the author busy on cameo portraits, new maps and the Codex.
+
 ## Running the press
 ```bash
-systemctl --user status storyforge      # is it running?
+systemctl --user status storyforge storyforge-atelier   # are they running?
 journalctl --user -u storyforge -f      # watch it work
 tail -f .forge/orchestrator.log         # same, from the repo
 systemctl --user stop storyforge        # pause (it resumes exactly where it stopped)
