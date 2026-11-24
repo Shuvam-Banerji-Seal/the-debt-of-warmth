@@ -2,7 +2,7 @@
 
 - Chapters complete: **16**
 - Words of story: **245,167**
-- Current chapter: 16 (step: publish, scene 7)
+- Current chapter: 17 (step: plan, scene 1)
 - Last chapter: The Sweeping Around (Days 75–77 · Silt 16–18, Y.H. 813)
 - Author calls so far: 190 (tokens in 26,498,887, out 4,179,089)
 - Updated: 2026-11-25 04:43
