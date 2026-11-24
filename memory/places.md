@@ -230,8 +230,8 @@ The kiln-master's house of Berr Clay, Thane of Clay, above the terrace. The red 
 
 ### House Silt
 **Kind:** house, holding. **Region:** Low Kiln, Sill.
-The shared room of Dessa and Mira Silt, three doors from the Vail kiln-house. The slip pits are a walk away, counted in nineteen steps to the drying rack.
-**Relations:** In Low Kiln, east of the slip pits of the Clay Yard.
+The two-room clay-daubed house of Dessa and Mira Silt, three doors from the Vail kiln-house; its front room is the birth room of Chapter 1, where Corin is born on Stone 7, Y.H. 812. The floor is trodden ash packed until it has the spring of old bread, and a grey ridge of Ash runs along the skirting board from the bench by the door, under the door and into the next room, left there until the Last Day. The room holds a board-bed with a fold of grey wool, a stool by the wall, a hearth with a slip pot, and the birth-slate propped on the bench within the midwife's right hand. The door does not shut; a low song from a woman working below comes up through the floor. The slip pits are a walk away, counted in nineteen steps to the drying rack. The stone at the newborn's belly was warmed at the Vail hearth across the yard and carried here in a rag.
+**Relations:** In Low Kiln, east of the slip pits of the Clay Yard; the Vail kiln-house is three doors west, down the yard.
 
 ### House Reed
 **Kind:** house, holding. **Region:** Low Kiln, Sill.

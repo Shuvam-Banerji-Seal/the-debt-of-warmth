@@ -7,7 +7,7 @@ born: "1984, Hermosa, Chicago, Earth (first life); Day 1, Stone 7, Y.H. 812, Low
 species: "human — an Earth man of the 2020s, now a vessel of Sarn"
 origin: "Hermosa, Chicago, Illinois, Earth; reborn in Low Kiln, Sill, Grath"
 affiliation: "Cook County trauma service (first life); House Vail kiln-house, Low Kiln (by rebirth); unwitting instrument of the Unbanked"
-status: "alive (as Corin); died 2024, Chicago, in a fire after a blizzard (first life)"
+status: "alive (as Corin, a few hours old on Day 1); cracked, low-capacity, unranked, below Thin; died 2024, Chicago, in a fire after a blizzard (first life)"
 first_appearance: 1
 ---
 
@@ -48,7 +48,7 @@ He woke as an infant in Low Kiln, taken in by Sella Vail of the kiln-house, with
 
 ## Wounds & Fears
 
-The body's humiliations are exact: drool, the useless head, the blanket that will not stay on. But the deeper wounds are old ones. The missed call to Nina, promising a boat on Lake Michigan for nine years. Tasha's chart and the note he did not read. The crooked casket nobody corrected. A sister in Florida, a mother's kitchen, a father who could not say what he felt and so fixed things.
+The body's humiliations are exact: drool, the useless head, the blanket that will not stay on, the small animal sound that comes when he turns his head past a point, the cup two paces off that he cannot reach. Day 1 is lived awake from the birth to morning; nobody thinks to ask whether he wants to be awake. But the deeper wounds are old ones. The missed call to Nina, promising a boat on Lake Michigan for nine years. Tasha's chart and the note he did not read. The crooked casket nobody corrected. A sister in Florida, a mother's kitchen, a father who could not say what he felt and so fixed things.
 
 He fears being the only adult in the room and him with the hands of a child. He fears that his clinical gift is not a gift at all but a moral defect — that the willingness to say *leave it* says something about him he would rather not know. He fears the hollow and the Kept: a vessel that holds perfectly and feels nothing, which is the thing he has spent his life doing to himself in the name of duty. He fears going home most of all, because the mechanism is real and the price is the warmth of the woman the child in the minivan became. He cannot pay that account by dying again; it can only be carried.
 
@@ -60,7 +60,7 @@ He wants to go home. He wants to hear Nina's voice, to say the nine-year-old sen
 
 ## Bonds
 
-**Nina Marchetti** — his daughter, the light she stopped leaving on. He loves her in the only idiom he has: practical acts, unsaid. She resents him for it. The unsent call is the shape of the debt that made him portable; the words never crossed, only their weight. He will reach for a phone for her at every important death in Sarn and never look at the name.
+**Nina Marchetti** — his daughter, the light she stopped leaving on. He loves her in the only idiom he has: practical acts, unsaid. She resents him for it. The unsent call is the shape of the debt that made him portable; the words never crossed, only their weight. He will reach for a phone for her at every important death in Sarn and never look at the name. *Ch 1:* she is the lit rectangle in the coat pocket on the expressway, the boat promised nine times, a name he will not look at; heavier than the phone.
 
 **Deshawn Carter** — the paramedic friend who made jokes instead of asking. Their friendship was ten minutes of bad pizza and silence in a car park. Des's laugh is the sound Dan reaches for when he cannot reach Nina. The tension: Des never asked the question that would have let Dan confess, and Dan never gave him the chance.
 
@@ -68,17 +68,23 @@ He wants to go home. He wants to hear Nina's voice, to say the nine-year-old sen
 
 **Paul Vesci** — the rival who called him the butcher. Vesci is the man Dan could become: a man whose institution absorbs his guilt and hands him back clean. Dan reported him once and has spent fifteen years being called a butcher for it; the secret of Tasha's chart makes the nickname true in a way Vesci cannot know. They pull against each other across a gulf of mutual, unspoken recognition.
 
-**Marra** — the collector in the grey coat at the crash, who wrote his measure and paid for his return with her own fingers. He does not know her name in the early chapters; she is the woman at the edge of the flare light. She has been paying for him ever since.
+**Marra** — the collector in the grey coat at the crash, who wrote his measure and paid for his return with her own fingers. He does not know her name in the early chapters; she is the woman at the edge of the flare light. She has been paying for him ever since. *Ch 1:* he has filed her as a coat, a head, a hand, and the rhythm of a pause between strokes; he has not put the hand at the flare beside the dark hand on the birth-slate, though both are on the page.
 
-**Sella Vail** — the widow who took him in and has never once asked where his memory came from. She is waiting to see what he will become. Her silence is its own kind of Court: kindness that does not want an answer.
+**Sella Vail** — the widow who took him in and has never once asked where his memory came from. She is waiting to see what he will become. Her silence is its own kind of Court: kindness that does not want an answer. *Ch 1:* her hand came in ahead of her, felt for the heat at his belly, found none, opened and shut once over the bundle and withdrew; she could name the house that kept the fire but not the hand in the door.
+
+**Alda Reed** — the midwife who delivered him, reached for the slate before the child, crossed two fingers over the flower and called it a birth-flower. *Ch 1:* he read her order of reaching, her tin touched twice, and her exact dates covering a thing she would not say.
+
+**Dessa Silt** — the mother who will not name him. *Ch 1:* he read the pulse that rose when her count stopped, the sieve-wire scar she rubbed, and the two fingers that stayed too long pressing the wool flat at his shoulder.
+
+**Mira Silt** — the aunt who knows. *Ch 1:* she stood in the one patch of floor the slate did not reach, said the secret was in what happens to a child after it is born, and crossed the room to give bread without once looking at the writing.
 
 ## Arc So Far
 
-No chapters are written yet. At the hinge he is a man who died giving and woke with too little: a large tired soul in a cold stone's worth of a body, with a birth-flower where his burn map was, and the whole ledger of an unfinished life crossing with him into a country that has no word for Chicago. The arc imagined is nine ranks across thousands of chapters — from cracked unranked infant to Whole, Opened, Held, Drawn, Banked, Welled, Hearthward, and a deliberate refusal of Kept — each rank bought with a discovery and a loss, ending not in a clamp but in the third thing, and never, never in an ending.
+He has lived one day, the whole of Day 1, awake from the birth to morning in a body that can do nothing he wants. The double consciousness has staged itself in full: the clinical register reads the afterdrop, the pulse, the scar, the angle of a wrist, the rhythm of a hand that stops between strokes; the infant body drools, hunger, cannot hold up its head, and wins every argument by being louder. He is cracked, low-capacity, unranked — below Thin, twelve to fifteen embers at best — with no Warm moved and no power used. Two facts have gone in and cannot be got out: the name on the slate was written before anyone saw his face, and the household arranges its silences around a thing it will not say. He has begun the count — four, four, a knot — as the one entry in the room that belongs to nobody and cannot be entered on a slate. He cannot speak, cannot read Grathic, cannot reach a cup, and is as lost as the reader.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 1 (birth in Low Kiln).
+- Ch 1: Born in the front room of House Silt on Stone 7 and lived the whole day awake. Held the count of the floorboards, read Dessa's pulse and sieve-wire scar, matched the pause in the dark hand on the birth-slate to the hand at the flare light and did not put them together, and felt the river stone go cold with nobody else in the room noticing. Wanted the breast more than he wanted the truth. Drooled, could not hold up his head, could not turn it past a point without a small animal sound, could not reach a cup, could not keep the wool on his shoulder. The clinical ear was wide awake and wholly useless.
 
 ## Secrets (private)
 

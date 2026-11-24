@@ -13,7 +13,7 @@ first_appearance: 1
 
 ## Appearance
 
-A broad woman of thirty-three with forearms the colour of dried slip and a burn across the back of her left hand shaped like a little door, which she keeps closed when she carries a cup. She is not tall and she does not make herself tall; she takes up room by being impossible to move. Her hair is coal-black with one grey streak at the temple that she says came from the winter Garl died and will not discuss further. She smells of woodsmoke, wet wool, and under it the faint sour mineral tang of the Ash ridge along the skirting board, which she has not swept in two years and does not intend to sweep. Her hands are never still. When they have nothing to do they count: spoons, nails, the breaths of a sleeping child. She wears her widow's mark on a cord at her throat, a thumb-length of lead-glazed clay with the Vail kiln scratched into it, and she touches it before she opens the kiln and never at any other time. People notice the burn first and the mark last, which is the order she prefers.
+A broad woman of thirty-three with forearms the colour of dried slip and a burn across the back of her left hand shaped like a little door --- two straight sides, a lintel and a threshold, the skin inside it puckered and pale --- which she keeps half-closed when she carries a cup, and which closes on nothing when her hand has nothing to hold. She is not tall and she does not make herself tall; she takes up room by being impossible to move. Her hair is coal-black with one grey streak at the temple that she says came from the winter Garl died and will not discuss further. She smells of woodsmoke, wet wool, and under it the faint sour mineral tang of the Ash ridge along the skirting board, which she has not swept in two years and does not intend to sweep. Her hands are never still. When they have nothing to do they count: spoons, nails, the breaths of a sleeping child. She wears her widow's mark on a cord at her throat, a thumb-length of lead-glazed clay with the Vail kiln scratched into it, and she touches it before she opens the kiln and never at any other time. People notice the burn first and the mark last, which is the order she prefers.
 
 ## Voice & Manner
 
@@ -41,13 +41,13 @@ She wants the fire to hold, the wheel to stay in the house, and a Vail name writ
 
 ## Bonds
 
-**Jorra Vail** — her son, the keeper of the wheel. He believes she took the foundling in to replace Enna and to keep the house's standing while he did the work. She has never told him otherwise, which is how he has come to believe it. They speak about thekiln, the levy, the weather; they do not speak about Garl, or Enna, or the boy.
+**Jorra Vail** — her son, the keeper of the wheel. He believes she took the foundling in to replace Enna and to keep the house's standing while he did the work. She has never told him otherwise, which is how he has come to believe it. They speak about the kiln, the levy, the weather; they do not speak about Garl, or Enna, or the boy.
 
-**Corin** — the foundling she took in and has never questioned. She watches him with a hearth-maid's attention and a widow's refusal to name what she sees. Her silence is its own kind of Court: kindness that does not want an answer, and that therefore cannot be refused.
+**Corin** — the foundling she took in and has never questioned. She watches him with a hearth-maid's attention and a widow's refusal to name what she sees. Her silence is its own kind of Court: kindness that does not want an answer, and that therefore cannot be refused. *Ch 1:* her hand came in ahead of her, felt for the heat at his belly, found none, opened and shut once over the covered bundle, and withdrew. She did not look at him, or at any of the women, and said nothing.
 
-**Alda Reed** — delivered Enna and Corin both, and crossed herself at the second birth. They have traded one silence for three years. Alda has the fuller notes; Sella has the fuller knowledge of what a silence costs when a household must eat.
+**Alda Reed** — delivered Enna and Corin both, and crossed herself at the second birth. They have traded one silence for three years. Alda has the fuller notes; Sella has the fuller knowledge of what a silence costs when a household must eat. *Ch 1:* Alda laid the slate flat on the bench as Sella's hand went back out the door; the trade of silences begins in that room.
 
-**Dessa Silt** — the woman who bore the boy. Sella knows it and has paid her in barley and slip-clay to stay away, and has never entered the payment in any account, not even the private one she keeps in her head.
+**Dessa Silt** — the woman who bore the boy. Sella knows it and has paid her in barley and slip-clay to stay away, and has never entered the payment in any account, not even the private one she keeps in her head. *Ch 1:* Dessa's pulse rose under her *door shut* smile while the hand hung above her child; neither looked at the other.
 
 **Berr Clay, the Thane of Clay** — confirmed her widow's mark and has never called in the debt Garl left against a shipment of tiles. The uncalled debt is worse than a called one, because she cannot pay it and cannot settle it and cannot stop owing it.
 
@@ -55,11 +55,11 @@ She wants the fire to hold, the wheel to stay in the house, and a Vail name writ
 
 ## Arc So Far
 
-No chapters are written yet. She enters the book as the woman who takes a newborn from a room where nobody will meet anyone's eye, wraps him in a coat that is not his, and carries him up the yard without looking back. Everything the reader later learns about the boy's welcome begins with that walk.
+In Chapter 1 she is a hand in a doorway and a shadow, not a speaking part. Woodsmoke and wet wool arrive ahead of her; then the burn shaped like a little door reaches for the heat at the child's belly, finds none, hovers over the bundle and withdraws. The kiln she keeps has been heard twice before the house itself appears, and the crust and the stone have already crossed the room from its fire. She has not taken him yet: the third day has not come. The decision is in the order of her reaching, not in any word she says.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 1 (she takes Corin in on the third day).
+- Ch 1: Did not enter the birth room and said nothing. Woodsmoke and wet wool came ahead of her, then the cold off the yard, then the hand with the little-door burn across its back --- lintel, threshold, two straight sides. It felt for heat at the child's belly, found none, opened and shut once above the covered bundle and withdrew. She stepped back out into the Clay Yard without looking at child or women. The crust and the warmed stone had already come from her hearth, neither entered against anybody; the kiln breathed through the wall afterward. She still intends to take him on the third day.
 
 ## Secrets (private)
 

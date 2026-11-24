@@ -8,7 +8,7 @@ species: human (Grathic; officer of the Keeping)
 origin: "the Hearthseat; no house, no kin; entered on the rolls in Ledgerhand"
 affiliation: "the Warm Court, collector's office; secretly the Unbanked"
 status: alive
-first_appearance: 35
+first_appearance: 1
 ---
 
 ## Appearance
@@ -43,7 +43,7 @@ She wants the sealed world too — the Unbanked's paradise, where nothing leaks 
 
 ## Bonds
 
-**Corin** — the return she paid for and has never watched grow. She knows his name before she knows his face, and when she meets him in Slate Row she will look at him the way a surgeon looks at a chart: to check whether her own work held. He will be the first person to ask her about the fingers, and the first to hear her say *I don't remember* and understand that she means *I do*.
+**Corin** — the return she paid for and has never watched grow. She knows his name before she knows his face, and when she meets him in Slate Row she will look at him the way a surgeon looks at a chart: to check whether her own work held. He will be the first person to ask her about the fingers, and the first to hear her say *I don't remember* and understand that she means *I do*. *Ch 1:* she is a coat the colour of wet ash at the edge of a flare, a hand moving on a slate, and the same pause in a dark hand on a birth-slate in Low Kiln. He has filed the hand without a name and has not put the two together.
 
 **Rusk** — the other half of the purchase. He taught the boy; she bought him. They have not spoken plainly in twelve years and have arranged their lives so that they never have to. She has begun to be afraid that he is gentler with the boy than the work permits, which in her vocabulary is the same as saying he has begun to love him.
 
@@ -57,11 +57,11 @@ She wants the sealed world too — the Unbanked's paradise, where nothing leaks 
 
 ## Arc So Far
 
-No chapters are written yet. She enters twice before she enters: first as a grey shape at the edge of the flare light in Chicago, then as a collector's grey fingers at a table in Slate Row. The reader will not connect them for a very long time, and when they do, every report she ever wrote will reread differently.
+Chapter 1 gives the first of her two entrances before she enters. She is a grey shape at the edge of the flare light: a coat, a head, a hand, writing without stopping while the van burns. She is not named, not to Dan and not to the reader, who is allowed to think she caused the fire. The writing has the same rhythm of short strokes and a decided pause as the strange dark hand on the birth-slate in House Silt, and Dan sets the two side by side without putting them together. The fingers, the forged assessment, the forty and the unfinished apology are all still buried.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 35 (remembered at the crash) and Ch 110 (collector's table, Slate Row).
+- Ch 1: Appears only as the image at the edge of the flare light --- coat the colour of wet ash, hand on a slate, short strokes, a pause, more strokes, the writing not stopping when the fire takes the van. Unnamed in the Sarn narration and unremembered by name. She wrote a name before anyone saw the child's face; by morning that pause is sitting on a slab of grey stone within reach of a midwife's hand.
 
 ## Secrets (private)
 

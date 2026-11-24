@@ -45,7 +45,7 @@ She wants to be a person whose life is not organised around a man who might call
 
 ## Bonds
 
-**Daniel Marchetti** — her father. Love and resentment braided so tightly that she cannot pull one thread without the other. He is the man who promised a boat and never bought it, who died with her name lit on his phone, whose greatest act was to give his warmth to a stranger's child. She would trade all of it for one honest conversation. He carries her into Sarn as a debt he cannot settle, and reaches for a phone for her every time somebody dies.
+**Daniel Marchetti** — her father. Love and resentment braided so tightly that she cannot pull one thread without the other. He is the man who promised a boat and never bought it, who died with her name lit on his phone, whose greatest act was to give his warmth to a stranger's child. She would trade all of it for one honest conversation. He carries her into Sarn as a debt he cannot settle, and reaches for a phone for her every time somebody dies. *Ch 1:* she is a lit rectangle under a coat flap on the expressway and the nine-year promise gone down to weight; he does not look at the name.
 
 **Elena Rossi** — her mother, the woman who stopped waiting first. Nina learned the art from her and now fears she has perfected it. They love each other in the practical Marchetti way: by doing things and refusing to discuss them. Mother and daughter have never once said out loud what her father's absence did to them.
 
@@ -57,11 +57,11 @@ She wants to be a person whose life is not organised around a man who might call
 
 ## Arc So Far
 
-No chapters are written yet. She exists in the saga as an absence with a name: the glow under a sheet in the death scene, the photograph on the wall, the thing Dan will not look at. She will be known to the reader through his silences before she is ever known through her own words.
+Chapter 1 gives her the shape she will keep for thousands of chapters: a light under a coat flap and the weight of a sentence never finished. She has no words in the book yet and already carries the debt that made a man portable. The missed call on her own phone, the boat photograph in the drawer and the late card from Ostrowski are still offstage; the reader knows her only as the thing Dan refuses to look at.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 1 (the lit phone in the death scene).
+- Ch 1: Present only as the lit screen in his coat pocket on the expressway --- a name he will not look at, heavier than the phone --- and as the boat promised for nine years whose sentence has nothing left in it but weight. Not named in the Sarn narration; no line of her own.
 
 ## Secrets (private)
 

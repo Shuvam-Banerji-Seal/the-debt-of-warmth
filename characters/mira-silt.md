@@ -8,7 +8,7 @@ species: human (Grathic; returned thin)
 origin: "Low Kiln, Sill, Grath; House Silt"
 affiliation: "the Fishstairs, Sill; eel trade; House Silt"
 status: alive
-first_appearance: 5
+first_appearance: 1
 ---
 
 ## Appearance
@@ -20,6 +20,8 @@ Twenty-seven, broad-hipped, with eel slime dried on her sleeves and a small smil
 Fast, low, with the proverb turned sideways. She answers a question with a question and then answers it herself, which gives her the room to choose which answer the listener gets. She never tells a story with a beginning; she starts at the part where somebody is already in trouble. She has learned from Fen traders to mark accounts in knots rather than on slate, and will not write a name down if a knot will hold it. When she is being kind she becomes brisk, because kindness in her house is a thing done quickly before anyone can make a speech about it.
 
 - “You want to know. You don't want to know. I can see which one's winning.”
+- “The secret's in what happens to it after. I didn't tell anybody anything. There's nothing to tell. That's the whole of it.”
+- “It came from a warm house, that's all. There's barley in it and a little smoke and it's a crust, not a sermon.”
 - “Nineteen steps. Your sister counts them. I count the ones she doesn't take.”
 - “Don't ask a Fishstairs woman what she saw. She'll sell it to you and then it's yours and you'll have to carry it.”
 - “He's warm. That's all I'll say on a slate, and I'm saying it off the slate.”
@@ -41,13 +43,13 @@ She wants Dessa to stop reaching for a child she believes is dead, and she wants
 
 ## Bonds
 
-**Dessa Silt** — her sister, her room-mate, the woman whose child she has hidden for three years. Dessa suspects; Mira has begun to be afraid of the moment Dessa stops suspecting and knows. Everything between them is said in the language of barley, coughs and the nineteen steps.
+**Dessa Silt** — her sister, her room-mate, the woman whose child she has hidden for three years. Dessa suspects; Mira has begun to be afraid of the moment Dessa stops suspecting and knows. Everything between them is said in the language of barley, coughs and the nineteen steps. *Ch 1:* she crossed the room and pressed a crust of Vail-smoked barley into Dessa's hand in two brisk movements, stopping short of the slate to do it.
 
-**Corin** — the nephew she watches from a distance at the market and once followed as far as the Clay Yard. She has never called him anything, not even in her head, because a name is a thing that can be overheard.
+**Corin** — the nephew she watches from a distance at the market and once followed as far as the Clay Yard. She has never called him anything, not even in her head, because a name is a thing that can be overheard. *Ch 1:* she would not hold him and would not sit where the slate lay open, but pushed the wool back under him briskly with two movements before anyone could make a speech about it.
 
-**Sella Vail** — they have an arrangement: barley and silence. Mira has begun to resent the barley and has never once refused it, which is the precise shape of her complicity.
+**Sella Vail** — they have an arrangement: barley and silence. Mira has begun to resent the barley and has never once refused it, which is the precise shape of her complicity. *Ch 1:* she watched the hand in the door without moving, her thumb quiet in her pocket and the eel-bone put away.
 
-**Alda Reed** — they trade small facts and never the large one. Alda knows more about the birth; Mira knows more about what happened after it. Neither will sit at a table with a slate on it, and they have built a friendship entirely out of things said standing up.
+**Alda Reed** — they trade small facts and never the large one. Alda knows more about the birth; Mira knows more about what happened after it. Neither will sit at a table with a slate on it, and they have built a friendship entirely out of things said standing up. *Ch 1:* they worked the same room standing, each with her back to the writing.
 
 **Orra Weir** — her supplier at the Weir and her oldest friend, who wants the secret out and has said so twice. Mira has answered both times with the weather.
 
@@ -57,11 +59,11 @@ She wants Dessa to stop reaching for a child she believes is dead, and she wants
 
 ## Arc So Far
 
-No chapters are written yet. She enters as a woman at the dawn fish market who knows everybody's business and has never once given a straight answer, which makes her the most useful person in Sill and the least trusted.
+She is in the birth room from the first hours of Day 1 and is already arranged: the smile kept on the face like a door on the latch, the back turned to the slate, the eel-bones flicked and put away. She says the one true thing in the room --- that the secret is in what happens to a child after it is born --- in a form that can be taken as nothing, and follows it with *there's nothing to tell*. The knot-string and the barley account are still offstage; the woman who knows and will not say is not. Her marker is reconciled to Chapter 1: she is on stage here, not first seen at the Fishstairs in Chapter 5.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 5 (the Fishstairs at dawn).
+- Ch 1: Came in from the yard with eel slime dried on her sleeves and the cold on them; stood in the one patch of floor the slate did not reach, back to the writing and face to the door. Answered a question with a question and then her own answer: the secret is in what happens to a child after. Said she had told nobody and there was nothing to tell. Flicked an eel-bone against her thumb and put it away when the hand came; kept the small smile on the latch all night. Crossed the room to press a crust of brown-edged Vail-smoked barley bread into Dessa's hand, briskly, stopping short of the slate. The top of her left ear is missing --- a hook, she says; the scar says a knife.
 
 ## Secrets (private)
 

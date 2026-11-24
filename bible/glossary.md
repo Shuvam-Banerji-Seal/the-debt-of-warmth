@@ -26,6 +26,10 @@
 
 ## B
 
+**Birth-flower.** The branching red mark some infants are born with, shaped like frost on a pane or a burn gone into the skin. Hearth-maids call it a flower, cross two fingers over it and say nothing about the sign. Alda Reed crossed herself over Corin's on Stone 7, Y.H. 812, and covered the act with the word.
+
+**Birth-slate.** The flat slate a hearth-maid keeps within reach at a birth, on which the child and the day are entered. In Low Kiln it lies on the bench, and a midwife's hand goes to it before it goes to the child. A second hand may have written on it before anyone looked at the face.
+
 **The Bowl.** The Sere coming-of-age feast at sixteen, where a young person empties a bowl of warm wine and names a debt they intend to carry.
 
 **Bought breath.** A person sold for a term, usually a season or a year, to repay a debt. The common form of slavery in the Fenmarch.
@@ -181,6 +185,8 @@
 **L**
 
 **Ledgerhand.** The Court's script: Grathic grammar with the verbs removed, in a neat upright hand, all in the passive voice.
+
+**Levy.** The share a Grathic household owes to the account, spoken of in loaves and bits rather than named outright: three of the four loaves baked in Grain go on the levy. People speak around the word, not at the thing it counts.
 
 **The Listening Stones.** Standing stones in the high Rim against which the Vorr sit for days and come away with numbers.
 
@@ -348,7 +354,7 @@
 
 **Warm Court.** The institution that owns the Hearth, the banks and the Returns and calls itself the Keeping.
 
-**Warm-stone.** A Keldish stone that holds heat longer than any other substance in Sarn.
+**Warm-stone.** A Keldish stone that holds heat longer than any other substance in Sarn. In Low Kiln a common river stone, warmed at a neighbour's fire and wrapped in wool, does the same work for a newborn for a few hours; it is not a warm-stone and nobody calls it one.
 
 **Warm-stone grub.** A beetle larva of the deep mines that eats warm-stone from within and is a sign that a sweating may follow.
 

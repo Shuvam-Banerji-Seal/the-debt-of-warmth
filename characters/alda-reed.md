@@ -33,7 +33,7 @@ She attended Enna Vail's death in Y.H. 804 and sat with Sella through a night in
 
 ## Wounds & Fears
 
-Four hundred births and one she cannot account for. She fears collectors — not their tubes, which she has held, but their slates, which are always in a better hand than hers. She fears that the second notes are a treasonous thing and that keeping them has made her a person who waits for children to get worse. She fears Dessa's face in the street. Her contradiction: the woman who insists that everything be written down within three days has spent thirty years keeping a second record that cannot be shown to anyone, and calls it *not wanting trouble*.
+Four hundred births and one she cannot account for. On Day 1 the sign is made in front of witnesses and covered with a word and a date nobody asked for; from that hour she is a woman who has hidden a thing in a room where everybody is arranging silence. She fears collectors — not their tubes, which she has held, but their slates, which are always in a better hand than hers. She fears that the second notes are a treasonous thing and that keeping them has made her a person who waits for children to get worse. She fears Dessa's face in the street. Her contradiction: the woman who insists that everything be written down within three days has spent thirty years keeping a second record that cannot be shown to anyone, and calls it *not wanting trouble*.
 
 ## Desires
 
@@ -41,11 +41,13 @@ She wants one of the Court's physicians to read her notes and say the words she 
 
 ## Bonds
 
-**Corin** — the child she delivered and crossed herself over. She has watched him for three years without once saying what she saw, and has begun to suspect he knows that she knows.
+**Corin** — the child she delivered and crossed herself over. She has watched him for three years without once saying what she saw, and has begun to suspect he knows that she knows. *Ch 1:* she lifted him, cleaned him in a deliberate order (face, neck, groin, knees, cord), pressed the wool flat with the same two fingers that had made the sign, and would not say his name.
 
-**Sella Vail** — they have traded a silence since the boy was three days old. Sella has never asked what Alda wrote; Alda has never asked why Sella took the child. This is not friendship. It is an arrangement with a door in it that both women have agreed not to open.
+**Sella Vail** — they have traded a silence since the boy was three days old. Sella has never asked what Alda wrote; Alda has never asked why Sella took the child. This is not friendship. It is an arrangement with a door in it that both women have agreed not to open. *Ch 1:* the arrangement begins in the birth room, before a word is spoken between them: Alda lays the slate flat as the hand in the door goes back out.
 
-**Dessa Silt** — she lied to this woman about her own child and has taken her barley money from Sella's house ever since. When Dessa speaks to her in the street, Alda answers with the weather and hates the sound of her own voice.
+**Dessa Silt** — she lied to this woman about her own child and has taken her barley money from Sella's house ever since. When Dessa speaks to her in the street, Alda answers with the weather and hates the sound of her own voice. *Ch 1:* she delivered Dessa's child and met the unasked question with dates and weather, her hand on the slate rather than on the mother.
+
+**Mira Silt** — they work the same room standing and trade small facts at the door. *Ch 1:* neither sat where the slate lay open, and each kept her face arranged for the other.
 
 **Jorra Vail** — he knows she wrote something down the night Enna died and has never asked to see it. She has begun to be afraid of the day he does, because the boy in his house is the one thing Jorra could be persuaded to burn for.
 
@@ -55,11 +57,11 @@ She wants one of the Court's physicians to read her notes and say the words she 
 
 ## Arc So Far
 
-No chapters are written yet. She enters the book at a birth, with a stone in one hand and a slate in the other, and makes a sign with two fingers that the reader is allowed to notice and not allowed to understand yet.
+The two gestures that will define her are on the page in Chapter 1: the crossed sign she does not know she makes in front of strangers, and the exact, unasked-for dates with which she covers it. She has reached for the slate before the child, kept a second record in the little tin at her bodice (touched twice), written her thick round hand and thumb-mark beneath a neat dark one she did not write, and laid the slab flat on the bench at morning so that the room held no writing. She said the child was warm and breathing and that that was all she had set down. It was not. The lie to Dessa is three days away; the tin under the floorboard is years away from being read.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 1 (Corin's birth, Stone 7, Y.H. 812).
+- Ch 1: Delivered Corin in the front room of House Silt and worked with steady hands, clay under her nails. Reached for the slate before the child. Put her two fingers to the branching flower, noticed she had done it before witnesses, and covered the act with *birth-flower* plus an unasked-for history from Nine Pots: Y.H. 806, fourth day of Stone, a potter's third child, now a carter in Stonemouth. Touched the tin at her bodice twice. Gave a date and a weather report for the unasked question and said warm and breathing was all she had set down. Closed the slate flat on the bench while Sella Vail's hand hovered in the door.
 
 ## Secrets (private)
 
