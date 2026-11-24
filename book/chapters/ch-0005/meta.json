@@ -1,0 +1,95 @@
+{
+  "number": 5,
+  "title": "Nineteen Steps",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "A crust is not a sermon; a knot is not a name. Carry both in your hands and call it weather.",
+    "attribution": "A Fishstairs proverb, Sill"
+  },
+  "days": {"start": 7, "end": 9},
+  "when": "Days 7–9 · Stone 13–15, Y.H. 812",
+  "where": "The Vail kiln-house and the Fishstairs",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a seven-, then eight-, then nine-day-old body carried everywhere; present tense only for a beat or two of Chicago breaking through, with no voice tagged",
+  "mode": "normal",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "mira-silt",
+    "berr-clay",
+    "dessa-silt",
+    "fenna-clay",
+    "garl-vail"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "House Silt",
+    "the Slip Brook",
+    "the Ilm",
+    "the Cross",
+    "the Fishstairs",
+    "the north bridge",
+    "the Weir",
+    "Nine Pots",
+    "Chicago",
+    "Cook County Hospital"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Note That Did Not Come",
+      "day": 7,
+      "flashback": false,
+      "synopsis": "First light of Stone 13 in the Vail kiln-house, the quiet morning after the Drawing. The coals held under their ash; Sella Vail touches the widow's mark before she opens the kiln and at no other time, feeds the foundling from the house's own dish, puts the fold right without looking, and gives every instruction to the fire. The bed-under-the-roof and loft-above-the-shed arithmetic is performed again and nobody calls it triage. The boy, seven days old, turns his head toward a pot on the bench BEFORE anyone sets it down --- the expectation of a note, not the hearing of one --- and the pot, set down softly, gives nothing. He keeps the interval where the note should have been; the hearing count stays at five from four sources. Tarn comes up the yard with his broom, the small knife already back on the sill where it can be checked, sees the boy do the thing he himself does, and says nothing: the second ear present a third time for the reader only, and the first time Tarn has witnessed the boy's. Changes: under one roof there are now two people keeping the same silence, and the boy no longer keeps it alone. Advances T076, T036, T061 (non-hearing only), T071/T072, T060, T058/T079, T065. Withheld: no word for the sound, no explanation of yesterday's measure, no joining of the pauses.",
+      "target_words": 3000
+    },
+    {
+      "n": 2,
+      "title": "The Uncounted Year",
+      "day": 7,
+      "flashback": false,
+      "synopsis": "Later on Stone 13, the working day and dusk of the Vail house. Jorra is at the wheel with bone-coloured slip on his forearms and no slate dust today; he speaks to the pots and shifts the damper before Sella has finished. Tarn swept before light and will not say what he is owed; six years of a seven-year term counted, the seventh held back. Sella counts loaves and bits against the days to Kindling and will not give the number. The boy extends his private file to the death-house bench --- four, four, a knot the width of a thumb --- and files the interval of the missing note beside the two Ash ridges, the charred slate and the barrow of grey, joining none of them. The body humiliates him through it all: drool frozen at the corner, the head that goes where it wants, the hand that rises an inch toward the bench and comes down. Changes: the district's unspoken number enters the house as an absence, and the household's ordinary arithmetic is seen to be the same sorting the surgeon once performed in a trauma bay. Advances T077, T071/T072, T009, T013, T031, T035, T036, T058, T060. Withheld: no triage named, no figure spoken, no roll or box shown.",
+      "target_words": 2600
+    },
+    {
+      "n": 3,
+      "title": "Eels at the Fishstairs",
+      "day": 8,
+      "flashback": false,
+      "synopsis": "Dawn of Stone 14 at the Fishstairs below the north bridge. Sella carries the boy down for eels; gulls, salted perch, eel slime, wet rope and the cold off the water. Mira Silt is in her element: slime dried pale on her sleeves, the top of her left ear gone (a hook, she says; the scar says a knife), eel-bones flicked against her thumb while she decides whether to lie. She short-weights Berr Clay's levy order by two eels and he has paid her two marks short for the same six years; neither acknowledges the war. She will not sit where a slate is open and answers a question with a question and her own answer: he is warm, she will say it off the slate and not on one. When a number is spoken her hand goes to a cord at her waist; the boy sees the movement but not the knots. Changes: the boy meets a second kind of keeper, one whose accounts are carried on her person and cannot be confiscated, though he has no words for it. Advances T025, T077, T060, T071/T072, T081. Withheld: she does not say she knows him, the cord is not plainly shown, the word forty is not spoken, no diagnosis and no explanation.",
+      "target_words": 3600
+    },
+    {
+      "n": 4,
+      "title": "Steps Down to the Water",
+      "day": 8,
+      "flashback": false,
+      "synopsis": "Later the same morning at the Fishstairs and on the walk back up to the Clay Yard. Rumours are already in the air at dawn though they are sold at noon; the boy cannot read Grathic and hears figures he cannot spend. A collector's soft cuff crossing the bridge brings two present-tense sentences of a hospital cafeteria at four in the morning and a paper wrapper he finished because waste offended him --- no voice, no name --- and then the river closes over. He counts the steps down to the water and the landing that is not a step, and the eel-bones Mira flicks and puts away. Sella buys eels, says nothing about the walk, carries him home with the bucket swinging at her knee. Changes: the old life's thrift and the new life's hunger are the same appetite, and the pocket-place is reached once more with nothing in it. Advances T004/T044, T071/T072, T025, T075, T081. Withheld: no voice tagged, no explanation of the Return, no name for the woman at the flare.",
+      "target_words": 2800
+    },
+    {
+      "n": 5,
+      "title": "Nineteen Steps, One Knot",
+      "day": 9,
+      "flashback": false,
+      "synopsis": "Morning of Stone 15 at the market's edge. Dessa Silt stands at the end of her nineteen steps with the cough called weather, the pale sieve-wire scar under her thumb and the door-shut smile; she counts because counting keeps a larger thing out of the room, and the boy is carried to the edge of that count without her knowing it. Across the market a girl with green at the corner of her mouth is a silhouette who says nothing (T050/T051). Mira's knot-string is glimpsed: a cord of grey wool touched when a number is spoken, and a separate cord she has never taken to Nine Pots (T059). She gives the boy a crust quickly, briskly, into the fold at his side --- barley smoke, a brown edge, a warmth he cannot eat and cannot refuse --- before anyone can make a speech about it. Changes: the boy watches a woman keep accounts in a material no Court can confiscate; the crust crosses from her hand to his basket entered nowhere. Advances T008/T073, T025, T059, T060, T071/T072, T078, T081. Withheld: Dessa does not look into the basket, no one says forty, Mira does not say she knows, the cough is not diagnosed, Fenna does not speak.",
+      "target_words": 3800
+    },
+    {
+      "n": 6,
+      "title": "The File Beside the Gap",
+      "day": 9,
+      "flashback": false,
+      "synopsis": "Dusk of Stone 15, back under the Vail roof. Sella banks the coals with the back of a broken pot, puts the fold right without looking, and says nothing about the market or the crust; the door does not quite shut and the wind gets in at a finger's width. The boy sets the day's new objects side by side with the old: the cord, the eel-bones, Dessa's nineteen steps, the death-house bench, the interval where the pot's note did not come --- beside the two Ash ridges, the charred slate and the barrow of grey, joining none of them. Garl's coat keeps its salt shape, his hollow seat its lean, his proverb its place in the house's mouth. The count stays four, four and a gap, and the gap is the part he keeps. Changes: the private file has grown in three days without a single entry anyone else could read, and the household has begun, silently, to count what it has against the days before Kindling. Advances T072, T009, T013, T031, T058, T060, T077. Pull forward: Account-day and the Cross, a fourth sighting of the neat hand still unjoined, Alda's second notes still unread, the Five still ahead. Forward, not closed.",
+      "target_words": 2500
+    }
+  ]
+}
