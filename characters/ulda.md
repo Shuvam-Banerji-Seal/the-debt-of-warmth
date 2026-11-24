@@ -8,7 +8,7 @@ species: human (Grathic; foundling, one name only)
 origin: "Low Kiln, Sill, Grath; no house, no kin, no slate until the Court entered him"
 affiliation: "the Fishstairs; the Waiting Room clerk; quietly, the keeping of small secrets for people who pay"
 status: alive
-first_appearance: 6
+first_appearance: 16
 ---
 
 ## Appearance
@@ -19,6 +19,7 @@ Three years older than Corin and twice as easy in the world, with a narrow face 
 
 Fast, warm, fluent in the proverb-form of Low Kiln and quicker than the adults at it. He is the only child in the yard who can make the kiln-hands laugh, and he does it by saying the thing the adults are thinking in a voice that makes it harmless. He never says *I want*; he says *they say*, *everyone knows*, *your house wouldn't mind*, which is a way of wanting without owning the want. When he is lying he gets affectionate, which is the tell that Mira Silt has learned to read and that Corin, for years, took for kindness. He has a habit of finishing another person's sentence for them, correctly, and then looking surprised that it was not what they meant.
 
+- "—and a good deal," said at the well in Ch 16, finishing a kiln-hand's sentence in a quick, warm, affectionate voice. "That's the whole of the account. Everyone knows it. I'm only saying." This is his first plain sound in the book: a borrowed sentence, harmless on the surface, that makes the yard laugh before anybody has decided whether to be offended.
 - "Everyone knows the Vail boy isn't Vail. I'm not saying it. I'm saying everyone knows it. There's a difference."
 - "You heard it before I tapped it, didn't you? That's not a trick. That's a thing you should be careful with, Corin. I'm only saying."
 - "I didn't tell the clerk. I told him a thing and he wrote it down. That's not the same, is it? You tell me, because I can never tell which part's mine."
@@ -33,6 +34,8 @@ He has sold small secrets at the Fishstairs since he was nine — which househol
 
 Three years later he will tell the same clerk about the branching red mark under the boy's sleeve, which he saw at the Weir and has kept for exactly the right moment, and the clerk will write that down too. He will do it because he has begun to be afraid that Corin will one day be taken by the Court and Ulda will not be there to be useful, which in his vocabulary is the same as being abandoned. He will say afterwards that he did it to protect him. He will believe it for a while.
 
+**On his age in these chapters.** In Y.H. 813, when he first comes plainly into the yard in Chapter 16, he is a small foundling of three or four in somebody else's cast-offs, not the eleven-year-old of the dialogue above. The sentences about the Waiting Room clerk, the paid loaf, the mark under the sleeve and the sale at eleven belong to years hence and are written here as the shape of the man he will become, not as words this child speaks now. In Chapter 16 he is given one borrowed sentence and nothing of his own; his sheet was reconciled to this on his first appearance. If he is given a second speaking appearance while the boy is still an infant, treat the later dialogue as years ahead of him and give him no secret to sell yet.
+
 ## Wounds & Fears
 
 He has no house and has made a career of being the person who fits into other people's. His wound is that he cannot want anything in his own voice: every desire comes out as *they say* or *everyone knows*, so that he can deny it if it is refused. He fears the name-pot, because a foundling entered on a slate can be entered again, and fears more than that the day Corin looks at him with that clinical, quiet attention and sees the thing he did at eleven. His contradiction: the boy who tells everyone's secrets has kept one of his own for three years — the mark — and calls the keeping of it loyalty, when it is a thing he has been saving to spend.
@@ -43,7 +46,7 @@ He wants a place in a household, any household, where the door closes on him and
 
 ## Bonds
 
-**Corin** — his friend, the only person he has never tried to manage, which is why the betrayal will work. Ulda knows the boy hears things and has spent years pretending not to notice so that the boy will keep being ordinary beside him. The tension is a love that expresses itself as a careful inventory of the beloved's weaknesses, held in reserve.
+**Corin** — his friend, the only person he has never tried to manage, which is why the betrayal will work. Ulda knows the boy hears things and has spent years pretending not to notice so that the boy will keep being ordinary beside him. The tension is a love that expresses itself as a careful inventory of the beloved's weaknesses, held in reserve. *Ch 16:* the boy in the basket is still an infant and Ulda does not know him yet; he turns his own head toward a pot a half-beat after the boy turns his, is as surprised as anybody and cannot say why, and rubs the green sliver at his neck. The half-beat is the physical tell of what he will one day do, filed in the boy's private file without a cause written across it.
 
 **Mira Silt** — she reads his affection as the tell it is and has told him once, at the Fishstairs, that a boy who sells a secret has no way of buying it back. He answered with the weather and has never forgotten that she did not laugh.
 
@@ -57,11 +60,11 @@ He wants a place in a household, any household, where the door closes on him and
 
 ## Arc So Far
 
-No chapters are written yet. He enters as the grin in the clay yard, finishing a kiln-hand's sentence for him, turning his head toward a pot half a beat after the foundling does.
+He enters in Chapter 16 as the grin at the well, finishing a kiln-hand's sentence in the affectionate voice that makes the yard laugh, a small foundling of three or four in a coat with a man's shoulders and breeches cut off at the knee, worn like a uniform he was never measured for. The gap where a front tooth had been goes into every circle of the yard ahead of him and comes back with permission to say anything; the sliver of green lead-glaze on a string at his neck is rubbed with his thumb while he decides what a person wants to hear, which is usually what the person has already said and a little more. He says what everybody is thinking in a tone that makes it harmless, and he never says *I want* --- he says *they say*, *everyone knows*, *your house wouldn't mind*. When a woman sets a pot down his head goes toward it a half-beat after the boy's, after the knuckle and after the note, then stops and comes back; he rubs the green sliver and cannot say why he turned, and is as surprised as anybody. When a man from Slate Row whose name is on no roll holds out a warm loaf, his mouth opens on a sentence with the shape of *everyone* or *your house* and stops where a want would have stood, because he has no form of words for a want that is his own and is too quick a child to say a thing that could be refused to him by name. The loaf goes into the pocket of the cast-off coat, which holds a bit of string and nothing any clerk could read, with no slate between them; the man says something low that does not carry and the child nods as though he had understood it. He is named on the sheet but not in the narration. He stays a shape in the boy's file --- a delay, a sliver, a loaf, an unfinished sentence --- and no secret has changed hands that any slate could read, no betrayal has been paid. The loaf has begun to gather interest in an account he cannot read, and the half-beat is held for the day it lands as the physical tell of what he did.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 6 (the Clay Yard, the shared crust).
+- Ch 16: Day 75, Silt 16, at the yard well. Glimpsed plainly for the first time and not named in the narration: a small foundling in cast-off clothes worn like a uniform, a gap where a front tooth had been, a sliver of green lead-glaze on a string at his neck, smelling of other people's hearths and small ale. Finished a kiln-hand's sentence for him in a quick, warm, affectionate voice --- *and a good deal, that's the whole of the account. Everyone knows it. I'm only saying* --- and made the yard laugh, then did the same for the woman at the rope. When a pot was set down on the well-lip, turned his head toward it a half-beat after the boy's, after the knuckle and the note, stopped, rubbed the green sliver with his thumb and could not say why he had turned. When a man from Slate Row whose name was on no roll held out a warm barley loaf, his mouth opened on a sentence that stopped where a want would have stood; the loaf went into his pocket with no slate between them, the man said something low that did not carry, and he nodded as though he had understood. He rubbed the sliver again and went back to watching the grown faces. No secret spoken, no slate seen, no betrayal paid; the half-beat and the loaf filed as separate objects in the boy's private account.
 
 ## Secrets (private)
 
