@@ -1,0 +1,111 @@
+{
+  "number": 15,
+  "title": "The Water Goes Around",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "The river goes around a thing a house has set down and leaves it standing, and the yard says the river was never coming for it. Count what is left on the shelf. That is the whole of the account.",
+    "attribution": "A saying of the drying racks, Low Kiln"
+  },
+  "days": {"start": 68, "end": 74},
+  "when": "Days 68–74 · Silt 9–15, Y.H. 813",
+  "where": "Low Kiln, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a sixty-eight-to-seventy-four-day-old body carried everywhere; no present-tense Chicago break and no \\memory{} tag are planned this chapter --- the old life stays offstage --- and there is no departure from his eyes, no Court or collector-interior scene",
+  "mode": "passage",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "berr-clay",
+    "orra-weir",
+    "garl-vail",
+    "dessa-silt"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "Greybank",
+    "Nine Pots",
+    "Slate Row",
+    "the Clay Yard",
+    "the drying racks",
+    "the yard well",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the back room",
+    "the Debt Loft",
+    "House Silt",
+    "the Fishstairs",
+    "the plank walk",
+    "the Weir",
+    "the Eel House",
+    "the Ilm",
+    "the Singing Sill",
+    "the Slip Brook",
+    "the Cross",
+    "the Bone Orchard"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Brown Sheet",
+      "day": 68,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 68, Silt 9, Ninthday, before light through dusk at the Fishstairs, the low houses below the sill, the plank walk and under the Vail kiln-house roof. The Ilm comes up over the lower steps and takes the low houses; the water comes up the road in a thin brown sheet. The boy, sixty-eight days old and carried to the edge at a half-pace from every open slate, hears the note of a whole district under strain --- an enormous vessel with a slow, certain failure --- and files it among the intervals with no word in Grathic and no hand to point (T061/T082, T071/T072). No accident is made of the weak board: it is trodden or gone by the flood, and the reader is made to remember it, not given a death (T083). Sella gives every instruction to the wool, the fire and the bucket and never to the basket, says the house, touches the widow's mark only before an opening, and tells the fire it is the thaw (T058, T079, T085); the soft-cuffed clerk keeps his place with his slate for a measure nobody called (T090, T080). Changes: the river's pressure becomes a sound the boy must file as a shape and cannot name. Advances T083, T085, T061/T082, T071/T072, T090, T080, T058, T079, T092, T065, T086. Withheld: no explanation of the district's note, no seventh hearing, no joining of trays, no accident on the board, no ending.",
+      "target_words": 2600
+    },
+    {
+      "n": 2,
+      "title": "One in Twelve Over the Water",
+      "day": 69,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 69, Silt 10, Tenthday, Account-day, first light through dusk at the flooded moot-step at the Cross and under the roof. Berr Clay, red cord folded under his coat and green glaze at one corner of his mouth, wipes his thumb twice and reads one in twelve over the water and the basket, takes himself out of his own sentence and goes off toward High Kiln with his box still locked and the true deduction inside (T015, T041, T047, T077). The true subtraction goes over the basket and is spoken by nobody; the number for what the flood will cost passes from fist to mouth to shoulder and reaches nobody. The bell goes four, four and a gap and nobody crosses himself (T078); the soft-cuffed clerk is still set at the Fishstairs for the uncalled measure (T090). The boy keeps the printed figure and the unspoken one on separate trays as he keeps the low sounds, and spends neither (T072). Changes: the account goes on undiminished over a district under water, and the boy sees that a figure read aloud is not the same as a figure paid. Advances T015, T041, T047, T077, T090, T078, T080, T061/T082, T071/T072, T086, T058. Withheld: no one in three, no Marra, no sixth sighting of the neat dark hand, no joining, no figure given to the boy.",
+      "target_words": 2300
+    },
+    {
+      "n": 3,
+      "title": "The Water Goes Around",
+      "day": 70,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 70, Silt 11, Firstday, morning through dusk at the drying racks, the death-house ridge two doors down and under the Vail roof. The flood goes around the clean dark line where the Ash ridge turned rather than taking it, and a neighbour says the house was saved; Sella does not say it, gives the instruction to the fire and the wool and says the house (T009, T058, T013). The new hairline of grey in the Vail corner lies finer than the old line and is still unswept, called thaw (T092). The boy sets the standing line, the water that went around it and the unswept grey in three places that do not touch, and plants the later heresy as a plain fact without a word for it: a thing can be left where it is and still be kept (T009, T013, T092). Garl Vail is kept by his salt-stiff coat, hollow seat and the proverb said to the pot; the tile debt is neither paid, settled nor done with. Changes: the house's own way of keeping is seen to be a leaving-alone, and the boy cannot enter it. Advances T009, T013, T092, T058, T086, T060, T071/T072, T065, T078. Withheld: no sweeping of the grey, no naming of the heresy, no recognition, no joining to Dessa's uncollected warmth, no ending.",
+      "target_words": 2400
+    },
+    {
+      "n": 4,
+      "title": "The Foot That Stayed Cold",
+      "day": 71,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 71, Silt 12, Secondday, before light through dusk below the sill at the water's edge, at the yard well and under the roof. A child wading below the sill comes up with a foot that stays cold after the water falls; a woman wraps it in wool and calls it the cold, and the yard calls the water weather, so the two never meet (T083, T085). The boy, seventy-one days old and carried at the edge of the standing water, notices the cold that does not come back when the water goes, the way he once read an extremity going before the core, and has no Grathic word and no hand to place on it (T012, T071/T072). The seed of the silt-leach of Arc 3 is planted without a name and without a cure. Sella turns the basket with her knee out of the draught, instructs the wool and the fire, and does not go toward the child (T058, T060). Changes: a plain physical fact enters the district and is called nothing; the boy's clinical reading is exercised and cannot act. Advances T083, T085, T012, T058, T060, T071/T072, T061/T082. Foreshadowing planted: the cold foot held past the rescue, to be named only years hence (new thread to be opened at close). Withheld: no silt-leach named, no treatment, no recognition, no cause written across the water and the foot, no seventh hearing.",
+      "target_words": 2400
+    },
+    {
+      "n": 5,
+      "title": "Two Records in Wool and Tin",
+      "day": 72,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 72, Silt 13, Thirdday, morning through dusk as the water falls, at the Fishstairs and three doors down in House Silt. Mira Silt works the eels with pale slime dried on her sleeves, silt in the hollow of her neck and her head held right where the top of her left ear had been; when a buyer names a figure her thumb goes under her apron to the grey cord and shifting a creel shows the second cord twisted twice beneath it, never carried to Nine Pots, never lifted at a door, neither knot counted. The knot for the thin child upriver is not touched, and her board lies beside Orra Weir's knot-string and does not touch it (T059, T025, T024). Orra is at the flood's edge with her board and cord only, no word spoken and the watch continuing (T024). Three doors down the round pewter tin above the empty bed keeps its pale fold and thumb-bright rub, and the fold of grey wool where the small pale river stone once lay holds only the hollow; neither tin is opened, nobody says the woman's name or the number in her thumb, and Alda's sixth page stays turned toward a floorboard the boy cannot name (T089, T074, T023, T086). Changes: three private records stand unread in two materials while the water goes down. Advances T059, T025, T024, T089, T074, T023, T086, T081, T058, T071/T072. Withheld: no knot counted, no word forty, no tin opened, no name or number from Dessa, no recognition, no quest to a bank.",
+      "target_words": 2500
+    },
+    {
+      "n": 6,
+      "title": "The Space Under the Rack",
+      "day": 73,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 73, Silt 14, Fourthday, morning through dusk in the Clay Yard, the Vail wheel-shed and under the roof. The sweeping that has already happened twice goes around the ridge again, and the space under the lowest rack where whole slate should have stood is gone around as wide as a pail of hot water set where a child might knock it, entered by nobody (T013, T031). Jorra Vail comes through the finger's-width-open door off the wheel-shed with fine grey slate dust worked past the bend of his little finger, not the bone-coloured slip of the wheel, and names neither the men who came nor what was said; he speaks to the wheel --- it does not care whose hands, only if they are steady --- and moves the damper with the bent finger leading ahead of Sella's unfinished sentence, and the household straightens around his silence (T035, T031). He does not say the back room is cold and does not look toward the bed or the basket; *he's not Vail* stays sealed and the promise of the foundling's name to the people who burn slates is ungiven and not withdrawn (T057, T058, T084). Tarn's broom goes over the collector's road without turning and his head does not turn at a vessel's note; the seventh year is nearly gone and still held (T036, T076). Changes: the yard's avoidance becomes visible as a shape the boy keeps without standing to ask. Advances T013, T031, T035, T057, T058, T084, T036, T076, T061/T082, T071/T072. Withheld: no back room entered, no men named, no slate counted, no accident, no calling of the loan, no ending.",
+      "target_words": 2400
+    },
+    {
+      "n": 7,
+      "title": "What the Water Left",
+      "day": 74,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 74, Silt 15, Fifthday, first light through dusk in the mud of the Clay Yard, at the yard well and under the Vail roof. The flood recedes into mud and the district counts what it took in loaves and glances and not in figures; the boy, seventy-four days old, keeps the count exactly against the house's bad arithmetic, and the number for the flood goes from fist to mouth to shoulder and reaches nobody (T071/T072, T077). The weak board at the plank walk is gone or trodden by the flood and no accident is made of it; the honeyed ice, the stopping hairlines and the early Singing Sill note are spoken of now as the thaw that was, each kept on its own tray (T083, T085, T092). Under the roof the carried fire lies under blind ash and the back of a broken pot, warming the boards by degrees and missing one breath in every four; the new grey lies finer than the old clean dark line and neither is swept (T065, T088, T013, T092). One brown-edged crust lies stiff in the fold with the empty place beside it still unnamed, and the boy cannot lift his hand to either (T086, T060). Changes: the water's going is not an ending; the count crosses into Silt 16 unspent. Advances T071/T072, T077, T083, T085, T092, T013, T065, T088, T086, T060, T061/T082, T086. Withheld: no sixth hearing, no joining of trays, no name for the empty place, no recognition of Dessa, no Marra, no one in three, no experiment or rank change, no ending.",
+      "target_words": 2500
+    }
+  ]
+}
