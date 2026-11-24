@@ -1,6 +1,6 @@
-# An Endless Chronicle
+# The Cold That Remembers
 
-A serial reincarnation saga written chapter by chapter, without end, by the free model **`hy4-flash-free`** (OpenCode Go), and typeset as decorated LaTeX books.
+*A Saga of the Kept and the Spent.* A reincarnation isekai written chapter by chapter, without end, by the free model **`hy4-flash-free`** (OpenCode Go), and typeset as decorated LaTeX books. A Chicago trauma surgeon dies in a blizzard fire and wakes as an infant in Sarn, a world where magic is the theft of warmth.
 
 - **The author** (`hy4-flash-free` via `opencode run`) invents and writes everything in the story: the world bible, past life, cast and character sheets, arcs and twists, every scene, the chapter-end chronicles, the HTML/CSS/JS maps, the SVG portraits and the TikZ headpiece above each chapter.
 - **The press** (`forge/`, built by Claude) writes no story. It hands the author one task at a time, validates and repairs the results, protects finished chapters, typesets the volumes, commits, pushes and publishes the PDFs, and resumes after any crash.
@@ -11,7 +11,7 @@ A serial reincarnation saga written chapter by chapter, without end, by the free
 ## Where to read it
 | What | Where |
 |---|---|
-| **The complete book** (every chapter so far, the cast with portraits, the atlas, the lore, the reckoning of days and three indices) | **`The-Brass-Seam.pdf` at the root of this repository**, rebuilt after every chapter |
+| **The complete book** (every chapter so far, the cast with portraits, the atlas, the lore, the reckoning of days and three indices) | **`The-Cold-That-Remembers.pdf` at the root of this repository**, rebuilt after every chapter |
 | The same, plus the volume in progress | the `latest` release |
 | Completed volumes (20 chapters each) | `pdf/vol-NNN.pdf` |
 | Progress | `STATUS.md` |
