@@ -198,6 +198,42 @@ def push() -> None:
 
 
 # ------------------------------------------------------------ the author
+def digest_events(raw: str) -> tuple[str, list[str], int, int, bool, int]:
+    """Parse `opencode run --format json` events: text, sessions, tokens, errors."""
+    texts, tools, sessions = [], [], []
+    tok_in = tok_out = n = 0
+    errored = False
+    for line in raw.splitlines():
+        line = line.strip()
+        if not line.startswith("{"):
+            if TRANSIENT.search(line):
+                errored = True
+            continue
+        try:
+            ev = json.loads(line)
+        except ValueError:
+            continue
+        n += 1
+        sid = ev.get("sessionID")
+        if sid and sid not in sessions:
+            sessions.append(sid)
+        part = ev.get("part") or {}
+        t = ev.get("type")
+        if t == "text" and part.get("text"):
+            texts.append(part["text"])
+        elif t in ("tool_use", "tool") or part.get("type") == "tool":
+            tools.append(str(part.get("tool") or part.get("name") or "tool"))
+        elif t == "step_finish":
+            tk = part.get("tokens") or {}
+            tok_in += int(tk.get("input") or 0)
+            tok_out += int(tk.get("output") or 0) + int(tk.get("reasoning") or 0)
+        elif t == "error":
+            errored = True
+            texts.append("ERROR: " + json.dumps(ev.get("error") or ev)[:600])
+    summary = f"[{len(tools)} tool calls: {', '.join(sorted(set(tools)))[:300]}]\n" if tools else ""
+    return summary + "\n".join(texts), sessions, tok_in, tok_out, errored, n
+
+
 def call_author(task: str, title: str, state: dict, allowed: set[str] | None = None,
                 current_chapter: int | None = None) -> str:
     """Run one OpenCode task. Retries transient failures with back-off forever."""
@@ -212,7 +248,7 @@ def call_author(task: str, title: str, state: dict, allowed: set[str] | None = N
             t0 = time.time()
             try:
                 p = subprocess.Popen([OPENCODE, "run", "--archived", "--auto", "--agent", "build",
-                                      "-m", MODEL, "--title", f"chronicle: {title}", task],
+                                      "--format", "json", "-m", MODEL, "--title", f"chronicle: {title}", task],
                                      cwd=ROOT, stdout=lf, stderr=subprocess.STDOUT, text=True,
                                      start_new_session=True)
                 try:
@@ -227,13 +263,20 @@ def call_author(task: str, title: str, state: dict, allowed: set[str] | None = N
                 lf.write(f"\n[orchestrator] failed to launch: {e}\n")
                 rc = 127
             dt = time.time() - t0
-        out = logfile.read_text(encoding="utf-8", errors="replace").split("## OUTPUT\n", 1)[-1]
-        out = re.sub(r"\x1b\[[0-9;]*m", "", out)
+        raw = logfile.read_text(encoding="utf-8", errors="replace").split("## OUTPUT\n", 1)[-1]
+        out, sessions, tok_in, tok_out, errored, n_events = digest_events(raw)
+        with open(logfile, "a", encoding="utf-8") as lf:
+            lf.write(f"\n## DIGEST\nrc={rc} {dt:.0f}s tokens in={tok_in} out={tok_out} errors={errored}\n{out[-4000:]}\n")
+        for sid in sessions:  # the log keeps everything; free OpenCode's database
+            subprocess.run([OPENCODE, "session", "delete", sid], cwd=ROOT, capture_output=True, timeout=120)
+        state["tokens_in"] = state.get("tokens_in", 0) + tok_in
+        state["tokens_out"] = state.get("tokens_out", 0) + tok_out
         state["calls"] += 1
         restore_protected(allowed, current_chapter)
         save_state(state)
-        tail = out.strip()[-400:]
-        transient = (rc != 0 and (TRANSIENT.search(tail) or rc in (124, 127) or dt < 60)) or not out.strip()
+        tail = (out.strip() or raw.strip())[-400:]
+        transient = ((rc != 0 and (TRANSIENT.search(raw[-3000:]) or rc in (124, 127) or dt < 60))
+                     or n_events == 0 or (errored and tok_out == 0))
         if transient:
             state["failures_in_row"] += 1
             save_state(state)
@@ -682,7 +725,7 @@ def write_status(state: dict) -> None:
              f"- Words of story: **{total_words:,}**",
              f"- Current chapter: {state['chapter']} (step: {state['step']}, scene {state['scene']})",
              f"- Last chapter: {last.get('title', '-') if last else '-'} ({last.get('when', '') if last else ''})",
-             f"- Author calls so far: {state['calls']}",
+             f"- Author calls so far: {state['calls']} (tokens in {state.get('tokens_in', 0):,}, out {state.get('tokens_out', 0):,})",
              f"- Updated: {datetime.now():%Y-%m-%d %H:%M}", "",
              f"**The complete book PDF** is at the repository root: `{re.sub(r'[^A-Za-z0-9]+', '-', meta['title']).strip('-')}.pdf`",
              "(every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also",
