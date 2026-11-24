@@ -44,7 +44,21 @@ def escape(s: str) -> str:
 _INLINE = re.compile(r"\*\*(.+?)\*\*|__(.+?)__|\*(?!\s)(.+?)(?<!\s)\*|(?<![\w])_(?!\s)(.+?)(?<!\s)_(?![\w])")
 
 
+_MACRO_ITALIC = re.compile(r"\\(?:memory|emph|textit|letterhand)\{([^{}]*)\}")
+_MACRO_PLAIN = re.compile(r"\\(?:person|place|lore|textsc|sound|inscription|textbf)(?:\[[^\]]*\])?\{([^{}]*)\}")
+
+
+def unmacro(s: str) -> str:
+    """Story macros sometimes leak into the author's Markdown notes: render them."""
+    s = _MACRO_ITALIC.sub(lambda m: "*" + m.group(1) + "*", s)
+    s = _MACRO_PLAIN.sub(lambda m: m.group(1), s)
+    s = re.sub(r"\\dropcap\{([^{}]*)\}\{([^{}]*)\}", r"\1\2", s)
+    s = re.sub(r"\\(scenebreak|ldots)\b", lambda m: "…" if m.group(1) == "ldots" else "", s)
+    return s
+
+
 def inline(s: str) -> str:
+    s = unmacro(s)
     out, pos = [], 0
     for m in _INLINE.finditer(s):
         out.append(escape(s[pos:m.start()]))
