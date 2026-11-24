@@ -1,0 +1,60 @@
+% Front cover: oxblood leather, gold tooling, emblem. Designed by the orchestrator.
+% Title text comes from build/gen/meta.tex (generated from bible/book.json).
+\documentclass{article}
+\usepackage[paperwidth=6in,paperheight=9in,margin=0pt]{geometry}
+\usepackage{fontspec,xcolor,graphicx,tikz,pgfornament}
+\usetikzlibrary{calc,fadings,decorations.pathmorphing}
+\pagestyle{empty}
+\setmainfont{EBGaramond}[Path=fonts/,Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic]
+\newfontfamily\CinzelDeco{CinzelDecorative}[Path=fonts/,Extension=.ttf,UprightFont=*-Regular,BoldFont=*-Bold]
+\newfontfamily\CinzelFont{Cinzel}[Path=fonts/,Extension=.ttf,UprightFont=*-Regular,BoldFont=*-Bold]
+\newfontfamily\FellFont{IMFeEN}[Path=fonts/,Extension=.otf,UprightFont=*rm28P,ItalicFont=*it28P]
+\definecolor{gold}{HTML}{D4AF5A}
+\definecolor{goldhi}{HTML}{F3DC93}
+\definecolor{golddk}{HTML}{8A6A28}
+\definecolor{tooling}{HTML}{1E0905}
+\input{build/gen/meta.tex}
+\IfFileExists{design/cover/emblem.tex}{\def\HasEmblem{1}}{}
+% gilded text: dark tooled shadow + gold face + faint highlight
+\newcommand\gilt[2][4.4in]{\tikz[baseline=(t.base)]{%
+  \node[inner sep=0,text width=#1,align=center,text=tooling,opacity=0.85] at (0.6pt,-0.8pt) {#2};
+  \node[inner sep=0,text width=#1,align=center,text=golddk] at (0.25pt,-0.3pt) {#2};
+  \node[inner sep=0,text width=#1,align=center,text=gold] (t) at (0,0) {#2};
+  \node[inner sep=0,text width=#1,align=center,text=goldhi,opacity=0.35] at (-0.25pt,0.3pt) {#2};}}
+\begin{document}
+\noindent\begin{tikzpicture}[x=1in,y=1in]
+  \useasboundingbox (0,0) rectangle (6,9);
+  \node[inner sep=0,anchor=south west] at (0,0) {\includegraphics[width=6in,height=9in]{design/textures/leather.jpg}};
+  % blind-tooled outer frame
+  \draw[tooling,line width=2.2pt,opacity=0.7] (0.34,0.34) rectangle (5.66,8.66);
+  % gilt frames
+  \draw[gold,line width=1.4pt] (0.32,0.32) rectangle (5.68,8.68);
+  \draw[gold,line width=0.5pt] (0.42,0.42) rectangle (5.58,8.58);
+  \draw[golddk,line width=0.4pt] (0.62,0.62) rectangle (5.38,8.38);
+  % corner tooling
+  \foreach \p/\s/\a in {{(0.47,8.53)}/none/north west,{(5.53,8.53)}/v/north east,{(0.47,0.47)}/h/south west,{(5.53,0.47)}/c/south east}{
+    \node[inner sep=0,anchor=\a] at \p {\pgfornament[width=1.15in,color=gold,symmetry=\s]{63}};}
+  % title block
+  \node at (3,7.05)
+    {\fontsize{32}{39}\selectfont\CinzelDeco\bfseries\gilt[4.5in]{\MetaTitle}};
+  \node at (3,6.12) {\pgfornament[width=2.6in,color=gold]{84}};
+  \node at (3,5.72)
+    {\FellFont\itshape\fontsize{15}{18}\selectfont\gilt[4.3in]{\MetaSubtitle}};
+  % emblem
+  \begin{scope}[shift={(3,3.55)}]
+    \fill[tooling,opacity=0.55] (0,0) circle (1.27);
+    \draw[gold,line width=1.2pt] (0,0) circle (1.22);
+    \draw[golddk,line width=0.5pt] (0,0) circle (1.12);
+    \foreach \a in {0,7.5,...,352.5}{\draw[gold,line width=0.45pt] (\a:1.16) -- (\a:1.22);}
+    \foreach \a in {0,30,...,330}{\fill[gold] (\a:1.36) circle (0.025);}
+    \foreach \a in {15,45,...,345}{\fill[golddk] (\a:1.36) circle (0.015);}
+    \ifdefined\HasEmblem \input{design/cover/emblem.tex}
+    \else \node at (0,0) {\pgfornament[width=1.55in,color=gold]{196}};\fi
+  \end{scope}
+  % tagline + byline
+  \node[text width=4.2in,align=center] at (3,1.62)
+    {\FellFont\itshape\fontsize{10.5}{13}\selectfont\color{gold!80}\MetaTagline};
+  \node at (3,1.18) {\pgfornament[width=1.2in,color=gold]{88}};
+  \node at (3,0.88) {\CinzelFont\fontsize{9}{11}\selectfont\addfontfeature{LetterSpace=18}\gilt[4in]{\MakeUppercase{\MetaByline}}};
+\end{tikzpicture}
+\end{document}

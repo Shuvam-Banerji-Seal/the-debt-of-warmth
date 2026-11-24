@@ -1,0 +1,8 @@
+% makeindex style for the chronicle indices
+headings_flag 1
+heading_prefix "\\CRindexletter{"
+heading_suffix "}\n"
+delim_0 "\\dotfill "
+delim_1 "\\dotfill "
+delim_2 "\\dotfill "
+delim_n ", "
