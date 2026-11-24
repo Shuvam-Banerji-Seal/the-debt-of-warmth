@@ -28,6 +28,10 @@ def ell(cx, cy, rx, ry, w=1.2, o=1.0, colour=INK):
             'stroke-width="%.2f" stroke-opacity="%.2f" fill="none"/>'
             % (cx, cy, rx, ry, colour, w, o))
 
+def wash(d, o, colour=INK):
+    return ('<path d="%s" fill="%s" fill-opacity="%.2f" stroke="none"/>' %
+            (d, colour, o))
+
 def clippath(name, d):
     return '<clipPath id="%s"><path d="%s"/></clipPath>' % (name, d)
 
@@ -39,8 +43,8 @@ def group(items, clip=None):
 # ---------------------------------------------------------------------------
 FACE = ('M 210 196 C 210 156 236 122 286 116 C 330 112 366 136 374 178 '
         'C 378 198 378 214 374 226 C 372 234 374 240 376 246 '
-        'C 378 251 375 256 370 256 C 365 256 363 261 360 267 '
-        'C 356 288 343 306 326 316 C 314 324 304 329 294 330 '
+        'C 378 251 375 256 370 256 C 363 258 358 266 352 276 '
+        'C 346 292 336 306 326 316 C 314 324 304 329 294 330 '
         'C 274 332 254 324 238 310 C 222 296 212 276 208 250 '
         'C 205 228 206 206 210 196 Z')
 HAIR = ('M 208 200 C 208 154 236 116 288 110 C 336 106 372 132 380 178 '
@@ -95,9 +99,15 @@ def bez(p0, p1, p2, p3, t):
     return (u**3*p0[0] + 3*u*u*t*p1[0] + 3*u*t*t*p2[0] + t**3*p3[0],
             u**3*p0[1] + 3*u*u*t*p1[1] + 3*u*t*t*p2[1] + t**3*p3[1])
 
+def socket_light(x, y):
+    s = 0.95 * gauss(x, y, 250, 210, 34, 15)
+    s = max(s, 0.95 * gauss(x, y, 330, 214, 30, 15))
+    s = max(s, 0.55 * gauss(x, y, 250, 240, 30, 12))
+    return min(1.0, s)
+
 def face_light(x, y):
     term = 298 + 0.10 * (y - 220)
-    s = smooth(term - 8, term + 40, x)
+    s = smooth(term - 4, term + 30, x)
     s = max(s, 0.74 * gauss(x, y, 250, 212, 28, 16))
     s = max(s, 0.84 * gauss(x, y, 328, 217, 26, 15))
     s = max(s, 0.92 * gauss(x, y, 352, 263, 24, 14))
@@ -195,10 +205,10 @@ for i in range(38):
     t = i / 37.0
     sx, sy = bez(*hairline, t)
     ex, ey = bez(*crown, t)
-    op = 0.30 + 0.38 * smooth(0.2, 0.8, t)
+    op = 0.44 + 0.40 * smooth(0.2, 0.8, t)
     locks.append(quad(sx, sy, (sx + ex) / 2 + 8 * math.sin(math.pi * t),
                       (sy + ey) / 2 - 8, ex, ey,
-                      1.25 if i % 3 else 1.6, op))
+                      1.45 if i % 3 else 1.8, op))
 add(group(locks, 'hair'))
 fine = []
 for i in range(30):
@@ -236,7 +246,6 @@ add(path('M 316 224 C 324 216 342 215 352 223', 1.9))
 add(path('M 316 225 C 325 231 342 231 351 224', 0.9, 0.7))
 add(path('M 328 224 C 329 219 336 219 340 224', 1.0, 0.85))
 add(ell(334, 223, 1.8, 1.8, 0.8, 0.9))
-add(group(shade(226, 360, -76, 86, 0.46, 3.0, 0.65, 0.40, face_light), 'face'))
 add(path('M 232 239 C 244 245 264 245 272 238', 0.9, 0.55))
 add(path('M 318 233 C 327 238 341 238 350 232', 0.8, 0.5))
 for j in range(3):
@@ -260,15 +269,14 @@ add(path('M 336 277 C 336 281 337 284 336 287', 0.7, 0.5))
 add(path('M 222 258 C 236 249 252 249 264 256', 1.4, 0.6))
 add(path('M 264 258 C 272 274 276 288 274 300', 1.4, 0.7))
 add(path('M 272 264 C 278 276 280 288 278 296', 0.9, 0.45))
-add(path('M 340 269 C 335 283 329 295 325 302', 1.2, 0.6))
-add(path('M 350 280 C 348 294 340 308 330 316', 1.1, 0.5))
+add(path('M 338 270 C 334 280 331 290 328 296', 1.1, 0.55))
 add(path('M 248 306 C 260 317 274 323 286 325', 1.0, 0.5))
 add(path('M 310 326 C 322 322 334 315 342 306', 1.0, 0.45))
 add(group(shade(230, 356, -180, 70, 0.78, 3.4, 0.6, 0.24,
                 lambda x, y: 1.0), 'stubble'))
 
 # 4. Light
-add(group(shade(206, 382, -166, 132, 0.72, 4.2, 0.7, 0.34,
+add(group(shade(206, 382, -166, 132, 0.72, 4.2, 0.7, 0.50,
                 face_light, bow=-3, cross=True), 'face'))
 add(group(cylinder_shade((258, 326), (262, 390), 20, 15, 0.7, 0.34,
                          lambda x, y: 0.35 + 0.65 * smooth(285, 345, x)), 'neck'))
@@ -276,7 +284,7 @@ add(group(cylinder_shade((330, 322), (344, 390), 20, 15, 0.7, 0.46,
                          lambda x, y: 0.5 + 0.5 * smooth(310, 350, x)), 'neck'))
 add(path('M 262 332 C 256 356 252 376 250 392', 1.2, 0.6))
 add(path('M 336 330 C 340 356 344 376 346 394', 1.2, 0.55))
-add(group(shade(310, 508, 350, 800, 0.06, 9.0, 0.68, 0.25,
+add(group(shade(310, 508, 350, 800, 0.06, 9.0, 0.68, 0.16,
                 torso_light, bow=-6, cross=True), 'torso'))
 add(group(shade(96, 320, 440, 800, -0.05, 14, 0.62, 0.13,
                 torso_light, bow=4), 'torso'))
