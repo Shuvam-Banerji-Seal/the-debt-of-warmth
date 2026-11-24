@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Greybank, the Court's gate</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:1600px;height:2200px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 46% 44%, rgba(255,249,228,.42), rgba(125,90,50,.12) 62%, rgba(66,42,20,.32) 100%),
+  linear-gradient(99deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 42%, rgba(120,80,40,.11));}
+svg{display:block;position:absolute;inset:0;width:1600px;height:2200px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 1600 2200" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72',
+      SEAWASH='#a9bfb2', GOLD='#a9833c', GREEN='#7c8a5e', MG='#5d6b46',
+      SLIP='#9a8f76', PAPER='#e9d9b6';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(4180812);
+  function rr(a,b){return a+(b-a)*rnd();}
+
+  function jit(pts,amp,seg){
+    seg=seg||8; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  /* ---------- layers ---------- */
+  E('defs',{});
+  E('image',{x:0,y:0,width:1600,height:2200,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.5});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gRoad=E('g',{}),
+      gBuild=E('g',{}), gFrame=E('g',{}), gLabel=E('g',{});
+
+  /* foxing, water-marks and the ghost of a fold */
+  for(var fi=0;fi<32;fi++){
+    E('ellipse',{cx:rr(70,1530),cy:rr(70,2130),rx:rr(14,66),ry:rr(9,40),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,1400)+' '+rr(300,1900)+')'},gWash);
+  }
+  [540,1080].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:2140,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:56,y1:1130,x2:1544,y2:1130,stroke:'#7a5a30','stroke-width':1,opacity:0.06},gWash);
+
+  /* soft ground washes: the dry Court terrace, the working flat, the wet south bank */
+  function wash(pts,color,op){E('path',{d:D(jit(pts,7,26),true),fill:color,opacity:op},gWash);}
+  wash([[70,560],[420,538],[900,552],[1360,568],[1540,610],[1540,990],[1120,1006],[560,996],[70,968]],'#d8c8a2',0.17);
+  wash([[60,1046],[480,1038],[1000,1052],[1540,1062],[1540,1188],[1000,1202],[480,1194],[60,1182]],'#a9bcb2',0.20);
+  wash([[70,1200],[520,1190],[1060,1206],[1540,1196],[1540,1740],[1060,1766],[520,1752],[70,1730]],'#d8bf90',0.15);
+  wash([[300,1660],[720,1648],[1140,1662],[1240,1880],[680,1900],[260,1876]],'#cfc9a8',0.16);
+  wash([[1160,1480],[1540,1470],[1540,1860],[1180,1874]],'#c2b79a',0.13);
+
+  /* ---------- terrain ---------- */
+  function tree(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M0 0 L0 -14',stroke:INK,'stroke-width':1},g);
+    E('path',{d:'M-7 -6 L0 -18 L7 -6 Z',fill:GREEN,stroke:INK,'stroke-width':0.8,opacity:0.8},g);
+    E('path',{d:'M-4 -12 L0 -21 L4 -12 Z',fill:'#6f7d53',stroke:INK,'stroke-width':0.7,opacity:0.75},g);
+  }
+  function tuft(x,y,s,p){
+    E('path',{d:'M-5 2 q-2 -8 -6 -12 M0 2 L0 -15 M5 2 q2 -7 7 -11 M-2 2 q-1 -6 -3 -9',
+      fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.8,
+      transform:'translate('+x+' '+y+') scale('+s+')'},p);
+  }
+  function field(x,y,w,h,crop,p){
+    var g=E('g',{},p);
+    E('path',{d:D(jit([[x,y],[x+w,y-rr(2,10)],[x+w+rr(0,8),y+h],[x-rr(0,8),y+h+rr(0,6)]],2.4,18),true),
+      fill:crop==='turnip'?'#c3c39a':'#d3c48c',stroke:FADE,'stroke-width':1,opacity:0.55},g);
+    var k;
+    for(k=1;k<7;k++){
+      var fx=x+(w*k/7);
+      E('path',{d:'M'+fx.toFixed(1)+' '+(y+3)+' q'+(rr(-4,4)).toFixed(1)+' '+(h/2)+' '+(rr(-5,5)).toFixed(1)+' '+(h-4),
+        fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.5},g);
+    }
+    for(k=0;k<11;k++){
+      var sx=x+rr(8,w-8),sy=y+rr(10,h-8);
+      E('path',{d:'M'+sx.toFixed(1)+' '+sy.toFixed(1)+' l-2 -5 M'+sx.toFixed(1)+' '+sy.toFixed(1)+' l2 -5',
+        fill:'none',stroke:MG,'stroke-width':0.9,opacity:0.65},g);
+    }
+  }
+  /* the lip of the dry terrace on which the Court builds */
+  E('path',{d:D(jit([[170,742],[420,736],[700,746],[960,738],[1220,750],[1500,742]],3,16),false),
+    fill:'none',stroke:FADE,'stroke-width':2.2,opacity:0.8},gTerr);
+  for(var ti=0;ti<64;ti++){
+    var hx=rr(180,1490),hy=742+rr(2,12);
+    E('line',{x1:hx,y1:hy,x2:hx-4,y2:hy+rr(5,11),stroke:FADE,'stroke-width':0.9,opacity:0.55},gTerr);
+  }
+  /* willows on the north bank, reeds along the wet south bank */
+  for(var wt=0;wt<18;wt++){tree(rr(90,480),rr(940,1004),rr(0.5,0.8),gTerr);}
+  for(var rt=0;rt<160;rt++){tuft(rr(70,1530),rr(1186,1256),rr(0.6,1.15),gTerr);}
+  for(rt=0;rt<44;rt++){tuft(rr(70,460),rr(1010,1060),rr(0.5,0.9),gTerr);}
+  field(1240,1380,240,190,'barley',gTerr);
+  field(1250,1600,220,150,'barley',gTerr);
+  field(110,1440,200,180,'turnip',gTerr);
+
+  /* ---------- water ---------- */
+  function river(pts,w0,w1,p){
+    var jp=jit(pts,1.7,14),left=[],right=[],k;
+    for(k=0;k<jp.length;k++){
+      var a=jp[Math.max(0,k-1)],b=jp[Math.min(jp.length-1,k+1)];
+      var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/le,ny=dx/le,t=k/(jp.length-1),w=w0+(w1-w0)*t;
+      left.push([jp[k][0]+nx*w,jp[k][1]+ny*w]);
+      right.push([jp[k][0]-nx*w,jp[k][1]-ny*w]);
+    }
+    var band=left.concat(right.reverse());
+    E('path',{d:D(band,true),fill:SEAWASH,stroke:SEA,'stroke-width':1.1,opacity:0.55},p);
+    E('path',{d:D(jp),fill:'none',stroke:SEA,'stroke-width':Math.max(1.2,w1*0.55),'stroke-linecap':'round',opacity:0.85},p);
+    E('path',{d:D(jp),fill:'none',stroke:INK,'stroke-width':1,'stroke-linecap':'round',opacity:0.65},p);
+  }
+  var ilm=[[58,1016],[190,1024],[330,1020],[470,1036],[610,1048],[760,1062],[900,1076],[1050,1090],[1200,1102],[1360,1118],[1548,1132]];
+  river(ilm,10,21,gWater);
+  /* tide ripples and the grey silt shoals below the quay */
+  for(var rp=0;rp<26;rp++){
+    var px=rr(120,1460),py=rr(1070,1150);
+    E('path',{d:'M'+px.toFixed(1)+' '+py.toFixed(1)+' q7 -3 14 0',fill:'none',stroke:INK,'stroke-width':0.8,opacity:0.35},gWater);
+  }
+  E('path',{d:D(jit([[560,1070],[760,1082],[940,1098],[960,1110],[740,1098],[540,1086]],2.4,18),true),
+    fill:'#a3987c',stroke:FADE,'stroke-width':0.8,opacity:0.35},gWater);
+  /* the winter ford: the river that bore no collector in Y.H. 811 */
+  E('path',{d:'M636 1038 L690 1088 L744 1140',fill:'none',stroke:RED,'stroke-width':1.6,'stroke-dasharray':'5 7',opacity:0.6},gWater);
+  E('path',{d:'M670 1034 L724 1084 L778 1136',fill:'none',stroke:RED,'stroke-width':1.6,'stroke-dasharray':'5 7',opacity:0.6},gWater);
+
+  /* ---------- roads ---------- */
+  function road(pts,p,col,dash,w){
+    E('path',{d:D(jit(pts,1.8,14)),fill:'none',stroke:col||INK,'stroke-width':w||2,
+      'stroke-dasharray':dash||'6 5','stroke-linecap':'round',opacity:0.75},p||gRoad);
+  }
+  road([[58,936],[260,928],[420,914],[520,900]]);              /* the Clay Road from Sill */
+  road([[952,806],[1120,708],[1300,610],[1500,538],[1548,522]]); /* the Salt Road to Vhal */
+  road([[1300,934],[1370,1060],[1420,1210],[1460,1380],[1500,1560]]); /* the Hearth Road */
+  road([[380,1000],[620,994],[860,1000],[1100,1010]]);        /* the quay street */
+  road([[560,1000],[540,930]]);                               /* factor's house to quay */
+  road([[900,1000],[900,910]]);                               /* counting house to quay */
+  road([[1300,1014],[1240,926]]);                             /* granaries to quay */
+  road([[720,1010],[720,1230],[740,1320]]);                   /* ford road down to the south bank */
+  road([[240,1010],[220,1200],[260,1320]]);                   /* west bank way */
+  road([[1400,1190],[1500,1250],[1540,1360]]);                /* east bank way */
+
+  /* ---------- buildings ---------- */
+  function house(x,y,w,h,p,big){
+    var g=E('g',{},p);
+    var l=x-w/2,r=x+w/2,t=y-h,b=y;
+    E('path',{d:'M'+(l-2)+' '+b+' L'+(l+rr(-2,2)).toFixed(1)+' '+(t+4)+' L'+(x-2)+' '+(t-2)+' L'+(r+rr(-2,2)).toFixed(1)+' '+(t+4)+' L'+(r+2)+' '+b+' Z',
+      fill:big?'#e6d8b8':'#efe3c6',stroke:INK,'stroke-width':big?1.9:1.5},g);
+    E('path',{d:'M'+(l-5)+' '+(t+4)+' L'+x+' '+(t-h*0.42)+' L'+(r+5)+' '+(t+4),
+      fill:'none',stroke:INK,'stroke-width':big?1.7:1.2},g);
+    E('path',{d:'M'+(x-w*0.13)+' '+b+' L'+(x-w*0.13)+' '+(b-h*0.56)+' L'+(x+w*0.06)+' '+(b-h*0.56)+' L'+(x+w*0.06)+' '+b,
+      fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.85},g);
+    E('rect',{x:x+w*0.22,y:b-h*0.68,width:w*0.13,height:h*0.2,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.8},g);
+    return g;
+  }
+  function smoke(x,y,p){
+    E('path',{d:'M'+x+' '+y+' q-7 -8 1 -14 q7 -6 0 -12',fill:'none',stroke:INK,
+      'stroke-width':1,'stroke-linecap':'round',opacity:0.5},p);
+  }
+  function granary(x,y,w,h,p){
+    var g=E('g',{},p), l=x-w/2,r=x+w/2,t=y-h,b=y;
+    E('path',{d:'M'+(l-3)+' '+b+' L'+(l+3)+' '+(t+6)+' L'+x+' '+(t-10)+' L'+(r-3)+' '+(t+6)+' L'+(r+3)+' '+b+' Z',
+      fill:'#e4d4ae',stroke:INK,'stroke-width':1.9},g);
+    E('path',{d:'M'+(l+6)+' '+(t+5)+' L'+(r-6)+' '+(t+5),fill:'none',stroke:INK,'stroke-width':1,opacity:0.7},g);
+    for(var i=0;i<5;i++){
+      var vx=l+14+i*(w-28)/4;
+      E('path',{d:'M'+vx.toFixed(1)+' '+(t+18)+' L'+vx.toFixed(1)+' '+(t+30),stroke:INK,'stroke-width':1.4,opacity:0.8},g);
+    }
+    E('path',{d:'M'+(x-15)+' '+b+' L'+(x-15)+' '+(b-h*0.52)+' L'+(x+15)+' '+(b-h*0.52)+' L'+(x+15)+' '+b,
+      fill:'#cbbb92',stroke:INK,'stroke-width':1.4},g);
+    E('line',{x1:x-15,y1:b-h*0.26,x2:x+15,y2:b-h*0.26,stroke:INK,'stroke-width':0.8,opacity:0.7},g);
+    for(var s=0;s<3;s++){
+      E('ellipse',{cx:l+18+s*16,cy:b-5,rx:9,ry:5,fill:'#d8c89c',stroke:FADE,'stroke-width':0.8},g);
+    }
+    return g;
+  }
+  function counting(x,y,w,h,p){
+    var g=E('g',{},p);
+    house(x,y,w,h,g,true);
+    /* a hanging slate-shield and salt-paper left out in the damp */
+    E('path',{d:'M'+(x+w*0.34)+' '+(y-h)+' L'+(x+w*0.34)+' '+(y-h-14)+' L'+(x+w*0.52)+' '+(y-h-14)+' L'+(x+w*0.52)+' '+(y-h)+' Z',
+      fill:'#efe3c6',stroke:INK,'stroke-width':1},g);
+    E('path',{d:'M'+(x+w*0.37)+' '+(y-h-9)+' L'+(x+w*0.49)+' '+(y-h-9),stroke:RED,'stroke-width':1.2},g);
+    for(var i=0;i<3;i++){
+      var px=x-w*0.42+i*w*0.12;
+      E('path',{d:'M'+px.toFixed(1)+' '+(y-h-2)+' q'+(rr(-6,6)).toFixed(1)+' -8 '+(rr(-8,8)).toFixed(1)+' -16',
+        fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.6},g);
+    }
+    return g;
+  }
+  function bankHall(x,y,w,h,p){
+    var g=E('g',{},p), l=x-w/2,r=x+w/2,t=y-h,b=y;
+    E('path',{d:'M'+(l-4)+' '+b+' L'+(l+4)+' '+(t+8)+' L'+x+' '+(t-8)+' L'+(r-4)+' '+(t+8)+' L'+(r+4)+' '+b+' Z',
+      fill:'#e6d8b8',stroke:INK,'stroke-width':2},g);
+    E('path',{d:'M'+x+' '+(t-14)+' L'+(x+7)+' '+(t-4)+' L'+(x-7)+' '+(t-4)+' Z',fill:RED,stroke:INK,'stroke-width':0.9},g);
+    for(var i=0;i<7;i++){
+      var gx=l+16+i*(w-32)/6;
+      E('line',{x1:gx,y1:b-h*0.64,x2:gx,y2:b-h*0.14,stroke:INK,'stroke-width':1.3},g);
+    }
+    E('line',{x1:l+10,y1:b-h*0.64,x2:r-10,y2:b-h*0.64,stroke:INK,'stroke-width':1.4},g);
+    E('rect',{x:x-11,y:b-h*0.24,width:22,height:h*0.24,fill:'#cbbb92',stroke:INK,'stroke-width':1.2},g);
+    return g;
+  }
+  function quay(x0,x1,y,p){
+    var g=E('g',{},p);
+    E('path',{d:'M'+x0+' '+y+' L'+x1+' '+y+' M'+x0+' '+(y+12)+' L'+x1+' '+(y+12),
+      stroke:INK,'stroke-width':1.8},g);
+    for(var px=x0;px<=x1;px+=22){
+      E('line',{x1:px,y1:y,x2:px,y2:y+12,stroke:INK,'stroke-width':0.7,opacity:0.7},g);
+      E('line',{x1:px+5,y1:y+12,x2:px+3,y2:y+40,stroke:FADE,'stroke-width':1.1,opacity:0.75},g);
+    }
+    /* a hand-crane, a barrel and a heap of grain sacks */
+    E('path',{d:'M470 '+y+' L470 '+(y-56)+' L516 '+(y-56)+' M516 '+(y-56)+' L516 '+(y-34),
+      fill:'none',stroke:INK,'stroke-width':2},g);
+    E('path',{d:'M470 '+(y-56)+' L452 '+(y-70),fill:'none',stroke:INK,'stroke-width':1},g);
+    E('path',{d:'M1070 '+y+' L1070 '+(y-48)+' L1106 '+(y-48),fill:'none',stroke:INK,'stroke-width':2},g);
+    E('ellipse',{cx:1000,cy:y-9,rx:11,ry:14,fill:'#d3be93',stroke:INK,'stroke-width':1.2},g);
+    E('path',{d:'M989 '+(y-16)+' q11 -5 22 0 M989 '+(y-2)+' q11 -5 22 0',fill:'none',stroke:INK,'stroke-width':0.8,opacity:0.7},g);
+    for(var s=0;s<4;s++){
+      E('path',{d:'M'+(700+s*18)+' '+(y-2)+' q9 -12 18 0 z',fill:'#ddc99c',stroke:FADE,'stroke-width':0.9},g);
+    }
+    return g;
+  }
+  function barge(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-44 0 L44 0 L34 12 L-34 12 Z',fill:'#d8c39a',stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M-12 0 L-12 -22 L20 -22 L20 0',fill:'#e6d8b8',stroke:INK,'stroke-width':1.2},g);
+    E('path',{d:'M2 -22 L2 -58 L26 -50',fill:'none',stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M2 -56 L26 -50 L2 -44 Z',fill:'#b9a276',stroke:INK,'stroke-width':1},g);
+    for(var i=0;i<3;i++){E('ellipse',{cx:-26+i*10,cy:-5,rx:6,ry:4,fill:'#d3be93',stroke:FADE,'stroke-width':0.8},g);}
+    return g;
+  }
+  function gull(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-22 0 q10 -12 22 -2 q12 -10 22 2 q-11 5 -22 -1 q-11 6 -22 -1 z',fill:'none',stroke:INK,'stroke-width':1},g);
+    E('path',{d:'M0 -2 l3 -3 l4 2',fill:'none',stroke:INK,'stroke-width':0.9},g);
+    E('circle',{cx:1,cy:-3,r:0.9,fill:INK},g);
+    return g;
+  }
+  function grave(x,y,p){
+    var g=E('g',{},p);
+    E('path',{d:'M'+(x-7)+' '+y+' q7 -7 14 0 z',fill:'#cfc3a3',stroke:FADE,'stroke-width':1},g);
+    E('path',{d:'M'+(x-5)+' '+(y-2)+' l2 -6 l3 2 l3 -5 l2 9',fill:'none',stroke:FADE,'stroke-width':0.9},g);
+  }
+  function slatePost(x,y,p){
+    var g=E('g',{},p);
+    E('path',{d:'M'+x+' '+y+' L'+x+' '+(y-34)+' L'+(x+20)+' '+(y-34)+' L'+(x+20)+' '+y,
+      fill:'none',stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M'+(x+3)+' '+(y-28)+' L'+(x+17)+' '+(y-28)+' M'+(x+3)+' '+(y-21)+' L'+(x+14)+' '+(y-21),
+      stroke:RED,'stroke-width':1,opacity:0.8},g);
+  }
+  function stall(x,y,p){
+    var g=E('g',{},p);
+    E('rect',{x:x-16,y:y-8,width:32,height:14,fill:'#e6d8b8',stroke:INK,'stroke-width':1},g);
+    E('path',{d:'M'+(x-18)+' '+(y-8)+' L'+x+' '+(y-18)+' L'+(x+18)+' '+(y-8)+' z',fill:'#b8a279',stroke:INK,'stroke-width':1},g);
+  }
+
+  /* the Court's quarter on the dry north terrace */
+  bankHall(760,676,132,66,gBuild);
+  house(640,684,42,28,gBuild,false);
+  house(892,688,44,30,gBuild,false);
+  house(320,776,46,30,gBuild,false);
+  /* the factor's house, the Counting House, the granaries */
+  house(540,856,166,70,gBuild,true);
+  E('path',{d:'M478 856 L478 826 q62 -18 124 0 L602 856',fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.5},gBuild);
+  counting(900,860,124,58,gBuild);
+  granary(1158,868,124,72,gBuild);
+  granary(1296,878,124,72,gBuild);
+  granary(1432,888,110,70,gBuild);
+  /* the quay and the river trade */
+  quay(360,1120,1002,gBuild);
+  barge(812,1090,0.9,gBuild);
+  barge(1260,1118,0.72,gBuild);
+  /* the south-bank market and houses */
+  [640,708,776,844].forEach(function(sx){stall(sx,1302,gBuild);});
+  slatePost(920,1306,gBuild);
+  [[360,1270],[420,1248],[500,1282],[1000,1260],[1080,1284],[1160,1258],[1270,1300],[340,1400],[420,1380],[520,1420],[980,1400],[1090,1420]].forEach(function(c){
+    house(c[0],c[1],42,28,gBuild,false);
+  });
+  smoke(640,1300,gBuild);
+  /* the burial grounds beyond the river */
+  E('path',{d:D(jit([[320,1660],[640,1650],[980,1664],[1120,1700],[1090,1880],[700,1896],[330,1876]],3,20),true),
+    fill:'none',stroke:FADE,'stroke-width':1.4,'stroke-dasharray':'7 6',opacity:0.8},gBuild);
+  for(var gi=0;gi<24;gi++){grave(rr(350,1060),rr(1690,1860),gBuild);}
+  E('path',{d:'M740 1320 L740 1640',fill:'none',stroke:FADE,'stroke-width':1.2,'stroke-dasharray':'3 5'},gBuild);
+  /* a brine-gull, cut small in the upper margin */
+  gull(1360,438,1.0,gBuild);
+  gull(1420,462,0.7,gBuild);
+
+  /* ---------- lettering ---------- */
+  function T(x,y,text,o,p){
+    o=o||{};
+    var t=E('text',{x:x,y:y,'font-family':o.font||'Cinzel','font-size':o.size||16,
+      fill:o.fill||INK,'letter-spacing':o.ls||0,'text-anchor':o.anchor||'start',
+      opacity:(o.opacity==null?1:o.opacity),'font-weight':o.weight||null,
+      stroke:o.halo===false?null:PAPER,'stroke-width':o.halo===false?null:3.2,
+      'stroke-linejoin':'round','paint-order':'stroke',
+      transform:o.rot?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gLabel);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||20;
+    lines.forEach(function(ln,k){T(x,y+k*lh,ln,{font:'FellIt',size:o.size||13,fill:o.fill||'#574226',opacity:o.opacity||0.94});});
+  }
+  function leader(x1,y1,x2,y2){E('path',{d:'M'+x1+' '+y1+' L'+x2+' '+y2,fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.6},gLabel);}
+
+  /* the river and the roads */
+  T(200,1000,'upriver — Sill, 18 leagues',{font:'FellIt',size:13,fill:SEA,rot:-2});
+  T(1440,1152,'downriver — the Sallow, 80 leagues below Sill',{font:'FellIt',size:11,fill:SEA,rot:3,anchor:'middle'});
+  T(900,1120,'the Ilm',{font:'FellIt',size:24,fill:SEA,rot:4});
+  T(300,900,'the Clay Road',{font:'FellIt',size:13,fill:FADE,rot:-2});
+  leader(300,904,360,916);
+  T(1136,672,'the Salt Road — Vhal, 62 leagues',{font:'FellIt',size:13,fill:FADE,rot:-32});
+  T(1348,1252,'the Hearth Road — the Hearthseat, 140 leagues',{font:'FellIt',size:12,fill:RED,rot:74});
+  T(600,1166,'the winter ford',{font:'FellIt',size:11,fill:RED,rot:38});
+
+  /* the named houses of the town */
+  T(760,626,'the bank at Greybank',{font:'Cinzel',size:19,ls:1,anchor:'middle'});
+  T(760,646,'where the drawn measure is pressed into a vessel',{font:'FellIt',size:11,fill:FADE,anchor:'middle'});
+  T(540,780,'the Court\'s factor\'s house',{size:18,ls:0.5,anchor:'middle'});
+  leader(540,786,540,816);
+  T(540,798,'the tally for Sill is kept here',{font:'FellIt',size:11,fill:FADE,anchor:'middle'});
+  T(900,798,'the Counting House',{size:18,anchor:'middle'});
+  leader(900,804,900,832);
+  T(900,812,'Vhaleni factor — glass, grain, quiet ash',{font:'FellIt',size:11,fill:FADE,anchor:'middle'});
+  T(1300,830,'the Court\'s granaries',{size:18,anchor:'middle'});
+  T(1300,848,'grain held against the levy',{font:'FellIt',size:11,fill:FADE,anchor:'middle'});
+  T(740,960,'the Greybank quay',{font:'FellIt',size:14,fill:SEA,anchor:'middle'});
+  T(760,1336,'the market',{font:'Fell',size:14,anchor:'middle'});
+  T(920,1336,'slate-post',{font:'FellIt',size:10,fill:FADE,anchor:'middle'});
+  T(700,1926,'the Greybank burial grounds',{font:'Cinzel',size:18,ls:1,anchor:'middle'});
+  T(700,1946,'thin returns laid without a name',{font:'FellIt',size:11,fill:FADE,anchor:'middle'});
+  T(1210,1580,'the barley fields',{font:'FellIt',size:12,fill:MG,anchor:'middle'});
+  T(210,1510,'the turnip grounds',{font:'FellIt',size:12,fill:MG,anchor:'middle'});
+  T(800,580,'GREYBANK',{font:'FellSC',size:26,ls:9,fill:FADE,anchor:'middle',opacity:0.5});
+
+  /* marginal notes in the cartographer's voice */
+  note(108,286,[
+    'Greybank stands eighteen leagues downriver of Sill.',
+    'Here a man of the clay towns sees the Court at full',
+    'size for the first time: a factor, a granary, a slate',
+    'and a soft way of speaking that leaves no speaker in it.'
+  ],{size:13,lh:19});
+  note(108,520,[
+    'The Clay Road ends at the factor\'s house; the Hearth',
+    'Road begins at the granaries and is spoken of in Grath',
+    'as if it were a fever. A loaded cart makes three',
+    'leagues a day on good road, four if the driver is cruel.'
+  ],{size:13,lh:19});
+  note(1040,1330,[
+    'The tally for Sill lies in a tin on the factor\'s shelf.',
+    'One figure struck through stands above in a second',
+    'hand. Both figures stand; neither has been added.'
+  ],{size:12,lh:18});
+  note(108,1440,[
+    'In the Long Cold of Y.H. 811 the Ilm lay under ice',
+    'for ninety-four days and no collector could cross',
+    'from this quay. The dotted way is the winter ford.'
+  ],{size:12,lh:18,fill:RED});
+  note(108,1620,[
+    'In the Counting House contracts are written on',
+    'salt-paper and left in the damp; a law that rots is',
+    'no law, which the Vhaleni account a virtue. The',
+    'factor keeps three dry documents in a private drawer.'
+  ],{size:12,lh:18});
+  note(108,1780,[
+    'The widow\'s mark of a house in Sill was confirmed',
+    'here and entered as a kindness. Kindness is entered.',
+    'Brine-gulls come inland in hard winters and steal',
+    'anything a man is holding against the cold.'
+  ],{size:12,lh:18});
+
+  /* ---------- title cartouche ---------- */
+  E('path',{d:'M252 72 L1348 72 L1370 94 L1370 234 L1348 256 L252 256 L230 234 L230 94 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.95},gFrame);
+  E('path',{d:'M260 82 L1340 82 L1360 102 L1360 226 L1340 246 L260 246 L240 226 L240 102 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M170 164 q30 -22 56 0 q-26 22 -56 0 z M1430 164 q-30 -22 -56 0 q26 22 56 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(800,142,'GREYBANK, THE COURT\'S GATE',{font:'CinzelDec',size:33,ls:2,anchor:'middle'});
+  T(800,180,'the granary town where the Clay Road ends and the Hearth Road begins',{font:'FellIt',size:18,anchor:'middle',fill:FADE});
+  T(800,216,'surveyed and inked in Y.H. 812 — the Thin Year',{font:'FellSC',size:13,ls:2,anchor:'middle',fill:RED});
+  for(var st=0;st<25;st++){
+    var sx=252+st*45.6;
+    E('path',{d:'M'+sx+' 88 l2.3 4.6 l5 0 l-3.9 3.3 l1.5 4.7 l-4.9 -2.9 l-4.9 2.9 l1.5 -4.7 l-3.9 -3.3 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 232 l2.3 -4.6 l5 0 l-3.9 -3.3 l1.5 -4.7 l-4.9 2.9 l-4.9 -2.9 l1.5 4.7 l-3.9 3.3 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---------- compass ---------- */
+  var rx=1450,ry=356;
+  E('circle',{cx:rx,cy:ry,r:50,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.65},gFrame);
+  E('circle',{cx:rx,cy:ry,r:40,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.45},gFrame);
+  for(var ci=0;ci<16;ci++){
+    var a=ci*Math.PI/8,len=(ci%2===0)?44:25;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':ci%2===0?1.4:0.8,opacity:ci%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-44)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+44)+' L'+(rx+9)+' '+ry+' Z',
+    fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-44)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-58,'N',{size:20,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,k){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][k];
+    T(rx+Math.sin(ca)*64+3,ry-Math.cos(ca)*64+7,cdir,{font:'FellSC',size:15,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- convention of signs ---------- */
+  E('rect',{x:80,y:1938,width:880,height:186,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:88,y:1946,width:864,height:170,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(520,1974,'CONVENTION OF SIGNS',{font:'FellSC',size:18,ls:3,anchor:'middle'});
+  E('line',{x1:104,y1:1982,x2:936,y2:1982,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  house(116,2008,26,16,gFrame,false);         T(148,2012,'dwelling',{font:'Fell',size:12});
+  house(116,2036,26,16,gFrame,true);          T(148,2040,'house of note',{font:'Fell',size:12});
+  granary(116,2076,30,22,gFrame);             T(148,2078,'granary',{font:'Fell',size:12});
+  counting(392,2008,34,18,gFrame);            T(430,2012,'counting house',{font:'Fell',size:12});
+  bankHall(392,2050,32,18,gFrame);            T(430,2052,'banking hall',{font:'Fell',size:12});
+  barge(396,2094,0.42,gFrame);                T(430,2092,'river barge',{font:'Fell',size:12});
+  slatePost(676,2012,gFrame);                 T(716,2011,'slate-post',{font:'Fell',size:12});
+  grave(676,2038,gFrame);                     T(716,2041,'burial ground',{font:'Fell',size:12});
+  E('line',{x1:660,y1:2062,x2:692,y2:2062,stroke:INK,'stroke-width':2,'stroke-dasharray':'6 5'},gFrame);
+  T(716,2066,'road, travelled',{font:'Fell',size:12});
+  E('line',{x1:660,y1:2088,x2:692,y2:2088,stroke:RED,'stroke-width':1.6,'stroke-dasharray':'5 7'},gFrame);
+  T(716,2092,'winter ford',{font:'Fell',size:12});
+
+  /* ---------- scale and a last note ---------- */
+  T(1000,1968,'A LEAGUE IS THREE THOUSAND PACES',{font:'FellSC',size:12,ls:1.2,fill:FADE});
+  E('rect',{x:1000,y:1978,width:440,height:12,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(var sc=0;sc<4;sc++){
+    E('rect',{x:1000+sc*110,y:1978,width:110,height:12,fill:(sc%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.1},gFrame);
+    T(1000+sc*110,2010,[0,1,2,3,4][sc]+'',{font:'Fell',size:13,anchor:'middle'});
+  }
+  T(1456,1996,'leagues',{font:'FellIt',size:14,fill:FADE});
+  T(1000,2050,'A cart makes three leagues in a day on good road; the Clay Road takes five in Grain.',{font:'FellIt',size:12,fill:FADE});
+  T(1000,2078,'A man on foot makes four. In Silt the clay road is corduroy and the river is brown.',{font:'FellIt',size:12,fill:FADE});
+  T(1000,2102,'No map is honest past the last pass; this one ends where the factor\'s copy ends.',{font:'FellIt',size:11,fill:RED});
+
+  /* ---------- the ruled border ---------- */
+  E('rect',{x:34,y:34,width:1532,height:2132,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:1496,height:2096,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(var bx=0;bx<82;bx++){
+    var px=56+bx*18.2;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:2148,x2:px,y2:2166,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(var by=0;by<114;by++){
+    var py=56+by*18.5;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:1548,y1:py,x2:1566,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[1548,52,-1,1],[52,2148,1,-1],[1548,2148,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>

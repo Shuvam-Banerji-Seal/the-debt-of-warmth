@@ -413,6 +413,31 @@ The Court's granary and factor's house, where the Clay Road ends and the Hearth 
 The Vhaleni factor's counting house in Greybank where glass, grain, quiet ash and whole returns are brokered and where documents on salt-paper are left in the damp; Veno Brine keeps his private drawer of dry documents here.
 **Relations:** Inside Greybank, 18 leagues east downriver of Sill, near the Court's factor's house and the end of the Clay Road.
 
+### The Court's factor's house
+**Kind:** house, counting room, seat of the Court's factor. **Region:** Greybank, Grath.
+The factor's dwelling and tally-room beside the end of the Clay Road, where the Court's collector's clerk keeps the tally for the Sill district in a tin on a shelf; the officer makes the draw and the clerk sets the figure down in Ledgerhand. Sella Vail's widow's mark was confirmed here and entered as a kindness, and the factor showed Berr Clay the name of the purchaser of the forty children's warmth, which Berr has forgotten on purpose. In the first weeks of Stone, Y.H. 812 the slate for that private whole return was carried from this house to the collector in Sill.
+**Relations:** Inside Greybank, 18 leagues east downriver of Sill, on the north bank of the Ilm; near the Counting House and above the Greybank quay; the Clay Road ends here.
+
+### The Court's granaries
+**Kind:** granaries, storehouses. **Region:** Greybank, Grath.
+The Court's grain stores at Greybank: long roofed houses with vent slits and wide grain doors where the levy grain is held and the factor's account is kept in kind. The town's name is read as often in these banks of stored warmth as in the grey silt bank of the Ilm on which it stands.
+**Relations:** Inside Greybank on the north bank of the Ilm, east of the Court's factor's house; the Hearth Road runs south-east from them toward the Hearthseat, 140 leagues.
+
+### The Greybank quay
+**Kind:** quay, landing, wharf. **Region:** Greybank, Grath.
+The timber landing on the north bank of the Ilm where the Clay Road ends among barrels, grain sacks, salt and iron; coarse pots, tile, peat and eels go downriver from it and salt and iron come back up, and river barges lie against it. An eel skin costs a mark here. In the Long Cold of Y.H. 811 the Ilm lay under ice for ninety-four days and no collector could cross from this quay.
+**Relations:** On the north bank of the Ilm inside Greybank, below the Court's factor's house and the Counting House; Sill is 18 leagues upriver.
+
+### The bank at Greybank
+**Kind:** bank, hall, place of banking. **Region:** Greybank, Grath.
+The Court's banking hall at Greybank, one of the two banks named by the Keeping alongside the bank at the Hearthseat, where measures drawn in the district are pressed into vessels and the rolls of the dead are carried forward rather than closed.
+**Relations:** Inside Greybank, beside the Court's factor's house on the north bank; the Ilm runs below it.
+
+### The Greybank burial grounds
+**Kind:** burial ground. **Region:** Greybank, Grath.
+The graves south of the town, where thin returns are laid; the bone-hound is said to follow the smell of Ash here rather than the smell of decay.
+**Relations:** South of Greybank, beyond the Ilm, a short walk from the Greybank quay.
+
 ### The Old Kiln
 **Kind:** ruin. **Region:** Grath, south of Sill.
 A collapsed kiln with grey clay that will not take a glaze and an ash throat deeper than a man.
