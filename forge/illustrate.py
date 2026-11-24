@@ -119,9 +119,14 @@ def generate(spec: dict, key: str, force: bool = False, dry: bool = False) -> di
     payload = r.json()
     img = base64.b64decode(payload["data"][0]["b64_json"])
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_bytes(img)
+    raw = out.with_suffix(".png")
+    raw.write_bytes(img)
     if spec.get("chroma"):
-        key_out(out, spec["chroma"])
+        key_out(raw, spec["chroma"])
+    if out.suffix == ".webp":  # archival copy: high-quality WebP, alpha kept, ~1/8 the size of PNG
+        from PIL import Image
+        Image.open(raw).save(out, "WEBP", quality=94, method=6)
+        raw.unlink()
     rec = {"id": spec["id"], "out": spec["out"], "model": fields["model"], "size": fields["size"],
            "quality": fields["quality"], "background": fields["background"], "references": [str(x.relative_to(ROOT)) for x in refs],
            "usage": payload.get("usage"), "seconds": round(time.time() - t0), "at": datetime.now().isoformat(timespec="seconds")}
