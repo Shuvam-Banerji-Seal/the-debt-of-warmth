@@ -105,6 +105,11 @@
       "action": "shell",
       "resource": "printenv*",
       "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "art/*",
+      "effect": "deny"
     }
   ]
 }
