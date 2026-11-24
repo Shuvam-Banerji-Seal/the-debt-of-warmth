@@ -168,6 +168,8 @@ The room where the glaze is mixed and tasted by the glaze-mixers of House Clay; 
 ### The Cross
 **Kind:** market square. **Region:** Sill.
 The meeting of the Clay Road and the river road, where the moot shouts, the slate is read and the pigs are weighed on market-day. On Account-day two hundred people lean in to hear the figure while eight pigs are driven over the wet boards; the reading is given twice, once for the moot and once for the households that came late. A bell strikes through the morning and afternoon, longer than a church bell, and nobody crosses himself at it; the boy counts its strokes four, four and a gap. The square has four ways out --- the road down to the south bridge and Slate Row, the steep street up to High Kiln, the north bridge, and the road toward the Bone Orchard --- and a Court table set at its Slate Row fringe where business is done in the open air. People bring figures to a heap of turnips and leave them standing side by side without making them agree. On Stone 30, Y.H. 812 the year's last market was held here: one in twelve was read to the crowd, the Five were spoken of as three days off, and the pause in the neat dark hand was seen a fifth time at the Court's table at the square's Slate Row fringe.
+On Ilmen 10, Y.H. 813 Account-day resumed here the morning after a woman was taken by the brook and lay uncollected: eight pigs went over the weighing board, the levy was called for the thaw, one in twelve was read twice and not challenged, and the number for the thaw went from a fist to a mouth to a shoulder and was never given. The bell went four, four and a gap with nobody crossing himself; Sella set the basket in the moot-post's finger's width of shade and carried it home saying nothing about what had been read over it.
+
 **Relations:** Central Sill, between the two bridges; Slate Row lies a quarter league east; the Fishstairs below the north bridge; Low Kiln across the river to the south.
 
 ### Slate Row
@@ -183,6 +185,8 @@ The room where the collected are kept overnight before banking, and where the Fo
 ### The Fishstairs
 **Kind:** landing steps. **Region:** Sill, north bank.
 The steps below the north bridge where eels are sold at dawn and rumours at noon; Rusk keeps a room above them. The way down counts four steps, four, and a landing where a step should have been; in the Breaking the Ilm comes up over the steps and puts them back a hand's breadth out of line, and the district reads the water as weather and goes on using them.
+On Ilmen 9, Y.H. 813 a collector's clerk with a cuff gone soft from washing and a slate was set at the steps for a measure nobody had called; when Sella carried the basket down past the edge the boy saw the hand go to the slate before the eyes went to the stalls. The clerk is not Marra and is not joined to the soft-cuffed clerk who keeps the Court's table at the Cross.
+
 **Relations:** Immediately below the north bridge at the Cross; the Weir is 1 league upriver; Rusk's room is above the steps.
 
 ### The edge of the fish-trade
@@ -203,6 +207,8 @@ The slip pits, wheel shed, drying racks and kiln that make up a clay child's who
 ### The Vail kiln-house
 **Kind:** house and kiln. **Region:** the Clay Yard, Low Kiln.
 A kiln-house held by the Vail family for four generations; Sella Vail keeps the fire and Jorra Vail is her son; Corin is taken in here as a foundling on the third day and laid on a bed of fresh straw under the roof. The house is known by its objects before its people: the kiln breathing in fours with a gap where the fifth breath should be, coals banked under ash, a door that does not quite shut, the hollow wheel-seat, a salt-stiff coat on a peg behind the door, and a proverb in the house's mouth (*leave the crack showing*) said to the pot and the fire and never to a person. The Ash ridge along the skirting board is near two thumbs wide, turns the corner without a break, and has not been swept since Garl Vail died uncollected in the Long Cold; it will be swept on the Last Day and burned next morning. In the kiln ash lies the charred edge of a slate, black on one side and eaten into the shape of a strip of bark, the writing gone off the end; the house has swept around it for a year without picking it up. The house keeps a roll of its own, entered in a careful hand and not shown to a man come down from Slate Row with a slate. Through the last tend of Y.H. 812 the boy lay on his bed under this roof with two crusts in the fold, one spent from Stone 15 and one given by Mira Silt on Stone 28, and the kiln took its breath in fours and a gap on every day. On Kindling the year's fire was tipped into this kiln from a clay dish brought up the yard, after Sella touched the widow's mark before the opening and at no other hour; it was still banked under ash on Ilmen 1. The Ash ridge was measured twice with one thumb and left where it lay through the Last Day, then burned the next morning and called dealt with by a neighbour, so that its corner was a clean dark line; the coat, the hollow seat, the uncalled tile debt and the charred slate in the kiln ash kept their places through the turn of the year.
+On Ilmen 13 Sella Vail set a clay jar fetched from House Silt on the shelf by the wall, not on the bench where the pot stood. On Ilmen 9 and Ilmen 11 she measured the clean dark line where the Ash ridge had turned its corner for a year and two days against the ridge two doors down, and left both where they lay; on Ilmen 15 the line was still unswept, and the boy kept it as a thing left in place and therefore still kept. The carried fire under blind ash and the back of a broken pot warmed the boards by degrees and missed one breath in every four through all seven days.
+
 **Relations:** In the Clay Yard, Low Kiln; the Slip Brook runs behind it; the Old Kiln is 1 league south; the wheel-shed and the Debt Loft are within it.
 
 ### The Vail wheel-shed
@@ -246,6 +252,8 @@ The kiln-master's house of Berr Clay, Thane of Clay, above the terrace. The red 
 ### House Silt
 **Kind:** house, holding. **Region:** Low Kiln, Sill.
 The two-room clay-daubed house of Dessa and Mira Silt, three doors from the Vail kiln-house; its front room is the birth room of Chapter 1, where Corin is born on Stone 7, Y.H. 812. The floor is trodden ash packed until it has the spring of old bread, and a grey ridge of Ash runs along the skirting board from the bench by the door, under the door and into the next room, left there until the Last Day. The room holds a board-bed with a fold of grey wool, a stool by the wall, a hearth with a slip pot, and the birth-slate propped on the bench within the midwife's right hand, its writing turned under. The door does not shut; a low song from a woman working below comes up through the floor. The slip pits are a walk away, counted in nineteen steps to the drying rack. The stone at the newborn's belly was warmed at the Vail hearth across the yard and carried here in a rag; on the third morning it is left behind in the fold of grey wool on the abandoned bed when Sella carries the boy away, and the cup across the room gives its flat note to the empty bed. Alda sets a cup down twice in this room on the second day and neither time does anyone say what the sound was.
+On Ilmen 9, Y.H. 813 Dessa Silt was taken by the clay-heavy rise of the brook and the room was empty thereafter; on Ilmen 13 Sella Vail carried the basket just inside the finger's-width-open door and fetched a clay jar from the shelf below another shelf, beside a chipped cup, setting it on the shelf by the wall at home. Above the board-bed a round pewter tin still holds a scrap of cloth from the birth, with a pale fold showing at the seam of the lid and a thumb's bright rub on it; the boy saw it from the height at which shelves are highest and entered it nowhere, and nobody opened it or said the woman's name or the number in her thumb.
+
 **Relations:** In Low Kiln, east of the slip pits of the Clay Yard; the Vail kiln-house is three doors west, down the yard.
 
 ### The Drawing house
@@ -340,12 +348,14 @@ Eel traps and a plank walk one league upriver, where the Fish Blessing is held a
 
 ### The Eel House
 **Kind:** hut and drying rack. **Region:** the Weir, Grath.
-Orra Weir's trap-hut on the plank walk, where eels are salted and the cords of knot-accounts are kept. The Fish Blessing is prepared here on Reed 15.
+Orra Weir's trap-hut on the plank walk, where eels are salted and the cords of knot-accounts are kept. The Fish Blessing is prepared here on Ilmen 15 (Day 44, Y.H. 813); the older Reed 15 gloss was a planting marker and has been reconciled to the day-count in `bible/calendar.md`.
 **Relations:** On the Weir, 1 league upriver of Sill.
 
 ### The plank walk
 **Kind:** walkway. **Region:** the Weir, Grath.
 The raised boards that follow the north bank of the Ilm out to the traps and over the water on posts; the only dry way to the eels when the river rises. Rusk walks it at dusk. The Weir chart draws the boards and their posts but not which of them will bear a man's weight in Silt.
+One board in the walk will not bear a man's weight in Silt; the boy filed it as a gap on Ilmen 14 without knowing what it would do. On Ilmen 15 the boards were swept before light and the salt that was swept went over the edge into the Ilm; the hearth-maids stood on the flat stone and blessed the traps, and the boy was set on the boards where a pot would be set, out of the draught.
+
 **Relations:** Along the north bank at the Weir, 1 league upriver of Sill; the Eel House and the eel racks stand beside it, and a spur turns down onto the weir head.
 
 ### The eel traps
@@ -361,6 +371,8 @@ The poles beside the Eel House where the caught eels are hung to salt. These are
 ### The blessing stone
 **Kind:** stone, shrine. **Region:** the Weir, Grath.
 A flat stone on the north bank where the hearth-maids stand to bless the weir and the traps at the Fish Blessing. A crossed mark is cut into it, which the chart draws but does not explain.
+On Ilmen 15, Y.H. 813 the stone was brushed free of grit so the cut mark showed, the hearth-maids stood on it with their sleeves damp and salt in the creases of their hands, and one sprinkled salt along the weir head with a flat hand while another said the old words in a low half-song. The boy could not see the mark from where he lay.
+
 **Relations:** On the north bank at the Weir, beside the plank walk, 1 league upriver of Sill.
 
 ### The river road
@@ -470,6 +482,8 @@ A colder tributary carrying lead dust from the western workings; its water is sa
 ### The Slip Brook
 **Kind:** brook. **Region:** Low Kiln, Sill.
 A narrow clay-coloured stream through the Clay Yard whose colour the children of Low Kiln read as weather. On Stone 25, Y.H. 812 it carried a skin the colour of skimmed milk gone grey that held under the wind without breaking, and on Stone 27 it still carried it; both were read as weather. On Ilmen 2, Y.H. 813 it had lost its stiff skin and moved under a thin grey film that broke and closed again around the stones; by Ilmen 8 it ran clay-heavy and a little higher than it should, under a film that no longer held the wind, and a child who went near the bank was called back by the middle of the yard. The boy set the higher brook beside the honeyed ice under the mud at the Ilm and the hairline that had come up out of the thaw, three objects in three places, and made no cause of them.
+On Ilmen 9, Y.H. 813 its clay-heavy rise came up behind the drying racks in the night and took Dessa Silt from the end of nineteen steps; the yard lifted her out with their hands and no words, no collector was called, and the boy was held on the bank and heard the small flat knock of a body cracked all the way through. Through Ilmen 10–15 it still ran clay-heavy and a little higher than it should under a film that no longer held the wind, and the yard called it weather.
+
 **Relations:** Runs behind the Vail kiln-house and enters the Ilm at Sill.
 
 ### The Clay Road

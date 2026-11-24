@@ -8,7 +8,7 @@ species: human (Grathic)
 origin: "the Weir, one league upriver of Sill, Grath"
 affiliation: "the eel traps at the Weir; the Fish Blessing; House Weir"
 status: alive
-first_appearance: 12
+first_appearance: 10
 ---
 
 ## Appearance
@@ -27,7 +27,7 @@ Slow, and when she is tired the nasal half-song of the Fen comes into it, which 
 
 ## History
 
-She was born at the Weir, one league upriver of Sill, where the eel traps stand on a plank walk and the Fish Blessing is held every Reed 15. She has kept the traps since she was eighteen, knows the river's moods better than the weather, and can tell a collector's boat by its oars before it comes round the bend. She married a man who went downriver with a cart of pots and never came back, and has not looked for him, which she calls *not being a fool about it*. Her son Kess was one of the forty children of Low Kiln banked in the first weeks of Stone, Y.H. 812. No return has been announced for him. She tied forty knots that year and then tied a forty-first, because on the night the children were taken she saw Sella Vail carry a covered bundle up the Clay Yard, and the bundle was small and warm and had a flower on it, and she could not account for it.
+She was born at the Weir, one league upriver of Sill, where the eel traps stand on a plank walk and the Fish Blessing is held on Ilmen 15. She has kept the traps since she was eighteen, knows the river's moods better than the weather, and can tell a collector's boat by its oars before it comes round the bend. She married a man who went downriver with a cart of pots and never came back, and has not looked for him, which she calls *not being a fool about it*. Her son Kess was one of the forty children of Low Kiln banked in the first weeks of Stone, Y.H. 812. No return has been announced for him. She tied forty knots that year and then tied a forty-first, because on the night the children were taken she saw Sella Vail carry a covered bundle up the Clay Yard, and the bundle was small and warm and had a flower on it, and she could not account for it.
 
 She was in the room on Stone 7 when the child with the branching red flower was born, and she saw the collector's slate that night, and saw a name written on it before anyone had seen the infant's face. She cannot spell the name; she remembers its shape, which is a thing no Court clerk can take away.
 
@@ -55,13 +55,15 @@ She wants her son returned whole, which she knows will not happen, and she wants
 
 **Berr Clay, the Thane of Clay** — bought her eels for the levy feast and paid two marks short. She has never forgiven the arithmetic, and has served him the same short measure ever since.
 
+**Ch 10.** Her first appearance is moved forward from the planned Chapter 12 to Chapter 10 so that the word *forty* can land in the boy's hearing at the Fish Blessing. She comes onstage on Ilmen 14, rope-handed and eel-scarred, smelling of silt, cold fish and tallow, telling a story sideways and giving a date where another woman would give an opinion, with the collector's boat and its oars where a direct answer should be; her knot-accounts are in the Eel House and she will not sit at a table where a slate lies open. On Ilmen 15 she keeps the accounts in knots on grey wool, tells the boy that an eel goes into a trap and cannot find the way out, ties a forty-first knot she cannot account for over the story of a small warm covered bundle with a flower carried up the Clay Yard in the year of the flower, says *forty* low into the basket and watches what he does with it. He is too young to answer. She does not know that he is the child in the bundle, and she keeps the watching. Alda stands with her in the lee of the Eel House and the third day is not spoken of; Mira keeps her own grey wool beside the knot-string without either woman saying what she knows.
+
 ## Arc So Far
 
-No chapters are written yet. She enters at the Fish Blessing with a cord of knots in her hand, tying a forty-first while the hearth-maids bless the traps and a boy she does not know stands three paces away with his head tilted, listening to the water.
+She enters in Chapter 10, two chapters ahead of the planting marker on her sheet, at the Weir one league upriver of Sill. On Ilmen 14 the boy is carried up the river road past the Cross where she has just been spoken of as a roof that has stood in a storm; she lifts a trap with a turn of the wrist that has done it ten thousand times and looks at the basket only after the trap is set on its side. On Ilmen 15, with the hearth-maids blessing the traps from the flat stone and the eels running as they always run, she ties the forty-first knot over a story told sideways and says the word into the basket. She watches. He cannot answer, and does not forget the shape of the cord. Her cord and Mira's two cords stand side by side in the boy's private file and do not join, and he has no standing to ask either woman what she keeps. The long vigil begins here, with a word a baby cannot spend.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 12 (the Fish Blessing at the Weir, Ilmen 15, Y.H. 813).
+- Ch 10: Days 43 and 44. On Ilmen 14 she was spoken of at the Cross as a roof a woman had stood under in a storm, and came onstage at the top of the rise with her sleeves wet to the elbow, lifting a trap with a turn of the wrist and setting it on its side before she looked at the basket. The grey streak showed first through the black hair, the pale eel scars lay uncovered across both forearms, her hands were like old rope, and the knot-string at her waist was the thing people noticed last. She told the pot that an eel goes in and cannot find the way out, and said not to make more of a trap than that. On Ilmen 15, with the hearth-maids blessing the traps from the flat stone, she took a fresh length of grey wool and tied a forty-first knot while telling sideways the story of a small warm bundle carried up the Clay Yard in the year of the flower, tied a knot when a lie went into it, said *forty* low into the basket and watched what the boy did with the word. He was too young to answer. She stood with Alda Reed in the lee of the Eel House, gave a date where the other woman gave the weather, touched her cord when a figure came near and let the subject change; nothing was said of the third day. Mira's grey wool kept its own board beside hers and the two did not touch.
 
 ## Secrets (private)
 

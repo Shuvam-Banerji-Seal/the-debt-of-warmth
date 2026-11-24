@@ -1,0 +1,120 @@
+---
+title: The Mud Keeps, Being the Sayings of the Fenfolk, Gathered at the Standing Post and Glossed for a Man from the South
+kind: A reeve's gathering of the proverbs, board-maxims, counting-words and curses of the Fenmarch, set down in Grathic letters though Fen Cant is not written; the sayings in a thick half-sung English, the glosses in the reeve's own hand, with a factor's clerk's corrections in Ledgerhand and one line at the back in a hand nobody will own
+provenance: Gathered at the Standing Post in Reed and Bone of Y.H. 812, the Thin Year, by Nib Peat, a reeve of the Post who learned his Grathic letters off an eel-trader out of Reedholt; carried down the marsh road in Ilmen of Y.H. 813 and copied at Greybank onto the back of a spoiled weigh-slip, so that the two barks and the slip lie sewn with eel-sinew in a folded reed wrapper under the Post's loose board. It survives with a brown peat thumb at the head, wet reed pressed across the second leaf, a bog-water tideline along the gutter, a fish-hook nick, eel slime where a trader set his hand, a grey Ash print nobody will own, and a knot of grey wool tied through a hole in the first leaf which the writer will not untie. Two corrections are in the narrow upright hand of a factor's clerk who borrowed the leaves at Greybank; one line at the back is in a hand that is nobody's.
+relates_to: [the Fenmarch, Fenfolk, Fen Cant, the Standing Post, reeve, the Peat Line, the Marsh Mother, the Reed Cut, reed-name, bought breath, thin return, the collector, cold iron, the measure, the Ash, Sere, Greybank, Grathic, Ledgerhand, reed-wolf, knot-account, grey wool, peat, boardwalk, eels, Reedholt, the Quiet Acre]
+---
+
+I am a reeve of the Standing Post and I have set my people's sayings down in the south's letters, which my mother could not read. Fen Cant is not written. It is carried in the mouth, cut on sticks and tied in knots; a notch is still there when the stick is wet, which is more than can be said for the paper they use at Greybank. A man from the factor's house stood on the Post one Silt morning and asked what we say when there is nothing to say. I told him we say it to the ground. He paid me two marks and a question and went off with his cuff wet to the elbow. A saying written down for a man who has never stood on a board wants its ground with it.
+
+The manner of them first, because a saying said wrongly is a different saying. Say it through the nose, slow, and let the last word fall into the mud instead of finishing it. Do not look at the man you say it to. Say it to the pot, the board, the water, the ground under the water; said looking at a man, it becomes an argument. Some words here cannot be written at all; they are made at the back of the throat with the nose shut. Where one falls I have tied a knot in the margin, which is how we write what cannot be written. The factor's clerk has been at the leaves since I copied them. I have left his hand standing and my words under it, as a board keeps both the man's weight and the water's mark.
+
+# Of standing, and the ground that is lent
+
+1. “The bog keeps the man who stands longest.”
+
+*Gloss — Reeves are chosen by standing in a bog until the others have had enough. It is not strength. A strong man goes in hot and comes out early; a reeve stands until the mud has taken his measure and found it enough. About half our reeves are women and the saying does not change for it. We say it of a feud as well: the side that can stand longest is the side the mud calls right.*
+
+2. “Stand where you stood, and the board will mind you.”
+
+*Gloss — Said to a man newly come up on to the Post, before he steps on a board nobody has pointed to. The boards have borne ten thousand feet and will bear his if he puts his foot where the others went. It is a promise about boards and not about anything else.*
+
+3. “Dry ground is borrowed.”
+
+*Gloss — Every dry place among us is a loan from the water, and the water calls it in when it pleases. Our houses stand on posts so the loan can be called without taking the house with it. A man who builds on dry ground in the Fen has mistaken a loan for a gift, which is a mistake the south makes in a larger way.*
+
+# Of warmth, and what the mud does with it
+
+4. “The Marsh Mother keeps it warm and hands it back.”
+
+*Gloss — The peat holds the warmth of a whole country under a skin of water. We do not dig it out; we ask. A priest come up from Greybank told me this was the Hearth under a Fen name. It is not the Hearth: ours has no keys, no slate and no figure, and needs no man in a clean coat to open it.*
+
+> *In the narrow upright hand:* The measure is retained in the peat.
+> *
+> *Underneath, in mine:* He has taken the verbs out, because a thing always true has no need of them. I have put *keeps* and *hands back* under his because a man standing in water to his calf wants to know who is doing the keeping, and whether he will get it back.
+
+5. “What goes into the mud is kept.”
+
+*Gloss — On death a Fen body goes out on a peat raft into the reedbed and we do not fetch it back. The mud keeps what it wants, which is not always the whole of a person, and we have never asked for the rest. In Grath they lay their dead with their feet toward the river and break a pot at the door. We let the water keep the account.*
+
+6. “A thin return is a return. Ask for more and you get a colder one.”
+
+*Gloss — What a reeve says at the Post when the Court's man has read his figure in a clean voice and gone. Our children come back as ours often enough and strangers often enough, and the house keeps both. We do not say what a whole return costs; a man who buys one has paid somebody, and in the Fenmarch we know who, because he paid here.*
+
+> *In the narrow upright hand:* The return is whole as entered.
+> *
+> *Underneath, in mine:* It is whole in his figure. It is thin in the house that got the child. Both stand.
+
+7. “Cold iron takes. The mud takes. One of them writes it down.”
+
+*Gloss — A draw leaves a pale round place on the arm that shows through the winter; the mud leaves nothing an officer can enter. Ask a Fen woman which is the kinder and she will ask you why a man wants a kind way to be emptied. This is not a saying for a feast.*
+
+8. “If they come before the name is given, give them the number and keep the word.”
+
+*Gloss — A Fen mother names her child before a collector reaches the hut, which is the closest thing we have to a declaration. If she is too late, the officer has his figure and the child has a name besides; we say the name at home and do not enter it. A name said at home is a door. A number is a hole in the wall.*
+
+# Of names, slates and knots
+
+9. “Do not sit where a slate lies open.”
+
+*Gloss — A slate is a stone with another man's hand on it. We will not put our mouths near one and say things we would not have carried away. Reeves settle feuds standing up on the Post; a man from the Court who wants a statement may have it after we have left the table.*
+
+10. “A knot remembers what a name forgets.”
+
+*Gloss — We tie grey wool when a thing is owed and untie it when it is paid; a knot does not care whose hand tied it and it keeps longer than a name. The eel-women upriver keep theirs in cords and will not say where they learned it. A factor's clerk entered our knots as nil, because a knot is not a figure. He was right. That is why we keep them.*
+
+11. “Say the name three times and the mud will know it. Write it once and it belongs to the clerk.”
+
+*Gloss — A reed-name is said, not cut. The third saying is for the child who cannot yet say it, so the mother says it into the ground beside the hut. A written name travels where the person does not.*
+
+12. “A stick has no ear.”
+
+*Gloss — Cut your meaning in a stick and it cannot argue with you, which is the only honest witness in the Fenmarch. A man who will not believe a notch will not believe his mother, and no reeve can make him.*
+
+# Of the Line and the south
+
+13. “The Line stops warm and starts wet.”
+
+*Gloss — Sere's northern advance stopped at the Peat Line in Y.H. 634 and we have paid tribute in eels ever since. North of it a man is a neighbour, which costs less and holds more; south of it he is a bowl, and the bowl belongs to whoever filled it. We trade with the south and do not move there.*
+
+14. “A bought breath has a hook in it.”
+
+*Gloss — Bought breath is common among us and we do not dress it. The hook is in the mouth, so a man cannot say the word he would need in order to complain of it. Do not say this to a buyer. He will hear it as an insult, which it is.*
+
+15. “Take the eels. Leave the crown.”
+
+*Gloss — Gold crowns come north and will not change at Greybank. In the south a coin is a thing a house can empty into a bowl and call generosity; here it is a thing you cannot spend, and a thing you cannot spend is a thing somebody has already paid for.*
+
+16. “The Quiet Acre has no smoke and it has doorways.”
+
+*Gloss — The ground between Grath and us, which the Court calls the Empty Cantons, we call the Quiet Acre and leave it alone. A doorway is built for coming back through. We do not say who went, and we do not say what hung in the square of bare clay above the lintel, because a thing you can put a name to is a thing the Court can put a figure to.*
+
+# What the young are taught
+
+*Sung crossing the Post at dusk going in, not coming back, by children who have cut their first bundle in the dark for the Reed Cut. If the bundle comes back wet, the child is not yet of the bog and goes again.*
+
+> Four for the boards and one for the slack,
+> the reed says wet and the reeve says wait;
+> the mud takes a name and the eel takes a mark,
+> and what was lent goes back to the water.
+>
+> Four for the corners and four for the post,
+> and a place where the fifth should be;
+> we do not score it and we do not step,
+> and the count comes back as it came to us.
+
+*Gloss — The fifth is not a board and not a name. Children ask and are told to ask the water, which is an answer given by people who asked the same thing at their own Reed Cut. The factor's clerk put a nought in the fifth place and wrote vacancy beside it. A nought is a number. The fifth is a place.*
+
+# What the borrowed hand did
+
+The factor's clerk struck out three verbs and numbered the fifth place. I have set my words under his. A sentence with its verbs taken out travels well and arrives empty, which is what the Court wants of a sentence; a knot arrives as it was tied. I asked what he wanted with our sayings; he said the factor wanted to know what the Fenfolk owed. A man who asks what you owe has already written the answer, and the only work left is to watch where he puts his stop.
+
+# At the head and in the gutter
+
+The peat thumb at the head is mine. I held the bark down on the Post in a wind off the bog and did not know I had marked it; peat goes into the grain and will not come out, which is why I use it to sign. The wet reed across the second leaf came from the morning the Post stood under water and the sayings were said to the boards instead of to a man. The tideline in the gutter is bog-water and has taken the ink off two words, and I have not written them in again, because a saying with two words gone is a saying said slowly, which is how all of ours are said. The fish-hook nick and the slime at the foot came off an eel-trader who set his hook in the edge while he was paying me and did not apologize. The grey print nobody will own came off a cuff laid where no cuff has business lying; I have not swept it. The knot of grey wool through the hole in the first leaf is mine, tied for the word I could not write. I will not untie it.
+
+# At the back, in a hand nobody will own
+
+> A man is a board laid across water. The water does not owe the board anything.
+
+I asked the reeves, the eel-traders and a man from Greybank, and had three answers and no hand. I have left the line where it was written. The leaves go back under the loose board at the Post; next Reed the young will cut their bundles in the dark and come back wet or dry, and I shall not say which. The sayings will go on being said to the ground as before, and if the clerk comes again with his pen I shall put the verbs back, and tie another knot for the word he cannot hear.

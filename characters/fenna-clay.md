@@ -57,6 +57,8 @@ She wants to mix a glaze that does not poison the mixer, which is an impossibili
 
 **Ch 5.** She is on the page before she is named: a silhouette across the market's edge on Stone 15 with the pale green of lead glaze at the corner of her mouth, standing among a row of pots and not looking into the basket in the bridge's shade. No dialogue and no name on the page. The boy registers the green and files it among the objects he cannot enter, without knowing that it is a sickness called a mark of skill or that the girl who wears it will one day be the third ear.
 
+**Ch 10.** She is glimpsed a second time on Ilmen 14, still unnamed on the page and still silent: a woman with green at one corner of her mouth standing among the pots at the Cross, turning one with her finger, putting it down, taking up another, looking at them the way a woman looks at things she has priced already in her head. She buys nothing and is gone into the press at the Slate Row end, and nothing about her has wanted an answer. The boy puts the green on one tray and the looking on another, because a thing looked at and a thing that does the looking are not the same object, and files both years before her name is spoken and the ear in her is answered. No dialogue, no sheet-entry in the scene files; the speaking debut stays planned for Chapter 40.
+
 ## Arc So Far
 
 She is on the page in Chapter 5 before she is named: a green-mouthed silhouette across the market where the boy is set in the bridge's shade, looking at pots and saying nothing, filed among the things he cannot enter. She enters in her own right at the Cross in Chapter 40, tapping a cup with a knuckle and being answered by a foundling who did not wait to be asked, which is the first time in the book that anybody hears the same note as he does --- the first ear he meets in a person, years after the green was planted in silence.
@@ -64,6 +66,8 @@ She is on the page in Chapter 5 before she is named: a green-mouthed silhouette 
 ## Chapter Log
 
 - Ch 5: A silhouette only across the market's edge on Stone 15 --- green of lead glaze at the corner of her mouth, standing among the pots and not looking into the basket. No dialogue and no name on the page; the boy filed the green without knowing what it was. Her speaking debut stays planned for Ch 40 (the Cross, the cup that cracks at the handle).
+
+- Ch 10: Day 43, Ilmen 14, at the Cross: a woman with green at one corner of her mouth, the colour of lead glaze gone wrong in the firing, looking at pots the way a woman looks at things she has priced in her head, turning one, putting it down, taking up another, then gone into the press at the Slate Row end. No dialogue, no name on the page; the boy filed the green and the looking on two trays and did not join them. Her speaking debut stays planned for Ch 40 (the cup that cracks at the handle).
 
 ## Secrets (private)
 

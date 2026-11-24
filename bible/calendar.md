@@ -40,7 +40,7 @@ Other named days:
 - **Account-day**, the tenth, twentieth and thirtieth of every month. In Grath these are also market-days; the slate is read at the Cross before the pigs are weighed.
 - **the Opening of the Slates**, Ilmen 1. The Court opens the new year's accounts. The first thin returns of the year are announced at the Weighing, not now.
 - **the Hearth Drawing**, Stone 12. The first collection of the year; a collector may draw from the dying and from the newly born on the same day.
-- **the Fish Blessing**, Reed 15. The hearth-maids bless the weirs and the eel traps. In Sill this is done at the Weir, one league upriver.
+- **the Fish Blessing**, Ilmen 15. The hearth-maids bless the weirs and the eel traps. In Sill this is done at the Weir, one league upriver. The date is reconciled to the day-count in §III (Day 44, Ilmen 15, Y.H. 813, the Fish Blessing at the Weir); the older Reed 15 gloss was a planting marker and is retired.
 
 ### Weeks
 

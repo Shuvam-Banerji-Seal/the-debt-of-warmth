@@ -15,7 +15,7 @@
 
 ## Next — when the story leaves Sill
 
-4. **`the-weir`** — *The Weir and the eel traps* — kind: other — 2400 × 1600 — **DRAWN 24 Nov 2026**. The plank walk, the traps, the Eel House and its drying racks, one league upriver; Orra's knot-cord and the forty-first knot in the margin. Draw for the Fish Blessing on Reed 15.
+4. **`the-weir`** — *The Weir and the eel traps* — kind: other — 2400 × 1600 — **DRAWN 24 Nov 2026**. The plank walk, the traps, the Eel House and its drying racks, one league upriver; Orra's knot-cord and the forty-first knot in the margin. Draw for the Fish Blessing on Ilmen 15 (Day 44, Y.H. 813); the older Reed 15 gloss was a planting marker and has been reconciled to the day-count.
 
 5. **`greybank`** — *Greybank, the Court's gate* — kind: city — 1600 × 2200 — **DRAWN 24 Nov 2026**. Granaries, the factor's house, the Counting House with Veno Brine's private drawer of dry documents, the end of the Clay Road and the start of the Hearth Road. The first place a Sill man sees the Court at full size.
 
@@ -48,6 +48,8 @@ When a map is made, move it from this list into the Atlas, add any new place nam
 Chapter 7 added `the drying racks` to `memory/places.md`; they are already marked on `atlas/home-settlement`, so no new map is wanted.
 
 Chapter 9 added no new named places. It changed the state of places already on the maps --- the well water tastes different and the ice is honeyed under the mud, a hairline has opened in the Ilm, the Singing Sill gives its note early and the Slip Brook runs clay-heavy a little higher than it should --- all of which are noted in `memory/places.md`. The Fishstairs will want the Silt flood line read against the day the river puts the steps back out of line, but that is already drawn on `atlas/home-settlement` as the dotted Breaking line; no new map is wanted.
+
+Chapter 10 added no new named places. It changed places already on the maps: the Slip Brook behind the drying racks comes up clay-heavy in the night of Ilmen 9 and takes Dessa Silt from the end of nineteen steps; a pewter tin with a pale fold at its seam and a thumb-rubbed lid stands on a shelf above the empty bed in House Silt, and Sella sets a fetched clay jar on a shelf under the Vail roof; a clerk with a slate is set at the Fishstairs for a measure nobody called; the plank walk at the Weir has a board that will not bear a man's weight in Silt; the blessing stone is brushed free of grit so its crossed mark shows and the eel racks stand bare and salted before the catch; the clean dark line where the Ash ridge turned remains unswept in the Vail kiln-house. All are already drawn on `atlas/home-settlement` and `atlas/the-weir`; no new map is wanted.
 
 ## Drawn
 
