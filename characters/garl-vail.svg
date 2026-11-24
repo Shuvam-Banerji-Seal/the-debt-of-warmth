@@ -218,8 +218,8 @@
   <path d="M 282 640 L 312 632 M 292 668 L 322 660" fill="none" stroke="#efe2c4" stroke-width="1.2" stroke-opacity="0.65"/>
   <path d="M 294 646 L 318 640 M 298 653 L 322 648 M 302 660 L 322 655" fill="none" stroke="#efe2c4" stroke-width="0.9" stroke-opacity="0.35"/>
   <path d="M 288 678 C 281 671 270 672 266 680 C 262 688 268 695 275 694 C 271 690 272 684 277 683 C 283 682 288 686 290 691 Z" fill="#2b1b0e" stroke-width="1.6"/>
-  <path d="M 287 690 C 283 683 286 675 293 672 C 299 669 307 670 312 675 C 316 679 317 686 314 692 C 311 698 304 701 297 700 C 291 699 288 695 287 690 Z" fill="url(#blade)" stroke-width="2.0"/>
-  <path d="M 293 677 C 299 674 306 675 311 679 M 294 684 C 300 681 307 682 312 686" fill="none" stroke-width="1.1" stroke-opacity="0.6"/>
+  <path d="M 295 706 L 295 690 C 288 689 284 684 284 677 C 284 669 290 664 298 664 L 307 664 C 315 664 319 669 319 677 C 319 684 315 689 308 690 L 308 706 Z" fill="url(#blade)" stroke-width="2.0"/>
+  <path d="M 291 670 L 291 687 M 298 667 L 298 689 M 305 667 L 305 689 M 312 670 L 312 687" fill="none" stroke-width="1.3" stroke-opacity="0.7"/>
   <path d="M 296 699 L 296 706 M 304 699 L 304 706" fill="none" stroke-width="0.9" stroke-opacity="0.5"/>
 </g>
 <g stroke="#2b1b0e" stroke-linejoin="round" stroke-linecap="round">
