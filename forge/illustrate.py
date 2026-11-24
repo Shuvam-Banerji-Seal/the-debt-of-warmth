@@ -55,6 +55,27 @@ def api_key() -> str:
     raise SystemExit("OPENAI_API_KEY missing from .env")
 
 
+def key_out(path: Path, color: str = "#FF00FF") -> None:
+    """Turn a flat chroma backdrop into a clean alpha channel, with spill suppression."""
+    import numpy as np
+    from PIL import Image, ImageFilter
+    im = np.asarray(Image.open(path).convert("RGB"), dtype=np.float32) / 255.0
+    k = np.array([int(color[i:i + 2], 16) / 255.0 for i in (1, 3, 5)], dtype=np.float32)
+    dist = np.sqrt(((im - k) ** 2).sum(axis=2))
+    alpha = np.clip((dist - 0.22) / (0.50 - 0.22), 0.0, 1.0)
+    # magenta spill on edges: pull R and B back toward G where they both exceed it
+    spill = np.clip(np.minimum(im[..., 0], im[..., 2]) - im[..., 1], 0, 1)
+    w = (1.0 - alpha * 0.6)[..., None]
+    rgb = im.copy()
+    rgb[..., 0] -= spill * w[..., 0]
+    rgb[..., 2] -= spill * w[..., 0]
+    rgb = np.clip(rgb, 0, 1)
+    a = Image.fromarray((alpha * 255).astype(np.uint8)).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(0.6))
+    out = Image.fromarray((rgb * 255).astype(np.uint8)).convert("RGBA")
+    out.putalpha(a)
+    out.save(path, optimize=True)
+
+
 def generate(spec: dict, key: str, force: bool = False, dry: bool = False) -> dict:
     out = ROOT / spec["out"]
     if out.exists() and not force:
@@ -97,6 +118,8 @@ def generate(spec: dict, key: str, force: bool = False, dry: bool = False) -> di
     img = base64.b64decode(payload["data"][0]["b64_json"])
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(img)
+    if spec.get("chroma"):
+        key_out(out, spec["chroma"])
     rec = {"id": spec["id"], "out": spec["out"], "model": fields["model"], "size": fields["size"],
            "quality": fields["quality"], "background": fields["background"], "references": [str(x.relative_to(ROOT)) for x in refs],
            "usage": payload.get("usage"), "seconds": round(time.time() - t0), "at": datetime.now().isoformat(timespec="seconds")}
