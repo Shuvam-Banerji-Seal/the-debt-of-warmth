@@ -1,0 +1,12 @@
+{
+  "id": "char-sella-vail",
+  "kind": "character",
+  "character": "sella-vail",
+  "out": "art/characters/sella-vail.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. SELLA VAIL, 33, widow and keeper of a small pottery kiln-house: a short, broad, immovable woman with forearms the colour of dried clay slip; coal-black hair with ONE GREY STREAK at the left temple, worn in a thick plait; a strong-jawed, unsmiling, handsome face with dark watchful eyes. A distinctive BURN SCAR on the back of her left hand shaped like a little DOOR (two straight sides, a lintel and a threshold, pale puckered skin inside), the hand held half-closed. At her throat on a cord, her WIDOW'S MARK: a thumb-length tablet of lead-glazed green-brown clay scratched with a kiln sign. She wears a heavy charcoal wool dress with a leather kiln apron scorched at the hem, thick wool sleeves pinned back, a sheepskin vest, sturdy clogs. On her hip she carries a WILLOW BASKET in which, under a fold of grey wool, a sleeping infant is tucked (only a tiny hand and the edge of a red mark on the wrist visible). Her free hand is mid-gesture, putting the wool fold right without looking. Presence: she takes up room by being impossible to move."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "char-berr-clay",
+  "kind": "character",
+  "character": "berr-clay",
+  "out": "art/characters/berr-clay.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. BERR CLAY, 48, kiln-master and Thane of the district who reads the levy: heavy like a wagoner, broad back, thick neck, grey stubble trimmed with a knife; a faint green ring of lead-glaze stain at one corner of his mouth; large, very clean hands. He wears a good dark-brown wool coat over a clay-master's leather apron, and across his chest a CORD OF RED WOOL, the mark of his office. He holds a clean grey slate with chalk figures (illegible marks only, no letters) and is wiping his thumb on his apron before touching it. Expression: practiced fairness, low voice, the nervous habit of touching the glaze-stain with his tongue."
+}

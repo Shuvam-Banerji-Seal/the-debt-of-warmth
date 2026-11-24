@@ -1,0 +1,17 @@
+{
+  "id": "plate-ch-0005",
+  "kind": "scene",
+  "chapter": 5,
+  "caption": "Day 8. Mira Silt at the Fishstairs.",
+  "out": "art/chapters/ch-0005.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque",
+  "output_format": "png",
+  "references": [
+    "art/characters/mira-silt.png",
+    "art/characters/sella-vail.png"
+  ],
+  "prompt": "FULL-PAGE COLOUR INSERT ILLUSTRATION for a light novel, portrait orientation, edge-to-edge composition with a strong focal point and cinematic depth; opaque, fully painted background. The FISHSTAIRS of a frozen river: broad, worn stone steps descending to the edge of grey ice and black open water at a weir, wicker eel-traps stacked, salted perch hanging on lines, a low timber bridge crossing behind with a grey-coated figure on it, a pale winter sun. MIRA SILT (see reference: missing upper half of the left ear, eel slime on her sleeves, string of eel-bones, knotted cords at her waist) stands on the steps handing four eels to an off-frame buyer while looking sidelong at a WILLOW BASKET that SELLA VAIL (see reference) holds on her hip. The infant in the basket has a small BROWN-EDGED CRUST OF BARLEY BREAD tucked into the fold of grey wool beside him. Steam rises from the open water; gulls; the cold is almost visible."
+}

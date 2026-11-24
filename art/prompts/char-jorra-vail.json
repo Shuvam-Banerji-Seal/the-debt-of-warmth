@@ -1,0 +1,12 @@
+{
+  "id": "char-jorra-vail",
+  "kind": "character",
+  "character": "jorra-vail",
+  "out": "art/characters/jorra-vail.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. JORRA VAIL, 16, a potter's apprentice and wheel-thrower: tall and narrow for his age, built like a gate hinge, all wrists and elbows; hair cropped very short; a guarded, closed face with eyes that look past the viewer toward a door; a permanently bent left little finger. Dried bone-pale clay slip coats both forearms to the elbow; grey dust in the creases of his skin. He wears a stained undyed linen shirt with sleeves rolled high, a leather thrower's apron heavy with wet clay, wool trousers tied at the calf, bare clay-crusted feet in wooden pattens. In his hands a freshly thrown, still-wet clay jar on a board, held with expert care. Expression: obedient body, unreadable eyes; he does not look at whoever is speaking."
+}

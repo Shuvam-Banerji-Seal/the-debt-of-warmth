@@ -1,0 +1,17 @@
+{
+  "id": "plate-ch-0003",
+  "kind": "scene",
+  "chapter": 3,
+  "caption": "Day 4. One in twelve, at the Cross.",
+  "out": "art/chapters/ch-0003.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque",
+  "output_format": "png",
+  "references": [
+    "art/characters/berr-clay.png",
+    "art/characters/sella-vail.png"
+  ],
+  "prompt": "FULL-PAGE COLOUR INSERT ILLUSTRATION for a light novel, portrait orientation, edge-to-edge composition with a strong focal point and cinematic depth; opaque, fully painted background. A crowded winter market square at a stone crossroads in a poor clay-and-river town, low grey sky, breath-steam everywhere: two hundred people in drab wool and sheepskin, pigs in a pen, stalls of pots and eels and barley loaves, clay dust in the air, a squat bell on a timber frame (not a church), a weathered notice-board with a nailed notice (illegible marks only). On a raised wooden platform sits BERR CLAY the Thane (see reference: heavy, grey stubble, red wool cord across his chest), reading from a clean slate; beside him a thin assessor in grey. The crowd leans in to hear. In the right foreground, seen from just behind her shoulder, SELLA VAIL (see reference) stands with a willow basket on her hip and grey wool over the baby's face, her door-shaped burn visible on the hand gripping the basket. The infant's eye shows through a gap in the wool, watching the slate."
+}

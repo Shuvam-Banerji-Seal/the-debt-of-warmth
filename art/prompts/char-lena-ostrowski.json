@@ -1,0 +1,12 @@
+{
+  "id": "char-lena-ostrowski",
+  "kind": "character",
+  "character": "lena-ostrowski",
+  "out": "art/characters/lena-ostrowski.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. LENA OSTROWSKI, about 69, the legendary charge nurse of a Chicago trauma bay: a small, spare Polish-American woman who never sits down; short iron-grey hair; a sharp, lined, unadorned face with eyes that notice every mistake; reading glasses on a cord. She wears faded ceil-blue scrubs under a long white cardigan-coat, a stethoscope around her neck, trauma shears in a pocket; her hands carry many small pale scars and she is wiping them on her coat without looking. Holding a paper coffee cup. Expression: dry, formidable, privately amused. This figure belongs to the hero's PAST LIFE in present-day Chicago (2020s), so modern clothing and objects are correct for this figure only; render them in the same light-novel style and muted palette. "
+}

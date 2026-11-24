@@ -343,6 +343,31 @@ Eel traps and a plank walk one league upriver, where the Fish Blessing is held a
 Orra Weir's trap-hut on the plank walk, where eels are salted and the cords of knot-accounts are kept. The Fish Blessing is prepared here on Reed 15.
 **Relations:** On the Weir, 1 league upriver of Sill.
 
+### The plank walk
+**Kind:** walkway. **Region:** the Weir, Grath.
+The raised boards that follow the north bank of the Ilm out to the traps and over the water on posts; the only dry way to the eels when the river rises. Rusk walks it at dusk. The Weir chart draws the boards and their posts but not which of them will bear a man's weight in Silt.
+**Relations:** Along the north bank at the Weir, 1 league upriver of Sill; the Eel House and the eel racks stand beside it, and a spur turns down onto the weir head.
+
+### The eel traps
+**Kind:** fishing traps. **Region:** the Weir, Grath.
+Conical baskets set in the gaps of the weir with their mouths upriver, so an eel goes in and cannot find the way out. Orra Weir lifts and salts them; the hearth-maids bless them at the Fish Blessing. A trap-keeper's saying about them is cut in the margin of the Weir chart.
+**Relations:** In the Ilm at the Weir, 1 league upriver of Sill; the plank walk serves them.
+
+### The eel racks
+**Kind:** drying racks. **Region:** the Weir, Grath.
+The poles beside the Eel House where the caught eels are hung to salt. These are not the drying racks of the Vail Clay Yard in Low Kiln, though both are entered in the Atlas with the same careful line.
+**Relations:** Beside the Eel House on the plank walk at the Weir, 1 league upriver of Sill.
+
+### The blessing stone
+**Kind:** stone, shrine. **Region:** the Weir, Grath.
+A flat stone on the north bank where the hearth-maids stand to bless the weir and the traps at the Fish Blessing. A crossed mark is cut into it, which the chart draws but does not explain.
+**Relations:** On the north bank at the Weir, beside the plank walk, 1 league upriver of Sill.
+
+### The river road
+**Kind:** road. **Region:** Grath, along the Ilm.
+The bank way by which Sill reaches the Weir and Stonemouth; it meets the Clay Road at the Cross in Sill. Packed clay, rutted in Silt and passable on foot when the low road is under water.
+**Relations:** Runs along the north bank past the Weir, 1 league upriver of Sill, and on to Stonemouth, 4 leagues further up.
+
 ### Cold Acre
 **Kind:** farm hamlet. **Region:** Grath, north ridge.
 Six houses, barley, turnips and one well that never freezes.

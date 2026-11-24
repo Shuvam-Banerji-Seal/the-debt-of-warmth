@@ -1,0 +1,17 @@
+{
+  "id": "plate-ch-0006",
+  "kind": "scene",
+  "chapter": 6,
+  "caption": "Days 10\u201314. Counting what there is.",
+  "out": "art/chapters/ch-0006.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque",
+  "output_format": "png",
+  "references": [
+    "art/characters/tarn.png",
+    "art/characters/sella-vail.png"
+  ],
+  "prompt": "FULL-PAGE COLOUR INSERT ILLUSTRATION for a light novel, portrait orientation, edge-to-edge composition with a strong focal point and cinematic depth; opaque, fully painted background. Early morning in the kiln-house yard, snow on the ground, the low sun rose-grey. TARN (see reference) crouches at a KINDLING STACK arranged in two neat groups of four sticks and a deliberate empty GAP where a fifth should be; he holds his left wrist up to the thin light to look at the PALE RING of skin where an iron bond-clip once sat; a small bench knife rests exactly on a window sill above him. Behind him SELLA VAIL (see reference) touches the clay widow's mark at her throat with one hand as she lifts the heavy lid of the squat kiln with the other; red light spills out and the cold air shimmers. In a basket on a bench by the door, the infant watches the gap in the kindling. Counting, scarcity and quiet dignity."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "plate-ch-0004",
+  "kind": "scene",
+  "chapter": 4,
+  "caption": "Day 6. The Hearth Drawing.",
+  "out": "art/chapters/ch-0004.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque",
+  "output_format": "png",
+  "references": [
+    "art/characters/sella-vail.png"
+  ],
+  "prompt": "FULL-PAGE COLOUR INSERT ILLUSTRATION for a light novel, portrait orientation, edge-to-edge composition with a strong focal point and cinematic depth; opaque, fully painted background. Night interior of a poor neighbour's house during a solemn rite, the HEARTH DRAWING. A sick man lies on a pallet by a low hearth; his family kneels around him in shadow. A COLLECTOR of the Warm Court, a lean man in a long ash-grey coat buttoned to the throat, kneels at his side, one hand flat on a dark slate, the other holding a slim COLD IRON TUBE to the man's chest without pressing; around the tube, frost blooms on the blanket and the hearth flames lean away, visibly dimming, a faint stream of pale golden light being drawn from the man into the iron. At the very EDGE OF THE FIRELIGHT, on the floor, a WILLOW BASKET with a swaddled infant whose small knuckle is raised an inch toward the scene; SELLA VAIL (see reference) stands behind the basket in shadow. Along the base of the wall a thick ridge of grey ash turns the corner unbroken. Mood: sacred, bureaucratic and terrible."
+}

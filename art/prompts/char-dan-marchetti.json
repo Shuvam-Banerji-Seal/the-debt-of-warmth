@@ -1,0 +1,12 @@
+{
+  "id": "char-dan-marchetti",
+  "kind": "character",
+  "character": "dan-marchetti",
+  "out": "art/characters/dan-marchetti.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. THE PROTAGONIST, a double portrait in one figure: DANIEL 'DAN' MARCHETTI as a translucent, ghostly memory of his former self cradling his own newborn body. The adult: a 40-year-old Italian-American trauma surgeon from Chicago, large and heavy-set, gone a little soft in the middle, with thick butcher's forearms and short-fingered, steady surgeon's hands; dark hair receding early at the temples, a badly shaved post-call stubble jaw, heavy-lidded dark-brown eyes whose fatigue reads as anger; a faint pale band on his ring finger where a wedding ring used to be. He wears navy hospital scrubs under an open, snow-dusted dark winter parka, a hospital ID lanyard. Render the ADULT AS HALF-TRANSPARENT (about 35% opacity, cool blue-grey, edges dissolving into drifting snow and faint embers at the hem, like breath on glass). In his arms, rendered SOLID, warm and vivid: the infant CORIN, a few days old, swaddled in a rough undyed grey wool cloth, tiny face, wisps of dark hair, unfocused but uncannily intent adult eyes; across the baby's bare chest and down one tiny forearm runs a delicate BRANCHING RED MARK like a frost-flower or a burn-map, glowing faintly like a coal under ash. The adult looks down at the child with exhausted tenderness and something like grief; the child looks up as if listening. Warm ember light comes from the child; cold blue snow-light from the adult."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "plate-ch-0007",
+  "kind": "scene",
+  "chapter": 7,
+  "caption": "Days 15\u201324. The number they give out.",
+  "out": "art/chapters/ch-0007.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque",
+  "output_format": "png",
+  "references": [
+    "art/characters/tarn.png",
+    "art/characters/alda-reed.png"
+  ],
+  "prompt": "FULL-PAGE COLOUR INSERT ILLUSTRATION for a light novel, portrait orientation, edge-to-edge composition with a strong focal point and cinematic depth; opaque, fully painted background. The last days before a winter festival in the poor quarter: dusk, heavy snow falling, a narrow lane between turf-roofed clay houses lit by tallow windows. In the foreground, inside a doorway, the midwife ALDA REED (see reference: grey shawl, linen cap) is writing on a NARROW SLATE (illegible marks only), about to turn it face-down; her free hand touches the little tin box at her bodice. In the lane outside, TARN (see reference) leads a COLLECTOR of the Warm Court through the snow toward a neighbour's house: the collector a tall figure in an ash-grey coat whose bare fingertips are the colour of skimmed milk gone off, carrying a slate and an iron tube wrapped in cloth. Neighbours watch from doorways holding up fingers, a number passed from fist to fist. Brooms lean by every door for the Last Day's sweeping. In a basket by the hearth inside, an infant with a red mark on his wrist lies beside two crusts of bread, one fresh and one cold."
+}

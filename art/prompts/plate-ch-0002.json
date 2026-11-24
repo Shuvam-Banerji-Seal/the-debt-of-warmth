@@ -1,0 +1,18 @@
+{
+  "id": "plate-ch-0002",
+  "kind": "scene",
+  "chapter": 2,
+  "caption": "Days 2\u20133. The Vail kiln-house takes in a child.",
+  "out": "art/chapters/ch-0002.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque",
+  "output_format": "png",
+  "references": [
+    "art/characters/sella-vail.png",
+    "art/characters/jorra-vail.png",
+    "art/characters/tarn.png"
+  ],
+  "prompt": "FULL-PAGE COLOUR INSERT ILLUSTRATION for a light novel, portrait orientation, edge-to-edge composition with a strong focal point and cinematic depth; opaque, fully painted background. Interior of a small family pottery's wheel-shed in midwinter, dim and smoky, lit by the red mouth of a squat clay kiln at the back and grey light through a frosted shutter. LEFT: JORRA VAIL (see reference), a tall thin teenage potter with slip-coated forearms, bent over a kick-wheel throwing a jar, deliberately not looking at the woman behind him. CENTRE: SELLA VAIL (see reference: broad, coal-black hair with a grey streak, door-shaped burn on her hand, clay widow's mark at her throat) stands with her arms folded, speaking to a pot on the bench rather than to the boy. RIGHT BACKGROUND: TARN (see reference), bent-shouldered, holding a twig broom and a small knife he is setting back on a sill. Details that matter: the wheel's wooden seat is worn into a HOLLOW on one side where a dead man sat for twenty years; a big salt-stained man's COAT hangs on a peg behind the door, keeping his shape; a thick grey ash ridge along the wall; shelves of drying bone-white pots. On the floor near the bench, a WILLOW BASKET with a newborn under grey wool, his eyes turned toward a single plain clay CUP on the bench as if he can hear it."
+}

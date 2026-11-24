@@ -1,0 +1,12 @@
+{
+  "id": "char-dessa-silt",
+  "kind": "character",
+  "character": "dessa-silt",
+  "out": "art/characters/dessa-silt.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. DESSA SILT, a 24-year-old woman of a poor potters' quarter who looks older than her years: thin, narrow-shouldered, slightly stooped from six years treading clay slip in the pits; a pale, drawn face with high cheekbones, shadows under grey-green eyes, chapped lips, a faint cough-flush on the cheeks. Dark brown hair pulled back roughly under a faded grey-blue headscarf, loose strands escaping. Layered poor work clothes: coarse undyed wool shift, heavy grey-brown wool overdress hitched at one hip, a clay-stiffened leather apron spattered with dried bone-white slip, wool leg-wrappings, wooden-soled clogs crusted with clay. Small quick hands with slip-grey nails, never clean. Her left sleeve is pushed up to show a long, thin, pale raised scar from a broken sieve-wire along the forearm, which her right thumb presses in a slow circle. Expression: a closed, tight-lipped smile that means nothing more will be said (the 'door shut' smile), eyes sliding away to one side as if counting steps under her breath. Weight on one hip, one shoulder lower, wary. A cough-cloth tucked in her belt, clay dust on her hem."
+}

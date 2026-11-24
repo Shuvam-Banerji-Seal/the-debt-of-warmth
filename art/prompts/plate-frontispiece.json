@@ -1,0 +1,17 @@
+{
+  "id": "plate-frontispiece",
+  "kind": "frontispiece",
+  "chapter": null,
+  "caption": "The Debt of Warmth",
+  "out": "art/frontispiece.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque",
+  "output_format": "png",
+  "references": [
+    "art/characters/dan-marchetti.png",
+    "art/characters/sella-vail.png"
+  ],
+  "prompt": "FULL-PAGE COLOUR INSERT ILLUSTRATION for a light novel, portrait orientation, edge-to-edge composition with a strong focal point and cinematic depth; opaque, fully painted background. KEY VISUAL / FRONTISPIECE of the whole saga, split vertically into two worlds that bleed into each other. UPPER THIRD: a present-day Chicago expressway at 2:17 a.m. in a blizzard, sodium-orange streetlights smeared by snow, an overturned minivan burning, and the large adult surgeon Dan Marchetti (navy scrubs, open dark parka, stubble, receding hair; see reference) reaching into the fire with both arms; this upper scene is rendered like a memory, slightly translucent, as if seen through ice. LOWER TWO-THIRDS: the frozen river town of Sill at blue dusk: the river under ice, steep turf-and-daub houses, two squat clay kilns breathing red light and smoke, an ash-grey sky; in the foreground a broad dark-haired woman with a grey streak (Sella Vail; see reference) walks through deep snow carrying a willow basket on her hip, and in the basket, under grey wool, a newborn whose chest bears a glowing branching red mark like a frost-flower. A single THIN THREAD OF GOLDEN WARMTH runs from the surgeon's hand in the fire above, down through the snow-filled sky, to the mark on the infant's chest: the only bright line in the picture. Mood: grief, cold, and a stubborn ember of hope."
+}

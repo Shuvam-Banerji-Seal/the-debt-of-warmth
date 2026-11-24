@@ -1,0 +1,12 @@
+{
+  "id": "char-tarn",
+  "kind": "character",
+  "character": "tarn",
+  "out": "art/characters/tarn.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. TARN VAIL, 22, a debt-bound labourer of the kiln-house: a narrow man with a narrow, watchful face, bent at the shoulders from six years in the slip pit so that he looks older; quick light hands with grey ASH ground into the knuckle creases; a PALE RING of skin around his left wrist where an iron bond-clip once sat, which he holds up slightly to the light. Lank brown hair tied back with string. Patched, many-times-mended wool tunic and trousers, a frayed rope belt, rag-wrapped feet in old clogs. A BROOM of bound twigs in one hand; a small bench KNIFE balanced on his open palm as if about to be put back exactly where it belongs. Expression: alert, eager to be useful, and the stillness of a man who freezes when praised."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "char-ulda",
+  "kind": "character",
+  "character": "ulda",
+  "out": "art/characters/ulda.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. ULDA, a foundling boy of about three years old in a poor river town: small and wiry, a narrow, always-slightly-amused face, bright mischievous eyes, a GAP where a front tooth was knocked out, through which he grins. He wears oversized cast-off clothes worn as if they were a uniform: a man's patched wool jacket with sleeves rolled many times, a rope belt, rag-wrapped feet. Around his neck on a string, a sliver of GREEN LEAD-GLAZE glass that he rubs with his thumb. River-silt smudges on his cheeks. Expression: cheeky, warm, a little too knowing for his age."
+}

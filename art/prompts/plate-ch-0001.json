@@ -1,0 +1,17 @@
+{
+  "id": "plate-ch-0001",
+  "kind": "scene",
+  "chapter": 1,
+  "caption": "Day 1. Alda Reed sees the birth-flower.",
+  "out": "art/chapters/ch-0001.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque",
+  "output_format": "png",
+  "references": [
+    "art/characters/alda-reed.png",
+    "art/characters/dessa-silt.png"
+  ],
+  "prompt": "FULL-PAGE COLOUR INSERT ILLUSTRATION for a light novel, portrait orientation, edge-to-edge composition with a strong focal point and cinematic depth; opaque, fully painted background. A cramped two-room birth room in a poor clay quarter, night, the only light a banked hearth glowing red under ash and one tallow candle. The trodden-ash floor; along the bottom of the clay-daubed wall runs a thumb-wide GREY RIDGE OF ASH that nobody sweeps. The plank door does not shut: frost and blue moonlight come through the gap. CENTRE: the midwife ALDA REED (see reference: grey shawl, linen cap, stooped, calm) lifts a two-hour-old newborn from a fold of grey wool and stares at a delicate BRANCHING RED MARK running across his tiny ribs and down one forearm like a frost-flower; two fingers of her free hand are crossed in an unconscious warding sign. On the bench at her elbow: a flat grey writing slate with chalk scribbles (no legible text) and a small milk-white river stone in a rag, its warmth visibly fading (faint heat shimmer). BACKGROUND, on a straw pallet, the exhausted young mother DESSA SILT (see reference) lies facing the wall, thumb pressing a pale scar on her forearm. The newborn's eyes are open and unnervingly focused, an adult mind behind them. In the hearth smoke rising toward the rafters, a faint ghostly double-exposure: an overturned van burning on a snowy modern highway under orange streetlights."
+}

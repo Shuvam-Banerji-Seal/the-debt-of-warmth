@@ -1,0 +1,12 @@
+{
+  "id": "char-paul-vesci",
+  "kind": "character",
+  "character": "paul-vesci",
+  "out": "art/characters/paul-vesci.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. PAUL VESCI, 49, an elegant Chicago surgeon and Dan's rival: handsome in a well-kept, polished way, perfectly barbered silver-flecked hair, clean-shaven, never tired; long pianist's fingers. He wears a tailored charcoal overcoat over a crisp white physician's coat and dark shirt, an expensive slim wristwatch, polished Italian shoes. Expression: a warm, amused, faintly condescending smile; ease that reads as a weapon. This figure belongs to the hero's PAST LIFE in present-day Chicago (2020s), so modern clothing and objects are correct for this figure only; render them in the same light-novel style and muted palette. "
+}

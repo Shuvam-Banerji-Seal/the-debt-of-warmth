@@ -1,0 +1,12 @@
+{
+  "id": "char-alda-reed",
+  "kind": "character",
+  "character": "alda-reed",
+  "out": "art/characters/alda-reed.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. ALDA REED, 42, the district's midwife ('hearth-maid'): broad shoulders, a permanent forward stoop from leaning over births, strong forearms, a calm, weathered, plain face with deep smile-lines that do not smile now, steady hazel eyes, grey-streaked brown hair braided and pinned under a white linen cap. A grey wool SHAWL over a dark brown wool dress with a scrubbed linen apron; sleeves pushed up; nails scrubbed to the quick yet with clay under them. A small battered TIN BOX on a cord at her bodice, which her left hand touches. In her right hand a flat grey writing SLATE with chalk marks (illegible scribbles only, no letters) held close to her chest. Her right forefinger and middle finger are unconsciously crossed in a small warding sign. Expression: the absolute calm of a woman who has seen four hundred births and will not say what she saw at this one."
+}

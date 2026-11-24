@@ -1,0 +1,12 @@
+{
+  "id": "char-mira-silt",
+  "kind": "character",
+  "character": "mira-silt",
+  "out": "art/characters/mira-silt.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. MIRA SILT, 27, an eel-fisher woman of the river stairs, sister to Dessa: broad-hipped and solid, weather-reddened round face, a small closed smile she keeps 'on the latch', shrewd dark eyes that are deciding whether to lie. The TOP HALF OF HER LEFT EAR IS MISSING, an old clean knife scar, her hair (dark brown, thick, tied back in a practical knot with a strip of cloth) pulled away so the ear shows. She wears a heavy oiled-wool smock with sleeves rolled to the elbow and dried grey EEL SLIME on the sleeves, a stained canvas apron over a dark wool skirt kilted up, thick wool stockings, low boots wet at the toes. In one hand a string of small white EEL-BONES that she flicks against her thumb; a grey knotted cord tied at her waist with a second cord half-hidden beneath it; a wicker eel-trap hangs from her other hand. Salt-cracked knuckles. She smells of river silt and salted perch, and should look like it: damp, cold, utterly at home in it."
+}

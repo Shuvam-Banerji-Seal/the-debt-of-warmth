@@ -1,0 +1,12 @@
+{
+  "id": "char-marra",
+  "kind": "character",
+  "character": "marra",
+  "out": "art/characters/marra.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. MARRA, a collector of the Warm Court in her forties: neat, unremarkable, composed face of an official who has spent her life at tables; hair pinned tight in a severe knot; pale grey eyes that look at a ledger before a person. She wears a long, fitted COAT THE COLOUR OF WET ASH, buttoned to the throat, cuffs buttoned to the wrist, dark gloves held in one hand. Her bare fingertips are tinged ASH-GREY. In her other hand a flat dark slate and a slim COLD IRON TUBE wrapped in a fold of clean cloth, the tools of her office; a small iron clip at her belt. A faint frost forms on the cloth around the iron. Expression: perfectly courteous, perfectly unreachable; the most expensive person in a poor room."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "char-nina-marchetti",
+  "kind": "character",
+  "character": "nina-marchetti",
+  "out": "art/characters/nina-marchetti.png",
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "transparent",
+  "output_format": "png",
+  "prompt": "CHARACTER DESIGN PLATE. One single figure, full body from head to feet, standing, three-quarter view, centred with a small even margin, isolated on a FULLY TRANSPARENT background: no floor, no ground shadow, no backdrop, no scenery, no props floating around; clean anti-aliased silhouette edges suitable for compositing onto parchment. NINA MARCHETTI, 24, Dan's daughter, in present-day Chicago in winter: a steady, unshowy young woman of Italian-American family, dark hair under a knit beanie, practical and quietly strong; a direct gaze that is deciding whether to say the thing that hurts. She wears a worn olive canvas work jacket over a grey hoodie, jeans, snow boots, and a scarf; in one hand a phone with its screen lit (no readable text), held down at her side unanswered; snowflakes on her shoulders. Expression: patient, tired of waiting, loving and unforgiving at once. This figure belongs to the hero's PAST LIFE in present-day Chicago (2020s), so modern clothing and objects are correct for this figure only; render them in the same light-novel style and muted palette. "
+}
