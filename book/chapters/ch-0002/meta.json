@@ -1,0 +1,80 @@
+{
+  "number": 2,
+  "title": "He's Not Vail",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "The foundling is a coat on a peg: anybody may wear it, nobody must say who left it, and the cold comes in at the seam nobody mended.",
+    "attribution": "A saying of the Clay Yard, Low Kiln"
+  },
+  "days": {"start": 2, "end": 3},
+  "when": "Days 2–3 · Stone 8 and Stone 9, Y.H. 812, an Eighthday and a Ninthday · the Ilm under ice and the Vail kiln breathing through the wall",
+  "where": "The birth room of House Silt and the Vail kiln-house, wheel-shed and Clay Yard in Low Kiln, Sill, Grath; one remembered car park in Chicago",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside an infant's body, with a single opening scene away from him inside the Vail kiln-house (a room gone cold); present tense only for the Chicago memory of Des's laugh",
+  "mode": "normal",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "jorra-vail",
+    "tarn",
+    "alda-reed",
+    "dessa-silt",
+    "garl-vail",
+    "deshawn-carter"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "the Clay Yard",
+    "House Silt",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "the Slip Brook",
+    "the Ilm",
+    "Chicago"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The House of the Breath",
+      "day": 2,
+      "flashback": false,
+      "synopsis": "A single scene away from Corin, inside the Vail kiln-house at first light — the room gone cold. The chapter opens on the breath he counted through the wall in Chapter 1, now heard from inside the thing that makes it. The house is known by its objects before its people: the wheel-seat worn hollow on the left, the salt-stained coat on the peg behind the door, the Ash ridge Sella will not sweep. Tarn is already sweeping and pockets the small bench knife; Jorra stands at the wheel with hands like a gate hinge; Sella touches the widow's mark before she opens the kiln and at no other time, and speaks instruction to the pot and the fire, never a finished feeling. Garl is present only as the shape his objects keep and his proverb in the house's voice: leave the crack showing. When Sella says the boy will be brought under the roof on the morrow, Jorra says he is not Vail, and Sella does not answer. Seeds Garl's uncollected warmth, the burnt slate in the kiln's ash, Jorra's broken slates and Tarn's knife and ear.",
+      "target_words": 2500
+    },
+    {
+      "n": 2,
+      "title": "The Cup Across the Room",
+      "day": 2,
+      "flashback": false,
+      "synopsis": "Back with the boy in the birth room of House Silt on the second morning. The door will not shut, the wool will not stay on, the stone is cold at his belly, and turning his head past a point makes the small animal sound. A cup set down on the bench across the room gives a small flat sound, and for the first time he hears the note itself — a vessel that does not answer full — and cannot reach the cup, cannot make anyone tap it, cannot tell anyone what he heard. Deshawn Carter's laugh breaks through, untagged and in the present tense: ten minutes of bad pizza in a car park, saying nothing, the one-minute laugh timed on the radio. It arrives and vanishes. Alda tends the child in a deliberate order, touches the tin at her bodice once, answers the unasked question with a date and the weather, and keeps the name in the dark hand turned under on the slate. Closes on the flat note still in his ear and the cup he cannot reach. First hearing of the flat note; plants Des's laugh.",
+      "target_words": 2400
+    },
+    {
+      "n": 3,
+      "title": "What the Room Is Arranging",
+      "day": 2,
+      "flashback": false,
+      "synopsis": "The second day wears on in the birth room: sleet against the oiled-paper window, the kiln's breath through the wall counted four, four and a gap, the Ilm under ice. Dessa's cough comes up from the pits; she rubs the sieve-wire scar while deciding how much to say, counts nineteen steps, and will not name the child — the little hot one, the flower — getting specific about dates and loaves as a handle on a thing too large. Alda answers with exact dates nobody asked for and the assertion that warm and breathing is all she has set down, which is not true. The room's unasked question — who pays to keep a foundling with no house-name — hangs in it. Dan reads the arrangement the way he once read a trauma bay at four in the morning: a household quietly deciding who is worth warming, and him the thing being sorted, unable to speak. Closes on the door that will not shut and the third day beyond it.",
+      "target_words": 2500
+    },
+    {
+      "n": 4,
+      "title": "Nineteen Steps Up the Yard",
+      "day": 3,
+      "flashback": false,
+      "synopsis": "On the third morning Sella comes for the boy under the Vail kiln-house roof. The hand that hovered in Chapter 1 now takes: Dan reads its grip as a surgeon estimates mass and care, the little door of the burn closing on the cloth. Carried in the bundle up the Clay Yard, he counts her steps because there is nothing else to count, reads the woodsmoke and the Slip Brook and the kiln's breath growing closer, and cannot turn his head to ask where they are going. Dessa stands at the end of the yard, counts nineteen steps and does not follow; her pulse is in her throat and her thumb on the pale scar. As the bundle goes away, Alda's voice comes from behind with the lie — the boy went in the levy, among the children taken for the account — and she becomes exact about dates nobody asked for. The figure is never spoken; it lives in the thumb's pressure on the scar. Dan hears his own life rewritten as mercy and cannot correct it. T008 is told here; the word forty stays unspoken.",
+      "target_words": 2800
+    },
+    {
+      "n": 5,
+      "title": "A Bed and a Loft",
+      "day": 3,
+      "flashback": false,
+      "synopsis": "The boy is carried into the house whose breath he has counted and is inside it at last: kiln heat, banked coals, an Ash ridge thicker than in House Silt. He is given a bed under the roof while Tarn is given the loft above the wheel-shed — the household has performed triage on its own members and called it kindness, and Dan notices with the part of him that was a surgeon and cannot say a word. He reads the hollow wheel-seat and the salt-stained coat with the four-four-and-a-gap count: a man-shaped absence. Jorra's he's-not-Vail is now sealed by the boy's arrival; he never looks at Sella while obeying her instantly. Tarn's deference has a nail in it — he is a debt, not a foundling — and he takes the small bench knife out and puts it back where it can be checked. Sella gives instruction to the pot and the fire and touches the widow's mark before she opens the kiln and at no other time. The charred edge of a slate lies in the kiln's ash, a physical fact the narration does not point at. Closes on the boy on a bed under a roof that is not his, the salt coat on its peg and the hollow seat, the count still his, and the third day done with the market and the Cross still ahead.",
+      "target_words": 2900
+    }
+  ]
+}
