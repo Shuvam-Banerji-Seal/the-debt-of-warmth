@@ -1,0 +1,80 @@
+---
+title: The Collector's Day-Book, Being the Measures Drawn in Sill and the Clay Towns from the Last Market of Stone in Y.H. 812 through the Five to the Opening of the Slates in Y.H. 813, with the Embers, the Deduction, and the Note the Vessel Gave
+kind: A page from an officer's own pocket day-book; figures in Ledgerhand copied from the slate, the remarks in the hand that held the cold iron tube, a column of notes struck out by the College and drawn back by the officer, one figure struck and set above in a borrowed hand, and a line at the foot in a hand nobody will own
+provenance: Written on the road between Sill and Greybank in the last tend of Stone, Y.H. 812, the Thin Year, through the Five and into Ilmen 1, Y.H. 813, and copied forward at the Opening of the Slates; carried in an oiled-paper wrap in the officer's coat, beside the tube in its wool sleeve. It survives with grey at the head of the ember column, iron filings worked into the gutter from the tube's wrap, a tallow thumb at the foot, a streak of bone-pale slip, a green bead of lead glaze in the lower corner, a damp tide-line from the Waiting Room, a small square of bare paper where a word was scraped away, two corrections in the narrow upright hand of a clerk of the College, and one line at the foot nobody will own.
+relates_to: [Sill, Low Kiln, High Kiln, Slate Row, the collector's table, the Waiting Room, Greybank, the factor at Greybank, the Cross, the Weir, Mud End, the Warm Court, the Hearthseat, the College of Assessors, Ledgerhand, the measure, embers, one in twelve, the deduction, the Return, cold iron, the Hearth Drawing, Kindling, Weighing, the Long Night, the Remembering, the Last Day, the Opening of the Slates, Account-day, slate-name, house roll, the Ash, the full note, flat note, grey fingers, the Forty of Low Kiln, the Vail kiln-house, the widow's mark, Grathic, Berr Clay, Sella Vail]
+---
+
+I draw the measure. The clerk at Greybank sets the figure down; I hold the tube. There is a difference between the two, and it is not the difference the College would have you believe, which is the difference between a taking and a draw. A taking and a draw are the same heat going the same way. The slate is the difference, and the slate is a piece of stone with a neat hand on it.
+
+This book goes in my coat under oiled paper, and the tube goes beside it in a sleeve of wool. When I hold the leaf still in the draught under a door my fingers leave grey on it. I have washed them. The grey is the trade, and the trade is the only kin I have: no house, no name but the slate-name upon the roll, and a cuff that has gone soft from washing. I do not set that name on this leaf. A name written in a book that may be read by a woman whose house I have entered is a name that can be called back to her door, and I have called at enough doors.
+
+What follows is one leaf, from the last market of Stone through the Five and into the first tend of Ilmen. Twelve copper bits to a silver mark; twenty marks to a gold crown, a Sere coin that does not stay in Grath. An ember is booked at five marks and no man has exchanged one for the other. A newborn vessel holds twelve to fifteen, a labourer in good case forty to sixty, and one of the Kept three hundred, which is a figure no household can spend. One in twelve is printed on the notice and read twice at the Cross. I have put no second figure beside it in the ember column. I have put it in the column beside that one, which the College struck out.
+
+Draws on this leaf: nine. Lines with no draw in them: two. Figures struck: one. Columns struck: one.
+
+# The leaf, as I set it down
+
+*Figures in Ledgerhand, copied from the slate. The remarks are mine, in the hand that held the tube. The last column is mine also and is not part of the account.*
+
+| Day | Vessel, as the slate has it | Embers | Deduction | Banked to | Note | Remark |
+|---|---|---|---|---|---|---|
+| Stone 30 | A widow of the lower town. *Loaf* | 41 | 1 in 12 | Greybank | full | Four loaves baked, three to the levy. Figure read twice, once for those that came late. |
+| Stone 30 | Forty of Low Kiln. One slate for the batch, by lot | — | 1 in 12 | Hearthseat | — | Held overnight in the Waiting Room. Birth-names not taken. A barrow of grey went out through the north gate in the afternoon. |
+| Kindling | A man of Mud End. *Peat* | 47 | 1 in 12 | Greybank | flat | Year's first measure, taken before light. Kiln's breath. The neighbours called it merciful. |
+| Kindling | A child three days returned, Low Kiln. *Second* | 13, struck to 12 | 1 in 12 | Hearthseat | none | Worse before dusk. Entered as a birth, not a worsening. |
+| Weighing | A glaze-room girl, High Kiln. *Sweet* | 38 | 1 in 12 | Greybank | nearly full | Pale line at the gum. Asked after her girl; not entered. |
+| the Long Night | A clay-bound hand of the terraces. *Seven* | 44 | 1 in 12 | Greybank | full | Consent withheld. Clip-held by the wrist until consent entered. Draw made by lamp; no fire after dusk. |
+| the Remembering | One of the Kept, in passing. No slate-name | 300 | none | none | none | Asked after the weather. Pity entered, which has no column. |
+| the Last Day | A house of the terraces, disputed. *Shoulder* | 52 | 1 in 12 | — | flat | Thumb wiped twice before touching nothing. Figure asked for, then not wanted. Left standing. |
+| Ilmen 1 | A thrower of the low yard. *Nineteen* | 41 | 1 in 12 | Greybank | full | First entry of the new roll. Earlier figure struck; no reason entered. |
+| Ilmen 10 | A man of the Weir. *Eel* | 52 | 1 in 12 | Greybank | full | Drawn before light. Pale round place left on the arm. The bell went four, four and a gap; nobody crossed. |
+| Ilmen 10 | No vessel drawn. A clerk set at the Fishstairs | — | — | — | — | Cuff grey from washing; slate held to the forearm; hand to slate before eyes to the stalls. I asked whose measure it was. Nobody had called one. Not one of ours. |
+
+# The note column
+
+Before the tube I set a knuckle on the wall or the rim of the cup. A whole vessel answers full. One cracked through answers flat, a small dead sound that stops at the surface. A vessel with air under the note answers nearly full, and the yards have no word for it, so I have set down the phrase as I heard it, which is not Grathic and will not be read at a Weighing. A vessel turned toward in expectation may give nothing at all; I have entered that as *none* and not as a nought, because a nought is a figure and a silence is not.
+
+The kiln-masters of Sill know the full note and keep it to themselves, which is their right and their trade. I know it because I have stood in forty rooms where a pot was set down and the whole house went on talking over the sound of it. A collector who cannot hear a vessel is a man who draws blind. He will still bring back his figure. The figure will still be entered. That is the trouble with figures.
+
+On Weighing I wrote *nearly full* for the girl of the glaze room, and the clerk borrowed the leaf and struck the whole column out. He wrote *No such column* above it in his narrow upright hand. I have drawn the column back underneath and left his words standing over it. He had to look at every row before he could write that there were none worth entering, and I watched him do it. A note is not a figure and cannot be added, which is why he struck it, and a figure cannot hear a vessel, which is why I put it back.
+
+# The grey
+
+The grey at the head of the ember column came off my own fingers while I gave the figure to the clerk at Greybank on a market morning. It is the colour of skimmed milk gone off. It goes in under the nails first and comes up into the creases by the second year, and after that a man may wash until the water freezes and nothing changes. The filings in the gutter came out of the wool sleeve the tube rides in; there is always a little iron in the fold, and it has never once drawn the warmth out of the paper, which is a mercy of a kind and the only one in this book.
+
+The tallow thumb at the foot is mine, from holding the lamp low while I wrote in a room where somebody was saying something I wanted the end of. The streak of slip came off a thrower's forearms when she set her slate beside mine to wait for a figure. The green bead is lead glaze and not slip; a girl leaned over to see the writing with the sweetness still at her mouth, touched the leaf, said nothing, and went back to her terrace. I have not washed it off. The tide-line along the foot came from the Waiting Room, where the collected are kept overnight before banking and the damp gets into everything left on a bench. The bare square in the lower margin is where I scraped a word away with a knife and put no other in its place. I have not written the word back, and I have not forgotten it.
+
+On the Last Day they sweep the corners of houses and burn what they find in the morning and call it dealt with. There is no Last Day for a coat.
+
+# What the two borrowed hands did
+
+The clerk from the College struck the figure of thirteen against the child on Kindling and set twelve above it, saying a vessel three days returned cannot hold thirteen after the draw. Both stand. I have asked which is right and neither of them has told me, and I have stopped asking, because an officer who asks after a correction is an officer who will soon be making one.
+
+He struck a verb also. Where I wrote *I drew* he set *the measure was drawn* above, and underneath that he set *the warmth was entered*, which is further from the bed than the first. I have put *I drew* back beneath both. A sentence with nobody in it is a sentence no woman can ask about, and women ask about these draws in the end, always at the door, always after the tube is put away.
+
+The other hand is not the College's. It is a tall leaning hand from Greybank, and against *the neighbours called it merciful* it wrote *the draw was lawful* and underlined the word twice. Both stand. Lawful is true and does not mention a man on a bed in Mud End who was already gone when I came through the door. Merciful is what the neighbours said, and I set it down because it was said in my hearing and there is no column for what a room says after the tube comes out.
+
+# The verse the collectors carry up the yard
+
+*Called under the breath going up the Clay Yard, never while the tube is out, and never twice in one house.*
+
+> Cold iron, warm arm,
+> a hiss and a pale round ring;
+> the figure goes up and the figure goes down
+> and the note stays where it came in.
+>
+> One in twelve, says the notice, read twice at the Cross;
+> four and four and a place where the fifth should be;
+> I carry the tube and the book in my coat
+> and the grey goes home ahead of me.
+
+The man who sang this to me would not sing the last line while the factor's man stood on the quay, which is how I know the last line is the one that matters. I have copied it as it came and put no gloss on it. A collector who explains a song has begun to write a sermon, and sermons get copied.
+
+# At the foot, in a hand nobody will own
+
+> The figure is read twice. The note is read by nobody. Both were taken from the same vessel on the same morning.
+
+I asked the clerk at Greybank, and a woman who stood at my counter about her house, and a man come down from Slate Row with a cuff gone soft, and had three answers and no hand. I have left the line where it was written.
+
+The book goes back into the oiled paper and the tube into its wool sleeve. Tomorrow the bell will go four, four and a gap with nobody crossing, and a figure will be read twice at the Cross, and I shall set the tube to a way and set the knuckle to the wall first, and write the note down before the College can strike it out. The grey will come off on the next leaf. I have stopped washing it.
