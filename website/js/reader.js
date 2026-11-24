@@ -30,6 +30,7 @@
   var queued = false;
   var userMoved = false;
   var lastTrigger = null;
+  var suppressSpyUntil = 0;
   var reduceMotion = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
   bindUI();
@@ -130,6 +131,7 @@
       currentDayId = null;
       updateChrome();
       markCurrent();
+      if (dayId) suppressSpyUntil = Date.now() + 900;
       S.setHash({ ch: n, day: dayId || null });
 
       if (dayId) {
@@ -159,7 +161,9 @@
   function gotoDay(id) {
     var target = document.getElementById(id);
     if (!target || !flow.contains(target)) return false;
-    target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+    /* A deep link is a jump, not a glide: land on the mark at once. */
+    suppressSpyUntil = Date.now() + 900;
+    target.scrollIntoView({ behavior: 'auto', block: 'start' });
     currentDayId = id;
     if (current) S.setHash({ ch: current.n, day: id });
     return true;
@@ -177,6 +181,7 @@
       currentDayId = null;
       updateChrome();
       markCurrent();
+      suppressSpyUntil = Date.now() + 900;
       S.setHash({ ch: next.n, day: null });
       unit.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
       appendBtn.disabled = false;
