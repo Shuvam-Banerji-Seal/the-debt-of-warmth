@@ -35,16 +35,18 @@ API = "https://api.openai.com/v1/images"
 
 # Shared art direction, prepended to every prompt so the whole book reads as one artist's work.
 STYLE = (
-    "ART DIRECTION (applies to the whole series): a premium Japanese light-novel illustration, the quality of an "
-    "official colour insert or character-design plate from a published light novel. Clean, confident line art with "
-    "tapering ink lines; soft cel shading layered with delicate painterly gradients; expressive, carefully drawn eyes "
-    "(realistic proportions for adults, not chibi); intricate, believable costume detail with real fabric weight, "
-    "seams, wear and grime. The palette is muted and wintry: slate grey, bone-white clay slip, ash grey, river-ice blue, "
-    "wet-wool brown, with warm amber and coal-red firelight as the only strong colour. Atmospheric light with rim "
-    "light from fire or snow-glare. The world is a poor, pre-industrial frozen river town of potters and eel-fishers "
-    "(clay yards, kilns, turf-and-daub houses, tallow light, frost); no modern objects in that world. The tone is "
-    "melancholy, dignified and quietly dark, never cute. Absolutely no text, letters, signatures, watermarks, borders "
-    "or speech bubbles anywhere in the image."
+    "ART DIRECTION (applies to the whole series): a premium JAPANESE LIGHT-NOVEL ILLUSTRATION in true anime style, the "
+    "quality of an official colour insert or character-design plate from a published Japanese light novel. Crisp, clean "
+    "black-brown LINE ART with tapering strokes; ANIME facial features (large luminous eyes with layered highlights and "
+    "defined lashes, small refined nose, delicate mouth, anime hair rendered in clumps with sharp highlights); CEL SHADING "
+    "with two or three tones per material, softened by gentle airbrushed gradients and a little painterly texture in "
+    "backgrounds. Adults keep adult proportions (no chibi, no super-deformed). Costumes are intricate and believable, "
+    "with real fabric weight, seams, patches, wear and grime. The palette is muted and wintry: slate grey, bone-white "
+    "clay slip, ash grey, river-ice blue, wet-wool brown, with warm amber and coal-red firelight as the only strong colour; "
+    "atmospheric rim light from fire or snow-glare. The fantasy world is a poor, pre-industrial frozen river town of potters "
+    "and eel-fishers (clay yards, kilns, turf-and-daub houses, tallow light, frost), with no modern objects in that world. "
+    "The tone is melancholy, dignified and quietly dark, never cute or glossy. Absolutely no text, letters, signatures, "
+    "watermarks, borders, panels or speech bubbles anywhere in the image."
 )
 
 
