@@ -1,0 +1,87 @@
+{
+  "number": 6,
+  "title": "Counting What There Is",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "Count the coal, count the crust, count the days the fire is kept. What you cannot count is who paid for it.",
+    "attribution": "A Low Kiln saying, Sill"
+  },
+  "days": {"start": 10, "end": 14},
+  "when": "Days 10–14 · Stone 16–20, Y.H. 812",
+  "where": "The Vail kiln-house and the Cross, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a ten-to-fourteen-day-old body carried everywhere; present tense only for a beat or two of Chicago breaking through, with no voice tagged",
+  "mode": "passage",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "berr-clay",
+    "garl-vail"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "House Silt",
+    "the yard well",
+    "the Slip Brook",
+    "the Ilm",
+    "the Cross",
+    "Slate Row",
+    "the Court's table at the Cross",
+    "the moot-post",
+    "the Bone Orchard",
+    "Chicago",
+    "Cook County Hospital"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "Four, Four, a Place for the Fifth",
+      "day": 10,
+      "flashback": false,
+      "synopsis": "First light of Stone 16 in the Vail kiln-house, opening on the banked coals, the widow's mark touched before the kiln and at no other hour, the pot on the bench where it gave nothing on Stone 13, and the crust gone cold in the fold. Sella moves her lips along the loaf shelf and Tarn measures the kindling stack with his eyes; the boy extends his private count from the boards to the stack --- four, four, a place where the fifth should be --- and files the gap beside the bench's interval. Alda Reed comes to see the child she delivered, touches the tin once inside her bodice, reaches for a slate before him, makes the two-finger sign at the red edge of his wrist without knowing it and covers it with an unasked-for date, and writes on her own slate what she does not leave lying about, going on giving exact dates after the question has stopped. The household's counting of fuel and bread against the days before Kindling is shown as a shape nobody will speak. Changes: the private count acquires a household scale, and Alda's second note is written and hidden in front of a child who cannot hand it back. Advances T071/T072, T044, T077, T079, T036, T035, T007, T023, T008, T060, T065, T082. Withheld: no figure spoken, no roll or box or tin shown, no joining of gaps or pauses.",
+      "target_words": 2600
+    },
+    {
+      "n": 2,
+      "title": "A Loan That Can Hear",
+      "day": 11,
+      "flashback": false,
+      "synopsis": "Stone 17 under the Vail roof and in the yard. Tarn sweeps before light, puts the small bench knife back where it can be checked and announces it unasked; one year of his seven remains and he will not count it, and he stops altogether for two breaths when Sella says he has done well. The pot on the bench is turned toward again and gives nothing; the boy expects the note and Tarn's broom stops at the empty set-down, and neither names what did not happen --- a second interval kept under one roof (T082). Sella names the kiln's breath as the danger the house lives beside, warning Jorra from the kiln mouth, and Tarn says a man in Mud End died of it and the district called the death merciful (T065). Jorra works in bone-coloured slip with no slate dust and shifts the damper before Sella has finished. Changes: the boy reads Tarn's kept silence as the same object as his own, and learns that what the house cannot measure it calls weather or mercy. Advances T036, T076, T082, T071/T072, T065, T060, T058, T035. Withheld: no sixth hearing, no Grathic word for the sound, no naming of the loan.",
+      "target_words": 2500
+    },
+    {
+      "n": 3,
+      "title": "The Pocket Place",
+      "day": 12,
+      "flashback": false,
+      "synopsis": "Stone 18, morning into dusk at the Vail kiln-house and the yard well. A figure goes around the yard --- days to Kindling, days to the Five --- and arrives as an absence; Sella keeps her half-pace from every open slate and says the house where another woman would say I, and Garl's uncalled debt against the tiles is spoken around and never named. A neighbour at the well reaches for a slate before her child and for two sentences the trauma bay breaks through in the present tense: ceiling light at four in the morning, a chart with a turned note, a hand going past it toward a signature, and a pocket that holds wool where a lit phone with a name lay. The boy files the gesture beside the ones he already keeps and looks at no name. Changes: the unanswerable kindness and the unclosed account are felt as the same shape, and the old life's hand reaches a pocket that holds nothing. Advances T004/T044, T045, T058/T075, T079, T077, T071/T072, T047, T009, T081 (light). Withheld: no voice tagged, no explanation of the Return, no name looked at, no roll, no box, no figure given.",
+      "target_words": 2400
+    },
+    {
+      "n": 4,
+      "title": "A Hairline in the Ice",
+      "day": 13,
+      "flashback": false,
+      "synopsis": "Dusk of Stone 19, under the Vail roof and along the yard to where a man come up from the Ilm brings word. The ice on the Ilm shows a hairline crack; a woman from High Kiln says the thaw will come early and is contradicted by everybody who wants it late, because a late thaw puts off what is payable in the thaw. A neighbour returned from the Court's room describes its bench by the door, the pot on the bench, the draught under it and the gap in the count, and the boy sets that room beside the birth room and the death-house without recognizing them as one (T081, advance not recognition). Sella measures the grey ridge against the ridge in the death-house by the width of a thumb; both turn corners without a break and neither will be swept before the Last Day. Changes: the district's number becomes weather and the boy's count becomes the only honest one in the yard, and it still buys him nothing. Advances T077, T083, T081, T013, T009, T071/T072, T065, T060. Withheld: no explanation of the Breaking, no joining of the rooms, no naming of the ridge.",
+      "target_words": 2500
+    },
+    {
+      "n": 5,
+      "title": "The Fourth Pause",
+      "day": 14,
+      "flashback": false,
+      "synopsis": "Account-day, Stone 20, morning at the Cross into dusk back under the Vail roof. Sella carries the boy down in the basket, keeps her half-pace from every open slate and sets him in the moot-post's finger's width of shade; the bell goes four, four and a gap. Berr Clay wipes his thumb before touching the slate and reads one in twelve, as the notice says, in the voice that makes the crowd lean in; the levy is called for the feast and is not called by him; Garl's uncalled debt against the tiles is spoken around and never named; he does not look into the basket. At the Court's table a collector's clerk with a soft passive voice handles a slate whose upper line is in the strange neat dark hand, and the boy catches the pause a fourth time --- at the flare, on the birth-slate, at the Cross on Stone 10, now here --- still unread and still unjoined to the other three; the Drawing collector's ordinary hand with no pause stays in its own place. Nothing is proved and the district goes back to the pigs. At dusk the coals are banked, the fold put right, the cold crust left where it was put; the Five are eleven days off and the household keeps that number badly while the boy keeps it exactly. Changes: a fourth sighting adds no power to decide and no word to speak. Advances T003/T005 (fourth sighting, unjoined), T015, T041, T047, T077, T078, T071/T072, T009, T058/T075, T004/T044, T060, T013. Withheld: one in three, forty, Marra's name, the roll, the box, the knots, and any joining of the pauses.",
+      "target_words": 2800
+    }
+  ]
+}
