@@ -9,19 +9,20 @@
     "arcs",
     "map-world",
     "map-region",
-    "map-home"
+    "map-home",
+    "portraits"
   ],
   "chapter": 1,
   "step": "plan",
   "scene": 1,
   "consolidated_through": 0,
   "built": {},
-  "calls": 18,
+  "calls": 19,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 0,
-  "tokens_in": 1545959,
-  "tokens_out": 481020,
+  "tokens_in": 1680257,
+  "tokens_out": 568884,
   "restarts": [
     {
       "at": "2026-11-24",
