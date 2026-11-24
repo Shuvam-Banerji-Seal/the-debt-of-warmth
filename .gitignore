@@ -9,3 +9,5 @@ progress.tmp
 *.toc
 *.out
 __pycache__/
+.env
+.env.*

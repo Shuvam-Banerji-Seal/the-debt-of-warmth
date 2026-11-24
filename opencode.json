@@ -1,18 +1,110 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "permissions": [
-    { "action": "external_directory", "resource": "*", "effect": "deny" },
-    { "action": "webfetch", "resource": "*", "effect": "deny" },
-    { "action": "websearch", "resource": "*", "effect": "deny" },
-    { "action": "shell", "resource": "git *", "effect": "deny" },
-    { "action": "shell", "resource": "gh *", "effect": "deny" },
-    { "action": "shell", "resource": "rm -rf *", "effect": "deny" },
-    { "action": "shell", "resource": "curl *", "effect": "deny" },
-    { "action": "shell", "resource": "wget *", "effect": "deny" },
-    { "action": "edit", "resource": "design/*", "effect": "deny" },
-    { "action": "edit", "resource": "forge/*", "effect": "deny" },
-    { "action": "edit", "resource": "fonts/*", "effect": "deny" },
-    { "action": "edit", "resource": "AGENTS.md", "effect": "deny" },
-    { "action": "edit", "resource": "opencode.json", "effect": "deny" }
+    {
+      "action": "external_directory",
+      "resource": "*",
+      "effect": "deny"
+    },
+    {
+      "action": "webfetch",
+      "resource": "*",
+      "effect": "deny"
+    },
+    {
+      "action": "websearch",
+      "resource": "*",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "git *",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "gh *",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "rm -rf *",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "curl *",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "wget *",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "design/*",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "forge/*",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "fonts/*",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "AGENTS.md",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "opencode.json",
+      "effect": "deny"
+    },
+    {
+      "action": "read",
+      "resource": ".env",
+      "effect": "deny"
+    },
+    {
+      "action": "read",
+      "resource": "**/.env",
+      "effect": "deny"
+    },
+    {
+      "action": "read",
+      "resource": "*.env",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": ".env",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "*.env*",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "*OPENAI*",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "env*",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "printenv*",
+      "effect": "deny"
+    }
   ]
 }
