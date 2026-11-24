@@ -1,13 +1,14 @@
 {
   "genesis_done": [
-    "concept"
+    "concept",
+    "world"
   ],
   "chapter": 1,
   "step": "plan",
   "scene": 1,
   "consolidated_through": 0,
   "built": {},
-  "calls": 1,
+  "calls": 2,
   "failures_in_row": 0,
   "started": "2026-11-24T15:50:11.421682",
   "words_total": 0
