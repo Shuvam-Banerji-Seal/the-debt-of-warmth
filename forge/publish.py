@@ -76,6 +76,60 @@ def release(files: dict[str, Path]) -> None:
         log(f"  release upload failed: {p.stderr.strip()[:300]}")
 
 
+def chapter_pdfs() -> None:
+    """Typeset every finished chapter as its own PDF; ship each volume's set as a release."""
+    import json as _json
+    state_f = FORGE / "chapter-pdfs.json"
+    try:
+        shipped = _json.loads(state_f.read_text())
+    except Exception:
+        shipped = {}
+    title = slug_title()
+    by_volume: dict[int, list[Path]] = {}
+    for n in build.completed_chapters():
+        d = build.chdir(n)
+        srcs = [*d.glob("*.tex"), *d.glob("*.md"), *d.glob("*.json")]
+        art = build._art_source(build.ART / "chapters" / f"ch-{n:04d}")
+        newest = max([f.stat().st_mtime for f in srcs] + [art.stat().st_mtime if art else 0])
+        pdf = build.BUILD / "chapters" / f"ch-{n:04d}.pdf"
+        if not pdf.exists() or pdf.stat().st_mtime < newest:
+            ok, pdf, err = build.build_chapter_pdf(n)
+            if not ok:
+                log(f"  chapter {n} PDF FAILED to compile: {err[:400]}")
+                continue
+            log(f"  chapter {n} PDF compiled")
+        key = f"{n}:{int(pdf.stat().st_mtime)}"
+        if shipped.get(str(n)) != key:
+            by_volume.setdefault(build.volume_of(n), []).append(pdf)
+            shipped[str(n)] = key
+    if not by_volume or not shutil.which("gh") or not git("remote"):
+        state_f.write_text(_json.dumps(shipped))
+        return
+    for v, pdfs in by_volume.items():
+        tag = f"volume-{v:03d}"
+        lo, hi = (v - 1) * build.VOL_SIZE + 1, v * build.VOL_SIZE
+        if subprocess.run(["gh", "release", "view", tag], cwd=ROOT, capture_output=True).returncode != 0:
+            subprocess.run(["gh", "release", "create", tag, "--title", f"Volume {v}: chapters {lo}\u2013{hi}",
+                            "--notes", f"Each chapter of volume {v} as its own typeset PDF. Updated as chapters are finished.",
+                            "--latest=false"], cwd=ROOT, capture_output=True)
+        staged = FORGE / "release-ch"
+        shutil.rmtree(staged, ignore_errors=True)
+        staged.mkdir(parents=True)
+        paths = []
+        for pdf in pdfs:
+            dst = staged / f"{title}-Chapter-{pdf.stem[3:]}.pdf"
+            shutil.copy2(pdf, dst)
+            paths.append(str(dst))
+        r = subprocess.run(["gh", "release", "upload", tag, "--clobber", *paths], cwd=ROOT, capture_output=True, text=True)
+        if r.returncode != 0:
+            log(f"  chapter PDFs upload to {tag} failed: {r.stderr[:300]}")
+            for pdf in pdfs:
+                shipped.pop(str(int(pdf.stem[3:])), None)
+        else:
+            log(f"  {len(paths)} chapter PDF(s) released in {tag}")
+    state_f.write_text(_json.dumps(shipped))
+
+
 def publish_once(volume: int | None, final: bool = False) -> None:
     t0 = time.time()
     build.render_maps()
@@ -106,16 +160,25 @@ def publish_once(volume: int | None, final: bool = False) -> None:
             log(f"  volume {volume} FAILED: {verr[:400]}")
     if cover.exists():
         files[f"{title}-Cover.pdf"] = cover
+    try:
+        import epub
+        ep = epub.make_epub()
+        files[f"{title}.epub"] = ep
+    except Exception as e:
+        log(f"  EPUB FAILED: {type(e).__name__}: {e}")
+        ep = None
     if not files:
         return
     chs = build.completed_chapters()
     msg = f"Book as of chapter {chs[-1]}" if chs else "Book before the first chapter"
-    if ok:
-        ready = FORGE / "ready"
-        ready.mkdir(exist_ok=True)
-        tmp = ready / f".{title}.pdf.tmp"
-        shutil.copy2(pdf, tmp)
-        tmp.replace(ready / f"{title}.pdf")  # the press moves it to the repository root
+    ready = FORGE / "ready"
+    ready.mkdir(exist_ok=True)
+    for src, name in ((pdf if ok else None, f"{title}.pdf"), (ep, f"{title}.epub")):
+        if src and Path(src).exists():
+            tmp = ready / f".{name}.tmp"
+            shutil.copy2(src, tmp)
+            tmp.replace(ready / name)  # the press moves it to the repository root
+    chapter_pdfs()
     release(files)
     pages = ""
     try:
