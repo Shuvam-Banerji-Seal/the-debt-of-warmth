@@ -1,0 +1,61 @@
+\begin{tikzpicture}
+  % the number given out: a figure laid in a palm that will not hold still.
+  % a warmth beneath the kept count
+  \fill[gold, opacity=0.05] (0,-0.30) ellipse (2.15 and 0.80);
+
+  % the open hand: a shallow bowl, the rim of the fist
+  \draw[faded!80!ink, line width=1.5pt] (-1.75,0.28)
+        .. controls (-1.45,-0.55) and (-0.70,-0.86) .. (0,-0.86)
+        .. controls ( 0.70,-0.86) and ( 1.45,-0.55) .. (1.75,0.28);
+  \draw[faded!65, line width=0.9pt] (-1.75,0.28)
+        .. controls (-1.50,-0.02) and (-0.80,-0.30) .. (0,-0.30)
+        .. controls ( 0.80,-0.30) and ( 1.50,-0.02) .. (1.75,0.28);
+  % the thumb, half-closed over what is not given
+  \draw[faded!80!ink, line width=1.2pt] (1.75,0.28)
+        .. controls (2.02,0.50) and (1.58,0.74) .. (1.02,0.46);
+  \draw[faded!45, line width=0.6pt] (1.68,0.20)
+        .. controls (1.88,0.42) and (1.54,0.60) .. (1.10,0.40);
+  % the creases of fingers that have opened
+  \draw[faded!40, line width=0.55pt, opacity=0.7] (-1.58,-0.02) arc (200:245:0.42);
+  \draw[faded!40, line width=0.55pt, opacity=0.6] (-1.34,-0.20) arc (200:245:0.36);
+
+  % the exact number, kept: a neat row that does not move
+  \fill[gold, opacity=0.10] (0,-0.55) ellipse (0.95 and 0.22);
+  \foreach \x in {-0.66,-0.40,-0.14,0.12,0.38}{
+    \draw[gold, line width=1.5pt] (\x,-0.70) -- (\x,-0.39);
+    \fill[gold!70!ink] (\x,-0.70) circle (0.022);
+  }
+  \draw[ink, line width=0.5pt, opacity=0.35] (-0.74,-0.34) -- (0.46,-0.34);
+
+  % a thumb passed over the face: the figure wiped and read again
+  \fill[ash, opacity=0.13] (0,0.40) ellipse (2.4 and 0.28);
+  \draw[faded!55, line width=0.8pt, opacity=0.45] (-2.2,0.52)
+        .. controls (-0.8,0.30) and (0.9,0.62) .. (2.2,0.38);
+
+  % the told figure: three, struck out --- two, struck out --- whatever.
+  \draw[rubric!75!faded, line width=1.4pt, opacity=0.62] (-1.55,0.94) -- (-1.55,1.28);
+  \draw[rubric!75!faded, line width=1.4pt, opacity=0.62] (-1.34,0.94) -- (-1.34,1.28);
+  \draw[rubric!75!faded, line width=1.4pt, opacity=0.62] (-1.13,0.94) -- (-1.13,1.28);
+  \draw[rubric!60!ink, line width=0.9pt, opacity=0.5] (-1.64,1.32) -- (-1.04,0.90);
+
+  \draw[rubric!70!faded, line width=1.4pt, opacity=0.42] (-0.24,1.22) -- (-0.24,1.50);
+  \draw[rubric!70!faded, line width=1.4pt, opacity=0.42] (-0.02,1.22) -- (-0.02,1.50);
+  \draw[rubric!55!ink, line width=0.9pt, opacity=0.35] (-0.32,1.54) -- (0.06,1.18);
+
+  \fill[ash!70!vellum, opacity=0.28] (0.98,1.44) ellipse (0.42 and 0.11);
+  \fill[faded, opacity=0.22] (0.70,1.62) circle (0.028);
+  \fill[faded, opacity=0.16] (1.28,1.66) circle (0.022);
+  \fill[faded, opacity=0.12] (1.05,1.78) circle (0.018);
+
+  % the breath of mouths carrying it up and away
+  \draw[faded, line width=0.7pt, opacity=0.20] (-1.34,1.30)
+        .. controls (-1.55,1.55) and (-1.05,1.62) .. (-1.22,1.88);
+  \draw[faded, line width=0.6pt, opacity=0.14] (-0.13,1.52)
+        .. controls (-0.34,1.74) and (0.10,1.80) .. (-0.05,2.02);
+
+  % flourished rules at the ends of the telling
+  \node at (-4.02,0.30) {\pgfornament[width=1.6cm,color=ornament]{83}};
+  \node at ( 4.02,0.30) {\pgfornament[width=1.6cm,color=ornament,symmetry=v]{83}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.34) {count again; it will not be the same one};
+\end{tikzpicture}
