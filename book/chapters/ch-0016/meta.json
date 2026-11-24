@@ -1,0 +1,101 @@
+{
+  "number": 16,
+  "title": "The Sweeping Around",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "A boy turns his head toward a pot before the knuckle falls, and another turns it a breath later and calls it weather. The loaf is warm. Nobody says who paid for the flour.",
+    "attribution": "A saying of the well-lip, Low Kiln"
+  },
+  "days": {"start": 75, "end": 77},
+  "when": "Days 75–77 · Silt 16–18, Y.H. 813",
+  "where": "Low Kiln, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a seventy-five-to-seventy-seven-day-old body carried everywhere; no present-tense Chicago break and no \\memory{} tag are planned this chapter --- the old life stays offstage --- and there is no departure from his eyes, no Court or Waiting Room interior",
+  "mode": "normal",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "ulda"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "Slate Row",
+    "the Waiting Room",
+    "the Cross",
+    "the Fishstairs",
+    "the Weir",
+    "the plank walk",
+    "the Eel House",
+    "the Singing Sill",
+    "the Ilm",
+    "Nine Pots",
+    "Greybank",
+    "the Bone Orchard",
+    "the Clay Yard",
+    "the drying racks",
+    "the yard well",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the back room",
+    "the Debt Loft",
+    "House Silt",
+    "House Reed"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Sweeping Around",
+      "day": 75,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 75, Silt 16, Sixthday, morning to midday in the mud of the Clay Yard, at the drying racks and the yard well, and under the Vail kiln-house roof. The yard sweeps around what the flood left with a broom and a glance and no figure spoken; Sella gives the broom its instruction before anyone, says the house, gives every instruction to the fire, the wool and the bucket and never to the basket, and goes wide around an open slate (T058, T079). The boy, seventy-five days old and carried at the half-pace, keeps the count exactly against the house's bad arithmetic; the number for the flood still goes from fist to mouth to shoulder and arrives nowhere (T071/T072, T077). The clean dark line and the new finer grey lie unswept and the space under the lowest rack is gone around and entered by nobody (T009, T013, T092, T031). The child's cold foot from below the sill is still the cold to one woman and weather to the yard, carried unnamed and uncured (T093). Changes: the recovery is seen to be another kind of keeping-by-avoidance, and the count goes in at 75 unspent. Advances T071/T072, T077, T083/T085/T092, T009/T013, T031, T093, T058/T079, T086/T060. Withheld: no figure spoken, no accident made of the board, no name or cure for the cold foot, no seventh hearing, no ending.",
+      "target_words": 2400
+    },
+    {
+      "n": 2,
+      "title": "The Half-Beat",
+      "day": 75,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 75, Silt 16, Sixthday, afternoon through dusk at the yard well and under the roof. First plain sighting of the watcher: Ulda, a small foundling in somebody else's cast-off clothes with a gap where a front tooth was and a sliver of green glaze on a string at his neck, finishes a kiln-hand's sentence for him in the affectionate voice and makes the yard laugh. When a pot is set down the boy's head goes toward it before the knuckle and the child's head goes too --- a half-beat late --- and he rubs the green sliver with his thumb and cannot say why he turned (T034 planted toward the day the tell lands, not paid). A man from Slate Row whose name is on no roll holds out a loaf; the child's mouth opens on a sentence that is not finished, and the loaf goes into his hand with no slate and no secret spoken --- the shape of the sale planted, T033 still open (T072, T080 filed apart). The boy files the delay and the loaf as objects and writes no cause across either (T061/T082, T076); he does not join the child's turning to his own hearing or make it a seventh hearing. Sella carries him wide around the open slate and home at the half-pace; Tarn's knife is on its sill with six counted and the seventh held, his broom going over the collector's road without turning (T058, T084, T036, T076). Changes: a new person enters the yard whose attention can be bought, and the boy's private file gains the shape of a transaction nobody enters. Advances T033/T034, T061/T082, T076, T072, T058/T084, T036, T065, T086, T071/T072. Withheld: no secret named, no betrayal paid, no second sighting of the neat dark hand, no recognition, no ending.",
+      "target_words": 2500
+    },
+    {
+      "n": 3,
+      "title": "Two Cords Side by Side",
+      "day": 76,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 76, Silt 17, Seventhday, morning to midday at the Fishstairs below the north bridge and in the shade at the edge of the fish-trade, under the roof at dusk. The steps have come back four, four and a landing a hand's breadth out of line, and the soft-cuffed clerk still sits for a measure nobody called, hand to slate before eyes to the stalls (T083, T090, T080). Mira Silt works the eels with pale slime dried on her sleeves, silt in the hollow of her neck and her head held right where the top of her left ear had been; she answers a question about the run with her own answer, moves eel-bones while deciding and puts one away. When a buyer names a figure her thumb goes under her apron to the grey cord and shifting a creel shows the second cord twisted twice beneath it, never carried upriver to Nine Pots, never lifted at a door, neither knot counted (T025, T059). The thin child upriver is not spoken of and that knot is not touched; her board lies beside Orra Weir's knot-string and does not touch it, Orra herself offstage (T059, T024). Changes: three private records are seen to live in materials no Court can take up, and the boy keeps what he cannot spend. Advances T025/T059, T024, T090/T080, T083, T058, T084, T061/T082, T071/T072. Withheld: no knot counted, no word forty, no thin child named, no crust given, no look into the basket, no ending.",
+      "target_words": 2400
+    },
+    {
+      "n": 4,
+      "title": "The Tin Above the Bed",
+      "day": 76,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 76, Silt 17, Seventhday, afternoon in House Silt three doors down and under the Vail roof at dusk. Sella sets the basket just inside the finger's-width-open door at the edge of the light, away from every place a slate might lie, and keeps her half-pace (T058, T081). The round pewter tin above the empty bed keeps its pale fold at the seam and thumb-bright rub on the lid, unopened; the fold of grey wool below holds only the hollow where the small pale river stone once lay, and nobody says either is gone (T089, T074, T086). Alda Reed comes short with soap-and-milk gone cold under river silt, lays her birth-slates writing-down before turning to the fold, presses it too long, crosses two fingers at the red edge of the birth-flower unaware and covers the sign with the date she gave Dessa, says warm and breathing --- exact and not true --- and touches the little tin in her bodice without opening it (T007, T008, T073). Her sixth narrow slate stays turned face-down toward a floorboard in a house the boy cannot name; the hidden record stands at six, all unread. Do not write a seventh page and do not pay T023 again (T023). Changes: two private records in two materials stand apart in one room over a woman thirty-eight mornings dead, and the mercy-lie has curdled past correction. Advances T089/T074/T023, T007, T008, T073, T081, T058, T086, T065, T071/T072. Withheld: no name or number from Dessa, no tin opened, no recognition, no bank errand, no ending.",
+      "target_words": 2400
+    },
+    {
+      "n": 5,
+      "title": "The Dust Comes Back",
+      "day": 77,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 77, Silt 18, Eighthday, morning to midday in the Clay Yard, the Vail wheel-shed and the space off it (not entered), and at the drying racks. Jorra Vail comes through the finger's-width-open door with fine grey slate dust worked into both forearms past the bend of his little finger, not the bone-coloured slip of the wheel; two men came in since first light and he gives them no name (T035). He speaks to the wheel before anyone --- it does not care whose hands, only if they are steady --- tells a pot it will do, knows the full note of a Vail pot before it leaves the wheel and will not say so before a kiln-master, and puts his bent finger to the damper ahead of Sella's unfinished sentence so her instruction arrives at the pot and the household straightens around his silence (T035, T061). He does not say the back room is cold and does not look toward the bed or the basket; *he's not Vail* stays sealed and the promise of the foundling's name to the men who burn slates is neither given nor withdrawn (T057, T084). The broken birth-slates stay under the lowest rack, gone around and entered by nobody (T031). Tarn's knife is on its sill with six years counted and the seventh nearly gone and still held --- something must give at the end of it, but not yet --- and his broom goes over the collector's road without turning while his head does not turn at a vessel's note (T036, T076, T009, T061). Changes: the dust returns and the seventh year presses closer to its end; two silences of the same shape keep their equality under one roof. Advances T035, T031, T057, T084, T036, T076, T009, T061/T082, T071/T072. Withheld: no back room entered, no men named, no slate counted, no calling of the loan, no accident of the board, no ending.",
+      "target_words": 2500
+    },
+    {
+      "n": 6,
+      "title": "What the Count Carries",
+      "day": 77,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 77, Silt 18, Eighthday, afternoon at the yard well and Clay Yard through dusk under the Vail kiln-house roof. The yard goes around what the water left with a broom and a glance and no figure spoken; the boy, seventy-seven days old, keeps the count exactly from 75 through 77 while the house keeps it badly in loaves, glances and a space at the row's end nobody calls a number (T071/T072, T077). The child's cold foot below the sill stays the cold and weather, unjoined and uncured, carried on a place of its own (T093). Six hearings stay six, five from four sources and the sixth from a person, beside and never among; three near-full answers stand advanced and not paid, three intervals on another tray, the word on a place of its own with the readable double turn beside it and the weight of a thumb apart from both, four low sounds in four places and the river's note a fifth thing --- nothing joined and no seventh (T061/T082, T024). One brown-edged crust lies stiff in the fold with the empty place beside it unnamed and no third comes; the three hands stay on their tray and do not become a cause (T086, T060, T091). The new grey lies finer than the old clean dark line and is not swept, called thaw; the carried fire keeps four, four and a gap under blind ash and the back of a broken pot with its payer unnamed (T092, T013, T065, T088). At dusk Sella sets him on his bed under the roof and not in the Debt Loft, puts the fold right without looking at his face and leaves the thread at his mouth frozen and unwiped; the door stands a finger's width open with the river's note through the gap and the fire's gap through the floor kept apart (T058, T086). Changes: three days of recovery have changed nothing but the count, which crosses into Silt 19 unspent with a new shape --- a half-beat delay and a warm loaf --- in the private file. Advances T071/T072, T077, T093, T061/T082, T086/T060/T091, T092/T013, T065/T088, T058, T024, T034. Withheld: no seventh hearing, no sixth sighting of the neat dark hand, no name for the empty place, no recognition of Dessa, no experiment or rank change, no ending.",
+      "target_words": 2400
+    }
+  ]
+}
