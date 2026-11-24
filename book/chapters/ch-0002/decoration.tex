@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+  % four, four, and the missed fifth, scored above the house
+  \draw[faded!70, line width=0.5pt] (-2.95,1.2) -- (2.65,1.2);
+  \foreach \x in {-2.7,-2.2,-1.7,-1.2,-0.2,0.3,0.8,1.3}{
+    \fill[ornament] (\x,1.2) circle (0.055);
+  }
+  \draw[ash, line width=0.7pt] (2.3,1.13) circle (0.075);
+
+  % the vessel: an open cup, not full
+  \fill[ash!12!vellum] (-0.52,0.45) .. controls (-0.5,-0.3) and (-0.22,-0.66) .. (0,-0.66)
+                       .. controls (0.22,-0.66) and (0.5,-0.3) .. (0.52,0.45) -- cycle;
+  \draw[faded, line width=0.9pt] (-0.52,0.45) .. controls (-0.5,-0.3) and (-0.22,-0.66) .. (0,-0.66)
+                       .. controls (0.22,-0.66) and (0.5,-0.3) .. (0.52,0.45);
+  \draw[faded, line width=0.8pt] (0,0.45) ellipse (0.52 and 0.13);
+  \draw[faded!70, line width=0.6pt] (0,-0.7) ellipse (0.2 and 0.05);
+  % the low, level water: the vessel does not answer full
+  \draw[faded!65, line width=0.6pt] (-0.38,-0.18) arc (180:360:0.38 and 0.08);
+
+  % the flat note: dead level, crossing the room to a hand that cannot reach
+  \draw[gold, line width=1.1pt] (0.55,0.5) -- (3.5,0.5);
+  \draw[gold!55!vellum, line width=0.5pt] (0.55,0.55) -- (3.5,0.55);
+  \draw[gold, line width=0.9pt] (3.5,0.44) -- (3.5,0.56);
+  \draw[faded, line width=0.5pt, dashed] (3.8,0.5) -- (4.35,0.5);
+  \fill[faded] (4.45,0.5) circle (0.03);
+
+  % small flourishes at the ends, turned inward
+  \node at (-4.6,-0.55) {\pgfornament[width=1.4cm,color=ornament]{11}};
+  \node at ( 4.6,-0.55) {\pgfornament[width=1.4cm,color=ornament,symmetry=v]{11}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.32) {a vessel that does not answer full};
+\end{tikzpicture}

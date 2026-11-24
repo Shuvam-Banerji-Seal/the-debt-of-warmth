@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **1**
-- Words of story: **13,455**
-- Current chapter: 2 (step: plan, scene 1)
-- Last chapter: The Stone Going Cold (Day 1 · Stone 7, Y.H. 812, a Seventhday · the Ilm under ice, three days before the Five Cold Days)
-- Author calls so far: 28 (tokens in 2,555,942, out 757,817)
-- Updated: 2026-11-24 18:16
+- Chapters complete: **2**
+- Words of story: **26,217**
+- Current chapter: 2 (step: publish, scene 6)
+- Last chapter: He's Not Vail (Days 2–3 · Stone 8 and Stone 9, Y.H. 812, an Eighthday and a Ninthday · the Ilm under ice and the Vail kiln breathing through the wall)
+- Author calls so far: 38 (tokens in 3,711,959, out 967,168)
+- Updated: 2026-11-24 18:52
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
