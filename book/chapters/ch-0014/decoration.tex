@@ -1,0 +1,81 @@
+\begin{tikzpicture}
+  % the chapter's heart: water over water under a skin of ice --- the river's own note
+  \fill[gold, opacity=0.045] (0,0.04) ellipse (4.55 and 1.45);
+
+  % a small fleuron where no slate is set
+  \node at (0,1.52) {\pgfornament[width=0.85cm,color=ornament]{11}};
+
+  % the sheet of ice: a thin lens, drawn twice so the skin shows its edge
+  \fill[vellum, opacity=0.15]
+    (-4.30,0.08) .. controls (-2.0,1.55) and (2.0,1.55) .. (4.30,0.08)
+    .. controls (2.0,-1.38) and (-2.0,-1.38) .. (-4.30,0.08) -- cycle;
+  \draw[faded!85!ink, line width=1.25pt, opacity=0.88]
+    (-4.30,0.08) .. controls (-2.0,1.55) and (2.0,1.55) .. (4.30,0.08)
+    .. controls (2.0,-1.38) and (-2.0,-1.38) .. (-4.30,0.08) -- cycle;
+  \draw[faded!58, line width=0.5pt, opacity=0.42]
+    (-4.12,0.08) .. controls (-1.95,1.40) and (1.95,1.40) .. (4.12,0.08)
+    .. controls (1.95,-1.24) and (-1.95,-1.24) .. (-4.12,0.08) -- cycle;
+
+  \begin{scope}
+    \clip (-4.30,0.08) .. controls (-2.0,1.55) and (2.0,1.55) .. (4.30,0.08)
+          .. controls (2.0,-1.38) and (-2.0,-1.38) .. (-4.30,0.08) -- cycle;
+
+    % the lower water: the dark current going over itself, showing in veins
+    \fill[night!88, opacity=0.70]
+      (-4.4,-0.22) .. controls (-2.6,-0.04) and (-1.2,-0.42) .. (0.1,-0.24)
+      .. controls (1.4,-0.06) and (2.7,-0.40) .. (4.4,-0.22)
+      -- (4.4,-0.66) .. controls (2.7,-0.84) and (1.4,-0.48) .. (0.1,-0.66)
+      .. controls (-1.2,-0.84) and (-2.6,-0.46) .. (-4.4,-0.64) -- cycle;
+    \draw[gold!42!faded, line width=0.55pt, opacity=0.42]
+      (-4.4,-0.22) .. controls (-2.6,-0.04) and (-1.2,-0.42) .. (0.1,-0.24)
+      .. controls (1.4,-0.06) and (2.7,-0.40) .. (4.4,-0.22);
+
+    % veins of that current, each stopping short of the far edge
+    \draw[gold!55!rubric, line width=0.75pt, opacity=0.55]
+      (0.70,-0.45) .. controls (1.35,-0.33) and (2.05,-0.36) .. (2.95,-0.50);
+    \draw[gold!55!rubric, line width=0.55pt, opacity=0.42]
+      (0.70,-0.45) .. controls (0.25,-0.56) and (-0.55,-0.48) .. (-1.45,-0.60);
+    \draw[gold!48!faded, line width=0.50pt, opacity=0.36]
+      (1.75,-0.38) .. controls (1.95,-0.52) and (2.05,-0.56) .. (2.15,-0.62);
+    \draw[gold!48!faded, line width=0.50pt, opacity=0.32]
+      (-0.60,-0.50) .. controls (-0.80,-0.40) and (-0.95,-0.36) .. (-1.10,-0.32);
+
+    % the upper water: a pale skin laid over the dark, passing across it
+    \draw[vellum, line width=4.0pt, opacity=0.80]
+      (-1.05,-0.30) .. controls (-0.55,-0.40) and (0.15,-0.38) .. (0.65,-0.28);
+    \fill[vellum, opacity=0.46]
+      (-4.4,0.54) .. controls (-2.8,0.36) and (-1.4,0.72) .. (-0.1,0.52)
+      .. controls (1.2,0.32) and (2.6,0.68) .. (4.4,0.48)
+      -- (4.4,0.10) .. controls (2.6,0.30) and (1.2,-0.20) .. (-0.1,-0.34)
+      .. controls (-1.4,-0.12) and (-2.8,0.02) .. (-4.4,0.20) -- cycle;
+    \draw[faded!82!ink, line width=0.85pt, opacity=0.72]
+      (-4.4,0.54) .. controls (-2.8,0.36) and (-1.4,0.72) .. (-0.1,0.52)
+      .. controls (1.2,0.32) and (2.6,0.68) .. (4.4,0.48);
+    \draw[faded!88!ink, line width=0.95pt, opacity=0.80]
+      (4.4,0.10) .. controls (2.6,0.30) and (1.2,-0.20) .. (-0.1,-0.34)
+      .. controls (-1.4,-0.12) and (-2.8,0.02) .. (-4.4,0.20);
+
+    % hairlines in the skin, widening and stopping a thumb's breadth short
+    \foreach \x/\y/\ex/\ey in {-3.10/0.86/-2.86/0.50,
+                               -1.85/1.02/-1.70/0.66,
+                                1.30/1.00/ 1.18/0.64,
+                                2.65/0.86/ 2.48/0.52}{
+      \draw[vellum, line width=0.75pt, opacity=0.52]
+        (\x,\y) .. controls (\x+0.06,\y-0.20) and (\ex+0.04,\ey+0.10) .. (\ex,\ey);
+      \fill[faded, opacity=0.45] (\ex,\ey) circle (0.016);
+    }
+  \end{scope}
+
+  % the low note, felt beyond the sheet before it is placed anywhere
+  \draw[faded!80!ink, line width=0.75pt, opacity=0.50]
+    (-4.50,0.62) .. controls (-4.85,0.38) and (-4.85,-0.22) .. (-4.50,-0.46);
+  \draw[faded, line width=0.55pt, opacity=0.28]
+    (-4.72,0.76) .. controls (-5.10,0.48) and (-5.10,-0.32) .. (-4.72,-0.60);
+  \draw[faded!80!ink, line width=0.75pt, opacity=0.50]
+    (4.50,0.62) .. controls (4.85,0.38) and (4.85,-0.22) .. (4.50,-0.46);
+  \draw[faded, line width=0.55pt, opacity=0.28]
+    (4.72,0.76) .. controls (5.10,0.48) and (5.10,-0.32) .. (4.72,-0.60);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {one word for both};
+\end{tikzpicture}

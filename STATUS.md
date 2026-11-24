@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **13**
-- Words of story: **197,557**
-- Current chapter: 14 (step: plan, scene 1)
-- Last chapter: The Approach to Silt (Days 55–60 · Ilmen 26–30, Silt 1, Y.H. 813)
-- Author calls so far: 158 (tokens in 20,901,013, out 3,491,983)
-- Updated: 2026-11-25 02:50
+- Chapters complete: **14**
+- Words of story: **213,451**
+- Current chapter: 14 (step: publish, scene 8)
+- Last chapter: Water Over Water (Days 61–67 · Silt 2–8, Y.H. 813)
+- Author calls so far: 169 (tokens in 22,939,794, out 3,731,099)
+- Updated: 2026-11-25 03:25
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
