@@ -9,17 +9,17 @@ I copy the dippers' tide-counts at the pans outside Vhal: I write down what the 
 
 These are our sayings, set in the Grathic letters because our own hand is kept for contracts, and a contract is made to be read by a man who is not in the room. Say them with the ends of the words let fall, so that the listener supplies the last of the thought. Said looking at a man, a saying becomes an argument; said to a rope, a pan, a tide, it stays a saying. A landman will hear half of what is here and call it rudeness. He would be nearer the mark if he called it a contract with the half left out.
 
-I have written these on salt-paper and I keep the leaves dry. That is contrary to the practice of the country and I know it. A contract left in the rain is no contract, which we call a virtue; a saying left in the rain is no saying either, and I have not yet met the man who sees the virtue in that.
+I have written these on salt-paper and keep the leaves dry, contrary to the practice of the country, and I know it. A contract left in the rain is no contract, which we call a virtue; a saying left in the rain is no saying either, and I have met no man who sees the virtue in that.
 
 # Of the current man
 
 1. “There is no guest in Vhal. There is a man whose account is current.”
 
-*Gloss — We have no word for guest and no word for friend, only for a man whose account is current: one who has paid for what he has taken and may remain in the room. A landman calls this hard. It is only exact. A guest is a person you cannot enter, and a person you cannot enter may cost you anything.*
+*Gloss — We have no word for guest or friend, only for a man whose account is current: one who has paid for what he took and may remain in the room. A landman calls this hard; it is only exact. A guest is a person you cannot enter, and one you cannot enter may cost you anything.*
 
 2. “Don't say *kindly*. Kindly is the coin we don't take.”
 
-*Gloss — Said to one who has done something for nothing and wants to be let off it. Say so at once, that the other knows it was no favour. A favour in Vhalen is a debt with no date on it, and a debt with no date is the only kind that keeps a man awake.*
+*Gloss — Said to one who has done something for nothing and wants to be let off it. Say so at once, that the other knows it was no favour. A favour in Vhalen is a debt with no date, and a debt with no date is the kind that keeps a man awake.*
 
 3. “Count it by touch. The fingers don't care what the face is saying.”
 
@@ -37,11 +37,11 @@ I have written these on salt-paper and I keep the leaves dry. That is contrary t
 
 6. “A law that lasts too long has stopped earning.”
 
-*Gloss — My mother said it before the Council made a virtue of it. A decree is repealed when it stops paying, which is honest if you consider a decree a tool and not a promise. The assessors from the Hearthseat cannot bear it. Their slates are stone, their sentences have no verbs, and both outlive the man who wrote them.*
+*Gloss — My mother said it before the Council made a virtue of it. A decree is repealed when it stops paying, which is honest if you consider a decree a tool and not a promise. The assessors cannot bear it. Their slates are stone, their sentences have no verbs, and both outlive the man who wrote them.*
 
 7. “What the rain takes, nobody can enter.”
 
-*Gloss — A clerk can only enter what he can still read. This is the whole of our theology of paper and the greater part of our law. It is also the reason we keep the tide-names in the mouth rather than on the leaf; a name said at the Salt Walk is written in salt, and the sun takes it by noon, and no Council has ever found a way to tax noon.*
+*Gloss — A clerk can only enter what he can still read. That is our theology of paper and most of our law. It is why we keep tide-names in the mouth and not on the leaf; a name said at the Salt Walk is written in salt, the sun takes it by noon, and no Council has found a way to tax noon.*
 
 # Of the draw and the tide
 
@@ -51,7 +51,7 @@ I have written these on salt-paper and I keep the leaves dry. That is contrary t
 
 9. “Name the tide you haven't seen. Salt's teacher enough.”
 
-*Gloss — At fourteen the young walk the pans barefoot at low tide and name a tide nobody has seen. The dippers write the name in salt and the sun takes it. When a Vhaleni wants to say what he cannot write down, he names a tide that has not come. It is the nearest thing we have to a promise and is not one, which is why we can say it.*
+*Gloss — At fourteen the young walk the pans barefoot at low tide and name a tide nobody has seen. The dippers write the name in salt and the sun takes it. When a Vhaleni would say what he cannot write, he names a tide not yet come. It is the nearest thing to a promise we have and is not one, which is why we can say it.*
 
 10. “Trail the net at dawn. Read what comes up.”
 
@@ -59,13 +59,13 @@ I have written these on salt-paper and I keep the leaves dry. That is contrary t
 
 11. “The draw takes what isn't kept, and the Court taxes what's taken.”
 
-*Gloss — The Warm goes out seaward and the assessors arrive after it with deductions on the salt works, as punctual as a gull. We bless the draw and we pay for it, and have never thought the two inconsistent. It is a cold country that makes a man careful where his heat went.*
+*Gloss — The Warm goes out seaward and the assessors arrive with deductions on the salt works, as punctual as gulls. We bless the draw and pay for it, and never thought the two inconsistent. A cold country makes a man careful where his heat went.*
 
 # Of gulls, salt and the dead
 
 12. “The gull takes the warm thing and leaves you colder than you were.”
 
-*Gloss — The brine-gull will lift a coal from a brazier, or a loaf, or a warmed stone, and fly off with it under its crop. There is no malice in it. A bird that steals warmth is no worse than one that steals bread. Say this of a man who has taken something from you and calls it borrowing.*
+*Gloss — The brine-gull lifts a coal from a brazier, or a loaf, or a warmed stone, and flies off with it under its crop. No malice in it. A bird that steals warmth is no worse than one that steals bread. Say this of a man who has taken something and calls it borrowing.*
 
 13. “Carry a barrel of rain. It's the only thing the salt-thing won't cross.”
 
@@ -77,21 +77,21 @@ I have written these on salt-paper and I keep the leaves dry. That is contrary t
 
 15. “Seal him in a boat, push him on the ebb, watch till he's out of sight. That's enough.”
 
-*Gloss — We do not break a pot at the door as they do across the water; we seal the dead in a salted boat and let the ebb carry them, and stand until there is nothing left to look at. The watching is held to be enough. Nobody has said why, and I have never seen a Vhaleni who wanted a longer ceremony.*
+*Gloss — We do not break a pot at the door as they do across the water; we seal the dead in a salted boat, let the ebb carry them, and stand until there is nothing left to look at. The watching is held to be enough. Nobody says why; I have never seen a Vhaleni who wanted a longer ceremony.*
 
 16. “A man who dies at sea has already returned. The sea keeps its own account.”
 
-*Gloss — A kindness we allow the sea. On land the collector comes with his cold tube and the Return is entered; at sea there is no slate and the warmth goes out with the tide, and we call it done. I have known women say it of a husband who never came back and mean they are released from entering him, which is a mercy and is not one.*
+*Gloss — A kindness we allow the sea. On land the collector comes with his cold tube and the Return is entered; at sea there is no slate, the warmth goes out with the tide, and we call it done. Women say it of a husband who never came back and mean they are released from entering him, which is a mercy and is not one.*
 
 # Of boats and shares
 
 17. “The share goes through the mother. A husband's come aboard and his word's half a word.”
 
-*Gloss — Shares pass through mothers, and a man who marries into a boat-owning family is come aboard, his opinion counted at half. He knows it; everybody knows it; nobody says it before company. Captains are mostly women, because the sea does not care and the Council has learned not to either.*
+*Gloss — Shares pass through mothers; a man who marries into a boat-owning family is come aboard, his opinion counted at half. He knows it; everyone knows it; nobody says it before company. Captains are mostly women, because the sea does not care and the Council has learned not to.*
 
 18. “Thirty marks and a curse every hour. That's a boat.”
 
-*Gloss — What our shipwrights ask for building a boat and what they say while they build it. The curse is included in the price, and a man who tries to pay less will get more of it. The curse does not sink the boat; that would be a gift of a kind, and no shipwright in Vhal has ever given anything away.*
+*Gloss — What our shipwrights ask to build a boat and what they say while building it. The curse is in the price, and a man who pays less gets more of it. It does not sink the boat; that would be a gift, and no shipwright in Vhal has ever given anything away.*
 
 19. “Two marks a month and keep. One mark and a binding promise. Know which you're being paid in.”
 
@@ -119,23 +119,23 @@ I have written these on salt-paper and I keep the leaves dry. That is contrary t
 
 # What the Council clerk did
 
-A clerk of the Council borrowed the leaves at Greybank on a market morning, being a man who cannot leave paper alone. He writes in the narrow upright hand they teach at the counting house, with the verbs taken out as though a verb were a thing a man could smuggle in a cuff.
+A Council clerk borrowed the leaves at Greybank on a market morning, being a man who cannot leave paper alone. He writes in the narrow upright counting-hand, with the verbs taken out as though a verb were a thing a man could smuggle in a cuff.
 
 - At *there is no guest in Vhal*, he set *the party is accommodated*, and underlined it twice.
-- At *what the rain takes, nobody can enter*, he wrote *the instrument is void by weather*, which is a true thing in a language nobody at the pans speaks. Mine stands beneath.
+- At *what the rain takes, nobody can enter*, he wrote *the instrument is void by weather*, a true thing in a language nobody at the pans speaks.
 - At *name the tide you haven't seen*, he put *tide not entered* and a round nought in the space where the name would stand. A nought is a number. The tide was not a number and has not come back to be one.
-- At the wage-sayings he wrote *two marks and one promise, current*, which joins two unlike payments into one figure and is the whole art of that hand.
+- At the wage-sayings he wrote *two marks and one promise, current*, joining two unlike payments into one figure, which is the whole art of that hand.
 
 I have left all of it standing. He takes the verbs out because a thing always true has no need of them. I put them back because a man barefoot on a pan wants to know who is doing the taking and whether he will get it back.
 
 # In the margin, in the leaning counting-house hand
 
-A tally-man of the Council wrote this below the song, in the sloped letters they use for tallies and never for decrees:
+A Council tally-man wrote this below the song, in the sloped letters used for tallies and never for decrees:
 
 > They pay for the tide that's entered, not the tide that's seen.
 > I have stopped telling them which is which.
 
-I do not know his name and have not asked. It is the most honest line on any of these leaves, which is a poor recommendation for a line written by a Council man, but there it is.
+I do not know his name and have not asked. It is the most honest line on these leaves, which is a poor recommendation for a line written by a Council man, but there it is.
 
 # At the head and in the gutter
 
@@ -145,4 +145,4 @@ The salt bloom came up in a wet week at the pans and has eaten two letters of *c
 
 > The account is current until the weather says it is not. Everything else in Vhalen is entered.
 
-I asked a dipper, a tally-man and a man come up from Greybank with road-mud on his boots, and had three answers and no hand. I have left the line where it was written. The leaves go back in the tin with the twine looped through them; tomorrow the dippers will trail the nets at dawn, and I will write down what the water did, leave out what it meant, and be paid for the one and not asked for the other.
+I asked a dipper, a tally-man and a man come up from Greybank with road-mud on his boots, and had three answers and no hand. I have left the line where it was written. The leaves go back in the tin; tomorrow the dippers trail the nets at dawn, and I write what the water did, leave out what it meant, and am paid for the one and not asked for the other.
