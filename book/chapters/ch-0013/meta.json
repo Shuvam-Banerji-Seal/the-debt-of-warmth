@@ -1,0 +1,102 @@
+{
+  "number": 13,
+  "title": "The Approach to Silt",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "A counting room was shut in the last war and the men in it died of the breath with the damper closed. The yard says the war did it. Silt is named for what the river leaves, and the river leaves what no slate will keep.",
+    "attribution": "A saying of Low Kiln, Sill"
+  },
+  "days": {"start": 55, "end": 60},
+  "when": "Days 55–60 · Ilmen 26–30, Silt 1, Y.H. 813",
+  "where": "Low Kiln, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a fifty-five-to-sixty-day-old body carried everywhere; no present-tense Chicago break and no \\memory{} tag are planned this chapter --- the old life stays offstage --- and there is no departure from his eyes, no Court or collector-interior scene",
+  "mode": "passage",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "berr-clay",
+    "garl-vail",
+    "dessa-silt"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "Greybank",
+    "Slate Row",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "the drying racks",
+    "the yard well",
+    "House Silt",
+    "the Slip Brook",
+    "the Ilm",
+    "the Singing Sill",
+    "the Fishstairs",
+    "the Cross",
+    "the moot-post",
+    "the plank walk",
+    "the Weir",
+    "the Eel House",
+    "the Bone Orchard",
+    "Nine Pots"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Closed Counting Room",
+      "day": 55,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 55, Ilmen 26, Sixthday, morning at the yard well into dusk under the Vail roof. A man come downriver from Greybank, road-mud on his boots, tells the bucket-round that in the last war a counting room was shut and the men inside died of the breath with the damper closed; he says it as a thing that happened eighteen leagues east, and nobody in the yard connects it to the Vail kiln's own missing breath. Sella tells the fire it is the thaw and feeds it, and Tarn agrees with the early thaw and the late and keeps wanting the late one, because a late thaw puts off the paying (T085, T036). The boy, fifty-five days old in the well's shade, files the Greybank saying on a tray of its own beside the told bell, the heard bell and the kiln's four-four-and-a-gap, and writes no cause across it (T065 planted toward ~650, T078, T071/T072). Changes: a danger under his own roof is described in words by a stranger and called history; nobody joins it to the house. Advances T065, T078, T071/T072, T058, T060, T085, T036, T061/T082. Withheld: no connection made to the kiln, no experiment, no seventh hearing, no explanation of the breath or the war.",
+      "target_words": 2500
+    },
+    {
+      "n": 2,
+      "title": "The Tin Above the Bed",
+      "day": 56,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 56, Ilmen 27, Seventhday, mid-morning in the front room of House Silt three doors down and back under the Vail roof. Sella sets the basket just inside the door a finger's width open, at the edge of the light and away from any open slate, and opens no slate and turns no errand into a walk to Slate Row (T058, T084). From the low angle of the basket the boy sees the pewter tin above the empty bed with its pale fold at the seam and a thumb's bright rub on the lid; it still holds its scrap of birth-cloth and nobody visits a bank, and he notices the object without knowing what it is or who warmed the fold (T089, T074, T081). Alda Reed comes short with soap-and-milk gone cold under river silt, lays the birth-slates writing-down before the fold, presses the fold too long, touches the tin inside her own bodice without opening either, covers the two-finger sign at the flower's red edge with the date she gave Dessa, says warm and breathing --- exact and not true --- and goes without writing a sixth note (T023, T007, T008, T073). Changes: two private records in two materials are seen in one room and kept on separate trays; the sixth note is withheld for Chapter 14. Advances T089, T074, T023, T007, T008, T073, T081, T058, T084, T061/T082. Withheld: neither tin opened, no name or number from Dessa, no bank errand, Sella's roll unshown and the wall with no door.",
+      "target_words": 2300
+    },
+    {
+      "n": 3,
+      "title": "The Number Kept Badly",
+      "day": 57,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 57, Ilmen 28, Eighthday, morning and afternoon in the Clay Yard, the wheel-shed and under the Vail roof. The household's stores are thinner and nobody says so: a loaf moved along the shelf, the space where a loaf should stand, days to Silt given out as three, two and whatever the moot will say, while the boy keeps the number exactly and knows how many days remain (T071/T072, T077, T057). Jorra comes in with bone-coloured slip, tells a pot it will do and the wheel it does not care whose hands, knows the full note of a Vail pot before it leaves the wheel and would not say so before a kiln-master, and moves the damper ahead of Sella's instruction with the bent finger leading (T035). Tarn's knife is back on its sill with six years counted and the seventh held back, Ash worked into the knuckles no scrubbing lifts, his head not turning at a vessel's note; the two ears under one roof keep their equality and the loan that can hear stays uncalled (T036, T076). Garl's salt coat, hollow seat, clean dark line and proverb said to the pot hold, and the carried fire keeps four, four and a gap (T009, T013, T065, T088). Changes: the house's arithmetic grows thinner as the month turns and the boy becomes the only person keeping the count exactly. Advances T071/T072, T077, T057, T035, T036, T076, T009, T013, T065, T088, T060/T086. Withheld: no figure spoken in the house, no seventh hearing, no back room entered, he's-not-Vail sealed.",
+      "target_words": 2200
+    },
+    {
+      "n": 4,
+      "title": "The Sweeping Already Done",
+      "day": 58,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 58, Ilmen 29, Ninthday, morning through afternoon in the Clay Yard, the drying racks and under the Vail roof. The yard talks of preparing a sweeping that has already happened: the grey was burned on Ilmen 1 and called dealt with, its place now a clean dark line, and Sella lays one thumb in that line and the same thumb in the ridge two doors down, a finger's width wider, and leaves both where they lie without fetching a broom (T013, T009). Garl's salt-stiff coat holds a broader man's shape on its peg and his hollow seat its lean, and the proverb about leaving the crack showing goes to the pot and the fire and never to the basket after the crack is gone (T009, T065). Tarn's broom goes over the road to the Fishstairs without turning and no collector goes down it for the woman the brook took twenty mornings ago; the omission has no word (T009, T088, T090). The boy sets the clean dark line, the called-gone ridge, the unentered woman, the weak board still trodden by nobody and the fire's missing breath in separate places and makes no cause of them (T083, T082). Changes: a house prepares to sweep what it has already swept, and the boy notices that a repair pretending the break never happened is the district's ordinary kindness. Advances T013, T009, T083, T082, T065, T088, T090, T071/T072, T035/T036. Withheld: no sweeping done early, no accident on the board, no words for the omission, no joining of trays.",
+      "target_words": 2200
+    },
+    {
+      "n": 5,
+      "title": "The Last Market",
+      "day": 59,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 59, Ilmen 30, Tenthday, Account-day and the last market before Silt, before light at the Cross and Fishstairs into dusk under the Vail roof. Berr Clay, short, red wool cord folded under his coat and green glaze at one corner of his mouth, wipes his thumb twice, reads one in twelve twice over the basket, calls the levy and takes himself out of his own sentence with there'll be a slate at the watch; the true subtraction goes over the basket, the number for the thaw goes from fist to mouth to shoulder and is given to nobody, the bell goes four, four and a gap and nobody crosses himself (T015, T041, T047, T077, T078). The soft-cuffed clerk at the Fishstairs is glimpsed with his hand to the slate before his eyes to the stalls and does not speak; he is filed apart from Marra, the Drawing collector and the Court-table clerk (T090, T080). Mira works the eels, answers a question with her own answer, moves eel-bones while deciding, puts her thumb to the grey cord at a figure, shows the second cord twisted twice beneath it with neither knot counted, keeps her board beside Orra's without touching it, brings no crust and does not look into the basket (T059, T025, T024, T084). A barrow of grey goes out toward the Bone Orchard and nobody looks twice (T013). The river stirs under the ice and the Singing Sill's note comes up through the boards and is called weather (T085, T083). Sella carries him home at dusk under the Vail roof with the count four, four and a gap and the Ilm beginning to move beneath the ice (T065, T071/T072). Changes: the district's ordinary accounting continues over an unentered woman while the river begins to move, and the last market before Silt ends without anyone entering what it took. Advances T015, T041, T047, T077, T078, T090, T080, T059, T025, T024, T084, T013, T085, T083, T065, T061/T082, T058, T071/T072. Withheld: no one in three, no Marra, no knots counted, no sixth sighting of the neat dark hand, no seventh hearing, no accident on the board.",
+      "target_words": 2600
+    },
+    {
+      "n": 6,
+      "title": "Silt One",
+      "day": 60,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 60, Silt 1, Firstday, first light through dusk in the Clay Yard, by the racks and under the Vail roof. Mud, and the month named for what the river does. A new hairline of grey has gathered in the corner beside the clean dark line where the Ash ridge turned; Sella will not sweep it early and says it is the thaw, so the boy sets the new grey and the left-in-place line in two places that do not touch (T013, T009, T085). She gives every instruction to the fire, the wool and the bucket and never to the basket, says the house where another woman says I, touches the widow's mark only before an opening, and keeps the carried fire under blind ash and the back of a broken pot at four, four and a gap (T058, T079, T065, T088). Word comes up that the clerk is still set at the Fishstairs for the uncalled measure, and the weak board in the plank walk is still there and trodden by nobody; the boy keeps both with the stopping hairlines and the early note and lets none of them touch (T090, T083, T085, T078). The door stands a finger's width open and his hand outside the wool goes up an inch toward the new grey and comes down; he is sixty days old, two months old, carried everywhere, with one crust in the fold and the empty place beside it carried into Silt without a name (T086, T060, T071/T072). Changes: the month turns, a new grey hairline appears that the house calls thaw and will not sweep, and the exact count crosses into Silt unspent. Advances T013, T009, T085, T083, T090, T058, T079, T065, T088, T086, T060, T071/T072, T061/T082. Withheld: no sweeping, no explanation of the new grey, no recognition, no name or number from Dessa, no Marra, no one in three, no word forty, no ending.",
+      "target_words": 2300
+    }
+  ]
+}
