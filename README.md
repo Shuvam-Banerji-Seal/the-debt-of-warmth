@@ -1,6 +1,6 @@
-# The Cold That Remembers
+# The Debt of Warmth
 
-*A Saga of the Kept and the Spent.* A reincarnation isekai written chapter by chapter, without end, by the free model **`hy4-flash-free`** (OpenCode Go), and typeset as decorated LaTeX books. A Chicago trauma surgeon dies in a blizzard fire and wakes as an infant in Sarn, a world where magic is the theft of warmth.
+*A surgeon's account of Sarn.* A reincarnation isekai written chapter by chapter, without end, by the free model **`hy4-flash-free`** (OpenCode Go), and typeset as decorated LaTeX books. Daniel Marchetti, a Chicago trauma surgeon, dies saving a child from a burning car in a blizzard and wakes as an infant in Sarn. There, magic is a world energy called the Warm, every being is a vessel that holds it, and the dead are collected, taxed and poured back into newborns by an institution that keeps the world alive. He studies it the only way he knows: as a surgeon.
 
 - **The author** (`hy4-flash-free` via `opencode run`) invents and writes everything in the story: the world bible, past life, cast and character sheets, arcs and twists, every scene, the chapter-end chronicles, the HTML/CSS/JS maps, the SVG portraits and the TikZ headpiece above each chapter.
 - **The press** (`forge/`, built by Claude) writes no story. It hands the author one task at a time, validates and repairs the results, protects finished chapters, typesets the volumes, commits, pushes and publishes the PDFs, and resumes after any crash.
@@ -11,7 +11,7 @@
 ## Where to read it
 | What | Where |
 |---|---|
-| **The complete book** (every chapter so far, the cast with portraits, the atlas, the lore, the reckoning of days and three indices) | **`The-Cold-That-Remembers.pdf` at the root of this repository**, rebuilt after every chapter |
+| **The complete book** (every chapter so far, the cast with portraits, the atlas, the lore, the reckoning of days and three indices) | **`The-Debt-of-Warmth.pdf` at the root of this repository**, rebuilt after every chapter |
 | The same, plus the volume in progress | the `latest` release |
 | Completed volumes (20 chapters each) | `pdf/vol-NNN.pdf` |
 | Progress | `STATUS.md` |
