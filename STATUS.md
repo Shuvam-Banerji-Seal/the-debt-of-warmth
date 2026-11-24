@@ -2,7 +2,7 @@
 
 - Chapters complete: **4**
 - Words of story: **55,038**
-- Current chapter: 4 (step: publish, scene 6)
+- Current chapter: 5 (step: plan, scene 1)
 - Last chapter: The Hearth Drawing (Days 5–6 · Stone 11–12, Y.H. 812)
 - Author calls so far: 56 (tokens in 5,765,420, out 1,392,118)
 - Updated: 2026-11-24 20:00
