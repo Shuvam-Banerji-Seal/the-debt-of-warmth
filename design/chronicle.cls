@@ -220,7 +220,7 @@
 
 %% Drop capital: \dropcap{W}{hen the rain}
 \NewDocumentCommand\dropcap{m m}{%
-  \lettrine[lines=3,lraise=0.06,loversize=0.06,findent=0.18em,nindent=0.12em]%
+  \lettrine[lines=2,lraise=0.04,loversize=0.32,findent=0.18em,nindent=0.12em]%
     {\color{rubric}\InitialsFont #1}{\scshape #2}}
 
 %% In-prose devices the author may use

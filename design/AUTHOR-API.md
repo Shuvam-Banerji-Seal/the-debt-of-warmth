@@ -16,7 +16,7 @@ Scene files are body text compiled inside the book class `design/chronicle.cls`.
 ## Story devices
 | Macro | Prints as |
 |---|---|
-| `\dropcap{W}{hen the}` | a decorated red capital spanning three lines, then small caps. Use it **only** as the first thing in scene 1 of a chapter. |
+| `\dropcap{W}{hen the}` | a decorated red capital, then small caps. Use it **only** as the first thing in scene 1 of a chapter, and make that first paragraph at least three lines long (a one-line paragraph collides with the capital). |
 | `\scenebreak` | a centred fleuron between sections of a scene |
 | `\memory{...}` | italic, for remembered words from the past life |
 | `\sound{...}` | small caps, for bells, horns or shouted names |
