@@ -278,23 +278,41 @@
     \draw[ornament,line width=0.3pt] ($(p.south west)+(2pt,2pt)$) rectangle ($(p.north east)-(2pt,2pt)$);
   \end{tikzpicture}}
 %% \CRcharacter{name}{epithet}{portrait-file-or-empty}{fields}{body}
-\NewDocumentCommand\CRcharacter{m m m +m +m}{%
+%% \CRcharacter* uses frameless full-colour character art (transparent PNG) instead of a framed plate.
+\NewDocumentCommand\CRcharacter{s m m m +m +m}{%
   \clearpage
-  \phantomsection\addcontentsline{toc}{section}{#1}%
+  \phantomsection\addcontentsline{toc}{section}{#2}%
   \begin{center}
     {\color{ornament}\pgfornament[width=0.45\textwidth]{46}}\par\vspace{4pt}
-    {\CinzelDeco\fontsize{19}{23}\selectfont\color{rubric}#1}\par\vspace{2pt}
-    \ifblank{#2}{}{{\FellFont\itshape\color{faded}#2}\par}
+    {\CinzelDeco\fontsize{19}{23}\selectfont\color{rubric}#2}\par\vspace{2pt}
+    \ifblank{#3}{}{{\FellFont\itshape\color{faded}#3}\par}
     \vspace{2pt}{\color{ornament}\pgfornament[width=0.45\textwidth]{88}}
   \end{center}
   \vspace{4pt}
-  \ifblank{#3}{%
-    \begin{minipage}{\textwidth}#4\end{minipage}}{%
-    \noindent\begin{minipage}[t]{0.43\textwidth}\vspace{0pt}\CR@portraitframe{#3}\end{minipage}\hfill
-    \begin{minipage}[t]{0.53\textwidth}\vspace{0pt}#4\end{minipage}}
+  \ifblank{#4}{%
+    \begin{minipage}{\textwidth}#5\end{minipage}}{%
+    \IfBooleanTF{#1}{%
+      \noindent\begin{minipage}[t]{0.47\textwidth}\vspace{0pt}\centering
+        \adjustbox{max width=\linewidth,max totalheight=3.7in}{\includegraphics{#4}}\end{minipage}\hfill
+      \begin{minipage}[t]{0.49\textwidth}\vspace{18pt}#5\end{minipage}}{%
+      \noindent\begin{minipage}[t]{0.43\textwidth}\vspace{0pt}\CR@portraitframe{#4}\end{minipage}\hfill
+      \begin{minipage}[t]{0.53\textwidth}\vspace{0pt}#5\end{minipage}}}
   \par\vspace{10pt}
-  #5\par}
+  #6\par}
 \newcommand\CRsheetheading[1]{\par\vspace{7pt}{\centering\CinzelFont\small\addfontfeature{LetterSpace=12}\color{rubric}\MakeUppercase{#1}\par}\vspace{2pt}}
+
+%% ------------------------------------------------------ colour plates
+%% \CRplate{image}{caption}: a full-bleed light-novel colour insert (image is 2:3, like the page).
+\NewDocumentCommand\CRplate{m m}{%
+  \clearpage\thispagestyle{empty}\CRnobgthispage
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[inner sep=0pt,anchor=center] at (current page.center)
+      {\includegraphics[width=\paperwidth,height=\paperheight]{#1}};
+    \ifblank{#2}{}{%
+      \node[anchor=south,inner sep=5pt,fill=black,fill opacity=0.42,text opacity=1,text=vellum,
+            font=\FellFont\itshape\small,text width=0.78\paperwidth,align=center]
+        at ($(current page.south)+(0,0.32in)$) {#2};}
+  \end{tikzpicture}\null\clearpage}
 
 %% ------------------------------------------------------------- atlas
 %% \CRmap{title}{image}{caption}   \CRmap*{...} rotates a landscape map
