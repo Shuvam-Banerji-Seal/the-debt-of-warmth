@@ -1,4 +1,25 @@
-# Voice — *The Brass Seam*
+# Style Reference: the voice to keep
+
+**Binding on every word of the saga.** The manifesto below was written by you, the author, for an earlier draft that has since been abandoned (*The Brass Seam*). The reader loved its *style*, so keep its **music and craft** exactly:
+
+- the close third-person past-tense chronicler, with free indirect style;
+- the brief tense-shift into the present when the past life breaks through;
+- long winding sentences broken by very short declaratives, hard variation in paragraph length, and silence as a tool;
+- violence that is plain, exact and consequential, never choreographed or made elegant;
+- grief through understatement and one betraying physical detail;
+- tenderness through acts and specific touch;
+- dry, costly humour;
+- distinct idiolects, no exposition in dialogue, subtext as the rule;
+- the list of banned phrases and habits;
+- no game words (*level*, *quest*, *system*, *skill tree*, *stats*) in the fantasy world. Power ranks have in-world names.
+
+**Do not reuse any of its content.** None of its names (Wren, Nell, Kit, Elias, Cauldwick, Kilnwick, Cindermere, the House of Seams), and none of its world, magic, plot or motifs (pots, staples, brass, seams, Mending, the Owed). The new saga is a different story with its own images; only the *way* of writing carries over.
+
+With a modern-day protagonist, one rule adapts: in the hero's inner voice, comparisons drawn from his old modern life (engines, screens, hospitals, cities) are allowed **as the deliberate contrast between his two lives**. The narration of the fantasy world itself still draws its images from that world's own materials.
+
+---
+
+# (Earlier draft) Voice manifesto
 
 This is the style manifesto. Re-read it before every scene. The prose is the point; the plot is only what happens while the prose is being read.
 

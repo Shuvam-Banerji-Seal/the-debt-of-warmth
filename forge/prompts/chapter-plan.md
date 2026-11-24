@@ -1,7 +1,7 @@
 TASK: PLAN CHAPTER $n (book/chapters/$chdir/)
 
 You are about to write Chapter $n of an endless saga. First rebuild your memory. Read, in this order:
-1. bible/voice.md and bible/premise.md
+1. design/STYLE-REFERENCE.md, bible/voice.md, bible/premise.md and bible/magic.md
 2. memory/state.md (the present moment)
 3. plan/next.md, plan/arcs.md, plan/threads.md
 4. memory/story-so-far.md
@@ -22,4 +22,4 @@ A) `book/chapters/$chdir/meta.json`: valid JSON following design/templates/chapt
 
 B) `book/chapters/$chdir/plan.md`: a detailed beat sheet. For each scene: day and time, place, who is present, the beats in order, the emotional turn, the sensory anchors, which threads (by ID) advance, what foreshadowing is planted or paid off, and the exact last image. End with how the chapter's final moment pulls into the next chapter.
 
-The chapter must move the story: at least one meaningful change, one thread advanced, and texture of daily life (work, food, weather, bodies, money, faith). Do not end the story or any arc prematurely. Reply with one line: the chapter title.
+The chapter must move the story: at least one meaningful change, one thread advanced, and texture of daily life (work, food, weather, bodies, money, faith). Across chapters, keep the balance the saga needs: danger and violence, training and honest growth of power (tracked in memory/state.md, consistent with bible/magic.md), relationships, mystery and the pull of the past life. Do not end the story or any arc prematurely. Reply with one line: the chapter title.

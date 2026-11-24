@@ -1,15 +1,20 @@
 {
-  "genesis_done": [
-    "concept",
-    "world"
-  ],
+  "genesis_done": [],
   "chapter": 1,
   "step": "plan",
   "scene": 1,
   "consolidated_through": 0,
   "built": {},
-  "calls": 2,
   "failures_in_row": 0,
-  "started": "2026-11-24T15:50:11.421682",
-  "words_total": 0
+  "started": null,
+  "words_total": 0,
+  "calls": 4,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "restarts": [
+    {
+      "at": "2026-11-24",
+      "why": "user chose a present-day Earth hero; the old style kept as design/STYLE-REFERENCE.md"
+    }
+  ]
 }

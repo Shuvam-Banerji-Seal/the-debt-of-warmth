@@ -2,7 +2,7 @@ TASK: WRITE SCENE $k of $total, CHAPTER $n: file `book/chapters/$chdir/scene-$kk
 
 Read first:
 - book/chapters/$chdir/meta.json and book/chapters/$chdir/plan.md (your plan for this scene: "$scene_title")
-- bible/voice.md (your voice; re-read it every time)
+- design/STYLE-REFERENCE.md and bible/voice.md (the binding voice; re-read both every time)
 - memory/state.md
 - $prev_text
 - The character sheets (characters/<slug>.md) of everyone in this scene, especially their Voice & Manner
