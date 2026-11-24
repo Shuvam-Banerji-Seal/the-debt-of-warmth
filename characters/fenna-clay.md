@@ -55,13 +55,15 @@ She wants to mix a glaze that does not poison the mixer, which is an impossibili
 
 **Veno Brine** — the Greybank factor who buys High Kiln ware and once offered her a place in Vhal, which she refused without knowing why, and has since understood had something to do with the lead and a man who wanted her ear for a different trade.
 
+**Ch 5.** She is on the page before she is named: a silhouette across the market's edge on Stone 15 with the pale green of lead glaze at the corner of her mouth, standing among a row of pots and not looking into the basket in the bridge's shade. No dialogue and no name on the page. The boy registers the green and files it among the objects he cannot enter, without knowing that it is a sickness called a mark of skill or that the girl who wears it will one day be the third ear.
+
 ## Arc So Far
 
-No chapters are written yet. She enters at the Cross, tapping a cup with a knuckle and being answered by a foundling who did not wait to be asked, which is the first time in the book that anybody hears the same note as he does.
+She is on the page in Chapter 5 before she is named: a green-mouthed silhouette across the market where the boy is set in the bridge's shade, looking at pots and saying nothing, filed among the things he cannot enter. She enters in her own right at the Cross in Chapter 40, tapping a cup with a knuckle and being answered by a foundling who did not wait to be asked, which is the first time in the book that anybody hears the same note as he does --- the first ear he meets in a person, years after the green was planted in silence.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 40 (the Cross, the cup that cracks at the handle).
+- Ch 5: A silhouette only across the market's edge on Stone 15 --- green of lead glaze at the corner of her mouth, standing among the pots and not looking into the basket. No dialogue and no name on the page; the boy filed the green without knowing what it was. Her speaking debut stays planned for Ch 40 (the Cross, the cup that cracks at the handle).
 
 ## Secrets (private)
 

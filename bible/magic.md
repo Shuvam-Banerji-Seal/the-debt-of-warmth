@@ -69,7 +69,7 @@ A **vessel** is anything that holds a measure of Warm. A person is a vessel. So 
 - **Rate of loss** — the leak. It is measured by watching a full vessel cool and comparing it to a sound one.
 - **Head** — the pressure of the Warm within, which decides how fast it escapes through any opening.
 
-**Repair is not restoration.** A mended vessel carries its break. The true test of a repair is the **full note**: tap a sound vessel with the knuckle and it answers full; tap a cracked one and it answers flat. A good repair gives a note nearly full and never quite. Anyone who tells you otherwise is selling something. The bottom of a cup, the wall of a house, the ribs of a man: all of them keep the history of their breaking under the glaze.
+**Repair is not restoration.** A mended vessel carries its break. The true test of a repair is the **full note**: tap a sound vessel with the knuckle and it answers full; tap a cracked one and it answers flat. A good repair gives a note nearly full and never quite. A vessel turned toward in expectation may give nothing at all; the interval that follows is a thing a keeper can carry, though it is not a hearing. Anyone who tells you otherwise is selling something. The bottom of a cup, the wall of a house, the ribs of a man: all of them keep the history of their breaking under the glaze.
 
 #### Vessels differ
 

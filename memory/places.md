@@ -182,8 +182,13 @@ The room where the collected are kept overnight before banking, and where the Fo
 
 ### The Fishstairs
 **Kind:** landing steps. **Region:** Sill, north bank.
-The steps below the north bridge where eels are sold at dawn and rumours at noon; Rusk keeps a room above them.
+The steps below the north bridge where eels are sold at dawn and rumours at noon; Rusk keeps a room above them. The way down counts four steps, four, and a landing where a step should have been; in the Breaking the Ilm comes up over the steps and puts them back a hand's breadth out of line, and the district reads the water as weather and goes on using them.
 **Relations:** Immediately below the north bridge at the Cross; the Weir is 1 league upriver; Rusk's room is above the steps.
+
+### The edge of the fish-trade
+**Kind:** shaded trading ground. **Region:** the Fishstairs, Sill, north bank.
+The boards at the outer edge of the dawn trade, under the north bridge's shadow, where the eel stalls thin out and no Court slate has ever reached. Sella Vail sets the basket here when she wants the boy to see the trade and not be seen into --- the same care she used at the edge of the light at the Drawing. On Stone 15, Y.H. 812 she set him in this shade while Dessa Silt counted nineteen at the head of the steps and Mira Silt put a brown-edged barley crust into the fold. The market bell strikes back toward it from the Cross, four, four and a gap.
+**Relations:** At the Fishstairs below the north bridge and within sight of the Cross; the steps run down from it to the landing that is not a step.
 
 ### The Bone Orchard
 **Kind:** burial ground. **Region:** Grath, outside Sill's north gate.

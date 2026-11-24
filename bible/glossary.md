@@ -26,6 +26,8 @@
 
 ## B
 
+**The bell at the Cross.** A bell struck at market morning and afternoon, longer than a church bell; nobody crosses himself at it. The boy counts four strokes, four, and a place where the fifth should be. No one in Sill explains what it is for.
+
 **Birth-flower.** The branching red mark some infants are born with, shaped like frost on a pane or a burn gone into the skin. Hearth-maids call it a flower, cross two fingers over it and say nothing about the sign. Alda Reed crossed herself over Corin's on Stone 7, Y.H. 812, and covered the act with the word.
 
 **Birth-slate.** The flat slate a hearth-maid keeps within reach at a birth, on which the child and the day are entered. In Low Kiln it lies on the bench, and a midwife's hand goes to it before it goes to the child. A second hand may have written on it before anyone looked at the face.
@@ -90,6 +92,8 @@
 
 **E**
 
+**Eel-bones.** The small bones a Fishstairs seller flicks against her thumb while deciding whether to lie, one put away when the deciding is done. Mira Silt's are a tell the boy watches without anybody knowing he watches; the movement is entered nowhere.
+
 **Ember.** The Court's unit of booked warmth, said to be worth five marks; a newborn vessel holds twelve to fifteen embers.
 
 **Empty Cantons.** A province sixty leagues south of Grath with roads, wells and doorways but no people after Y.H. 40.
@@ -114,7 +118,7 @@
 
 **The Five (Five Cold Days).** The five days outside the months at the year's end: Kindling, Weighing, the Long Night, the Remembering and the Last Day.
 
-**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 12, Y.H. 812 he has heard it five times from four sources --- a cup across a birth room, a pot in the Vail house, the district's own reading slate twice, and a dying man at the Hearth Drawing, the fifth and the first from a person --- and nobody has tapped any of them for him.
+**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 12, Y.H. 812 he has heard it five times from four sources --- a cup across a birth room, a pot in the Vail house, the district's own reading slate twice, and a dying man at the Hearth Drawing, the fifth and the first from a person --- and nobody has tapped any of them for him. On Stone 13 a pot was turned toward before it was set down and gave nothing --- an interval with the shape of a sound, not a sixth hearing, which the boy kept as an object.
 
 **The full note.** The full sound a sound vessel gives under the knuckle; a cracked vessel answers flat. The first tool of the clinical ear.
 
@@ -301,6 +305,8 @@
 **Slate Row.** The Court quarter east of the Cross at Sill, holding the collector's table, the assessor's house and the Waiting Room.
 
 **Slip.** The wet clay worked in the pits of Low Kiln and poured into moulds on the wheel; it dries the colour of old bone on a thrower's forearms. Work in the slip is commonly paid for in the thaw.
+
+**Slip pits.** The clay pits of the Clay Yard in Low Kiln, counted as nineteen steps to the drying rack and nineteen back; Dessa Silt has walked the count every day for six years. The cough that comes off them in cold weather is called weather, as if the pits owned it.
 
 **The Slip Brook.** A narrow clay-coloured stream through the Clay Yard whose colour the children of Low Kiln read as weather.
 
