@@ -465,6 +465,38 @@ The shallow crossing of the Ilm at Greybank, marked on the chart by a dotted dou
 A collapsed kiln with grey clay that will not take a glaze and an ash throat deeper than a man.
 **Relations:** 1 league south of Sill; a slate in the Vail kiln-house came from here.
 
+*The close ground of the Old Kiln drawn on `atlas/the-old-kiln`: the parts of the ruin its surveyor could put a name to. Direction is from the middle of the throat.*
+
+### The fallen dome
+**Kind:** collapsed masonry. **Region:** the Old Kiln, Grath.
+The crown of the kiln, fallen inwards and never raised, its broken brickwork lying in a low mound around the throat. Saggars, potsherds and a fallen beam lie in it; the surveyor's cord runs about the mound between three stakes.
+**Relations:** Encircles the ash throat at the Old Kiln, 1 league south of Sill.
+
+### The ash throat
+**Kind:** shaft, ash fill. **Region:** the Old Kiln, Grath.
+The deep channel under the fallen crown, filled with ash deeper than a man; its concentric sides were taken by the surveyor as depths. The kiln's breath is said to take a man in his sleep here, which Mud End calls a merciful death.
+**Relations:** At the centre of the Old Kiln, 1 league south of Sill; the slate's hollow opens in its west wall.
+
+### The slate's hollow
+**Kind:** recess. **Region:** the ash throat, the Old Kiln.
+A small hollow in the west wall of the throat from which a slate was taken north; the surveyor marks the place and notes that the writing on the slate has gone off its end. What was on its back he copied into his margin as a slow coil and left unread.
+**Relations:** In the west wall of the ash throat at the Old Kiln; the slate itself lies charred in the Vail kiln-house at Sill.
+
+### The fire mouth
+**Kind:** opening, fire door. **Region:** the Old Kiln, Grath.
+The arched mouth on the south-east flank where the kiln was fed, now choked and dark.
+**Relations:** On the south-east side of the fallen dome at the Old Kiln; the marsh way to Reedholt leaves past it.
+
+### The broken flue
+**Kind:** flue, broken masonry. **Region:** the Old Kiln, Grath.
+The stump of the vent on the north-east of the crown, split at the top and cracked through.
+**Relations:** On the north-east flank of the fallen dome at the Old Kiln.
+
+### The grey clay banks
+**Kind:** clay ground. **Region:** about the Old Kiln, Grath.
+Patches of grey clay around the ruin which will not take a glaze, dried and crazed into shallow cracks.
+**Relations:** About the Old Kiln, 1 league south of Sill; the reedbeds lie south and east toward Reedholt.
+
 ---
 
 ## III. Rivers and roads

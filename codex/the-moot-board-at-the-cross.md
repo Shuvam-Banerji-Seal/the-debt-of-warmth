@@ -1,0 +1,152 @@
+---
+title: The Moot Board at the Cross, Being the Prices Cried at Sill Market and the Dues of the Roads That Go Out of It, with the Counts That Go Round the Square Set Beside the Printed One
+kind: A pig-weigher's fair copy of the board at the moot-post, being the prices of the last market of Stone carried forward into Ilmen and the dues paid at this end of each road; corrected in a Court clerk's soft-cuffed hand and a carter's, with a third hand at the foot that nobody will own
+provenance: Written and kept at the Cross in Sill by the man who weighs the pigs on Account-day, who has held the moot board since the year before the Long Cold; the figures taken at the last market of Stone, Y.H. 812, the Thin Year, and copied forward at the market mornings of Ilmen, Y.H. 813, as the levy was called for the thaw. Set on the back of a Court notice gone soft at one corner and kept under the moot-post's nail in the finger's width of shade, where a basket may be set beside it. It survives with pig-bristle in the head, a tallow thumb, barley grease from a crust laid down and not eaten, eel slime at the foot, a green bead of lead glaze from the Glaze Room rolled into the fold, marsh mud on the Reedholt corner, a ring where a cup of small ale stood from the first price to the last, a grey Ash print along the margin that nobody will own, two corrections in hands that are not the writer's, and one line at the foot in a hand nobody will claim.
+relates_to: [Sill, the Cross, the moot-post, the weighing board, the Court's table at the Cross, Slate Row, Low Kiln, the Clay Yard, the Fishstairs, the north bridge, the south bridge, the north gate, the Bone Orchard, Cold Acre, the river road, the Weir, the plank walk, Stonemouth, Nine Pots, Reedholt, Mud End, the Clay Road, Greybank, the Greybank quay, the Rim Road, the Cold Pass, the Salt Road, bit, mark, crown, ember, one in twelve, the deduction, the levy, Account-day, the bell at the Cross, the last market, the thaw, brown-edged barley loaf, eels, pig, the barrow of grey, the Ash, warm-stone, Grath, Grathic, Ledgerhand, the factor at Greybank]
+---
+
+They put me at the block on Account-day because I can lift a pig by the ear and not be argued out of the weight in my hand. That is the whole of my authority. I keep the moot board because somebody must, and a figure cried where two hundred people stand has a better chance of being true than one written in a room with the door shut. What follows is what things fetched at this square between the last market of Stone and these mornings of Ilmen, and what a man pays to leave Sill by the roads, set down so a carter may know his charge before he loads. The clerk down at Greybank keeps the far end of the figure. I keep the end shouted here, where the pigs go over the board and the bell goes four, four and a gap and nobody crosses himself.
+
+Small coin is the bit, twelve to the silver mark; twenty marks make a Sere crown, which comes north because it must and cannot be spent here, so a man may be paid in one and go hungry all the same. The Court keeps its figures in embers and calls five marks an ember. I have left embers off the board. In six years of weighing I have never seen one change hands at the moot-post, and a column with nothing in it is a thing I will not put up on a wall in the rain.
+
+> *In the narrow upright hand of a clerk borrowed from Slate Row:* Coin and reckoning entered. Ember: five marks. *Underneath, in mine:* He set the figure down without the verbs, as though an ember were a thing a carter could put in his pocket. I have put *called* back, because it is the Court that calls it five marks and not the coin that agrees.
+
+# The board as it stood at the post
+
+## Things cried at the block
+
+*Account-day, the tenth, twentieth and thirtieth. Read twice: once for the moot, and again for those who came late.*
+
+| Article | Price |
+|---|---|
+| Brown-edged barley loaf | 1 bit |
+| Quart of small ale, watered | 1 bit |
+| Sour milk, a quart | 1 bit |
+| Turnips, two | 1 bit |
+| Salt herring | 2 bits |
+| Smoked eel, at the Fishstairs before the bridge shade goes off | 3 bits; salted, 2 |
+| Eel skin, dried | 1 mark |
+| Pig, over the weighing board | 6 marks, and a bit to the weigher to have it cried twice |
+| Coarse pot off the racks | 4 bits the score |
+| Barley gruel at a house door | not sold; given, and not entered |
+| A brown crust laid in a basket | not sold, not lifted, not named |
+| Barrow of grey going out through the north gate | not weighed, and no figure reaches it |
+
+> *Margin, in mine:* The Slate Row clerk took the last three lines off, saying a thing not sold has no price. I have put them back. A bowl given at a door is the greater part of what Low Kiln eats and the whole of what it does not discuss. The grey goes out every market-day over the wet boards, heaped a little above the sides where the load has shifted, and nobody looks at it twice.
+
+> *In a tall leaning hand, with eel slime at the tail:* At the stairs they will sell you six eels for five marks or five for six, and call both the same bargain. Do not ask which. *In mine:* I asked. They said a bargain was a bargain and went back to the water.
+
+## The counts that go round the square
+
+*Not prices. I set them beside the prices because the district sets them beside everything.*
+
+| Count | Where it is said |
+|---|---|
+| One in twelve, as the notice says | Read from the block in a clean voice; the crowd leans in and goes back to the pigs |
+| Four, four and a gap | The bell, morning and afternoon; let it go on |
+| Nineteen out and nineteen back | The slip pits; put into a thumb and not said |
+| The number for the thaw | Fist, then mouth, then shoulder; thought better of giving |
+
+> *In the Slate Row hand:* Only the first is a figure. *In mine:* He is right, and the square would not know what he means. A man who has stood here through a Long Cold knows four ways of counting and three of them are ways of not giving a number.
+
+# The dues of the roads that go out of Sill
+
+Five ways leave the Cross. A man pays at four of them and at the fifth he pays the water. The quay clerk at Greybank keeps the far end; what is below is taken at this end, before the cart has begun to rut the clay.
+
+## The Clay Road, east to Greybank, eighteen leagues
+
+Packed clay over corduroy, a Court road since the treaty of Y.H. 418; five days by cart in Grain, six in Silt. An assessor may stop a cart on it without asking the thane, and does.
+
+| | Due |
+|---|---|
+| Cart with a load, at this end | 2 bits |
+| The same at the quay, by the factor's man | 2 bits more |
+| Beast on the hoof | 1 bit |
+| Drove of pigs | 4 bits, and every pig weighed at the block besides |
+| Foot passenger | 1 bit; nothing on Account-day, when a man may come to hear the figure |
+
+> *Margin:* The carters say they pay to travel one road and pay again for having travelled it. There is truth in it and I have not put it on the post.
+
+## The river road, to the Weir and Stonemouth
+
+One league upriver to the traps, four further to the quarry village at the meeting of the Ferr.
+
+| | Due |
+|---|---|
+| Beast on the bank way | 1 bit |
+| Foot passenger in Silt | nothing; the water has already charged him |
+| Plank walk at the Weir | 1 bit; the boards are counted, but which will bear a man is not said |
+| Basket of eels at the north bridge shade | nothing; the Fishstairs folk argued it and won |
+
+> *In the leaning hand:* Paid two bits at the Weir in Silt and was told it was the walk. The clerk sets nought against it. *In the Slate Row hand:* No such due. *In mine:* Both rows stand. The boards move after rain, which is more than can be said for a clerk's figure.
+
+## The north gate road, to the Bone Orchard and Cold Acre
+
+One league to the orchard, another to the ridge and its well that never freezes. On market-days the barrow goes out through this gate in the afternoon.
+
+| | Due |
+|---|---|
+| Barrow of grey going out | not weighed, not entered, nothing asked |
+| Pot broken for the dead, on a cart | 1 bit; in the arms, nothing |
+| Pig driven north to the ridge | 2 bits |
+| Man going up for the never-freezing well | 1 bit; he brings back a common stone, which is not a warm-stone and is not called one |
+
+> *Margin:* A man asked why the grey goes out unpaid when a broken pot pays a bit. I told him the pot had been bought and the grey had not. He went away with his question, which I have kept here rather than my answer, being the better kept of the two.
+
+## The Nine Pots and marsh roads
+
+Eight leagues west to the kiln village in permanent feud with Sill over the road; four east to the reed-cutters' huts at Reedholt, three downriver to the peat hamlet of Mud End.
+
+| | Due |
+|---|---|
+| Nine Pots road | no toll, and none ever collected; it is ours and theirs both, which is why neither mends it |
+| Cart using it in Silt | a pot from the shared pit, or a knuckle; the two villages have never agreed which |
+| Reedholt, firm boards pointed out to a stranger | half a bit, and half again after rain, because the firm boards move |
+| Barrow of peat out of Mud End in Stone | 5 bits; no figure in the Long Cold, when there was none to sell |
+
+## The Rim Road, the long roads, the bridges
+
+West-north-west to Keld Keep, a hundred and twenty leagues and worsening weather; the Cold Pass ten leagues beyond. The Hearth Road runs a hundred and forty leagues south-east to the Court, and the Salt Road north-east to Vhal.
+
+| | Due at this end |
+|---|---|
+| Surveyor's mark upon a load for the Rim Road | 2 bits; the load is not weighed again in Grath |
+| Man going west without a warm-stone | not lent one here |
+| Man going farther into the Rim | no due, and no guarantee |
+| Grain going down the Hearth Road | weighed here, and the figure read to him twice |
+| South bridge, loaded cart | 1 bit |
+| North bridge, the winter ford under ice | nothing: the Fishstairs argued the bridge and won, and no collector crosses the ice |
+
+> *Margin:* A carter from High Kiln asked what the last of these cost and was shown *no due, and no guarantee*, which he called the dearest figure on the board. The Court takes nothing at the gate because it has taken it at home. I have not put that on the board; it would stop nobody from loading. In the Long Cold the Ilm bore ice for ninety-four days and no collector crossed, so the ford's nought is the only figure here that has never been paid.
+
+# The verse they tie to the board
+
+*Sung at the block while the pigs go over, not while a man from Slate Row is within hearing. The crowd says the last line with the singer.*
+
+> A loaf for the block and a crust for the fold,
+> an eel for the shade and a pig for the scale;
+> four for the roads and one for the ford,
+> and the fifth goes unpaid because it is water.
+>
+> Four and four, and a place at the end
+> where the driver sets down what the clerk will not take;
+> the bell says come and the moot says paid,
+> and the yard says come back as you can.
+
+> *In the Slate Row hand:* Four roads entered. *In mine:* There are five, and I have put nothing in the place. A nought is a number and the fifth is a way of going. A carter sang this with his back to the factor's table and would not sing it facing it.
+
+# What the two borrowed hands did
+
+The Slate Row clerk took the verbs out of everything, as though a verb were a thing a man could smuggle through the north gate in his boot. Against the bowl given at a door he wrote *nil*; against the grey, *not weighed*; he put a nought in the place where the verse has a gap and wrote *vacancy* beside it. He asked what the board was for, and I told him so a man might know his charge before he loaded. He wrote *figures published for the information of carriers* above my words and went back over the bridge with his cuff wet at the edge and ink in two fingers that will not come out.
+
+I have put my words back under his and left his standing above, as a floor keeps the ash and the foot that raised it. A sentence with its verbs taken out travels well and arrives empty, which is what a Court wants of a sentence and what a carter standing in the rain has no use for. The other hand is the carter's, tall and leaning, with eel slime on it; he put his two bits at the Weir under the clerk's nought, and I have not swept either away. A board with three hands on it is the only kind this square believes.
+
+# At the head and in the gutter
+
+The bristle at the head is off a pig that went over with a driver holding one ear and me the other; it goes into the grain and will not come out. The tallow thumb is mine, from holding the notice down in the wind. The barley grease came from a crust laid on the leaf while a woman told a child to eat and the child would not; a crust put down and not eaten is a thing this square knows how to read. The slime at the foot came off a basket set down at the edge of the fish-trade, where no Court slate has ever reached. The green bead is lead glaze out of the Glaze Room; it rolled into the fold from a girl who leaned over to see the figures with sweetness at one corner of her mouth, and she said nothing and went back up the steep street. The marsh mud came off a man who stood too close with a bundle of wet reed. The grey along the margin is not mine and not the Court's. I have not swept it. There is no Last Day at a moot-post.
+
+# At the foot, in a hand nobody will own
+
+> The board has a figure for a pig and none for the warmth carried in a basket. The yard knows which is dearer and does not say it in the square.
+
+I asked the carters, the eel-women and the man from Slate Row, and had three answers and no hand. I have left the line where it was written. The leaf goes back under the post's nail and the board onto the wall; tomorrow the pigs go over and the figures are scraped off, and a man will ask the morning price, and by afternoon it will be a thing that was true.

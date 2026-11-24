@@ -15,16 +15,16 @@
   "chapter": 10,
   "step": "publish",
   "scene": 8,
-  "consolidated_through": 0,
+  "consolidated_through": 10,
   "built": {
     "1": 9
   },
-  "calls": 120,
+  "calls": 122,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 152243,
-  "tokens_in": 14669861,
-  "tokens_out": 2783137,
+  "tokens_in": 15296643,
+  "tokens_out": 2891506,
   "restarts": [
     {
       "at": "2026-11-24",

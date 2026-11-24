@@ -1,0 +1,125 @@
+---
+title: The Sermon at the Flat Stone, Being What Was Said Over the Traps on Ilmen 15 of Y.H. 812, with the Old Words Left in Knots Because Fen Cant Will Not Write
+kind: A sermon of the Weir preached at the blessing stone on the north bank at the Weir, one league upriver of Sill; the saying in Grathic, the three old lines held in the margin as knots of grey wool, with the tally-keeper's corrections, a Court clerk's in Ledgerhand, and a line at the foot in a hand nobody will own
+provenance: Preached at the Fish Blessing by an old woman of the Weir who had stood at the stone at thirty blessings, over the traps lifted and set on their sides on the plank walk, on Ilmen 15, Y.H. 812, the Thin Year; written that evening by a woman of the Weir who keeps the eel tally and has no slate-name, on the back of a weigh-slip spoiled by a wet figure out of Greybank, and sewn with eel-sinew into the folded reed wrapper that holds the knot-accounts in the Eel House. It survives with a salt crust at the head where a flat hand was set to brush the grit from the cut, a silt tideline along the gutter from a morning the plank walk stood under water, eel slime on the second leaf, a fish-hook nick nobody will own, a grey Ash print from a cuff at the stone, three knots left over right with the tail under against the three old lines, and a fourth knot tied through a hole in the first leaf for a word the preacher would not give out. Copied once at Greybank in Silt, Y.H. 812, and again in Ilmen, Y.H. 813, with the verbs put back and the knots left as they were tied.
+relates_to: [the blessing stone, the Weir, the Eel House, the eel traps, the plank walk, the Ilm, the Fish Blessing, hearth-maids, Orra Weir, knot-string, grey wool, Fen Cant, Grathic, Ledgerhand, Sill, the Cross, the bell at the Cross, Greybank, Berr Clay, the Return, the Hearth, cold iron, collector, one in twelve, the deduction, the measure, the Ash, thin return, weather, salt, the full note, the flat note, the Clay Road]
+---
+
+I keep the eel tally at the Weir and nobody asked me for this. I write because the old woman's words went into the water and the water kept them, and I wanted something on dry paper that a clerk could not carry away in a cuff. She stood on the flat stone with her sleeves salt to the elbow and spoke to the stone, the traps, the river, and last of all to us, which is the order the women of this place use when there is work to be done and somebody may be listening who wants a figure. I have set down what she said in Grathic. The three old lines are not Grathic and are not written anywhere; I have tied three knots in the margin against them, left over right with the tail under, which is how we keep a thing here that we cannot spell.
+
+The salt crust at the head came off her hand when she flattened it on the stone to brush the grit from the cut. The silt tideline along the gutter is from the morning the plank walk stood under water and I carried the leaf under my apron. The eel slime is mine: I set the leaf down on the bench to count and a fish came out of the basket onto it, which the old woman called a blessing, and I did not argue. The fish-hook nick is not mine and I don't know whose. The grey print came off a cuff at the stone and nobody will own it; I have not swept it. The knot through the hole in the first leaf is the fourth, and I tied it for the word she would not give out.
+
+# The order of the blessing, as the stone actually has it
+
+*Written small, from watching, not from any order the Court has printed.*
+
+- Brush the stone free of grit so the cut shows. Do not ask what the cut is. It was here before the tally and it will be here after.
+- Stand with your sleeves damp and salt in the creases of your hands. Salt on the stone and along the weir head, with a flat hand. Not on the traps. The traps have their own business.
+- Say the old words low, facing the water. A woman who says them looking at her neighbour is making an argument, and there is argument enough at the Cross without bringing it upriver.
+- Lift the traps and set them on their sides. Count them if you must, but do not say the number where a man with a slate is standing.
+- When the bell comes upriver from the Cross, stop. It is counting something that is not your river. Begin again after. Four, four and a gap, and the gap is not ours to fill.
+- The eels run whether anybody blesses them or not. This is the first thing she says every year and the last thing she will have written down, which is nothing at all.
+
+I asked her why we bless them if they run without it. She gave me three answers: because they run; because a woman must do something with her hands on a cold morning; and because if we did not bless them, somebody from Greybank would come upriver and enter the blessing for us, and then we would owe for it. I asked for a fourth. She stood on the stone and looked at the water and did not give me one.
+
+# The sermon, as she said it
+
+## Of the mouth
+
+She squatted by a trap on its side and put her finger into the mouth of it, the way you would show a child where a thing goes in.
+
+“Look at it,” she said. “The mouth points upriver. That is the whole of the contrivance. An eel swims looking for the current and the current takes him in, and the basket narrows behind him, and there he is. He has not been bad. He has not been called. He followed the water, which is what eels do and what water does.
+
+“Set it down among you now and tap it. It answers full when the wicker is sound and flat when it has a hole. That is all the preaching I have. A thing that holds, holds. A thing that leaks, leaks. We do not ask the pot why it cracked.
+
+“Away up the river they read a figure over a basket and call the basket full because the figure says so. I have stood at the Cross and heard it done twice, once for the moot and once for them that came late. I do not know what figure goes with an eel. Nobody has ever told me, and I have never asked a man who was carrying a slate.”
+
+Here she stopped and crossed two fingers at the cut in the stone and covered the act with a date, which is what the women here do.
+
+> *Margin, in my hand:* She gave me Y.H. 418, the year the Clay Road was made a Court road. I asked her again in a different way and she gave me the same year. I have set it down and left the question standing. Dates are safe. The Court likes a date and does not ask what it covers.
+
+## Of the blessing
+
+“Do not say I made the eels come,” she said. “I did not. Say the words with me, and then go and look at the traps. They came because they came.
+
+“A priest come up from Greybank told us the blessing is a mercy of the Hearth and that the Hearth keeps what it is given. I have heard the same man read a whole return for a person not in the room. I believed him once. Then I tied a cord and counted what came back into this house, and the cord and the house did not agree with him.
+
+“Here is what I know of keeping. The river keeps what falls in it. The mud keeps what the river puts down. A knot keeps what a woman tied and will not tell you. None of these three writes it down and none of them sends a collector.
+
+“Say the old words. Put the salt on. Stand where your mother stood. That is the blessing. It does not make the eels run and it does not make them stay. It makes us stand in the same place on the same morning, which is more than most households in Sill can say for themselves.”
+
+> *In the narrow upright hand of a Court clerk who came upriver on the fourth day and borrowed the leaf:* The rite is observed by long custom and is efficacious thereby. The measure is retained in the silt. Enter as nil.
+> *
+> *Underneath, in mine:* I have put *keeps* and *stand* back under his. A sentence with the verbs taken out travels well and arrives empty, which is what a man wants who has to carry it a league to a table. I have left his hand standing and my words below it.
+
+## Of the figure
+
+“I will give you no number,” she said to me, when I asked what went into the cord. “Ask Orra. She will tell you which night the collector’s boat came and how many oars it had, and you may put that in your tally if you like.
+
+“There is a number goes around this Weir from mouth to mouth and nobody gives it out. It gets into a fist and then a mouth and then a shoulder, and by the time it reaches the Eel House it has turned into weather. We say the river is up. We say the eels are running late. We say the book is lost. All true. None of them a figure.
+
+“One in twelve is printed on the notice and read at the Cross and is not a lie. It is a true thing said to a room that is not this one. I have never seen the other figure and I have never wanted to see it. A figure is a thing a man can carry away in a cuff. A knot has to be looked at by the woman who tied it.”
+
+## Of the mark
+
+I asked her about the cut in the stone, which the chart draws and does not explain.
+
+She put her thumb in it and said: “It was here before the stone was flat.”
+
+“That is not a date,” I said.
+
+“It is older than a date,” she said. “Your clerk will want a year. Give him Y.H. 418 and be shut of him.”
+
+> *In the clerk’s hand at this place:* cut of uncertain antiquity; assign to the treaty-year, Y.H. 747. He wrote this above and underlined it twice, and set Y.H. 418 beneath it in a small stop. Both years stand, and the cut stands under both of them.
+
+## Of them that come back
+
+“They tell us the dead come back warm,” she said. “I have stood at four returns in this district. Three came back as other people, with a hankering for a table they never sat at. One came back and said a word in a language I knew once and have forgot. The Court calls it a settling.
+
+“I am not saying the Return is a lie. I am saying I have not seen the thing they say it is. There is a difference, and the difference has a place in the cord where nobody puts a figure.
+
+“When my neighbour’s girl came back thin she went to the door and looked at the eel baskets and said she had been here before, which was true and no comfort to her mother. We gave her a crust. We did not read her a figure. If there is a mercy in this world it is in the crust and not in the reading.”
+
+## The old words
+
+*Three lines said low, facing the water, in Fen Cant, which is not written. I have tied three knots in the margin against them, left over right, tail under, and set the sound of them here as well as I can hear it:*
+
+> The eels run whether we bless them or not;
+> the river keeps what the river got;
+> a way in is a way in and no way out —
+> four for the oars and one for the doubt.
+>
+> Salt on the flat and salt on the hand;
+> the mouth points up and the basket stands;
+> we say the words and we say no more —
+> the water does what the water bore.
+
+I have put *doubt* where I heard a word I cannot spell. It may be *debt*. Orra says it is neither and will not say which. Two women have told me the last line means the same thing in Fen as it does in Grathic, which I do not believe, because a thing that means the same thing in two languages would have been written down by now.
+
+# The account of the morning
+
+*Written as a tally, because that is the hand I keep.*
+
+- Salt: a handful, from the Vhaleni jar in the Eel House. Berr Clay bought eels for the levy feast and paid two marks short; the trap-keeper has served him the same short measure ever since, and I keep the count of it. That is not a debt. It is an account no slate will take.
+- Rushes: a bundle cut above the plank walk. Nobody paid. They grow.
+- Words: three old lines and the Grathic saying after them. They cost the old woman her breath and cost me the afternoon. Not entered.
+- Eels: the traps came up full. I had the count in my mouth and put it in the water before anyone with a slate came round the bend. The second basket I did not count.
+- The stone: brushed, salted, stood upon, left as it was. It has never been entered and has never asked to be.
+
+Nothing on this leaf was carried into the square. That is the only figure the Weir has ever agreed on.
+
+# What the clerk did
+
+He came upriver on the fourth day with a cuff gone soft from washing and ink in two fingers, borrowed the leaf at the Eel House, and gave it back with the verbs taken out. Where I wrote *the river keeps what falls in it*, he set *the measure is retained in the silt* above and left mine below. Where I wrote *we say the river is up*, he wrote *the figure is withheld pending the thaw*, which is the same sentence said by a man who has never stood in water. At the three knots he put a round nought and wrote *nil* beside it, and when I asked him what a knot was worth he said nothing a clerk could enter, which was the first true thing he said all morning.
+
+I have tied the verbs back in wool. He takes them out because a thing always true has no need of them; I tie them in because a woman standing on a wet stone wants to know who is doing the keeping, and whether she will get it back.
+
+# At the foot
+
+In a hand that is not mine, not the old woman’s and not the clerk’s, struck through once and written again underneath, very small:
+
+> A way in is not a way out. The stone knows this and says nothing.
+
+I asked the old woman, Orra, the girl who brings the salt, and a man come up from Greybank, and had four answers and no hand. I have left the line struck through and standing, which is the only honest way to keep a sentence you cannot sign.
+
+The leaf goes back in the wrapper with the knot-accounts. Next Ilmen the women will brush the stone and stand on it and say the three old lines into the water, and the eels will run as they always run. If the clerk comes again I shall let him take the verbs out; I shall tie them back as I did this time, and keep the fourth knot through the hole in the first leaf, which is the one I tied for the word she would not give out.
