@@ -167,13 +167,28 @@ The slip pits, wheel shed, drying racks and kiln that make up a clay child's who
 
 ### The Vail kiln-house
 **Kind:** house and kiln. **Region:** the Clay Yard, Low Kiln.
-A kiln-house held by the Vail family for four generations; Sella Vail keeps the fire and Jorra Vail is her son; Corin is taken in here as a foundling.
-**Relations:** In the Clay Yard, Low Kiln; the Slip Brook runs behind it; the Old Kiln is 1 league south.
+A kiln-house held by the Vail family for four generations; Sella Vail keeps the fire and Jorra Vail is her son; Corin is taken in here as a foundling. The Ash ridge along its skirting board is thick since Garl Vail died uncollected in the Long Cold.
+**Relations:** In the Clay Yard, Low Kiln; the Slip Brook runs behind it; the Old Kiln is 1 league south; the wheel-shed and the Debt Loft are within it.
+
+### The Vail wheel-shed
+**Kind:** workshop. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The shed where Garl Vail's wheel stands with its seat worn hollow on the left side, which Sella will not let anyone fill; Jorra Vail works there, and the clay-bound hand Tarn sleeps above it. A child of the house first learns the full note of a pot here.
+**Relations:** Inside the Vail kiln-house; the Debt Loft is above it; the drying racks stand outside to the east.
+
+### The Debt Loft
+**Kind:** sleeping loft. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The narrow loft above the wheel-shed where the house's clay-bound hands sleep; Tarn has slept here for six of his seven years. He keeps his few things in an unmarked clay pot.
+**Relations:** Above the Vail wheel-shed, inside the Vail kiln-house.
 
 ### The Weir
 **Kind:** fishing weir and plank walk. **Region:** Grath, on the Ilm.
-Eel traps and a plank walk one league upriver, where the Fish Blessing is held and Rusk walks at dusk.
-**Relations:** 1 league upriver (west) of Sill; Stonemouth is a further four leagues upriver.
+Eel traps and a plank walk one league upriver, where the Fish Blessing is held and Rusk walks at dusk. Orra Weir keeps the traps and dries the eels here.
+**Relations:** 1 league upriver (west) of Sill; Stonemouth is a further four leagues upriver; the Eel House stands on the plank walk.
+
+### The Eel House
+**Kind:** hut and drying rack. **Region:** the Weir, Grath.
+Orra Weir's trap-hut on the plank walk, where eels are salted and the cords of knot-accounts are kept. The Fish Blessing is prepared here on Reed 15.
+**Relations:** On the Weir, 1 league upriver of Sill.
 
 ### Cold Acre
 **Kind:** farm hamlet. **Region:** Grath, north ridge.
