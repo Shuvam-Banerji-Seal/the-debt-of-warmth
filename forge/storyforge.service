@@ -1,0 +1,21 @@
+[Unit]
+Description=Endless chronicle press (hy4-flash-free via OpenCode)
+After=network-online.target
+Wants=network-online.target
+RequiresMountsFor=/mnt/Expansion
+
+[Service]
+Type=simple
+WorkingDirectory=/mnt/Expansion/can-llms-write
+Environment=PATH=/home/shuvam/.venv/bin:/home/shuvam/.opencode/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONUNBUFFERED=1
+Environment=CHRONICLE_MODEL=opencode-go/hy4-flash-free
+ExecStart=/home/shuvam/.venv/bin/python3 forge/orchestrator.py run
+Restart=always
+RestartSec=60
+KillSignal=SIGTERM
+TimeoutStopSec=20
+Nice=5
+
+[Install]
+WantedBy=default.target
