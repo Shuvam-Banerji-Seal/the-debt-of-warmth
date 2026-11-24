@@ -4,7 +4,7 @@
   "chapter": 3,
   "caption": "Day 4. One in twelve, at the Cross.",
   "out": "art/chapters/ch-0003.png",
-  "model": "gpt-image-2.5-sunburst",
+  "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",
   "background": "opaque",

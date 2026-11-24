@@ -3,7 +3,7 @@
   "kind": "character",
   "character": "tarn",
   "out": "art/characters/tarn.png",
-  "model": "gpt-image-2.5-sunburst",
+  "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",
   "background": "transparent",
