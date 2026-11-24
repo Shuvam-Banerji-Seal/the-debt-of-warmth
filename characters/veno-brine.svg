@@ -117,20 +117,6 @@ C 265 147 284 146 306 148 Z" fill="#2b1b0e"/>
     <path d="M 238 448 C 264 466 294 476 324 476" fill="none" stroke="#efe2c4" stroke-width="1.6" stroke-opacity="0.5" stroke-linecap="round"/>
     <path d="M 262 462 C 290 470 318 470 344 464" fill="none" stroke="#efe2c4" stroke-width="1" stroke-opacity="0.35" stroke-linecap="round"/>
     <path d="M 420 392 C 442 402 458 418 468 440" fill="none" stroke="#efe2c4" stroke-width="1" stroke-opacity="0.3" stroke-linecap="round"/>
-    <path d="M 216 247 C 221 243 227 243 231 247 C 227 250 221 250 216 247 Z" fill="#efe2c4" fill-opacity="0.93"/>
-    <circle cx="224" cy="247" r="1.5" fill="#2b1b0e"/>
-    <path d="M 213 237 C 219 233 226 233 232 237" fill="none" stroke="#efe2c4" stroke-width="1.1" stroke-opacity="0.5" stroke-linecap="round"/>
-    <path d="M 218 262 C 220 260 222 260 224 262" fill="none" stroke="#efe2c4" stroke-width="1" stroke-opacity="0.55" stroke-linecap="round"/>
-    <path d="M 223 317 C 226 316 229 316 231 317" fill="none" stroke="#efe2c4" stroke-width="1.1" stroke-opacity="0.6" stroke-linecap="round"/>
-    <path d="M 228 316 C 233 313 238 314 241 318" fill="none" stroke="#efe2c4" stroke-width="1.1" stroke-opacity="0.5" stroke-linecap="round"/>
-    <path d="M 368 278 C 373 280 373 288 368 291 C 365 292 363 289 366 286" fill="none" stroke="#efe2c4" stroke-width="1.1" stroke-opacity="0.5" stroke-linecap="round"/>
-    <path d="M 249 405 C 253 403 256 404 257 407" fill="none" stroke="#efe2c4" stroke-width="1" stroke-opacity="0.4" stroke-linecap="round"/>
-    <path d="M 248 422 C 262 434 280 440 298 438" fill="none" stroke="#efe2c4" stroke-width="2.2" stroke-opacity="0.82" stroke-linecap="round"/>
-    <path d="M 250 430 C 264 442 282 448 300 446" fill="none" stroke="#efe2c4" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round"/>
-    <path d="M 246 416 L 252 428 L 260 417" fill="none" stroke="#efe2c4" stroke-width="1.4" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M 238 448 C 264 466 294 476 324 476" fill="none" stroke="#efe2c4" stroke-width="1.6" stroke-opacity="0.5" stroke-linecap="round"/>
-    <path d="M 262 462 C 290 470 318 470 344 464" fill="none" stroke="#efe2c4" stroke-width="1" stroke-opacity="0.35" stroke-linecap="round"/>
-    <path d="M 420 392 C 442 402 458 418 468 440" fill="none" stroke="#efe2c4" stroke-width="1" stroke-opacity="0.3" stroke-linecap="round"/>
   </g>
   </g>
 </g>
