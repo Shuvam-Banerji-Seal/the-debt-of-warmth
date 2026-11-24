@@ -1,0 +1,64 @@
+\begin{tikzpicture}
+  % the carried fire: a warmth with no first door, passing from hearth to hearth
+  \fill[gold, opacity=0.05] (0,-0.06) ellipse (3.15 and 1.18);
+
+  % the door-to-door chain: small kept hearths, receding and going out at the edges
+  \draw[faded!65, line width=0.5pt, dotted, opacity=0.38] (-3.86,-0.05) -- (-2.12,-0.05);
+  \draw[faded!65, line width=0.5pt, dotted, opacity=0.38] ( 2.12,-0.05) -- ( 3.86,-0.05);
+  \foreach \x/\s/\o in {-2.78/1.00/0.52, -3.36/0.80/0.38, -3.86/0.62/0.24,
+                         2.78/1.00/0.52,  3.36/0.80/0.38,  3.86/0.62/0.24}{
+    \draw[faded, line width=0.75pt, opacity=\o] (\x-0.18*\s,-0.42) -- (\x-0.18*\s,-0.12);
+    \draw[faded, line width=0.75pt, opacity=\o] (\x,-0.12) arc (180:0:{0.18*\s} and {0.25*\s});
+    \draw[faded, line width=0.75pt, opacity=\o] (\x+0.18*\s,-0.12) -- (\x+0.18*\s,-0.42);
+    \fill[rubric!65!gold, opacity=\o] (\x,-0.32) circle (0.033*\s);
+  }
+
+  % the clay dish: a shallow bowl, rim and inner wall, carried
+  \fill[ornament!52!faded, opacity=0.26] (0,-0.06) ellipse (1.98 and 0.79);
+  \draw[faded!80!ink, line width=1.5pt] (0,-0.06) ellipse (1.98 and 0.79);
+  \draw[faded!58, line width=0.7pt] (0,-0.06) ellipse (1.73 and 0.62);
+  \fill[ash!72!vellum, opacity=0.34] (0,-0.10) ellipse (1.62 and 0.55);
+
+  % the coal under the ash: kept, not lit here, its source unspoken
+  \fill[night, opacity=0.35] (0,-0.06) ellipse (0.44 and 0.23);
+  \fill[rubric!85!ink] (0,-0.06) ellipse (0.38 and 0.185);
+  \fill[gold!60!rubric] (0.015,-0.025) ellipse (0.22 and 0.085);
+  \fill[gold, opacity=0.9] (-0.075,-0.005) circle (0.042);
+
+  % ash sifted across the dish, banked and not swept
+  \foreach \x/\y/\rx/\ry in {-1.18/-0.13/0.54/0.13, -0.52/0.04/0.46/0.12,
+                              0.55/0.05/0.48/0.12,  1.20/-0.12/0.54/0.13,
+                              0.00/-0.30/0.72/0.085}{
+    \fill[ash, opacity=0.30] (\x,\y) ellipse (\rx cm and \ry cm);
+  }
+  \fill[ash!80!vellum, opacity=0.42] (0.02,0.045) ellipse (0.28 and 0.065);
+
+  % the widow's mark, pressed once at the rim before the opening, then not touched
+  \fill[rubric!55!faded, opacity=0.5] (-1.52,0.35) ellipse (0.105 and 0.062);
+  \draw[faded!55, line width=0.45pt, opacity=0.55] (-1.60,0.35) .. controls (-1.52,0.29) and (-1.44,0.29) .. (-1.44,0.35);
+
+  % the hands that carry: two cupped palms, the source of the warmth out of reach
+  \draw[faded!82!ink, line width=1.5pt] (-1.96,0.20)
+        .. controls (-2.04,-0.62) and (-1.10,-1.10) .. (0,-1.14);
+  \draw[faded!82!ink, line width=1.5pt] (0,-1.14)
+        .. controls ( 1.10,-1.10) and ( 2.04,-0.62) .. (1.96,0.20);
+  \draw[faded!60, line width=0.85pt] (-1.96,0.20)
+        .. controls (-1.82,-0.02) and (-1.05,-0.32) .. (0,-0.34)
+        .. controls ( 1.05,-0.32) and ( 1.82,-0.02) .. (1.96,0.20);
+  \draw[faded!72!ink, line width=1.05pt] (-1.96,0.20)
+        .. controls (-1.74,0.42) and (-1.34,0.44) .. (-1.10,0.26);
+  \draw[faded!72!ink, line width=1.05pt] ( 1.96,0.20)
+        .. controls ( 1.74,0.42) and ( 1.34,0.44) .. ( 1.10,0.26);
+
+  % the breath of it, thin and uncounted, going up and gone
+  \draw[faded, line width=0.85pt, opacity=0.24] (0.06,0.19)
+        .. controls (0.30,0.56) and (-0.22,0.80) .. (0.12,1.20);
+  \draw[faded, line width=0.6pt, opacity=0.15] (-0.52,0.16)
+        .. controls (-0.72,0.46) and (-0.28,0.66) .. (-0.52,0.96);
+
+  % flourished rules at the doors where the fire was kept and denied
+  \node at (-4.32,0.06) {\pgfornament[width=1.5cm,color=ornament]{85}};
+  \node at ( 4.32,0.06) {\pgfornament[width=1.5cm,color=ornament,symmetry=v]{85}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.53) {no house lit it; every house kept it};
+\end{tikzpicture}
