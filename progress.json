@@ -1,18 +1,19 @@
 {
   "genesis_done": [
-    "concept"
+    "concept",
+    "world"
   ],
   "chapter": 1,
   "step": "plan",
   "scene": 1,
   "consolidated_through": 0,
   "built": {},
-  "calls": 7,
+  "calls": 8,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 0,
-  "tokens_in": 207861,
-  "tokens_out": 87399,
+  "tokens_in": 307302,
+  "tokens_out": 143381,
   "restarts": [
     {
       "at": "2026-11-24",

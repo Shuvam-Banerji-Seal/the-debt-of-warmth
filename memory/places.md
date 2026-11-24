@@ -1,0 +1,284 @@
+# Gazetteer — every place named so far
+
+*Private working file. Canonical names are given exactly as they must be written with `\place{...}` in the scenes. Distances are in leagues (a league is three Sarnish miles, a little under three kilometres), and direction is measured from **Sill** unless the entry says otherwise. Where a place lies inside another place, the containing place is given first in the relations.*
+
+---
+
+## I. The world and the great powers
+
+### Sarn
+**Kind:** the world. **Region:** all.
+The bowl of warm land between the Hearth beneath and the Waste beyond the Rim; every vessel in it is a small failing dam.
+**Relations:** The Hearth lies beneath the Keel to the south-east; the Waste begins beyond the Rim to the west; the Sallow Sea fills the north-east.
+
+### The Hearth
+**Kind:** source, chamber of stone. **Region:** beneath the Hearthseat, on the Keel.
+The great source of the Warm, said to hold what the world had when it was made; its fire is kept behind iron in the Weighing Hall.
+**Relations:** Beneath the Hearthseat, about 150 leagues south-east of Sill by the Clay and Hearth Roads; the Nine Wells lie within twenty leagues of it.
+
+### The Waste
+**Kind:** waste, cold country outside the world. **Region:** beyond the Rim.
+The great sink where everything unheld goes; travellers who go far into it come back older and thinner.
+**Relations:** Begins beyond the Rim, roughly 200 leagues west of Sill; no Court collectors go there.
+
+### The Rim
+**Kind:** mountain chain. **Region:** west and north of the bowl.
+The cold mountains that ring Sarn, broken by a few passes; the Listening Stones stand in its high places.
+**Relations:** Nearest spur about 120 leagues west-north-west of Sill; the Cold Pass cuts it at 130 leagues; Keld Keep lies against it.
+
+### The Keel
+**Kind:** low ridge. **Region:** centre-south-east of the bowl.
+A long low ridge of stone over the Hearth, mildly warm in winter and therefore crowded.
+**Relations:** About 140 leagues south-east of Sill; the Hearthseat stands on it; the Nine Wells rise in it.
+
+### The Sallow Sea
+**Kind:** inland sea. **Region:** north-east.
+A cold inland sea the colour of skimmed milk, whose tides run against the wind and are said to follow the Warm rather than the moon.
+**Relations:** Its shore lies about 70 leagues north-east of Sill; the Ilm drains into it; Vhal stands on its coast at 80 leagues; the Glaze Cliffs are on the same shore.
+
+### The Warm Court
+**Kind:** realm, institution, church. **Region:** everywhere in theory; the Hearthseat in fact.
+The Keeping: assessors, collectors and bankers who own the Hearth, the Returns and the slates, and speak of theft as accounts.
+**Relations:** Seated in the Hearthseat, 150 leagues south-east of Sill; its factor in Greybank is 18 leagues east of Sill and is the Court's nearest physical presence to Grath.
+
+### The Hearthseat
+**Kind:** city. **Region:** the Keel.
+The Court's city, built over the Hearth, where the Weighing Hall, the sealed files and fewer than twenty Kept vessels are kept.
+**Relations:** 150 leagues south-east of Sill: 18 leagues east by the Clay Road to Greybank, then 140 leagues south-east by the Hearth Road; the Keel under it; the Nine Wells within twenty leagues.
+
+### The Weighing Hall
+**Kind:** hall, temple and counting room. **Region:** the Hearthseat.
+The room where the year's measures are read at the Weighing and where the Hearth-fire burns behind a grating of cold iron.
+**Relations:** Inside the Hearthseat, above the Hearth chamber.
+
+### Vhalen
+**Kind:** realm, merchant republic. **Region:** Sallow coast.
+A ring of port towns governed by a Council of Tides, living on salt, glass, rope, ships and contracts written on paper that rots.
+**Relations:** North-east of Sill, 80 leagues by the Salt Road; capital Vhal on the Sallow shore; the Glaze Cliffs on the same coast.
+
+### Vhal
+**Kind:** port city. **Region:** Vhalen, Sallow coast.
+The principal Vhaleni port, seat of the Council of Tides, with salt pans, glass furnaces and the tar-smelling council room.
+**Relations:** 80 leagues north-east of Sill; at the northern end of the Salt Road; the Glaze Cliffs about five leagues along the coast.
+
+### Keld
+**Kind:** realm, mountain kingdom. **Region:** the Rim.
+A high kingdom of iron, lead, coal and warm-stone, ruled by the Warden of the Rim, whose surveyors keep the record of the rim-seam.
+**Relations:** 120 leagues west-north-west of Sill by the Rim Road; capital Keld Keep; the Cold Pass beyond it at 130 leagues.
+
+### Keld Keep
+**Kind:** fortress city. **Region:** Keld, the Rim.
+The Warden's seat, where a man must state his measure before his name and where the deep survey shaft begins.
+**Relations:** 120 leagues west-north-west of Sill; the First Seam beneath it; the Listening Stones about five leagues higher into the Rim; the Cold Pass ten leagues beyond.
+
+### The First Seam
+**Kind:** mine, survey shaft. **Region:** Keld, beneath Keld Keep.
+The deep working where the Keldish survey the oldest repairs and where a crossed-out entry of Y.H. 588 records a man with a branching red mark.
+**Relations:** Beneath Keld Keep, 120 leagues west-north-west of Sill.
+
+### The Listening Stones
+**Kind:** standing stones, survey site. **Region:** high Rim, Keld.
+Old stones against which the Vorr sit for days and come away with numbers; the Keldish surveyors use them to read the rim-seam.
+**Relations:** About five leagues higher into the Rim from Keld Keep, some 125 leagues west-north-west of Sill.
+
+### The Cold Pass
+**Kind:** mountain pass, border. **Region:** the Rim, between Keld and Grath.
+The pass closed by Karric VII in Y.H. 741 and fixed as the northern border by the agreement of Y.H. 747.
+**Relations:** About 130 leagues west-north-west of Sill; ten leagues beyond Keld Keep on the Rim Road.
+
+### Sere
+**Kind:** empire. **Region:** the far south.
+A hot empire of grain, wine, bowls and open chattel slavery, whose people teach that a vessel was made to be emptied gloriously.
+**Relations:** 300 leagues south of Sill; its northern reach stops at the Peat Line; the capital is the Bowl of Sere.
+
+### The Bowl of Sere
+**Kind:** imperial city. **Region:** Sere.
+The capital, a city of open courts and public fires where debt-slates are burnt by lot and returned slaves are exhibited.
+**Relations:** About 300 leagues south of Sill; the Peat Line is roughly 200 leagues north of it.
+
+### The Fenmarch
+**Kind:** realm, reed confederacy. **Region:** south-west.
+Peat and boardwalk villages governed by reeves chosen for standing longest in a bog; the market for cheap thin returns.
+**Relations:** 90 leagues south-west of Sill; the Standing Post is its meeting place; the Empty Cantons lie between it and Grath; the Peat Line is its southern limit.
+
+### The Standing Post
+**Kind:** meeting place, village. **Region:** the Fenmarch.
+A raised boardwalk and a post carved with reeves' marks where the Fen reeves settle fines and feuds.
+**Relations:** About 90 leagues south-west of Sill; the only Fen place outsiders are shown.
+
+### The Peat Line
+**Kind:** border, wetland. **Region:** between the Fenmarch and Sere.
+The wet frontier where Sere's northern advance stopped in Y.H. 634 and where the two powers trade, raid and buy measures.
+**Relations:** Roughly 100 leagues south-west of Sill; about 200 leagues north of the Bowl of Sere.
+
+---
+
+## II. Grath — the birth country
+
+### Grath
+**Kind:** country, region. **Region:** north-west of the bowl.
+A soft country of clay towns, peat bog and river valleys, under a Thane of Clay confirmed by the Court's factor at Greybank.
+**Relations:** The Rim lies to the west and north-west; the Sallow Sea to the north-east; Sill is its principal town; Greybank its eastern gate.
+
+### Sill
+**Kind:** town. **Region:** Grath, on the Ilm.
+A town of just over four thousand souls where the Ilm drops four feet over a ledge of hard stone; the birthplace of Corin.
+**Relations:** On the Ilm; 18 leagues upriver (west) of Greybank; 1 league east of the Weir; 1 league north of the Old Kiln; at the meeting of the Clay Road and the river road.
+
+### Low Kiln
+**Kind:** district. **Region:** Sill, south bank below the sill.
+The poor quarter of kilns, trodden-ash floors and thick grey Ash in the corners; Corin is born here and the Vail kiln-house stands here.
+**Relations:** Inside Sill, on the south bank below the stone sill; High Kiln is about 200 paces up the terrace to the north; the Clay Yard is within the district, beside the Slip Brook.
+
+### High Kiln
+**Kind:** district. **Region:** Sill, north terrace.
+The master potters' quarter on the steep street above Low Kiln, where the glaze is mixed and the lead smell hangs.
+**Relations:** About 200 paces north and uphill of Low Kiln; the Cross is a short way west.
+
+### The Cross
+**Kind:** market square. **Region:** Sill.
+The meeting of the Clay Road and the river road, where the moot shouts, the slate is read and the pigs are weighed on market-day.
+**Relations:** Central Sill, between the two bridges; Slate Row lies a quarter league east; the Fishstairs below the north bridge; Low Kiln across the river to the south.
+
+### Slate Row
+**Kind:** Court quarter. **Region:** Sill.
+A narrow street holding the Court's room, the assessor's house, the collector's table and the Waiting Room.
+**Relations:** A quarter league east of the Cross; Low Kiln is across the river, south-west.
+
+### The Waiting Room
+**Kind:** room. **Region:** Slate Row, Sill.
+The room where the collected are kept overnight before banking, and where the Forty of Low Kiln were held in Y.H. 812.
+**Relations:** Inside Slate Row, behind the collector's table.
+
+### The Fishstairs
+**Kind:** landing steps. **Region:** Sill, north bank.
+The steps below the north bridge where eels are sold at dawn and rumours at noon; Rusk keeps a room above them.
+**Relations:** Immediately below the north bridge at the Cross; the Weir is 1 league upriver; Rusk's room is above the steps.
+
+### The Bone Orchard
+**Kind:** burial ground. **Region:** Grath, outside Sill's north gate.
+The ground of pots broken for the dead and of the shallow graves of thin-return children.
+**Relations:** 1 league north of the Cross by the north gate road; Cold Acre is another league beyond it on the ridge.
+
+### The Clay Yard
+**Kind:** work yard. **Region:** Low Kiln, Sill.
+The slip pits, wheel shed, drying racks and kiln that make up a clay child's whole world.
+**Relations:** Inside Low Kiln, beside the Slip Brook; the Ilm is a short walk south.
+
+### The Vail kiln-house
+**Kind:** house and kiln. **Region:** the Clay Yard, Low Kiln.
+A kiln-house held by the Vail family for four generations; Sella Vail keeps the fire and Jorra Vail is her son; Corin is taken in here as a foundling.
+**Relations:** In the Clay Yard, Low Kiln; the Slip Brook runs behind it; the Old Kiln is 1 league south.
+
+### The Weir
+**Kind:** fishing weir and plank walk. **Region:** Grath, on the Ilm.
+Eel traps and a plank walk one league upriver, where the Fish Blessing is held and Rusk walks at dusk.
+**Relations:** 1 league upriver (west) of Sill; Stonemouth is a further four leagues upriver.
+
+### Cold Acre
+**Kind:** farm hamlet. **Region:** Grath, north ridge.
+Six houses, barley, turnips and one well that never freezes.
+**Relations:** 2 leagues north of Sill on the ridge; 1 league beyond the Bone Orchard.
+
+### The Tallow Works
+**Kind:** works. **Region:** Grath, north-east of Sill.
+A rendering house for sheep fat whose smell carries into Sill on a north wind.
+**Relations:** 2 leagues north-east of Sill; Cold Acre about two leagues to the west.
+
+### Mud End
+**kind:** peat hamlet. **Region:** Grath, downriver.
+Nine houses and peat stacks where the moot meets in a byre and the winter peat decides whether anyone stays warm.
+**Relations:** 3 leagues downriver (east) of Sill; Greybank a further 15 leagues east; Reedholt lies in the marsh to the south.
+
+### Reedholt
+**Kind:** marsh hamlet. **Region:** Grath, east marsh.
+Reed-cutters' huts on the edge of the marsh where wolves come in the reedbeds.
+**Relations:** About 4 leagues east of Sill, south of the river road; Mud End about 2 leagues north-east.
+
+### Stonemouth
+**Kind:** quarry village. **Region:** Grath, upper Ilm.
+The meeting of the Ferr and the Ilm, with lime kilns and coarse sandstone workings.
+**Relations:** 5 leagues upriver (west) of Sill; the Weir is 4 leagues downriver; Nine Pots a further 3 leagues west by the Ferr.
+
+### The Lead Run
+**Kind:** stream. **Region:** Grath, upper Ilm basin.
+A blue-grey stained stream running off an old working nobody will admit to, said to make a man thin if drunk through a season.
+**Relations:** About 6 leagues west of Sill; enters the Ferr; Stonemouth a few leagues down the Ferr.
+
+### Nine Pots
+**Kind:** pottery hamlet. **Region:** Grath, west.
+Four kilns and a shared clay pit, in permanent feud with Sill over the road.
+**Relations:** 8 leagues west of Sill; Stonemouth about 3 leagues east; the Rim Road passes north of it.
+
+### Greybank
+**Kind:** granary town. **Region:** Grath, eastern gate.
+The Court's granary and factor's house, where the Clay Road ends and the Hearth Road begins; the first place a Sill man sees the Court at full size.
+**Relations:** 18 leagues east downriver of Sill; Mud End 15 leagues west; the Hearth Road runs 140 leagues south-east to the Hearthseat.
+
+### The Old Kiln
+**Kind:** ruin. **Region:** Grath, south of Sill.
+A collapsed kiln with grey clay that will not take a glaze and an ash throat deeper than a man.
+**Relations:** 1 league south of Sill; a slate in the Vail kiln-house came from here.
+
+---
+
+## III. Rivers and roads
+
+### The Ilm
+**Kind:** river. **Region:** Grath to the Sallow Sea.
+The great silty river of Grath, frozen from Stone into Ilmen and breaking in the Silt flood called the Breaking.
+**Relations:** Rises in the Rim about 120 leagues west of Sill; passes Stonemouth, the Weir and Sill; runs east through Greybank and reaches the Sallow Sea some 80 leagues below Sill.
+
+### The Ferr
+**Kind:** river, tributary. **Region:** upper Grath.
+A colder tributary carrying lead dust from the western workings; its water is said to thin a man who drinks it through a season.
+**Relations:** About 40 leagues long; joins the Ilm at Stonemouth, 5 leagues west of Sill; the Lead Run enters it a few leagues upstream.
+
+### The Slip Brook
+**Kind:** brook. **Region:** Low Kiln, Sill.
+A narrow clay-coloured stream through the Clay Yard whose colour the children of Low Kiln read as weather.
+**Relations:** Runs behind the Vail kiln-house and enters the Ilm at Sill.
+
+### The Clay Road
+**Kind:** road. **Region:** Grath.
+Packed clay over corduroy, five days by cart in Grain and six in Silt; surfaced as a Court road by the treaty of Y.H. 418.
+**Relations:** Runs east from the Cross at Sill to Greybank, 18 leagues; the Salt Road continues from Greybank.
+
+### The Salt Road
+**Kind:** road. **Region:** Grath to Vhalen.
+The trade route from the clay towns to the Sallow ports, by Greybank and the coast pass.
+**Relations:** Begins at Sill, runs east to Greybank (18 leagues) and then north-east to Vhal (a further 62 leagues); total 80 leagues.
+
+### The Rim Road
+**Kind:** road. **Region:** Grath to Keld.
+The improving road and worsening weather between Sill and the Rim, travelled with a warm-stone.
+**Relations:** Runs west-north-west from Sill to Keld Keep, 120 leagues; reaches the Cold Pass at 130 leagues.
+
+### The Hearth Road
+**Kind:** road. **Region:** Greybank to the Hearthseat.
+The merchants' road to the Court, spoken of in Grath as if it were a fever.
+**Relations:** Runs south-east from Greybank to the Hearthseat, 140 leagues; Greybank is 18 leagues east of Sill.
+
+---
+
+## IV. Wonders, wastes and buried places
+
+### The Nine Wells
+**Kind:** hot springs. **Region:** the Keel.
+Nine springs where the ground gives back more than it takes; four sealed by the Court in Y.H. 1 to 120, a fifth in Y.H. 618, and the keys kept.
+**Relations:** On the Keel within twenty leagues of the Hearthseat and the Hearth beneath it.
+
+### The Glaze Cliffs
+**Kind:** coastal cliffs. **Region:** Vhalen, Sallow shore.
+Blue-green cliffs stained by old lead workings, sweet-smelling in the heat; children are warned not to lick them.
+**Relations:** On the Sallow coast about five leagues from Vhal, roughly 85 leagues north-east of Sill.
+
+### The Empty Cantons
+**Kind:** depopulated province. **Region:** south of Grath.
+Roads, wells and doorways with no people; the ledger's empty squares after Y.H. 40, paid for by the first whole returns.
+**Relations:** About 60 leagues south of Sill, between Grath and the Fenmarch; the Peat Line lies further south-west.
+
+### The Singing Sill
+**Kind:** river ledge, wonder. **Region:** Sill, the Ilm.
+The hard stone under the falls that gives a low note when the Warm rises in Ilmen; the town takes its name from it.
+**Relations:** Under the Ilm at Sill, below the Fishstairs and the north bridge.
