@@ -72,6 +72,8 @@
 
 **Council of Tides.** The elected government of Vhalen, composed of ship-owners and salt-masters, whose decrees are written on salt-paper that rots in damp.
 
+**Court's room.** The room in Slate Row where the slate is read aloud on market-day and the district's measure is spoken for; in the Keeping, bank and church are one room. A neighbour come back from it on Stone 19, Y.H. 812 described a bench by the door, a pot on the bench, a draught under it going along the floor to the corner, and a place in the figures where a line should stand and does not --- the same furniture as a birth room, a kiln-house and a death-house, which the boy keeps in four separate places rather than call them one room.
+
 **Crown.** A gold coin worth twenty silver marks, common in Sere and rarely seen in Grath.
 
 **Cup-bank.** A procedure for storing Warm outside the body in clay or iron, to be spent later or by another.
@@ -118,7 +120,7 @@
 
 **The Five (Five Cold Days).** The five days outside the months at the year's end: Kindling, Weighing, the Long Night, the Remembering and the Last Day.
 
-**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 12, Y.H. 812 he has heard it five times from four sources --- a cup across a birth room, a pot in the Vail house, the district's own reading slate twice, and a dying man at the Hearth Drawing, the fifth and the first from a person --- and nobody has tapped any of them for him. On Stone 13 a pot was turned toward before it was set down and gave nothing --- an interval with the shape of a sound, not a sixth hearing, which the boy kept as an object.
+**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 12, Y.H. 812 he has heard it five times from four sources --- a cup across a birth room, a pot in the Vail house, the district's own reading slate twice, and a dying man at the Hearth Drawing, the fifth and the first from a person --- and nobody has tapped any of them for him. On Stone 13 a pot was turned toward before it was set down and gave nothing --- an interval with the shape of a sound, not a sixth hearing, which the boy kept as an object. On Stone 17 a second pot was turned toward under the Vail roof and gave nothing; the two intervals lie on a separate tray from the hearings, and through Stone 20 the count stands at five from four sources with no sixth.
 
 **The full note.** The full sound a sound vessel gives under the knuckle; a cracked vessel answers flat. The first tool of the clinical ear.
 

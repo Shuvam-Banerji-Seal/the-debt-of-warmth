@@ -260,8 +260,8 @@ A room above the Fishstairs in which an old man keeps a drawer with a small lock
 
 ### The Court's room
 **Kind:** hall, court and place of the Return. **Region:** Slate Row, Sill.
-The room where the slate is read aloud on market-day and the district's measure is spoken for; in the Keeping, bank and church are one room.
-**Relations:** In Slate Row, a quarter league east of the Cross.
+The room where the slate is read aloud on market-day and the district's measure is spoken for; in the Keeping, bank and church are one room. On Stone 19, Y.H. 812 a neighbour come back from it described it to the yard: a bench by the door from which the slate is read, a pot set on the bench, a draught under the pot going along the floor to the corner and felt at the ankles before the cold is felt, and a place in the figures where a line should stand and does not, the same every time; the figure is read twice, once for the moot and once for those who come late. The boy set this room beside the birth room in House Silt, the Vail kiln-house and the death-house two doors down, which share the bench, the pot, the draught and the gap, and kept the four likenesses in four separate places rather than write a cause where he had only noticed a likeness.
+**Relations:** In Slate Row, a quarter league east of the Cross; a table carrying its business in the open air stands at the Slate Row fringe of the Cross.
 
 ### The Court's table at the Cross
 **Kind:** table, open-air place of business. **Region:** the Cross, Sill.
@@ -394,7 +394,7 @@ A collapsed kiln with grey clay that will not take a glaze and an ash throat dee
 
 ### The Ilm
 **Kind:** river. **Region:** Grath to the Sallow Sea.
-The great silty river of Grath, frozen from Stone into Ilmen and breaking in the Silt flood called the Breaking.
+The great silty river of Grath, frozen from Stone into Ilmen and breaking in the Silt flood called the Breaking. On Stone 19, Y.H. 812 a man come up from the river held a palm's breadth of its ice up to the tallow light in the Clay Yard: a dark hair ran in from one edge and stopped a thumb's breadth short of the other, and he said the water under it had gone different. A woman from High Kiln said the thaw would come early; the yard wanted it late, because a late thaw puts off the levy, and Sella called the crack weather. The boy filed the hairline as a shape, not a cause, beside the other gaps.
 **Relations:** Rises in the Rim about 120 leagues west of Sill; passes Stonemouth, the Weir and Sill; runs east through Greybank and reaches the Sallow Sea some 80 leagues below Sill.
 
 ### The Ferr
