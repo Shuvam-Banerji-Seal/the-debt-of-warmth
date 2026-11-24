@@ -2,7 +2,7 @@
 
 - Chapters complete: **12**
 - Words of story: **183,127**
-- Current chapter: 12 (step: publish, scene 8)
+- Current chapter: 13 (step: plan, scene 1)
 - Last chapter: The River Stirring (Days 48–54 · Ilmen 19–25, Y.H. 813)
 - Author calls so far: 143 (tokens in 18,711,818, out 3,325,368)
 - Updated: 2026-11-25 02:01
