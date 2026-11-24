@@ -7,7 +7,7 @@ relates_to: [Keld, Keld Keep, the First Seam, the Ninth Gallery, the Duelling Fl
 
 I write on the back of a survey sheet that spoiled in a sweating in the Ninth Gallery. The surveyor had set it down near a seam giving off the smell of hot lead, and the heat took the figures off before anybody could read them, which is a mercy of a kind: a figure that cannot be read cannot be entered. I have cut the counts into the board cover with a file, because a notch is still there when the paper has gone soft, which is more than can be said for the Court's figures. I am a leech of the deep. I tend the clamp-hands and the stone-cough and men who come up from the lower galleries older than they went down. I have set down what I do and what the men before me did, and where the two disagree I have set them side by side, as the survey office keeps two readings of one seam.
 
-Nothing in this book is free. That is the only thing in it I will stand behind.
+Nothing in this book is free. That is the only thing I will stand behind.
 
 The coal at the head is mine. I sign in coal because it goes into the grain and will not come out, and a leech who signs his cures in a hand a clerk can read is a leech who will be asked to answer for them.
 
@@ -79,7 +79,7 @@ We walk it off. We rub it with warm-stone. We set the man to work, because a mov
 > ask me my measure, I'll give you my name ---
 > the measure goes down and the name stays above.
 
-There is a space before the last line in the singing, the length of the smooth place on the arm. I have left it on the page. No clerk has yet thought to put a figure in it, which is the only reason it is still a space.
+There is a space before the last line in the singing, the length of the smooth place on the arm. No clerk has yet put a figure in it, which is the only reason it is still a space.
 
 # What the Court clerk did
 
@@ -104,4 +104,4 @@ The coal at the head came off my own thumb setting down the sheet in the lamp-ro
 > The stone keeps the heat and the iron keeps the number;
 > neither of them asks who paid.
 
-I asked a clamp-master, a survey-clerk, and a man with a smooth place on his arm, and had three answers and no hand. I have left the line where it was written. The book goes back into the coat pocket against the splinter of warm-stone. Tomorrow a man will give his number before his name at the door, and I shall write the number down and cut another notch in the cover, and the notch will outlast the figure and the figure the man, which is the whole of the trade here.
+I asked a clamp-master, a survey-clerk, and a man with a smooth place on his arm, and had three answers and no hand. I have left the line where it was written. The book goes back into the coat pocket against the splinter of warm-stone. Tomorrow a man will give his number before his name at the door, and I shall write the number down and cut another notch in the cover, and the notch outlasts the figure and the figure the man, which is the whole trade here.
