@@ -1,0 +1,69 @@
+\begin{tikzpicture}
+  % the chapter's heart: a cord of grey wool, knots kept where no slate can enter them
+  \fill[gold, opacity=0.045] (0,-0.18) ellipse (3.55 and 1.02);
+  \fill[night, opacity=0.06] (0,-0.72) ellipse (3.35 and 0.30);
+
+  % the tray: a shallow board the cord lies on, unread
+  \fill[ash!62!vellum, opacity=0.30] (0,-0.62) ellipse (3.42 and 0.30);
+  \draw[faded!70, line width=0.9pt, opacity=0.55] (0,-0.62) ellipse (3.42 and 0.30);
+  \draw[faded!50, line width=0.55pt, opacity=0.38] (0,-0.62) ellipse (3.18 and 0.21);
+
+  % the second cord, lying beside the first, twisted twice, never joined to it
+  \draw[faded, line width=0.9pt, opacity=0.34] (-3.22,-0.78)
+        .. controls (-1.60,-0.94) and (0.60,-0.80) .. (1.72,-0.86);
+  \draw[ash!70!ink, line width=0.85pt, opacity=0.42] (-1.24,-0.86)
+        .. controls (-1.10,-0.66) and (-0.86,-1.02) .. (-0.70,-0.84)
+        .. controls (-0.58,-0.68) and (-0.40,-1.00) .. (-0.26,-0.84);
+
+  % the cord itself: grey wool laid down in a shallow, uneven line
+  \draw[faded!82!ink, line width=1.65pt] (-3.52,-0.36)
+        .. controls (-2.60,-0.55) and (-1.70,-0.24) .. (-0.80,-0.44)
+        .. controls ( 0.10,-0.63) and ( 0.92,-0.28) .. (1.82,-0.46)
+        .. controls (2.28,-0.55) and (2.52,-0.42) .. (2.70,-0.29);
+  \draw[vellum, line width=0.35pt, opacity=0.42] (-3.44,-0.34)
+        .. controls (-2.58,-0.51) and (-1.70,-0.22) .. (-0.80,-0.42)
+        .. controls ( 0.10,-0.60) and ( 0.92,-0.26) .. (1.80,-0.44);
+
+  % the run of knots: kept, counted by nobody on the page
+  \foreach \i in {0,1,...,15}{
+    \pgfmathsetmacro{\kx}{-3.18 + 0.325*\i}
+    \pgfmathsetmacro{\ky}{-0.42 + 0.055*sin(\i*36)}
+    \draw[faded!78!ink, line width=0.95pt] (\kx,\ky) ellipse (0.070 and 0.048);
+    \draw[faded!62!ink, line width=0.65pt] (\kx-0.048,\ky+0.043) -- (\kx+0.048,\ky-0.043);
+    \draw[vellum, line width=0.32pt, opacity=0.48] (\kx-0.028,\ky+0.018) -- (\kx+0.026,\ky-0.022);
+  }
+
+  % where the counting stops: a hollow the thumb passes over
+  \draw[faded, line width=0.55pt, dotted, opacity=0.42] (2.06,-0.47) -- (2.34,-0.39);
+  \draw[faded!55, line width=0.6pt, opacity=0.38] (2.30,-0.38) circle (0.052);
+
+  % the forty-first: tied left over right, twice, by a thumb that will not say why
+  \fill[ash, opacity=0.20] (2.62,-0.24) ellipse (0.20 and 0.11);
+  \draw[faded!88!ink, line width=1.55pt]
+    (2.70,-0.29) .. controls (2.42,-0.10) and (2.50, 0.24) .. (2.78, 0.20)
+                 .. controls (3.02, 0.16) and (2.98,-0.20) .. (2.70,-0.29);
+  \draw[rubric!38!faded, line width=1.05pt, opacity=0.78]
+    (2.66,-0.30) .. controls (2.54,0.02) and (2.74,0.28) .. (2.92,0.16)
+                 .. controls (3.06,0.06) and (2.90,-0.24) .. (2.66,-0.30);
+  \draw[faded!82!ink, line width=1.20pt]
+    (2.78, 0.20) .. controls (2.98, 0.40) and (3.24, 0.32) .. (3.18, 0.02)
+                 .. controls (3.15,-0.14) and (3.02,-0.18) .. (2.92,-0.12);
+  \fill[rubric!60!ink] (2.76,0.03) circle (0.022);
+
+  % the loose end off the tray, frayed and going nowhere
+  \draw[faded!75!ink, line width=1.1pt] (-3.52,-0.36)
+        .. controls (-3.82,-0.18) and (-4.02,-0.42) .. (-4.20,-0.24);
+  \draw[faded!60, line width=0.55pt, opacity=0.55] (-4.20,-0.24) -- (-4.34,-0.34);
+  \draw[faded!60, line width=0.55pt, opacity=0.48] (-4.20,-0.24) -- (-4.32,-0.14);
+
+  % the flat knock, kept on its own tray: rings that do not join the cord
+  \fill[faded, opacity=0.10] (-3.52,0.63) ellipse (0.52 and 0.085);
+  \draw[faded, line width=0.6pt, opacity=0.16] (-3.52,0.86) circle (0.16);
+  \draw[faded, line width=0.5pt, opacity=0.12] (-3.52,0.86) circle (0.27);
+  \draw[faded, line width=0.45pt, opacity=0.09] (-3.52,0.86) circle (0.39);
+
+  \node at (-4.36,-0.02) {\pgfornament[width=1.35cm,color=ornament]{80}};
+  \node at ( 4.36,-0.02) {\pgfornament[width=1.35cm,color=ornament,symmetry=v]{80}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.30) {one past the count, tied left over right};
+\end{tikzpicture}
