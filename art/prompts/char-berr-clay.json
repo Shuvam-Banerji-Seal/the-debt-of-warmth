@@ -2,7 +2,7 @@
   "id": "char-berr-clay",
   "kind": "character",
   "character": "berr-clay",
-  "out": "art/characters/berr-clay.png",
+  "out": "art/characters/berr-clay.webp",
   "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",

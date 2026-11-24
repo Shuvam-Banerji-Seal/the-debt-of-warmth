@@ -2,7 +2,7 @@
   "id": "char-alda-reed",
   "kind": "character",
   "character": "alda-reed",
-  "out": "art/characters/alda-reed.png",
+  "out": "art/characters/alda-reed.webp",
   "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",

@@ -2,7 +2,7 @@
   "id": "char-jorra-vail",
   "kind": "character",
   "character": "jorra-vail",
-  "out": "art/characters/jorra-vail.png",
+  "out": "art/characters/jorra-vail.webp",
   "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",

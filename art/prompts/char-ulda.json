@@ -2,7 +2,7 @@
   "id": "char-ulda",
   "kind": "character",
   "character": "ulda",
-  "out": "art/characters/ulda.png",
+  "out": "art/characters/ulda.webp",
   "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",

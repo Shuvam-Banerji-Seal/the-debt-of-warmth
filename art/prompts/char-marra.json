@@ -2,7 +2,7 @@
   "id": "char-marra",
   "kind": "character",
   "character": "marra",
-  "out": "art/characters/marra.png",
+  "out": "art/characters/marra.webp",
   "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",

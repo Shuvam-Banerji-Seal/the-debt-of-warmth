@@ -3,7 +3,7 @@
   "kind": "scene",
   "chapter": 2,
   "caption": "Days 2\u20133. The Vail kiln-house takes in a child.",
-  "out": "art/chapters/ch-0002.png",
+  "out": "art/chapters/ch-0002.webp",
   "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",

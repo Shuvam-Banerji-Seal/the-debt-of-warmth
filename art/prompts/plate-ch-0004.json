@@ -3,7 +3,7 @@
   "kind": "scene",
   "chapter": 4,
   "caption": "Day 6. The Hearth Drawing.",
-  "out": "art/chapters/ch-0004.png",
+  "out": "art/chapters/ch-0004.webp",
   "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",

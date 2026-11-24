@@ -2,7 +2,7 @@
   "id": "char-paul-vesci",
   "kind": "character",
   "character": "paul-vesci",
-  "out": "art/characters/paul-vesci.png",
+  "out": "art/characters/paul-vesci.webp",
   "model": "gpt-image-2.5-sunburst-2026-09-08",
   "size": "1024x1536",
   "quality": "high",
