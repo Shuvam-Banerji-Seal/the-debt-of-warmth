@@ -113,7 +113,7 @@ From the Cross at Sill to this quay, eighteen leagues, packed clay over corduroy
 | Foot passenger | nothing on Account-day; 1 bit any other day |
 | Barrow of grey going out through a north gate | not weighed, and not entered |
 
-> *Margin:* The cartmen say they pay twice to travel one road, once to the moot and once to the Court, and both of them say the road is in a better state before the payment than after. I have put the last row on my own copy and not on the board. What goes out of Sill in a barrow is the afternoon's work, and no figure reaches it.
+> *Margin:* The cartmen say they pay twice to travel one road, once to the moot and once to the Court, and that the road is in a better state before the payment than after. I have put the last row on my copy and not on the board. What goes out of Sill in a barrow is the afternoon's work, and no figure reaches it.
 
 ## The Salt Road
 

@@ -2,7 +2,7 @@
 
 - Chapters complete: **9**
 - Words of story: **133,580**
-- Current chapter: 9 (step: publish, scene 8)
+- Current chapter: 10 (step: plan, scene 1)
 - Last chapter: The River Under the Ice (Days 31–37 · Ilmen 2–8, Y.H. 813)
 - Author calls so far: 108 (tokens in 12,812,918, out 2,524,181)
 - Updated: 2026-11-24 23:28
