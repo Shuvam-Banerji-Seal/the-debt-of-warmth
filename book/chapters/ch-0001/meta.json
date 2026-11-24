@@ -1,0 +1,77 @@
+{
+  "number": 1,
+  "title": "The Stone Going Cold",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "A stone at the belly is a stone borrowed from the fire. It goes cold. Somebody has had the warmth back, and nobody says whose.",
+    "attribution": "A hearth-maid's saying, Low Kiln"
+  },
+  "days": {"start": 1, "end": 1},
+  "when": "Day 1 · Stone 7, Y.H. 812, a Seventhday · the Ilm under ice, three days before the Five Cold Days",
+  "where": "The birth room off the Clay Yard in Low Kiln, Sill, Grath; a brief breaking-through of the expressway near Chicago",
+  "pov": "Daniel Marchetti, newly Corin — close third-person past tense inside an infant's body; present tense only when Chicago breaks through",
+  "mode": "normal",
+  "characters": [
+    "dan-marchetti",
+    "alda-reed",
+    "dessa-silt",
+    "mira-silt",
+    "sella-vail",
+    "marra",
+    "nina-marchetti"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "the Clay Yard",
+    "House Silt",
+    "the Slip Brook",
+    "the Ilm",
+    "Chicago",
+    "the expressway"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Stone Going Cold",
+      "day": 1,
+      "flashback": false,
+      "synopsis": "Drop capital. In the birth room off the Clay Yard a stone warmed at a neighbour's fire is already giving up its heat against a newborn's belly. Alda Reed works with steady hands and a slate within reach; Dessa Silt counts nineteen steps under her breath for a reason that is no longer the pits. Dan registers the angle of a wrist, the rhythm of a labouring woman's breathing and the exact moment an afterdrop would begin — all of it surgical, all of it useless. He wants the breast. Both are true and the second is louder. The stone goes cold and nobody in the room feels it but him. Opens the warm-stone thread and the clinical ear; plants the Ash ridge and the counting.",
+      "target_words": 3000
+    },
+    {
+      "n": 2,
+      "title": "The Birth-Flower",
+      "day": 1,
+      "flashback": true,
+      "synopsis": "Alda lifts the child and sees the branching red mark across his ribs and forearm. She crosses herself with two fingers, notices she has done it in front of a stranger, and covers it with the word birth-flower. The tense tightens and Chicago breaks through for a beat or two: orange tunnels of sodium light on wet snow, stopped wipers, the hiss of fuel, a phone lit under a sheet with a name he will not look at, and a woman in a coat the colour of wet ash standing at the edge of the flare light on a slate, writing; the writing does not stop. No remembered words in macro — the memory is written straight, present tense, then back to the clay room. Plants the flower, the grey coat, the lit phone and the hot trace.",
+      "target_words": 2500
+    },
+    {
+      "n": 3,
+      "title": "Counting",
+      "day": 1,
+      "flashback": false,
+      "synopsis": "The double consciousness stages itself in full. Corin counts the nails in the floorboards — four on the near board, four on the next, a fifth that is a knot the width of a thumb — and knows he is counting exits. He reads Dessa's breathing, her pulse at the wrist, the pale sieve-wire scar she rubs while deciding whether to speak. Mira Silt comes and goes with eel slime dried on her sleeves, flicks eel-bones against her thumb, answers a question with a question and then her own answer, and will not sit where the slate is open. The surgeon's dry competence loses the argument to the infant's body: he drools, cannot hold up his head, cannot roll. The body wins, loudly. The knot where the fifth nail should be is the last image.",
+      "target_words": 2800
+    },
+    {
+      "n": 4,
+      "title": "The Slate Within Reach",
+      "day": 1,
+      "flashback": false,
+      "synopsis": "The birth-slate lies within reach of Alda's hand; on it a name has been entered in a neat strange hand before anyone has looked at the child's face. Dessa will not say the name — she calls him the little hot one and the flower — and Dan cannot read the Grathic shape of it. Mira says almost nothing, gives a crust quickly and briskly before anyone can make a speech about it, and keeps standing. The room has arranged itself around something unsaid; the boy is already entered somewhere he has not been seen. The stone goes cold, the Ash ridge along the skirting board is named for what it is not, and somebody will come on the third day. Plants the name-before-the-face, the levy language, the second records and love as maintenance.",
+      "target_words": 2700
+    },
+    {
+      "n": 5,
+      "title": "The Hand at the Door",
+      "day": 1,
+      "flashback": false,
+      "synopsis": "Sella Vail's hand — the burn shaped like a little door across the back of it — reaches for the covered bundle and does not take it yet. The hand withdraws; the slate is closed; the kiln breathes somewhere off the yard. Corin counts its breaths because there is nothing else to count. Close on the cold stone at his belly and the four-and-four-and-a-knot of the floorboards, with the third day still to come. Forward momentum, not an ending: a woman's hand has hovered over him and a name has been written in a hand he cannot read, and both will return.",
+      "target_words": 2500
+    }
+  ]
+}
