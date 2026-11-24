@@ -53,11 +53,11 @@ She wants Dan to be the surgeon she trained — exact, decisive, and able to say
 
 ## Arc So Far
 
-No chapters are written yet. She exists as the first remembered voice in the book — a file in the sentence, a full name spoken into a trauma bay that is already becoming a clay yard.
+She exists as the first and most exact remembered voice in the book --- a file in the sentence, a full name spoken into a trauma bay that is already becoming a clay yard. On the tenth stone of Y.H. 812 her voice breaks through a Sarnish market without a tag and in the present tense, and the two duties arrive with it: decide, then carry, with trouble over the second. The contradiction lives inside the sentence: the woman who demanded an account of every resident withheld one from the man she loved like a son, asked one careful question in a corridor about a chart he had signed without reading the note, and let the lie go. That omission is the thing the maxim carries, the way a clamp carries a crack. Her line has not yet migrated into Rusk's questions; that is still far off.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 3 (remembered voice correcting him by name).
+- Ch 3: Day 4, Account-day. \memory{Marchetti. You're back on in ten.} came into the Cross out of the market noise, followed by \memory{The first duty is to decide. The second is to carry it. You seem to have trouble with the second.} The full name was an instrument, a small cold pressure applied at the right place. For one breath the clay yard, the pigs and the trauma bay occupied the same paragraph --- machine coffee, lemon disinfectant, a white ceiling light, a girl of twenty-two with a scalp wound, a resident waiting for the sentence --- and then the market closed over without a gap. She was not described as an arrival and the shift was not tagged as memory. In the bay she had said the second sentence to mend him and had spent the rest of her life not quite mending herself with it.
 
 ## Secrets (private)
 

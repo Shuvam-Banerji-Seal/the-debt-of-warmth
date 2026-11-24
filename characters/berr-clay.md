@@ -24,6 +24,7 @@ The kiln-master's proverb braided with the Court's passive grammar. He never say
 - “You can bring the slate to the moot. The moot will shout. The slate will not change.”
 - “Sella. Your widow's mark is confirmed by the factor at Greybank. That is a kindness, and kindness is entered.”
 - “I signed for the Hearth. I did not sign for a name. There's a difference, and you can take it to the Cross if you like.”
+- “The figure stands as read. There'll be a slate at the watch if the house wants it again.”
 
 ## History
 
@@ -41,25 +42,25 @@ He wants the kilns firing, his name on the roll, and the factor at Greybank to w
 
 ## Bonds
 
-**Sella Vail** — he confirmed her widow's mark and has never called in the debt Garl left against a shipment of tiles. The uncalled debt is worse than a called one: she cannot pay it, cannot settle it, and cannot stop owing it. She has never asked, and he has decided this means she knows.
+**Sella Vail** — he confirmed her widow's mark and has never called in the debt Garl left against a shipment of tiles. The uncalled debt is worse than a called one: she cannot pay it, cannot settle it, and cannot stop owing it. She has never asked, and he has decided this means she knows. *Ch 3:* he told her at the Cross that the mark was confirmed by the factor at Greybank, that it was a kindness, and that kindness is entered. She answered the wool and the boy, not him; he stood with his mouth open on the next part of what he had come to say, looked at the mark under her collar without asking to see it, and went back to the moot leaving the debt as carefully unentered as he had found it.
 
 **Jorra Vail** — he suspects the young man is with the Broken Slates and lets him be. A district needs somewhere to put its anger, and Berr has calculated that a kiln-house with a safe place for anger is cheaper than a kiln-house without one. Jorra threw a stone at his door in Y.H. 810; Berr had the stone swept up and does not mention it.
 
-**Garl Vail** — dead friend and rival. Berr let the Vail house carry a debt rather than call it in, and has spent a year being unable to decide whether this was mercy or the simplest way to keep a witness quiet.
+**Garl Vail** — dead friend and rival. Berr let the Vail house carry a debt rather than call it in, and has spent a year being unable to decide whether this was mercy or the simplest way to keep a witness quiet. *Ch 3:* the debt against the firing of tiles went spoken around at the Cross, a space in a sentence shaped like the hollow seat up the yard; his care not to call it was another kindness entered nowhere.
 
-**Alda Reed** — he pays her to keep the birth-slates and has never asked about the second notes. He has concluded that she must be paid enough not to keep them, which is an expensive conclusion and a wrong one.
+**Alda Reed** — he pays her to keep the birth-slates and has never asked about the second notes. He has concluded that she must be paid enough not to keep them, which is an expensive conclusion and a wrong one. *Ch 3:* she kept the birth-slates in a row at the edge of the market, turning the writing down when a mother came near; he did not see the crossed sign she made at the boy's wrist or the date she covered it with, which is the whole point of paying someone to keep a record.
 
 **Dessa Silt** — he took one in three from her wages and told her one in twelve. She spat at his door and denied it; he had the spittle cleaned before the market opened and never said who did it.
 
-**Corin** — he watches the boy with a kiln-master's eye and has decided he is worth more than he costs, which is exactly how the Court will one day see him. This is not cruelty in Berr's account. It is an investment.
+**Corin** — he watches the boy with a kiln-master's eye and has decided he is worth more than he costs, which is exactly how the Court will one day see him. This is not cruelty in Berr's account. It is an investment. *Ch 3:* the boy lay in a basket at the edge of his square all morning and he never once looked into it. The figure was read over the top of him twice; the district went back to the pigs. He has entered this nowhere, including in his own mind.
 
 ## Arc So Far
 
-No chapters are written yet. He enters at an Account-day moot, wiping his thumb on his apron before he touches the slate, and says one in twelve in a voice that makes the shouting stop.
+He enters at the Account-day moot of Stone 10, Y.H. 812, wiping his thumb on his apron before touching the slate, and says *one in twelve, as the notice says* in a low voice that makes the shouting stop because the crowd has to lean in. He never says *I*; he says the district, the account and the notice, and apologises in the form of an instruction. He sets the slate down twice and twice it answers flat, and he does not hear what the boy hears. Later, at the Slate Row end of the Cross, he confirms Sella's widow's mark as a kindness that is entered, leaves Garl's debt against the tiles uncalled, and goes back to the moot with the red cord folded square. The locked box in his house has not been shown or named. He has been on the page for one chapter and is already the local face of the Court: reasonable, clean-handed, with a good reason for every cruelty and no idea that he has given any.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 3 (Account-day, Stone 10, Y.H. 812, at the Cross).
+- Ch 3: Day 4, Account-day. At the Cross, before two hundred people and eight pigs, wiped his thumb on his apron before touching the clean slate and read *one in twelve, as the notice says* in the voice that stops the roar; added that a household which has heard otherwise has heard wrong, that the account stands as read, and that there will be a slate at the watch for any household that wants the figure again. Read it a second time in the afternoon for the households that came late. Set the slate down twice; both times it gave its small flat answer, unremarked. Wore the red wool cord of his office folded square and tasted his own glaze without appearing to. At the Slate Row end confirmed Sella's widow's mark as a kindness entered by the factor at Greybank, spoke around the uncalled debt against the firing of tiles, did not ask to see the mark, and left the debt as he found it. Did not look into the basket and never addressed the boy.
 
 ## Secrets (private)
 

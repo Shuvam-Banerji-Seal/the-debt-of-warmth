@@ -114,7 +114,7 @@
 
 **The Five (Five Cold Days).** The five days outside the months at the year's end: Kindling, Weighing, the Long Night, the Remembering and the Last Day.
 
-**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it.
+**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 10, Y.H. 812 he has heard it from a cup, a pot and the district's own reading slate, and nobody has tapped any of them for him.
 
 **The full note.** The full sound a sound vessel gives under the knuckle; a cracked vessel answers flat. The first tool of the clinical ear.
 
@@ -227,6 +227,8 @@
 **The Nine Who Kept.** The temple's figures who came after the First Breaking, drove the first repairs and left the rite of the Return behind.
 
 **O**
+
+**One in twelve.** The figure printed on the Weighing notices and read aloud at Account-day: one part in twelve of a household's measure is kept back for the Hearth. It is spoken as *one in twelve, as the notice says*, in a voice that makes a market lean in. What Low Kiln actually gives is another matter; see **Deduction**.
 
 **Opened.** The rank of a vessel that has cut a way and can move Warm deliberately within the self.
 
@@ -390,4 +392,4 @@
 
 **Whole return.** A return in which one person's warmth is kept intact and the person comes back as themselves, with memory.
 
-**Widow's mark.** The Grathic institution by which a widow holds a kiln in her own right; the only Grathic institution nobody argues with.
+**Widow's mark.** The Grathic institution by which a widow holds a kiln in her own right; the only Grathic institution nobody argues with. A thumb-length of lead-glazed clay with the kiln scratched into it, worn at the throat and touched only before the kiln is opened. The Court's factor at Greybank confirms the mark; the confirmation is spoken of as a kindness, and kindness is entered.

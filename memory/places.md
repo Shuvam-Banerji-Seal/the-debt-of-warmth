@@ -167,12 +167,12 @@ The room where the glaze is mixed and tasted by the glaze-mixers of House Clay; 
 
 ### The Cross
 **Kind:** market square. **Region:** Sill.
-The meeting of the Clay Road and the river road, where the moot shouts, the slate is read and the pigs are weighed on market-day.
+The meeting of the Clay Road and the river road, where the moot shouts, the slate is read and the pigs are weighed on market-day. On Account-day two hundred people lean in to hear the figure while eight pigs are driven over the wet boards; the reading is given twice, once for the moot and once for the households that came late. A bell strikes through the morning and afternoon, longer than a church bell, and nobody crosses himself at it; the boy counts its strokes four, four and a gap. The square has four ways out --- the road down to the south bridge and Slate Row, the steep street up to High Kiln, the north bridge, and the road toward the Bone Orchard --- and a Court table set at its Slate Row fringe where business is done in the open air. People bring figures to a heap of turnips and leave them standing side by side without making them agree.
 **Relations:** Central Sill, between the two bridges; Slate Row lies a quarter league east; the Fishstairs below the north bridge; Low Kiln across the river to the south.
 
 ### Slate Row
 **Kind:** Court quarter. **Region:** Sill.
-A narrow street holding the Court's room, the assessor's house, the collector's table and the Waiting Room.
+A narrow street holding the Court's room, the assessor's house, the collector's table and the Waiting Room. On market-days the Court also sets a table at the fringe of the Cross, where a clerk touches the top slate before he looks at the woman waiting and says *it's entered as it stands*; from that end of the square Slate Row is spoken of as a direction, not a place anybody means to go that day.
 **Relations:** A quarter league east of the Cross; Low Kiln is across the river, south-west.
 
 ### The Waiting Room
@@ -187,7 +187,7 @@ The steps below the north bridge where eels are sold at dawn and rumours at noon
 
 ### The Bone Orchard
 **Kind:** burial ground. **Region:** Grath, outside Sill's north gate.
-The ground of pots broken for the dead and of the shallow graves of thin-return children.
+The ground of pots broken for the dead and of the shallow graves of thin-return children. On market-days a barrow of grey Ash goes out through the north gate toward it, heaped a little above the sides where the load has shifted, and nobody in the square looks at it twice; it is the afternoon's work, the same work that goes out every market-day. The boy puts the grey in the barrow with the ridge under the Vail skirting board and the charred slate in the kiln ash, and nobody explains any of the three.
 **Relations:** 1 league north of the Cross by the north gate road; Cold Acre is another league beyond it on the ridge.
 
 ### The Clay Yard
@@ -247,6 +247,16 @@ A room above the Fishstairs in which an old man keeps a drawer with a small lock
 **Kind:** hall, court and place of the Return. **Region:** Slate Row, Sill.
 The room where the slate is read aloud on market-day and the district's measure is spoken for; in the Keeping, bank and church are one room.
 **Relations:** In Slate Row, a quarter league east of the Cross.
+
+### The Court's table at the Cross
+**Kind:** table, open-air place of business. **Region:** the Cross, Sill.
+A table at the Slate Row fringe of the market where the Court's business is done in the open air before it is carried into Slate Row. The clerk who keeps it has a cuff gone soft from washing and ink in the creases of two fingers; he lays his hand on the top slate before he looks at the woman waiting, then says *it's entered as it stands. There's nothing in it the household need correct.* The upper line of that slate is in a strange neat hand, with a small stop between two clusters that the boy has seen twice before and cannot read. The table is distinct from the collector's table in Slate Row, where the measure is actually drawn.
+**Relations:** At the Slate Row end of the Cross; Slate Row lies a quarter league east.
+
+### The moot-post
+**Kind:** post, notice-board. **Region:** the Cross, Sill.
+The post by the block where the slate is read, with a nail in it from which the printed notice hangs --- a square of paper gone soft at one corner, with a row of marks the wind turns over and back. Sella sets the basket down beside it in the late morning, in the post's finger's width of shade, the only shade at that end of the square, and the boy lies with his cheek to its cold iron.
+**Relations:** At the Cross, beside the reading block.
 
 ### The assessor's house
 **Kind:** house. **Region:** Slate Row, Sill.
