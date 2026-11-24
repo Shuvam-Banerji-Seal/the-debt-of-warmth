@@ -1,0 +1,83 @@
+{
+  "number": 4,
+  "title": "The Hearth Drawing",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "At the Cross a figure is read and the market goes home. In the room with the iron tube the same figure is taken, and nobody goes home.",
+    "attribution": "A hearth-maid's proverb, Low Kiln"
+  },
+  "days": {"start": 5, "end": 6},
+  "when": "Days 5–6 · Stone 11–12, Y.H. 812",
+  "where": "The Vail kiln-house, Low Kiln",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a five-day-old body carried and listened through; the Chicago rewarming memory tightens into present tense for a beat or two, with no remembered voice tagged this chapter",
+  "mode": "normal",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "garl-vail",
+    "dessa-silt"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "House Silt",
+    "House Reed",
+    "the Slip Brook",
+    "the Ilm",
+    "the Cross",
+    "Greybank",
+    "Chicago",
+    "Cook County Hospital"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Coals Under Ash",
+      "day": 5,
+      "flashback": false,
+      "synopsis": "First light of Stone 11 in the Vail kiln-house. Sella Vail touches the widow's mark before she opens the kiln and at no other time; the coals have held under their ash all night. The boy is five days old and still cannot keep a blanket on his chin; a folded wool scrap is put right without a look. Tarn sweeps, pockets the small bench knife and puts it back where it can be checked, and stops his broom for two strokes at the flat note of a pot set down in the wheel-shed --- the second ear in the house, witnessed only by the reader (T076). Jorra at the wheel speaks to the pots and not to the boy, with slip dried to old bone on his forearms. The household's arithmetic is performed again: a bed under the roof for the foundling, the loft for the debt, and nobody calls it triage. Changes: the boy hears the same flat note from a Vail pot that he heard from a cup and the district's slate, and still has no hand to lift toward it; the house that paid twice goes on keeping him without an entry. Advances T061, T076, T071/T072, T009, T060, T058/T079, T065, T077.",
+      "target_words": 2700
+    },
+    {
+      "n": 2,
+      "title": "Dates Where Comfort Was Asked For",
+      "day": 5,
+      "flashback": false,
+      "synopsis": "Later on Stone 11. Alda Reed comes under the Vail roof to look at the child she delivered; a neighbour's child, three days out of a thin return, is carried in worse. Alda touches the tin once inside her bodice, gives exact dates where the mother asks for comfort, and writes something on her own slate that she turns writing-down before she leaves it anywhere. She calls it the second chill and tells the mother a graft is settling; the boy knows the afterdrop from rewarming patients in a trauma bay and is corrected by every woman in the room. He says nothing. His hand goes to the place where a pocket should have been and finds wool. Changes: a woman paid by the Court gives a kind, wrong answer, and the boy recognises the shape of a chart signed without reading the note --- without naming it. Advances T012 (seed: the second chill with two causes, the second withheld), T023, T007, T004/T044, T060. Foreshadowing planted: the midwife's word is in the room; the Court's struck-from-the-record name is not. The tin is not opened and the second note is not read.",
+      "target_words": 2500
+    },
+    {
+      "n": 3,
+      "title": "The Cold Iron Tube",
+      "day": 6,
+      "flashback": false,
+      "synopsis": "Stone 12, the Hearth Drawing. Sella carries the boy in the basket to a neighbour's house and sets him where he can see the work without being part of it. The collection is witnessed from the basket, not from inside the room's private account: a cold iron tube against a way; a collector's exact, unhurried fingers; a soft passive voice that says the measure is banked and the account stands. The dying vessel gives with a small flat knock --- the fifth hearing of that sound and the first from a person, after a cup, a Vail pot and the district's slate twice. Dan knows it as the sound a body makes when it gives, and cannot reach the tube, read the slate, or speak. The collector has a reason and is not a monster; he speaks once in the Court's grammar and remains a walk-on, neither Marra nor the clerk from the Cross. Changes: the figure read aloud at the Cross on Stone 10 becomes a measure taken out of a man; the year's first account is entered where nobody addresses the boy. Advances T061, T077, T009, T015, T075. Withheld: no explanation of the Return, no Grathic word for the flat sound, no joining of the three pauses, no name for the collector.",
+      "target_words": 3100
+    },
+    {
+      "n": 4,
+      "title": "Worse on the Third Day",
+      "day": 6,
+      "flashback": false,
+      "synopsis": "Still Stone 12, later in the same neighbour's house. The rekindled child Alda was called to on Stone 11 is worse on the third day of its return. The midwives fill the room and explain the second chill as a graft settling; Alda touches the tin once more and writes a second note she does not leave lying about. Dan reads the worsening as the afterdrop he knew in Chicago, knows the cold patient who cannot clot and the grimace that resembles a smile, and is corrected by every woman in the room. He says nothing, and reaches for a pocket that holds no phone and a name he will not look at. Close on the death-house's Ash ridge along the skirting board, thicker by a finger's width than the Vail ridge, turning the corner without a break: the year's first measure has been taken from the dying and the newly born on the same day. Changes: the boy's clinical register is proved useless and unwelcome --- the only adult in the room and him with the hands of a child. Advances T012, T023, T004/T044, T013, T007. Withheld: no second cause stated, no Court term in narration, no diagnosis.",
+      "target_words": 2800
+    },
+    {
+      "n": 5,
+      "title": "The Ridge Turns the Corner",
+      "day": 6,
+      "flashback": false,
+      "synopsis": "Dusk of Stone 12, back at the Vail kiln-house. Sella banks the coals without a word about where they went or what was taken; the boy is lifted out of the basket and the fold put right without a look. Tarn sweeps the yard a second time, puts the small knife back where it can be checked, and says nothing about the pot's note; Jorra comes in from the back room with slate dust on his forearms and answers no question about where he has been. Dessa Silt is a figure at her own threshold three doors down, cough called weather, thumb on the pale scar, the nineteen steps counted because counting keeps something larger out of the room; she does not look into the basket and does not know her son is in it. The boy puts the death-house ridge with the Vail ridge and the charred edge of the slate in the kiln ash, and keeps the count four, four and a gap. Changes: the account read aloud at the Cross has become an account taken from a person, and the house goes on keeping its fire without entering it; the year's first measure is taken and nobody in the yard says what it was. Advances T013, T009, T031, T035, T036, T058, T008/T073, T071/T072, T060, T077. Forward, not closed.",
+      "target_words": 2400
+    }
+  ]
+}
