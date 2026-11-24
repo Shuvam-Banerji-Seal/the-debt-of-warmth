@@ -1,0 +1,107 @@
+{
+  "number": 9,
+  "title": "The River Under the Ice",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "The ice goes soft from underneath and nobody says the word for it. A woman coughs into her hand and tells the yard it is weather. The river takes what was left in the corner, and the count goes on as though nothing had been taken.",
+    "attribution": "A saying of the Low Kiln yards, Sill"
+  },
+  "days": {"start": 31, "end": 37},
+  "when": "Days 31–37 · Ilmen 2–8, Y.H. 813",
+  "where": "The Clay Yard, Low Kiln, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a thirty-one-to-thirty-seven-day-old body carried everywhere; no present-tense Chicago break this chapter, the old life surfacing once in past tense as the shape of an unsent sentence; no departure from his eyes",
+  "mode": "passage",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "dessa-silt",
+    "berr-clay",
+    "garl-vail"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "the back room",
+    "the drying racks",
+    "House Silt",
+    "House Reed",
+    "the yard well",
+    "the Slip Brook",
+    "the Ilm",
+    "the Singing Sill",
+    "the Cross",
+    "Slate Row",
+    "the Bone Orchard",
+    "Nine Pots",
+    "Greybank"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Water Tastes Different",
+      "day": 31,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 31, Ilmen 2, Y.H. 813, Secondday, dawn at the yard well. A woman lets the bucket down and says the water tastes different; a man come up from the Ilm says the ice is honeyed under the mud, and nobody says the word for the thaw. The oiled paper no longer lifts quite so hard. Mira Silt comes up from the eels and touches a cord when a number is spoken, answering a question with a question and her own answer; the second cord twists twice beneath it and neither is counted. The boy is thirty-one days old and a month old tomorrow, carried in the basket with the fold at his chin, and his hand outside the wool goes up an inch toward the bucket and comes down. Changes: the thaw begins in small things and the district gives it another name. Advances T085, T083, T077, T025, T059, T071/T072, T060, T088. Withheld: no explanation of the ice, no Breaking, no count of the knots, no sixth hearing.",
+      "target_words": 2400
+    },
+    {
+      "n": 2,
+      "title": "One Year of Seven",
+      "day": 32,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 32, Ilmen 3, Thirdday, under the Vail roof and in the yard. The boy is a month old and still carried everywhere. Tarn has one year of the seven left and will not count it; he agrees with everything so thoroughly that there is nowhere for an argument to go, sets the small knife on its sill and announces it to the empty yard. The boy's hand outside the fold goes up an inch toward the broom and comes down. Sella feeds him from the house's own dish, says the house where another woman would say I, and gives the instruction to the fire and the wool. Garl is coat, hollow seat, ridge burned to a clean dark line and a proverb said to the pot. Changes: the last year of a debt becomes a thing counted around rather than spoken; two silences under one roof keep their equality. Advances T036, T076, T060, T044, T009, T013, T065, T086, T071/T072. Withheld: no seventh year counted, no naming of the boy's ear, no explanation.",
+      "target_words": 2300
+    },
+    {
+      "n": 3,
+      "title": "The Back Room",
+      "day": 33,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 33, Ilmen 4, Fourthday, the Vail wheel-shed and the drying racks. Jorra comes in from the back room with fine grey slate dust worked into the creases past the bend of his little finger and says nothing about where he has been; the men whose names are not spoken are not named. Under the drying rack the space where whole slate should have stood is planted toward the broken birth-slates without being called by that name. Tarn's ear is not spoken of; Sella moves the damper and does not ask. Jorra knows the full note of a Vail pot before it leaves the wheel and would not say so before a kiln-master. Changes: a second hidden record of the house acquires a physical place; the boy keeps dusty forearms and clean ones on separate trays. Advances T035, T031, T076, T036, T013, T061, T071/T072, T058. Withheld: no men named, no slates shown, no back room entered, no explanation of the dust.",
+      "target_words": 2500
+    },
+    {
+      "n": 4,
+      "title": "Dates Where Wonder Should Stand",
+      "day": 34,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 34, Ilmen 5, Fifthday, mid-morning under the Vail roof. Alda Reed comes smelling of soap and warm milk, lays the birth-slates writing-down on the bench before she turns to the fold, touches the tin once inside her bodice without opening it and writes what she turns down; a fourth hidden note goes with the others under a floorboard in a house the boy cannot name, still unread. Where a name should stand she gives an exact date, then dates come faster than the question needs them; she crosses two fingers at the red edge of the birth-flower without knowing it and covers the sign with the same unasked-for date. Changes: the private record grows another page and a kind woman's exactness goes on covering what she will not say. Advances T023, T007/T008, T073, T001, T060, T082, T071/T072, T058. Withheld: no tin opened, no note read, no floorboard shown, no name said.",
+      "target_words": 2400
+    },
+    {
+      "n": 5,
+      "title": "Nearly Full",
+      "day": 35,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 35, Ilmen 6, Sixthday, in the Clay Yard among the drying racks. A pot in the yard answers nearly full under nobody's knuckle and the boy hears the difference between nearly and full --- a note that is neither the flat answer of the five hearings nor the silence of the turned pots. It is the first earthly answer to the interval filed on Stone 13; T082 is advanced, not paid, and the count of flat hearings stays five from four sources. No power used, no rank change, no hand to tap it. Tarn's head goes a degree toward the pot and he says nothing; the two silences under one roof keep their shape. Sella touches the widow's mark before the opening and at no other hour. Changes: an interval acquires a sound that is almost an answer, and the boy learns that almost is its own kind of note. Advances T082, T061, T076, T071/T072, T079, T036, T065, T060. Withheld: no sixth flat hearing, no third thing, no word in Grathic for nearly, no tap, no experiment.",
+      "target_words": 2600
+    },
+    {
+      "n": 6,
+      "title": "The Hairline in the Ice",
+      "day": 36,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 36, Ilmen 7, Seventhday, at the yard well and the edge of the Ilm. The ice shows a hairline crack, carried into the thaw from the shard with the dark hair that stopped short of the edge. Berr Clay comes back from looking at it with a number he does not care to give, wipes his thumb twice before he touches nothing, and goes off with the box still locked; the number goes around as a shape and is never spoken. The Singing Sill gives its low note and the yard calls it weather; those who want the thaw late because the levy falls in it contradict those who want it early. The boy sets the hairline beside the missing step and the told bell and keeps them apart. Changes: the river's crack becomes common knowledge that nobody will put into words, and the district's number-withholding becomes a habit rather than a mystery. Advances T085, T083, T077, T041, T047, T078, T015, T071/T072, T065. Withheld: no Breaking, no figure given, no box opened, no cause written.",
+      "target_words": 2400
+    },
+    {
+      "n": 7,
+      "title": "Nineteen Steps into the Thumb",
+      "day": 37,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 37, Ilmen 8, Eighthday, at House Silt three doors down and the Slip Brook. Dessa Silt's cough is worse and is still weather. Her thumb goes to the sieve-wire scar, the nineteen steps go into the thumb, the door-shut smile comes down, and the boy cannot name what he sees in her face --- a vessel going thin that the district has entered nowhere. She does not look into the basket and does not say the number or the name. The brook runs clay-heavy behind the racks, a little higher than it should be. For one beat, in past tense and untagged, the shape of her hand on the basket handle reaches toward an unsent sentence with a name he does not look at; nothing crosses back. The sixth hearing and the paying of T087 belong to tomorrow and are held. Changes: the woman who believes him dead is visibly failing and the boy cannot act, refuse or speak. Advances T008, T073, T060, T044, T004, T082, T071/T072, T085, T086, T087 (held toward Day 38). Withheld: no death, no sixth hearing, no name said, no recognition, no quest, no explanation.",
+      "target_words": 2500
+    }
+  ]
+}
