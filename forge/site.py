@@ -65,6 +65,77 @@ def _img(src: Path | None, dest: Path, fmt: str, max_px: int) -> str | None:
         return None
 
 
+SVG_PRE = r"""\documentclass[border=3pt]{standalone}
+\usepackage{fontspec,xcolor,tikz,pgfornament}
+\usetikzlibrary{calc,shapes,shapes.geometric,shapes.symbols,decorations.pathmorphing,decorations.pathreplacing,
+  decorations.markings,decorations.text,patterns,fadings,shadows,arrows.meta,positioning,intersections,backgrounds}
+\setmainfont{EBGaramond}[Path=fonts/,Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic]
+\newfontfamily\CinzelFont{Cinzel}[Path=fonts/,Extension=.ttf,UprightFont=*-Regular,BoldFont=*-Bold]
+\newfontfamily\CinzelDeco{CinzelDecorative}[Path=fonts/,Extension=.ttf,UprightFont=*-Regular,BoldFont=*-Bold]
+\newfontfamily\FellFont{IMFeEN}[Path=fonts/,Extension=.otf,UprightFont=*rm28P,ItalicFont=*it28P]
+\newfontfamily\FellSC{IMFeENsc28P}[Path=fonts/,Extension=.otf]
+\definecolor{ink}{HTML}{2B1B0E}\definecolor{rubric}{HTML}{7E1F14}\definecolor{gold}{HTML}{9A7432}
+\definecolor{faded}{HTML}{6E5B42}\definecolor{blood}{HTML}{5C0B0B}\definecolor{moss}{HTML}{4A5A2E}
+\definecolor{night}{HTML}{1F2A3A}\definecolor{ash}{HTML}{8C857B}\definecolor{vellum}{HTML}{EFE2C4}
+\colorlet{ornament}{gold!85!ink}
+\definecolor{goldhi}{HTML}{F3DC93}\definecolor{golddk}{HTML}{8A6A28}\definecolor{tooling}{HTML}{1E0905}
+\begin{document}
+"""
+
+ORNAMENTS = {  # name: (pgfornament number, width cm, symmetry)
+    "corner": (61, 3, ""), "corner-grand": (63, 3.5, ""), "rule": (88, 9, ""), "rule-medallion": (84, 9, ""),
+    "headpiece": (69, 8, ""), "vignette": (65, 5, ""), "fleuron": (11, 2.2, ""), "tailpiece": (72, 5, ""),
+    "flourish": (75, 6, ""), "headband": (46, 7, ""),
+}
+
+
+def tex_svg(body: str, dest: Path, deps: list[Path] = ()) -> str | None:
+    """Typeset a TikZ/ornament snippet and convert it to SVG (cached by mtime)."""
+    newest = max([p.stat().st_mtime for p in deps if p.exists()] + [Path(__file__).stat().st_mtime])
+    if dest.exists() and dest.stat().st_mtime >= newest:
+        return dest.relative_to(SITE).as_posix()
+    work = build.BUILD / "svgwork" / dest.stem
+    shutil.rmtree(work, ignore_errors=True)
+    work.mkdir(parents=True)
+    tex = work / "s.tex"
+    tex.write_text(SVG_PRE + body + "\n\\end{document}\n", encoding="utf-8")
+    r = subprocess.run(["lualatex", "-interaction=nonstopmode", "-halt-on-error", f"-output-directory={work}",
+                        str(tex.relative_to(ROOT))], cwd=ROOT, capture_output=True, text=True, timeout=300)
+    pdf = work / "s.pdf"
+    if r.returncode != 0 or not pdf.exists():
+        return None
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(["pdftocairo", "-svg", str(pdf), str(dest)], capture_output=True, timeout=120)
+    return dest.relative_to(SITE).as_posix() if dest.exists() else None
+
+
+def design_assets() -> dict:
+    out = {"ornaments": {}, "ornament_masks": {}, "emblem": None}
+    for name, (num, w, sym) in ORNAMENTS.items():
+        so = f",symmetry={sym}" if sym else ""
+        p = tex_svg(f"\\pgfornament[width={w}cm,color=ornament{so}]{{{num}}}", SITE / "images" / "ornaments" / f"{name}.svg")
+        m = tex_svg(f"\\pgfornament[width={w}cm,color=black{so}]{{{num}}}", SITE / "images" / "ornaments" / "mask" / f"{name}.svg")
+        if p:
+            out["ornaments"][name] = p
+        if m:
+            out["ornament_masks"][name] = m
+    em = ROOT / "design" / "cover" / "emblem.tex"
+    if em.exists():
+        out["emblem"] = tex_svg(
+            "\\begin{tikzpicture}[x=1in,y=1in]\n\\fill[tooling] (0,0) circle (1.27);\n"
+            "\\draw[gold,line width=1.2pt] (0,0) circle (1.22);\\draw[golddk,line width=0.5pt] (0,0) circle (1.12);\n"
+            "\\foreach \\a in {0,7.5,...,352.5}{\\draw[gold,line width=0.45pt] (\\a:1.16) -- (\\a:1.22);}\n"
+            "\\input{design/cover/emblem.tex}\n\\end{tikzpicture}", SITE / "images" / "emblem.svg", [em])
+    return out
+
+
+def headpiece(n: int) -> str | None:
+    deco = build.chdir(n) / "decoration.tex"
+    if not deco.exists():
+        return None
+    return tex_svg(f"\\input{{{deco.relative_to(ROOT).as_posix()}}}", SITE / "images" / "headpieces" / f"ch-{n:04d}.svg", [deco])
+
+
 def export() -> dict:
     meta = build.book_meta()
     slug = repo_slug()
@@ -86,6 +157,7 @@ def export() -> dict:
         "cover": None, "frontispiece": None, "arcs": [], "chapters": [], "characters": [], "maps": [],
         "codex": [], "lore": [],
     }
+    book.update(design_assets())
     cover_pdf = build.BUILD / "cover" / "cover.pdf"
     if cover_pdf.exists():
         (SITE / "images").mkdir(parents=True, exist_ok=True)
@@ -139,7 +211,7 @@ def export() -> dict:
             "when": m.get("when", ""), "where": m.get("where", ""),
             "day_start": dd.get("start"), "day_end": dd.get("end"),
             "days": [{"id": did, "label": lab} for did, lab in days],
-            "words": wc, "plate": plate, "caption": build.plate_caption(n),
+            "words": wc, "plate": plate, "caption": build.plate_caption(n), "headpiece": headpiece(n),
             "html": f"data/chapters/ch-{n:04d}.html",
             "pdf": f"{gh}/releases/download/volume-{build.volume_of(n):03d}/{title_slug}-Chapter-{n:04d}.pdf" if gh else "",
         })
