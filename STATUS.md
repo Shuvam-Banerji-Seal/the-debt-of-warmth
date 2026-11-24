@@ -2,7 +2,7 @@
 
 - Chapters complete: **3**
 - Words of story: **40,523**
-- Current chapter: 3 (step: publish, scene 6)
+- Current chapter: 4 (step: plan, scene 1)
 - Last chapter: One in Twelve (Day 4 · Stone 10, Y.H. 812, a Tenthday · Account-day and the last market before the Five)
 - Author calls so far: 47 (tokens in 4,696,527, out 1,185,671)
 - Updated: 2026-11-24 19:29
