@@ -2,9 +2,10 @@
 
 *A surgeon's account of Sarn.* A reincarnation isekai written chapter by chapter, without end, by the free model **`hy4-flash-free`** (OpenCode Go), and typeset as decorated LaTeX books. Daniel Marchetti, a Chicago trauma surgeon, dies saving a child from a burning car in a blizzard and wakes as an infant in Sarn. There, magic is a world energy called the Warm, every being is a vessel that holds it, and the dead are collected, taxed and poured back into newborns by an institution that keeps the world alive. He studies it the only way he knows: as a surgeon.
 
-- **The author** (`hy4-flash-free` via `opencode run`) invents and writes everything in the story: the world bible, past life, cast and character sheets, arcs and twists, every scene, the chapter-end chronicles, the HTML/CSS/JS maps, the SVG portraits and the TikZ headpiece above each chapter.
-- **The press** (`forge/`, built by Claude) writes no story. It hands the author one task at a time, validates and repairs the results, protects finished chapters, typesets the volumes, commits, pushes and publishes the PDFs, and resumes after any crash.
-- **The design** (`design/`, by Claude) covers the 6×9in book class with parchment texture, gilt borders, chapter openers, drop capitals, chronicle boxes, character sheets, the atlas, three indices (persons, places, lore) and the leather-and-gold cover.
+## Who made what
+- **The author: `hy4-flash-free`** (OpenCode Go, free tier) writes **every word of the story**. It also invents the world, its history, magic and peoples, the past life and the whole cast with their character sheets, and plans the arcs, threads and twists. It draws the hand-made HTML/JS maps and the cameo portrait plates, writes the Codex of in-world documents, designs the TikZ headpiece above each chapter, and built the **website** and its online e-reader.
+- **The orchestrator: Claude** (Anthropic) **writes no word of the story.** It built the press (`forge/`), which hands the author one task at a time, checks and repairs the results, guarantees that every day of the hero's life is on the page, and typesets, commits and publishes. It also designed the book (`design/`: parchment, gilt borders, chapter openers, indices, the leather-and-gold cover), the EPUB builder and the site's data export, and **wrote the prompts for the illustrations**. It steers only through instructions and validation.
+- **The illustrations: OpenAI GPT Image** (`gpt-image-2.5-sunburst`) painted the light-novel **character pictures** (full-figure character sketches with transparent backgrounds), the colour plate before each chapter, and the frontispiece. Every prompt was written by Claude from the author's own canon: appearance notes, scars, clothing, and what happens in each chapter. The prompts are in `art/prompts/` and the costs in `art/ledger.jsonl`. Character art is used as reference images for the scene plates, so faces stay consistent.
 
 > **Content note.** This is dark fiction for adult readers. It may contain violence, gore, slavery, cruelty and other darkness of its invented world.
 
@@ -16,12 +17,13 @@
 | **Each chapter as its own PDF** | the `volume-NNN` releases (for example `volume-001` holds chapters 1–20) |
 | The rolling complete book, the volume in progress and the cover | the `latest` release |
 | Completed volumes (20 chapters each) | `pdf/vol-NNN.pdf` |
+| **The website**: an online e-reader with EPUB and PDF downloads | GitHub Pages (`gh-pages` branch), rebuilt after every chapter |
 | Progress | `STATUS.md` |
 
 The root files are committed on every build while they are under 10 MB, then every (size in MB ÷ 5) chapters. GitHub refuses files over 100 MB, so beyond that the whole book continues in the `latest` release.
 
-## Illustrations
-The light-novel colour plates and character art in `art/` are painted by OpenAI's `gpt-image-2.5-sunburst`. **Claude writes every prompt by hand** from the author's canon (appearance notes, chapter chronicles); the prompts are kept in `art/prompts/` and costs in `art/ledger.jsonl`. Character art is generated first and then passed as reference images to the scene plates, so faces stay consistent. Run `python3 forge/illustrate.py` (it needs `OPENAI_API_KEY` in a git-ignored `.env`). The author model can neither read the key nor edit `art/`.
+## Making illustrations
+Run `python3 forge/illustrate.py`. It reads the prompt specs in `art/prompts/` and needs `OPENAI_API_KEY` in a git-ignored `.env`, which is never committed. The author model can neither read the key nor edit `art/`.
 
 ## How the repository is laid out
 ```
@@ -72,3 +74,6 @@ python3 forge/build.py compendium
 python3 forge/make_textures.py          # regenerate parchment and leather
 ```
 This needs LuaLaTeX (TeX Live with pgfornament, tcolorbox, titlesec, imakeidx, lettrine, adjustbox and fmtcount), `rsvg-convert`, and Playwright's `chrome-headless-shell`. The fonts are bundled in `fonts/` under the SIL Open Font License.
+
+## License
+MIT (see `LICENSE`). The bundled fonts keep their SIL Open Font License.

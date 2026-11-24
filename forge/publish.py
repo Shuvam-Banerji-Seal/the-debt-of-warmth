@@ -179,6 +179,20 @@ def publish_once(volume: int | None, final: bool = False) -> None:
             shutil.copy2(src, tmp)
             tmp.replace(ready / name)  # the press moves it to the repository root
     chapter_pdfs()
+    try:
+        import importlib.util  # 'site' would collide with Python's own site module
+        _spec = importlib.util.spec_from_file_location("book_site", ROOT / "forge" / "site.py")
+        book_site = importlib.util.module_from_spec(_spec)
+        _spec.loader.exec_module(book_site)
+        if (ROOT / "website" / "index.html").exists():
+            book_site.assemble()
+            chs = build.completed_chapters()
+            if book_site.deploy(f"Site as of chapter {chs[-1] if chs else 0}"):
+                log("  website deployed to gh-pages")
+            else:
+                log("  website deploy FAILED")
+    except Exception as e:
+        log(f"  website FAILED: {type(e).__name__}: {e}")
     release(files)
     pages = ""
     try:
