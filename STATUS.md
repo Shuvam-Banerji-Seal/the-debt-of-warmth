@@ -2,7 +2,7 @@
 
 - Chapters complete: **8**
 - Words of story: **116,185**
-- Current chapter: 8 (step: publish, scene 7)
+- Current chapter: 9 (step: plan, scene 1)
 - Last chapter: The Five Cold Days (Days 25–30 · Kindling–Ilmen 1, Y.H. 812–813)
 - Author calls so far: 97 (tokens in 11,124,858, out 2,294,045)
 - Updated: 2026-11-24 22:53
