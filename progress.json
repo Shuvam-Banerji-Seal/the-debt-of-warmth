@@ -12,11 +12,13 @@
     "map-home",
     "portraits"
   ],
-  "chapter": 1,
-  "step": "publish",
-  "scene": 6,
+  "chapter": 2,
+  "step": "plan",
+  "scene": 1,
   "consolidated_through": 0,
-  "built": {},
+  "built": {
+    "1": 1
+  },
   "calls": 28,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",

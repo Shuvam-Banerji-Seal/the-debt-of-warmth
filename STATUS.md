@@ -2,7 +2,7 @@
 
 - Chapters complete: **1**
 - Words of story: **13,455**
-- Current chapter: 1 (step: publish, scene 6)
+- Current chapter: 2 (step: plan, scene 1)
 - Last chapter: The Stone Going Cold (Day 1 · Stone 7, Y.H. 812, a Seventhday · the Ilm under ice, three days before the Five Cold Days)
 - Author calls so far: 28 (tokens in 2,555,942, out 757,817)
 - Updated: 2026-11-24 18:16
