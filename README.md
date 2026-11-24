@@ -11,9 +11,12 @@ A serial reincarnation saga written chapter by chapter, without end, by the free
 ## Where to read it
 | What | Where |
 |---|---|
-| Volumes in progress and the Compendium (rolling) | the **`latest` release** of this repository |
-| Completed volumes | `pdf/vol-NNN.pdf` |
+| **The complete book** (every chapter so far, the cast with portraits, the atlas, the lore, the reckoning of days and three indices) | **`The-Brass-Seam.pdf` at the root of this repository**, rebuilt after every chapter |
+| The same, plus the volume in progress | the `latest` release |
+| Completed volumes (20 chapters each) | `pdf/vol-NNN.pdf` |
 | Progress | `STATUS.md` |
+
+The root PDF is committed on every build while it is small, then every (size in MB ÷ 2) chapters as it grows, which keeps the git history manageable. GitHub refuses single files over 100 MB, so once the whole book passes about 95 MB it continues in the `latest` release (which allows files up to 2 GB), while `pdf/` keeps the volumes.
 
 ## How the repository is laid out
 ```
@@ -34,7 +37,7 @@ forge/                    the orchestrator, build system, prompts
 2. **Scenes:** four to eight scene files of 2,200–4,500 words each. Each is sanitised, checked for length (and expanded if short), and proof-compiled; any LaTeX errors go back to the author to fix.
 3. **Close:** the reader-facing chronicle and private continuity notes, the state of the world, one timeline line per day, character sheets and logs, the threads ledger, glossary, gazetteer and next steps.
 4. **Decorate:** a TikZ headpiece designed for the chapter and proof-compiled.
-5. **Publish:** commit and push. Every 5 chapters the volume is rebuilt and uploaded to the release. Every 10 chapters the author consolidates memory, draws a new map and adds portraits.
+5. **Publish:** commit and push. A background publisher re-typesets the complete book (and the current volume) without pausing the writing, then places it at the repository root and in the release. Every 10 chapters the author consolidates memory, draws a new map and adds portraits.
 
 ## Running the press
 ```bash
@@ -53,6 +56,7 @@ python3 forge/build.py maps             # render atlas/*/map.html with headless 
 python3 forge/build.py portraits        # characters/*.svg to PDF
 python3 forge/build.py cover
 python3 forge/build.py volume 1         # build/vol-001/vol-001.pdf
+python3 forge/build.py complete         # build/complete/complete.pdf (the whole book)
 python3 forge/build.py compendium
 python3 forge/make_textures.py          # regenerate parchment and leather
 ```

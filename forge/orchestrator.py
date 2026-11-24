@@ -119,7 +119,7 @@ def save_state(s: dict) -> None:
 def restore_protected(allowed: set[str] | None = None, current_chapter: int | None = None) -> None:
     """Undo any edit the author made outside its remit."""
     allowed = allowed or set()
-    paths = list(PROTECTED)
+    paths = list(PROTECTED) + [p.name for p in ROOT.glob("*.pdf")]
     status = git("status", "--porcelain", "--untracked-files=all", "--", *paths, "book/chapters")
     for line in status.splitlines():
         code, path = line[:2], line[3:].strip().strip('"')
@@ -127,7 +127,7 @@ def restore_protected(allowed: set[str] | None = None, current_chapter: int | No
             path = path.split(" -> ", 1)[1]
         if path in allowed:
             continue
-        frozen = any(path == p or path.startswith(p + "/") for p in PROTECTED)
+        frozen = any(path == p or path.startswith(p + "/") for p in paths)
         m = re.match(r"book/chapters/ch-(\d{4})/(.+)$", path)
         if m and current_chapter is not None:
             n, fname = int(m.group(1)), m.group(2)
@@ -149,7 +149,41 @@ def restore_protected(allowed: set[str] | None = None, current_chapter: int | No
             log(f"  restored protected {path}")
 
 
+ROOT_PDF_MARK = FORGE / "root-pdf-chapter"
+
+
+def place_root_pdf() -> None:
+    """Move the publisher's newest complete-book PDF to the repository root.
+
+    Small books are updated on every build. As the PDF grows, it is committed
+    every (size in MB / 2) chapters so the git history stays manageable; GitHub
+    refuses files over 100 MB, so beyond ~95 MB only the release is updated.
+    """
+    ready = sorted((FORGE / "ready").glob("*.pdf")) if (FORGE / "ready").exists() else []
+    for pdf in ready:
+        size_mb = pdf.stat().st_size / 2 ** 20
+        done = len(build.completed_chapters())
+        try:
+            last = int(ROOT_PDF_MARK.read_text())
+        except (FileNotFoundError, ValueError):
+            last = -1
+        dest = ROOT / pdf.name
+        if size_mb > 95:
+            log(f"  complete book is {size_mb:.0f} MB, over GitHub's file limit: kept in the release only")
+            pdf.unlink()
+            continue
+        if size_mb < 5 or not dest.exists() or done - last >= max(1, int(size_mb / 2)):
+            for old in ROOT.glob("*.pdf"):
+                if old.name != pdf.name:
+                    old.unlink()  # the title changed; keep a single root PDF
+            pdf.replace(dest)
+            ROOT_PDF_MARK.write_text(str(done))
+        else:
+            pdf.unlink()  # a newer build will come; the release already has this one
+
+
 def commit(msg: str) -> None:
+    place_root_pdf()
     git("add", "-A")
     if git("status", "--porcelain").strip():
         git("commit", "-q", "-m", msg)
@@ -372,6 +406,7 @@ def genesis(state: dict) -> None:
         save_state(state)
         commit(f"genesis: {gid}")
         push()
+        trigger_publish()
     if not STOP:
         log("GENESIS complete")
 
@@ -602,52 +637,39 @@ def periodic(n: int, state: dict) -> None:
         commit(f"memory: consolidated through chapter {n}")
 
 
-def publish(n: int, state: dict, force=False) -> None:
-    v = build.volume_of(n)
-    vol_done = n % build.VOL_SIZE == 0
-    if not (force or vol_done or n % BUILD_EVERY == 0 or n <= 2):
+def trigger_publish(volume: int | None = None, final: bool = False) -> None:
+    """Ask the background publisher to typeset and ship the book (never blocks)."""
+    args = [sys.executable, str(ROOT / "forge" / "publish.py")]
+    if volume:
+        args += ["--volume", str(volume)]
+    if final:
+        args.append("--final")
+    with open(FORGE / "publish.out", "a") as out:
+        subprocess.Popen(args, cwd=ROOT, stdout=out, stderr=subprocess.STDOUT, start_new_session=True)
+
+
+def collect_final_volumes() -> None:
+    """Commit finished volume PDFs that the publisher has handed over."""
+    fin = FORGE / "final"
+    if not fin.exists():
         return
-    build.render_maps()
-    build.render_portraits()
-    log(f"BUILD volume {v}")
-    t0 = time.time()
-    ok, pdf, err = build.build_volume(v)
-    log(f"  volume {v}: {'ok' if ok else 'FAILED'} in {time.time() - t0:.0f}s {pdf if ok else err[:500]}")
-    assets = []
-    if ok and pdf:
-        assets.append(pdf)
-        if vol_done:
-            dest = ROOT / "pdf" / f"vol-{v:03d}.pdf"
-            dest.parent.mkdir(exist_ok=True)
+    for pdf in sorted(fin.glob("vol-*.pdf")):
+        dest = ROOT / "pdf" / pdf.name
+        dest.parent.mkdir(exist_ok=True)
+        if pdf.stat().st_size <= 95 * 1024 * 1024:
             shutil.copy2(pdf, dest)
-    if n % CONSOLIDATE_EVERY == 0 or force or n <= 2:
-        okc, cpdf, cerr = build.build_compendium()
-        log(f"  compendium: {'ok' if okc else 'FAILED ' + cerr[:300]}")
-        if okc:
-            assets.append(cpdf)
+            log(f"  committed finished {pdf.name} to pdf/")
+        pdf.unlink()
+    commit("pdf: finished volume")
+    push()
+
+
+def publish(n: int, state: dict) -> None:
+    v = build.volume_of(n)
+    collect_final_volumes()
+    trigger_publish(volume=v, final=(n % build.VOL_SIZE == 0))
     state.setdefault("built", {})[str(v)] = n
     save_state(state)
-    write_status(state)
-    commit(f"build: volume {v} through chapter {n}")
-    push()
-    release(assets)
-
-
-def release(assets: list[Path]) -> None:
-    if not assets or not git("remote").strip() or not shutil.which("gh"):
-        return
-    tag = "latest"
-    q = subprocess.run(["gh", "release", "view", tag], cwd=ROOT, capture_output=True, text=True)
-    if q.returncode != 0:
-        subprocess.run(["gh", "release", "create", tag, "--title", "The chronicle so far",
-                        "--notes", "Rolling build of the volumes in progress and the compendium. Updated automatically.",
-                        "--latest"], cwd=ROOT, capture_output=True, text=True)
-    p = subprocess.run(["gh", "release", "upload", tag, "--clobber", *map(str, assets)], cwd=ROOT,
-                       capture_output=True, text=True)
-    if p.returncode != 0:
-        log(f"  release upload failed: {p.stderr[:300]}")
-    else:
-        log(f"  released {', '.join(a.name for a in assets)}")
 
 
 def write_status(state: dict) -> None:
@@ -662,7 +684,9 @@ def write_status(state: dict) -> None:
              f"- Last chapter: {last.get('title', '-') if last else '-'} ({last.get('when', '') if last else ''})",
              f"- Author calls so far: {state['calls']}",
              f"- Updated: {datetime.now():%Y-%m-%d %H:%M}", "",
-             "Volume PDFs: see the `latest` release (rolling) and `pdf/` (completed volumes)."]
+             f"**The complete book PDF** is at the repository root: `{re.sub(r'[^A-Za-z0-9]+', '-', meta['title']).strip('-')}.pdf`",
+             "(every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also",
+             "attached to the `latest` release. Finished volumes are committed to `pdf/`."]
     (ROOT / "STATUS.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

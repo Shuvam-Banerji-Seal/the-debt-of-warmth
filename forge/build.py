@@ -8,6 +8,7 @@ author's HTML maps and SVG portraits, and builds the volume PDFs.
 CLI:
   python3 forge/build.py chapter N        # (re)generate chapter.tex + proof it
   python3 forge/build.py volume V         # build pdf for volume V
+  python3 forge/build.py complete         # the whole book as it stands
   python3 forge/build.py compendium       # characters + atlas + lore
   python3 forge/build.py maps             # render atlas/*/map.html
   python3 forge/build.py cover            # build the cover
@@ -499,6 +500,75 @@ def volume_master(v: int) -> Path | None:
     return out
 
 
+def _backmatter_all(chapters: list[int]) -> list[str]:
+    L = []
+    chars = characters()
+    if chars:
+        L += ["\\chapter*{Dramatis Personae}", "\\markboth{Dramatis Personae}{Dramatis Personae}",
+              "\\addcontentsline{toc}{chapter}{Dramatis Personae}"]
+        L += [character_tex(c) for c in chars]
+    maps = [t for t in (map_tex(d) for d in map_dirs()) if t]
+    if maps:
+        L += ["\\chapter*{The Atlas}", "\\markboth{The Atlas}{The Atlas}", "\\addcontentsline{toc}{chapter}{The Atlas}"]
+        L += maps
+    if chapters:
+        tl = timeline_tex(0, 10 ** 9)
+        if tl:
+            L += ["\\chapter*{The Reckoning of Days}", "\\markboth{The Reckoning of Days}{The Reckoning of Days}",
+                  "\\addcontentsline{toc}{chapter}{The Reckoning of Days}", tl]
+    for title, fname in LORE_FILES:
+        p = ROOT / "bible" / fname
+        if p.exists():
+            _, body = md2tex.parse_front_matter(p.read_text(encoding="utf-8", errors="replace"))
+            L += [f"\\chapter*{{{title}}}", f"\\markboth{{{title}}}{{{title}}}",
+                  f"\\addcontentsline{{toc}}{{chapter}}{{{title}}}", md2tex.blocks(body, r"\section*")]
+    return L
+
+
+def complete_master() -> Path:
+    """The whole book as it stands: every finished chapter plus all back matter."""
+    from datetime import date
+    meta = book_meta()
+    chs = completed_chapters()
+    today = date.today().strftime("%-d %B %Y")
+    line2 = (f"Chapters 1\u2013{chs[-1]} \u00b7 as set on {today}" if chs
+             else f"The world before the first chapter \u00b7 as set on {today}")
+    L = _front(meta, "The Complete Chronicle", line2)
+    L.append("\\mainmatter")
+    last_arc = None
+    for n in chs:
+        m = load_json(chdir(n) / "meta.json", {}) or {}
+        arc = m.get("arc") or {}
+        if isinstance(arc, dict) and (arc.get("title") or arc.get("number")):
+            key = (arc.get("number"), arc.get("title"))
+            if key != last_arc:
+                try:
+                    num = int(arc.get("number") or 1)
+                except (TypeError, ValueError):
+                    num = 1
+                L.append(f"\\CRarc{{{num}}}{{{esc(arc.get('title', ''))}}}{{{esc(arc.get('subtitle', ''))}}}")
+                last_arc = key
+        ch_tex = chdir(n) / "chapter.tex"
+        if not ch_tex.exists():
+            write_chapter_tex(n)
+        L.append(f"\\input{{{ch_tex.relative_to(ROOT).as_posix()}}}")
+    L.append("\\backmatter")
+    L += _backmatter_all(chs)
+    if chs:
+        L += _indices()
+    L.append("\\end{document}")
+    VOLUMES.mkdir(parents=True, exist_ok=True)
+    out = VOLUMES / "complete.tex"
+    out.write_text("\n".join(L) + "\n", encoding="utf-8")
+    return out
+
+
+def build_complete() -> tuple[bool, Path, str]:
+    tex = complete_master()
+    aux = BUILD / "complete" / "complete.aux"
+    return compile_master(tex, passes=2 if aux.exists() else 3)
+
+
 LORE_FILES = [("The World", "world.md"), ("Peoples and Tongues", "peoples.md"), ("The Reckoning of Time", "calendar.md"),
               ("Of Power and Its Price", "magic.md"), ("Bestiary", "bestiary.md"), ("Orders, Houses and Factions", "factions.md"),
               ("Glossary", "glossary.md")]
@@ -590,6 +660,9 @@ if __name__ == "__main__":
         print("ok" if ok else err)
     elif a[0] == "volume":
         ok, pdf, err = build_volume(int(a[1]))
+        print(pdf if ok else err)
+    elif a[0] == "complete":
+        ok, pdf, err = build_complete()
         print(pdf if ok else err)
     elif a[0] == "compendium":
         ok, pdf, err = build_compendium()
