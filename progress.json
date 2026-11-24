@@ -7,19 +7,20 @@
     "cast-2",
     "cast-3",
     "arcs",
-    "map-world"
+    "map-world",
+    "map-region"
   ],
   "chapter": 1,
   "step": "plan",
   "scene": 1,
   "consolidated_through": 0,
   "built": {},
-  "calls": 16,
+  "calls": 17,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 0,
-  "tokens_in": 1313416,
-  "tokens_out": 402500,
+  "tokens_in": 1403348,
+  "tokens_out": 428894,
   "restarts": [
     {
       "at": "2026-11-24",

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sill and the Lower Ilm — the country of the birth-town</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 46% 44%, rgba(255,249,228,.42), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', SEAWASH='#a9bfb2';
+  var GOLD='#a9833c', GREEN='#7c8a5e', MG='#5d6b46';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(245812);
+  function rr(a,b){return a+(b-a)*rnd();}
+
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  /* ---------- layers ---------- */
+  var defs=E('defs',{});
+  E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.52});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gRoad=E('g',{}),
+      gMark=E('g',{}), gLabel=E('g',{}), gFrame=E('g',{});
+
+  /* foxing and faint folds */
+  for(var fi=0;fi<24;fi++){
+    E('ellipse',{cx:rr(80,2320),cy:rr(80,1520),rx:rr(16,74),ry:rr(10,46),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gWash);
+  }
+  [560,1180,1800].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:60,y1:806,x2:2340,y2:806,stroke:'#7a5a30','stroke-width':1,opacity:0.06},gWash);
+
+  /* ---------- soft country washes ---------- */
+  function wash(pts,color,op){E('path',{d:D(jit(pts,6,28),true),fill:color,opacity:op},gWash);}
+  wash([[90,640],[700,596],[1320,632],[1900,690],[2320,752],[2320,1010],[1500,1104],[700,1056],[90,902]],'#d8bf90',0.16);
+  wash([[500,352],[920,324],[1360,378],[1310,562],[700,584],[470,520]],'#c9b99a',0.18);
+  wash([[1250,898],[1520,876],[1960,918],[2280,996],[2230,1250],[1500,1236],[1236,1120]],'#aebd9e',0.22);
+  wash([[84,418],[420,454],[528,700],[300,910],[84,890]],'#c2b79a',0.15);
+
+  /* ---------- terrain glyphs ---------- */
+  function tree(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M0 0 L0 -13',stroke:INK,'stroke-width':1.1},g);
+    E('path',{d:'M-6 -5 L0 -16 L6 -5 Z',fill:GREEN,stroke:INK,'stroke-width':0.9,opacity:0.8},g);
+    E('path',{d:'M-4 -10 L0 -18 L4 -10 Z',fill:'#6f7d53',stroke:INK,'stroke-width':0.8,opacity:0.75},g);
+  }
+  function tuft(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-5 2 q-2 -8 -6 -12 M0 2 L0 -14 M5 2 q2 -7 7 -11 M-2 2 q-1 -6 -3 -9',
+      fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.8},g);
+  }
+  function hill(x,y,s,p){
+    E('path',{d:'M'+(x-11*s)+' '+y+' q'+(11*s)+' '+(-11*s)+' '+(22*s)+' 0',
+      fill:'none',stroke:FADE,'stroke-width':1.2,opacity:0.7},p);
+  }
+  var i;
+  for(i=0;i<46;i++){tree(rr(640,1120),rr(330,470),rr(0.6,1.0),gTerr);}
+  for(i=0;i<28;i++){tree(rr(1180,1440),rr(398,520),rr(0.6,1.0),gTerr);}
+  for(i=0;i<24;i++){tree(rr(160,420),rr(660,900),rr(0.6,1.0),gTerr);}
+  for(i=0;i<22;i++){tree(rr(1460,1900),rr(690,860),rr(0.6,1.0),gTerr);}
+  for(i=0;i<36;i++){hill(rr(520,1340),rr(430,566),rr(0.8,1.4),gTerr);}
+  for(i=0;i<16;i++){hill(rr(120,480),rr(500,780),rr(0.7,1.2),gTerr);}
+  for(i=0;i<140;i++){tuft(rr(1260,2110),rr(898,1226),rr(0.7,1.2),gTerr);}
+  for(i=0;i<40;i++){tuft(rr(1220,1600),rr(850,950),rr(0.6,1.0),gTerr);}
+
+  /* ---------- rivers (tapered, source to mouth) ---------- */
+  function river(pts,w0,w1,p){
+    var jp=jit(pts,2.2,12),left=[],right=[],k;
+    for(k=0;k<jp.length;k++){
+      var a=jp[Math.max(0,k-1)],b=jp[Math.min(jp.length-1,k+1)];
+      var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/le,ny=dx/le,t=k/(jp.length-1),w=w0+(w1-w0)*t;
+      left.push([jp[k][0]+nx*w,jp[k][1]+ny*w]);
+      right.push([jp[k][0]-nx*w,jp[k][1]-ny*w]);
+    }
+    E('path',{d:D(left.concat(right.reverse()),true),fill:SEAWASH,opacity:0.52},p);
+    E('path',{d:D(jp),fill:'none',stroke:SEA,'stroke-width':Math.max(1.3,w1*0.7),'stroke-linecap':'round'},p);
+    E('path',{d:D(jp),fill:'none',stroke:INK,'stroke-width':1.05,'stroke-linecap':'round',opacity:0.8},p);
+  }
+  river([[70,600],[200,630],[340,655],[470,680],[560,695],[680,715],[830,742],[980,778],[1110,795],[1300,815],[1560,845],[1850,872],[2160,898],[2350,914]],2,8,gWater);
+  river([[150,1040],[260,950],[360,865],[450,800],[560,695]],1,4.5,gWater);
+  river([[180,772],[290,802],[410,848]],0.8,1.6,gWater);
+  river([[958,902],[972,850],[980,778]],0.6,1.2,gWater);
+
+  /* the Singing Sill — a ledge of hard stone under the falls at Sill */
+  E('path',{d:'M962 772 q10 -5 22 -1 M964 780 q10 -5 22 -1',fill:'none',stroke:INK,'stroke-width':2,'stroke-linecap':'round',opacity:0.85},gWater);
+  for(i=0;i<5;i++){E('line',{x1:965+i*4.4,y1:774,x2:965+i*4.4,y2:782,stroke:INK,'stroke-width':0.8,opacity:0.6},gWater);}
+
+  /* Silt flood line — the Breaking about the Fishstairs and Low Kiln */
+  E('path',{d:D(jit([[872,800],[936,864],[1058,876],[1132,822],[1084,786],[954,778]],2.4,10),true),
+    fill:'none',stroke:RED,'stroke-width':1.6,'stroke-dasharray':'4 7',opacity:0.55},gWater);
+
+  /* ---------- roads ---------- */
+  function road(pts,p,col,dash){E('path',{d:D(jit(pts,2,14)),fill:'none',stroke:col||INK,'stroke-width':2,'stroke-dasharray':dash||'7 6','stroke-linecap':'round',opacity:0.78},p);}
+  road([[980,800],[1200,830],[1500,860],[1850,890],[2160,915]],gRoad,INK,'6 5');
+  road([[2160,898],[2260,806],[2350,724]],gRoad,INK,'6 5');
+  road([[958,764],[780,700],[600,640],[430,580],[250,520],[70,470]],gRoad,INK,'6 5');
+  road([[2160,898],[2220,1050],[2280,1200],[2340,1350]],gRoad,INK,'6 5');
+  road([[560,695],[640,690],[780,706],[830,724]],gRoad,FADE,'2 7');
+
+  /* ---------- settlement and feature symbols ---------- */
+  function town(x,y,p){
+    var g=E('g',{},p);
+    E('circle',{cx:x,cy:y,r:14,fill:'#efe3c6',stroke:INK,'stroke-width':2.2},g);
+    E('circle',{cx:x,cy:y,r:19,fill:'none',stroke:INK,'stroke-width':0.8,opacity:0.45},g);
+    E('circle',{cx:x,cy:y,r:3.4,fill:INK},g);
+  }
+  function granary(x,y,p){
+    var g=E('g',{},p);
+    E('circle',{cx:x,cy:y,r:12,fill:'#efe3c6',stroke:INK,'stroke-width':2.2},g);
+    E('circle',{cx:x,cy:y,r:3,fill:INK},g);
+    [-13,0,13].forEach(function(o){E('rect',{x:x+o-5,y:y-25,width:10,height:8,fill:'#e6d8b8',stroke:INK,'stroke-width':1.1},g);});
+  }
+  function village(x,y,p){
+    E('circle',{cx:x,cy:y,r:6,fill:'#efe3c6',stroke:INK,'stroke-width':1.9},p);
+    E('circle',{cx:x,cy:y,r:1.8,fill:INK},p);
+  }
+  function hamlet(x,y,p){
+    E('circle',{cx:x,cy:y,r:4,fill:'none',stroke:INK,'stroke-width':1.5},p);
+  }
+  function ruin(x,y,p){
+    var g=E('g',{},p);
+    E('path',{d:'M'+(x-11)+' '+(y+8)+' q3 -13 11 -13 q8 0 11 13 z',fill:'#cfc3a3',stroke:INK,'stroke-width':1.3},g);
+    E('path',{d:'M'+(x-5)+' '+(y+8)+' l2 -8 l4 3 l3 -6 l3 11',fill:'none',stroke:INK,'stroke-width':1.2},g);
+  }
+  function weir(x,y,p){
+    var g=E('g',{},p);
+    E('path',{d:'M'+(x-15)+' '+y+' L'+(x+15)+' '+y,stroke:INK,'stroke-width':2},g);
+    for(i=0;i<3;i++){var ox=x-10+i*10;E('path',{d:'M'+ox+' '+y+' l-3 9 l6 0 z',fill:'none',stroke:INK,'stroke-width':1.1},g);}
+  }
+  function smoke(x,y,p){
+    E('path',{d:'M'+x+' '+y+' q-6 -7 1 -12 q6 -5 0 -11',fill:'none',stroke:INK,'stroke-width':1,'stroke-linecap':'round',opacity:0.55},p);
+  }
+  function works(x,y,p){
+    var g=E('g',{},p);
+    E('rect',{x:x-9,y:y-6,width:18,height:12,fill:'#e6d8b8',stroke:INK,'stroke-width':1.5},g);
+    E('path',{d:'M'+(x-11)+' '+(y-6)+' L'+x+' '+(y-13)+' L'+(x+11)+' '+(y-6)+' z',fill:'none',stroke:INK,'stroke-width':1.3},g);
+    smoke(x+5,y-13,g);
+  }
+  function kiln(x,y,p){
+    var g=E('g',{},p);
+    E('path',{d:'M'+(x-8)+' '+y+' q8 -12 16 0 z',fill:'#c9b99a',stroke:INK,'stroke-width':1.3},g);
+    smoke(x,y-8,g);
+  }
+  function burial(x,y,p){
+    var g=E('g',{},p);
+    for(i=0;i<4;i++){
+      var ox=x-12+i*8,oy=y+((i%2)*5);
+      E('path',{d:'M'+ox+' '+oy+' l0 -9 l5 0 l0 9 z',fill:'none',stroke:FADE,'stroke-width':1.1},g);
+    }
+    E('path',{d:'M'+(x-10)+' '+(y+8)+' q10 -4 20 0',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.7},g);
+  }
+  function peat(x,y,p){
+    var g=E('g',{},p);
+    for(i=0;i<3;i++){E('rect',{x:x-9+i*7,y:y-4-(i%2)*4,width:6,height:8,fill:'#b8a279',stroke:INK,'stroke-width':0.9},g);}
+  }
+
+  town(980,778,gMark);
+  granary(2160,898,gMark);
+  village(560,695,gMark);
+  village(330,900,gMark);
+  hamlet(960,500,gMark);
+  hamlet(1190,800,gMark);
+  hamlet(1260,980,gMark);
+  weir(830,742,gMark);
+  works(1160,520,gMark);
+  works(2140,872,gMark);
+  ruin(980,920,gMark);
+  kiln(950,836,gMark);
+  kiln(1010,836,gMark);
+  kiln(318,914,gMark);
+  burial(1000,640,gMark);
+  peat(1178,812,gMark);
+
+  /* ---------- text helpers ---------- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gFrame);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||24;
+    lines.forEach(function(ln,k){T(x,y+k*lh,ln,{font:'FellIt',size:o.size||17,fill:o.fill||'#5a4127',opacity:o.opacity||0.92});});
+  }
+
+  /* region and water names */
+  T(1600,752,'GRATH',{font:'FellSC',size:30,ls:12,fill:FADE,rot:2,anchor:'middle',opacity:0.5});
+  T(1018,720,'the Ilm',{font:'FellIt',size:23,fill:SEA,rot:6});
+  T(660,930,'the Ferr',{font:'FellIt',size:20,fill:SEA,rot:-48});
+  T(244,832,'the Lead Run',{font:'FellIt',size:16,fill:SEA,rot:18});
+  T(996,872,'the Slip Brook',{font:'FellIt',size:14,fill:SEA,rot:82,anchor:'middle'});
+  T(2310,944,'toward the Sallow Sea',{font:'FellIt',size:15,fill:SEA,rot:8,anchor:'middle'});
+
+  /* place labels */
+  T(980,832,'SILL',{size:26,ls:2,anchor:'middle'});
+  T(980,850,'the birth-town, at the sill',{font:'FellIt',size:15,fill:FADE,anchor:'middle'});
+  T(2160,934,'GREYBANK',{size:22,ls:1.6,anchor:'middle'});
+  T(2160,952,'the Court\'s gate',{font:'FellIt',size:14,fill:FADE,anchor:'middle'});
+  T(2146,846,'the Counting House',{font:'FellIt',size:13,fill:FADE,rot:-6});
+  T(560,672,'STONEMOUTH',{size:15,ls:1,anchor:'middle'});
+  T(560,689,'the Ferr meets the Ilm',{font:'FellIt',size:12,fill:FADE,anchor:'middle'});
+  T(330,924,'NINE POTS',{size:14,ls:1,anchor:'middle'});
+  T(830,724,'the Weir',{font:'Fell',size:17,anchor:'middle'});
+  T(846,770,'Eel House',{font:'FellIt',size:12,fill:FADE,anchor:'start'});
+  T(830,706,'Fish Blessing, Reed 15',{font:'FellIt',size:12,fill:RED,anchor:'middle'});
+  T(960,480,'COLD ACRE',{font:'Fell',size:15,anchor:'middle'});
+  T(1160,496,'the Tallow Works',{font:'Fell',size:15,anchor:'middle'});
+  T(1190,782,'MUD END',{font:'Fell',size:14,anchor:'middle'});
+  T(1260,996,'REEDHOLT',{font:'Fell',size:14,anchor:'middle'});
+  T(1000,618,'the Bone Orchard',{font:'FellIt',size:14,fill:FADE,anchor:'middle'});
+  T(980,956,'the Old Kiln',{font:'FellIt',size:15,fill:RED,anchor:'middle'});
+  T(946,822,'Low Kiln',{font:'FellIt',size:12,fill:FADE,rot:-4});
+  T(1020,744,'High Kiln',{font:'FellIt',size:12,fill:FADE,rot:-4});
+  T(988,764,'the Cross',{font:'FellIt',size:11,fill:FADE,rot:-4});
+  T(1016,786,'Slate Row',{font:'FellIt',size:11,fill:FADE,rot:-4});
+  T(968,798,'the Fishstairs',{font:'FellIt',size:11,fill:FADE,rot:-4});
+  T(976,762,'the Singing Sill',{font:'FellIt',size:12,fill:SEA,rot:-4});
+  T(906,872,'the Breaking — Silt flood',{font:'FellIt',size:12,fill:RED,rot:6});
+
+  /* roads named along their course */
+  T(1480,846,'the Clay Road',{font:'FellIt',size:14,fill:FADE,rot:3});
+  T(2268,770,'Salt Road',{font:'FellIt',size:14,fill:FADE,rot:-52});
+  T(452,556,'Rim Road',{font:'FellIt',size:14,fill:FADE,rot:-21});
+  T(2272,1120,'Hearth Road',{font:'FellIt',size:14,fill:FADE,rot:68});
+
+  /* ---------- marginal notes in the surveyor's voice ---------- */
+  note(120,232,[
+    'This chart reaches a few days\' walking from the',
+    'birth-town, no further. The Rim lies a hundred and',
+    'twenty leagues beyond the west edge by the Rim Road,',
+    'and no man of Sill has walked it. What is set down',
+    'of those parts comes from factors\' talk and peddlers.'
+  ],{size:17,lh:23,fill:'#574226'});
+  note(1752,556,[
+    'Greybank stands eighteen leagues downriver — five',
+    'days for a loaded cart in Silt. The Clay Road ends',
+    'there; the Salt Road turns to the Sallow and the',
+    'Hearth Road to the Court. Grath folk speak of the',
+    'latter as of a fever.'
+  ],{size:16,lh:23,fill:'#574226'});
+  note(620,1090,[
+    'In Silt the Ilm comes over the Fishstairs and takes',
+    'the low houses; the dotted line is the Breaking.',
+    'Thin ice kills two or three children a winter, and',
+    'the kiln\'s breath kills a sleeping man — called a',
+    'merciful death by those who have not found him.'
+  ],{size:16,lh:23,fill:'#574226'});
+  note(1068,982,[
+    'The ash in the Old Kiln\'s throat is deeper than a',
+    'man; the clay about it is grey and will not take a',
+    'glaze.'
+  ],{size:15,lh:22,fill:RED});
+  note(1420,1128,[
+    'Wolves come in the reedbeds east of Mud End. Fenfolk',
+    'will sell a thin return for a third of the Court\'s',
+    'price and ask no questions. A dry man is dangerous.'
+  ],{size:16,lh:23,fill:'#4a5a3a'});
+  note(700,900,[
+    'The sweet sickness from bad glaze shows first as a',
+    'pale line at the gum. The glaze is mixed in High Kiln.'
+  ],{size:14,lh:21,fill:'#574226'});
+
+  /* ---------- cartouche ---------- */
+  E('path',{d:'M726 58 L1674 58 L1694 78 L1694 194 L1674 214 L726 214 L706 194 L706 78 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.94},gFrame);
+  E('path',{d:'M732 68 L1668 68 L1684 84 L1684 188 L1668 204 L732 204 L716 188 L716 84 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M668 136 q30 -22 54 0 q-24 22 -54 0 z M1732 136 q-30 -22 -54 0 q24 22 54 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(1200,120,'SILL AND THE LOWER ILM',{font:'CinzelDec',size:42,ls:6,anchor:'middle',fill:INK});
+  T(1200,154,'the clay country about the birth-town',{font:'FellIt',size:22,anchor:'middle',fill:FADE});
+  T(1200,186,'surveyed and inked in Y.H. 812 — the Thin Year',{font:'FellSC',size:14,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<27;i++){
+    var sx=724+i*36.6;
+    E('path',{d:'M'+sx+' 72 l2.5 5 l5 0 l-4 3.5 l1.5 5 l-5 -3 l-5 3 l1.5 -5 l-4 -3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 200 l2.5 -5 l5 0 l-4 -3.5 l1.5 -5 l-5 3 l-5 -3 l1.5 5 l-4 3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---------- compass rose ---------- */
+  var rx=2180,ry=310;
+  E('circle',{cx:rx,cy:ry,r:48,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:rx,cy:ry,r:39,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?42:24;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-42)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+42)+' L'+(rx+9)+' '+ry+' Z',fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-42)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-56,'N',{size:21,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,k){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][k];
+    T(rx+Math.sin(ca)*62+3,ry-Math.cos(ca)*62+7,cdir,{font:'FellSC',size:16,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- legend ---------- */
+  E('rect',{x:110,y:1118,width:452,height:384,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1126,width:436,height:368,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(336,1158,'CONVENTION OF SIGNS',{font:'FellSC',size:21,ls:3,anchor:'middle'});
+  E('line',{x1:138,y1:1170,x2:534,y2:1170,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  town(150,1196,gFrame);  T(180,1202,'market town',{font:'Fell',size:16});
+  village(150,1222,gFrame); T(180,1228,'village',{font:'Fell',size:16});
+  hamlet(150,1248,gFrame); T(180,1254,'hamlet',{font:'Fell',size:16});
+  ruin(150,1272,gFrame);   T(180,1278,'ruin (the Old Kiln)',{font:'Fell',size:16});
+  weir(150,1302,gFrame);   T(180,1308,'eel weir and plank walk',{font:'Fell',size:16});
+  works(150,1332,gFrame);  T(180,1338,'works, granary',{font:'Fell',size:16});
+  kiln(150,1362,gFrame);   T(180,1368,'kiln-yard',{font:'Fell',size:16});
+  burial(150,1390,gFrame); T(180,1396,'burial ground',{font:'Fell',size:16});
+  E('line',{x1:136,y1:1426,x2:166,y2:1426,stroke:INK,'stroke-width':2,'stroke-dasharray':'6 5'},gFrame);
+  T(180,1432,'road, travelled',{font:'Fell',size:16});
+  E('line',{x1:136,y1:1454,x2:166,y2:1454,stroke:RED,'stroke-width':1.6,'stroke-dasharray':'4 7'},gFrame);
+  T(180,1460,'Silt flood line',{font:'Fell',size:16});
+  E('path',{d:'M136 1486 q15 -10 30 0',fill:'none',stroke:SEA,'stroke-width':2.4},gFrame);
+  T(180,1492,'river, falling seaward',{font:'Fell',size:16});
+
+  /* ---------- scale bar ---------- */
+  T(1380,1482,'A LEAGUE IS THREE THOUSAND PACES',{font:'FellSC',size:13,ls:1.4,fill:FADE});
+  E('rect',{x:1380,y:1492,width:300,height:13,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1380+i*75,y:1492,width:75,height:13,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1380+i*75,1524,[0,1,2,3,4][i]+'',{font:'Fell',size:15,anchor:'middle',fill:INK});
+  }
+  T(1694,1504,'leagues',{font:'FellIt',size:16,fill:FADE});
+  T(1380,1544,'A man on foot makes four leagues in a day on the Clay Road; a loaded cart, three.',{font:'FellIt',size:13,fill:FADE});
+
+  /* ---------- frame ---------- */
+  E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:2296,height:1496,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<116;i++){
+    var px=56+i*19.7;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:1548,x2:px,y2:1566,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<76;i++){
+    var py=56+i*19.6;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:2348,y1:py,x2:2366,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[2348,52,-1,1],[52,1548,1,-1],[2348,1548,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>
