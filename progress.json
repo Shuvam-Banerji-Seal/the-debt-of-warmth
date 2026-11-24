@@ -2,19 +2,20 @@
   "genesis_done": [
     "concept",
     "world",
-    "power"
+    "power",
+    "cast-1"
   ],
   "chapter": 1,
   "step": "plan",
   "scene": 1,
   "consolidated_through": 0,
   "built": {},
-  "calls": 9,
+  "calls": 11,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 0,
-  "tokens_in": 423091,
-  "tokens_out": 191112,
+  "tokens_in": 533465,
+  "tokens_out": 217192,
   "restarts": [
     {
       "at": "2026-11-24",

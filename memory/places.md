@@ -282,3 +282,69 @@ Roads, wells and doorways with no people; the ledger's empty squares after Y.H. 
 **Kind:** river ledge, wonder. **Region:** Sill, the Ilm.
 The hard stone under the falls that gives a low note when the Warm rises in Ilmen; the town takes its name from it.
 **Relations:** Under the Ilm at Sill, below the Fishstairs and the north bridge.
+
+---
+
+## V. The first life — Earth
+
+*These are not places in Sarn and carry no distance from Sill. They are entered here because they are named in the past-life memories and must be written with `\place{...}` when a scene breaks into Chicago. The canonical names below are exact. Only what Dan's life touched is listed; the rest of Earth is not in the book.*
+
+### Chicago
+**Kind:** city. **Region:** Earth, Illinois, the 2020s.
+The city of the first life, on the shore of a great fresh-water lake; a place of elevated trains, trauma bays and blizzards. It has no Hearth, no collectors and no word for the Warm, which is why Dan can never explain it to anyone in Sarn.
+**Relations:** Contains Hermosa, Elmwood Park, Evanston, Cook County Hospital, Lane Tech, the University of Illinois Chicago and the hospital car park; Lake Michigan lies along its eastern edge.
+
+### Hermosa
+**Kind:** neighbourhood. **Region:** Chicago, Earth.
+The block of two-storey brick bungalows where Dan grew up, with the el running high and iron over Pulaski and the summer smelling of charcoal and wet pavement. Site of the Marchetti family house, where love was shown by fixing things and never discussed.
+**Relations:** Inside Chicago; a short drive to Lane Tech and to Cook County Hospital.
+
+### Elmwood Park
+**Kind:** neighbourhood. **Region:** Chicago, Earth.
+Where Dan and Elena Rossi were married in a church with too many relatives and a photographer who cried; also where Nina grew up.
+**Relations:** Inside Chicago, near Hermosa.
+
+### Evanston
+**Kind:** city. **Region:** Earth, Illinois.
+The lakeside city where Paul Vesci was raised and where he keeps a private practice with good light.
+**Relations:** Just north of Chicago on Lake Michigan.
+
+### Cook County Hospital
+**Kind:** hospital, workplace. **Region:** Chicago, Earth.
+The county trauma centre where Dan trained, became an attending and worked nights; a large room with ceiling-mounted lights where a team moves with the rehearsed speed of people who have done the same thing four thousand times. The place that made him and the place that ate his marriage.
+**Relations:** In Chicago; near the apartment Dan kept after the divorce and the car park where he and Des sat; site of Tasha Broussard's review.
+
+### The hospital car park
+**Kind:** place, ritual site. **Region:** Chicago, Earth.
+Where Dan and Des ate bad pizza in silence for ten minutes after a bad shift, and where Dan learned of his father's death at sunrise. The friendship's whole architecture.
+**Relations:** Beside Cook County Hospital.
+
+### Lane Tech
+**Kind:** school. **Region:** Chicago, Earth.
+The technical high school Dan attended because his mother insisted, where he took things apart on the shop floor and first learned that he liked a right answer under his hands.
+**Relations:** In Chicago, not far from Hermosa.
+
+### The University of Illinois Chicago
+**Kind:** university. **Region:** Chicago, Earth.
+Where Dan found the human body in the cadaver lab the way other boys find engines — by being forbidden and doing it anyway.
+**Relations:** In Chicago.
+
+### Lake Michigan
+**Kind:** lake. **Region:** Earth, beside Chicago.
+The great cold lake at the edge of Dan's life, and the subject of the boat he promised Nina for nine years and never bought. The photograph on his wall shows Nina at six squinting in its summer light.
+**Relations:** Along Chicago's eastern shore; the boat promise and the unsent call are bound to it.
+
+### The expressway
+**Kind:** road, site of the crash. **Region:** Chicago, Earth.
+The northbound expressway near the split, where a pileup formed in a blizzard at 2:17 in the morning and Dan died pulling a child from a minivan before the fire took them both. The woman in the grey coat stood at the edge of the flare light here with a slate.
+**Relations:** In Chicago, out toward the northern suburbs; the hinge between the two lives.
+
+### The apartment near the hospital
+**Kind:** dwelling. **Region:** Chicago, Earth.
+Dan's small flat after the divorce: a bed, a chair, a television, a fridge with four beers and food he never ate. On the wall, Nina at six; in a drawer, an unsent letter to Elena with one honest sentence; beside the bed, a half-read book and a cold coffee.
+**Relations:** Near Cook County Hospital.
+
+### The nursing home
+**Kind:** workplace. **Region:** Chicago, Earth.
+Where Theresa Marchetti worked part-time as a nurse's aide, coming home with her uniform smelling of bleach, old people and lilac soap. It is never named more precisely in the book.
+**Relations:** In Chicago.
