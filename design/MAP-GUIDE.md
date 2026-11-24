@@ -21,6 +21,9 @@ Maps are hand-made by you as **self-contained HTML/CSS/JavaScript** pages. The o
 - A compass rose, a scale bar in the world's own units, a decorative title cartouche, and optionally sea creatures, wind faces or marginal notes in the cartographer's voice.
 - Labels in the Fell or Cinzel fonts, with curved or spaced lettering for regions and seas. **Every named place on the map must exist in `memory/places.md` or the bible.** Keep the map consistent with canon (distances, directions, borders).
 - Show what the world's own map-makers would know. Unknown lands can be blank, misdrawn or annotated with rumour.
+- **Natural geometry.** Coastlines, lakes, borders and rivers must be irregular, fractal and hand-drawn: build them from many jittered points (midpoint displacement or seeded noise), with bays, headlands, spits and islands. Never use rectangles, rounded rectangles, perfect ellipses or straight-ruled coasts for land or water.
+- **Keep labels clear.** Labels must not cross roads, rivers or other labels. Place them deliberately: spaced capitals for regions, small italics for features, and a pale halo behind text where needed.
+- **No cartoons or emoji.** Decorations should be engraving-like: sea beasts, wind-heads, ships and cartouches drawn in fine line and hatching, the way an old engraver would cut them.
 
 ## Validation
 The orchestrator renders the page. If the result is blank or the script throws an error, you will be given the error and asked to fix it.
