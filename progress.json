@@ -14,17 +14,17 @@
   ],
   "chapter": 2,
   "step": "scene",
-  "scene": 3,
+  "scene": 4,
   "consolidated_through": 0,
   "built": {
     "1": 1
   },
-  "calls": 32,
+  "calls": 33,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
-  "words_total": 18325,
-  "tokens_in": 2962992,
-  "tokens_out": 819242,
+  "words_total": 20695,
+  "tokens_in": 3043260,
+  "tokens_out": 835835,
   "restarts": [
     {
       "at": "2026-11-24",
