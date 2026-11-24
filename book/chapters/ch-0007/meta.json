@@ -1,0 +1,93 @@
+{
+  "number": 7,
+  "title": "The Number They Give Out",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "Count the loaves, count the coals, count the days the house will keep you. When the moot gives out a number, count again. It will not be the same one.",
+    "attribution": "A Low Kiln saying, Sill"
+  },
+  "days": {"start": 15, "end": 24},
+  "when": "Days 15–24 · Stone 21–30, Y.H. 812",
+  "where": "The Vail kiln-house and the Cross, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a fifteen-to-twenty-four-day-old body carried everywhere; one brief untagged present-tense break for the flare light, no other departure from his eyes",
+  "mode": "passage",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "dessa-silt",
+    "berr-clay",
+    "garl-vail"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "the back room",
+    "House Silt",
+    "the yard well",
+    "the Slip Brook",
+    "the Ilm",
+    "the Cross",
+    "Slate Row",
+    "the Court's table at the Cross",
+    "the moot-post",
+    "the Bone Orchard",
+    "the Fishstairs",
+    "Nine Pots",
+    "Greybank",
+    "Chicago",
+    "the expressway"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "Counting Into the Tend",
+      "day": 15,
+      "flashback": false,
+      "synopsis": "Two dated entries, Days 15 and 16 (Stone 21, Firstday; Stone 22, Secondday). Day 15, first light under the Vail roof: Sella touches the widow's mark before she lifts the kiln lid and at no other hour; fuel and bread are counted into the last tend before the Five in loaves, glances and absences, never a figure; somebody come back from looking at the ice brings a number they will not give; the boy's private count reaches the kindling's missing fifth. Day 16: Tarn has one year of his seven left and will not count it; Sella sends him for a collector for a neighbour, and the collector comes with a soft cuff and fingertips the colour of skimmed milk gone off. On the way back a flat note goes past the door on a vessel a person is carrying: Tarn's head turns a degree, the boy under the roof hears something he cannot place and files it with the intervals, and nobody in the house sees or names it. Changes: the household's arithmetic tightens into the tend, a second collector's mark enters the private file unjoined, and the loan that can hear is exercised without a word. Advances T071/T072, T077, T079, T036, T076, T080, T061, T044, T065, T058. Withheld: no sixth confirmed hearing, no Grathic word for the sound, no roll, no box, no figure given, no saying of why Sella took him.",
+      "target_words": 2800
+    },
+    {
+      "n": 2,
+      "title": "Dust and Dates",
+      "day": 17,
+      "flashback": false,
+      "synopsis": "Two dated entries, Days 17 and 18 (Stone 23, Thirdday; Stone 24, Fourthday). Day 17: after five days of bone-coloured slip only, Jorra comes in from the back room with fine grey slate dust worked into the creases of his forearms, says nothing about where he has been, and shifts the damper before Sella has finished; the boy reads the not-looking the way he once read a senior who would not meet a resident's eye and keeps the question where questions can last for years. Plant the men whose names are not spoken and the broken slates without naming either; Sella gets quieter and the yard straightens around it. Day 18: Alda Reed comes under the roof, touches the little tin once inside her bodice without opening it, writes a further note she does not leave lying about and turns writing-down toward a floorboard in a house the boy cannot name; her exact dates arrive faster than the question needs them and cover a thing she will not say. Changes: two hidden records come into the same room in one day --- dust from slates someone breaks and a note nobody will read --- and the boy witnesses both with no hand to enter either. Advances T035, T023, T007/T008, T073, T060, T077, T071/T072. Withheld: no broken slate shown, no tin opened, no contents read, no naming of the back room's business.",
+      "target_words": 2700
+    },
+    {
+      "n": 3,
+      "title": "The Crack in the Yard",
+      "day": 19,
+      "flashback": false,
+      "synopsis": "Two dated entries, Days 19 and 20 (Stone 25, Fifthday; Stone 26, Sixthday). Day 19: the cold deepens; a pot in the Clay Yard cracks all the way through with the small flat knock Dan knows and nobody calls a sound, and he cannot turn his head far enough toward it to place it, so it goes on the tray with the intervals and the confirmed count stays five hearings from four sources. Day 20 is an ordinary Sixthday, not Account-day: the number for the Five changes in the telling from three to two to whatever the district decides to give out that morning, a figure carried in fists and mouths and spent by nobody; the boy hears figures he cannot correct and goes on keeping his own. Changes: a vessel actually breaks within two paces of him and the number he keeps exactly is given out wrongly by a district that has already decided what it wants to pay. Advances T061, T082, T077, T071/T072, T044, T083, T058. Withheld: no sixth confirmed hearing, no Grathic name, no explanation of the Return, no one in the yard calls the crack anything but a pot gone wrong.",
+      "target_words": 2900
+    },
+    {
+      "n": 4,
+      "title": "Two Records and a Crust",
+      "day": 21,
+      "flashback": false,
+      "synopsis": "Two dated entries, Days 21 and 22 (Stone 27, Seventhday; Stone 28, Eighthday). Day 21: a woman from High Kiln says the thaw will come early and is contradicted by everybody who wants it late, because the levy falls in the thaw; ice-mice are found in the thatch and the kiln takes its breath in fours and a gap while the boy files the argument as weather. Day 22: Mira Silt passes the Clay Yard with eels and silt on her sleeves, touches a knot when a number is spoken, gives the boy a fresh crust briskly into the fold before anyone can make a speech of it, and the separate cord twisted twice under her belt --- the one never taken upriver to Nine Pots --- is glimpsed again; Dessa coughs from the pits three doors down and calls it weather. Changes: two accounts kept in cord and thumb rather than slate stand side by side in the yard, and a second warmth crosses into the fold entered nowhere while the first lies there gone cold. Advances T077, T085, T065, T059, T025, T060, T044, T008/T073, T071/T072, T013 (light). Withheld: the knots are not counted, the nine-pots child is not named, the old crust is not removed or spoken of, forty stays unspoken.",
+      "target_words": 2800
+    },
+    {
+      "n": 5,
+      "title": "The Fifth Pause",
+      "day": 23,
+      "flashback": false,
+      "synopsis": "Two dated entries, Days 23 and 24 (Stone 29, Ninthday; Stone 30, Tenthday, Account-day and the last market of the year). Day 23: the yard prepares for the Last Day sweeping; the Vail Ash ridge is measured against another house's by the width of a thumb and left where it lies, Garl's coat keeps its salt shape on its peg and nobody takes it down, and the tile debt is spoken around. Day 24: stores are counted, Berr Clay wipes his thumb and reads one in twelve as the notice says, and a district that has counted what it has says the Five are three days off; at the market's edge the soft-cuffed clerk handles a slate whose upper line is the strange neat dark hand, and the small stop between two clusters comes a fifth time. For one untagged present-tense beat the flare light is orange on wet snow; the fifth pause lies beside four others and does not join them, and the Drawing collector's hand with no pause stays in its own place. Close on the kiln-house door, the coals banked under ash and the fire keeping four, four and a gap. Changes: a fifth sighting adds no power, word or standing, and an entire year's market ends with the household still keeping the number it will not say. Advances T003/T005, T015, T041, T047, T077, T013, T009, T078, T004, T071/T072, T060. Withheld: no joining of the pauses, one in three, forty, Marra's name, Sella's roll, Berr's box, the knots, the tin's contents.",
+      "target_words": 3000
+    }
+  ]
+}
