@@ -117,7 +117,7 @@
   box-shadow: 2px 3px 0 var(--shadow); transition: transform .16s ease;
 }
 .cast-card:hover { transform: translateY(-3px); border-color: var(--gold); }
-.cast-card .corner { width: 22px; height: 22px; opacity: .8; }
+.cast-card .corner { width: 20px; height: 20px; opacity: .7; }
 .cast-card .portrait {
   width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: 50% 18%;
   background: var(--mark); border-bottom: 1px solid var(--panel-edge);
@@ -127,7 +127,7 @@
   font-family: var(--font-head); font-size: 3.5rem; color: var(--gold); background: var(--mark);
   border-bottom: 1px solid var(--panel-edge);
 }
-.cast-card .card-body { padding: .8rem .9rem 1rem; }
+.cast-card .card-body { padding: .8rem .9rem 1.8rem; }
 .cast-card .card-name { display: block; font-family: var(--font-head); font-size: 1.02rem; color: var(--rubric); line-height: 1.25; }
 .cast-card .card-epithet { display: block; font-family: var(--font-fell); font-style: italic; font-size: .88rem; color: var(--muted); margin-top: .3rem; line-height: 1.35; }
 .cast-card .card-role {

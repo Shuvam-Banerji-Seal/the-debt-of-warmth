@@ -11,3 +11,4 @@ progress.tmp
 __pycache__/
 .env
 .env.*
+.playwright-mcp/
