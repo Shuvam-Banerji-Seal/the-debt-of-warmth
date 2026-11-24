@@ -4,7 +4,7 @@
 
 ## First — the reader needs these to find his feet
 
-1. **`sarn`** — *Sarn, the bowl between Hearth and Waste* — kind: world — 2400 × 1600.
+1. **`world`** (planned as `sarn`) — *Sarn, the bowl between Hearth and Waste* — kind: world — 2400 × 1600 — **DRAWN 24 Nov 2026**.
    The whole known world as its own map-makers would draw it: the great shallow bowl; the Rim across the west and north with the Cold Pass and Keld; the Sallow Sea in the north-east with Vhal and the Glaze Cliffs; the Keel and the Hearthseat in the south-east; the clay country of Grath in the north-west; Sere beyond the Peat Line; the Fenmarch and the Empty Cantons between; the Waste beyond the Rim, left mostly blank and annotated with rumour. Show the Hearth and the Waste as the source and sink even though no honest map past the last pass exists. Title cartouche about the rim-seam riveted with stars; a marginal note in the surveyor's voice that the oldest repairs are entered as neither stone nor clay. Places: Sarn, the Rim, the Waste, the Keel, the Hearth, the Hearthseat, the Sallow Sea, Vhalen, Vhal, the Glaze Cliffs, Keld, Keld Keep, the Cold Pass, the Listening Stones, Sere, the Bowl of Sere, the Peat Line, the Fenmarch, the Standing Post, the Empty Cantons, Grath, Sill, Greybank, the Clay Road, the Salt Road, the Rim Road, the Hearth Road.
 
 2. **`grath`** — *Grath, the clay country* — kind: region — 2400 × 1600.
@@ -44,3 +44,7 @@
 ## Maintenance
 
 When a map is made, move it from this list into the Atlas, add any new place names it uses to `memory/places.md`, and keep a one-line note here of what was drawn and when. Do not draw a map that depends on a place before the story has earned that place.
+
+## Drawn
+
+- **24 Nov 2026** — `atlas/world/` — *Sarn, the bowl between Hearth and Waste*, kind world, 2400 × 1600. Inked chart of the whole known bowl: Rim and Waste, Sallow Sea and Vhalen, Keel and Hearth, Grath, Fenmarch, Empty Cantons, Sere, the Peat Line, the four roads, the Ilm and the Ferr, with a star-riveted cartouche, compass, league scale, sign convention and surveyor's marginal notes. Drawn under the slug `world` rather than the planned `sarn`, as requested. Every named place and road already existed in `memory/places.md`; no additions were needed.
