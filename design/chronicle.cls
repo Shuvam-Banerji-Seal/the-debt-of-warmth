@@ -5,6 +5,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{design/chronicle}[2026/11/24 v1.0 Chronicle book design]
 \LoadClass[11pt,twoside,openany]{book}
+\@openrightfalse
 
 \RequirePackage{iftex}
 \RequireLuaTeX
@@ -25,7 +26,7 @@
 \RequirePackage{titlesec,titletoc}
 \RequirePackage{fancyhdr}
 \RequirePackage[protrusion=true,expansion=true,tracking=true]{microtype}
-\RequirePackage{multicol,enumitem,adjustbox,pdfpages,pdflscape,fmtcount,longtable,ragged2e}
+\RequirePackage{multicol,enumitem,adjustbox,pdfpages,pdflscape,fmtcount,longtable,ragged2e,emptypage}
 \RequirePackage[hidelinks,bookmarksnumbered,bookmarksopen]{hyperref}
 
 %% ------------------------------------------------------------------ fonts
