@@ -325,9 +325,12 @@ def prepared_art(kind: str, name: str) -> Path | None:
         from PIL import Image
         im = Image.open(src)
         if alpha:
+            # printed ~2.7in wide: 700px is ~260 dpi; a 256-colour palette with alpha keeps
+            # the painting intact at a quarter of the PDF weight
             im = im.convert("RGBA")
-            im.thumbnail((1100, 1100 * 3 // 2 if im.height > im.width else 1100))
-            im.save(out, optimize=True)
+            im.thumbnail((700, 1050))
+            im.quantize(colors=256, method=Image.Quantize.FASTOCTREE,
+                        dither=Image.Dither.FLOYDSTEINBERG).save(out, optimize=True)
         else:
             im.convert("RGB").save(out, quality=88, optimize=True, progressive=True)
     except Exception:
