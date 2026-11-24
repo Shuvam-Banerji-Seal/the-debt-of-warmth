@@ -44,6 +44,8 @@
 
 **C**
 
+**The carried fire (the year's fire).** The new fire taken into every house on Kindling: a coal under ash comes up the yard in a clay dish, each hearth touches its own flame to it and passes it on, and the last house keeps what is left. In Low Kiln nobody says where the flame was first lit or what it cost, and the Vail house keeps it banked under ash and never answers a question about its payer.
+
 **Clay-bound.** A debt-servant working off a term, commonly seven years, with interest gathering as grey Ash in the household accounts.
 
 **Clay-name.** The name a slave is given by the household that owns them; the old name is forbidden.
@@ -392,7 +394,7 @@
 
 **Wastelings.** The bands beyond the Rim who take what the world loses; they have no banks, no Returns and no word for a debt.
 
-**Weighing.** The second of the Five, when the year's measures are read aloud and the rich learn how whole they are.
+**Weighing.** The second of the Five, when the year's measures are read aloud and the rich learn how whole they are. In Sill the reading is given in a clean voice that wears a temple's clothes and takes the speaker neatly out of his own sentences, in the same grammar heard at the Cross; a whole return may be announced for a person who is not in the room.
 
 **Weighing Hall.** The hall in the Hearthseat where the measures are read at the Weighing and the Hearth-fire burns behind cold iron.
 
