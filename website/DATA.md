@@ -14,6 +14,9 @@ The press regenerates the data after every chapter. Your frontend (this folder) 
 | `images/plates/ch-NNNN.jpg` | Full-page colour plate for a chapter (2:3, light-novel style) |
 | `images/characters/<slug>.webp` or `.svg` | Character art (transparent WebP) or cameo plate (SVG) |
 | `images/maps/<slug>.jpg` | Maps |
+| `images/emblem.svg` | The book's cover emblem: the cupped hand holding a coal, a crack through the palm letting the warmth escape as a gold thread, in a gilt ring. It is the saga's sigil. |
+| `images/ornaments/<name>.svg` | The **book's own engraved ornaments** in gold (the same ones the printed book uses): `corner`, `corner-grand`, `rule`, `rule-medallion`, `headpiece`, `vignette`, `fleuron`, `tailpiece`, `flourish`, `headband`. Black versions for CSS `mask-image` (so you can recolour them per theme) are in `images/ornaments/mask/`. |
+| `images/headpieces/ch-NNNN.svg` | Each chapter's own headpiece: the emblem you designed in TikZ for that chapter, shown above its title in the book |
 | `fonts/` | `EBGaramond-Regular.otf`, `EBGaramond-Italic.otf`, `EBGaramond-SemiBold.otf`, `Cinzel-Regular.ttf`, `CinzelDecorative-Regular.ttf`, `CinzelDecorative-Bold.ttf`, `IMFeENrm28P.otf`, `IMFeENit28P.otf` |
 
 ## `data/book.json`
@@ -22,12 +25,13 @@ The press regenerates the data after every chapter. Your frontend (this folder) 
   "title": "...", "subtitle": "...", "tagline": "...", "byline": "...", "updated": "ISO time",
   "repository": "https://github.com/OWNER/REPO",
   "downloads": {"pdf": "url", "epub": "url", "cover_pdf": "url"},
-  "cover": "images/cover.jpg", "frontispiece": "images/frontispiece.jpg" ,
+  "cover": "images/cover.jpg", "frontispiece": "images/frontispiece.jpg", "emblem": "images/emblem.svg",
+  "ornaments": {"corner": "images/ornaments/corner.svg", "...": "..."}, "ornament_masks": {"corner": "images/ornaments/mask/corner.svg"},
   "words_total": 116185,
   "arcs": [{"number": 1, "title": "...", "subtitle": "...", "chapters": [1, 2, 3]}],
   "chapters": [{"n": 1, "title": "...", "arc": 1, "when": "...", "where": "...",
                 "day_start": 1, "day_end": 1, "days": [{"id": "day-1-0", "label": "Day 1"}],
-                "words": 13459, "plate": "images/plates/ch-0001.jpg" , "caption": "...",
+                "words": 13459, "plate": "images/plates/ch-0001.jpg", "caption": "...", "headpiece": "images/headpieces/ch-0001.svg",
                 "html": "data/chapters/ch-0001.html", "pdf": "url of this chapter's PDF"}],
   "characters": [{"slug": "...", "name": "...", "epithet": "...", "role": "...", "status": "...",
                   "first_appearance": 40, "appeared": false, "image": "images/characters/x.webp", "html": "data/characters/x.html"}],
