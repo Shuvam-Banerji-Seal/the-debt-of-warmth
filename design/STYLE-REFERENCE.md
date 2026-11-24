@@ -13,7 +13,7 @@
 - the list of banned phrases and habits;
 - no game words (*level*, *quest*, *system*, *skill tree*, *stats*) in the fantasy world. Power ranks have in-world names.
 
-**Do not reuse any of its content.** None of its names (Wren, Nell, Kit, Elias, Cauldwick, Kilnwick, Cindermere, the House of Seams), and none of its world, magic, plot or motifs (pots, staples, brass, seams, Mending, the Owed). The new saga is a different story with its own images; only the *way* of writing carries over.
+**Do not reuse its names or plot.** Do not reuse its proper nouns or coinages (Wren, Nell, Kit, Elias, Cauldwick, Kilnwick, Cindermere, the House of Seams, the Mending, the Owed). The *vessel concept* of its magic **is** wanted, rebuilt with new names; see `design/CONCEPT-REFERENCE.md`. The new saga is a different story; the *way* of writing carries over.
 
 With a modern-day protagonist, one rule adapts: in the hero's inner voice, comparisons drawn from his old modern life (engines, screens, hospitals, cities) are allowed **as the deliberate contrast between his two lives**. The narration of the fantasy world itself still draws its images from that world's own materials.
 
