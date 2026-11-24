@@ -1,0 +1,46 @@
+# Maps wanted for the Atlas (private)
+
+*Ordered by need. The first three are the seed of the Atlas and should be drawn before the book grows large; the orchestrator asks for one map at a time and this list is updated as each is made. Slugs are the `atlas/<slug>/` directory names. Kinds follow `design/MAP-GUIDE.md`: world, region, city, dungeon, battle, other. Every place named on a map must already exist in `memory/places.md` or the bible; add it there first. Landscape maps are 2400 × 1600, portrait ones 1600 × 2200.*
+
+## First — the reader needs these to find his feet
+
+1. **`sarn`** — *Sarn, the bowl between Hearth and Waste* — kind: world — 2400 × 1600.
+   The whole known world as its own map-makers would draw it: the great shallow bowl; the Rim across the west and north with the Cold Pass and Keld; the Sallow Sea in the north-east with Vhal and the Glaze Cliffs; the Keel and the Hearthseat in the south-east; the clay country of Grath in the north-west; Sere beyond the Peat Line; the Fenmarch and the Empty Cantons between; the Waste beyond the Rim, left mostly blank and annotated with rumour. Show the Hearth and the Waste as the source and sink even though no honest map past the last pass exists. Title cartouche about the rim-seam riveted with stars; a marginal note in the surveyor's voice that the oldest repairs are entered as neither stone nor clay. Places: Sarn, the Rim, the Waste, the Keel, the Hearth, the Hearthseat, the Sallow Sea, Vhalen, Vhal, the Glaze Cliffs, Keld, Keld Keep, the Cold Pass, the Listening Stones, Sere, the Bowl of Sere, the Peat Line, the Fenmarch, the Standing Post, the Empty Cantons, Grath, Sill, Greybank, the Clay Road, the Salt Road, the Rim Road, the Hearth Road.
+
+2. **`grath`** — *Grath, the clay country* — kind: region — 2400 × 1600.
+   The lower Ilm and its towns, drawn at walking scale: Sill at the sill, Greybank eighteen leagues east where the Clay Road ends, the Weir a league upriver, Stonemouth and the Ferr and the Lead Run west, Nine Pots further west, Cold Acre and the Tallow Works north, Mud End and Reedholt east, the Old Kiln a league south of Sill. Show the Ilm frozen in Stone and the Breaking as a dotted flood line around the Fishstairs. Rivers tapered, roads dashed, marsh as reeds, kilns as small smoking symbols. Legend distinguishes town, village, hamlet, ruin, weir, works and road. Places: Grath, Sill, Low Kiln, High Kiln, the Cross, Slate Row, the Fishstairs, the Weir, the Eel House, the Old Kiln, Cold Acre, the Tallow Works, Mud End, Reedholt, Stonemouth, the Lead Run, Nine Pots, Greybank, the Counting House, the Clay Road, the Ilm, the Ferr, the Slip Brook, the Bone Orchard, the Singing Sill.
+
+3. **`sill`** — *Sill and the two Kilns* — kind: city — 1600 × 2200 (portrait).
+   The home settlement in the first years: the Ilm dropping four feet over the hard ledge, two bridges, the Singing Sill under the falls, the Cross between the bridges, Slate Row a quarter league east with the Court room, the assessor's house, the collector's table and the Waiting Room. Low Kiln on the south bank below the sill, with the Clay Yard, the slip pits, the wheel-shed, the drying racks, the Vail kiln-house, the Debt Loft and the Slip Brook. High Kiln on the terrace above with the Glaze Room and the lead smell. The Fishstairs below the north bridge; the Bone Orchard a league north of the gate. Mark the Ash ridge in Low Kiln with a note rather than a symbol: it is invisible in daylight. This is the map the reader will stare at most; give it the most hand-ink and the least text.
+
+## Next — when the story leaves Sill
+
+4. **`the-weir`** — *The Weir and the eel traps* — kind: other — 2400 × 1600. The plank walk, the traps, the Eel House and its drying racks, one league upriver; Orra's knot-cord and the forty-first knot in the margin. Draw for the Fish Blessing on Reed 15.
+
+5. **`greybank`** — *Greybank, the Court's gate* — kind: city — 1600 × 2200. Granaries, the factor's house, the Counting House with Veno Brine's private drawer of dry documents, the end of the Clay Road and the start of the Hearth Road. The first place a Sill man sees the Court at full size.
+
+6. **`the-old-kiln`** — *The Old Kiln and the ash throat* — kind: dungeon — 2400 × 1600. The collapsed kiln a league south of Sill, grey clay that will not take a glaze, ash deeper than a man, the slate from its throat. Draw for the early experiments and the first spiral.
+
+7. **`the-hearthseat`** — *The Hearthseat on the Keel* — kind: city — 1600 × 2200. The Weighing Hall, the grating of cold iron over the never-out fire, the College of Assessors in Slate Row, the sealed files, the rooms of the fewer than twenty Kept. A cool, clean, un-warmed map; the ink should look filed rather than inked.
+
+8. **`keld`** — *Keld Keep and the First Seam* — kind: dungeon — 1600 × 2200. The duelling floor cut into stone, Warden's seat, the deep survey shaft, the Listening Stones five leagues higher, the Cold Pass ten leagues beyond. Mark the passing of a seam-serpent as a change in the numbers, not a creature. Hot-lead warning for the Sweating in the margin.
+
+9. **`vhal`** — *Vhal and the Sallow coast* — kind: city — 2400 × 1600. The Quay where boat-shares pass through mothers, the Salt Pans, the Glaze Cliffs five leagues along the shore, the Council room that smells of tar and wet rope. Show the Sallow draw as an arrow against the wind.
+
+## Later — for the wars and the revelations
+
+10. **`sere`** — *The Bowl of Sere and the Ten Bowls* — kind: city — 2400 × 1600. Open courts with a fire in the middle, the public bowl, the counting room a woman may not enter, the Ember bowl-house, the Peat Line far north. Warm, gorgeous and poisonous.
+
+11. **`the-fenmarch`** — *The Standing Post and the peat paths* — kind: region — 2400 × 1600. Boardwalks and marked sticks, the peat-dries, the smugglers' paths, the Marsh Mother's standing post. Mark which boards are safe only in the cartographer's note, never on the path.
+
+12. **`the-waste`** — *Beyond the last pass* — kind: world — 2400 × 1600. Deliberately unreliable: coastlines of cold, no distances that can be trusted, the uncollected sitting upright facing the way they came. The last honest note on it is the surveyor's: no map is honest past the last pass.
+
+13. **`the-empty-cantons`** — *The Empty Cantons* — kind: region — 2400 × 1600. Roads, wells, doorways and no people. Draw the squares in the ledger as empty squares on the map. For the founding-invoice revelation.
+
+14. **`war-of-measures`** — *The War of Measures* — kind: battle — 2400 × 1600. Not a field of glory: burned kilns, a poisoned well on the Ferr, a district left cold for a season, collectors' boats on the Ilm. Draw the cold as the thing that advances.
+
+15. **`the-third-thing`** — *A repair that leaves the crack visible* — kind: other — 1600 × 2200. Not a place but an object drawn as a map: the vessel, the flaw, the patch, the note nearly full and never quite, the Warm free to move. A working diagram in the cartographer's hand, with Garl's proverb in the margin. For the late arc.
+
+## Maintenance
+
+When a map is made, move it from this list into the Atlas, add any new place names it uses to `memory/places.md`, and keep a one-line note here of what was drawn and when. Do not draw a map that depends on a place before the story has earned that place.

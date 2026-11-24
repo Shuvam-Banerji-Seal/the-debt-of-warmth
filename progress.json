@@ -5,19 +5,20 @@
     "power",
     "cast-1",
     "cast-2",
-    "cast-3"
+    "cast-3",
+    "arcs"
   ],
   "chapter": 1,
   "step": "plan",
   "scene": 1,
   "consolidated_through": 0,
   "built": {},
-  "calls": 13,
+  "calls": 14,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 0,
-  "tokens_in": 993771,
-  "tokens_out": 306467,
+  "tokens_in": 1212940,
+  "tokens_out": 357926,
   "restarts": [
     {
       "at": "2026-11-24",
