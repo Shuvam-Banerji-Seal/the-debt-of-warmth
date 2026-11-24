@@ -125,7 +125,7 @@ def sanitize_scene(path: Path) -> bool:
     return False
 
 
-SAFE_CMDS = {"emph", "textit", "textbf", "textsc", "person", "place", "lore", "dropcap", "scenebreak",
+SAFE_CMDS = {"emph", "textit", "textbf", "textsc", "person", "place", "lore", "dropcap", "scenebreak", "daymark",
              "memory", "sound", "inscription", "letterhand", "ldots", "dots", "textperiodcentered",
              "begin", "end", "par", "noindent", "enspace", "quad", "smallskip", "medskip", "bigskip",
              "textemdash", "textendash", "S", "P", "&", "%", "$", "#", "_", "{", "}"}
@@ -164,6 +164,27 @@ def flatten_scene(path: Path) -> None:
     t = re.sub(r"\\[a-zA-Z]+\*?(\[[^\]]*\])?", " ", t)
     paras = [md2tex.escape(p.replace("{", "").replace("}", "").strip()) for p in re.split(r"\n\s*\n", t)]
     path.write_text("\n\n".join(p for p in paras if p) + "\n", encoding="utf-8")
+
+
+_DAYMARK = re.compile(r"\\daymark\{\s*(\d+)\s*\}")
+
+
+def day_sections(n: int) -> dict[int, int]:
+    """Words on the page for each \\daymark'd day of chapter n (in scene order)."""
+    words: dict[int, int] = {}
+    current = None
+    for f in scene_files(n):
+        text = f.read_text(encoding="utf-8", errors="replace")
+        pos = 0
+        for m in _DAYMARK.finditer(text):
+            if current is not None:
+                words[current] = words.get(current, 0) + word_count_tex(text[pos:m.start()])
+            current = int(m.group(1))
+            words.setdefault(current, 0)
+            pos = m.end()
+        if current is not None:
+            words[current] = words.get(current, 0) + word_count_tex(text[pos:])
+    return words
 
 
 # ------------------------------------------------------------- compile
@@ -261,8 +282,9 @@ def write_chapter_tex(n: int) -> Path:
     lines.append(f"\\CRepigraph{{{esc(epi.get('text', ''))}}}{{{esc(epi.get('attribution', ''))}}}")
     scenes = scene_files(n)
     for i, s in enumerate(scenes):
-        if i:
-            lines.append("\\scenebreak")
+        opens_day = s.read_text(encoding="utf-8", errors="replace").lstrip().startswith("\\daymark")
+        if i and not opens_day:
+            lines.append("\\scenebreak")  # a new day's mark is its own divider
         lines.append(f"\\input{{{rel(s)}}}")
     chron = chronicle_from_summary(n)
     lines.append("\\CRtailpiece")

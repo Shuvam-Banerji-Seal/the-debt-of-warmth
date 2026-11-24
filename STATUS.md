@@ -2,7 +2,7 @@
 
 - Chapters complete: **7**
 - Words of story: **101,225**
-- Current chapter: 7 (step: publish, scene 6)
+- Current chapter: 8 (step: plan, scene 1)
 - Last chapter: The Number They Give Out (Days 15–24 · Stone 21–30, Y.H. 812)
 - Author calls so far: 85 (tokens in 9,742,101, out 2,078,560)
 - Updated: 2026-11-24 22:18

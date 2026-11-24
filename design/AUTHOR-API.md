@@ -16,6 +16,7 @@ Scene files are body text compiled inside the book class `design/chronicle.cls`.
 ## Story devices
 | Macro | Prints as |
 |---|---|
+| `\daymark{37}{Stone 43, Y.H. 812}` | **required**: a dated heading, “— DAY 37 —” with the in-world date beneath it. Every in-world day in a chapter opens with one, placed on its own line where that day begins (at the very top of the scene file if the scene starts the day, before any `\dropcap`). Days in a chapter appear in order, each once. Flashback passages from the past life get no day mark. |
 | `\dropcap{W}{hen the}` | a decorated red capital, then small caps. Use it **only** as the first thing in scene 1 of a chapter, and make that first paragraph at least three lines long (a one-line paragraph collides with the capital). |
 | `\scenebreak` | a centred fleuron between sections of a scene |
 | `\memory{...}` | italic, for remembered words from the past life |

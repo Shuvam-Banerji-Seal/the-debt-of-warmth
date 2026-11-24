@@ -10,6 +10,7 @@ Read first:
 
 Then write the complete scene as LaTeX body text in `book/chapters/$chdir/scene-$kk.tex`, following AGENTS.md section 4 and design/AUTHOR-API.md:
 - Length: at least $min_words words, aiming for about $target words. Dramatise fully: dialogue, action, interiority, setting and consequence. Earn every paragraph; never pad.
+- $daymark
 - $opening If this is the first scene, its first paragraph must run at least three lines.
 - Index the first mention in this scene of every named person, place and lore term with \person{} \place{} \lore{}.
 - Continue seamlessly from where the previous text stops. Do not recap and do not add a heading.

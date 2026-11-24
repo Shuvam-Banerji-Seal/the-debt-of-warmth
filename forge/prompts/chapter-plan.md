@@ -14,7 +14,7 @@ Then create two files:
 
 A) `book/chapters/$chdir/meta.json`: valid JSON following design/templates/chapter-meta.json exactly.
    - "number": $n
-   - "days": "start" must be $day_rule. A normal chapter spans 1 to 3 days. A "passage" chapter ("mode": "passage") may span up to 30 days, but then each day must appear as its own scene or dated section.
+   - "days": "start" must be $day_rule. **Every single day in the range will be on the page**, opened by its own \daymark and lived for at least 800 words: no day skipped or summarised. A normal chapter spans 1 to 3 days. A "passage" chapter ("mode": "passage") spans at most 7 days, each still fully present.
    - Plan 4 to 8 scenes, each with "target_words" between 2200 and 4500. Every scene must have a real dramatic purpose. The chapter totals at least 12,000 words.
    - "characters": slugs of everyone on stage (existing sheets, or new slugs you will create when closing the chapter).
    - "arc": the current arc from plan/arcs.md (number, title, subtitle).
