@@ -1,0 +1,61 @@
+\begin{tikzpicture}
+  % the chapter's heart: the brown sheet goes around what is set down and leaves it standing
+
+  % a faint ring about the thing that stays, the mark of an account kept elsewhere
+  \fill[gold, opacity=0.05] (0,0.10) circle (1.55);
+  \draw[faded!40, line width=0.4pt, opacity=0.22] (0,0.10) circle (1.40);
+
+  % the thin brown sheet: two calm arms that part around the stone, stopping short
+  \fill[faded!62!ink, opacity=0.30]
+    (-4.45,-0.42)
+    .. controls (-2.90,-0.48) and (-1.50,-0.44) .. (-0.74,-0.50)
+    .. controls (-0.69,-0.66) and (-0.69,-0.88) .. (-0.72,-1.02)
+    .. controls (-1.80,-1.10) and (-3.10,-1.10) .. (-4.45,-1.06) -- cycle;
+  \fill[faded!62!ink, opacity=0.30]
+    (4.45,-0.42)
+    .. controls (2.90,-0.48) and (1.50,-0.44) .. (0.74,-0.50)
+    .. controls (0.69,-0.66) and (0.69,-0.88) .. (0.72,-1.02)
+    .. controls (1.80,-1.10) and (3.10,-1.10) .. (4.45,-1.06) -- cycle;
+
+  % the water's upper edge, drawn once, where the brown catches what light there is
+  \draw[faded!82!ink, line width=0.9pt, opacity=0.70]
+    (-4.45,-0.42) .. controls (-2.90,-0.48) and (-1.50,-0.44) .. (-0.74,-0.50)
+    .. controls (-0.69,-0.66) and (-0.69,-0.88) .. (-0.72,-1.02);
+  \draw[faded!82!ink, line width=0.9pt, opacity=0.70]
+    (4.45,-0.42) .. controls (2.90,-0.48) and (1.50,-0.44) .. (0.74,-0.50)
+    .. controls (0.69,-0.66) and (0.69,-0.88) .. (0.72,-1.02);
+  \draw[gold!55!faded, line width=0.5pt, opacity=0.28]
+    (-4.20,-0.52) .. controls (-2.60,-0.58) and (-1.30,-0.55) .. (-0.82,-0.60);
+  \draw[gold!55!faded, line width=0.5pt, opacity=0.28]
+    (4.20,-0.52) .. controls (2.60,-0.58) and (1.30,-0.55) .. (0.82,-0.60);
+
+  % the clean dark line, set down long ago, that the water stands a hand's breadth short of
+  \draw[ink, line width=3.0pt, opacity=0.09] (-0.60,-0.34) -- (-0.60,0.62);
+  \draw[faded!88!ink, line width=1.20pt] (-0.60,-0.34) -- (-0.60,0.62);
+
+  % the thing set down: a squat stone left where it lies, and so kept
+  \fill[ash!42!vellum, opacity=0.78] (-0.52,-0.34) rectangle (0.52,0.58);
+  \draw[faded!88!ink, line width=1.0pt] (-0.52,-0.34) rectangle (0.52,0.58);
+  \fill[ash!30!ink, opacity=0.28] (-0.59,0.58) rectangle (0.59,0.66);
+  \draw[faded!85!ink, line width=0.9pt] (-0.59,0.58) rectangle (0.59,0.66);
+  \draw[faded!70!ink, line width=0.5pt, opacity=0.42]
+    (0.10,0.57) .. controls (0.02,0.33) and (0.16,0.12) .. (0.06,-0.10);
+
+  % the hand's breadth on either side, held off and never entered
+  \draw[faded, line width=0.5pt, dotted, opacity=0.50] (-0.71,-0.28) -- (-0.61,-0.28);
+  \draw[faded, line width=0.5pt, dotted, opacity=0.50] (0.71,-0.28) -- (0.53,-0.28);
+
+  % the count above: loaves on a shelf, and a space at the row's end nobody calls a number
+  \draw[faded!72!ink, line width=0.7pt, opacity=0.58] (-1.45,1.04) -- (1.78,1.04);
+  \foreach \lx in {-1.15,-0.55,0.05,0.65}{
+    \fill[faded!55!ink, opacity=0.32] (\lx,1.19) ellipse (0.20 and 0.12);
+    \draw[faded!80!ink, line width=0.5pt, opacity=0.58] (\lx,1.19) ellipse (0.20 and 0.12);
+  }
+  \draw[faded, line width=0.5pt, dotted, opacity=0.42] (1.34,1.19) ellipse (0.20 and 0.12);
+
+  \node at (-4.62,0.02) {\pgfornament[width=1.3cm,color=ornament]{98}};
+  \node at ( 4.62,0.02) {\pgfornament[width=1.3cm,color=ornament,symmetry=v]{98}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {what the water goes around};
+\end{tikzpicture}
