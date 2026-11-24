@@ -1,0 +1,57 @@
+\begin{tikzpicture}
+  % the river under the ice: a dark body of water, gone soft from beneath
+  \fill[night!91] (0,-0.05) ellipse (3.75 and 1.00);
+
+  % the honeyed water under the mud: amber light nobody will name
+  \begin{scope}
+    \clip (0,-0.05) ellipse (3.66 and 0.92);
+    \fill[gold!58!rubric, opacity=0.17] (-2.25,-0.50) ellipse (1.15 and 0.30);
+    \fill[gold!55!rubric, opacity=0.15] ( 0.70,-0.60) ellipse (1.35 and 0.29);
+    \fill[gold!50!rubric, opacity=0.11] ( 2.55,-0.48) ellipse (0.85 and 0.24);
+    \fill[rubric!55!gold, opacity=0.09] (-0.85,-0.72) ellipse (0.95 and 0.18);
+
+    % the river going on as though nothing had been taken
+    \draw[faded!70, line width=0.75pt, opacity=0.30] (-3.45,-0.52)
+          .. controls (-1.20,-0.76) and ( 1.05,-0.34) .. (3.45,-0.60);
+    \draw[gold!52!faded, line width=0.65pt, opacity=0.22] (-3.30,-0.76)
+          .. controls (-1.00,-0.92) and ( 1.20,-0.52) .. (3.30,-0.78);
+    \draw[faded!60, line width=0.55pt, opacity=0.16] (-3.10,-0.30)
+          .. controls (-0.90,-0.50) and ( 1.10,-0.14) .. (3.10,-0.34);
+  \end{scope}
+
+  % the ice sheet: a pale translucent skin laid over the upper water
+  \fill[ash!80!vellum, opacity=0.58] (0,0.28) ellipse (3.72 and 0.64);
+  \draw[ash!62!faded, line width=0.8pt, opacity=0.48] (0,0.28) ellipse (3.72 and 0.64);
+  \fill[vellum, opacity=0.10] (-0.55,0.44) ellipse (2.35 and 0.28);
+
+  % frost grained along the surface, fine and uncounted
+  \foreach \x/\w in {-2.70/0.42, -1.45/0.55, -0.10/0.60, 1.25/0.52, 2.50/0.38}{
+    \draw[vellum, line width=0.55pt, opacity=0.16]
+      (\x-\w,0.52) .. controls (\x-0.3*\w,0.72) and (\x+0.3*\w,0.72) .. (\x+\w,0.50);
+  }
+  \foreach \x/\y in {-2.9/0.30, -1.9/0.62, -0.6/0.20, 0.8/0.66, 2.0/0.28, 2.9/0.52}{
+    \fill[vellum, opacity=0.18] (\x,\y) circle (0.012);
+  }
+
+  % the hairline: run in from one side, stopping a thumb's breadth short of the edge
+  \draw[night, line width=1.7pt, opacity=0.16]
+    (-3.48,0.40) -- (-2.92,0.46) -- (-2.48,0.35) -- (-1.84,0.47)
+    -- (-1.30,0.36) -- (-0.62,0.44) -- (-0.08,0.34) -- ( 0.60,0.43)
+    -- ( 1.26,0.35) -- ( 1.92,0.42) -- ( 2.38,0.36) -- ( 2.66,0.40);
+  \draw[vellum, line width=0.9pt, opacity=0.88]
+    (-3.52,0.44) -- (-2.96,0.50) -- (-2.52,0.39) -- (-1.88,0.51)
+    -- (-1.34,0.40) -- (-0.66,0.48) -- (-0.12,0.38) -- ( 0.56,0.47)
+    -- ( 1.22,0.39) -- ( 1.88,0.46) -- ( 2.34,0.40) -- ( 2.62,0.44);
+  \draw[vellum, line width=0.5pt, opacity=0.48] (-1.34,0.40) -- (-1.52,0.18) -- (-1.66,0.14);
+  \draw[vellum, line width=0.5pt, opacity=0.42] ( 0.56,0.47) -- ( 0.74,0.66) -- ( 0.90,0.70);
+  \fill[vellum, opacity=0.38] (2.62,0.44) circle (0.035);
+
+  % the breadth left uncracked, entered nowhere
+  \draw[faded, line width=0.55pt, dashed, opacity=0.38] (2.76,0.43) -- (3.60,0.40);
+
+  % flourished rules at the ends of the frozen reach
+  \node at (-4.32,-0.04) {\pgfornament[width=1.35cm,color=ornament]{84}};
+  \node at ( 4.32,-0.04) {\pgfornament[width=1.35cm,color=ornament,symmetry=v]{84}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.42) {nobody says the word for it};
+\end{tikzpicture}

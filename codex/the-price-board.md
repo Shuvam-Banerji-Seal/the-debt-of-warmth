@@ -9,7 +9,7 @@ I keep the beam on the quay. A man brings a barrow of peat or a basket of eels a
 
 Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which is a Sere coin and does not stay in Grath. The Court books in embers and will tell a man an ember is worth five marks; no man has ever exchanged one for the other, and I have not left a space for them on the board.
 
-> *In the narrow upright hand of the Court's factor's clerk, struck over the last sentence:* Coin and reckoning entered. *Underneath, in mine:* Twelve bits to a mark. Twenty marks to a crown. An ember is a word the Court uses for warmth it has already counted. Let both stand. He takes the verbs out because a thing always true has no need of them; I put them back because a carter standing in the rain does not know he is hearing something always true.
+> *In the narrow upright hand of the Court's factor's clerk:* Coin and reckoning entered. *Underneath, in mine:* An ember is a word the Court uses for warmth it has already counted. He takes the verbs out because a thing always true has no need of them; I put them back because a carter standing in the rain does not know he is hearing something always true.
 
 # The board, as it stood on the quay wall
 
@@ -27,7 +27,7 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 | Turnips, two | 1 bit |
 | Barley gruel, a bowl at a house door | not sold; given, and not entered |
 
-> *Margin, in my hand:* I put the last line on the board and the factor's clerk took it off, saying a thing not sold has no price and no place in a list of prices. I have put it back here. In Low Kiln a bowl given at a door is the greater part of what the district eats and the whole of what it does not discuss.
+> *Margin, in my hand:* The factor's clerk took the last line off the board, saying a thing not sold has no price. I have put it back. In Low Kiln a bowl given at a door is the greater part of what the district eats and the whole of what it does not discuss.
 
 ## Goods that go downriver and goods that come back
 
@@ -45,8 +45,6 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 | Glass from the Glaze Cliffs, a sheet | 2 marks |
 | Rope, a coil | 1 mark |
 | Tallow, a stone | 2 marks |
-| Wool, a fleece, south-country | 4 marks |
-| Lime and coarse sandstone, Stonemouth | by the cart, 3 bits and a day's keep for the carter |
 | Lead, a pig, from the western workings | 6 marks; the seller does not say which workings |
 
 > *Margin:* The peat row stood blank through the Long Cold of Y.H. 811. Fuel doubled in the first tend of Stone and then stopped being quoted, because there was none to sell. I have set two figures above it for the Thin Year, and struck neither out. A man who buys peat in Grain and pays the Stone figure does not complain, which is how I know the board is not a list of what things are worth.
@@ -60,7 +58,6 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 | A child sweeping the yard, the day | 6 bits |
 | A collector's clerk, the day | 4 marks |
 | A carter and cart, the day | 2 marks and the beast's feed |
-| A porter at this quay, the day | 1 mark and a quart of ale |
 | Rent, two rooms in Low Kiln, the month | 8 marks |
 | Fuel, the month | 4 marks |
 | Food, the month | 12 marks |
@@ -77,12 +74,9 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 
 | Article | Price |
 |---|---|
-| Smoke-eel, dried, at the Fishstairs | 3 bits |
 | Leeches, dried, by the dozen, Fishstairs | 3 bits; no questions |
 | Ice-mouse skin | 1 bit in Sill; 1 mark in Keld |
 | Brine-gull feathers, a bundle, at Vhal | 1 bit |
-| Cupworm silk, the yard, at Nine Pots | 2 bits |
-| Kiln-hound tongue, dried | 2 bits |
 | Reed-wolf tooth, for a clamp-handle, Stonemouth | 2 marks |
 | Ash-mite paste, a thimble, in Mud End | 4 bits |
 | The same, in the Hearthseat | 60 marks, taxed |
@@ -100,7 +94,7 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 | Whole return, booked by the Court | 1,200 marks and forty unspent measures |
 | Ember, as booked | 5 marks |
 
-> *Margin:* I copy these because the factor keeps a damp leaf of them in his drawer and desires that the board agree. One in twelve is printed and unchallenged and I have put no other figure beside it. I have heard other figures spoken in the yards upriver and have not entered them, not being figures I can weigh.
+> *Margin:* The factor keeps a damp leaf of these in his drawer and desires that the board agree. One in twelve is printed and unchallenged and I have put no other figure beside it. I have heard other figures spoken upriver and have not entered them, not being figures I can weigh.
 
 # The tolls of the roads
 
