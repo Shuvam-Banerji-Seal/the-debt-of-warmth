@@ -46,6 +46,8 @@
 
 **The carried fire (the year's fire).** The new fire taken into every house on Kindling: a coal under ash comes up the yard in a clay dish, each hearth touches its own flame to it and passes it on, and the last house keeps what is left. In Low Kiln nobody says where the flame was first lit or what it cost, and the Vail house keeps it banked under ash and never answers a question about its payer. On Ilmen 16, Y.H. 813 a brine-gull carried off one of its coals, not yet cold, upriver; one warmth less went out of the house's account and was missed in no account, and the fire went on taking its breath in fours and a gap. Through Ilmen 19–25, Y.H. 813 it still lay under blind ash and the back of a broken pot, warming the boards by degrees and missing one breath in every four; the coal the gull took was entered in no slate and missed in no account.
 
+Through Silt 2–8, Y.H. 813 it still lay under blind ash and the back of a broken pot, warming the boards by degrees and missing one breath in every four, its payer unnamed; the coal a brine-gull took on Ilmen 16 was twenty-two days gone and entered in no slate.
+
 **Clay-bound.** A debt-servant working off a term, commonly seven years, with interest gathering as grey Ash in the household accounts.
 
 **Clay-name.** The name a slave is given by the household that owns them; the old name is forbidden.
@@ -85,6 +87,8 @@
 **Cupworm.** A blind worm that bores clay from the inside, so that a pot looks sound and breaks at first pouring.
 
 **D**
+
+**Debt left lying.** A debt nobody has picked up, which is not the same as a debt forgiven; a saying kept in the Vail kiln-house in Silt, Y.H. 813, where Garl's tile debt lay where it lay through seven days of higher water.
 
 **Debt Loft.** The narrow sleeping loft above a potter's wheel-shed in Low Kiln where a household's clay-bound hands sleep. In a poor house a foundling may be given a bed under the roof while a debt is given the loft, and the difference is not argued about.
 
@@ -127,6 +131,8 @@
 **Fish Blessing.** The rite held at the Weir one league upriver of Sill on Ilmen 15 (in Y.H. 813 it fell on Day 44), when the hearth-maids stand on the flat stone with its crossed mark and bless the weir and the eel traps. The traps have their mouths upriver so an eel goes in and cannot find the way out; the eels run whether anybody blesses them or not. A saying of the Weir: *the brook takes what no slate will enter; the knot keeps what no clerk can spell; the eels run whether anybody blesses them or not.*
 
 **Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it. By Stone 12, Y.H. 812 he has heard it five times from four sources --- a cup across a birth room, a pot in the Vail house, the district's own reading slate twice, and a dying man at the Hearth Drawing, the fifth and the first from a person --- and nobody has tapped any of them for him. On Stone 13 a pot was turned toward before it was set down and gave nothing --- an interval with the shape of a sound, not a sixth hearing, which the boy kept as an object. On Stone 17 a second pot was turned toward under the Vail roof and gave nothing; the two intervals lie on a separate tray from the hearings, On Stone 22 a vessel carried past the Vail door gave it too far and too muffled to confirm, and on Stone 25 a pot cracked all the way through two paces from the basket and was called a pot gone wrong; both went on the separate tray of intervals, and through Stone 30 the count stands at five from four sources with no sixth. On Ilmen 6, Y.H. 813 a pot set down out of a woman's shadow answered *nearly full* --- a third sound, neither the flat answer nor a silence --- and was filed as the first earthly answer to the interval first kept on Stone 13; it is not a sixth hearing and there is no Grathic word for nearly. On Ilmen 9, Y.H. 813 the small flat knock came out of a woman lifted from the clay-heavy Slip Brook --- the sixth hearing, and the second that had ever come from a person --- and lay beside the five from four sources without being among them; no seventh came. Through Ilmen 16–18 the count stood at six, five from four sources and one from a person; the clerk's open slate at the Fishstairs gave nothing and no seventh hearing came. On Ilmen 21, Y.H. 813 a vessel carried past the Vail yard door gave its note too far and too muffled to place and Tarn's head did not turn, and on Ilmen 23 a second pot set down in the Clay Yard answered *nearly full* with air under the note and a want in it; the boy filed the second answer beside the first as an answer to the interval kept since Stone 13, advanced and not paid. The count still stood at six with no seventh, no hand to tap either pot and no Grathic word for nearly.
+
+Through Days 61–67 the count stood at six hearings --- five from four sources and the sixth out of a person --- beside and never among, with no seventh; a third pot answered *nearly full* on Silt 6 and was filed advanced and not paid beside the answers of Ilmen 6 and Ilmen 23, while three intervals stayed objects and water-over-water was a fifth low thing that was not a hearing at all.
 
 **The full note.** The full sound a sound vessel gives under the knuckle; a cracked vessel answers flat. The first tool of the clinical ear.
 
@@ -176,6 +182,8 @@
 
 **Honeyed ice.** The low country's word for ice going soft from underneath while the top still looks sound; on Ilmen 2, Y.H. 813 a man come up from the Ilm told the yard the ice was honeyed under the mud, and a woman at the well said the water tasted different. The district passes the word around and will not say the word for the thaw itself, which lets a person go home without owning the day. On Ilmen 19 and Ilmen 25, Y.H. 813 the man who had said *honeyed* kept his counsel and the woman who had said the ice would hold said nothing at all, so that the old argument ended with nobody left to carry it.
 
+On Silt 8, Y.H. 813 a man come back from looking said the ice was *honeyed all through, not just at the edge; you could cut it and find it yellow in the middle*, and the dark current showed through the skin of the Ilm in veins; the boy set the saying and the sight on places that did not touch.
+
 **Hot trace.** Warmth that leaves a vessel in an act of giving and stays hot, tangled with an unpaid promise, instead of cooling into the bank.
 
 **House roll.** A household's own slate of names and entries, kept close and not shown to the Court's assessor. In Low Kiln a house that keeps its own account does not need to explain the keeping, only to keep it.
@@ -198,11 +206,15 @@
 
 **Kiln's breath.** The invisible poison of a closed kiln house or cellar; it kills in sleep and is called a merciful death by those who have not identified the body. On Ilmen 26, Y.H. 813 a man come downriver from Greybank described at the well a counting room shut in the last war with the damper closed and the men inside dead of the breath; he said it as something that happened eighteen leagues east, and nobody in the yard connected it to the kiln's own missing fifth breath under their roofs.
 
+Through Silt 2–8, Y.H. 813 the carried fire under the Vail roof still took its breath in fours and a gap, keeping the missing fourth as carefully as the breaths that came.
+
 **Kiln-hound.** A feral dog of old kilns whose hot breath carries the kiln's own poison.
 
 **Kiln-Masters of Sill.** The craft guild that holds the kilns, the First Firing and the knowledge of the full note in Grath.
 
 **Knot-string.** A length of grey wool in which a woman keeps her accounts by tying knots instead of writing names, so that an officer cannot read it and a fire cannot take a name from it. Orra Weir of the Weir keeps forty knots and a forty-first she cannot account for; Mira Silt of the Fishstairs keeps two cords, one twisted twice beneath the other, and has never counted the knots on either. A knot in wool has to be looked at by the woman who tied it, and stays where she left it. On Ilmen 16, Y.H. 813 the boy could read the **shape** of Orra's forty-first knot --- a double turn with the tail tucked, tied left over right, the small extra weight of a thumb setting it --- but not its name; the word was not spoken again and the cord went back upriver to the Eel House unread. On Ilmen 24, Y.H. 813 Mira Silt showed the second cord twisted twice beneath the grey at the Fishstairs, never carried to Nine Pots or lifted at a door, the knots on neither counted, and her board stood beside Orra's without touching it; the shape of the extra knot was legible to the boy without its name and the word was not spoken.
+
+On Silt 2, Y.H. 813 Mira again showed the second cord twisted twice beneath the grey when a figure was spoken at the Fishstairs, never carried to Nine Pots or lifted at a door, the knots on neither counted; her board lay beside Orra's knot-string and did not touch it.
 
 **Kindling.** The first of the Five, when every hearth in Sarn is lit from the Hearth-flame and collectors take the year's first measure.
 
@@ -318,6 +330,8 @@
 
 **The Singing Sill.** The ledge of hard stone under the falls at Sill, which gives a low note when the Warm rises in Ilmen. On Ilmen 25, Y.H. 813 it gave that note earlier than it should and the yard called it weather; the boy kept the early note beside the told bell, the heard bell and the kiln's own missing breath in four places that did not touch.
 
+On Silt 7, Y.H. 813 it gave its low note a week ahead of its hour, felt in the roots of the teeth before the ear placed it out in the water, and the yard said the water ran fast under the ice and then said weather; the boy kept the early note beside the told bell, the heard bell and the kiln's gap in four places, joined by nobody.
+
 **Sill.** The town of just over four thousand souls where the Ilm drops four feet over a ledge; Corin's birthplace.
 
 **Slate-name.** The only name an officer of the Keeping has, entered on the rolls in Ledgerhand on entering the service.
@@ -329,6 +343,8 @@
 **Slip pits.** The clay pits of the Clay Yard in Low Kiln, counted as nineteen steps to the drying rack and nineteen back; Dessa Silt has walked the count every day for six years. The cough that comes off them in cold weather is called weather, as if the pits owned it.
 
 **The Slip Brook.** A narrow clay-coloured stream through the Clay Yard whose colour the children of Low Kiln read as weather. On Ilmen 9, Y.H. 813 its clay-heavy rise came up behind the drying racks in the night and took Dessa Silt from the end of nineteen steps; the yard lifted her out with their hands and no collector was called.
+
+Through Days 61–67, Y.H. 813 it ran clay-heavy and higher behind the drying racks, going over itself with a low note the district had no word for, and the yard called it the thaw.
 
 **The Spending.** The Sere doctrine that a vessel was made to be emptied gloriously and that a life hoarded is a life wasted.
 
@@ -355,6 +371,8 @@
 **Thane of Clay.** Grath's ruler, chosen by the kiln-masters of Sill and confirmed by the Court's factor at Greybank.
 
 **The thaw.** The spring working season, when the brook comes up and the clay goes soft. Debts in Low Kiln are often put off until then, in the phrase *you'll pay for it in the thaw*. Through Ilmen 19–25, Y.H. 813 the thaw came on in frost-bloom written back on the well-lip, oiled paper hanging slack in its frame, a silence where an argument used to stand, more hairlines stopping short of the edge of the Ilm, an early low note from the Singing Sill and a high clay-heavy brook, and the district had one word for all of it: weather. On Ilmen 25 a weak board in the plank walk at the Weir was said plainly to be still there and trodden by nobody. On Silt 1 a new hairline of grey gathered in the corner of the Vail kiln-house beside the clean dark line where the old Ash ridge had turned; Sella stood over it with a broom, called it the thaw and did not sweep it.
+
+On Silt 2–8, Y.H. 813 the higher clay-heavy brook going over itself behind the drying racks, the early Singing Sill note, the weak board trodden by nobody, the widening hairlines, the honeyed-all-through ice and a new fine grey in the Vail corner were all called the thaw or weather, and the year's flood stood four days off.
 
 **Thin.** A vessel that leaks faster than it takes in; the common condition of the poor, the spent and the returned poor. Also the bottom rank of a vessel.
 
@@ -403,6 +421,10 @@
 **The Waste.** The cold country beyond the cracks at the edge of all things, where everything unheld goes.
 
 **Wastelings.** The bands beyond the Rim who take what the world loses; they have no banks, no Returns and no word for a debt.
+
+**Water over water (the river's own note).** The low continual turning a stream makes when it has more of itself than its channel will carry; water going over its own rise. Heard behind the drying racks on Silt 2, Y.H. 813, it is not a vessel's note and is not counted among the hearings; the district has no word for it and calls it the thaw. The boy files it on a place of its own beside the told bell, the heard bell, the early Sill note and the kiln's gap, and writes no cause across any of them. In the year's flood it becomes the note of a whole district under strain.
+
+**Weather.** The district's one word for whatever a person can go home warm on. It does not name the thing it is said over; it grants permission to stop looking at it. On Silt 7, Y.H. 813 a washwoman said the water ran fast under the ice and then said weather and went home warm on the word, and a man come back from looking at the honeyed ice was answered with the same word and nodded as though it settled him.
 
 **Weighing.** The second of the Five, when the year's measures are read aloud and the rich learn how whole they are. In Sill the reading is given in a clean voice that wears a temple's clothes and takes the speaker neatly out of his own sentences, in the same grammar heard at the Cross; a whole return may be announced for a person who is not in the room.
 
