@@ -218,6 +218,18 @@
 \newcommand\CRtailpiece{\par\nopagebreak[4]\vspace{0.6\baselineskip}\nopagebreak[4]%
   {\centering\color{ornament}\pgfornament[width=0.22\textwidth]{72}\par}\vspace{0.3\baselineskip}}
 
+%% Day marks: every in-world day of the hero's life opens with \daymark{N}{date}.
+%% Each becomes a PDF bookmark, so any day of his life can be found.
+\newcounter{CRdayanchor}
+\NewDocumentCommand\daymark{m m}{%
+  \par\addvspace{1.1\baselineskip}%
+  \stepcounter{CRdayanchor}\pdfbookmark[1]{Day #1}{crday.\theCRdayanchor}%
+  {\centering\CinzelFont\footnotesize\addfontfeature{LetterSpace=22,Numbers=Lining}\color{rubric}%
+    \textemdash\enspace DAY #1\enspace\textemdash\par}\nopagebreak
+  \ifblank{#2}{}{{\centering\FellFont\itshape\small\color{faded}#2\par}\nopagebreak}%
+  {\centering\color{ornament}\pgfornament[width=0.2\textwidth]{88}\par}\nopagebreak
+  \vspace{0.35\baselineskip}\nopagebreak\noindent\ignorespaces}
+
 %% Drop capital: \dropcap{W}{hen the rain}
 \NewDocumentCommand\dropcap{m m}{%
   \lettrine[lines=2,lraise=0.10,loversize=0.16,findent=0.18em,nindent=0.12em]%
