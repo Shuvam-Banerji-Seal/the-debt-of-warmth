@@ -105,6 +105,14 @@
     return node;
   };
 
+  /* Set the book's engraved corner at each corner of a framed element. */
+  S.addCorners = function (el) {
+    if (!el || el.getElementsByClassName('corner').length) return;
+    ['tl', 'tr', 'bl', 'br'].forEach(function (pos) {
+      el.appendChild(S.el('span', 'corner c-' + pos));
+    });
+  };
+
   S.fail = function (container, what, err, retry) {
     if (!container) return;
     var box = S.el('div', 'fetch-error');

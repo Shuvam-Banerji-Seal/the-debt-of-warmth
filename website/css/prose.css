@@ -17,29 +17,63 @@
 }
 .prose > * { max-width: 100%; }
 
-/* ---------- The chapter head ---------- */
-.chapter-head { text-align: center; margin: 2.4rem 0 2.2rem; }
+/* ---------- The chapter head, set as the book sets it ---------- */
+.chapter-head { text-align: center; margin: .4rem 0 1.9rem; }
+.chapter-headpiece {
+  display: block; width: min(74%, 320px); height: auto;
+  margin: 0 auto 1.3rem;
+}
 .chapter-head .chap-num {
-  font-family: var(--font-caps); font-size: .72rem;
-  letter-spacing: .32em; text-transform: uppercase; color: var(--muted); margin: 0;
+  font-family: var(--font-caps); font-size: .7rem;
+  letter-spacing: .34em; text-transform: uppercase; color: var(--muted); margin: 0;
 }
 .chapter-head .chap-n {
-  font-family: var(--font-head); font-size: clamp(2.2rem, 6vw, 3.4rem);
-  color: var(--rubric); line-height: 1; margin: .15rem 0 .35rem;
+  font-family: var(--font-text);
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1;
+  font-size: clamp(2.5rem, 7vw, 3.5rem);
+  color: var(--rubric); line-height: 1; margin: .25rem 0 .5rem;
 }
-.chapter-head .chap-n::before { content: "❦"; display: block; font-size: .42em; color: var(--gold); margin-bottom: .55rem; }
 .chapter-head h1 {
-  margin: .2rem 0 .7rem; font-family: var(--font-head);
-  font-size: clamp(1.8rem, 4.6vw, 2.9rem); letter-spacing: .01em;
+  margin: .25rem 0 .7rem; font-family: var(--font-head);
+  font-size: clamp(1.7rem, 4.3vw, 2.55rem); letter-spacing: .01em; color: var(--ink);
 }
 .chapter-head .when {
-  font-family: var(--font-fell); font-style: italic; font-size: .92em;
+  font-family: var(--font-fell); font-style: italic; font-size: .94em;
   color: var(--muted); line-height: 1.45; margin: 0 auto; max-width: 38rem;
 }
+/* The rule with the medallion, between the date and the epigraph. */
 .chapter-head::after {
-  content: ""; display: block; width: 55%; max-width: 16rem; height: 3px;
-  margin: 1.5rem auto 0; border-top: 1px solid var(--gold); border-bottom: 1px solid var(--rule);
+  content: ""; display: block; width: min(340px, 82%); height: 32px;
+  margin: 1.1rem auto .3rem;
+  background: url("../images/ornaments/rule-medallion.svg") no-repeat center / contain;
 }
+html[data-theme="night"] .chapter-headpiece,
+html[data-theme="night"] .chapter-head::after,
+html[data-theme="night"] .tailpiece,
+html[data-theme="night"] .prose .break,
+html[data-theme="night"] .arc-opening img { filter: brightness(1.45); }
+
+/* ---------- The opening of an arc ---------- */
+.arc-opening {
+  text-align: center; max-width: 42rem; margin: 3.6rem auto 3rem;
+  padding: 1.2rem 1rem;
+}
+.arc-opening img { display: block; height: auto; margin-inline: auto; }
+.arc-opening .arc-headpiece { width: min(72%, 300px); margin-bottom: 1.4rem; }
+.arc-opening .arc-kicker {
+  font-family: var(--font-caps); font-size: .7rem; letter-spacing: .32em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 .8rem;
+}
+.arc-opening h1 {
+  font-family: var(--font-head); font-size: clamp(1.65rem, 4.4vw, 2.5rem);
+  color: var(--rubric); margin: 0 0 .7rem;
+}
+.arc-opening .arc-sub {
+  font-family: var(--font-fell); font-style: italic; font-size: 1.05em;
+  color: var(--muted); margin: 0 0 1.2rem;
+}
+.arc-opening .arc-flourish { width: min(56%, 240px); }
 
 /* ---------- Epigraph ---------- */
 .epigraph {
@@ -86,9 +120,16 @@
   font-size: 4.05em; line-height: .74; padding: .08em .1em 0 0;
 }
 .prose .sc { font-variant: small-caps; letter-spacing: .01em; }
+/* The book's little fleuron marks a scene break. */
 .prose .break {
-  text-align: center; color: var(--gold); font-size: 1.5em;
-  margin: 2rem 0 1.7rem; line-height: 1;
+  width: 82px; height: 30px; margin: 2rem auto 1.7rem;
+  font-size: 0; line-height: 0;
+  background: url("../images/ornaments/fleuron.svg") no-repeat center / contain;
+}
+/* The tailpiece comes at a chapter's end, before the Chronicle. */
+.tailpiece {
+  width: min(180px, 44%); height: 40px; margin: 2.6rem auto .2rem;
+  background: url("../images/ornaments/tailpiece.svg") no-repeat center / contain;
 }
 .prose em.memory {
   font-family: var(--font-fell); font-style: italic;
@@ -122,6 +163,7 @@
 .chronicle::before {
   content: ""; position: absolute; inset: 5px; border: 1px solid var(--rule); pointer-events: none;
 }
+.chronicle .corner { width: 22px; height: 22px; opacity: .85; }
 .chronicle .ctitle {
   font-family: var(--font-caps); font-size: .72rem; letter-spacing: .2em;
   text-transform: uppercase; color: var(--rubric); text-align: center; margin: 0 0 1.1rem;

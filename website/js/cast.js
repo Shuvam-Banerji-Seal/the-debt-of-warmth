@@ -61,6 +61,7 @@
     if (person.epithet) body.appendChild(S.el('span', 'card-epithet', person.epithet));
     if (person.role) body.appendChild(S.el('span', 'card-role', person.role));
     card.appendChild(body);
+    S.addCorners(card);
 
     card.addEventListener('click', function () { openSheet(person); });
     li.appendChild(card);

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>A Reckoning of Days — The Debt of Warmth</title>
   <meta name="description" content="Every day lived in Sarn, entered in order, each one leading into the reader.">
-  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/emblem.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/site.css">
   <link rel="stylesheet" href="css/prose.css">
   <link rel="stylesheet" href="css/pages.css">
@@ -17,7 +17,7 @@
 
   <header class="site-nav">
     <div class="site-nav-inner">
-      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">❦</span><span>The Debt of Warmth<small>A surgeon's account of Sarn</small></span></a>
+      <a class="brand" href="index.html"><img class="brand-mark" src="images/emblem.svg" alt="" aria-hidden="true"><span>The Debt of Warmth<small>A surgeon's account of Sarn</small></span></a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html" data-page="index.html">Home</a>
         <a href="read.html" data-page="read.html">Read</a>
@@ -38,12 +38,20 @@
     </div>
 
     <div id="days-error" aria-live="polite"></div>
+
+    <div class="collector-slate">
+      <span class="slate-label">The collector's slate</span>
+      <span class="tally" aria-label="Four, four, and a gap"><span class="chalk">IIII</span><span class="gap"></span><span class="chalk">IIII</span><span class="knot">—</span></span>
+      <span class="slate-caption">Four, four, and a gap. The count is kept.</span>
+    </div>
+
     <div class="days-controls">
       <label for="day-jump" class="smallcaps">Go to day</label>
       <input type="number" id="day-jump" min="1" step="1" placeholder="37">
       <button type="button" class="btn btn--quiet" id="day-clear">Show all days</button>
     </div>
     <p class="days-note" id="days-note">Opening the ledger…</p>
+    <div class="ledger-head" aria-hidden="true"><span>Day</span><span>Entered in the book</span></div>
     <div class="ledger" id="ledger" aria-live="polite"></div>
     <div class="days-controls" id="more-wrap" hidden>
       <button type="button" class="btn" id="more-days">Show the next fifty days ❧</button>

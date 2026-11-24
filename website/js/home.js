@@ -7,6 +7,7 @@
   var errorBox = document.getElementById('home-error');
   var stats = document.getElementById('stats');
   var arcs = document.getElementById('arcs');
+  S.addCorners(document.querySelector('.hero'));
 
   S.getBook().then(function (book) {
     renderActions(book);

@@ -7,6 +7,10 @@
   var flow = document.getElementById('chapter-flow');
   var crumb = document.getElementById('crumb');
   var progress = document.getElementById('progress-bar');
+  var progressVessel = document.getElementById('progress-vessel');
+  var savedNote = document.getElementById('saved-note');
+  var savedNoteTimer = null;
+  var lastNotice = 0;
   var tocDrawer = document.getElementById('toc-drawer');
   var settingsDrawer = document.getElementById('settings-drawer');
   var tocToggle = document.getElementById('toc-toggle');
@@ -43,6 +47,68 @@
     return chapters().filter(function (c) { return c.n === n; })[0] || null;
   }
   function chapterAt(i) { return chapters()[i] || null; }
+
+  function arcFor(ch) {
+    if (!ch || !book) return null;
+    var arcs = book.arcs || [];
+    for (var i = 0; i < arcs.length; i++) {
+      if ((arcs[i].chapters || []).indexOf(ch.n) >= 0) return arcs[i];
+    }
+    return null;
+  }
+
+  function firstChapterOfArc(arc) {
+    var list = ((arc && arc.chapters) || []).map(Number);
+    return list.length ? Math.min.apply(null, list) : null;
+  }
+
+  function ordinalWord(n) {
+    var words = ['Zeroth', 'First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth',
+      'Seventh', 'Eighth', 'Ninth', 'Tenth', 'Eleventh', 'Twelfth'];
+    return words[Number(n)] || String(n);
+  }
+
+  /* The arc title block the book sets on its own page. */
+  function buildArcOpening(ch) {
+    var arc = arcFor(ch);
+    if (!arc) return null;
+    var box = S.el('section', 'arc-opening');
+    box.id = 'arc-' + (arc.number || arc.title);
+    var head = document.createElement('img');
+    head.className = 'arc-headpiece';
+    head.src = 'images/ornaments/headpiece.svg';
+    head.alt = '';
+    head.setAttribute('aria-hidden', 'true');
+    box.appendChild(head);
+    box.appendChild(S.el('p', 'arc-kicker', 'THE ' + ordinalWord(arc.number) + ' ARC'));
+    box.appendChild(S.el('h1', null, arc.title || 'An arc'));
+    if (arc.subtitle) box.appendChild(S.el('p', 'arc-sub', arc.subtitle));
+    var flourish = document.createElement('img');
+    flourish.className = 'arc-flourish';
+    flourish.src = 'images/ornaments/flourish.svg';
+    flourish.alt = '';
+    flourish.setAttribute('aria-hidden', 'true');
+    box.appendChild(flourish);
+    return box;
+  }
+
+  function showArcAt(ch, previous) {
+    if (!ch) return false;
+    if (previous && previous.arc !== ch.arc) return true;
+    var arc = arcFor(ch);
+    return !!arc && firstChapterOfArc(arc) === ch.n;
+  }
+
+  function noteSaved(force) {
+    if (!savedNote) return;
+    var now = Date.now();
+    if (!force && now - lastNotice < 30000) return;
+    lastNotice = now;
+    savedNote.textContent = 'The account stands — your place is kept.';
+    savedNote.classList.add('show');
+    if (savedNoteTimer) window.clearTimeout(savedNoteTimer);
+    savedNoteTimer = window.setTimeout(function () { savedNote.classList.remove('show'); }, 2600);
+  }
 
   function findDay(n) {
     var list = chapters();
@@ -101,8 +167,27 @@
       unit.appendChild(fig);
     }
 
-    var prose = S.el('div', 'prose chapter-fragment');
+    var prose = S.el('div', 'prose chapter-fragment ornate');
     prose.innerHTML = html; /* the press's own fragment */
+
+    var head = prose.querySelector('.chapter-head');
+    if (head && ch.headpiece) {
+      var headpiece = document.createElement('img');
+      headpiece.className = 'chapter-headpiece';
+      headpiece.src = ch.headpiece;
+      headpiece.alt = '';
+      headpiece.setAttribute('aria-hidden', 'true');
+      head.insertBefore(headpiece, head.firstChild);
+    }
+
+    var chronicle = prose.querySelector('.chronicle');
+    if (chronicle) {
+      var tail = S.el('div', 'tailpiece');
+      chronicle.parentNode.insertBefore(tail, chronicle);
+      S.addCorners(chronicle);
+    }
+    S.addCorners(prose);
+
     unit.appendChild(prose);
     unit.appendChild(S.el('p', 'unit-end', '❦'));
     return unit;
@@ -125,7 +210,9 @@
 
     flow.setAttribute('aria-busy', 'true');
     S.getText(ch.html).then(function (html) {
-      flow.replaceChildren(buildUnit(ch, html));
+      var opening = showArcAt(ch, null) ? buildArcOpening(ch) : null;
+      if (opening) flow.replaceChildren(opening, buildUnit(ch, html));
+      else flow.replaceChildren(buildUnit(ch, html));
       flow.setAttribute('aria-busy', 'false');
       current = ch;
       currentDayId = null;
@@ -174,8 +261,11 @@
     var next = chapterAt(chapters().indexOf(current) + 1);
     if (!next) return;
     appendBtn.disabled = true;
+    var previous = current;
     S.getText(next.html).then(function (html) {
+      var opening = showArcAt(next, previous) ? buildArcOpening(next) : null;
       var unit = buildUnit(next, html);
+      if (opening) flow.appendChild(opening);
       flow.appendChild(unit);
       current = next;
       currentDayId = null;
@@ -471,7 +561,14 @@
     queued = false;
     var y = window.scrollY || window.pageYOffset || 0;
     var max = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
-    progress.style.width = (max > 0 ? Math.min(100, Math.max(0, y / max * 100)) : 0) + '%';
+    var pct = max > 0 ? Math.min(100, Math.max(0, y / max * 100)) : 0;
+    progress.style.width = pct + '%';
+    progress.style.setProperty('--glow', (3 + pct * 0.22).toFixed(1) + 'px');
+    if (progressVessel) {
+      progressVessel.style.setProperty('--p', pct.toFixed(1) + '%');
+      progressVessel.style.setProperty('--glow', (2 + pct * 0.16).toFixed(1) + 'px');
+      progressVessel.setAttribute('title', 'Reading progress: ' + Math.round(pct) + '%');
+    }
 
     if (Date.now() < suppressSpyUntil) { savePosition(false); return; }
 
@@ -497,6 +594,7 @@
       }
     }
     savePosition(false);
+    noteSaved(false);
   }
 
   function goRelative(delta) {

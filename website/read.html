@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reading — The Debt of Warmth</title>
   <meta name="description" content="Read The Debt of Warmth chapter by chapter, day by day.">
-  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/emblem.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/site.css">
   <link rel="stylesheet" href="css/prose.css">
   <link rel="stylesheet" href="css/reader.css">
@@ -17,7 +17,7 @@
 
   <header class="site-nav">
     <div class="site-nav-inner">
-      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">❦</span><span>The Debt of Warmth<small>A surgeon's account of Sarn</small></span></a>
+      <a class="brand" href="index.html"><img class="brand-mark" src="images/emblem.svg" alt="" aria-hidden="true"><span>The Debt of Warmth<small>A surgeon's account of Sarn</small></span></a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html" data-page="index.html">Home</a>
         <a href="read.html" data-page="read.html">Read</a>
@@ -34,11 +34,13 @@
 
   <div class="reader-toolbar" role="toolbar" aria-label="Reading tools">
     <button type="button" class="tool-btn" id="toc-toggle" aria-expanded="false" aria-controls="toc-drawer">❦ Contents</button>
+    <div class="progress-vessel" id="progress-vessel" role="img" aria-label="Reading progress" title="Reading progress"><span class="coal"></span></div>
     <div class="toolbar-crumb" id="crumb">Opening the book…</div>
     <div class="toolbar-right">
       <button type="button" class="tool-btn" id="settings-toggle" aria-expanded="false" aria-controls="settings-drawer">⚙ Settings</button>
     </div>
   </div>
+  <span class="saved-note" id="saved-note" aria-live="polite"></span>
 
   <div class="continue-banner" id="continue-banner" role="status" hidden>
     <p><strong>Continue where you left off.</strong> <span id="resume-text"></span></p>

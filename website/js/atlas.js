@@ -28,7 +28,7 @@
     var btn = S.el('button', 'map-card');
     btn.type = 'button';
     var img = document.createElement('img');
-    img.src = map.image || '';
+    if (map.image) img.src = map.image;
     img.alt = 'Map: ' + map.title;
     img.loading = 'lazy';
     img.addEventListener('error', function () { img.alt = 'The map could not be drawn: ' + map.title; });
@@ -45,7 +45,8 @@
     title.textContent = map.title;
     caption.textContent = map.caption || '';
     image.alt = 'Map: ' + map.title;
-    image.src = map.image || '';
+    if (map.image) image.src = map.image;
+    else image.removeAttribute('src');
     reset();
     if (typeof dialog.showModal === 'function') dialog.showModal();
     else dialog.setAttribute('open', 'open');
