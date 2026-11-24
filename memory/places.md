@@ -210,6 +210,99 @@ The shed where Garl Vail's wheel stands with its seat worn hollow on the left si
 The narrow loft above the wheel-shed where the house's clay-bound hands sleep; Tarn has slept here for six of his seven years. He keeps his few things in an unmarked clay pot.
 **Relations:** Above the Vail wheel-shed, inside the Vail kiln-house.
 
+### The close ground of Sill
+*The small features of the birth-town drawn on `atlas/home-settlement`: the land a child of Low Kiln knows by foot. Direction and distance are from the Cross unless the entry says otherwise.*
+
+### The north bridge
+**Kind:** bridge. **Region:** Sill, at the Cross.
+The upper of Sill's two bridges, by the market square; the Fishstairs lie just below it on the north bank and the Singing Sill a little way downstream.
+**Relations:** At the Cross, over the Ilm above the four-foot fall; the south bridge lies downriver, beyond Slate Row.
+
+### The south bridge
+**Kind:** bridge. **Region:** Sill.
+The lower bridge, carrying the Clay Road and the river road out east of the town toward Greybank.
+**Relations:** Downriver of the Cross and Slate Row; the meal mill stands just below it on the south bank.
+
+### House Clay
+**Kind:** house, holding. **Region:** High Kiln, Sill.
+The kiln-master's house of Berr Clay, Thane of Clay, above the terrace. The red wool cord is folded away in a drawer here, and a locked box kept in the house has never been destroyed.
+**Relations:** In High Kiln, above Low Kiln and west of the Glaze Room.
+
+### House Silt
+**Kind:** house, holding. **Region:** Low Kiln, Sill.
+The shared room of Dessa and Mira Silt, three doors from the Vail kiln-house. The slip pits are a walk away, counted in nineteen steps to the drying rack.
+**Relations:** In Low Kiln, east of the slip pits of the Clay Yard.
+
+### House Reed
+**Kind:** house, holding. **Region:** Low Kiln, Sill.
+The reed-cutters' house of Alda Reed, the hearth-maid, with a tin of second notes hidden under a floorboard. The chart draws the house but not the tin.
+**Relations:** In Low Kiln, east of the Clay Yard, near the birth-flower shrine.
+
+### Rusk's room
+**Kind:** room, dwelling. **Region:** the Fishstairs, Sill.
+A room above the Fishstairs in which an old man keeps a drawer with a small lock. He never sits down indoors.
+**Relations:** Above the Fishstairs, below the north bridge.
+
+### The Court's room
+**Kind:** hall, court and place of the Return. **Region:** Slate Row, Sill.
+The room where the slate is read aloud on market-day and the district's measure is spoken for; in the Keeping, bank and church are one room.
+**Relations:** In Slate Row, a quarter league east of the Cross.
+
+### The assessor's house
+**Kind:** house. **Region:** Slate Row, Sill.
+The narrow house of Sill's assessor, built in Y.H. 776.
+**Relations:** In Slate Row, beside the Court's room.
+
+### The collector's table
+**Kind:** table, place of business. **Region:** Slate Row, Sill.
+The table at which the collector draws the measure and writes a name; the Waiting Room stands behind it.
+**Relations:** In Slate Row, before the Waiting Room.
+
+### The smithy
+**Kind:** works, forge. **Region:** Low Kiln, Sill.
+A small forge east of the Clay Yard where kiln irons, barrow irons and the collectors' cold-iron tubes are mended. It keeps no kiln-mark and is not a great house.
+**Relations:** In Low Kiln, between the Clay Yard and House Silt.
+
+### The meal mill
+**Kind:** mill, works. **Region:** Sill, on the Ilm below the south bridge.
+A small water-mill grinding the barley baked into the brown-edged loaf of Low Kiln.
+**Relations:** On the south bank just below the south bridge, downriver of the Cross.
+
+### The birth-flower shrine
+**Kind:** shrine, niche. **Region:** Low Kiln, Sill.
+A small hearth-maids' niche where birth-slates are left overnight and the Return is taught to the district's children. A crossed mark is cut above it, which the chart draws but does not explain.
+**Relations:** In Low Kiln, beside House Reed, east of the Clay Yard.
+
+### The yard well
+**Kind:** well. **Region:** Low Kiln, Sill.
+The shared well of the low houses, with a stone lip and a little roof, a short walk from the drying racks. It is not the never-freezing well of Cold Acre.
+**Relations:** In Low Kiln, east of the Clay Yard.
+
+### The barley fields
+**Kind:** fields. **Region:** Sill.
+Strips of barley on the warmer ground east of Low Kiln and on the terrace above; the second firing follows the harvest in Smoke.
+**Relations:** East of Low Kiln toward the river road, with a further strip north of High Kiln.
+
+### The turnip grounds
+**Kind:** fields. **Region:** Sill, west of Low Kiln.
+Small plots of turnips and chard worked by the households of the slip pits.
+**Relations:** West of the Clay Yard, toward the river.
+
+### The steep street
+**Kind:** street, path. **Region:** Sill.
+The steep way from the High Kiln terrace down to the north bank and the north bridge; the potters' children run it barefoot in Ember.
+**Relations:** From High Kiln down to the Cross and the north bridge.
+
+### The north gate
+**Kind:** gate. **Region:** Sill.
+The gate on the north road out of Sill; the Bone Orchard lies a league beyond it and Cold Acre another league past that.
+**Relations:** North of the Cross, at the head of the road to the Bone Orchard.
+
+### The reedbeds
+**Kind:** marsh, reeds. **Region:** Sill, south and east.
+The wet ground at the edge of the settlement where reeds are cut and wolves come in the hunting month of Bone.
+**Relations:** South of Low Kiln, toward the Old Kiln and the marsh road to Reedholt.
+
 ### The Weir
 **Kind:** fishing weir and plank walk. **Region:** Grath, on the Ilm.
 Eel traps and a plank walk one league upriver, where the Fish Blessing is held and Rusk walks at dusk. Orra Weir keeps the traps and dries the eels here.
