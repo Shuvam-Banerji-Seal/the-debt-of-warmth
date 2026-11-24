@@ -1,0 +1,55 @@
+\begin{tikzpicture}
+  % the chapter's heart: two tallies set side by side that do not agree,
+  % each ending in a space nobody will name
+
+  % a faint standing where the two figures are kept
+  \fill[gold, opacity=0.045] (0,0.02) ellipse (2.55 and 1.45);
+
+  % the ground the two figures sit on, one line for both
+  \draw[faded!80!ink, line width=0.85pt, opacity=0.62] (-2.05,-1.18) -- (2.05,-1.18);
+  \draw[gold!45!faded, line width=0.4pt, opacity=0.30] (-1.85,-1.25) -- (1.85,-1.25);
+
+  % left stave: the house's arithmetic, four and four with a gap between
+  \fill[faded!58!ink, opacity=0.22] (-1.20,-1.12) rectangle (-0.80,1.20);
+  \draw[faded!85!ink, line width=0.9pt, opacity=0.82] (-1.20,-1.12) rectangle (-0.80,1.20);
+  \fill[ash!30!ink, opacity=0.26] (-1.20,1.20) rectangle (-0.80,1.26);
+  \draw[faded!80!ink, line width=0.7pt, opacity=0.70] (-1.20,1.26) -- (-0.80,1.26);
+  \foreach \y in {-0.86,-0.62,-0.38,-0.14,0.36,0.60,0.84,1.08}{
+    \draw[rubric!55!ink, line width=1.05pt, opacity=0.72] (-1.15,\y) -- (-0.85,\y);
+  }
+  % the gap in the house's count, wider than the marks about it
+  \draw[rubric!45!faded, line width=0.5pt, dotted, opacity=0.42] (-1.00,-0.06) -- (-1.00,0.28);
+  % the space at the row's end that nobody calls a number
+  \draw[faded, line width=0.5pt, dotted, opacity=0.46] (-1.15,1.37) -- (-0.85,1.37);
+  \fill[faded!70!ink, opacity=0.48] (-1.15,1.37) circle (0.016);
+  \fill[faded!70!ink, opacity=0.48] (-0.85,1.37) circle (0.016);
+
+  % right stave: the boy's seven days, set edge to edge and exact
+  \fill[ash!30!vellum, opacity=0.30] (0.80,-1.12) rectangle (1.20,1.20);
+  \draw[faded!88!ink, line width=0.9pt, opacity=0.88] (0.80,-1.12) rectangle (1.20,1.20);
+  \fill[ash!30!ink, opacity=0.26] (0.80,1.20) rectangle (1.20,1.26);
+  \draw[faded!80!ink, line width=0.7pt, opacity=0.70] (0.80,1.26) -- (1.20,1.26);
+  \foreach \y in {-0.96,-0.64,-0.32,0.00,0.32,0.64,0.96}{
+    \draw[ink, line width=1.05pt, opacity=0.84] (0.85,\y) -- (1.15,\y);
+  }
+  % the next day waiting where nobody has spoken it
+  \draw[faded, line width=0.5pt, dotted, opacity=0.46] (0.85,1.37) -- (1.15,1.37);
+  \fill[faded!70!ink, opacity=0.48] (0.85,1.37) circle (0.016);
+  \fill[faded!70!ink, opacity=0.48] (1.15,1.37) circle (0.016);
+
+  % the seam between the two figures: a break that does not close
+  \draw[faded, line width=0.5pt, dotted, opacity=0.36] (0,-0.98) -- (0,-0.18);
+  \draw[faded, line width=0.5pt, dotted, opacity=0.36] (0,0.20) -- (0,0.98);
+  \fill[faded!70!ink, opacity=0.48] (0,-0.16) circle (0.018);
+  \fill[faded!70!ink, opacity=0.48] (0,0.18) circle (0.018);
+
+  % the two ends of the week, held apart at the foot of the staves
+  \draw[faded!70!ink, line width=0.6pt, opacity=0.50] (-2.05,-0.98) -- (-1.34,-0.98);
+  \draw[faded!70!ink, line width=0.6pt, opacity=0.50] (1.34,-0.98) -- (2.05,-0.98);
+
+  \node at (-4.30,0.02) {\pgfornament[width=2.1cm,color=ornament]{72}};
+  \node at ( 4.30,0.02) {\pgfornament[width=2.1cm,color=ornament,symmetry=v]{72}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {two figures that do not agree};
+\end{tikzpicture}
