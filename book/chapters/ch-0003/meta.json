@@ -1,0 +1,80 @@
+{
+  "number": 3,
+  "title": "One in Twelve",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "A man wipes his thumb on his apron before he touches the slate. The slate is clean. It is the hand that wants cleaning.",
+    "attribution": "A kiln-master's saying, High Kiln"
+  },
+  "days": {"start": 4, "end": 4},
+  "when": "Day 4 · Stone 10, Y.H. 812, a Tenthday · Account-day and the last market before the Five",
+  "where": "The Clay Yard, the Cross and Slate Row, Sill, Grath; one remembered Cook County trauma bay",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a four-day-old body carried in a basket; present tense only for Ostrowski's voice breaking through the market",
+  "mode": "normal",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "berr-clay",
+    "alda-reed",
+    "mira-silt",
+    "lena-ostrowski",
+    "garl-vail",
+    "sill-assessor",
+    "collectors-clerk"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "the Clay Yard",
+    "the Cross",
+    "Slate Row",
+    "the Bone Orchard",
+    "the Ilm",
+    "Chicago",
+    "Cook County Hospital"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Walk to the Cross",
+      "day": 4,
+      "flashback": false,
+      "synopsis": "First light of Account-day. Sella Vail carries the boy out from under the Vail roof for the first time, in a basket under a fold of wool, up the Clay Yard and down toward the Cross. The market arrives in layers — pigs, clay dust, the moot shouting, a bell that is not a church bell — and the dry cold lifts the oiled paper; the Ilm lies under ice and the district says the Five are three days off. He counts his steps to a number that is not four and four and a gap, and the new number goes into the private count nobody can tax. Sella says the house where another woman would say I, does not set the basket where a slate is open, and answers a question about the boy with an instruction to the wool. His body humiliates him in public: drool, the head that will not stay up, the hand that cannot push the fold back. Changes: the boy leaves the house and enters the district's accounting for the first time; the household's scale is swallowed by the market's. Advances T071/T072 (the count extended to the walk and the market), T058/T075 (kindness given in a form he cannot answer), T077 (the number the district gives out).",
+      "target_words": 2900
+    },
+    {
+      "n": 2,
+      "title": "One in Twelve, as the Notice Says",
+      "day": 4,
+      "flashback": false,
+      "synopsis": "At the Cross: two hundred people, eight pigs, one assessor, and Berr Clay with a slate. He wipes his thumb on his apron before he touches the slate and says one in twelve, as the notice says, in a voice that makes the shouting stop because the crowd has to lean in to hear him. He never says I; he says the district and the account, and he apologises in the form of an instruction. The levy is read as a figure in a routine voice, and the boy in the basket hears his own kind priced without being named. When the slate is set down it gives a small flat sound — the third flat note in four days, after the cup across the birth room and the pot in the Vail house — now the whole district's account under a knuckle he cannot lift. The narration does not join the sounds, name the sound in Grathic, or let anyone tap a slate for him. Changes: the district's figure is spoken aloud and accepted; the boy stands inside the account that will carry him. Advances T015 (the printed deduction planted), T008 (the levy as the language in which a child's life is priced), T077 (the number given out), T061 (the flat note carried into the market), T041 (the care Berr takes with the slate, the box still unshown).",
+      "target_words": 3100
+    },
+    {
+      "n": 3,
+      "title": "You're Back On in Ten",
+      "day": 4,
+      "flashback": false,
+      "synopsis": "Mid-morning. Ostrowski's voice breaks through the market noise without a tag and in the present tense: Marchetti. You're back on in ten. Then the sentence about the first duty being to decide and the second to carry it. For one breath the clay yard, the pigs and the trauma bay occupy the same paragraph; then the market returns, and the shift is not explained. He reaches for a pocket that holds no phone, and the body in the basket cannot hold the weight of a decision it is not even allowed to make. Changes: the old life's most exact voice takes the market for a room, and the boy recognises that here he is not the man deciding but the thing being carried. Advances T046 (the two duties), T044 (the call as an absence), T047 (the institution's grammar beginning to echo outward), T004 (the lit phone reached for and not looked at).",
+      "target_words": 2600
+    },
+    {
+      "n": 4,
+      "title": "The Neat Hand",
+      "day": 4,
+      "flashback": false,
+      "synopsis": "At the edge of the market a collector's clerk handles a slate whose upper line is in a strange neat hand, a name written before the face and remarked on by nobody; the pause between strokes is the one Dan has set beside the pause at the flare and the pause on the birth-slate, and he still does not join them. The clerk is not Marra and is not called a collector in the narration. Berr comes to Sella and says her widow's mark is confirmed by the factor at Greybank, that it is a kindness and that kindness is entered; he says it as an instruction and she answers the wool and the boy, never him. The uncalled debt Garl left against a shipment of tiles hangs in the space between them without being named. Alda Reed, keeping the birth-slates, touches the tin inside her bodice once, glimpses the edge of the flower at the boy's wrist, makes the two-finger sign without knowing it, and covers it with a date nobody asked for. Changes: the private keeping and the Court's slate are seen to be the same shape of account; a second hand is seen and still unread. Advances T005/T003 (the neat hand seen a second time), T047 (the first outward echo of Vesci's grammar in Berr's mouth), T075 (the unanswerable kindness), T057/T058 (the roll kept and the wall kept), T007 (the crossed sign), T009 (the uncalled debt spoken around).",
+      "target_words": 2800
+    },
+    {
+      "n": 5,
+      "title": "What the District Gives Out",
+      "day": 4,
+      "flashback": false,
+      "synopsis": "The market wears on into afternoon. Mira Silt is a background figure at the edge of it — eel slime dried on her sleeves, the top of her left ear gone, an eel-bone flicked against her thumb — asking Berr a question about the eel price and answering it herself, saying nothing about the basket. The slate is read a second time and gives its flat answer again; Berr wipes his thumb again before he touches it. Ash is carried out in a barrow toward the north gate and the Bone Orchard, a physical fact nobody reads. The boy counts the strokes of the market bell, four, four and a gap, and keeps the new number beside the old one. The Hearth Drawing of Stone 12 is two days off and Low Kiln says three days to the Five when it has counted what it has and does not want to say it. Changes: the boy holds a third flat note and the district's figure twice spoken, and still has no hand to lift. Advances T061 (the third flat note), T077 (the number withheld), T013 (the Ash going out), T071/T072 (the count kept), T060 (brisk kindness glimpsed), T025 (Mira's account seeded in knots, not yet shown). Withheld: no one in three spoken against the printed one in twelve, no name Marra, no figure forty, no explanation of the flat sound in Grathic, no showing of Sella's roll or Berr's box.",
+      "target_words": 2600
+    }
+  ]
+}
