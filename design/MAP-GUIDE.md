@@ -12,6 +12,7 @@ Maps are hand-made by you as **self-contained HTML/CSS/JavaScript** pages. The o
 4. Drawing must finish within about 5 seconds. Avoid unbounded loops and noise at every pixel of a 2400×1600 canvas in pure JavaScript, unless you use a coarse grid.
 5. Wait for fonts before drawing text on a canvas: `document.fonts.ready.then(draw)`. SVG `<text>` is fine.
 6. Use no external libraries. Write everything yourself.
+7. **Layer order.** Paint in this order: ground and washes, then terrain, then water, then roads and buildings, then frames (cartouche, legend, scale), and **all text last, on top of everything**. Text drawn beneath an opaque cartouche or legend box disappears. A map with an empty legend or an invisible title is broken.
 
 ## Look and feel: rustic, hand-inked, old
 - Parchment ground (the texture image or a CSS gradient), with sepia and iron-gall ink (`#2b1b0e`), faded red (`#7e1f14`), muted sea blue-green and soft washed colours for regions.
