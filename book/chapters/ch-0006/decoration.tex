@@ -1,0 +1,49 @@
+\begin{tikzpicture}
+  % the ash-bed, heaped and banked over what is kept
+  \fill[ash, opacity=0.16] (0,-0.98) ellipse (4.35 and 0.52);
+  \fill[ash!70!vellum, opacity=0.22] (-1.4,-1.0) ellipse (2.5 and 0.28);
+  \fill[ash!70!vellum, opacity=0.18] ( 1.6,-1.0) ellipse (2.3 and 0.26);
+
+  % four coals, and four coals, counted on either hand
+  \foreach \x/\y/\s in {-1.12/-0.44/1.00, -1.72/-0.31/0.92,
+                        -2.33/-0.45/1.06, -2.93/-0.32/0.88,
+                         1.12/-0.44/1.00,  1.72/-0.31/0.92,
+                         2.33/-0.45/1.06,  2.93/-0.32/0.88}{
+    \pgfmathsetmacro{\ra}{0.30*\s}
+    \pgfmathsetmacro{\rb}{0.16*\s}
+    \pgfmathsetmacro{\rc}{0.19*\s}
+    \pgfmathsetmacro{\rd}{0.075*\s}
+    \pgfmathsetmacro{\rr}{0.035*\s}
+    \fill[night, opacity=0.45] (\x,\y-0.055) ellipse (\ra cm and \rb cm);
+    \fill[rubric!85!ink] (\x,\y) ellipse (\ra cm and \rb cm);
+    \fill[gold!62!rubric] (\x+0.02,\y+0.025) ellipse (\rc cm and \rd cm);
+    \fill[gold] (\x-0.07*\s,\y+0.04) circle (\rr);
+    \draw[ink, line width=0.5pt, opacity=0.5] (\x-0.13*\s,\y+0.02) -- (\x+0.06*\s,\y-0.045);
+  }
+
+  % the place where the fifth should be: a cold hollow, uncounted
+  \fill[night!88, opacity=0.40] (0,-0.44) ellipse (0.31 and 0.17);
+  \draw[faded, line width=0.6pt, dashed, opacity=0.55] (0,-0.44) ellipse (0.31 and 0.17);
+  \fill[ash!75!vellum, opacity=0.30] (-0.12,-0.56) ellipse (0.22 and 0.07);
+
+  % ash banked across the lower edges of the coals, sifted, not swept
+  \foreach \x/\y/\rx/\ry in {-2.6/-0.62/0.55/0.12, -1.5/-0.60/0.60/0.13,
+                             -0.6/-0.62/0.42/0.11,  0.6/-0.62/0.42/0.11,
+                              1.5/-0.60/0.60/0.13,  2.6/-0.62/0.55/0.12}{
+    \fill[ash, opacity=0.32] (\x,\y) ellipse (\rx cm and \ry cm);
+  }
+
+  % the breath of the kiln: thin smoke that will not be counted either
+  \draw[faded, line width=0.9pt, opacity=0.22] (-1.72,0.02)
+        .. controls (-2.05,0.5) and (-1.25,0.72) .. (-1.58,1.22);
+  \draw[faded, line width=0.7pt, opacity=0.16] ( 1.72,0.02)
+        .. controls ( 1.98,0.46) and ( 1.28,0.68) .. ( 1.58,1.12);
+  \draw[faded, line width=0.5pt, opacity=0.10] (-2.93,0.0)
+        .. controls (-3.12,0.34) and (-2.72,0.5) .. (-2.9,0.86);
+
+  % flourished rules at the far ends of the count
+  \node at (-4.35,-0.06) {\pgfornament[width=1.5cm,color=ornament]{81}};
+  \node at ( 4.35,-0.06) {\pgfornament[width=1.5cm,color=ornament,symmetry=v]{81}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.48) {four, four, and the empty place};
+\end{tikzpicture}
