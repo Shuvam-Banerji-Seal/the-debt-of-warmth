@@ -141,7 +141,11 @@
   padding: .6rem; background: var(--panel);
   border: 1px solid var(--gold); box-shadow: 3px 4px 0 var(--shadow);
 }
-.plate-figure img { width: 100%; height: auto; display: block; aspect-ratio: 2 / 3; object-fit: cover; background: var(--mark); }
+.plate-figure img {
+  display: block; margin-inline: auto;
+  height: min(72vh, 900px); width: auto; max-width: 100%;
+  object-fit: cover; background: var(--mark);
+}
 .plate-figure figcaption {
   font-family: var(--font-fell); font-style: italic; font-size: .9rem;
   color: var(--muted); text-align: center; padding: .8rem .4rem .3rem;

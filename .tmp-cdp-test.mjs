@@ -1,4 +1,5 @@
 import { spawn } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
 
 const CHROME = '/home/shuvam/.cache/ms-playwright/chromium-1254/chrome-linux64/chrome';
 const PORT = 9223;
@@ -93,6 +94,9 @@ await js(`document.getElementById('toc-search').value=''; document.getElementByI
 
 await go(base + 'read.html#ch=5&day=day-8-1');
 results.push(['deep-link', await js(`JSON.stringify({crumb:document.getElementById('crumb').textContent,hash:location.hash,day:document.getElementById('day-8-1')?.id||null})`)]);
+await go(base + 'read.html#ch=1&day=day-1-0');
+results.push(['day1-jump', await js(`JSON.stringify({scrollY:Math.round(scrollY),rect:Math.round(document.getElementById('day-1-0').getBoundingClientRect().top),hash:location.hash})`)]);
+writeFileSync('/mnt/Expansion/can-llms-write/.tmp-readtext2.png', Buffer.from((await send('Page.captureScreenshot', { format: 'png' })).data, 'base64'));
 
 await js(`document.getElementById('settings-toggle').click()`);
 await js(`(()=>{const i=document.getElementById('set-size');i.value=24;i.dispatchEvent(new Event('input',{bubbles:true}));const b=document.querySelector('[data-theme-choice="night"]');b.click();})()`);

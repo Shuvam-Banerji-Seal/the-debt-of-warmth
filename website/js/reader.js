@@ -473,6 +473,8 @@
     var max = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
     progress.style.width = (max > 0 ? Math.min(100, Math.max(0, y / max * 100)) : 0) + '%';
 
+    if (Date.now() < suppressSpyUntil) { savePosition(false); return; }
+
     var units = flow.querySelectorAll('.chapter-unit');
     var active = null;
     for (var i = 0; i < units.length; i++) {
@@ -487,7 +489,7 @@
       var marks = active.querySelectorAll('.daymark[id]');
       var day = null;
       for (var j = 0; j < marks.length; j++) {
-        if (marks[j].getBoundingClientRect().top <= 190) day = marks[j].id;
+        if (marks[j].getBoundingClientRect().top <= 240) day = marks[j].id;
       }
       if (day !== currentDayId) {
         currentDayId = day;
