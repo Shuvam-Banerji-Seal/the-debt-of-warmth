@@ -13,18 +13,18 @@
     "portraits"
   ],
   "chapter": 13,
-  "step": "decorate",
+  "step": "publish",
   "scene": 7,
   "consolidated_through": 10,
   "built": {
     "1": 12
   },
-  "calls": 157,
+  "calls": 158,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 197456,
-  "tokens_in": 20862670,
-  "tokens_out": 3484843,
+  "tokens_in": 20901013,
+  "tokens_out": 3491983,
   "restarts": [
     {
       "at": "2026-11-24",
