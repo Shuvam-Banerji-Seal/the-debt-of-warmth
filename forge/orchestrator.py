@@ -155,9 +155,10 @@ ROOT_PDF_MARK = FORGE / "root-pdf-chapter"
 def place_root_pdf() -> None:
     """Move the publisher's newest complete-book PDF to the repository root.
 
-    Small books are updated on every build. As the PDF grows, it is committed
-    every (size in MB / 2) chapters so the git history stays manageable; GitHub
-    refuses files over 100 MB, so beyond ~95 MB only the release is updated.
+    Under 10 MB the root PDF is updated after every chapter. Beyond that it is
+    committed every (size in MB / 5) chapters so the git history stays
+    manageable; GitHub refuses files over 100 MB, so beyond ~95 MB only the
+    release is updated.
     """
     ready = sorted((FORGE / "ready").glob("*.pdf")) if (FORGE / "ready").exists() else []
     for pdf in ready:
@@ -172,7 +173,7 @@ def place_root_pdf() -> None:
             log(f"  complete book is {size_mb:.0f} MB, over GitHub's file limit: kept in the release only")
             pdf.unlink()
             continue
-        if size_mb < 5 or not dest.exists() or done - last >= max(1, int(size_mb / 2)):
+        if size_mb < 10 or not dest.exists() or done - last >= max(1, int(size_mb / 5)):
             for old in ROOT.glob("*.pdf"):
                 if old.name != pdf.name:
                     old.unlink()  # the title changed; keep a single root PDF

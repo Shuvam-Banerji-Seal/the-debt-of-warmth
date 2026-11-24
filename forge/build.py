@@ -368,11 +368,12 @@ def render_map(d: Path, force=False) -> tuple[bool, str]:
         return False, p.stderr[-1200:]
     try:
         from PIL import Image, ImageStat
-        im = Image.open(out).convert("L").resize((300, 200))
-        st = ImageStat.Stat(im)
+        full = Image.open(out).convert("RGB")
+        st = ImageStat.Stat(full.convert("L").resize((300, 200)))
         if st.stddev[0] < 6:
             out.unlink()
             return False, "the rendered map is blank or almost uniform (did the drawing code throw an error?)"
+        full.save(out.with_suffix(".jpg"), quality=88, optimize=True, progressive=True)  # what the book embeds
     except Exception as e:  # pragma: no cover
         return False, f"could not inspect render: {e}"
     return True, ""
@@ -386,6 +387,13 @@ def map_tex(d: Path) -> str:
     png = BUILD / "atlas" / f"{d.name}.png"
     if not png.exists():
         return ""
+    jpg = png.with_suffix(".jpg")
+    if not jpg.exists() or jpg.stat().st_mtime < png.stat().st_mtime:
+        try:
+            from PIL import Image
+            Image.open(png).convert("RGB").save(jpg, quality=88, optimize=True, progressive=True)
+        except Exception:
+            jpg = png
     meta = load_json(d / "meta.json", {}) or {}
     title = meta.get("title", d.name.replace("-", " ").title())
     cap = meta.get("caption", "")
@@ -395,7 +403,7 @@ def map_tex(d: Path) -> str:
     except Exception:
         w, h = 3, 2
     star = "*" if w > h * 1.15 else ""
-    return f"\\CRmap{star}{{{esc(title)}}}{{{png.relative_to(ROOT).as_posix()}}}{{{esc(cap)}}}\n"
+    return f"\\CRmap{star}{{{esc(title)}}}{{{jpg.relative_to(ROOT).as_posix()}}}{{{esc(cap)}}}\n"
 
 
 # ------------------------------------------------------------ timeline
