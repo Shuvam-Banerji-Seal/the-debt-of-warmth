@@ -5,7 +5,7 @@ provenance: Written and kept at Greybank, eighteen leagues downriver of Sill, by
 relates_to: [Greybank, the Greybank quay, the Greybank market, the Counting House, the Court's factor's house, the Court's granaries, the winter ford, Sill, the Cross, the south bridge, the north bridge, the Clay Road, the Salt Road, the Rim Road, the Hearth Road, the river road, the Cold Pass, Keld, Keld Keep, Vhal, Vhalen, the Council of Tides, the Glaze Cliffs, the Hearthseat, the Warm Court, the factor at Greybank, Veno Brine, the Long Cold, the Thin Year, the Opening of the Slates, bit, mark, crown, ember, one in twelve, the levy, quiet ash, warm-stone, eels, salt, iron, peat, coarse pots, tile, glass, rope, Grath]
 ---
 
-I keep the beam on the quay. A man brings a barrow of peat or a basket of eels and wants a figure, and I give him the figure on the board, which is the figure of that morning, and by afternoon a barge has tied up and it is not the figure any more. The factor wants a number that will stand still. I have told him that a number which stands still is a lie told by a man with a roof over his goods, and he has told me to copy the board again in a better hand. I have copied it in the same hand. What follows is not what things are worth. It is what they fetched at the beam between the last market of Stone and the Opening of the Slates, set down so that a carter may know what he is being charged before he has unloaded it.
+I keep the beam on the quay. A man brings a barrow of peat and wants a figure, and I give him the figure of that morning; by afternoon a barge has tied up and it is not the figure any more. The factor wants a number that will stand still. I have told him that a number which stands still is a lie told by a man with a roof over his goods, and he has told me to copy the board again in a better hand. I have copied it in the same hand. What follows is not what things are worth but what they fetched at the beam between the last market of Stone and the Opening of the Slates, set down so a carter may know his charge before he has unloaded.
 
 Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which is a Sere coin and does not stay in Grath. The Court books in embers and will tell a man an ember is worth five marks; no man has ever exchanged one for the other, and I have not left a space for them on the board.
 
@@ -47,7 +47,7 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 | Tallow, a stone | 2 marks |
 | Lead, a pig, from the western workings | 6 marks; the seller does not say which workings |
 
-> *Margin:* The peat row stood blank through the Long Cold of Y.H. 811. Fuel doubled in the first tend of Stone and then stopped being quoted, because there was none to sell. I have set two figures above it for the Thin Year, and struck neither out. A man who buys peat in Grain and pays the Stone figure does not complain, which is how I know the board is not a list of what things are worth.
+> *Margin:* The peat row stood blank through the Long Cold of Y.H. 811; fuel doubled in Stone, then stopped being quoted, because there was none to sell. I have set two figures above it for the Thin Year and struck neither out. A man who buys in Grain and pays the Stone figure does not complain, which is how I know this is not a list of what things are worth.
 
 ## Wages, hire and beasts
 
@@ -70,7 +70,7 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 
 ## Articles a man asks for after he has paid
 
-*Not on the board. I keep the list behind the beam because people come back for them when the stall is shut.*
+*Not on the board. I keep the list behind the beam.*
 
 | Article | Price |
 |---|---|
@@ -127,7 +127,7 @@ From this quay north-east to Vhal, sixty-two leagues beyond the eighteen, eighty
 | Contract written on salt-paper | no fee; it will not survive the journey, which the Council calls a virtue |
 | Man going up with the glass at the turn of the month | 3 bits, returned if he comes back with the answer |
 
-> *In the Council clerk's leaning hand:* The word *toll* above is struck and *contribution freely entered* written over it. *In mine:* He has left the figures standing. A Council that cannot charge a toll has found a finer name for one, and a man pays it all the same.
+> *In the Council clerk's leaning hand:* *toll* is struck and *contribution freely entered* written over it. *In mine:* He has left the figures standing. A Council that cannot charge a toll has found a finer name for one, and a man pays it all the same.
 
 ## The Rim Road
 
@@ -141,7 +141,7 @@ West-north-west from Sill to Keld Keep, a hundred and twenty leagues of improvin
 | Surveyor's mark upon a load | 2 bits; the load is not weighed again in Grath |
 | Traveller going farther into the Rim | no due, and no guarantee |
 
-> *Margin:* Only fools and factors travel it without a warm-stone, and the factors charge the stone to the account. I have kept the last row because a man who reads the board should know that the Warden's surveyors do not promise to bring him back.
+> *Margin:* Only fools and factors travel it without a warm-stone, and the factors charge the stone to the account. I have kept the last row: the Warden's surveyors do not promise to bring a man back.
 
 ## The Hearth Road
 
@@ -154,7 +154,7 @@ South-east from this quay to the Hearthseat, a hundred and forty leagues, the me
 | The same again at the Hearthseat | booked in embers |
 | A man who asks what he has paid | the figure is read to him twice, once for the moot and once for those who came late |
 
-> *Margin:* A carter from High Kiln asked me what the Hearth Road cost and I showed him the empty column. He said that was the most honest figure on the board and the dearest. The Court takes nothing at the gate because it has already taken it at home; I have entered that sentence here and not on the board, where it would stop nobody from loading.
+> *Margin:* A carter from High Kiln asked what the Hearth Road cost and I showed him the empty column. He said it was the most honest figure on the board and the dearest. The Court takes nothing at the gate because it has already taken it at home. I have not put that on the board; it would stop nobody from loading.
 
 ## Bridges, ford and river road
 
@@ -167,7 +167,7 @@ South-east from this quay to the Hearthseat, a hundred and forty leagues, the me
 | The ford when the Ilm bears ice | nothing, because no collector can cross |
 | Plank walk at the Weir | 1 bit; the boards are counted and nobody says which will bear a man |
 
-> *Margin:* In the Long Cold the Ilm bore ice for ninety-four days and no collector crossed from this quay. I have left the figure standing against the frozen ford because the factor wishes the board to be complete. It is the only figure on it that has never been paid.
+> *Margin:* In the Long Cold the Ilm bore ice for ninety-four days and no collector crossed from this quay. I have left the figure standing because the factor wishes the board to be complete. It is the only figure on it that has never been paid.
 
 # The verse the carters tie to the board
 
@@ -177,20 +177,18 @@ Rim to the stone and Hearth to the fire,
 and the four pay twice and the fifth pays free.
 
 Four and four and a place where the fifth should be,
-the beam keeps the weight and the river keeps the rest;
+the beam keeps the weight and the river the rest;
 a man goes up with a mark in his coat
 and comes back with a figure he cannot digest.
 
-> *In the narrow Court hand, against the fifth line of the first verse:* Four roads entered. *Underneath, in mine:* There are five. I have put nothing in the place. A carter sang this to me on the quay and would not sing it while the factor's clerk was within hearing, which is how I know the fifth line is the one that matters.
+> *In the narrow Court hand, against the fifth line:* Four roads entered. *Underneath, in mine:* There are five, and I have put nothing in the place. A carter sang this on the quay and would not sing it while the factor's clerk was in hearing, which is how I know the fifth line matters.
 
 # What the two borrowed hands did
 
-The factor's clerk took the verbs out of my first paragraph and struck out *brown-edged* before *loaf*, saying a price board has no use for a description. I have put both back underneath. A loaf with no edge is a thing no household in Low Kiln has ever seen, and a price without a verb is a thing a man cannot be told to his face.
-
-The Council clerk struck *toll* to *contribution freely entered* and numbered the roads as three, having left the river and the bridges out. I have written four above his three and left his three standing. Where he put a round nought against the fifth line of the carter's verse I have set nothing at all; a nought is a number, and that line is a place.
+The factor's clerk struck *brown-edged* before *loaf*, saying a board has no use for a description. I put it back: no household in Low Kiln has seen a loaf without an edge. The Council clerk numbered the roads as three, leaving the river and bridges out; I wrote four above his three and left both standing. Where he put a nought against the fifth line I set nothing; a nought is a number, and that line is a place.
 
 # At the foot, in a hand nobody will own
 
 > The road to the Hearth is paid at home. The road to the river is paid by the river.
 
-I have asked the porters and the carters and the factor's clerk, and had four answers and no hand. I have left it where it was written. The leaf goes back inside the counting house and the board goes back on the quay wall, and tomorrow the barge comes in with salt from Vhal and the peat row will want copying again. A man will bring his barrow and ask for the morning's figure, and I shall give it to him, and by afternoon it will be a thing that was true.
+I asked porters, carters and the clerk, and had four answers and no hand. I have left the line where it was written. The leaf goes back into the counting house and the board onto the quay wall; tomorrow the barge comes in with salt from Vhal and the peat row wants copying again. A man will ask for the morning's figure and I shall give it, and by afternoon it will be a thing that was true.

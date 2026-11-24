@@ -1,0 +1,113 @@
+{
+  "number": 10,
+  "title": "The Brook Takes Her",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "The brook takes what no slate will enter. The knot keeps what no clerk can spell. The eels run whether anybody blesses them or not.",
+    "attribution": "A saying of the Weir, Sill"
+  },
+  "days": {"start": 38, "end": 44},
+  "when": "Days 38–44 · Ilmen 9–15, Y.H. 813",
+  "where": "Low Kiln and the Weir, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a thirty-eight-to-forty-four-day-old body carried everywhere; no present-tense Chicago break this chapter --- the old life arrives once on Day 38 in past tense and untagged as the hand-on-the-basket detail is paid; no departure from his eyes, no Court or collector-interior scene",
+  "mode": "passage",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "dessa-silt",
+    "orra-weir",
+    "berr-clay",
+    "fenna-clay",
+    "garl-vail"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "the Clay Yard",
+    "the Vail kiln-house",
+    "the Vail wheel-shed",
+    "the Debt Loft",
+    "the drying racks",
+    "House Silt",
+    "the Slip Brook",
+    "the slip pits",
+    "the yard well",
+    "the Ilm",
+    "the Singing Sill",
+    "the Fishstairs",
+    "the Cross",
+    "Slate Row",
+    "the Weir",
+    "the Eel House",
+    "the plank walk",
+    "the eel traps",
+    "the blessing stone",
+    "Nine Pots",
+    "the Bone Orchard"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Sixth Hearing",
+      "day": 38,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 38, Ilmen 9, Ninthday, from before light at the Slip Brook behind the drying racks. The clay-heavy rise has come up in the night and taken Dessa Silt, uncollected; the boy, thirty-eight days old, is held on the bank in the basket with the fold at his chin and cannot move, speak or look away. He hears the small flat knock of a body cracked all the way through --- the sixth hearing of the full note and the second from a person, paying the plant from Stone 25; he files it and does not explain it. The ordinary undignified interval of lifting and trying to stop the breathing is written plainly. The held detail of her thumb on the wicker is paid in past tense, untagged: the hand in the grey sleeve reaches for the small cold rectangle with a name unlooked-at, the boat nine promises old on cold water, nothing crossing back; the shape is a thing kept and never spent. Alda arrives after the vessel has given, reaches for a slate before the person and lays dates where a wonder should stand; the clerk at the Fishstairs goes hand-to-slate before eyes-to-stalls and is filed apart. Changes: a woman is dead and stays dead; a hearing and a held shape are paid. Advances T061, T087, T008, T073, T044, T004, T085, T060, T080, T071/T072, T082, T086. Withheld: no name, no number, no quest, no bank visit, no explanation of the sound.",
+      "target_words": 3800
+    },
+    {
+      "n": 2,
+      "title": "The Figure Goes Over the Basket",
+      "day": 39,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 39, Ilmen 10, Tenthday, Account-day and market at the Cross. Sella carries the boy through the market at a half-pace from every open slate and sets him in the moot-post's shade. The pigs are weighed, the levy spoken around, one in twelve read and not challenged, the true subtraction unspoken; the number for what the thaw will cost goes from a fist to a mouth to a shoulder and is never given. Berr Clay wipes his thumb twice, takes the speaker out of his own sentence and says a number goes into a slate, not into a well. The boy keeps the count exactly while the yard keeps its number badly, and the new hearing lies with the five from four sources without a seventh or a joining. Changes: the district's ordinary accounting resumes over a body it has entered nowhere. Advances T077, T015, T041, T047, T084, T060, T061, T071/T072. Withheld: no recap of the figure, no new hearing, no sixth sighting of the neat hand, no joining of the pauses.",
+      "target_words": 2400
+    },
+    {
+      "n": 3,
+      "title": "No Collector Called",
+      "day": 40,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 40, Ilmen 11, Firstday, under the Vail roof and along the yard. Sella does not send for a collector for the woman in the brook and nobody remarks on it; the absence of a draw is entered nowhere, and the first edge of the later heresy is planted --- warmth can be left where it fell and the yard goes on. The clean dark line where the Vail Ash ridge turned its corner is measured by a thumb against another house's and left where it lies. Tarn sets the knife on its sill, six years counted, the seventh held, and wants the thaw late because a late thaw puts off the paying; Jorra's bent finger leads at the damper and the bone-coloured forearms carry no slate dust today. Sella feeds the boy from the house's own dish and gives the instruction to the fire and the wool, never to the basket. Changes: a death is met by the omission of a ritual, and nobody calls the omission anything. Advances T009, T088, T013, T036, T035, T060, T058, T079, T065, T071/T072. Withheld: no doctrine, no word for the omission, no explanation of what the Ash is, no sixth hearing.",
+      "target_words": 2500
+    },
+    {
+      "n": 4,
+      "title": "The Second Cord Twisted Twice",
+      "day": 41,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 41, Ilmen 12, Secondday, at the Fishstairs and along the Slip Brook. Mira Silt comes up from the eels with pale slime on her sleeves and her head held to the right where the top of her left ear had been, answers a question with a question and her own answer, and when a figure is spoken her thumb goes under her apron to the grey cord; shifting her weight shows the second cord twisted twice beneath it, never taken upriver to Nine Pots and never lifted at a door, knots uncounted. No third crust is given: the spent one and the smoky one still lie in the fold, neither eaten, lifted or named. The weir women speak of the blessing and the number that goes with it and end in weather. Changes: the two private records are glimpsed side by side and the boy keeps them on separate boards. Advances T059, T025, T086, T060, T077, T071/T072, T084. Withheld: no knots counted, no visit to Nine Pots, no third crust, no solving of who keeps what.",
+      "target_words": 2300
+    },
+    {
+      "n": 5,
+      "title": "The Tin Above the Bed",
+      "day": 42,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 42, Ilmen 13, Thirdday, three doors down at House Silt and under the Vail roof. A tin on a shelf above Dessa's empty bed holds a scrap of cloth from the birth; the boy notices the object from the low angle of the basket, knows neither what it is nor that it was warmed at another fire, and enters it nowhere. The board-bed, the bench and the door standing a finger's width open make the room another likeness he keeps apart with the birth room, the kiln-house, the death-house and the Court's room, writing no cause. Sella's private roll stays unshown behind its wall; neither Sella nor Alda turns a visit to the bank into a quest, and nobody says the woman's name or the number in her thumb. Changes: a second record no Court can enter is planted in a room already entered by nobody. Advances T008, T073, T074, T060, T081, T058, T071/T072, T082. Withheld: no tin opened, no contents known, no roll shown, no recognition, no quest.",
+      "target_words": 2300
+    },
+    {
+      "n": 6,
+      "title": "Before the Blessing",
+      "day": 43,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 43, Ilmen 14, Fourthday, at the Cross market and along the river road toward the Weir. Preparations for the Fish Blessing go upriver; Orra Weir's cords of knot-accounts are in the Eel House and her eel racks are bare and salted. Across the market a woman with green at one corner of her mouth looks at pots and is gone --- glimpsed, unnamed on the page, no dialogue --- filed as the other ear years before her name is spoken. Alda and Orra do not discuss the third day. The Ilm runs a little higher under its thinning skin and the yard calls it weather; the boy keeps the honeyed ice, the opened hairline and this new rise on separate places. Changes: the Weir is brought onstage as another room with a bench, a pot and a gap, and the silent ear is planted again. Advances T050, T051, T081, T085, T024, T059, T083, T071/T072. Withheld: Fenna's name and dialogue, the third day, the knot counted, the word forty.",
+      "target_words": 2400
+    },
+    {
+      "n": 7,
+      "title": "The Forty-First Knot",
+      "day": 44,
+      "flashback": false,
+      "synopsis": "One dated entry, Day 44, Ilmen 15, Fifthday, the Fish Blessing at the Weir. The hearth-maids bless the weir and the eel traps from the blessing stone while the boy is set in the shade with the fold at his chin. Orra Weir, rope-handed, eel-scarred, smelling of silt and tallow, keeps her accounts in knots on grey wool and will not sit where a slate is open. She ties a forty-first knot she cannot account for, says the word forty within the boy's hearing --- the first time the number has been spoken where he can hear it --- and watches what he does with it. He is too young to answer and does not forget the shape of the cord; the cord goes on its own tray, unread, the first edge of a number that will open years later. The boy is a cracked, low-capacity vessel in a district that has just spent a woman and is blessing eels. Changes: the long-withheld number is spoken and held; the cord becomes an object he keeps. Advances T024, T081, T025, T059, T071/T072, T060, T085. Withheld: no answer from the boy, no explanation of the knot, no joining, no recognition, no recognition of the mother, no ending.",
+      "target_words": 3200
+    }
+  ]
+}
