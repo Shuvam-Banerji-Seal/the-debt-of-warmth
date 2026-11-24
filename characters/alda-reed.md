@@ -24,6 +24,8 @@ Practical instruction in proverbs and half-sentences. She addresses the newborn,
 - “He grew worse on the third day. So did the one before him. That's all I've written.”
 - “The Court struck the name out. They didn't strike the child out.”
 - “I crossed myself. It's what my mother did. Don't make it more than that.”
+- “In the levy. Among the children taken for the account this month.” --- the lie, delivered as an entry and never as a story.
+- “A woman with a thin return goes asking after the levy and a hand comes down on a slate that was better left where it lay.” --- mercy spoken in the grammar of a warning.
 
 ## History
 
@@ -41,13 +43,13 @@ She wants one of the Court's physicians to read her notes and say the words she 
 
 ## Bonds
 
-**Corin** — the child she delivered and crossed herself over. She has watched him for three years without once saying what she saw, and has begun to suspect he knows that she knows. *Ch 1:* she lifted him, cleaned him in a deliberate order (face, neck, groin, knees, cord), pressed the wool flat with the same two fingers that had made the sign, and would not say his name.
+**Corin** — the child she delivered and crossed herself over. She has watched him for three years without once saying what she saw, and has begun to suspect he knows that she knows. *Ch 1:* she lifted him, cleaned him in a deliberate order (face, neck, groin, knees, cord), pressed the wool flat with the same two fingers that had made the sign, and would not say his name. *Ch 2:* she washed him in the same order on the second morning, reached for the slate first and pushed the writing further under, touched the tin at her bodice, and made the crossed sign again at the corner of the flower without knowing she was doing it in front of him. She said warm and breathing was all she had set down, which was not true.
 
-**Sella Vail** — they have traded a silence since the boy was three days old. Sella has never asked what Alda wrote; Alda has never asked why Sella took the child. This is not friendship. It is an arrangement with a door in it that both women have agreed not to open. *Ch 1:* the arrangement begins in the birth room, before a word is spoken between them: Alda lays the slate flat as the hand in the door goes back out.
+**Sella Vail** — they have traded a silence since the boy was three days old. Sella has never asked what Alda wrote; Alda has never asked why Sella took the child. This is not friendship. It is an arrangement with a door in it that both women have agreed not to open. *Ch 1:* the arrangement begins in the birth room, before a word is spoken between them: Alda lays the slate flat as the hand in the door goes back out. *Ch 2:* when Sella came for the boy she put her hand near the slate on the bench and did not touch it, and neither woman looked at the other. The arrangement holds.
 
-**Dessa Silt** — she lied to this woman about her own child and has taken her barley money from Sella's house ever since. When Dessa speaks to her in the street, Alda answers with the weather and hates the sound of her own voice. *Ch 1:* she delivered Dessa's child and met the unasked question with dates and weather, her hand on the slate rather than on the mother.
+**Dessa Silt** — she lied to this woman about her own child and has taken her barley money from Sella's house ever since. When Dessa speaks to her in the street, Alda answers with the weather and hates the sound of her own voice. *Ch 1:* she delivered Dessa's child and met the unasked question with dates and weather, her hand on the slate rather than on the mother. *Ch 2:* she stood behind Dessa in the Clay Yard as the bundle went up the hill and told her the boy had gone in the levy among the children taken for the account; she became exact about dates nobody had asked for, and the figure was never spoken. The lie is told to keep a slate unread and has begun to curdle.
 
-**Mira Silt** — they work the same room standing and trade small facts at the door. *Ch 1:* neither sat where the slate lay open, and each kept her face arranged for the other.
+**Mira Silt** — they work the same room standing and trade small facts at the door. *Ch 1:* neither sat where the slate lay open, and each kept her face arranged for the other. *Ch 2:* Mira is not in the room; her crust of brown-edged barley is the last warmth that crossed it from her hands.
 
 **Jorra Vail** — he knows she wrote something down the night Enna died and has never asked to see it. She has begun to be afraid of the day he does, because the boy in his house is the one thing Jorra could be persuaded to burn for.
 
@@ -57,11 +59,12 @@ She wants one of the Court's physicians to read her notes and say the words she 
 
 ## Arc So Far
 
-The two gestures that will define her are on the page in Chapter 1: the crossed sign she does not know she makes in front of strangers, and the exact, unasked-for dates with which she covers it. She has reached for the slate before the child, kept a second record in the little tin at her bodice (touched twice), written her thick round hand and thumb-mark beneath a neat dark one she did not write, and laid the slab flat on the bench at morning so that the room held no writing. She said the child was warm and breathing and that that was all she had set down. It was not. The lie to Dessa is three days away; the tin under the floorboard is years away from being read.
+The two gestures that will define her are on the page in Chapter 1: the crossed sign she does not know she makes in front of strangers, and the exact, unasked-for dates with which she covers it. In Chapter 2 both gestures repeat and a third is added. She reaches for the slate before the child again, touches the little tin on its cord twice more, crosses the sign over the flower in front of the boy without knowing it, and answers every unasked question with an exact history --- a cooper's seventh in Mud End, the account going up on the eighth before the paper went out --- until the dates arrive faster than dates have any business arriving. Then she tells Dessa the boy went in the levy. The lie is told as mercy and cannot be undone; the tin under the floorboard is years away from being read.
 
 ## Chapter Log
 
 - Ch 1: Delivered Corin in the front room of House Silt and worked with steady hands, clay under her nails. Reached for the slate before the child. Put her two fingers to the branching flower, noticed she had done it before witnesses, and covered the act with *birth-flower* plus an unasked-for history from Nine Pots: Y.H. 806, fourth day of Stone, a potter's third child, now a carter in Stonemouth. Touched the tin at her bodice twice. Gave a date and a weather report for the unasked question and said warm and breathing was all she had set down. Closed the slate flat on the bench while Sella Vail's hand hovered in the door.
+- Ch 2: On Day 2 washed the child in her order, reached for the slate first, touched the tin a further time, made the crossed sign over the flower before witnesses without knowing it, and gave a date and weather where comfort was expected. On Day 3 stood behind Dessa at the end of the Clay Yard and told her the boy was entered in the levy among the children taken for the account that month, that the account went up on the eighth before the paper went out, and that a woman with a thin return who goes asking draws a hand down on a slate better left where it lay. Said warm and breathing was all she had set down. The number was never spoken; she went on giving dates after the question had stopped.
 
 ## Secrets (private)
 

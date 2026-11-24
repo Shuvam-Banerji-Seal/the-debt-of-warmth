@@ -7,7 +7,7 @@ born: "Y.H. 788, Low Kiln, Sill, Grath"
 species: human (Grathic; returned thin)
 origin: "Low Kiln, Sill, Grath; House Silt"
 affiliation: "the slip pits, Clay Yard, Low Kiln"
-status: "alive on Day 1; spent after the birth, the sieve-wire scar rubbed raw with deciding. Dies Day 38, Ilmen 9, Y.H. 813, drowned in the Slip Brook, uncollected"
+status: "alive at the close of Day 3; believes her child went in the levy among the Forty and will believe it three years; dies Day 38, Ilmen 9, Y.H. 813, drowned in the Slip Brook, uncollected"
 first_appearance: 1
 ---
 
@@ -41,13 +41,13 @@ She wants to be warm once without anyone entering it against her account. She th
 
 ## Bonds
 
-**Corin** — her son, who lies three doors away under another roof and does not know her. She calls him the flower when she thinks nobody is listening, and once, at a market, stood behind him for a quarter of an hour while he slept in a basket and did not touch him. *Ch 1:* she pressed the grey wool flat at his shoulder with two fingers that stayed longer than the cloth required, and would not say his name. A thing with no name cannot be claimed by a woman with no house.
+**Corin** — her son, who lies under another roof and does not know her. She calls him the flower when she thinks nobody is listening, and once, at a market, stood behind him for a quarter of an hour while he slept in a basket and did not touch him. *Ch 1:* she pressed the grey wool flat at his shoulder with two fingers that stayed longer than the cloth required, and would not say his name. A thing with no name cannot be claimed by a woman with no house. *Ch 2:* she followed the bundle as far as the end of the yard and did not take one of the nineteen steps to come after it. She never said the name; she counted nineteen out and nineteen back instead, and the count went from a rhythm to a straight line and then stopped.
 
-**Sella Vail** — the woman who took him and paid her in barley and slip-clay to stay away. Dessa has taken the barley every winter and hated herself for it each time, because taking it is a kind of agreement. *Ch 1:* her pulse came up at her wrist under the *door shut* smile while the other woman's hand hovered above the bundle; she did not look up.
+**Sella Vail** — the woman who took him and paid her in barley and slip-clay to stay away. Dessa has taken the barley every winter and hated herself for it each time, because taking it is a kind of agreement. *Ch 1:* her pulse came up at her wrist under the *door shut* smile while the other woman's hand hovered above the bundle; she did not look up. *Ch 2:* the taking happened and neither woman looked at the other. Dessa stood where the houses stop and the rise toward the wheel-shed begins, pulse in throat, thumb on scar, the door-shut smile, and let the boy go up the yard under the other woman's coat.
 
-**Alda Reed** — who lied to her and has not slept well since. They avoid each other in the street; when they must speak, they speak about the weather, which in Low Kiln is never the subject. *Ch 1:* Alda delivered the child and met the room's unasked question with a year and the weather; Dessa answered with loaves and steps and the day of the month.
+**Alda Reed** — who lied to her and has not slept well since. They avoid each other in the street; when they must speak, they speak about the weather, which in Low Kiln is never the subject. *Ch 1:* Alda delivered the child and met the room's unasked question with a year and the weather; Dessa answered with loaves and steps and the day of the month. *Ch 2:* Alda came up behind her with her hands smoothing her apron in two passes and said the boy was entered in the levy. Dessa asked which, got the exact dates, and asked nothing further. She believes it. The figure was never spoken.
 
-**Mira Silt** — her sister, her room-mate, the person who knows the boy is alive and has not said so. Dessa suspects it. She has never asked, because an answer would be a thing she would have to carry, and she is already carrying one. *Ch 1:* the crust of brown-edged barley came across the floor from her sister, brisk and Vail-smoked, and she took it when it was pressed into her hand.
+**Mira Silt** — her sister, her room-mate, the person who knows the boy is alive and has not said so. Dessa suspects it. She has never asked, because an answer would be a thing she would have to carry, and she is already carrying one. *Ch 1:* the crust of brown-edged barley came across the floor from her sister, brisk and Vail-smoked, and she took it when it was pressed into her hand. *Ch 2:* Mira is not on stage; the last warmth that crossed this room from her hands is still the crust, and the boy is gone.
 
 **Berr Clay, the Thane of Clay** — took the levy from her wages in Y.H. 811 and called it one in twelve. She spat at his door in Grain and denied it when he asked, which is the whole of their relationship.
 
@@ -55,11 +55,12 @@ She wants to be warm once without anyone entering it against her account. She th
 
 ## Arc So Far
 
-On Day 1 she is the woman in the room whose count is not about the pits. She holds the thing she will not hold by naming dates and loaves and steps instead of her child; when Sella's hand hovers, she smiles the door shut and looks away. The reader is meant to take her for a bystander and to be wrong for three years. The lie Alda will tell her on the third day is still ahead; already on the page are the nineteen steps, the pale scar, the little hot one, and a crust of bread from the fire of the house that will take him.
+On Day 1 she is the woman in the room whose count is not about the pits. She holds the thing she will not hold by naming dates and loaves and steps instead of her child; when Sella's hand hovers, she smiles the door shut and looks away. On Day 2 she coughs from the pits and calls it weather, rubs the sieve-wire scar, and says a body can be warm and still be gone --- in the proverb-form, where it can be taken as advice. On the third morning she follows the bundle to the end of the yard and stops; her count goes from a rhythm to a straight line and then to nothing. Alda tells her the boy went in the levy and gives dates faster than dates have any business arriving, and she believes it because disbelief would be a thing she would have to carry. The reader is meant to take her for a bystander and to be wrong for three years. Already on the page are the nineteen steps, the pale scar, the door-shut smile, the little hot one, and a crust from the fire of the house that took him.
 
 ## Chapter Log
 
 - Ch 1: Lay on the pallet through the birth and the night, face turned toward the wall where the room allowed it. Counted nineteen out and nineteen back until the count stopped and her pulse took it up. Rubbed the sieve-wire scar while deciding how much to say; got specific --- nineteen steps twice daily since Y.H. 806, four loaves baked in Grain, three to the levy and one eaten with her feet up, the seventh of Stone in eight hundred and twelve --- and would not name the child. Called him the little hot one and the flower. Pressed the wool flat at his shoulder with two fingers that stayed longer than the cloth required. Smiled the *door shut* while Sella Vail's hand hovered. Took Mira's crust of Vail-smoked barley bread.
+- Ch 2: On Day 2 coughed from the pits, called it weather, rubbed the pale sieve-wire scar and got specific about steps, loaves and the day of the month; said a body can be warm and still be gone without looking at the child. On the third morning got up while Sella was at the bench, followed the covered bundle to the end of the Clay Yard and took none of the nineteen steps after it. Pulse in throat, thumb on scar, the door-shut smile; said nothing and did not say his name. Heard Alda say he had gone in the levy among the children taken for the account, asked only *where*, and asked nothing further as the dates went on arriving. She believes him spent and will believe it three years.
 
 ## Secrets (private)
 

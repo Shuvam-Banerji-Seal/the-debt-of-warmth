@@ -24,6 +24,8 @@ Short, flat, declarative. He asks almost no questions, and when he does it is th
 - “Sella. Don't feed him from your own dish. He's not Vail.”
 - “A slate burns in four minutes. Four. I've timed it.”
 - “I didn't say I was with them. I said I wasn't against them. That's different. In this district it isn't, but it's what I said.”
+- “He's not Vail.” --- said in the kiln-house at first light, refused an answer, and sealed by the boy's arrival.
+- “You'll do.” --- to the pot on the wheel, in a voice with no welcome in it and no unkindness either.
 
 ## History
 
@@ -41,23 +43,24 @@ He wants the wheel to stay in the house and the fire to hold and nobody to write
 
 ## Bonds
 
-**Sella Vail** — his mother. He believes she took Corin in to replace Enna and to keep the house's standing after Garl died. She has never contradicted him. Every obedience he gives her is therefore double: it is love and it is a correction neither of them will make.
+**Sella Vail** — his mother. He believes she took Corin in to replace Enna and to keep the house's standing after Garl died. She has never contradicted him. Every obedience he gives her is therefore double: it is love and it is a correction neither of them will make. *Ch 2:* she announced the taking and he answered *he's not Vail*; she got quieter and gave him no answer at all. He went on working, did not look at her, and shifted the damper before she had finished telling him to.
 
-**Corin** — the foundling. Jorra was the first in the house to notice that the boy turns his head toward a pot before anyone taps it, and that he does it to hear the note, not the noise. He has told nobody. He resents the boy for being given a bed in the house while the clay-bound hand sleeps in the loft, and he cannot stop watching him.
+**Corin** — the foundling. Jorra was the first in the house to notice that the boy turns his head toward a pot before anyone taps it, and that he does it to hear the note, not the noise. He has told nobody. He resents the boy for being given a bed in the house while the clay-bound hand sleeps in the loft, and he cannot stop watching him. *Ch 2:* the foundling arrived under the roof and nobody wrote him as Vail, which is what Jorra wanted and what he cannot bear. He spoke to the wheel, to the pots and once to Tarn about a rasp out of its place, and never addressed the boy.
 
 **Alda Reed** — attended Enna's death and Corin's birth, and has never met Jorra's eye for longer than a moment. He knows she wrote something down the night Enna died and has never asked to see it, because asking would make it a thing between them.
 
-**Tarn** — the Vail's clay-bound hand. Jorra treats him as a brother when the wheel needs him and as a servant when it does not. Tarn has decided to hate him for it and keeps failing, because Jorra once sat up all night with him through a fever and has never mentioned it.
+**Tarn** — the Vail's clay-bound hand. Jorra treats him as a brother when the wheel needs him and as a servant when it does not. Tarn has decided to hate him for it and keeps failing, because Jorra once sat up all night with him through a fever and has never mentioned it. *Ch 2:* Tarn was given the loft while the foundling was given the bed, and said so in one sentence to Sella. Jorra said nothing; he has never defended the household's arithmetic and never contests it.
 
 **Berr Clay, the Thane of Clay** — Jorra threw a stone at his door in Y.H. 810 and denied it. The Thane suspects the boy is with the Broken Slates and lets him be, which Jorra finds more frightening than being watched.
 
 ## Arc So Far
 
-No chapters are written yet. He enters as the young man at the wheel who says *he's not Vail* and then says nothing more on the subject for years, which in a Grathic house is the loudest possible way to say it.
+He enters at the wheel with his weight in the hollow his father wore and has spent three years failing to fill --- slip dried to the colour of old bone up both forearms, the left little finger bent from a splinter at eleven, a story about a fight he tells because a fight sounds more like him. In Chapter 2 he says one flat sentence about the foundling and is refused an answer, and the sentence is sealed by the boy's arrival: a child lies under the roof and nobody has written him as Vail. He does not look at his mother while obeying her instantly, speaks to the pots before people, goes quiet when the levy is spoken of, and has given none of the men who come into the back room a word they can carry away. He is the most careful keeper of the Vail fire in four generations and is quietly helping the people who want to burn every slate in Sill, and has never once thought the two facts cannot live in the same man.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 2 (at the wheel, objecting to the foundling).
+- Ch 1: Does not appear; the wheel, the hollow seat and his objecting are held for Chapter 2.
+- Ch 2: At first light stood at the wheel with slip-coloured forearms and the bent finger, told the pot the slip was too thick and it would crack at the shoulder, and went quiet when the levy was spoken of. When Sella said the boy would come under the roof he said *he's not Vail*, did not look at her, and was not answered. On the third day sat in the hollow seat as the boy was carried in, obeyed Sella's instruction about the damper before she had finished, told a pot *you'll do*, spoke once to Tarn about a rasp, and never addressed the child. Nobody wrote the foundling as Vail.
 
 ## Secrets (private)
 

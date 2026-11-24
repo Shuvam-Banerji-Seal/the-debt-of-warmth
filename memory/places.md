@@ -192,22 +192,22 @@ The ground of pots broken for the dead and of the shallow graves of thin-return 
 
 ### The Clay Yard
 **Kind:** work yard. **Region:** Low Kiln, Sill.
-The slip pits, wheel shed, drying racks and kiln that make up a clay child's whole world.
+The slip pits, wheel shed, drying racks and kiln that make up a clay child's whole world. House Silt stands three doors up the yard; Sella Vail's walk from its door to the Vail kiln-house on the third morning is counted by the boy in the bundle as a line of steps, against Dessa's nineteen out and nineteen back. On that morning the sleet of the day before has gone off into a dry cold that lifts the oiled paper at the windows; a woman at a tub looks up as the bundle passes and goes back to her work without appearing to have seen it.
 **Relations:** Inside Low Kiln, beside the Slip Brook; the Ilm is a short walk south.
 
 ### The Vail kiln-house
 **Kind:** house and kiln. **Region:** the Clay Yard, Low Kiln.
-A kiln-house held by the Vail family for four generations; Sella Vail keeps the fire and Jorra Vail is her son; Corin is taken in here as a foundling. The Ash ridge along its skirting board is thick since Garl Vail died uncollected in the Long Cold.
+A kiln-house held by the Vail family for four generations; Sella Vail keeps the fire and Jorra Vail is her son; Corin is taken in here as a foundling on the third day and laid on a bed of fresh straw under the roof. The house is known by its objects before its people: the kiln breathing in fours with a gap where the fifth breath should be, coals banked under ash, a door that does not quite shut, the hollow wheel-seat, a salt-stiff coat on a peg behind the door, and a proverb in the house's mouth (*leave the crack showing*) said to the pot and the fire and never to a person. The Ash ridge along the skirting board is near two thumbs wide, turns the corner without a break, and has not been swept since Garl Vail died uncollected in the Long Cold; it will be swept on the Last Day and burned next morning. In the kiln ash lies the charred edge of a slate, black on one side and eaten into the shape of a strip of bark, the writing gone off the end; the house has swept around it for a year without picking it up. The house keeps a roll of its own, entered in a careful hand and not shown to a man come down from Slate Row with a slate.
 **Relations:** In the Clay Yard, Low Kiln; the Slip Brook runs behind it; the Old Kiln is 1 league south; the wheel-shed and the Debt Loft are within it.
 
 ### The Vail wheel-shed
 **Kind:** workshop. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
-The shed where Garl Vail's wheel stands with its seat worn hollow on the left side, which Sella will not let anyone fill; Jorra Vail works there, and the clay-bound hand Tarn sleeps above it. A child of the house first learns the full note of a pot here.
+The shed where Garl Vail's wheel stands with its seat worn hollow on the left side from twenty years of leaning; Sella will not let anyone fill it, though she permits her son to sit there --- a distinction the house has never explained. Jorra Vail works there with slip dried to the colour of old bone up both forearms and the left little finger bent from a splinter at eleven, and the clay-bound hand Tarn sleeps above it. A child of the house first learns the full note of a pot here. On the third day a pot set down on the bench gives its small flat note; Tarn's broom stops for two strokes and nobody says what the sound was.
 **Relations:** Inside the Vail kiln-house; the Debt Loft is above it; the drying racks stand outside to the east.
 
 ### The Debt Loft
 **Kind:** sleeping loft. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
-The narrow loft above the wheel-shed where the house's clay-bound hands sleep; Tarn has slept here for six of his seven years. He keeps his few things in an unmarked clay pot.
+The narrow loft above the wheel-shed where the house's clay-bound hands sleep; Tarn has slept here for six of his seven years and keeps his few things in an unmarked clay pot. On the third day the foundling is given a bed under the Vail roof while Tarn is given this loft --- a poor household sorting its own members and calling the sorting kindness. Tarn came down the ladder with a broom when the boy was laid on the straw, and said *He's a foundling. I'm a debt. Don't put us in the same sentence, Sella.*
 **Relations:** Above the Vail wheel-shed, inside the Vail kiln-house.
 
 ### The close ground of Sill
@@ -230,7 +230,7 @@ The kiln-master's house of Berr Clay, Thane of Clay, above the terrace. The red 
 
 ### House Silt
 **Kind:** house, holding. **Region:** Low Kiln, Sill.
-The two-room clay-daubed house of Dessa and Mira Silt, three doors from the Vail kiln-house; its front room is the birth room of Chapter 1, where Corin is born on Stone 7, Y.H. 812. The floor is trodden ash packed until it has the spring of old bread, and a grey ridge of Ash runs along the skirting board from the bench by the door, under the door and into the next room, left there until the Last Day. The room holds a board-bed with a fold of grey wool, a stool by the wall, a hearth with a slip pot, and the birth-slate propped on the bench within the midwife's right hand. The door does not shut; a low song from a woman working below comes up through the floor. The slip pits are a walk away, counted in nineteen steps to the drying rack. The stone at the newborn's belly was warmed at the Vail hearth across the yard and carried here in a rag.
+The two-room clay-daubed house of Dessa and Mira Silt, three doors from the Vail kiln-house; its front room is the birth room of Chapter 1, where Corin is born on Stone 7, Y.H. 812. The floor is trodden ash packed until it has the spring of old bread, and a grey ridge of Ash runs along the skirting board from the bench by the door, under the door and into the next room, left there until the Last Day. The room holds a board-bed with a fold of grey wool, a stool by the wall, a hearth with a slip pot, and the birth-slate propped on the bench within the midwife's right hand, its writing turned under. The door does not shut; a low song from a woman working below comes up through the floor. The slip pits are a walk away, counted in nineteen steps to the drying rack. The stone at the newborn's belly was warmed at the Vail hearth across the yard and carried here in a rag; on the third morning it is left behind in the fold of grey wool on the abandoned bed when Sella carries the boy away, and the cup across the room gives its flat note to the empty bed. Alda sets a cup down twice in this room on the second day and neither time does anyone say what the sound was.
 **Relations:** In Low Kiln, east of the slip pits of the Clay Yard; the Vail kiln-house is three doors west, down the yard.
 
 ### House Reed
@@ -459,7 +459,7 @@ The county trauma centre where Dan trained, became an attending and worked night
 
 ### The hospital car park
 **Kind:** place, ritual site. **Region:** Chicago, Earth.
-Where Dan and Des ate bad pizza in silence for ten minutes after a bad shift, and where Dan learned of his father's death at sunrise. The friendship's whole architecture.
+Where Dan and Des ate bad pizza in silence for ten minutes after a bad shift, and where Dan learned of his father's death at sunrise. The friendship's whole architecture. Remembered in Chapter 2 in the present tense: wet slush under the lamps, the dashboard clock past three, cold pizza in a paper bag on the console, the lemon-and-diesel smell of the rig, Des's gold tooth catching the light, the laugh that filled the space where the eleventh minute would have been, and the same laugh running on the dispatcher's channel for exactly one minute after the expressway.
 **Relations:** Beside Cook County Hospital.
 
 ### Lane Tech

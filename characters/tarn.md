@@ -24,6 +24,7 @@ Deferential with a nail in it. He calls everyone *house*, including Sella, and s
 - “He's a foundling. I'm a debt. Don't put us in the same sentence, Sella.”
 - “I took the small knife. I put it back. You can check.”
 - “You can't return a man to himself. They tried with my mother. She came back with somebody else's hands.”
+- “I took the small knife. I put it back. You can check.” --- said of his own accord, to nobody, in the tone of a man stating the weather.
 
 ## History
 
@@ -41,11 +42,11 @@ He wants a slate with his own name on it and no mark against it. He wants to be 
 
 ## Bonds
 
-**Sella Vail** — she holds his debt and once, in the winter Garl died, gave him a warm stone for the loft which he has kept in his clay pot for two years. He cannot reconcile the stone with the debt, and has stopped trying, which is not the same as forgiving it.
+**Sella Vail** — she holds his debt and once, in the winter Garl died, gave him a warm stone for the loft which he has kept in his clay pot for two years. He cannot reconcile the stone with the debt, and has stopped trying, which is not the same as forgiving it. *Ch 2:* he calls her *house*, says *I owe* where another man says *I am*, and agreed with everything so thoroughly that there was nowhere for an argument to go. She gave the foundling a bed and him the loft, and he put the one sentence into the room that nobody had asked for.
 
-**Jorra Vail** — son of the house, who treats him as a brother when the wheel needs him and as a servant when it does not. Tarn has decided to hate him for it and keeps failing, because Jorra once sat up all night with him through a fever and has never mentioned it.
+**Jorra Vail** — son of the house, who treats him as a brother when the wheel needs him and as a servant when it does not. Tarn has decided to hate him for it and keeps failing, because Jorra once sat up all night with him through a fever and has never mentioned it. *Ch 2:* Jorra noticed a rasp left out of its place and Tarn answered him; the kindness and the command arrived in the same voice and Tarn did not separate them.
 
-**Corin** — the foundling who arrived and was given a bed in the house. Tarn was the first to notice that the boy turns his head toward a pot before anyone taps it, and has told nobody, because a clay-bound hand who can hear the full note is worth more than his debt and he does not want to be bought.
+**Corin** — the foundling who arrived and was given a bed in the house. Tarn was the first to notice that the boy turns his head toward a pot before anyone taps it, and has told nobody, because a clay-bound hand who can hear the full note is worth more than his debt and he does not want to be bought. *Ch 2:* he said *He's a foundling. I'm a debt. Don't put us in the same sentence, Sella.* His resentment is not envy of the bed; it is a man keeping the one thing he owns, which is the exact account of what he is owed and what he owes.
 
 **Dessa Silt** — he has carried messages between her and the house, and barley from her to Sella, and has hated being the thin part of that chain. He knows her cough is not the pits and has never said so.
 
@@ -55,11 +56,12 @@ He wants a slate with his own name on it and no mark against it. He wants to be 
 
 ## Arc So Far
 
-No chapters are written yet. He enters as the hand who is already sweeping when Corin wakes, and who pockets the small knife before anybody counts the tools.
+He enters already sweeping, before anyone wakes, a bent man of twenty-two with grey Ash in the creases of his knuckles and a pale ring round his left wrist where the clip sat in Y.H. 806. Six years of a seven-year term lie behind him and he has counted every one and will not count the next. In Chapter 2 he pockets the small bench knife and then says of his own accord that he took it and put it back and they can check; he stops his broom for two strokes when a pot is set down and gives its flat note, turns his head a degree and says nothing; he banks the coals without looking at the fire. When the foundling is given a bed and he is given the loft he makes one short sentence of it and goes back to sweeping. His deference has a nail in it, and the nail is the one possession the house cannot check.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 2 (in the Clay Yard, sweeping).
+- Ch 1: Does not appear; the broom, the knife and the loft are held for Chapter 2.
+- Ch 2: Swept the kiln-house before anyone woke and stopped for two strokes at a pot's flat note without turning his head or naming the sound. Put the small bench knife in his pocket, then took it out and put it back where it could be checked and said so unasked. Told Sella *Six years. One to go. I've counted every one, and I won't count the next.* Carried up from the Debt Loft with a broom on the third day, banked the coals, and said *He's a foundling. I'm a debt. Don't put us in the same sentence, Sella.* when the boy was given a bed. Heard the second flat note of the three days from a pot set down on the bench and did not say what it was.
 
 ## Secrets (private)
 

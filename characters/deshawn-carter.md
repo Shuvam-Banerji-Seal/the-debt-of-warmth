@@ -41,7 +41,7 @@ He wants one more car-park silence. He wants Dan to walk through the door covere
 
 ## Bonds
 
-**Daniel Marchetti** — the friend he never asked. Their bond is built on a ritual of not-speaking, and it is the real thing and also a failure. Dan's silence kept Des from knowing; Des's jokes kept Dan from confessing. Neither broke it. Des is the man Dan would have called if he had ever learned to call anyone, and the call never came.
+**Daniel Marchetti** — the friend he never asked. Their bond is built on a ritual of not-speaking, and it is the real thing and also a failure. Dan's silence kept Des from knowing; Des's jokes kept Dan from confessing. Neither broke it. Des is the man Dan would have called if he had ever learned to call anyone, and the call never came. *Ch 2:* he arrived inside the boy's head in the present tense and untagged --- car park, slush under the lamps, cold pizza on the console, the gold tooth catching the light, the ten minutes that said nothing and the laugh that filled the space where the eleventh minute would have been --- and then the timed minute on the dispatcher's radio after the expressway. He went out like a lamp. Dan had no Grathic word for him and the ache went in under the flower.
 
 **Nina Marchetti** — he drove her home sometimes when she was small and her father was on a shift, and when she asked about him Des said the thing that was easiest. She knows it was a lie. Her tension with him is quiet and permanent: she was the child at the other end of the joke, and she has spent her adult life being the woman who stops waiting — the thing Des's kindness helped make.
 
@@ -51,11 +51,12 @@ He wants one more car-park silence. He wants Dan to walk through the door covere
 
 ## Arc So Far
 
-No chapters are written yet. Des exists as a remembered laugh and a car-park silence, a `\memory{}` voice that arrives when Dan is most alone in a world that has no word for a paramedic.
+He arrives in Chapter 2 as a remembered laugh and a car-park silence, a `\memory{}` voice that comes up under the boy in the birth room of House Silt while a cup across the room gives its flat note and cannot be reached. The car park is wet with slush under the lamps, the dashboard clock past three, the pizza cold in a paper bag on the console; the rig smells of diesel and lemon disinfectant and cheap coffee. He says the line about looking like shit and sitting down for ten minutes, and then he laughs whole from low in his chest, on through the space where the eleventh minute would have been, and later on the radio for exactly one minute, timed by a man who had nothing else to give. The whole arrival is in the present tense, untagged, and goes out like a lamp put out. In a country with no word for a paramedic he is an ache under the ribs where the flower is.
 
 ## Chapter Log
 
-- No chapters written yet; first appearance planned for Ch 2 (remembered voice in the car park).
+- Ch 1: Does not appear; the car park is held for Chapter 2.
+- Ch 2: Came back unbidden on Day 2 in the birth room: car park, bad pizza, ten minutes of silence, the gold tooth in the lamplight, the diesel-and-lemon smell of the rig. Said \memory{You look like shit, Marchetti. Sit down. Ten minutes.} and laughed for the space of the eleventh minute and then for one minute on the radio after the expressway. Vanished with the car park; did not know he had been heard.
 
 ## Secrets (private)
 

@@ -78,6 +78,8 @@
 
 **D**
 
+**Debt Loft.** The narrow sleeping loft above a potter's wheel-shed in Low Kiln where a household's clay-bound hands sleep. In a poor house a foundling may be given a bed under the roof while a debt is given the loft, and the difference is not argued about.
+
 **Deep Hand.** The unread script of the oldest slates and seam records; the Vorr recognise its numbers but will not translate it in full.
 
 **Deduction.** The portion of a banked measure kept back for the Hearth. Taught as one part in twelve and printed on the Weighing notices.
@@ -111,6 +113,8 @@
 **The first way.** The procedure of opening a channel in the forearm by cutting across a surface way and keeping it open while it scars.
 
 **The Five (Five Cold Days).** The five days outside the months at the year's end: Kindling, Weighing, the Long Night, the Remembering and the Last Day.
+
+**Flat note.** The small dead sound a cracked vessel gives when it is set down or tapped --- the shadow of the full note, a sound that stops at the surface and will not go through. Dan hears it before anyone touches the vessel and has no Grathic word for it.
 
 **The full note.** The full sound a sound vessel gives under the knuckle; a cracked vessel answers flat. The first tool of the clinical ear.
 
@@ -158,6 +162,8 @@
 
 **Hot trace.** Warmth that leaves a vessel in an act of giving and stays hot, tangled with an unpaid promise, instead of cooling into the bank.
 
+**House roll.** A household's own slate of names and entries, kept close and not shown to the Court's assessor. In Low Kiln a house that keeps its own account does not need to explain the keeping, only to keep it.
+
 **House Vail.** The kiln-house of Low Kiln held by the Vail family for four generations; Sella Vail keeps the fire.
 
 **I**
@@ -183,6 +189,8 @@
 **Kindling.** The first of the Five, when every hearth in Sarn is lit from the Hearth-flame and collectors take the year's first measure.
 
 **L**
+
+**Last Day.** The fifth and last of the Five Cold Days. Bread is baked, and the grey Ash in the corners is left where it lies to be burned the next morning and called dealt with.
 
 **Ledgerhand.** The Court's script: Grathic grammar with the verbs removed, in a neat upright hand, all in the passive voice.
 
@@ -290,6 +298,8 @@
 
 **Slate Row.** The Court quarter east of the Cross at Sill, holding the collector's table, the assessor's house and the Waiting Room.
 
+**Slip.** The wet clay worked in the pits of Low Kiln and poured into moulds on the wheel; it dries the colour of old bone on a thrower's forearms. Work in the slip is commonly paid for in the thaw.
+
 **The Slip Brook.** A narrow clay-coloured stream through the Clay Yard whose colour the children of Low Kiln read as weather.
 
 **The Spending.** The Sere doctrine that a vessel was made to be emptied gloriously and that a life hoarded is a life wasted.
@@ -315,6 +325,8 @@
 **Tend.** A week of ten days; every month holds three whole tends, and the tenth day of each is Account-day.
 
 **Thane of Clay.** Grath's ruler, chosen by the kiln-masters of Sill and confirmed by the Court's factor at Greybank.
+
+**The thaw.** The spring working season, when the brook comes up and the clay goes soft. Debts in Low Kiln are often put off until then, in the phrase *you'll pay for it in the thaw*.
 
 **Thin.** A vessel that leaks faster than it takes in; the common condition of the poor, the spent and the returned poor. Also the bottom rank of a vessel.
 
