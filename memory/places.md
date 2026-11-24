@@ -51,6 +51,11 @@ The Court's city, built over the Hearth, where the Weighing Hall, the sealed fil
 The room where the year's measures are read at the Weighing and where the Hearth-fire burns behind a grating of cold iron.
 **Relations:** Inside the Hearthseat, above the Hearth chamber.
 
+### The College of Assessors
+**Kind:** academy, counting house. **Region:** the Hearthseat, on the Keel.
+The school where the value of a life is taught and Ledgerhand written; it holds the only right to enter a lawful deduction and keeps a second file of names removed from the rolls. Provost Wessen teaches here.
+**Relations:** In Slate Row in the Hearthseat, 150 leagues south-east of Sill; an assessor's house stands in Sill's own Slate Row, built in Y.H. 776.
+
 ### Vhalen
 **Kind:** realm, merchant republic. **Region:** Sallow coast.
 A ring of port towns governed by a Council of Tides, living on salt, glass, rope, ships and contracts written on paper that rots.
@@ -60,6 +65,16 @@ A ring of port towns governed by a Council of Tides, living on salt, glass, rope
 **Kind:** port city. **Region:** Vhalen, Sallow coast.
 The principal Vhaleni port, seat of the Council of Tides, with salt pans, glass furnaces and the tar-smelling council room.
 **Relations:** 80 leagues north-east of Sill; at the northern end of the Salt Road; the Glaze Cliffs about five leagues along the coast.
+
+### The Quay
+**Kind:** district, waterfront. **Region:** Vhal, Vhalen.
+The working waterfront of Vhal where boat-shares are held and pass through mothers; a man who marries into a boat-owning family is said to be come aboard and his opinion on the boat is counted at half. Pia of the Quay's mother holds a share here.
+**Relations:** Inside Vhal, on the Sallow shore, 80 leagues north-east of Sill.
+
+### The Salt Pans
+**Kind:** works, salt flats. **Region:** Vhalen, Sallow coast.
+Shallow pans where sea water is left to sun and wind; the dippers bless the nets here at dawn and read the Sallow draw. Contracts written on salt-paper rot in the damp, which is considered a virtue.
+**Relations:** Outside Vhal on the Sallow shore; the Glaze Cliffs lie a few leagues along the same coast.
 
 ### Keld
 **Kind:** realm, mountain kingdom. **Region:** the Rim.
@@ -73,8 +88,13 @@ The Warden's seat, where a man must state his measure before his name and where 
 
 ### The First Seam
 **Kind:** mine, survey shaft. **Region:** Keld, beneath Keld Keep.
-The deep working where the Keldish survey the oldest repairs and where a crossed-out entry of Y.H. 588 records a man with a branching red mark.
+The deep working where the Keldish survey the oldest repairs and where a crossed-out entry of Y.H. 588 records a man with a branching red mark. Siv of the First Seam keeps the survey here.
 **Relations:** Beneath Keld Keep, 120 leagues west-north-west of Sill.
+
+### The Duelling Floor
+**Kind:** duelling floor, chamber. **Region:** the First Seam, Keld Keep.
+A floor cut into the stone of the deep shaft where the Order of the Tenth Clamp fights with iron clamps and where a young Keldish person first opens a way in the forearm; Hald Iron is master of the floor. A surviving copy of Haldre's suppressed paper is kept nearby in a tin lined with warm-stone.
+**Relations:** Inside the First Seam, beneath Keld Keep, 120 leagues west-north-west of Sill.
 
 ### The Listening Stones
 **Kind:** standing stones, survey site. **Region:** high Rim, Keld.
@@ -95,6 +115,11 @@ A hot empire of grain, wine, bowls and open chattel slavery, whose people teach 
 **Kind:** imperial city. **Region:** Sere.
 The capital, a city of open courts and public fires where debt-slates are burnt by lot and returned slaves are exhibited.
 **Relations:** About 300 leagues south of Sill; the Peat Line is roughly 200 leagues north of it.
+
+### The Ember bowl-house
+**Kind:** great house. **Region:** the Bowl of Sere.
+A house of the Ten Bowls that buys poor northern measures to make one beautiful whole return for display at feasts; Solene Ember was returned whole here in Y.H. 799, Y.H. 804 and Y.H. 809.
+**Relations:** Inside the Bowl of Sere, about 300 leagues south of Sill; its northern interests are represented by the factor at Greybank.
 
 ### The Fenmarch
 **Kind:** realm, reed confederacy. **Region:** south-west.
@@ -134,6 +159,11 @@ The poor quarter of kilns, trodden-ash floors and thick grey Ash in the corners;
 **Kind:** district. **Region:** Sill, north terrace.
 The master potters' quarter on the steep street above Low Kiln, where the glaze is mixed and the lead smell hangs.
 **Relations:** About 200 paces north and uphill of Low Kiln; the Cross is a short way west.
+
+### The Glaze Room
+**Kind:** workshop. **Region:** High Kiln, Sill.
+The room where the glaze is mixed and tasted by the glaze-mixers of House Clay; the lead in the mix causes the sweet-sickness, whose first sign is a pale line at the gum. Fenna Clay works here.
+**Relations:** Inside High Kiln, on the terrace above Low Kiln; the Vail kiln-house buys its glaze here.
 
 ### The Cross
 **Kind:** market square. **Region:** Sill.
@@ -229,6 +259,11 @@ Four kilns and a shared clay pit, in permanent feud with Sill over the road.
 **Kind:** granary town. **Region:** Grath, eastern gate.
 The Court's granary and factor's house, where the Clay Road ends and the Hearth Road begins; the first place a Sill man sees the Court at full size.
 **Relations:** 18 leagues east downriver of Sill; Mud End 15 leagues west; the Hearth Road runs 140 leagues south-east to the Hearthseat.
+
+### The Counting House
+**Kind:** counting house. **Region:** Greybank, Grath.
+The Vhaleni factor's counting house in Greybank where glass, grain, quiet ash and whole returns are brokered and where documents on salt-paper are left in the damp; Veno Brine keeps his private drawer of dry documents here.
+**Relations:** Inside Greybank, 18 leagues east downriver of Sill, near the Court's factor's house and the end of the Clay Road.
 
 ### The Old Kiln
 **Kind:** ruin. **Region:** Grath, south of Sill.

@@ -4,19 +4,20 @@
     "world",
     "power",
     "cast-1",
-    "cast-2"
+    "cast-2",
+    "cast-3"
   ],
   "chapter": 1,
   "step": "plan",
   "scene": 1,
   "consolidated_through": 0,
   "built": {},
-  "calls": 12,
+  "calls": 13,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 0,
-  "tokens_in": 649179,
-  "tokens_out": 260467,
+  "tokens_in": 993771,
+  "tokens_out": 306467,
   "restarts": [
     {
       "at": "2026-11-24",
