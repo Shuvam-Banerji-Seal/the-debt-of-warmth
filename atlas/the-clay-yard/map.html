@@ -26,7 +26,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   var NS='http://www.w3.org/2000/svg';
   var svg=document.getElementById('m');
   var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', GOLD='#a9833c',
-      GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', CLAY='#8d9a92';
+      GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', CLAY='#8d9a92', SEAWASH='#a9bfb2';
 
   function E(tag,attrs,parent){
     var n=document.createElementNS(NS,tag),k;
@@ -87,7 +87,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
 
   /* ---- water: the Slip Brook behind the houses, and the Ilm at the reedbeds ---- */
   function channel(pts,w0,w1,fill,p){
-    var c=jit(pts,2.0,15), bankA=[],bankB=[],nm=[],hw=[],k;
+    var c=jit(pts,5.5,12), bankA=[],bankB=[],nm=[],hw=[],k;
     for(k=0;k<c.length;k++){
       var a=c[Math.max(0,k-1)],b=c[Math.min(c.length-1,k+1)];
       var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
@@ -111,8 +111,9 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
       E('path',{d:'M'+px.toFixed(1)+' '+py.toFixed(1)+' q7 -2.4 15 0',fill:'none',stroke:SEA,'stroke-width':0.9,opacity:rr(0.10,0.24)},p);
     }
   }
-  channel([[500,486],[760,478],[1040,490],[1320,480],[1620,492],[1900,482],[2110,500],[2160,700],[2190,920],[2200,1130],[2210,1330]],7,14,CLAY,gWater);
-  channel([[700,1404],[1040,1392],[1400,1406],[1760,1394],[2080,1408],[2360,1416]],48,74,SEAWASH||'#a9bfb2',gWater);
+  /* the brook meanders behind the houses and goes off the east edge to the Ilm */
+  channel([[470,472],[700,452],[920,490],[1150,460],[1380,500],[1610,468],[1840,504],[2070,476],[2280,508],[2380,494]],8,15,CLAY,gWater);
+  channel([[700,1376],[980,1362],[1260,1382],[1540,1366],[1820,1384],[2100,1370],[2370,1386]],30,48,SEAWASH,gWater);
   /* a thin flooding line of Silt, drawn dotted along the racks */
   E('path',{d:D(jit([[520,906],[900,898],[1260,910],[1640,900],[1980,912]],2,20)),
     fill:'none',stroke:SEA,'stroke-width':1.3,'stroke-dasharray':'4 6',opacity:0.5},gWater);
@@ -229,9 +230,8 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
       fill:'none',stroke:'#7d6a52','stroke-width':0.8,'stroke-dasharray':'3 4',opacity:0.7},gStruct);
   });
   /* turnip and barley ground, worked in rows */
-  for(i=0;i<8;i++){
-    E('path',{d:'M154 '+((964+i*17).toFixed(1))+' q130 -7 260 0',fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.45},gStruct);
-    E('path',{d:'M1480 '+(1108+i*16)+' q330 -10 660 0',fill:'none',stroke:MG,'stroke-width':1.2,opacity:0.4},gStruct);
+  for(i=0;i<7;i++){
+    E('path',{d:'M154 '+((970+i*17).toFixed(1))+' q130 -7 260 0',fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.45},gStruct);
   }
 
   /* ---- roads and the ruts of the yard ---- */
@@ -239,7 +239,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
     fill:'none',stroke:INK,'stroke-width':1.6,'stroke-dasharray':'6 6',opacity:0.55},gRoad);
   E('path',{d:D(jit([[666,1010],[470,996],[280,982],[110,968]],2,18)),
     fill:'none',stroke:INK,'stroke-width':1.8,'stroke-dasharray':'7 6','stroke-linecap':'round',opacity:0.72},gRoad);
-  E('path',{d:D(jit([[800,1140],[790,1260],[776,1380]],2,18)),
+  E('path',{d:D(jit([[800,1140],[790,1240],[778,1310]],2,18)),
     fill:'none',stroke:INK,'stroke-width':1.6,'stroke-dasharray':'6 6',opacity:0.6},gRoad);
   E('path',{d:D(jit([[1300,456],[1150,420],[1010,400],[880,382]],2,18)),
     fill:'none',stroke:INK,'stroke-width':1.5,'stroke-dasharray':'6 5',opacity:0.6},gRoad);
@@ -248,9 +248,8 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
       fill:'none',stroke:INK,'stroke-width':1.6},p);
   }
   edgeArrow(158,960,-1,gRoad);
-  edgeArrow(1330,452,1,gRoad);
-  edgeArrow(778,1372,0,gRoad);
   edgeArrow(2288,1170,1,gRoad);
+  E('path',{d:'M778 1280 L778 1322 M778 1322 l-5 -9 M778 1322 l5 -9',fill:'none',stroke:INK,'stroke-width':1.6},gRoad);
 
   /* ---- text helpers: every label is inked last, above everything ---- */
   function T(x,y,text,o,p){
@@ -287,14 +286,15 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   T(1840,1062,'the yard well',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
   T(540,1010,'the slip pits',{font:'FellIt',size:15,fill:FADE,anchor:'middle',halo:true});
   T(290,1140,'the turnip grounds',{font:'FellIt',size:15,fill:MG,anchor:'middle'});
-  T(1820,1168,'the barley fields',{font:'FellIt',size:15,fill:MG,anchor:'middle'});
+  T(1560,1112,'the barley fields',{font:'FellIt',size:15,fill:MG});
+  E('path',{d:'M1714 1108 L1766 1108 M1766 1108 l-8 -5 M1766 1108 l-8 5',fill:'none',stroke:INK,'stroke-width':1.4},gRoad);
   T(1094,744,'the loaf shelf',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
   T(970,700,'the clay jar',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
   T(1148,806,'the wheel',{font:'FellIt',size:12,fill:FADE,anchor:'middle'});
   T(1266,730,'the damper',{font:'FellIt',size:12,fill:RED,anchor:'middle',halo:true});
   T(160,950,'to the Cross — a short way west',{font:'FellIt',size:14,fill:FADE});
-  T(1344,436,'to High Kiln by the steep street',{font:'FellIt',size:14,fill:FADE,anchor:'end'});
-  T(790,1418,'to the Old Kiln — one league south',{font:'FellIt',size:14,fill:FADE,anchor:'middle'});
+  T(1090,404,'the steep street to High Kiln',{font:'FellIt',size:14,fill:FADE,anchor:'middle',rot:-8});
+  T(820,1300,'to the Old Kiln — one league south',{font:'FellIt',size:14,fill:FADE});
   T(2294,1154,'downriver to Greybank',{font:'FellIt',size:14,fill:FADE,anchor:'end'});
 
   /* ---- marginal notes in the surveyor's voice ---- */
@@ -309,26 +309,23 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
     'Drawing house two the other way. The smithy between keeps',
     'no kiln-mark, and mends the collectors\' cold-iron tubes.'
   ],{size:16,lh:23,fill:'#574226'});
-  note(120,1200,[
+  note(660,1180,[
     'The Vail kiln takes its breath in fours and a gap. The',
     'house has gone around the ash at the corner for a year',
-    'and a year; what is left where it lies is still kept.',
-    'A finer hairline beside the old line is called the thaw.'
+    'and a year; a finer hairline beside the old line is',
+    'called the thaw. The iron across the kiln\'s throat',
+    'holds and takes in one bite, with no Grathic word for both.'
   ],{size:15,lh:22,fill:'#574226'});
-  note(1500,1210,[
+  note(1500,1180,[
     'Under the lowest rack the whole slates should stand.',
     'They do not. The yard goes around the space and enters',
     'it into nothing. The charred slate lies in the kiln ash.'
   ],{size:15,lh:22,fill:'RED'});
-  note(1500,1300,[
+  note(1500,1256,[
     'The shelf in the kiln-house stands with two unnamed',
     'gaps; the bed in the room that does not touch it keeps',
     'one crust. No finger in Low Kiln has laid them together.'
   ],{size:15,lh:22,fill:'#574226'});
-  note(120,1370,[
-    'The iron across the kiln\'s throat holds and takes in',
-    'one bite, and there is no word in Grathic for both.'
-  ],{size:15,lh:22,fill:'RED'});
 
   /* ---- title cartouche ---- */
   E('path',{d:'M636 58 L1764 58 L1784 78 L1784 194 L1764 214 L636 214 L616 194 L616 78 Z',
