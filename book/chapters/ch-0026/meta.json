@@ -1,0 +1,105 @@
+{
+  "number": 26,
+  "title": "The Hand That Does Not Come Back",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "You count them going in. You don't count them coming out. What comes back is a row, and a place the yard goes around.",
+    "attribution": "A saying of the strip-keepers, Low Kiln"
+  },
+  "days": {"start": 116, "end": 119},
+  "when": "Days 116–119 · Seed 27–30, Y.H. 813",
+  "where": "Low Kiln, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a one-hundred-and-sixteen-to-one-hundred-and-nineteen-day-old body carried everywhere; the surgeon's register colours the noticing (the empty place in the returning line read as a chart closed with a neat line over a note never opened, a neighbour's one-breath joining of two bare boards read as clean exact and worthless work, the green at a mouth filed beside another green, the cold foot read as the extremity going before the core with the afterdrop waiting on a warming nobody will perform, the damper's double bite read as the clamp that holds and the clamp that takes, the figure for hands going into a slate read as the figure paid that is not the figure read) without a present-tense Chicago break or a tagged remembered line --- the old life stays offstage --- and there is no departure from his eyes, no Court, Waiting Room, collector or back-room interior",
+  "mode": "normal",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "alda-reed",
+    "mira-silt",
+    "berr-clay"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "the Clay Yard",
+    "the worked strips",
+    "the drying racks",
+    "the yard well",
+    "the Vail kiln-house",
+    "the loaf shelf",
+    "the Vail wheel-shed",
+    "the damper",
+    "House Silt",
+    "the Fishstairs",
+    "the Cross",
+    "Slate Row",
+    "the Ilm",
+    "the Debt Loft",
+    "the Weir",
+    "Nine Pots",
+    "Greybank"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Place in the Line",
+      "day": 116,
+      "flashback": false,
+      "synopsis": "First entry, Day 116, Seed 27, Seventhday, at the going of the light at the worked strips east of Low Kiln. The last hands come out of the planting with the seed up and worked around, counted in glances and handfuls and never in a figure; a woman lifts two fingers with chaff in the creases, a man with a barrow shapes the number of backs with his mouth and thinks better of it. One hand that went in on Seed 15 does not come back with the rest, and the yard goes around the empty place in the line with a look and no number: T098 planted here --- no name, no cause, no accident, no body, no figure and no identification of which hand. Sella Vail carries the boy at the edge of the work at the half-pace from every open slate, the basket held level, giving the instruction to the wool and the river wind and never to the basket, saying the house where another woman would say I. The boy, one hundred and sixteen days old and told by nobody, reads the shut line as a chart closed with a neat line over a note never opened, exact, complete and worth nothing, and his hand outside the wool goes up an inch toward the strips and comes down. Advances T098 (planted), T071/T072 (116), T077, T058/T079, T009/T013/T092. Withheld: no name, no cause, no figure, no payment, no ending.",
+      "target_words": 2400
+    },
+    {
+      "n": 2,
+      "title": "Two Gaps and a Row of Loaves",
+      "day": 116,
+      "flashback": false,
+      "synopsis": "Second entry continued, Day 116, evening and going of the light under the Vail kiln-house roof and at the loaf shelf. Sella gives the bucket, broom, pot and fire their instructions before anybody and never the basket, goes around the space beneath the lowest rack as wide as a pail of hot water set where a child might knock it, and moves her lips along the loaf row without a figure while a neighbour reaches for the place no longer there and calls the old space at the row's end a thing the planting brought in and the new palm's breadth the price of a wet thing set down wrong, still without seeing they are one absence. The boy keeps the shelf's two gaps, the fold's one stiff brown-edged crust with its unnamed empty place, and the neighbour's saying on three places that do not touch, with no third gap and no fourth likeness made into a cause. Sella glances once at the clay jar cold under its glaze and does not touch the widow's mark, because a shelf is not an opening. At the going of the light she sets him on his bed under the roof and not in the Debt Loft, puts the fold right without looking at his face and leaves the thread frozen and unwiped, her hand resting a half-beat longer than the setting needed. She tells the fire it was the thaw, turns the coals with the back of a broken pot, says the house will keep it, stands a moment counting under her breath toward no opening and pushes a strand of coal-black hair back with the burn-wrist, the grey streak pale. The boy turns out the file and finds it unchanged: six hearings beside and never among with no seventh, three near-full answers advanced and not paid, three intervals, the word forty unspoken, the told bell beside the heard bell, the damper's double bite filed as an object, the loan that can hear uncalled, the held breath from Seed 16 still unspent. He adds what the day gave --- the hand that did not come back, the neighbour's joining --- on places of their own and lays no finger across them. The door stands a finger's width open; the river's note comes through the gap and the kiln's four, four and a gap through the floor, and the two counts do not meet. Advances T060/T086, T097 (advanced, not paid), T058/T079, T061/T082, T036/T076, T088, T009/T013/T092, T071/T072 (116). Withheld: no joining, no name, no third gap, no seventh hearing, no ending.",
+      "target_words": 2300
+    },
+    {
+      "n": 3,
+      "title": "The Bite with No Word",
+      "day": 117,
+      "flashback": false,
+      "synopsis": "Third entry, Day 117, Seed 28, Eighthday, before first grey through midday at the Vail wheel-shed and its finger's-width-open back room (not entered), the damper and the Clay Yard. Men unnamed come up the yard with their collars high and speak low in the back room; Jorra Vail gives the house no name for them and does not say the room was cold. He comes through with fine grey slate dust ground into both forearms past the bent little finger, small as meal and not the bone-coloured slip of the wheel, and keeps dusty forearms and clean ones on one tray, asking neither which slate was broken nor whether it was a birth-slate. He speaks to the wheel before anyone --- it does not care whose hands, only if they are steady --- tells a pot You'll do, knows the full note of a Vail pot before it leaves the wheel and will not say so before a kiln-master from High Kiln. When Sella has not finished telling him the fire is low his bent finger goes into the cold iron of the damper ahead of her sentence and the household straightens around his silence the way cloth straightens when a weight is lifted. The boy reads the iron once more as the bite that holds a vessel whole and the bite that can take the hand off a man, with no word in Grathic for both mercies, and files it as an object worth nothing joined to no kiln. Tarn takes the broom only after it has been instructed; his seventh year is pressed to the very edge of the sill and still held, the small knife at the very edge with six counted and the seventh nearly gone, his chest tight with the breath from Seed 16 still unspent and a small interval at the top of each reach where the breath should have gone in. His stroke goes on over the flagstones without the half-check it made on Seed 22, and the stones still keep the place where it stopped; neither man names the other's silence and the loan that can hear is uncalled. Jorra does not look toward the bed or the basket; he's not Vail stays sealed and the promise of the foundling's name to the men who burn slates is neither given nor withdrawn. Advances T035/T031, T062, T036/T076 (the unchecking stroke held, not repeated), T061/T082, T071/T072 (117). Withheld: no name for the men, no entry of the back room, no calling of the loan, no seventh hearing, no ending.",
+      "target_words": 2500
+    },
+    {
+      "n": 4,
+      "title": "Green at the Corner of a Mouth",
+      "day": 117,
+      "flashback": false,
+      "synopsis": "Fourth entry continued, Day 117, late morning and midday at the market stalls beyond the Cross and going of the light under the Vail roof. Sella sets the basket at the edge of the shade where no slate lies and gives the instruction to the wool and the running water and never to the basket, standing her half-pace from every open slate. Across the market a woman with the sweetish lead-glaze green at one corner of her mouth stands looking at pots, unnamed and silent and given no dialogue; the boy files the colour on a place of its own beside Berr's green at his own mouth and the silent green seen across the square on Silt 30, three shapes in three places that do not touch, and does not name the woman or the colour as anything but green (T050/T051), and she is not Fenna in the narration. The market's arithmetic goes on in the ordinary way --- a figure from a fist to a mouth to a shoulder arriving nowhere, Berr gone up the clay road with the box locked and the true subtraction inside --- and the boy adds none of it to the green. At the going of the light the file is unchanged: six hearings and no seventh, one crust and its empty place, the shelf's two gaps in another room, the word forty unspoken and the dark foot below the sill still the cold to one woman and weather to the yard. Advances T050/T051 (second glimpse, filed in silence), T077, T058/T079, T061/T082, T071/T072 (117). Withheld: no name, no dialogue, no joining to Berr's green or to the eel trade, no ear spoken, no ending.",
+      "target_words": 2200
+    },
+    {
+      "n": 5,
+      "title": "A Second Mouth Makes the Cause",
+      "day": 118,
+      "flashback": false,
+      "synopsis": "Fifth entry, Day 118, Seed 29, Ninthday, midday at the yard well and the loaf shelf in the Vail kiln-house. A neighbour come up from the strips asks what the planting cost now that the hands are out of it; Sella glances at the clay jar and sends her to the pot with Ask the pot what a wet thing costs set down there, because the house has said it. At the loaf shelf a second neighbour reaches past the bare board, her hand going to the empty place before her eyes find the boy, opens for the half-beat it takes to find what is not there, closes on the loaf beyond and says in one breath that the old space at the row's end came in with the planting and the empty place at the child's ear is a child's appetite. She goes off with her pot without seeing she has laid two rooms under one cause or that the two bare boards are one absence. The boy files her saying beside the first neighbour's Seed 24 joining and beside the earlier tellings, two tellings on two places, T097 advanced and not paid, with no joining made his own, no fourth likeness allowed to make a cause, no third gap and no finger laid across the places. Sella moves her lips along a row standing with two gaps and gives nobody a figure, and does not touch the widow's mark because a shelf is not an opening. Advances T097 (advanced, not paid), T060/T086, T058/T079, T061/T082, T071/T072 (118). Withheld: no joining, no cause, no name, no third gap, no payment, no ending.",
+      "target_words": 2400
+    },
+    {
+      "n": 6,
+      "title": "Two Records That Do Not Touch",
+      "day": 118,
+      "flashback": false,
+      "synopsis": "Sixth entry continued, Day 118, dawn at the Fishstairs below the north bridge, midday three doors down in House Silt and going of the light under the Vail roof. Mira Silt works the eels with pale slime dried in long grey strokes on her sleeves and silt dried pale in the hollow of her neck, her head held right where the top of her left ear had been, her small smile kept like a door on the latch. Asked whether the run will be thin she answers her own answer, Thin? Who's to say thin? It comes when it comes. Ask the river, moves eel-bones against her thumb while deciding whether to lie and puts one away. When a buyer names a figure her thumb goes under her apron to the grey wool cord and stays longer than the figure required; shifting a creel shows the second cord twisted twice beneath it, never carried upriver to Nine Pots or lifted at a door, neither knot counted by any thumb but her own and the knot for the thin child upriver untouched. Her board lies beside Orra Weir's knot-string and does not touch it, Orra offstage and present only as the board. Three doors down Sella sets the basket just inside the finger's-width-open door at the edge of the light and away from every open slate; Alda Reed lays her birth-slates writing-down on the bench before she turns to the fold, presses the wool a breath too long, crosses two fingers at the red edge of the birth-flower before she knows it and covers the sign with the date she gave Dessa, says Warm and breathing, that's all I've set down --- exact and not true over a woman more mornings dead than any living person keeps count of --- and goes on with dates after the question has stopped. Her hand goes once into her bodice to the little tin and comes away without opening it; the sixth narrow slate stays face-down toward a floorboard in a house the boy cannot name, six pages in a second hand all unread, no seventh written and T023 not paid again. Above the abandoned board-bed the round pewter tin keeps its pale fold and thumb-bright rub unopened, and the grey wool below holds only the hollow where the small pale river stone lay; nobody says either is gone. Under the roof at the going of the light the boy finds the file unchanged; below the sill a child's foot stays dark inside three turns of wool, cold to one woman and weather to the yard, the extremity going before the core and the afterdrop waiting on the far side of a warming nobody will perform, the reading perfect and buying nothing. Advances T059/T025/T024, T023/T089 (not paid again), T007/T008/T073, T093/T094/T096, T061/T082, T060/T086, T071/T072 (118). Withheld: no knot counted, no word forty, no tin opened, no seventh page, no name or number from Dessa, no silt-leach or cure, no ending.",
+      "target_words": 2400
+    },
+    {
+      "n": 7,
+      "title": "One Hundred and Nineteen",
+      "day": 119,
+      "flashback": false,
+      "synopsis": "Seventh entry, Day 119, Seed 30, Tenthday, Account-day and the last market of Seed, morning at the reading block and worked strips and going of the light under the Vail kiln-house roof. The planting month ends and Reed comes on. The hands came out of the strips the day before and one place in the line is still gone around with a look and no figure, carried and not paid (T098). Berr Clay comes up to the block short, with the red wool cord of his office folded under his coat and the green of tasted glaze at one corner of his mouth, hot clay over the smell of nothing at all; his hands are large and clean and he wipes his thumb twice before touching nothing, holds a narrow slate unopened against his forearm, passes a finger over the figure and lets his eyes rest on it a breath longer than the writing required. He reads one in twelve, as the notice says, calls the levy and says it is not called by him, and to a man who brings a number up out of a fist and asks what the planting cost now that hands have gone into it he says a number goes into a slate, not into a strip; if the house wants it again, there'll be a slate at the watch --- your house, never I, taking himself out of his own sentence as a hand goes out of a field before the dressing goes on. The figure read aloud is not the figure paid, the true subtraction sits in the locked box up the road, and the figure that goes into the slate does not know the hand that did not come back. The bell goes four, four and a gap and nobody crosses himself; the heard bell stays beside the told bell. The soft-cuffed clerk is still set at the out-of-line landing with his cuff grey from washing and his slate to his forearm for a measure nobody called, hand to slate before eyes to stalls, and the market sells its eels over the top of him as though a man with a slate were a thing a landing always had. Under the roof at the going of the light the boy finds six hearings beside and never among with no seventh, three near-full answers advanced and not paid, three intervals, the word forty unspoken with the readable double turn and the weight of a thumb apart, four low things in four places with the river's note a fifth, the two tellings of the shut counting room joined to no kiln, one crust in the fold with no third, the shelf's two gaps in a room that does not touch it, the clean dark line and the new finer grey unswept and called the thaw, the space under the lowest rack gone around, the held breath from Seed 16 unspent and the loan uncalled. Sella tells the fire it was the thaw, turns the coals with the back of a broken pot, says the house will keep it and does not look toward the bed. The count stands at one hundred and nineteen, exact, unspent and spoken by nobody; his hand outside the wool goes up an inch toward the note of water over water and comes down, and on the morrow one hundred and twenty will stand in the same place with the same number of nails above it and the same gap under the floor. Nothing is joined, paid, named or ended. Advances T015/T041/T047/T077/T078, T090/T080, T083, T098 (carried, not paid), T071/T072 (119), T061/T082, T060/T086, T088, T036/T076, T009/T013/T092, T093/T094/T096, T058/T079. Withheld: no joining, no payment, no name, no body or cause for the missing hand, no seventh hearing, no sixth sighting, no word forty, no knot counted, no ending.",
+      "target_words": 3000
+    }
+  ]
+}

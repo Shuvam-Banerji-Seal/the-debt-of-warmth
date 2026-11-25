@@ -1,0 +1,77 @@
+\begin{tikzpicture}
+  % the chapter's heart: a direction gets a back put into it, and seed goes in,
+  % while the slate lies in the sun and takes no figure and no seed
+
+  % the strip above, still only a direction: a line nobody has worked
+  \draw[faded, line width=0.55pt, dotted, opacity=0.20]
+    (-3.45,-0.02) .. controls (-1.50,0.08) and (0.70,-0.20) .. (2.38,-0.34);
+
+  % the strip below, worked: the turned furrow, upper lip and lower lip
+  \fill[faded!72!ink, opacity=0.11]
+    (-3.35,-0.38)
+    .. controls (-1.50,-0.30) and (0.60,-0.58) .. (2.25,-0.72)
+    -- (2.25,-1.03)
+    .. controls (0.60,-0.89) and (-1.50,-0.61) .. (-3.35,-0.69)
+    -- cycle;
+  \draw[faded!88!ink, line width=1.00pt, opacity=0.84]
+    (-3.35,-0.38) .. controls (-1.50,-0.30) and (0.60,-0.58) .. (2.25,-0.72);
+  \draw[faded!84!ink, line width=0.92pt, opacity=0.78]
+    (-3.35,-0.69) .. controls (-1.50,-0.61) and (0.60,-0.89) .. (2.25,-1.03);
+
+  % the seed in it: a handful nobody counted, uneven along the channel
+  \foreach \sx/\sy in {-2.95/-0.54,-2.58/-0.51,-2.24/-0.57,-1.86/-0.53,-1.48/-0.61,-1.06/-0.58,-0.66/-0.66,-0.22/-0.70,0.26/-0.74,0.74/-0.81,1.28/-0.82,1.82/-0.89,2.10/-0.90}{
+    \fill[gold!72!ornament, opacity=0.80] (\sx,\sy) ellipse (0.052 and 0.030);
+    \draw[faded!72!ink, line width=0.35pt, opacity=0.40] (\sx,\sy) ellipse (0.052 and 0.030);
+  }
+
+  % the fist, tipped, with a gap at the closed fingers where the seed comes out
+  \begin{scope}[shift={(-2.75,0.90)}, rotate=-28]
+    \fill[faded!62!ink, opacity=0.12]
+      (-0.42,0.02)
+      .. controls (-0.50,0.30) and (-0.38,0.42) .. (-0.26,0.42)
+      .. controls (-0.20,0.56) and (-0.04,0.56) .. (0.02,0.42)
+      .. controls (0.10,0.56) and (0.26,0.54) .. (0.30,0.40)
+      .. controls (0.44,0.44) and (0.52,0.30) .. (0.46,0.12)
+      .. controls (0.42,-0.06) and (0.20,-0.16) .. (-0.02,-0.14)
+      .. controls (-0.22,-0.12) and (-0.38,-0.06) .. (-0.42,0.02) -- cycle;
+    \draw[faded!88!ink, line width=1.00pt, opacity=0.86]
+      (-0.42,0.02)
+      .. controls (-0.50,0.30) and (-0.38,0.42) .. (-0.26,0.42)
+      .. controls (-0.20,0.56) and (-0.04,0.56) .. (0.02,0.42)
+      .. controls (0.10,0.56) and (0.26,0.54) .. (0.30,0.40)
+      .. controls (0.44,0.44) and (0.52,0.30) .. (0.46,0.12)
+      .. controls (0.42,-0.06) and (0.20,-0.16) .. (-0.02,-0.14)
+      .. controls (-0.22,-0.12) and (-0.38,-0.06) .. (-0.42,0.02);
+    \draw[faded!80!ink, line width=0.78pt, opacity=0.64]
+      (-0.32,0.16) .. controls (-0.10,0.06) and (0.18,0.08) .. (0.34,0.22);
+    \fill[ink, opacity=0.52] (0.30,-0.06) circle (0.034);
+  \end{scope}
+
+  % seed falling out of the fist into the worked strip, not toward the slate
+  \draw[faded, line width=0.45pt, dotted, opacity=0.22]
+    (-2.50,0.62) .. controls (-2.62,0.20) and (-2.74,-0.18) .. (-2.80,-0.50);
+  \foreach \fx/\fy in {-2.50/0.50,-2.55/0.31,-2.61/0.11,-2.68/-0.12,-2.74/-0.33}{
+    \fill[gold!72!ornament, opacity=0.74] (\fx,\fy) ellipse (0.045 and 0.027);
+  }
+
+  % the sun lying on the slate: a wash of light that warms but grows nothing
+  \fill[gold, opacity=0.052] (2.78,0.72) circle (0.64);
+  \foreach \ra in {20,65,115,160,205,250,300,345}{
+    \draw[gold!55!faded, line width=0.4pt, opacity=0.16]
+      (\ra:0.68) -- (\ra:0.88);
+  }
+
+  % the slate, blank: an empty ruled line and the space under it, unentered
+  \begin{scope}[shift={(2.75,0.28)}, rotate=-7]
+    \fill[ash!26!vellum, opacity=0.58] (-0.55,-0.26) rectangle (0.55,0.26);
+    \draw[faded!86!ink, line width=0.92pt, opacity=0.84] (-0.55,-0.26) rectangle (0.55,0.26);
+    \draw[faded!70!ink, line width=0.5pt, opacity=0.40] (-0.42,0.07) -- (0.42,0.07);
+    \draw[faded, line width=0.45pt, dotted, opacity=0.34] (-0.42,-0.09) -- (0.42,-0.09);
+  \end{scope}
+
+  \node at (-4.18,0.08) {\pgfornament[width=1.5cm,color=ornament]{79}};
+  \node at ( 4.15,0.08) {\pgfornament[width=1.3cm,color=ornament]{11}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {seed in the strip, no figure on the slate};
+\end{tikzpicture}

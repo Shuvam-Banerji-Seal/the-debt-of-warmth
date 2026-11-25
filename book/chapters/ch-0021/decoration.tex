@@ -1,0 +1,56 @@
+\begin{tikzpicture}
+  % the chapter's heart: one lack with two names, two gaps a single breath
+  % would make into one hunger, and the breath kept for the pot instead
+
+  % faint warmth where the keeping is done
+  \fill[gold, opacity=0.045] (0,-0.48) ellipse (1.95 and 0.92);
+
+  % two places that do not touch: each a short board, each with an empty
+  % hollow above it, neither named, neither joined
+  \draw[faded!80!ink, line width=0.85pt, opacity=0.66] (-2.95,0.28) -- (-1.25,0.28);
+  \draw[faded!80!ink, line width=0.85pt, opacity=0.66] ( 1.25,0.28) -- ( 2.95,0.28);
+  \draw[faded!75!ink, line width=0.55pt, opacity=0.38] (-1.25,0.28) -- (-1.25,0.52);
+  \draw[faded!75!ink, line width=0.55pt, opacity=0.38] ( 1.25,0.28) -- ( 1.25,0.52);
+
+  \fill[faded!55!ink, opacity=0.30] (-2.10,0.62) ellipse (0.44 and 0.23);
+  \draw[faded, line width=0.6pt, dotted, opacity=0.55] (-2.10,0.62) ellipse (0.44 and 0.23);
+  \fill[faded!55!ink, opacity=0.30] ( 2.10,0.62) ellipse (0.44 and 0.23);
+  \draw[faded, line width=0.6pt, dotted, opacity=0.55] ( 2.10,0.62) ellipse (0.44 and 0.23);
+
+  % the pot: breath is spent here, not on the joining
+  \begin{scope}[shift={(0,-0.72)}]
+    \fill[faded!58!ink, opacity=0.14]
+      (-0.30,0.30)
+      .. controls (-0.42,0.10) and (-0.40,-0.22) .. (0,-0.26)
+      .. controls (0.40,-0.22) and (0.42,0.10) .. (0.30,0.30) -- cycle;
+    \draw[faded!86!ink, line width=0.95pt, opacity=0.85]
+      (-0.30,0.30)
+      .. controls (-0.42,0.10) and (-0.40,-0.22) .. (0,-0.26)
+      .. controls (0.40,-0.22) and (0.42,0.10) .. (0.30,0.30);
+    \draw[faded!86!ink, line width=0.95pt, opacity=0.85] (0,0.30) ellipse (0.30 and 0.10);
+    \draw[gold!50!faded, line width=0.45pt, opacity=0.40] (0,0.30) ellipse (0.22 and 0.065);
+    \draw[faded!72!ink, line width=0.55pt, opacity=0.45] (0,-0.26) ellipse (0.11 and 0.035);
+  \end{scope}
+
+  % the one breath, rising out of the pot
+  \draw[faded!80!ink, line width=0.82pt, opacity=0.60]
+    (-0.045,-0.42) .. controls (-0.10,-0.05) and (0.10,0.20) .. (0.02,0.50);
+  \draw[faded!80!ink, line width=0.82pt, opacity=0.60]
+    ( 0.045,-0.42) .. controls ( 0.10,-0.05) and (-0.08,0.20) .. (-0.02,0.50);
+
+  % it divides toward both hollows but reaches neither: the two gaps stay two
+  \draw[faded, line width=0.58pt, dotted, opacity=0.42]
+    (0,0.50) .. controls (-0.45,0.76) and (-0.95,0.82) .. (-1.44,0.72);
+  \draw[faded, line width=0.58pt, dotted, opacity=0.42]
+    (0,0.50) .. controls ( 0.45,0.76) and ( 0.95,0.82) .. ( 1.44,0.72);
+
+  % the check at the fork: the breath held, the two tellings kept apart
+  \draw[rubric!72!ink, line width=1.05pt, opacity=0.80] (0,0.39) -- (0,0.61);
+  \draw[rubric!72!ink, line width=1.05pt, opacity=0.80] (-0.11,0.50) -- (0.11,0.50);
+
+  \node at (-4.32,-0.05) {\pgfornament[width=1.6cm,color=ornament]{6}};
+  \node at ( 4.32,-0.05) {\pgfornament[width=1.6cm,color=ornament]{29}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.58)
+    {keep your breath for the pot};
+\end{tikzpicture}

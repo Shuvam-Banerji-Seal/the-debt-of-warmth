@@ -1,0 +1,88 @@
+\begin{tikzpicture}
+  % the chapter's heart: the tally worn to six by a thumb and the seventh
+  % left uncut at the very end, a slate's neat count set apart across the
+  % floor, and the unspent year lying between them, joined to neither
+
+  % faint standing where the keeping is done
+  \fill[gold, opacity=0.042] (0,0.08) ellipse (4.70 and 1.34);
+
+  % the tally stick: a tapered length of wood, bent a little by use,
+  % its top edge polished where a thumb has gone over it
+  \fill[faded!62!ink, opacity=0.16]
+    (-4.30,0.16)
+    .. controls (-2.20,0.22) and (-0.80,0.02) .. (0.05,0.10)
+    -- (0.05,-0.10)
+    .. controls (-0.80,-0.18) and (-2.20,0.02) .. (-4.30,-0.16)
+    -- cycle;
+  \draw[faded!88!ink, line width=0.95pt, opacity=0.82]
+    (-4.30,0.16)
+    .. controls (-2.20,0.22) and (-0.80,0.02) .. (0.05,0.10)
+    -- (0.05,-0.10)
+    .. controls (-0.80,-0.18) and (-2.20,0.02) .. (-4.30,-0.16)
+    -- cycle;
+  \draw[gold!55!faded, line width=2.0pt, opacity=0.11]
+    (-3.92,0.17) .. controls (-2.00,0.24) and (-0.86,0.06) .. (-0.26,0.11);
+
+  % six notches worn almost flat, each one entered, each one nearly gone
+  \foreach \nx in {-3.72,-3.04,-2.36,-1.68,-1.00,-0.32}{
+    \draw[faded!86!ink, line width=0.82pt, opacity=0.54]
+      (\nx-0.07,0.10) .. controls (\nx,0.01) and (\nx+0.01,-0.03) .. (\nx+0.08,-0.09);
+    \draw[gold!58!faded, line width=0.42pt, opacity=0.32]
+      (\nx-0.04,0.13) .. controls (\nx+0.01,0.04) .. (\nx+0.10,-0.05);
+  }
+
+  % the seventh at the very edge: drawn but not cut, held and unspent
+  \draw[faded, line width=0.62pt, dotted, opacity=0.48]
+    (-0.02,0.11) .. controls (0.06,0.02) and (0.10,-0.03) .. (0.15,-0.10);
+  \fill[faded, opacity=0.42] (0.15,-0.10) circle (0.020);
+
+  % the thumb comes down an inch short of the last notch and stops
+  \fill[faded!62!ink, opacity=0.14]
+    (-0.16,1.06) -- (0.16,1.06) -- (0.16,0.60)
+    .. controls (0.16,0.44) and (-0.16,0.44) .. (-0.16,0.60) -- cycle;
+  \draw[faded!88!ink, line width=0.96pt, opacity=0.82]
+    (-0.16,1.06) -- (-0.16,0.60)
+    .. controls (-0.16,0.44) and (0.16,0.44) .. (0.16,0.60)
+    -- (0.16,1.06);
+  \draw[faded!72!ink, line width=0.52pt, opacity=0.44]
+    (-0.16,1.06) .. controls (-0.30,1.16) and (-0.20,1.29) .. (0.03,1.29)
+    .. controls (0.29,1.29) and (0.30,1.16) .. (0.16,1.06);
+  \draw[faded, line width=0.45pt, dotted, opacity=0.30] (0,0.42) -- (0,0.18);
+
+  % the house's count, on a slate set apart: neat strokes the boy will not join
+  \fill[faded!60!ink, opacity=0.13]
+    (2.80,-0.74) -- (4.30,-0.62) -- (4.38,0.72) -- (2.88,0.84) -- cycle;
+  \draw[faded!88!ink, line width=0.95pt, opacity=0.82]
+    (2.80,-0.74) -- (4.30,-0.62) -- (4.38,0.72) -- (2.88,0.84) -- cycle;
+  \draw[faded!72!ink, line width=0.52pt, opacity=0.40]
+    (2.95,-0.61) -- (4.22,-0.50) -- (4.29,0.60) -- (3.01,0.71) -- cycle;
+  \foreach \sy in {0.50,0.24,-0.02,-0.28}{
+    \draw[faded!86!ink, line width=0.85pt, opacity=0.64]
+      (3.24,\sy) -- (3.24,\sy-0.16);
+  }
+  \draw[faded!86!ink, line width=0.80pt, opacity=0.58]
+    (3.16,-0.02) -- (3.46,-0.30);
+
+  % the year between the two counts, a closed bud no hand has opened
+  \fill[gold!62!ornament, opacity=0.44]
+    (1.60,0.15)
+    .. controls (1.38,0.03) and (1.38,-0.05) .. (1.60,-0.15)
+    .. controls (1.82,-0.05) and (1.82,0.03) .. (1.60,0.15) -- cycle;
+  \draw[gold!50!faded, line width=0.56pt, opacity=0.50]
+    (1.60,0.15)
+    .. controls (1.38,0.03) and (1.38,-0.05) .. (1.60,-0.15)
+    .. controls (1.82,-0.05) and (1.82,0.03) .. (1.60,0.15);
+  \draw[gold!45!faded, line width=0.42pt, opacity=0.40] (1.60,0.13) -- (1.60,-0.13);
+
+  % both counts reach toward it and stop short; the two never meet
+  \draw[faded, line width=0.55pt, dotted, opacity=0.38]
+    (0.22,0.01) .. controls (0.72,0.10) and (1.02,0.08) .. (1.30,0.04);
+  \draw[faded, line width=0.55pt, dotted, opacity=0.38]
+    (2.70,0.02) .. controls (2.42,0.10) and (2.12,0.08) .. (1.90,0.04);
+
+  \node at (-4.78,-0.80) {\pgfornament[width=1.3cm,color=ornament]{11}};
+  \node at ( 4.78,-0.80) {\pgfornament[width=1.3cm,color=ornament,symmetry=v]{11}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.48)
+    {the year he cannot spend};
+\end{tikzpicture}

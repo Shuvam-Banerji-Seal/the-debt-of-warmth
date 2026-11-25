@@ -1,0 +1,69 @@
+\begin{tikzpicture}
+  % the chapter's heart: a shelf whose keeping is loaves pushed along,
+  % two empty places nobody calls a number, and a finger held off the board
+
+  % faint standing where the keeping is done
+  \fill[gold, opacity=0.045] (0,0.12) ellipse (2.95 and 1.45);
+
+  % the shelf: a board with a top a loaf can sit on and a front edge
+  \fill[faded!60!ink, opacity=0.13] (-3.45,0.58) -- (3.05,0.58) -- (3.05,-0.06) -- (-3.45,-0.06) -- cycle;
+  \draw[faded!86!ink, line width=1.00pt, opacity=0.84] (-3.45,0.58) -- (3.05,0.58);
+  \fill[faded!55!ink, opacity=0.20] (-3.45,-0.06) -- (3.05,-0.06) -- (3.05,-0.34) -- (-3.45,-0.34) -- cycle;
+  \draw[faded!86!ink, line width=1.00pt, opacity=0.86] (-3.45,-0.06) -- (3.05,-0.06);
+  \draw[faded!80!ink, line width=0.75pt, opacity=0.70] (-3.45,-0.34) -- (3.05,-0.34);
+  \draw[faded!75!ink, line width=0.6pt, opacity=0.55] (-3.45,0.58) -- (-3.45,-0.34);
+  \draw[faded!75!ink, line width=0.6pt, opacity=0.55] (3.05,0.58) -- (3.05,-0.34);
+
+  % the smear where loaves were pushed along and the row went past its count
+  \draw[faded, line width=1.2pt, opacity=0.12] (-3.05,0.12) -- (1.70,0.12);
+
+  % loaves, pushed together, each scored, none entered
+  \foreach \lx in {-2.70,-2.00,-1.30,0.10,0.80,1.50}{
+    \fill[faded!58!ink, opacity=0.28]
+      (\lx-0.28,0.02)
+      .. controls (\lx-0.36,0.28) and (\lx-0.20,0.48) .. (\lx,0.48)
+      .. controls (\lx+0.20,0.48) and (\lx+0.36,0.28) .. (\lx+0.28,0.02) -- cycle;
+    \draw[faded!88!ink, line width=1.00pt, opacity=0.85]
+      (\lx-0.28,0.02)
+      .. controls (\lx-0.36,0.28) and (\lx-0.20,0.48) .. (\lx,0.48)
+      .. controls (\lx+0.20,0.48) and (\lx+0.36,0.28) .. (\lx+0.28,0.02);
+    \draw[gold!50!faded, line width=0.55pt, opacity=0.48]
+      (\lx-0.11,0.40) -- (\lx-0.03,0.29);
+    \draw[gold!50!faded, line width=0.55pt, opacity=0.48]
+      (\lx+0.05,0.42) -- (\lx+0.13,0.30);
+  }
+
+  % two empty places: the old space at the row's end and the new gap,
+  % neither filled, neither given a figure
+  \draw[faded, line width=0.5pt, dotted, opacity=0.42]
+    (-0.88,0.02)
+    .. controls (-0.96,0.28) and (-0.80,0.48) .. (-0.60,0.48)
+    .. controls (-0.40,0.48) and (-0.24,0.28) .. (-0.32,0.02);
+  \draw[faded, line width=0.5pt, dotted, opacity=0.42]
+    (1.92,0.02)
+    .. controls (1.84,0.28) and (2.00,0.48) .. (2.20,0.48)
+    .. controls (2.40,0.48) and (2.56,0.28) .. (2.48,0.02);
+
+  % the finger comes down from beyond the top and stops short of the board:
+  % almost laid to the gap, held back, the account not made
+  \begin{scope}[shift={(-0.60,0)}]
+    \fill[faded!62!ink, opacity=0.16]
+      (-0.135,1.62) -- (0.135,1.62) -- (0.135,0.86)
+      .. controls (0.135,0.70) and (-0.135,0.70) .. (-0.135,0.86) -- cycle;
+    \draw[faded!86!ink, line width=0.98pt, opacity=0.80]
+      (-0.135,1.62) -- (-0.135,0.86)
+      .. controls (-0.135,0.70) and (0.135,0.70) .. (0.135,0.86)
+      -- (0.135,1.62);
+    \draw[faded!74!ink, line width=0.55pt, opacity=0.50] (-0.135,1.12) -- (0.135,1.12);
+    \draw[faded!70!ink, line width=0.55pt, opacity=0.36]
+      (-0.135,1.62) .. controls (-0.30,1.72) and (-0.28,1.82) .. (-0.02,1.82)
+      .. controls (0.32,1.82) and (0.34,1.72) .. (0.135,1.62);
+  \end{scope}
+  \draw[faded, line width=0.45pt, dotted, opacity=0.28] (-0.60,0.65) -- (-0.60,0.55);
+
+  \node at (-4.25,0.12) {\pgfornament[width=1.9cm,color=ornament]{94}};
+  \node at ( 4.25,0.12) {\pgfornament[width=1.9cm,color=ornament,symmetry=v]{94}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {keep your finger off the shelf};
+\end{tikzpicture}

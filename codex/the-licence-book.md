@@ -1,0 +1,114 @@
+---
+title: Of Quiet Ash, the Licence to Buy, and the Greyed Hand, Being Title the Fifth of the Ordinances of the Keeping, Copied into the Factor's House at Greybank with the Licence-Clerk's Margin, the Scrape of a Phial-Cork, and a Correction in a Borrowed Hand
+kind: An extract from the Court's ordinances, written out for the counter of the factor's house at Greybank, with the marginal hand of the clerk who keeps the licence-book; the articles in Ledgerhand and the verbs restored beneath them, a table of offences, a form of licence left blank, one line scored with a phial-cork, two corrections in borrowed hands, and a line at the foot nobody has claimed
+provenance: Copied at Greybank in Seed of Y.H. 813 from Title the Fifth of the Ordinances of the Keeping as first licensed in Y.H. 683, fifteen years after the Rising, and added to in Y.H. 782 and in the Thin Year, Y.H. 812; carried forward at the Opening of the Slates, Ilmen 1, Y.H. 813. It survives as three leaves of foolscap sewn with wire, kept under the licence-book in the factor's counting house: a grey Ash thumb at the head, salt bloom along the gutter from the Sallow wind off the quay, a tar thumb at the fold, iron-gall in the creases of two fingers, a scrape where a phial-cork crossed the lower margin, a green bead of cliff-glass, a damp tide-line along the foot, two corrections in borrowed hands, and a line at the foot nobody will own.
+relates_to: [the Warm Court, the Keeping, the Hearthseat, Greybank, the factor at Greybank, quiet ash, the Ash, the Last Day, the Ash-runners, the greyed hand, grey fingers, the Fenmarch, Mud End, Sere, the Bowl of Sere, phial, licence, Ledgerhand, the passive voice, cold iron, the measure, embers, one in twelve, the deduction, the Return, dreams, the previous life, the Hearth, the Waste, Sill, Low Kiln, the Cross, Slate Row, bit, mark, the Thin Year, the Opening of the Slates, Grathic]
+---
+
+I keep the licence-book at this counter. A man comes up from the quay with a phial under his coat and a mark in his fist and wants the mark entered against the phial before the factor's clerk comes down from the Hearthseat; a woman of a house of Sere gives a name that is not hers and asks that her previous life stop arriving in dreams. I write what the ordinance tells me, and I set the verbs back underneath the words it has taken out, because a medicine with nobody in it is a medicine nobody took, and that is the kind the Court has always liked best. What follows is Title the Fifth, copied out so that a person may know what is being entered against him before it is entered.
+
+> *At the head of the first leaf, in the same hand, written very small:* Copied by the counter, and for it. The verbs were put back by me and struck out again by a man who does not keep a counter. Let both stand. A leaf with two hands on it is the only kind a buyer believes.
+
+# Title the Fifth, as it stands in the factor's book
+
+*From the Ordinances of the Keeping, Title the Fifth: Of the Sale and License of Quiet Ash, and of the Greyed Hand. First licensed in Y.H. 683, fifteen years after the Rising; added to in Y.H. 782 and in the Thin Year, Y.H. 812.*
+
+## I. Of the thing itself
+
+1. The grey that gathers in corners is not swept before the Last Day; it is gathered, bottled, sealed and licensed. In daylight it is not seen; by tallow-light it is plain. It is not dirt. What it is, is not entered.
+
+2. Sold only by licence of the factor, in a phial bearing the Court's mark, at sixty marks the phial. No phial sold without a figure; no figure entered without a phial.
+
+3. Where the grey is gathered from a house in which a promise was left unkept, the gathering is entered to the house and not to the promise. The house is not asked.
+
+> *Margin:* I wrote what the grey is on this leaf and scraped the word away with the cork of a phial still wet at the mouth. The bare place is scored in the lower margin and the length of it is the length of the word. A clerk who supplies a definition has begun to write a sermon, and sermons get copied. I have left the place as it is.
+
+> *Margin:* A man come up from the Fenmarch with a jar under his coat priced the same grey by the thimble at four bits and called it paste. I set his four bits beneath the sixty and left the two unjoined. A jar with a Fen name and a jar with the Court's name stand on different shelves here, and I am the man who puts them there. I have not written the likeness in the book. It is a short sentence and it would cost me the counter.
+
+## II. Of the buyer
+
+4. A licence to buy is entered in the name of the household and not of the person. It is written in the hand of the buyer or his factor; the hand that writes is not the hand that drinks. It is renewed at the end of each tend. A licence that lasts longer than a tend is a licence that has stopped earning.
+
+5. The buyer is not asked what the phial is for. No physician's certificate is required where the buyer has a house and a mark. Dreams are not entered; the previous life is not entered; the wanting of quiet is not entered.
+
+> *Margin:* The woman of Sere gave a name that was not hers and paid in marks, which anyone can write down, and with a sentence at the counter, which is not a figure. I entered the name she gave. A name that is not the name of the woman who speaks it is common in this trade, and the ordinance has no word for it. She asked if the phial would keep her mother's dreams from coming. I said it was sealed. She took that for an answer and went up the road with it.
+
+> *Margin, in a second and narrower hand:* Article 4 was added in Y.H. 782, the year the maids were first paid. A licence renewed each tend is a law that earns its keep by ending, which the Council of Tides would call a virtue if it had thought of it first. The ordinance does not say so, and I have not put it in the article.
+
+## III. Of the unlicensed sale
+
+6. Quiet ash sold to any not licensed to buy it is punished by a greyed hand. The hand is greyed by the Court's own iron and gives no warmth back. This grey is not the grey of a collector's fingers, which comes with years at the tube and is a mark of the trade; the other is set deliberately and is called a correcting.
+
+7. Where a phial is sold without licence, the phial is broken and the figure is not returned. A phial broken is entered as broken; the grey is not entered as returned.
+
+| Offence | As entered | Correction |
+|---|---|---|
+| A phial sold to one not licensed | The hand greyed | The figure carried forward |
+| A phial sold without a figure | The phial broken | Nothing returned |
+| Quiet ash sold by the thimble, under a Fen name | Not entered here | The jar left on the other shelf |
+| A licence lapsed in the tend | Carried forward | Not called ended |
+| A definition supplied by the clerk | Scraped away | The bare place left standing |
+
+> *Margin:* I have seen both greys. The one comes up under the nails by slow years and a man may carry it into any room and nobody ask him about it. The other comes all at once, like a hand dipped in skimmed milk gone off; the man keeps it in his pocket, in a glove, under a cuff gone soft from washing. I have never been asked which I have, and I have never told anybody, because I have neither. This is a fact about this counter and not a virtue.
+
+> *Margin:* The Court owns no slaves, which it calls civility, and greys a hand by iron, which it calls a correcting. Both go into the book in the same neat hand. That is the whole mercy the ordinance allows itself.
+
+## IV. Of the keeping of the book
+
+8. The licence-book is kept under the counter and is not shown to a household. The keeping of it is not explained, only kept. Where a name is disputed, the figure stands and the name is not changed.
+
+9. An account is never closed; it is only carried forward. A licence lapsed is carried forward as a licence lapsed, and not as a licence ended.
+
+> *Margin:* The rolls of the dead are kept open, and so are the licences of the living. I have carried one name forward for eleven years after the household that gave it was empty of people. Nobody came to close it and I did not close it. A name carried forward is a different weight from a name bought, though the hand that writes them is the same.
+
+> *Margin:* The seal on the phial is the Court's mark and not a priest's. A dipper of Vhal would trail the jar in the sea at dawn and call that a licence; the factor calls it nothing at all. I have copied neither saying into this book.
+
+## V. Of faults and their correcting
+
+| Fault | As entered in Ledgerhand | What the clerk sets beneath |
+|---|---|---|
+| A verb in the roll | Page copied again, in the same hand | The verb restored, where it stood |
+| A buyer's name disputed | The name as given | No note made |
+| Sixty marks written as a rate | The figure as the notice has it | The figure as the phial was sold |
+| A licence called ended | Carried forward | Not called ended |
+| A grey too dark to hide | A glove | Nothing, which is not an entry |
+
+# The form of licence
+
+*Set out at the end of Title the Fifth. I have copied it with the blanks as they stand. In eleven years nobody has filled one in the hand the factor requires.*
+
+> Entered this day, being ---day of -------, in the year of the Hearth ------, the licence to buy one phial of quiet ash granted to ---------------------- of ----------------------, at ------- marks, to be renewed at the tend's end and carried forward where not ended; the hand that writes not the hand that drinks; the phial sealed and the figure entered, and the name not changed where disputed. Granted by ----------------------, who is not the man who sold it.
+
+# The verse the weighers say at the phial-draw
+
+*Called under the breath at the beam when the phials come up off the boat, never while the factor's clerk is in hearing. It is not a song for the quay and has never been sung there.*
+
+> Grey in the corner, grey in the jar,
+> one has a name and one has a mark;
+> sixty marks for the sealed and licensed,
+> four bits for the same under a fen-name.
+>
+> Put the cork to the leaf and leave the word out;
+> a hand goes grey and a hand goes cold;
+> the account stands where the phial stood,
+> and the dream comes back where the figure went.
+
+> *In the narrow upright hand, against the fourth line:* One article entered. *In mine:* There are two greys and I have set both. He has put no figure against the Fen jar, which is how I know he has looked at it. A man does not number what he has not looked at.
+
+# What the two borrowed hands did
+
+The College man came down from the Hearthseat with a cuff gone soft from washing and ink in two fingers. He struck *gathers* out of article one and set *is gathered* above, as though a thing that gathers in a corner had nobody who left it there. I put *gathers* back. He struck the verb out of the buyer's sentence also, leaving a wanting with nobody to want it. Both stand.
+
+The other hand is leaning, with a little gold in it, from a counting house of Sere. Against *sixty marks* it wrote *quiet ash, market rate*, and put a figure in the margin where I had put the price. I left both standing. A house of Sere can call a figure a rate, because a rate is a thing that can be emptied and refilled; a man who has held the phial and smelled the cork calls it a price.
+
+# At the head and in the gutter
+
+The grey at the head is Ash, off my own thumb turning the leaf toward the light while the factor read a figure over it; it is the colour a corner leaves when it has been swept too late, and it does not wash out of the creases. The white in the gutter is salt bloom blown up from the Sallow under the counting house door; it comes and goes with the weather and is never entered. The tar at the fold came off a Vhaleni boatman's coil, and the green bead in the corner is cliff-glass from that coast and not lead glaze from High Kiln, which has a sweeter look and a smell. The iron-gall is in two fingers and will not come out, which is how the factor knows I have copied a thing before he asks. The scrape in the lower margin is the cork, drawn across while I decided what word to leave out; the tide-line along the foot is a phial set down through a morning, the seal holding and the leaf taking the damp. There is no Last Day under a counter, and nothing here is swept and burnt and called dealt with.
+
+# At the foot, in a hand nobody has claimed
+
+> The jar keeps the grey. The hand keeps the colour. The slate keeps the figure, and none of them says what it was for.
+
+I asked the factor's man, a man come down from the College, and a woman who stood here about a phial, and had three answers and no hand, as I have had before. I have left the line where it was written.
+
+The book goes back under the counter. Tomorrow a man will come up with a phial under his coat and a mark in his fist, and a woman will give a name that is not hers, and I shall enter the figure and not the wanting, and put the verbs back where I can. The scrape in the margin is the length of a word. I have not written it back, and I have not forgotten it.

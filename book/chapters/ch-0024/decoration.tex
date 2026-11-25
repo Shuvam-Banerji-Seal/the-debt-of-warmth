@@ -1,0 +1,80 @@
+\begin{tikzpicture}
+  % the chapter's heart: the open hand that goes to the board before the eye
+  % goes to the child, passing a palm's breadth of bare shelf and closing on
+  % the loaf beyond; the shelf keeps its own account and gives nobody a figure
+
+  % faint standing where the keeping is done
+  \fill[gold, opacity=0.040] (0,-0.10) ellipse (4.60 and 1.22);
+
+  % the loaf shelf: a plank with a front edge, the row of loaves and the gap
+  \fill[faded!60!ink, opacity=0.11]
+    (-3.60,-0.46) -- (3.60,-0.46) -- (3.60,-0.72) -- (-3.60,-0.72) -- cycle;
+  \draw[faded!86!ink, line width=0.92pt, opacity=0.78] (-3.60,-0.46) -- (3.60,-0.46);
+  \draw[faded!72!ink, line width=0.60pt, opacity=0.52] (-3.60,-0.72) -- (3.60,-0.72);
+  \draw[faded!60!ink, line width=0.45pt, opacity=0.34] (-3.60,-0.46) -- (-3.60,-0.72);
+  \draw[faded!60!ink, line width=0.45pt, opacity=0.34] ( 3.60,-0.46) -- ( 3.60,-0.72);
+
+  % the shelf's marks: strokes that add up to nothing and are read by nobody
+  \foreach \tx in {-3.22,-2.80,-1.72,-0.62,0.30,1.28,2.42,3.02}{
+    \draw[faded!70!ink, line width=0.48pt, opacity=0.30] (\tx,-0.60) -- (\tx+0.02,-0.69);
+  }
+
+  % loaves: a row on the left, one loaf beyond the empty place on the right
+  \foreach \cx/\r in {-3.05/0.42,-2.25/0.44,-1.45/0.40,1.30/0.62}{
+    \pgfmathsetmacro{\ra}{\r*1.05}
+    \pgfmathsetmacro{\rb}{\r*0.55}
+    \pgfmathsetmacro{\rt}{\r*1.28}
+    \fill[faded!60!ink, opacity=0.12]
+      (\cx-\ra,-0.46)
+      .. controls (\cx-\ra,-0.46+\r*0.75) and (\cx-\rb,-0.46+\rt*0.98) .. (\cx,-0.46+\rt)
+      .. controls (\cx+\rb,-0.46+\rt*0.98) and (\cx+\ra,-0.46+\r*0.75) .. (\cx+\ra,-0.46)
+      -- cycle;
+    \draw[faded!86!ink, line width=0.86pt, opacity=0.72]
+      (\cx-\ra,-0.46)
+      .. controls (\cx-\ra,-0.46+\r*0.75) and (\cx-\rb,-0.46+\rt*0.98) .. (\cx,-0.46+\rt)
+      .. controls (\cx+\rb,-0.46+\rt*0.98) and (\cx+\ra,-0.46+\r*0.75) .. (\cx+\ra,-0.46);
+    \draw[rubric!55!faded, line width=0.60pt, opacity=0.42]
+      (\cx-0.09,-0.46+\r*0.94) .. controls (\cx,-0.46+\r*1.10) .. (\cx+0.13,-0.46+\r*0.90);
+  }
+
+  % the empty place on the board: a palm's breadth, passed over, unfelt
+  \fill[faded!55!ink, opacity=0.16] (0.30,-0.44) ellipse (0.44 and 0.10);
+  \draw[faded, line width=0.58pt, dotted, opacity=0.48] (0.30,-0.44) ellipse (0.44 and 0.10);
+  \draw[faded, line width=0.45pt, dotted, opacity=0.26]
+    (0.30,-0.30) .. controls (0.20,-0.10) and (0.42,0.06) .. (0.30,0.22);
+
+  % the open hand, palm down, fingers going past the gap to the loaf beyond
+  \begin{scope}[shift={(-1.23,0.60)}, rotate=-8, scale=1.60]
+    % wrist
+    \fill[faded!68!ink, opacity=0.16]
+      (-1.15,0.30) -- (-0.55,0.48) -- (-0.55,-0.30) -- (-1.15,-0.02) -- cycle;
+    \draw[faded!82!ink, line width=0.60pt, opacity=0.38]
+      (-1.15,0.30) -- (-0.55,0.48) -- (-0.55,-0.30) -- (-1.15,-0.02);
+    % palm
+    \fill[faded!68!ink, opacity=0.16] (-0.10,0.10) ellipse (0.62 and 0.46);
+    \draw[faded!82!ink, line width=0.60pt, opacity=0.32] (-0.10,0.10) ellipse (0.62 and 0.46);
+    % four fingers, unequal, reaching and a little curled
+    \foreach \fy/\fl in {0.42/0.55,0.22/0.64,0.02/0.60,-0.18/0.50}{
+      \fill[faded!68!ink, opacity=0.16] (0.80,\fy) ellipse ({\fl} and 0.095);
+      \draw[faded!82!ink, line width=0.55pt, opacity=0.30] (0.80,\fy) ellipse ({\fl} and 0.095);
+    }
+    % the thumb folded under
+    \fill[faded!68!ink, opacity=0.16] (0.24,-0.44) ellipse (0.38 and 0.11);
+    \draw[faded!82!ink, line width=0.55pt, opacity=0.30] (0.24,-0.44) ellipse (0.38 and 0.11);
+    % the knuckle line and the seams between fingers
+    \draw[faded!80!ink, line width=0.52pt, opacity=0.40]
+      (-0.30,0.42) .. controls (0.10,0.30) and (0.45,0.26) .. (0.70,0.30);
+    \foreach \fy in {0.32,0.12,-0.08}{
+      \draw[faded!80!ink, line width=0.45pt, opacity=0.34] (1.20,\fy) -- (1.38,\fy);
+    }
+  \end{scope}
+
+  % the hand arrives at the loaf; the empty place is never closed
+  \draw[rubric!68!ink, line width=0.90pt, opacity=0.62] (1.58,0.18) -- (1.78,0.32);
+
+  \node at (-4.62,-0.28) {\pgfornament[width=1.8cm,color=ornament]{94}};
+  \node at ( 4.62,-0.28) {\pgfornament[width=1.8cm,color=ornament,symmetry=v]{94}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.42)
+    {the shelf keeps its own account};
+\end{tikzpicture}

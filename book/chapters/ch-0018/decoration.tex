@@ -1,0 +1,72 @@
+\begin{tikzpicture}
+  % the chapter's heart: a month is a vessel turned, and what was left in it is still in it
+
+  % faint standing where the turn is kept
+  \fill[gold, opacity=0.045] (0,0.25) ellipse (2.25 and 1.50);
+
+  % the arc of the turning month, open at both ends, nothing closed
+  \draw[faded, line width=0.5pt, dotted, opacity=0.26]
+    (-3.05,-0.38) .. controls (-3.20,0.98) and (-1.35,1.55) .. (0.55,1.48)
+    .. controls (2.25,1.40) and (3.10,0.80) .. (3.12,-0.26);
+  \fill[faded!70!ink, opacity=0.34] (-3.05,-0.38) circle (0.022);
+  \fill[faded!70!ink, opacity=0.34] (3.12,-0.26) circle (0.022);
+
+  % the ground: Silt went out on it, Seed comes in on it
+  \draw[faded!82!ink, line width=0.85pt, opacity=0.58] (-3.85,-1.15) -- (3.85,-1.15);
+  \draw[gold!45!faded, line width=0.4pt, opacity=0.24] (-3.60,-1.21) -- (3.60,-1.21);
+
+  % the vessel turned: mouth down-left, foot up-right, dregs clinging where the bottom was
+  \begin{scope}[shift={(-0.15,0.62)}, rotate=135]
+    \fill[faded!58!ink, opacity=0.16]
+      (-0.42,0.95)
+      .. controls (-0.56,0.68) and (-0.96,0.52) .. (-0.93,-0.06)
+      .. controls (-0.91,-0.63) and (-0.56,-0.86) .. (-0.42,-0.90)
+      -- (0.42,-0.90)
+      .. controls (0.56,-0.86) and (0.91,-0.63) .. (0.93,-0.06)
+      .. controls (0.96,0.52) and (0.56,0.68) .. (0.42,0.95) -- cycle;
+    \draw[faded!85!ink, line width=1.05pt, opacity=0.88]
+      (-0.42,0.95)
+      .. controls (-0.56,0.68) and (-0.96,0.52) .. (-0.93,-0.06)
+      .. controls (-0.91,-0.63) and (-0.56,-0.86) .. (-0.42,-0.90)
+      -- (0.42,-0.90)
+      .. controls (0.56,-0.86) and (0.91,-0.63) .. (0.93,-0.06)
+      .. controls (0.96,0.52) and (0.56,0.68) .. (0.42,0.95);
+    \draw[faded!85!ink, line width=0.95pt, opacity=0.86] (0,0.95) ellipse (0.42 and 0.13);
+    \draw[gold!50!faded, line width=0.5pt, opacity=0.32] (0,0.93) ellipse (0.33 and 0.085);
+    \draw[faded!72!ink, line width=0.8pt, opacity=0.62] (-0.40,-0.90) -- (0.40,-0.90);
+    % what was left in it: grain, grit and one brown-edged crust, still held
+    \fill[faded!68!ink, opacity=0.50] (-0.20,-0.70) ellipse (0.17 and 0.085);
+    \fill[faded!68!ink, opacity=0.38] (0.18,-0.76) ellipse (0.13 and 0.07);
+    \fill[rubric!38!faded, opacity=0.55]
+      (-0.07,-0.62) .. controls (0.04,-0.55) and (0.20,-0.58) .. (0.24,-0.68)
+      .. controls (0.12,-0.74) and (-0.02,-0.73) .. (-0.07,-0.62) -- cycle;
+    \draw[faded, line width=0.5pt, dotted, opacity=0.38] (0,-0.72) ellipse (0.56 and 0.34);
+  \end{scope}
+
+  % the silt going out: a thin stream out of the tipped mouth to the same ground
+  \draw[faded!72!ink, line width=1.8pt, opacity=0.22]
+    (-0.57,-0.38) .. controls (-0.80,-0.64) and (-1.10,-0.90) .. (-1.72,-1.13);
+  \draw[faded!82!ink, line width=0.8pt, opacity=0.46]
+    (-0.59,-0.40) .. controls (-0.84,-0.67) and (-1.14,-0.93) .. (-1.74,-1.14);
+  \draw[gold!55!faded, line width=0.5pt, opacity=0.34]
+    (-0.62,-0.42) .. controls (-0.87,-0.70) and (-1.17,-0.96) .. (-1.76,-1.15);
+
+  % Seed coming in on that same ground: one small seed beside the silt
+  \foreach \gx in {-1.54,-1.36,-1.18,-1.00,-0.82}{
+    \fill[faded!65!ink, opacity=0.40] (\gx,-1.14) circle (0.022);
+  }
+  \fill[gold!72!ornament, opacity=0.74]
+    (-1.92,-1.08)
+    .. controls (-1.84,-0.93) and (-1.72,-0.93) .. (-1.64,-1.08)
+    .. controls (-1.73,-1.17) and (-1.83,-1.17) .. (-1.92,-1.08) -- cycle;
+  \draw[faded!72!ink, line width=0.5pt, opacity=0.50]
+    (-1.92,-1.08)
+    .. controls (-1.84,-0.93) and (-1.72,-0.93) .. (-1.64,-1.08)
+    .. controls (-1.73,-1.17) and (-1.83,-1.17) .. (-1.92,-1.08);
+
+  \node at (-4.30,0.02) {\pgfornament[width=1.6cm,color=ornament]{85}};
+  \node at ( 4.30,0.02) {\pgfornament[width=1.6cm,color=ornament,symmetry=v]{85}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {what was left in it is still in it};
+\end{tikzpicture}

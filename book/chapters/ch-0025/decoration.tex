@@ -1,0 +1,73 @@
+\begin{tikzpicture}
+  % the chapter's heart: the carried fire kept under blind ash and the back
+  % of a broken pot, four low pulls answered and the fifth place silent;
+  % the warmth goes up an inch toward the note of water and comes down,
+  % and the house keeps what nobody has counted
+
+  % faint standing where the keeping is done
+  \fill[gold, opacity=0.040] (0,-0.22) ellipse (4.72 and 1.28);
+
+  % the mound of blind ash, heaped over what is still alive
+  \fill[ash!72!faded, opacity=0.16]
+    (-2.55,-0.82)
+    .. controls (-1.60,-0.20) and (-0.62,-0.06) .. (0.18,-0.10)
+    .. controls (0.98,-0.14) and (1.72,-0.36) .. (2.48,-0.82)
+    -- cycle;
+  \draw[faded!82!ink, line width=0.88pt, opacity=0.58]
+    (-2.55,-0.82)
+    .. controls (-1.60,-0.20) and (-0.62,-0.06) .. (0.18,-0.10)
+    .. controls (0.98,-0.14) and (1.72,-0.36) .. (2.48,-0.82);
+
+  % the ash's surface, smoothed by nobody's hand
+  \foreach \ax/\ay in {-2.02/-0.58,-1.18/-0.34,-0.36/-0.26,0.62/-0.30,1.48/-0.54}{
+    \draw[faded!66!ink, line width=0.44pt, opacity=0.26]
+      (\ax,\ay) .. controls (\ax+0.12,\ay+0.04) and (\ax+0.26,\ay+0.02) .. (\ax+0.38,\ay-0.02);
+  }
+
+  % the back of a broken pot turned over the coals: a low cracked dome
+  \fill[faded!56!ink, opacity=0.13]
+    (-2.05,-0.70)
+    .. controls (-1.95,0.28) and (-0.95,0.68) .. (0.02,0.64)
+    .. controls (1.02,0.60) and (1.96,0.20) .. (2.06,-0.70)
+    -- (1.62,-0.44) -- (1.22,-0.66) -- (0.78,-0.42) -- (0.34,-0.60)
+    -- (-0.10,-0.40) -- (-0.58,-0.62) -- (-1.02,-0.38) -- (-1.50,-0.60)
+    -- cycle;
+  \draw[faded!86!ink, line width=0.95pt, opacity=0.74]
+    (-2.05,-0.70)
+    .. controls (-1.95,0.28) and (-0.95,0.68) .. (0.02,0.64)
+    .. controls (1.02,0.60) and (1.96,0.20) .. (2.06,-0.70);
+  \draw[faded!70!ink, line width=0.58pt, opacity=0.44]
+    (-2.05,-0.70) -- (-1.50,-0.60) -- (-1.02,-0.38) -- (-0.58,-0.62)
+    -- (-0.10,-0.40) -- (0.34,-0.60) -- (0.78,-0.42) -- (1.22,-0.66)
+    -- (1.62,-0.44) -- (2.06,-0.70);
+  \draw[faded!60!ink, line width=0.45pt, opacity=0.28]
+    (-1.70,0.02) .. controls (-0.70,0.30) and (0.70,0.26) .. (1.72,-0.04);
+  \draw[rubric!45!faded, line width=0.50pt, opacity=0.26]
+    (0.42,0.55) .. controls (0.30,0.30) and (0.52,0.06) .. (0.34,-0.18);
+
+  % four low pulls, kept under the ash; the payer is unnamed
+  \foreach \ex/\ey in {-1.56/-0.70,-0.90/-0.62,-0.22/-0.66,0.46/-0.70}{
+    \fill[rubric!58!gold, opacity=0.13] (\ex,\ey) circle (0.22);
+    \fill[gold!58!ornament, opacity=0.72] (\ex,\ey) ellipse (0.082 and 0.044);
+    \draw[rubric!62!ink, line width=0.52pt, opacity=0.40]
+      (\ex-0.16,\ey-0.05) .. controls (\ex,\ey+0.02) .. (\ex+0.16,\ey-0.05);
+  }
+
+  % the fifth place: a mark with nothing under it, answering to no pull
+  \draw[faded, line width=0.55pt, dotted, opacity=0.42]
+    (1.14,-0.70) ellipse (0.10 and 0.052);
+  \draw[faded, line width=0.45pt, dotted, opacity=0.22] (1.14,-0.60) -- (1.14,-0.48);
+
+  % the warmth goes up an inch toward the note of water and comes down
+  \draw[faded, line width=0.55pt, opacity=0.30]
+    (0.02,0.66) .. controls (-0.14,0.92) and (0.18,1.05) .. (0.02,1.24);
+  \draw[rubric!70!ink, line width=0.90pt, opacity=0.56] (-0.12,1.28) -- (0.16,1.28);
+  \draw[faded, line width=0.45pt, dotted, opacity=0.20]
+    (0.10,1.24) .. controls (0.26,1.02) and (-0.04,0.90) .. (0.10,0.68);
+
+  \node at (-4.38,-0.38) {\pgfornament[width=1.7cm,color=ornament]{6}};
+  \node at ( 4.38,-0.38) {\pgfornament[width=1.7cm,color=ornament,symmetry=v]{6}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.48)
+    {the house will keep it};
+\end{tikzpicture}

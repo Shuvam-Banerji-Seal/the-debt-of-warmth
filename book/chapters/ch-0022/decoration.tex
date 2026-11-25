@@ -1,0 +1,85 @@
+\begin{tikzpicture}
+  % the chapter's heart: the fist shut on seed and on a number it will not say,
+  % the worked strip taking hands by the look, and the direction held an inch
+  % short of the figure, so that nothing passes between them
+
+  % faint standing where the keeping is done
+  \fill[gold, opacity=0.040] (0,-0.34) ellipse (3.25 and 1.32);
+
+  % the worked strip at the right: brown ground turned by hands that are gone,
+  % seed lying in it in handfuls nobody counted
+  \fill[faded!72!ink, opacity=0.10]
+    (0.58,-0.30)
+    .. controls (1.80,-0.16) and (3.02,-0.36) .. (4.28,-0.26)
+    -- (4.28,-0.76)
+    .. controls (3.02,-0.86) and (1.80,-0.66) .. (0.58,-0.80)
+    -- cycle;
+  \draw[faded!88!ink, line width=0.92pt, opacity=0.80]
+    (0.58,-0.30) .. controls (1.80,-0.16) and (3.02,-0.36) .. (4.28,-0.26);
+  \draw[faded!84!ink, line width=0.88pt, opacity=0.72]
+    (0.58,-0.80) .. controls (1.80,-0.66) and (3.02,-0.86) .. (4.28,-0.76);
+
+  % a few turned clods, uneven, worked and left
+  \foreach \cx/\cy in {0.92/-0.48,1.62/-0.55,2.32/-0.50,3.12/-0.58,3.84/-0.50}{
+    \draw[faded!70!ink, line width=0.45pt, opacity=0.28]
+      (\cx,\cy) .. controls (\cx+0.04,\cy+0.07) and (\cx+0.10,\cy+0.08) .. (\cx+0.14,\cy+0.02);
+  }
+
+  % seed in the strip, scattered in close handfuls with gaps between
+  \foreach \sx/\sy in {0.82/-0.57,1.02/-0.51,1.10/-0.65,1.31/-0.58,
+                       1.74/-0.53,1.92/-0.62,2.06/-0.50,2.19/-0.66,
+                       2.70/-0.60,2.88/-0.52,3.03/-0.68,3.20/-0.61,
+                       3.70/-0.55,3.88/-0.65,4.03/-0.53}{
+    \fill[gold!72!ornament, opacity=0.66] (\sx,\sy) ellipse (0.048 and 0.028);
+  }
+
+  % the fist, shut: knuckles up, thumb folded over, seed kept in the crease
+  % and a number kept with it that nobody will say
+  \begin{scope}[shift={(-2.30,0.16)}, scale=1.20]
+    \fill[faded!62!ink, opacity=0.14]
+      (-0.60,-0.42)
+      .. controls (-0.68,-0.10) and (-0.62,0.16) .. (-0.40,0.26)
+      .. controls (-0.18,0.36) and (0.02,0.30) .. (0.10,0.36)
+      .. controls (0.20,0.56) and (0.48,0.58) .. (0.62,0.40)
+      .. controls (0.70,0.10) and (0.62,-0.16) .. (0.40,-0.28)
+      .. controls (0.05,-0.42) and (-0.35,-0.50) .. (-0.60,-0.42) -- cycle;
+    \draw[faded!88!ink, line width=1.00pt, opacity=0.86]
+      (-0.60,-0.42)
+      .. controls (-0.68,-0.10) and (-0.62,0.16) .. (-0.40,0.26)
+      .. controls (-0.18,0.36) and (0.02,0.30) .. (0.10,0.36)
+      .. controls (0.20,0.56) and (0.48,0.58) .. (0.62,0.40)
+      .. controls (0.70,0.10) and (0.62,-0.16) .. (0.40,-0.28)
+      .. controls (0.05,-0.42) and (-0.35,-0.50) .. (-0.60,-0.42);
+
+    % knuckle creases, the fingers closed
+    \draw[faded!76!ink, line width=0.52pt, opacity=0.46]
+      (0.20,0.51) .. controls (0.26,0.42) and (0.26,0.36) .. (0.23,0.31);
+    \draw[faded!76!ink, line width=0.52pt, opacity=0.46]
+      (0.35,0.55) .. controls (0.41,0.45) and (0.41,0.38) .. (0.37,0.33);
+    \draw[faded!76!ink, line width=0.52pt, opacity=0.46]
+      (0.49,0.51) .. controls (0.55,0.42) and (0.55,0.35) .. (0.51,0.30);
+
+    % the thumb folded across, and the seam it leaves
+    \draw[faded!80!ink, line width=0.70pt, opacity=0.58]
+      (-0.34,0.20) .. controls (-0.06,0.06) and (0.24,0.06) .. (0.48,0.18);
+    \draw[faded!70!ink, line width=0.45pt, opacity=0.36]
+      (-0.32,0.12) .. controls (-0.04,0.00) and (0.22,0.00) .. (0.44,0.10);
+
+    % seed showing at the shut seam, held and not tipped out
+    \foreach \fx/\fy in {0.00/0.13,0.16/0.09,0.32/0.10,0.43/0.15,0.24/0.02}{
+      \fill[gold!72!ornament, opacity=0.72] (\fx,\fy) ellipse (0.046 and 0.027);
+    }
+  \end{scope}
+
+  % the direction carried toward the number, stopping an inch short:
+  % nothing said, nothing joined, the count unspent
+  \draw[faded, line width=0.55pt, dotted, opacity=0.40]
+    (-1.30,0.10) .. controls (-0.82,0.06) and (-0.12,-0.02) .. (0.34,-0.06);
+  \draw[rubric!72!ink, line width=1.00pt, opacity=0.68] (0.38,-0.17) -- (0.38,0.05);
+
+  \node at (-4.42,0.06) {\pgfornament[width=1.7cm,color=ornament]{77}};
+  \node at ( 4.46,0.06) {\pgfornament[width=1.7cm,color=ornament,symmetry=v]{77}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {what the fist holds};
+\end{tikzpicture}
