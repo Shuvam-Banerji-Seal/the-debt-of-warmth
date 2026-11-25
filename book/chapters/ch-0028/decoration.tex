@@ -1,0 +1,63 @@
+\begin{tikzpicture}
+  % the chapter's heart: the sentence brought all the way to the threshold
+  % of the word and stopped there --- the word held at the teeth, kept and
+  % therefore owed; the breath drawn at the top of the reach and not spent;
+  % beyond the teeth only an interval, and nothing written
+
+  % faint standing where the kept thing is held
+  \fill[gold, opacity=0.040] (0,-0.12) ellipse (4.85 and 1.02);
+
+  % the closed mouth: two lips meeting at the corners, the line between them
+  \draw[faded!84!ink, line width=0.95pt, opacity=0.66]
+    (-3.98,0.02) .. controls (-1.60,0.00) and (1.60,0.00) .. (3.98,0.02);
+  \draw[faded!70!ink, line width=0.62pt, opacity=0.44]
+    (-3.98,0.02) .. controls (-2.00,0.30) and (2.00,0.30) .. (3.98,0.02);
+  \draw[faded!70!ink, line width=0.62pt, opacity=0.44]
+    (-3.98,0.02) .. controls (-2.00,-0.26) and (2.00,-0.26) .. (3.98,0.02);
+
+  % teeth, upper and lower, meeting without a gap
+  \foreach \tx in {-3.00,-2.60,-2.20,-1.80,-1.40,-1.00,-0.60,-0.20,0.20,0.60,1.00,1.40,1.80,2.20,2.60,3.00}{
+    \fill[faded!70!ink, opacity=0.10] (\tx,0.10) ellipse (0.058 and 0.090);
+    \draw[faded!80!ink, line width=0.55pt, opacity=0.42] (\tx,0.10) ellipse (0.058 and 0.090);
+    \fill[faded!70!ink, opacity=0.10] (\tx,-0.10) ellipse (0.058 and 0.090);
+    \draw[faded!80!ink, line width=0.55pt, opacity=0.42] (\tx,-0.10) ellipse (0.058 and 0.090);
+  }
+
+  % the sentence, running on below the lips in small markscript
+  \draw[faded!76!ink, line width=0.60pt, opacity=0.44]
+    plot[domain=-3.55:0.55, samples=46] (\x,{-0.55+0.045*sin(deg(6*\x))});
+  \foreach \sx in {-3.40,-3.07,-2.74,-2.41,-2.08,-1.75,-1.42,-1.09,-0.76,-0.43,-0.10,0.23,0.50}{
+    \draw[faded!66!ink, line width=0.45pt, opacity=0.28] (\sx,-0.55) -- (\sx+0.03,-0.46);
+  }
+
+  % the sentence comes up to the threshold and goes no further
+  \draw[faded!76!ink, line width=0.62pt, opacity=0.46]
+    (0.50,-0.54) .. controls (0.78,-0.47) and (0.72,-0.18) .. (0.87,-0.03);
+
+  % the word caught at the teeth, half in and not passed through
+  \draw[rubric!74!ink, line width=1.05pt, opacity=0.78]
+    (0.80,0.05) .. controls (0.88,0.18) and (0.99,-0.16) .. (1.08,0.06);
+  \draw[rubric!58!faded, line width=0.72pt, opacity=0.54]
+    (0.78,-0.04) .. controls (0.90,-0.14) and (1.02,0.12) .. (1.12,-0.03);
+  \draw[rubric!52!faded, line width=0.55pt, dotted, opacity=0.40]
+    (1.23,-0.20) -- (1.23,0.20);
+
+  % beyond the word only an interval: two marks and the space between them
+  \draw[faded, line width=0.52pt, dotted, opacity=0.28] (1.48,-0.55) -- (2.08,-0.55);
+  \draw[faded, line width=0.52pt, dotted, opacity=0.28] (2.52,-0.55) -- (3.20,-0.55);
+  \draw[faded!60!ink, line width=0.55pt, opacity=0.32] (2.08,-0.64) -- (2.08,-0.46);
+  \draw[faded!60!ink, line width=0.55pt, opacity=0.32] (2.52,-0.64) -- (2.52,-0.46);
+
+  % the breath drawn at the top of the reach and not let go
+  \draw[faded!80!ink, line width=0.58pt, opacity=0.34]
+    (-0.40,0.24) .. controls (-0.62,0.66) and (-0.16,0.92) .. (-0.46,1.16);
+  \draw[rubric!50!faded, line width=0.85pt, opacity=0.46] (-0.58,1.20) -- (-0.34,1.20);
+  \draw[faded, line width=0.45pt, dotted, opacity=0.20]
+    (-0.44,1.16) .. controls (-0.20,0.96) and (-0.58,0.70) .. (-0.34,0.26);
+
+  \node at (-4.36,0.01) {\pgfornament[width=0.95cm,color=ornament]{11}};
+  \node at ( 4.36,0.01) {\pgfornament[width=0.95cm,color=ornament,symmetry=v]{11}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.42)
+    {a kept thing is owed};
+\end{tikzpicture}
