@@ -15,17 +15,17 @@
   "chapter": 30,
   "step": "publish",
   "scene": 8,
-  "consolidated_through": 20,
+  "consolidated_through": 30,
   "built": {
     "1": 20,
     "2": 29
   },
-  "calls": 347,
+  "calls": 349,
   "failures_in_row": 0,
   "started": "2026-11-24T16:12:18.947325",
   "words_total": 470126,
-  "tokens_in": 55937320,
-  "tokens_out": 7506491,
+  "tokens_in": 57043725,
+  "tokens_out": 7676710,
   "restarts": [
     {
       "at": "2026-11-24",

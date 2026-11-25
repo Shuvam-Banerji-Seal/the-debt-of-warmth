@@ -1,8 +1,10 @@
-# Continuity notes — audits after Chapter 10 and Chapter 20 (private)
+# Continuity notes — audits after Chapters 10, 20 and 30 (private)
 
 *Chapter 10 audit sources: the Chronicles and Continuity sections of `book/chapters/ch-0001`–`ch-0010/summary.md`, all character sheets, `characters/_minor.md`, `memory/state.md`, `memory/timeline.md`, `memory/places.md`, `plan/threads.md`, `bible/calendar.md`, `bible/premise.md` and `plan/arcs.md`. The state snapshot and day-by-day reckoning were sound. No scene file was touched.*
 
 *Chapter 20 audit sources: the Chronicles and Continuity sections of `book/chapters/ch-0011`–`ch-0020/summary.md`, the new digest and rewritten `memory/story-so-far.md`, every character sheet that appears in those chapters, `memory/state.md`, `memory/timeline.md`, `plan/threads.md`, `plan/next.md` and `book/chapters/ch-0020/summary.md`'s scribe's slip. The thread ledger matches its own tally (96 IDs: 60 planted, 35 open, 1 paid) and the timeline has one entry for every day through Day 100. No scene file was touched.*
+
+*Chapter 30 audit sources: the Chronicles and Continuity sections of `book/chapters/ch-0021`–`ch-0030/summary.md`, all character sheets and `characters/_minor.md`, `memory/state.md`, `memory/timeline.md`, `memory/places.md`, `plan/threads.md`, `plan/next.md`, `plan/arcs.md` and `bible/calendar.md`. The state snapshot, the day-by-day reckoning through Day 131, the place gazetteer and the character logs were sound; no memory file had drifted, so none needed repair. No scene file was touched.*
 
 ---
 
@@ -17,6 +19,13 @@
 1. **`memory/story-so-far.md`** — was still the Chapter 10 consolidation. Rewritten through Chapter 20 and organised by Arc 1's phases, compressed to 6,633 words, carrying forward the stone's disappearance (Day 64), the smoky crust's (Day 46), the second shelf gap (Seed 6 / Day 95), the sixth Alda note (Day 64), the second and third *nearly full* answers, the new grey, the cold foot, the two shut-room tellings, Ulda and the soft-handed man as shapes, the missing fifth bell stroke and the 96/60/35/1 thread tally.
 2. **`memory/digests/ch-0011-0020.md`** — created: a 1,868-word digest of Chapters 11–20 with chapter numbers, events, the one death already behind the arc, the absence of new deaths, all reveals, relationship and power state (no change), and threads opened/advanced.
 3. **`memory/state.md`** — the Ulda bullet listed half-beats on Days 78, 89 and 98 only; the half-beat first occurred on Day 75 (Ch 16, Silt 16), which his sheet's Chapter Log records. Added Day 75 and a note that the sheet's numbered glimpses treat the loaf scene as the first plain sighting, so the half-beat itself happened on four days.
+
+---
+
+## Drifts fixed in the Chapter 30 pass
+
+1. **`memory/story-so-far.md`** — was still the Chapter 20 consolidation (Day 100, 96 IDs). Rewritten through Chapter 30 and organised by Arc 1's phases: B1–B8 compressed heavily, B9–B10 given fuller detail, all continuity facts carried forward (T097–T100, the three stoppings, the charcoal under the shelf, the reed-cutter's cord, the missing hand, the third green, the loaf-shelves saying, Sella's finger beneath the board, the state at Day 131), 6,999 words.
+2. **`memory/digests/ch-0021-0030.md`** — created: a 1,996-word digest of Chapters 21–30 with chapter numbers, events, turns, threads opened (T097, T098, T099, T100), the absence of deaths and payoffs, and the unchanged power and relationship state.
 
 ---
 
@@ -38,9 +47,18 @@
 9. **The Account-day bell slip in Ch 20, scene 6.** One paragraph calls the missing stroke the "fourth stroke," the rest of the scene and all other canon say four strokes, four, and a missing **fifth**. Already logged in Ch 20's summary and in T078. *Plan:* canon is the missing fifth; treat "fourth stroke" as a scribe's slip and do not propagate it into Ch 21–25.
 10. **Alda's sign count.** The pre-rewrite story-so-far said she crossed the flower's red edge "five times unawares" by Ch 10, while the T001/T007 plant lists record more crossings than five. *Plan:* treat "five" as a local count at the Ch 10 snapshot, never a cumulative total; put no total on the page, only "again and again, each covered with a date." The rewritten story-so-far already uses that phrasing.
 
+### New in the Chapter 30 audit
+
+11. **The thread tallies in `plan/threads.md` no longer match its own table.** Counting the four main tables gives exactly 100 IDs, T001–T100, with 64 planted, 35 open and 1 paid (T087). The prose notes at the close of Chapters 21, 22 and 24 say "ninety-seven ... (61 planted, 34 open, 1 paid)" = 96; Chapter 26 says "ninety-eight ... (62 planted, 34 open, 1 paid)" = 97; Chapter 30 says "one hundred ... (63 planted, 34 open, 1 paid)" = 98. Each time a new ID (T097, T098, T099, T100) was planted, the prose moved one thread from open to planted instead of adding a row, so the headline count and the breakdown are both short. *Plan:* treat the table and the ID count as canon (100 = 64/35/1, as used in the rewritten story-so-far) and correct the prose tallies in a single later pass over `plan/threads.md`, without touching any finished chapter file. Do not change a status in the table to make the prose add up; T087 stays the only paid thread.
+12. **`bible/calendar.md` worked example for Day 100 is off by one.** The rule `t = 336 + N − 1` gives Day 100 → *y* = 71 → Seed 11, Firstday, but the worked example prints "Day 100: t = 435, y = 70 ... Seed 10, Tenthday." Every written file uses Seed 11 for Day 100 and Seed 12 / Secondday for Day 101 (Ch 21), and the mapping rule itself is sound. *Plan:* treat the worked example as an arithmetic slip and correct it to Seed 11, Firstday, in a later pass over `bible/calendar.md`; never propagate "Seed 10" for Day 100. `design/` and `bible/calendar.md` are not to be edited during a chapter task.
+13. **`characters/_minor.md`, Chapter 26 green-mouth entry** says the silent pot-looking woman was "given no dialogue and named in the narration," while the same entry ends "Not Fenna in the narration" and the Chapter 29 entry says "silent and given no dialogue, not Fenna in the narration." Read with T050/T051 and Ch 29/30, she is unnamed throughout. *Plan:* treat "named" as a wording slip for "unnamed"; when the walk-on log is next edited, change it to "unnamed in the narration." No chapter may name her before Ch 40.
+14. **The green's count keeps two numbers, correctly, but they are easy to confuse.** Ch 29 summary warns that the Cross woman is the third green *at a mouth* and the fourth *shape* counted with Berr's tasted glaze; `memory/state.md`, `memory/places.md`, `characters/_minor.md` and `plan/next.md` all hold both numbers. This is not a drift but a standing hazard: do not collapse "three at mouths" and "four shapes" into one figure, and keep the fourth and fifth greens planned for Reed 15 and Reed 20 in `plan/next.md` distinct.
+
+---
+
 ## Minor watch items (not contradictions yet)
 
 - `characters/fenna-clay.md` gives `first_appearance: 40` while her unnamed silhouettes are in Ch 5, Ch 10 and Silt 30 (Ch 18), and Ch 20's thread ledger again files green at a mouth in silence. Keep the silhouettes silent and unnamed until Ch 40; the timeline's Day 89 "woman with green at one corner of her mouth" is canon and is Fenna's thread, not one of the sweet-mouthed High Kiln women in `characters/_minor.md`.
-- `plan/next.md` says T097 is planned for Ch 21, not yet planted; the tally of 60 planted excludes it. If Ch 21 plants it, add it as planted and move the tally to 61 planted, 34 open.
-- No seventh hearing, no sixth sighting of the neat dark hand, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin or box opened, no silt-leach named, no collector for Dessa, no Marra in Sill and no ending occurred in Chapters 11–20; preserve all of these through Ch 25.
-- Every day from Day 1 to Day 100 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 101 onward.
+- ~~`plan/next.md` says T097 is planned for Ch 21, not yet planted.~~ **Resolved:** T097 was planted in Ch 21 and advanced in Ch 22–30; see the tally contradiction (item 11) for the correct count.
+- No seventh hearing, no sixth sighting of the neat dark hand, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin or box opened, no silt-leach named, no collector for Dessa, no Marra in Sill and no ending occurred in Chapters 11–30; preserve all of these through Ch 35.
+- Every day from Day 1 to Day 131 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 132 onward.

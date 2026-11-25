@@ -336,6 +336,11 @@ On Seed 8, Y.H. 813 Mira worked the eels at the boards below the north bridge wi
 
 On Reed 10 and Reed 11, Y.H. 813 the out-of-line landing below the north bridge kept four steps, four, and a landing a hand's breadth out of line that a whole market walked over carefully without a fall. The soft-cuffed clerk sat with cuff grey from washing and grey again by midday, slate to forearm and hand to slate before eyes to stalls, and entered a buyer's figure before he looked at the buyer; the market sold its reeds and eels over the top of him and nobody took him off. A fish-trade seller wiped his thumb once after touching fish and was kept off Berr's twice-wiped tray. Below the shade on Reed 11 a child's foot stayed dark inside three turns of wool, the cold to the woman who wrapped it and weather to the yard (T093/T094/T096 carried). Ch 30.
 
+### The out-of-line landing
+**Kind:** landing, broken step. **Region:** the Fishstairs, Sill, north bank.
+The flat place at the foot of the Fishstairs where a fifth step should have been: four steps, four, and a landing a hand's breadth out of line, which a whole market walks over carefully without a fall. In the Breaking the Ilm comes up over it and puts the steps back out of line, and the district reads the water as weather. The soft-cuffed clerk sits here for a measure nobody called. Drawn close on `atlas/cross-and-fishstairs`.
+**Relations:** At the foot of the Fishstairs, below the north bridge; the Singing Sill lies downstream.
+
 ### The edge of the fish-trade
 **Kind:** shaded trading ground. **Region:** the Fishstairs, Sill, north bank.
 The boards at the outer edge of the dawn trade, under the north bridge's shadow, where the eel stalls thin out and no Court slate has ever reached. Sella Vail sets the basket here when she wants the boy to see the trade and not be seen into --- the same care she used at the edge of the light at the Drawing. On Stone 15, Y.H. 812 she set him in this shade while Dessa Silt counted nineteen at the head of the steps and Mira Silt put a brown-edged barley crust into the fold. The market bell strikes back toward it from the Cross, four, four and a gap.
@@ -552,6 +557,11 @@ The room where the slate is read aloud on market-day and the district's measure 
 **Kind:** table, open-air place of business. **Region:** the Cross, Sill.
 A table at the Slate Row fringe of the market where the Court's business is done in the open air before it is carried into Slate Row. The clerk who keeps it has a cuff gone soft from washing and ink in the creases of two fingers; he lays his hand on the top slate before he looks at the woman waiting, then says *it's entered as it stands. There's nothing in it the household need correct.* The upper line of that slate is in a strange neat hand, with a small stop between two clusters that the boy has seen twice before and cannot read. The table is distinct from the collector's table in Slate Row, where the measure is actually drawn. On Stone 30, Y.H. 812 the soft-cuffed clerk laid his hand on the top slate here a third time, and the small stop in the neat dark upper line came a fifth time and lay unjoined beside the other four.
 **Relations:** At the Slate Row end of the Cross; Slate Row lies a quarter league east.
+
+### The reading block
+**Kind:** block, place of reading. **Region:** the Cross, Sill.
+The block under the moot-post at which the slate is read aloud on market-day and the pigs are weighed on the rail. On Account-day two hundred lean over it and the figure is read twice, once for the moot and once for the households that came late; a figure read over the block is not the figure paid. Drawn close on `atlas/cross-and-fishstairs`.
+**Relations:** At the Cross, beside the moot-post; the Court's table stands at the square's Slate Row fringe.
 
 ### The moot-post
 **Kind:** post, notice-board. **Region:** the Cross, Sill.
