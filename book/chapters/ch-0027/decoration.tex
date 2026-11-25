@@ -1,0 +1,67 @@
+\begin{tikzpicture}
+  % the chapter's heart: the tally a reed-cutter carries in a length of cord,
+  % knots set at arm's length, one tied low with teeth and thumb, the whole
+  % held in a fibre no Court thumb will read; the count is carried, never read
+
+  % faint standing where the cord went past the boy
+  \fill[gold, opacity=0.038] (0,0.02) ellipse (4.96 and 1.08);
+
+  % the cord itself, sagging between the hands that carry it
+  \draw[faded!86!ink, line width=1.05pt, opacity=0.70]
+    plot[domain=-4.20:4.20, samples=61] (\x,{0.16+0.2*(\x/4.2)^2});
+  \draw[faded!58!ink, line width=0.42pt, opacity=0.30]
+    plot[domain=-4.16:4.16, samples=61] (\x,{0.115+0.2*(\x/4.2)^2});
+
+  % the twist of the fibre, laid on in short slanting turns
+  \foreach \i in {0,1,...,26}{
+    \pgfmathsetmacro{\tx}{-4.00+0.30*\i}
+    \pgfmathsetmacro{\ty}{0.125+0.2*(\tx/4.2)^2}
+    \pgfmathsetmacro{\txb}{\tx+0.11}
+    \pgfmathsetmacro{\tyb}{0.170+0.2*(\txb/4.2)^2}
+    \draw[faded!66!ink, line width=0.40pt, opacity=0.24] (\tx,\ty) -- (\txb,\tyb);
+  }
+
+  % six knots set at arm's length: a record kept where no thumb reads it
+  \foreach \kx/\ky in {-3.00/0.262,-1.80/0.197,-0.60/0.163,0.60/0.163,1.80/0.197,3.00/0.262}{
+    \begin{scope}[shift={(\kx,\ky)}]
+      \fill[faded!64!ink, opacity=0.13] (0,0) ellipse (0.093 and 0.112);
+      \draw[faded!86!ink, line width=0.92pt, opacity=0.68] (0,0) ellipse (0.093 and 0.112);
+      \draw[faded!82!ink, line width=0.86pt, opacity=0.56]
+        (-0.10,0.03) .. controls (-0.01,0.16) and (0.11,-0.13) .. (0.10,0.05);
+    \end{scope}
+  }
+
+  % one knot pulled low and crooked, tied with teeth and thumb
+  \begin{scope}[shift={(2.40,0.225)}, rotate=-8]
+    \fill[faded!60!ink, opacity=0.14] (-0.02,-0.02) ellipse (0.104 and 0.140);
+    \draw[faded!86!ink, line width=1.00pt, opacity=0.68] (-0.02,-0.02) ellipse (0.104 and 0.140);
+    \draw[rubric!45!faded, line width=0.90pt, opacity=0.52]
+      (-0.12,0.06) .. controls (0.02,0.18) and (0.13,-0.16) .. (0.08,-0.06);
+    \draw[faded!70!ink, line width=0.70pt, opacity=0.46]
+      (0.05,-0.14) .. controls (0.15,-0.34) and (0.02,-0.46) .. (0.13,-0.60);
+    \fill[faded!60!ink, opacity=0.10] (-0.31,-0.30) ellipse (0.16 and 0.10);
+    \draw[faded!70!ink, line width=0.50pt, opacity=0.34] (-0.31,-0.30) ellipse (0.16 and 0.10);
+    \draw[rubric!50!faded, line width=0.45pt, opacity=0.32] (-0.21,-0.17) -- (-0.12,-0.21);
+    \draw[rubric!50!faded, line width=0.45pt, opacity=0.32] (-0.18,-0.10) -- (-0.09,-0.14);
+  \end{scope}
+
+  % the ends fray where the cord was carried: nothing is tied off, no figure set
+  \draw[faded!70!ink, line width=0.52pt, opacity=0.38]
+    (-4.20,0.36) .. controls (-4.48,0.42) and (-4.62,0.30) .. (-4.80,0.36);
+  \draw[faded!70!ink, line width=0.44pt, opacity=0.30]
+    (-4.20,0.36) .. controls (-4.46,0.30) and (-4.60,0.20) .. (-4.76,0.14);
+  \draw[faded!70!ink, line width=0.44pt, opacity=0.28]
+    (-4.20,0.36) .. controls (-4.44,0.38) and (-4.62,0.46) .. (-4.78,0.54);
+  \draw[faded!70!ink, line width=0.52pt, opacity=0.38]
+    (4.20,0.36) .. controls (4.48,0.42) and (4.62,0.30) .. (4.80,0.36);
+  \draw[faded!70!ink, line width=0.44pt, opacity=0.30]
+    (4.20,0.36) .. controls (4.46,0.30) and (4.60,0.20) .. (4.76,0.14);
+  \draw[faded!70!ink, line width=0.44pt, opacity=0.28]
+    (4.20,0.36) .. controls (4.44,0.38) and (4.62,0.46) .. (4.78,0.54);
+
+  \node at (-4.66,-0.30) {\pgfornament[width=1.7cm,color=ornament]{78}};
+  \node at ( 4.66,-0.30) {\pgfornament[width=1.7cm,color=ornament,symmetry=v]{78}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.44)
+    {the count no Court thumb can read};
+\end{tikzpicture}
