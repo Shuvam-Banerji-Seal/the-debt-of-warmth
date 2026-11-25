@@ -189,11 +189,111 @@ def place_root_pdf() -> None:
             f.unlink()  # a newer build will come; the release already has this one
 
 
+def run_git(*args) -> subprocess.CompletedProcess:
+    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, errors="replace")
+
+
+def git_heal() -> bool:
+    """Repair what a power cut does to git on ext4: zero-length object files, a branch that points at
+    one, reflogs padded with NULs, and an index naming objects that never reached the disk.
+
+    Nothing is deleted: damaged files go to .forge/corrupt-<stamp>/. Returns True if anything was repaired
+    (the caller must then commit at once, because the rewound HEAD makes restore_protected unsafe)."""
+    gitdir = ROOT / ".git"
+    quarantine = FORGE / f"corrupt-{datetime.now():%Y%m%d-%H%M%S}"
+    fixed: list[str] = []
+    lost: list[str] = []
+
+    def keep(src: Path, sub: str, name: str, move: bool) -> None:
+        (quarantine / sub).mkdir(parents=True, exist_ok=True)
+        (shutil.move if move else shutil.copy2)(str(src), str(quarantine / sub / name))
+
+    for f in (gitdir / "objects").glob("??/*"):
+        try:
+            if f.is_file() and f.stat().st_size == 0:
+                keep(f, "objects", f.parent.name + f.name, move=True)
+                lost.append(f.parent.name + f.name)
+                fixed.append(f"empty object {f.parent.name}{f.name}")
+        except OSError:
+            pass
+    logs = gitdir / "logs"
+    for f in (logs.rglob("*") if logs.exists() else []):
+        try:
+            raw = f.read_bytes() if f.is_file() else b""
+            if raw.endswith(b"\0"):
+                keep(f, "logs", f.relative_to(logs).as_posix().replace("/", "_"), move=False)
+                raw = raw.rstrip(b"\0")
+                f.write_bytes(raw + (b"\n" if raw and not raw.endswith(b"\n") else b""))
+                fixed.append(f"NUL-padded reflog {f.relative_to(logs)}")
+        except OSError:
+            pass
+
+    def readable(oid: str) -> bool:
+        return run_git("rev-list", "--objects", "--max-count=1", oid).returncode == 0
+
+    ref = run_git("symbolic-ref", "-q", "HEAD").stdout.strip()
+    tip = run_git("rev-parse", "-q", "--verify", "HEAD").stdout.strip()
+    if ref and not (tip and readable(tip)):
+        candidates: list[str] = []
+        try:
+            for line in reversed((logs / "HEAD").read_text(errors="replace").splitlines()):
+                parts = line.split()
+                if len(parts) > 1 and re.fullmatch(r"[0-9a-f]{40}", parts[1]):
+                    candidates.append(parts[1])
+        except OSError:
+            pass
+        candidates += [run_git("rev-parse", "-q", "--verify", f"refs/remotes/origin/{ref.rsplit('/', 1)[-1]}").stdout.strip()]
+        good = next((c for c in candidates if c and readable(c)), "")
+        if good:
+            run_git("update-ref", "-m", "git_heal: branch pointed at a commit lost in a crash", ref, good)
+            fixed.append(f"{ref} rewound to {good[:8]}")
+    if lost and logs.exists():  # reflog lines that still name a lost object make `git fsck` fail
+        repl = run_git("rev-parse", "-q", "--verify", "HEAD").stdout.strip() or "0" * 40
+        for f in logs.rglob("*"):
+            try:
+                text = f.read_text(errors="replace") if f.is_file() else ""
+                if any(oid in text for oid in lost):
+                    for oid in lost:
+                        text = text.replace(oid, repl)
+                    f.write_text(text)
+            except OSError:
+                pass
+    if run_git("status", "--porcelain", "-uno").returncode != 0 and (gitdir / "index").exists():
+        keep(gitdir / "index", "", "index", move=True)
+        run_git("reset", "-q")
+        fixed.append("index rebuilt from HEAD")
+    for item in fixed:
+        log(f"  git_heal: {item}")
+    if fixed:
+        log(f"  git_heal: damaged files kept in {quarantine.relative_to(ROOT)}")
+    return bool(fixed)
+
+
 def commit(msg: str) -> None:
     place_root_pdf()
-    git("add", "-A")
-    if git("status", "--porcelain").strip():
-        git("commit", "-q", "-m", msg)
+    for attempt in (1, 2):
+        step = run_git("add", "-A")
+        if step.returncode == 0:
+            status = run_git("status", "--porcelain")
+            if status.returncode == 0 and not status.stdout.strip():
+                return
+            if status.returncode == 0:
+                step = run_git("commit", "-q", "-m", msg)
+                if step.returncode == 0:
+                    return
+            else:
+                step = status
+        log(f"  GIT FAILED ({msg[:40]}): {step.stderr.strip()[:300]}")
+        if attempt == 1 and git_heal():
+            continue
+        break
+
+
+def check_git() -> None:
+    """Start-up check: heal git, and if that changed anything record the pending work right away."""
+    if git_heal():
+        commit("press: recovered after an unclean shutdown")
+        push()
 
 
 def push() -> None:
@@ -879,6 +979,7 @@ def main() -> None:
     except BlockingIOError:
         print("another orchestrator is already running", file=sys.stderr)
         sys.exit(1)
+    check_git()
     state = load_state()
     if not state.get("started"):
         state["started"] = datetime.now().isoformat()
