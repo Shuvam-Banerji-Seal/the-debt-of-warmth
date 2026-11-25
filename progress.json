@@ -12,13 +12,13 @@
     "map-home",
     "portraits"
   ],
-  "chapter": 27,
-  "step": "publish",
-  "scene": 7,
+  "chapter": 28,
+  "step": "plan",
+  "scene": 1,
   "consolidated_through": 20,
   "built": {
     "1": 20,
-    "2": 26
+    "2": 27
   },
   "calls": 315,
   "failures_in_row": 0,

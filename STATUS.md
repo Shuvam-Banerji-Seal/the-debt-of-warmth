@@ -2,7 +2,7 @@
 
 - Chapters complete: **27**
 - Words of story: **419,824**
-- Current chapter: 27 (step: publish, scene 7)
+- Current chapter: 28 (step: plan, scene 1)
 - Last chapter: The Cord That Keeps a Count (Days 120–122 · Reed 1–3, Y.H. 813)
 - Author calls so far: 315 (tokens in 49,557,601, out 6,793,278)
 - Updated: 2026-11-25 20:19
