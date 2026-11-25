@@ -382,6 +382,11 @@ def call_author(task: str, title: str, state: dict, allowed: set[str] | None = N
         restore_protected(allowed, current_chapter)
         save_state(state)
         tail = (out.strip() or raw.strip())[-400:]
+        if STOP and rc != 0:
+            # a stop (service restart, shutdown) killed the call part-way: never count it as done;
+            # the step has not advanced, so it runs again from the start when the press returns
+            log(f"  author call '{title}' interrupted by the stop (rc={rc}, {dt:.0f}s); the step will rerun")
+            raise SystemExit(0)
         transient = ((rc != 0 and (TRANSIENT.search(raw[-3000:]) or rc in (124, 127) or dt < 60))
                      or n_events == 0 or (errored and tok_out == 0))
         if transient:
@@ -411,6 +416,10 @@ def repair_loop(what: str, check, state: dict, attempts: int = 2, **kw) -> list[
         call_author(prompt("fix-files.md", what=what, problems="\n".join(f"- {p}" for p in problems)),
                     f"repair {what} #{i + 1}", state, **kw)
         problems = check()
+    if problems and STOP:
+        # stopped before the repairs could run: do not advance past an unvalidated step
+        log(f"  stopped with unresolved problems for {what}; the step will be checked again")
+        raise SystemExit(0)
     return problems
 
 
