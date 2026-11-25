@@ -2,7 +2,7 @@
 
 - Chapters complete: **29**
 - Words of story: **452,178**
-- Current chapter: 29 (step: publish, scene 8)
+- Current chapter: 30 (step: plan, scene 1)
 - Last chapter: The Word Stopped Twice (Days 126–128 · Reed 7–9, Y.H. 813)
 - Author calls so far: 336 (tokens in 54,091,942, out 7,265,121)
 - Updated: 2026-11-25 21:52
