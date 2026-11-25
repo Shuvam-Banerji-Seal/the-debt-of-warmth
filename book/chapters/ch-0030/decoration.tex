@@ -1,0 +1,67 @@
+\begin{tikzpicture}
+  % the chapter's heart: the tally kept on the UNDERSIDE of the loaf shelf,
+  % short charcoal strokes in clusters, some pressed hard, some faded almost
+  % into the grain, put where nobody thinks to look; a finger goes beneath
+  % the board without looking and comes away, and nothing above is joined
+
+  \fill[gold, opacity=0.035] (0,-0.06) ellipse (4.96 and 1.04);
+
+  % the shelf from the basket's low angle: the underside plane, far and near edges
+  \fill[faded!14!vellum, opacity=0.55]
+    (-4.15,0.62) -- (4.15,0.62) -- (4.32,-0.22) -- (-4.32,-0.22) -- cycle;
+  \draw[faded!84!ink, line width=0.95pt, opacity=0.66]
+    (-4.15,0.62) -- (-4.32,-0.22) -- (4.32,-0.22) -- (4.15,0.62) -- cycle;
+
+  % the thickness of the board, its near face in shadow
+  \fill[faded!26!ink, opacity=0.15]
+    (-4.32,-0.22) -- (4.32,-0.22) -- (4.32,-0.40) -- (-4.32,-0.40) -- cycle;
+  \draw[faded!80!ink, line width=0.78pt, opacity=0.58] (-4.32,-0.22) -- (4.32,-0.22);
+  \draw[faded!72!ink, line width=0.66pt, opacity=0.48] (-4.32,-0.40) -- (4.32,-0.40);
+
+  % grain running the length of the underside
+  \foreach \gy in {-0.10,0.04,0.18,0.32,0.46}{
+    \draw[faded!55!ink, line width=0.40pt, opacity=0.16]
+      (-4.05,\gy) .. controls (-1.4,\gy+0.03) and (1.4,\gy-0.03) .. (4.05,\gy+0.01);
+  }
+  \draw[faded!55!ink, line width=0.40pt, opacity=0.14] (-3.55,0.26) ellipse (0.12 and 0.05);
+
+  % a keeping in clusters: short strokes a finger's breadth apart,
+  % some pressed dark, some faded into the wood, none counted
+  \foreach \sx/\sy/\op in {
+    -3.02/0.36/0.74, -2.88/0.34/0.46, -2.74/0.37/0.66, -2.60/0.35/0.18,
+    -1.26/0.36/0.58, -1.12/0.38/0.30, -0.98/0.35/0.70,
+     0.60/0.36/0.22,  0.74/0.38/0.68,  0.88/0.35/0.42,  1.02/0.37/0.14, 1.16/0.36/0.54,
+     2.44/0.36/0.72,  2.58/0.38/0.28,  2.72/0.35/0.50,  2.86/0.37/0.20
+  }{
+    \pgfmathsetmacro{\fop}{0.42*\op}
+    \draw[ink, line width=1.28pt, opacity=\op] (\sx,\sy) -- (\sx+0.05,\sy-0.23);
+    \fill[ink, opacity=\fop] (\sx+0.05,\sy-0.23) ellipse (0.042 and 0.030);
+  }
+
+  % the row kept badly on top, glimpsed only as a faint edge above:
+  % two gaps in it, and no line joining it to the marks below
+  \draw[faded, line width=0.50pt, dotted, opacity=0.18]
+    (-3.75,0.98) -- (-1.95,0.98);
+  \draw[faded, line width=0.50pt, dotted, opacity=0.18]
+    (-1.15,0.98) -- (0.95,0.98);
+  \draw[faded, line width=0.50pt, dotted, opacity=0.18]
+    (1.75,0.98) -- (3.75,0.98);
+
+  % a finger beneath the board, put there without a look and taken away
+  \begin{scope}[shift={(-3.88,0.02)}]
+    \draw[faded!82!ink, line width=0.80pt, opacity=0.56]
+      (-0.11,-0.98) .. controls (-0.15,-0.60) and (-0.12,-0.24) .. (-0.05,-0.04);
+    \draw[faded!82!ink, line width=0.80pt, opacity=0.56]
+      (0.13,-0.98) .. controls (0.12,-0.60) and (0.12,-0.22) .. (0.05,-0.04);
+    \draw[faded!82!ink, line width=0.70pt, opacity=0.50]
+      (-0.05,-0.04) .. controls (0,-0.01) and (0.02,-0.01) .. (0.05,-0.04);
+    \draw[faded!70!ink, line width=0.45pt, opacity=0.28]
+      (-0.11,-0.50) .. controls (-0.03,-0.47) and (0.06,-0.47) .. (0.13,-0.50);
+  \end{scope}
+
+  \node at (-4.78,0.06) {\pgfornament[width=0.9cm,color=ornament]{6}};
+  \node at ( 4.78,0.06) {\pgfornament[width=0.9cm,color=ornament,symmetry=v]{6}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.44)
+    {a mark on the wood, not the account};
+\end{tikzpicture}
