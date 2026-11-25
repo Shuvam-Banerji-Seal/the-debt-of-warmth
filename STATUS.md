@@ -2,7 +2,7 @@
 
 - Chapters complete: **28**
 - Words of story: **434,245**
-- Current chapter: 28 (step: publish, scene 7)
+- Current chapter: 29 (step: plan, scene 1)
 - Last chapter: The Word Held at the Teeth (Days 123–125 · Reed 4–6, Y.H. 813)
 - Author calls so far: 325 (tokens in 51,948,049, out 7,023,531)
 - Updated: 2026-11-25 21:05
