@@ -126,7 +126,7 @@ There were bits before these, and my mother could set a winter to each, and I ha
 
 # What the clerk did
 
-He came up from Slate Row on the fourth day with ink settled in two fingers, borrowed the leaf while I was at the dishes, and gave it back with the verbs taken out.
+He came up from Slate Row on the fourth day with ink in two fingers, borrowed the leaf, and gave it back with the verbs taken out.
 
 - At *the ground gives back more than it takes*: *the measure is retained in the spring and augmented thereby*, above and underlined.
 - At *four were reserved to the Hearth*: *four wells reserved to the Keeping; purpose not entered*.
