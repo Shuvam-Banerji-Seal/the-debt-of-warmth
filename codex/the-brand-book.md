@@ -9,7 +9,7 @@ I keep the irons.
 
 They lie in the drawer under this counter, the brand and the clip together in a cloth gone grey where the iron touches it. An officer comes in from the yard, I give him whichever the ordinance asks for, and when he has used it I enter the figure. There is a woman will come with a cup in her apron and a neighbour's warmth in it, or say there is, and a man who will not consent. I set down the ordinance's figure, and in the margin, in whatever hand the person has, the mark that was left. A brand entered without a man is a brand nobody wore, and that is the kind of entry the Keeping likes best.
 
-The ordinance is Law, and Law is the slate: what is written stands; what is not written did not happen. By that rule a brand has no pain in it and a theft is a figure like any other. I have kept this book eleven years and have never been able to add a mark. I can add the figure. That is the skill they pay me for.
+The ordinance is Law, and Law is the slate: what is written stands; what is not written did not happen. By that rule a brand has no pain in it and a theft is a figure like any other. I have kept this book eleven years and have never been able to add a mark. I can add the figure.
 
 > *At the head, in mine, written very small:* Copied for the counter and from the drawer. The marks are in the hands of those who wore them; I asked nobody to write a word they did not choose. If this is read in the Hearthseat, let it be seen that the ordinance was copied by one hand and the consequences by several.
 
@@ -55,7 +55,7 @@ The ordinance is Law, and Law is the slate: what is written stands; what is not 
 
 9. Refusal changes no figure. The measure drawn is the measure that stood before the refusal; the account opened is the same account. What refusal adds is a mark.
 
-> *Margin:* This the yard cannot believe. A woman asks what her no cost her; I show her the figure, which has not moved, and she looks at the wrist, which has. There is no column for the difference. I have made one here and drawn no figure in it.
+> *Margin:* A woman asks what her no cost her; I show her the figure, which has not moved, and she looks at the wrist, which has. There is no column for the difference. I have made one here and drawn no figure in it.
 
 10. Where the vessel has no house to consent for it, consent is entered by the hand of the officer. The foundling and the clay-bound are so entered. The hearth-maid lays the birth-slate on the bench before she goes to the child; this house does not say so, and the ordinance does not say so, and it is so.
 
@@ -63,11 +63,11 @@ The ordinance is Law, and Law is the slate: what is written stands; what is not 
 
 11. The articles reach the wrist and no further. There is no entry for warmth given at a house door, nor for a pot broken at a death-house to let the heat out, nor for a measure left in a body where no officer was called.
 
-> *Margin:* Three things I have entered nowhere: a bowl of gruel given at a door; a pot broken at the Bone Orchard; a room I was not called to on the last night of the Long Cold, where somebody lay warm and nobody came. I have no slate for any and will not invent one. The ordinance stops at the wrist; what lies beyond it is kept here, in a hand with no standing at any Weighing.
+> *Margin:* Three things I have entered nowhere: a bowl of gruel given at a door; a pot broken at the Bone Orchard; a room I was not called to on the last night of the Long Cold, where somebody lay warm and nobody came. I have no slate for any and will not invent one. Beyond the wrist is kept here, in a hand with no standing at any Weighing.
 
 12. An officer of the Keeping has no house and no kin. The account is her family. The brand she sets is not set in anger and is not set in mercy; it is entered.
 
-> *Margin:* I asked the officer who came in the Thin Year whether he had a house. He said the account was his family, as the ordinance says, and then asked for a string to tie his cuff, the clip having taken the feeling out of two fingers. I gave him one and did not enter the string.
+> *Margin:* I asked the officer who came in the Thin Year whether he had a house. He said the account was his family, as the ordinance says, and asked for a string to tie his cuff, the clip having taken the feeling out of two fingers. I gave him one and did not enter it.
 
 # The table of offences
 
@@ -91,7 +91,7 @@ The ordinance is Law, and Law is the slate: what is written stands; what is not 
 
 # The ring-song
 
-*Said low at the counter while the cuff comes down over the wrist, never while the iron is out of the drawer. Not sung in the yard, and never at a Weighing.*
+*Said low at the counter while the cuff comes down, never while the iron is out of the drawer. Never in the yard, never at a Weighing.*
 
 > The cup keeps a crack and the wrist keeps a ring,
 > the iron keeps neither, and that is the art;
@@ -118,7 +118,7 @@ The other hand is a factor's, leaning and brown at the edges, come up from Greyb
 
 # At the head and in the gutter
 
-The grey at the head is Ash off my own thumb, turning the leaf toward the lamp while the officer read a figure over it; the colour of a corner swept too late, and it will not come out of the creases. The filings in the gutter are iron off the cloth the irons lie in; some comes away whenever the drawer is opened, and it has never once drawn the warmth out of the paper, which is the only mercy this drawer holds. The pale round ring at the foot is skin-grease where a branded wrist was laid while I read the figure back; it is not a figure and cannot be added, and I have not washed it out. The tallow thumb beside it is mine. The green bead is lead glaze from a girl come up from High Kiln with the sweetness still at her mouth, who leaned to see the form of entry and set her hand down instead of asking. The bare square in the lower margin is where I scraped a word away with the point of the clip-key and put none in its place; I have not written it back. The tide-line came from the Waiting Room, where the collected are kept overnight before banking and damp gets into everything left on a bench. There is no Last Day at this counter, and nothing here is swept up and burnt and called dealt with.
+The grey at the head is Ash off my own thumb, turning the leaf toward the lamp while the officer read a figure over it; the colour of a corner swept too late, and it will not come out of the creases. The filings in the gutter are iron off the cloth the irons lie in; some comes away whenever the drawer is opened, and it has never once drawn the warmth out of the paper, which is the only mercy this drawer holds. The pale round ring at the foot is skin-grease where a branded wrist was laid while I read the figure back; it is not a figure and cannot be added, and I have not washed it out. The tallow thumb beside it is mine. The green bead is lead glaze from a girl come up from High Kiln with the sweetness still at her mouth, who leaned to see the form of entry and set her hand down instead of asking. The bare square in the lower margin is where I scraped a word away with the point of the clip-key and put none in its place; I have not written it back. The tide-line came from the Waiting Room, where the collected are kept overnight before banking. There is no Last Day at this counter, and nothing here is swept up and burnt and called dealt with.
 
 # At the foot, in a hand nobody will own
 
@@ -126,4 +126,4 @@ The grey at the head is Ash off my own thumb, turning the leaf toward the lamp w
 
 I asked the officer, a man come down from the College, and a woman who stood here about her wrist, and had three answers and no hand, as I have had before. I have left the line where it was written.
 
-The book goes back into the drawer and the irons into their cloth. Tomorrow a woman will come with a cup in her apron, or say there is, and a man who will not consent, and I shall hand out whichever iron the ordinance asks for and enter the figure in a clean hand, and ask the person whose wrist it was to write the mark in whatever hand they have. They can add the figure. They cannot add the other thing. That is why I keep a second column, and why I have never been asked to show it to the Hearthseat.
+The book goes back into the drawer and the irons into their cloth. Tomorrow a woman will come with a cup in her apron, or say there is, and a man who will not consent, and I shall hand out the iron the ordinance asks for and enter the figure, and ask the person whose wrist it was to write the mark in whatever hand they have. They can add the figure. They cannot add the other thing. That is why I keep a second column, and why nobody has asked to see it.
