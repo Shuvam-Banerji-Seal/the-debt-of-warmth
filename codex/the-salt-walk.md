@@ -1,0 +1,119 @@
+---
+title: The Salt Walk, Being the Standing Rules of the Dippers of Vhalen for the Taking, Walking, Trying and Naming of Apprentices at the Pans Outside Vhal, with the Table of Walkings, the Net-Song Pasted Inside the Cover, Two Corrections in a Council Clerk's Hand, and a Line at the Foot Nobody Will Own
+kind: A dipper's leaf of rules from the west pan, written in the leaning low hand with the ends of words let fall; the rules set in short sayings, the walkings and the faults in tables, the net-song pasted inside the cover, a tide-name written in salt in the margin and gone before noon, two corrections in the narrow upright Ledgerhand of a Council clerk, one line struck in charcoal by a pan-master who would not sign it, and a line at the foot in a hand nobody will own
+provenance: Gathered at the Salt Pans outside Vhal in Frost of Y.H. 812, the Thin Year of the Long Cold, and copied forward at the Opening of the Slates into Y.H. 813 by Halla Salt, a dipper of the west pan who has taken the young out barefoot at the Salt Walk for one and thirty years and keeps the pan's leading rope and its tide-name in her mouth; written on salt-paper leaves she keeps dry in a tin that once held salt and has never been washed, sewn with tarred net-twine and carried up the Salt Road with a glass consignment, where a clerk of the Council corrected it at Greybank. It survives with a white salt bloom at the head that has taken the last letters off a word and left the rest readable, a thumb of tar at the fold off the leading rope, the press of a wet net across the song, a peck-hole where a brine-gull took the leaf for a crust, a fish-hook nick, a ring of small ale at the foot left by a ship's master who would not drink with dippers, a grey Ash print along the outer fold that is not hers and that she has not swept, a tide-name written in salt in the margin which the sun took by noon and left a white place, two corrections in the Council's upright hand, one charcoal line struck and written again beneath, and a line at the foot nobody will own
+relates_to: [Vhal, Vhalen, the Quay, the Salt Pans, the Sallow Sea, the Sallow draw, the Council of Tides, dippers, Neri Sail, Kett of the Quay, tide-lore, the Salt Walk, tide-name, salt-paper, the tide-tally house, brine-gull, salt-thing, barrel of rain, the pulled benches, boat-share, come aboard, the Glaze Cliffs, Greybank, the Salt Road, Ledgerhand, Grathic, bit, mark, crown, the measure, embers, one in twelve, the deduction, the Warm Court, the Hearth, the Return, the Ash, tar, eel-sinew, tallow, small ale, the Thin Year, the Long Cold]
+---
+
+I keep the west pan and the leading rope. When the young are taken out at the Salt Walk I go first and they come barefoot behind me, and when one of them names a tide nobody has seen I write it in salt on the crust and the sun takes it before they are back at the shed. That is the whole of the teaching, set down so that a girl at the pans and a girl at the Quay hear the same rule. I write on salt-paper and keep the leaves dry, which is against the practice of the country and I know it. A contract left in the rain is no contract here and we call that a virtue. A rule left in the rain is no rule either, and I have met no man who sees the virtue in that.
+
+These rules were gathered before the Council had a name for the pans and are copied forward from the rope and not from a book. A rule that has never been walked is a rule nobody believes. These have been walked.
+
+# The rules as they stand at the west pan
+
+## Of the taking
+
+1. The pan takes a child, not a house. A house may bring him and a house may feed him, but from the day he first puts a foot on the crust he answers to the dipper who walks him. The Council takes the tide and leaves the child alone.
+2. A child is taken at twelve and walked at fourteen. A child taken later is walked at the next low tide after his fourteenth year, and the year between is not made up to him. The salt does not make up a tide that was missed.
+3. He is kept, not hired. He eats from the pan-house dish and sleeps under the pan-house roof, and what the pan gives back comes back as bread and a place by the fire, neither of which is entered. A dipper is paid by the pan-master in weather and never in ale. A man who offers ale is buying something; ask the price before you drink.
+4. His birth-name is said once at the taking and not used at the pan. What he is called at the pan is a tide-name, and it is kept in the mouth and not on the leaf. A name in the mouth cannot be entered, and what cannot be entered is the only thing in Vhal the Council has never managed to tax.
+5. The tide is said before the name, always. A name a man can change at a moot; a tide he cannot change at all. The day a child gives his name before his tide he is sent to the water's edge and asked again, and the water does not answer him either.
+
+> *In the narrow upright hand of a Council clerk, against rule 4:* The appellation is recorded. *Underneath, in mine:* I had written that the name is kept in the mouth. He strikes a mouth wherever he finds one. I have put the mouth back underneath, because a clerk who keeps a name on paper has never had to say it to the water at low tide.
+
+## Of the walk
+
+6. At fourteen the young go out barefoot on the crust at low tide, going out and not coming back until the water turns. Going back is the same walk and is called something else; nobody has ever told me what.
+7. Each names a tide nobody has seen. Write the name in salt on the crust and let the sun have it. What is written in salt belongs to noon; what is said belongs to the person who said it. Do not write it on salt-paper. A thing that rots is no protection for a name that was never a contract.
+8. Rake at the turn and rake at the fourth, and keep the rake going when there is nothing under it. A child who stops raking begins to ask what ought to come up, and a dipper who answers that question has begun to teach the wrong trade.
+9. Do not look at the Glaze Cliffs while walking. They are sweet and they are lead, and a child who puts a green bead in his mouth is not long for the pans. Tell him why once. A warning about a taste is believed before a warning about a poison, which is the only useful thing I know about children.
+10. The chief dipper keeps the names of the three great tides in his mouth and writes none of them. A child keeps the one he named himself until the sun takes it, and then keeps the place where it was.
+
+## Of the net and the draw
+
+11. Trail the net at dawn. The blessing is in the trailing and not in any word said over it. A net blessed at noon is a wet rope and nothing more, and the Council will pay the same for it, which is the difficulty.
+12. Read what comes up. Do not read what ought to have come up. The Sallow runs against the wind and does not ask the moon, and a dipper who has learned what the tide should do has learned to miss the tide that did.
+13. Bless the nets against the salt-thing, which follows boats at night and taps the hull where the store is. Carry a barrel of rain against it; fresh water stops it as a wall stops a man. Every captain denies the barrel and every captain carries one.
+14. A brine-gull will lift a coal from the brazier and go off with it under its crop. No malice in it. Do not set a dipper to watch the coals in place of the net; the gull is honest and the net has a master.
+15. We say the Sallow keeps a Hearth of its own beneath the salt and the Court's fire is only its chimney. No one has taken me down to see the door of it, and I have stopped asking which way it opens. A dipper who claims to have seen it is selling something, generally a passage.
+
+## Of the tally and the paper
+
+16. Keep the tide-tallies on salt-paper and keep the paper dry. What Kett reads at the tide-tally house is the tide that was entered, and what the pan saw is another matter. Both are true; only one can be carried into a room with a Council table in it.
+17. Write the draw and leave out what it meant. The Council pays for the first and has never asked for the second. A clerk who asks what a dipper meant has mistaken the tide for an account; there is no profit in answering him with another figure.
+18. The assessors come against the pans with one in twelve as regular as gulls. Pay it out of the entered tide and never out of the seen one. This is not dishonesty; it is the arrangement by which a poor pan stays a pan and not an unclosed account.
+19. A contract on salt-paper in wet weather is no contract, and half the port's fortunes have turned on that. We do not say kindly to a pan-master, and a dipper who offers a favour without a price should be told that in Vhal a favour is a debt with no date, and a debt with no date keeps a man awake.
+
+# The table of walkings
+
+*Kept by the girl who rakes the west pan. What is written is the tide that was seen and the day it was seen, in a hand that will not change between one line and the next.*
+
+| Year | The walking | What is taken |
+|---|---|---|
+| Twelve | The pan: rake, carry, mend net-rope with the old women | The birth-name, said once and not used again at the pan |
+| Thirteen | The dawn net; hold the leading rope and say nothing | The habit of asking what ought to come up |
+| Fourteen | The Salt Walk, barefoot on the crust at the turn | The tide-name, written in salt and gone by noon |
+| Fifteen | The tally house; read the draw against the contract | The difference between the tide seen and the tide entered |
+| Sixteen | Trail the net alone and bless it against the salt-thing | The last of the child's account with any house |
+
+20. Sixteen is the common end of a walking and not a short one. A girl who has been walked is not paid out and sent away; she stays where the pan needs her, which may be at the west pan or at the Quay or on a boat whose share goes through her mother. The dipper does not choose which. The tide does, and the Council after it.
+
+# The table of faults
+
+| Fault | As corrected at the pan |
+|---|---|
+| A tide-name written on salt-paper | The paper left out in the rain; the name said again to the water |
+| A tide named that has already been seen | Sent out again at the next low tide, barefoot, going out |
+| *What ought to come up* spoken at the net | The net taken in; that day's draw entered as nothing |
+| A net set in the afternoon | The leading rope coiled and the child set to counting gulls for a tend |
+| *Kindly* said to a pan-master | Two bits owed, named on the spot, with a date |
+| The Hearth beneath the salt asked about | Answered once: it is under the salt and the Court's fire is its chimney. Asked twice: a barrel of rain carried three paces and set down |
+| A tide sold to the Council and the other kept | Not entered. There is no law against it, which is why the pan does not speak of it |
+
+21. It is the only answer the pan has for a question the Council has never thought to ask, and a child who brings it up a second time is set to raking at the fourth where there is nothing under the rake.
+
+# The net-song, pasted inside the cover
+
+*Sung at dawn, kneeling, with the leading rope in the hand and not yet in the water. The pan says the last line with the dipper. Nobody sings it at the Council table, and nobody sings it on the ebb.*
+
+> Rope in the hand and the salt on the knee,
+> the tide comes in where the wind isn't;
+> trail it low, trail it slow,
+> and read what rises, not what should.
+>
+> A coal goes up and a gull goes off,
+> a white bloom comes on the tarred board;
+> the pan keeps clean by what it takes,
+> and the clerk keeps what he can read.
+>
+> Write it in salt, write it in sun,
+> and the name's gone before the net comes in;
+> carry the rain in a barrel by,
+> and speak to the water, not the men.
+>
+> Rope in the hand and the salt on the knee,
+> one tide for the tally, one for the sea;
+> the one they pay for isn't the one I saw ---
+> and the one I saw is kept in me.
+
+The press of the wet net across the second verse came from the song being sung in the rain at the outer pan, the rope laid on the leaf while a girl said the middle line. I have flattened it; the words hold.
+
+# What the borrowed hands did
+
+A clerk of the Council borrowed the leaf at Greybank, ink settled in two fingers of a soft cuff, and struck the verbs out of it as though a verb were a thing a man could smuggle past a table.
+
+- Against rule 12 he set *the draw was read* above my *read what comes up*, which is a sentence true of every draw and therefore of none. I have put my words back underneath.
+- Against rule 4 he wrote *the appellation is registered* and a round nought in the space where the tide-name had been. A nought is a figure. The tide was not a figure and has not come back to be entered.
+
+A pan-master struck the line *speak to the water, not the men* in charcoal and wrote above it *and to the pan, which answers*. I have set his line above mine and struck it, and written mine under again, which is how a pan argues with a floor it cannot leave. The charcoal has come off on the fold.
+
+# At the head and in the gutter
+
+The salt bloom at the head came up in a wet week and has eaten the end of a word, which I have not written back; a word about a current that the weather has taken is truer than one a clerk can still read. The tar at the fold is mine, off the rope I coil every dusk. The peck-hole went through the first verse and nobody has claimed the bird. The fish-hook nick is from a basket set down over a disputed count of herrings. The ring of ale came off a ship's master who would not drink until a question about the draw was answered; he has not been back. The grey along the outer fold is not mine and not the Council's, and I have not swept it. At the pans there is no Last Day and nothing gets burnt in the morning. The white place in the margin is where the tide-name was written. It was a good name and I will not write it in again, which is the same as saying it every morning.
+
+# At the foot, in a hand nobody will own
+
+> The salt keeps the name till noon. The rope keeps what the net brings up.
+> What was named and never came is kept in the mouth, and in no other place.
+
+I asked a pan-master, a clerk of the Council and a woman who sells eels on the Quay, and got three answers and not one of them would put a name to his answer. I have left the lines where they were written. The leaves go back into the tin and the tin back on the shelf where it has never been washed; tomorrow the young go out barefoot at the turn, and I shall write what the water did and leave out what it meant, and be paid for the one and not asked for the other.
