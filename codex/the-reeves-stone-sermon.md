@@ -9,14 +9,14 @@ I keep the boardwalk at the Standing Post and set the peat-blocks in the niche w
 
 She stood with her back to the post and spoke first to the peat, then to the board under it, then to the water in the prints of her feet, and last of all to us, which is the order the marsh uses when a man is standing and somebody may be listening who wants a figure. I have set her words down in Grathic, which is not the speech she used; the marsh bites the ends off its words. Where she left a verb out I have left it out and put it back underneath, because a saying said over a block is a thing a man has to stand on.
 
-The brown at the head is peat and came off her palm when she brushed the sedge from the stone. The tideline in the gutter is marsh-water that stood on the leaf through a night; the writing there is thin and I have not gone over it, for a word written thin is a word said quietly, and most of ours are. The grey came off a cuff and nobody will own it; I have not swept it.
+The brown at the head is peat from her palm when she brushed the sedge from the stone. The tideline is marsh-water that stood on the leaf through a night; the writing there is thin and I have not gone over it, for a word written thin is a word said quietly, and most of ours are. The grey came off a cuff and nobody will own it; I have not swept it.
 
 # The manner of the standing, as the stone has it
 
 *Written small, from watching, not from any order the Court has printed.*
 
 - Come at first grey, when the water in the prints is still and unstirred by anybody's shadow. A man who comes at noon stands in water another man has stood in and calls it the same stand. It is not.
-- Stand where the post points, with the face to the east. The reeve faces the direction the bog came from, not the direction the road goes. We have had two men face the road and neither came back to the choosing.
+- Stand where the post points, facing the bog, not the road. The reeve faces the direction the bog came from. We have had two men face the road and neither came back to the choosing.
 - Do not say how long you have stood. A stand said aloud becomes an argument, and there is argument enough at the Post over the winter peat without bringing a man's feet into it.
 - Set a peat-block in the niche for every stand that ends with a man walking back, and none for a stand that ends otherwise. The block is not a man; it is the shape of where he stood, which is the only thing this shrine pretends to keep.
 - When a factor's clerk comes with a slate, stop, and begin again after. His figure is for another room, and there are ten leagues of dry road between it and this water. Do not lay the two together.
@@ -52,7 +52,7 @@ She took a peat-block from the niche and held it in both hands, as a woman holds
 
 ## Of them that do not come back
 
-There was a stand in Tallow that ended with four men going into the east cut and three coming up, and the old woman set no block for the fourth. She said the name once to the stone and again to the water and would not say it to us.
+There was a stand in Silt that ended with four men going into the east cut and three coming up, and the old woman set no block for the fourth. She said the name once to the stone and again to the water and would not say it to us.
 
 “Said looking at a person, a name becomes a bargain,” she said. “Said to the ground it stays where the man is. I am not saying the Return is a lie. I am saying I have stood at the choosing since before some of you had feet and never seen a block laid for a man who did not come walking up out of the cut. The Court can read him whole in a room I have never stood in. This niche cannot, and I will not teach it a lie to make the row look better.”
 
@@ -89,7 +89,7 @@ A factor's clerk come out from Greybank stood at the end of the row with a slate
 > say what it gave and not what it cost,
 > and leave the place where the standing was.
 
-A child from the upper board asked what the space before the last four lines was for. Nobody answered her. The clerk put a round nought against it later, which I have left where he set it.
+A child from the upper board asked what the space was for. Nobody answered her. The clerk put a round nought against it later, which I have left where he set it.
 
 # The row, as the niche keeps it
 
@@ -99,7 +99,7 @@ A child from the upper board asked what the space before the last four lines was
 |---|---|---|---|
 | Reed 4 | a man of Reedholt | stood to the knee, walked up, gave his name to the stone | nothing |
 | Reed 11 | a woman of the east marsh | stood to the thigh, came up thin; north bought her cheap | one thin return, entered at Greybank |
-| Tallow 9 | four men of the black cut | three walked up; the fourth's name said twice to the ground | nothing; no block set |
+| Silt 9 | four men of the black cut | three walked up; the fourth's name said twice to the ground | nothing; no block set |
 | Reed 20, this morning | the new reeve | stood to the belt; the post did not move | nothing; the block laid in the niche |
 
 There were stands before these that the old woman could set a season to, and I have not written them, because a row of seasons is a thing a clerk can carry away and a print in the peat is not. The niche has never agreed with the factor's book and has never been asked to.
