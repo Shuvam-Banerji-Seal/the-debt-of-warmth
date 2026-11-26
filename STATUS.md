@@ -2,7 +2,7 @@
 
 - Chapters complete: **37**
 - Words of story: **598,959**
-- Current chapter: 37 (step: publish, scene 8)
+- Current chapter: 38 (step: plan, scene 1)
 - Last chapter: The First Opening (Days 150–152 · Tallow 1–3, Y.H. 813)
 - Author calls so far: 432 (tokens in 71,711,307, out 9,338,228)
 - Updated: 2026-11-26 09:46
