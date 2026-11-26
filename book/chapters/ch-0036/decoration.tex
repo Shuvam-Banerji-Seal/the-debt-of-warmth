@@ -1,0 +1,57 @@
+\begin{tikzpicture}
+  % the chapter's heart: the last market sets every withholding in one square
+  % and reads a figure that does not know the hand that did not come back.
+  % Nine stand, each in its own place, and the tenth place is left empty. The
+  % square's lower corner is not drawn --- the month went out without a boundary
+  % --- and the count runs out through that gap into Smoke, unspent. A breath
+  % rises from the ninth and stops at a bar: the word come to the teeth and gone
+  % back, an interval and not a payment, with no payer named to any of the nine.
+
+  \fill[gold, opacity=0.028] (-1.62,-1.30) rectangle (1.62,1.22);
+
+  % the square of the last market, its lower-right corner left undrawn
+  \draw[faded!84!ink, line width=0.92pt, opacity=0.60]
+    (-1.28,-1.02) -- (-1.28,1.02) -- (1.28,1.02) -- (1.28,-0.50);
+  \draw[faded!84!ink, line width=0.92pt, opacity=0.60]
+    (0.76,-1.02) -- (-1.28,-1.02);
+  \draw[faded!60!ink, line width=0.46pt, opacity=0.22]
+    (-1.18,-0.92) -- (-1.18,0.92) -- (1.18,0.92);
+
+  % nine withholdings standing together, each in its own place, each still
+  \foreach \tx in {-1.00,-0.775,-0.55,-0.325,-0.10,0.125,0.35,0.575}{
+    \draw[faded!82!ink, line width=0.80pt, opacity=0.54] (\tx,-0.74) -- (\tx,-0.38);
+    \draw[faded!76!ink, line width=0.62pt, opacity=0.46] (\tx-0.058,-0.38) -- (\tx+0.058,-0.38);
+  }
+  % the ninth: a doubled cap, and the breath that comes to the teeth and stops
+  \draw[faded!82!ink, line width=0.80pt, opacity=0.56] (0.80,-0.74) -- (0.80,-0.38);
+  \draw[faded!76!ink, line width=0.62pt, opacity=0.46] (0.742,-0.38) -- (0.858,-0.38);
+  \draw[rubric!74!ink, line width=0.96pt, opacity=0.72] (0.728,-0.315) -- (0.872,-0.315);
+  \draw[faded, line width=0.50pt, dotted, opacity=0.30]
+    (0.80,-0.29) .. controls (0.96,0.04) and (0.66,0.24) .. (0.80,0.43);
+  \draw[rubric!62!faded, line width=0.82pt, opacity=0.58] (0.71,0.43) -- (0.89,0.43);
+
+  % the tenth place: empty, and what the square cannot count it calls weather
+  \draw[faded, line width=0.45pt, dotted, opacity=0.18]
+    (1.03,-0.70) ellipse (0.09 and 0.045);
+  \draw[faded!50!ink, line width=0.40pt, opacity=0.16]
+    plot[domain=0:1, samples=20] ({1.03+0.06*sin(180*\x)}, {-0.63+0.40*\x});
+
+  % the figure read aloud above the square: it does not know the missing hand
+  \fill[faded!10!vellum, opacity=0.55] (-0.62,1.16) rectangle (0.58,1.50);
+  \draw[faded!76!ink, line width=0.72pt, opacity=0.46] (-0.62,1.16) rectangle (0.58,1.50);
+  \draw[rubric!70!ink, line width=1.02pt, opacity=0.64] (-0.42,1.33) -- (0.18,1.33);
+  \draw[rubric!64!ink, line width=0.86pt, opacity=0.58] (0.18,1.33) -- (0.18,1.22);
+  \draw[faded, line width=0.45pt, dotted, opacity=0.22]
+    (-0.02,1.16) .. controls (-0.20,0.58) and (0.18,0.16) .. (-0.02,-0.26);
+
+  % the count runs out through the undrawn corner into Smoke, unspent
+  \draw[faded, line width=0.50pt, dotted, opacity=0.30]
+    (1.28,-0.50) .. controls (1.78,-0.58) and (2.24,-0.92) .. (3.34,-0.98);
+  \draw[rubric!42!faded, line width=0.70pt, opacity=0.38] (2.62,-0.90) -- (2.62,-0.70);
+
+  \node at (-4.86,0.02) {\pgfornament[width=1.05cm,color=ornament]{77}};
+  \node at ( 4.86,0.02) {\pgfornament[width=1.05cm,color=ornament,symmetry=v]{77}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.52)
+    {nine in the square, and none read};
+\end{tikzpicture}
