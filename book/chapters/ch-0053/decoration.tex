@@ -1,0 +1,64 @@
+\begin{tikzpicture}
+  % The chapter's heart: the month goes out as a fire goes out, by degrees,
+  % with nobody calling the hour. The turning of the year is a ring broken
+  % at the top --- a boundary not cut, a crack left showing --- and the coal
+  % at its centre wastes through the gap. Three counts sit at three places
+  % on the ring and are never brought together, for agreeing them would want
+  % a payer and none stands to any.
+
+  % a quiet rule on either hand, with a small fleuron at each far end
+  \node at (-4.62,0.10) {\pgfornament[width=1.05cm,color=ornament,opacity=0.50]{11}};
+  \node at ( 4.62,0.10) {\pgfornament[width=1.05cm,color=ornament,symmetry=v,opacity=0.50]{11}};
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.28]
+    (-4.05,0.10) -- (-1.58,0.10);
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.28]
+    ( 1.58,0.10) -- ( 4.05,0.10);
+
+  % the ring of the turning, cut short at the top: no mark set in the gap
+  \draw[faded!84!ink, line width=1.02pt, opacity=0.66, line cap=round]
+    (97:1.06) arc (97:443:1.06);
+  \draw[faded!52!ink, line width=0.42pt, opacity=0.30, line cap=round]
+    (99:0.98) arc (99:441:0.98);
+
+  % the two ends left honest and apart; Ember and Grain, neither put right
+  \fill[faded!70!ink, opacity=0.44] (97:1.06) circle (0.019);
+  \fill[faded!70!ink, opacity=0.44] (83:1.06) circle (0.019);
+
+  % the coal at the centre, going out under a thin ash
+  \fill[ash, opacity=0.30]
+    (0.00,-0.06)
+    .. controls (0.22,-0.10) and (0.30,0.06) .. (0.14,0.14)
+    .. controls (-0.04,0.20) and (-0.24,0.10) .. (-0.18,-0.06)
+    .. controls (-0.12,-0.16) and (0.06,-0.14) .. cycle;
+  \fill[rubric!55!ash, opacity=0.18]
+    (0.02,-0.02)
+    .. controls (0.14,-0.04) and (0.18,0.06) .. (0.06,0.09)
+    .. controls (-0.06,0.11) and (-0.12,0.02) .. cycle;
+
+  % its spent heat slips through the unmarked gap and thins away
+  \draw[faded!58!ink, line width=0.52pt, opacity=0.34, line cap=round]
+    (0.04,0.16) .. controls (-0.06,0.46) and (0.08,0.70) .. (-0.02,0.98)
+    .. controls (-0.10,1.22) and (0.04,1.40) .. (0.00,1.54);
+  \draw[faded!48!ink, line width=0.36pt, opacity=0.20, line cap=round]
+    (0.16,0.20) .. controls (0.26,0.48) and (0.14,0.74) .. (0.22,1.04);
+
+  % three counts in three places, set at uneven radii and never made one:
+  % a pair of nails, a single stopping, and a thumb-width knot
+  \begin{scope}[rotate=150]
+    \draw[faded!72!ink, line width=0.70pt, opacity=0.50, line cap=round]
+      (1.18,-0.08) -- (1.18,0.08);
+    \draw[faded!72!ink, line width=0.70pt, opacity=0.50, line cap=round]
+      (1.30,-0.08) -- (1.30,0.08);
+  \end{scope}
+  \begin{scope}[rotate=248]
+    \draw[faded!72!ink, line width=0.70pt, opacity=0.50, line cap=round]
+      (1.24,-0.10) -- (1.24,0.10);
+  \end{scope}
+  \begin{scope}[rotate=22]
+    \draw[faded!70!ink, line width=0.60pt, opacity=0.46]
+      (1.24,0) circle (0.045);
+  \end{scope}
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.46)
+    {with nobody calling the hour};
+\end{tikzpicture}
