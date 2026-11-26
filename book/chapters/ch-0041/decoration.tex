@@ -1,0 +1,65 @@
+\begin{tikzpicture}
+  % The chapter's heart: three keepings held apart, and the account they
+  % refuse to become. A rule is an account that has found a payer; here
+  % no payer stands, so the line that would gather the three into one sum
+  % breaks at each place and never closes. Six are counted in the margin;
+  % the seventh is a stub stopped at the lip. What is kept in three places
+  % does not add up to an account.
+
+  % the heat kept low under the roof, a thin band beneath the three places
+  \fill[gold, opacity=0.022]
+    (-4.35,-0.92) .. controls (-1.6,-1.14) and (1.6,-1.14) .. (4.35,-0.92)
+    .. controls (1.6,-0.72) and (-1.6,-0.72) .. (-4.35,-0.92) -- cycle;
+
+  % six counted in the worn margin; a seventh begins and stops at the lip
+  \foreach \tx in {-1.34,-1.07,-0.80,-0.53,-0.26,0.01}{
+    \draw[faded!78!ink, line width=0.72pt, opacity=0.48, line cap=round]
+      (\tx,1.02) -- (\tx,0.72);
+  }
+  \draw[faded, line width=0.42pt, dotted, opacity=0.30, line cap=round]
+    (0.28,1.02) -- (0.28,0.86);
+  \fill[faded, opacity=0.34] (0.28,0.70) circle (0.020);
+
+  % the three places, each a small closed keeping, set apart and unjoined
+  \foreach \cx in {-2.70,0.00,2.70}{
+    \draw[faded!66!ink, line width=0.50pt, opacity=0.42]
+      (\cx,0.00) circle (0.50);
+  }
+
+  % left: the stroke that stopped, a short bar ending in a rubric halt
+  \draw[faded!86!ink, line width=0.85pt, opacity=0.58, line cap=round]
+    (-2.98,0.06) -- (-2.58,0.06);
+  \fill[rubric!58!faded, opacity=0.68] (-2.54,0.06) circle (0.050);
+  \draw[faded, line width=0.40pt, dotted, opacity=0.24]
+    (-2.46,0.06) -- (-2.28,0.06);
+
+  % middle: the held fraction, a small tick standing on a cold bar
+  \draw[faded!82!ink, line width=0.75pt, opacity=0.52, line cap=round]
+    (-0.26,-0.10) -- (0.26,-0.10);
+  \draw[faded!86!ink, line width=0.85pt, opacity=0.60, line cap=round]
+    (0.00,-0.10) -- (0.00,0.16);
+  \fill[rubric!56!faded, opacity=0.64] (0.00,0.18) circle (0.042);
+
+  % right: the fire's fifth, four pulls and the gap where the fifth would be
+  \foreach \ang in {20,95,170,245}{
+    \draw[faded!82!ink, line width=0.78pt, opacity=0.52, line cap=round]
+      (\ang:0.14) -- (\ang:0.34);
+  }
+  \draw[faded, line width=0.40pt, dotted, opacity=0.26]
+    (320:0.16) -- (320:0.32);
+
+  % the line that would gather the three into one account breaks at each
+  % and never closes: three short arcs, no figure and no total beneath
+  \draw[faded, line width=0.46pt, dotted, opacity=0.30]
+    (-3.62,-0.66) .. controls (-3.10,-0.86) and (-2.30,-0.86) .. (-1.78,-0.66);
+  \draw[faded, line width=0.46pt, dotted, opacity=0.30]
+    (-0.92,-0.66) .. controls (-0.40,-0.86) and (0.40,-0.86) .. (0.92,-0.66);
+  \draw[faded, line width=0.46pt, dotted, opacity=0.30]
+    (1.78,-0.66) .. controls (2.30,-0.86) and (3.10,-0.86) .. (3.62,-0.66);
+
+  \node at (-4.62,-0.02) {\pgfornament[width=1.0cm,color=ornament]{2}};
+  \node at ( 4.62,-0.02) {\pgfornament[width=1.0cm,color=ornament,symmetry=v]{2}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.32)
+    {three places kept, and no account};
+\end{tikzpicture}

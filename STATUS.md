@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **40**
-- Words of story: **648,426**
-- Current chapter: 41 (step: plan, scene 1)
-- Last chapter: The Road Knows the Weight (Days 163–169 · Tallow 14–20, Y.H. 813)
-- Author calls so far: 465 (tokens in 77,527,967, out 10,154,239)
-- Updated: 2026-11-26 11:38
+- Chapters complete: **41**
+- Words of story: **662,624**
+- Current chapter: 41 (step: publish, scene 7)
+- Last chapter: Where the Stroke Stopped (Days 170–172 · Tallow 21–23, Y.H. 813)
+- Author calls so far: 475 (tokens in 79,303,638, out 10,369,213)
+- Updated: 2026-11-26 12:24
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
