@@ -1,0 +1,97 @@
+---
+title: Six and the Seventh, Being the Rope-Skipping Game of the Weir Children, with the Counting-Out, the Manner of the Turns, and What an Assessor's Clerk Made of It
+kind: A net-mender's gathering of a children's skipping game, set down in Grathic on the back of a dried fish-bill; the counting-out and the turning verse in the children's own half-sung speech, the manner of the play in the mender's small hand, one correction in the narrow upright Ledgerhand of an assessor's clerk come up from Greybank, a gloss pressed in charcoal by the woman who keeps the blessing stone, and a line at the foot in a hand that has never come forward
+provenance: Written in Reed of Y.H. 813 at the plank walk above the Weir, one league upriver of Sill, by a woman who mends the eel-nets there, on the back of a fish-bill gone stiff with silt and sun; carried downriver in the creel of a girl come to Sill and copied at Greybank in Tallow of the same year onto the back of a weighing-warrant voided by the flood. Kept folded in the net-mender's tin among the net-needles and the spent lengths of line. It survives with silt ground into the fold and worked into the fibre at the head, a ring where a dish of water stood from first grey to the going of the light, a press of wet reed across the second leaf, one fish-scale shut in the gutter, a grey Ash print nobody will own, the clerk's correction standing above the children's words, a gloss in charcoal beside the seventh, and a line at the foot in a hand that has not come forward
+relates_to: [the Weir, Sill, the Fishstairs, the Ilm, the plank walk, the blessing stone, Greybank, the Cross, the bell at the Cross, the Clay Road, net-line, eel nets, eels, silt, wet reed, the Ash, Ledgerhand, Grathic, one in twelve, the deduction, the slate, the collector, cold iron, thin return, clay-bound, bit, mark, the Last Day, the Five]
+---
+
+I mend the eel-nets at the Weir, and I set this down because a man with a slate came up the plank walk in the dry week and asked what the children counted when they turned the line. I told him six and a seventh held, which is a count and not a figure, and he went away and sent me a clerk, which is what happens to a count in this country. What follows is what the children said before the clerk came and what they said again after he had gone back down the road with the verbs taken out of it. I have put their words underneath where they stand and left his above where he set them, as the boards keep the wet mark under the dry one.
+
+The silt at the head is my own thumb; I set the bill down on the rail before I had done with the nets. The grey came off a cuff that had no business lying on a plank walk and I have not swept it. There is no Last Day on a board above the river, and nothing here gets burnt in the morning.
+
+# The line and the boards, as the children keep them
+
+*Played on the dry boards of the plank walk above the water in Reed and Tallow, when the reeds lie spread to dry and the boards will take a foot. Not in the Five, when the children are made to stand and listen; not in rain, because a wet line will not turn over and a wet board puts a child into the Ilm. In Sill they say a child of eight can tell you which board has taken a nail and which has a knot the width of a thumb, and will not tell you which of the two will hold.*
+
+The line is a length of net-line gone stiff with silt, knotted at both ends so the hands have somewhere to stay. It came off a net that had done its work and no net-mender will own it now it has been a skipping rope, which is the way of tools in this town. Two children take the ends and are **the ends**; one stands between them and is **the float**, because she goes up and down and the other two only go round. They are called the ends and never the hands, for hands are what a house is counted by and the children will not have it.
+
+The ends turn the line over the float's head, one turn to one line of the verse, and the float jumps each turn. The verse is said to the boards and not to the jumper. Said to a child it becomes an argument, and there is always a child who will argue.
+
+# The counting-out, said over the knots
+
+*Right fists held out, knuckles up. The child who says it touches each fist in turn and does not look at the faces. The fist it lights on at the last word is the first float, which is not a prize: the float is the one who has to be fair and the ends are the ones who get to turn. The children accept this as a punishment and the net-menders accept it as practice.*
+
+> Needle and net and hook and hair,
+> a wet line and a dry place;
+> draw it up and let it down ---
+> the one it lights on keeps the round.
+
+*Kept the round means turned first, in the children's speech, though an end will tell you it means kept the rope, and the two sayings have stood side by side on this board for as long as I have been mending here.*
+
+# The turning verse, as it is jumped
+
+*One line, one turn, one jump. The line must pass right over the head and come down clear of the shoe; a line that catches the heel sends the float to the water, which is the edge of the boards where the wet ones sit with their hands folded. Seven is not a turn. At the seventh the ends stop the line high overhead and hold it there, and the float must stand still under it with both feet on the board and her hands by her sides. She does not jump the seventh. A float who jumps it has gone into the water and sits at the edge until the line is lowered to her shoe and three voices say together, **The line calls**, at which she steps back in. Nobody counts how often this happens. There is no winning in this game and no last jump; when the seventh has been held, the ends lay the line on the boards and that is the end of it.*
+
+> One for the post and one for the pin,
+> one for the line that dried in the wind;
+> one for the board where the wet nets lay,
+> one for the eel that got away;
+> one for the silt on the outer shoe,
+> one for the hand that holds it true.
+>
+> Six turns. The seventh stands.
+> Stand with it, float. The line has your hand.
+
+*The last two lines are said together by all three, with the line held high. The children will not be told why the seventh stands. Ask them and they say the line holds it; ask what the line holds and they ask you why a man wants to know what a line holds.*
+
+# What is said at the seventh, while the line is up
+
+> Seven is not a turn. It is a place to stand.
+> Feet on the board and hands by the side;
+> the line waits, and the boards wait,
+> and the water is waiting below.
+> Jump it and you go where the wet ones go.
+
+# The verse they do not say while a man with a slate is on the boards
+
+I have this from the girl who kept the round, with the space left before it, which is the space the ends leave in the turning. She said it to the boards with her back turned and made me set it down with none of my verbs in it. A verse said to a board wants nothing added, and a verse said to a man wants everything taken away.
+
+> Six for the basket and six for the bit,
+> six for the child that the house won't quit;
+> the seventh's a year and not a day of the tend ---
+> it goes up the clay road and comes back thin.
+>
+> The ends go round and the float comes back,
+> and what was held is counted as lack;
+> six on the board and one in the coat,
+> and the place where the seventh stood is standing still.
+
+I asked her what the year was. She said her brother had one of them and had gone up the clay road with it in the spring, and that she had never once seen him come back and had never once seen him not come back, which is a child's way of keeping two things apart without putting a word between them. I have not put a word between them either.
+
+# What the clerk did
+
+An assessor's clerk come up from Greybank to measure the winter fish-bills borrowed the leaf on the morning after, with his cuff soft at the edge from washing and the ink sitting in two fingers of it and will not come out. He set the ends down as *holders* and the float as *the vessel*. Against *six turns are counted* he wrote *six operations entered*. At the seventh he struck the children's words through and set above them, *seventh operation not entered; vacancy*. At the edge of the boards he wrote, *the party who goes into the water is a deduction and is entered as nil*. At the foot, where the line is laid down and nothing is said, he put a round nought and wrote *no result*.
+
+I have set their words back under his and let his stand above. He writes of a thing that is always true and so has no need of a hand in it. I write for a child up to her ankle in the wet of the boards who wants to know which foot to lift and whether she brings it back. He has put a figure where a child was standing, which is the whole art of that hand: a nought can be carried up the road in a cuff, and a child kept waiting under a held line cannot.
+
+He asked what the children learned by it. I told him the count and the holding and the calling back. He said that was an account of the thin return taught before the child could read a slate, and he entered it. The children stop when a man in a soft cuff comes onto the boards. They take it up again when he is past the bend in the road, and they never once jump the seventh.
+
+# The gloss at the seventh, in charcoal
+
+The woman who keeps the blessing stone pressed a line into the margin beside *six turns*. She has kept that stone longer than I have kept nets and does not write often, and when she does she writes small, the way you would write in a room where somebody was sleeping.
+
+> Not six. Seven, and the seventh is counted and kept out of the count. There's a difference, and the Court won't learn it.
+
+I have left it where her thumb put it. She said a thing kept out of a count is not the same as a thing that is not in it, and that the difference was the whole of her life and most of her husband's, and she would not say which part was hers. A hand on a line that lifts and a hand on a line that holds it overhead are two hands in the children's game, though the ends change over at every round and nobody calls it by a name.
+
+# At the head and in the gutter
+
+The silt at the head came off my thumb and is worked into the grain, which is why the board takes a mark and the bill does not wash. The ring on the second leaf is a dish of water that stood from first grey to the going of the light and was drunk by nobody; three children have claimed it and one woman has denied it and I have given it to none of them. The press of wet reed across the fold came off the spread on the boards the day the clerk came and sat down on it, which is why the verse under his hand is the harder one to read. The fish-scale in the gutter is not mine and I have left it where it fell. The grey print nobody will own came off the cuff that had no business lying there, and I have not swept it and have no wish to. The tin goes back under the net-needles with the line coiled on top of it, where a line that has been a skipping rope is allowed to lie.
+
+# At the foot, in a hand that has not come forward
+
+> The seventh is the one the water keeps. Nobody calls for it at the Weir.
+
+I asked the two ends and the float and the woman at the stone, and the ends laughed, and the float said it was the line, and the woman said she had always known it and had never once said it. I have left the line where it was written.
+
+The bill goes back into the tin and the line back on the boards. Tomorrow the reeds will lie where they lie, the clerk will come up the plank walk and take the verbs out, and I shall put them back, and the children will turn six and hold the seventh where it has always stood, with both feet on the board and their hands by their sides.

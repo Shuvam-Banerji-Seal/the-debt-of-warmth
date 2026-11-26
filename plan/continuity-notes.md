@@ -58,7 +58,34 @@
 
 ## Minor watch items (not contradictions yet)
 
-- `characters/fenna-clay.md` gives `first_appearance: 40` while her unnamed silhouettes are in Ch 5, Ch 10 and Silt 30 (Ch 18), and Ch 20's thread ledger again files green at a mouth in silence. Keep the silhouettes silent and unnamed until Ch 40; the timeline's Day 89 "woman with green at one corner of her mouth" is canon and is Fenna's thread, not one of the sweet-mouthed High Kiln women in `characters/_minor.md`.
+- ~~`characters/fenna-clay.md` gives `first_appearance: 40` while her unnamed silhouettes are in Ch 5, Ch 10 and Silt 30 (Ch 18).~~ **Resolved in the Chapter 40 audit:** Ch 40 passed with her offstage and unnamed, so `first_appearance` now marks the Ch 5 silhouette and the speaking debut is deferred; see item 15 below. The timeline's Day 89 "woman with green at one corner of her mouth" is canon and is Fenna's thread, not one of the sweet-mouthed High Kiln women in `characters/_minor.md`.
 - ~~`plan/next.md` says T097 is planned for Ch 21, not yet planted.~~ **Resolved:** T097 was planted in Ch 21 and advanced in Ch 22–30; see the tally contradiction (item 11) for the correct count.
 - No seventh hearing, no sixth sighting of the neat dark hand, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin or box opened, no silt-leach named, no collector for Dessa, no Marra in Sill and no ending occurred in Chapters 11–30; preserve all of these through Ch 35.
 - Every day from Day 1 to Day 131 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 132 onward.
+
+---
+
+## Chapter 40 audit
+
+*Sources: the Chronicles and Continuity sections of `book/chapters/ch-0031`–`ch-0040/summary.md`, the sheets of every character on stage in those chapters (`sella-vail`, `tarn`, `jorra-vail`, `berr-clay`, `mira-silt`, `orra-weir`, `alda-reed`, `hessa-rale`, `fenna-clay`, `ulda`, `dessa-silt`), `characters/_minor.md`, `memory/state.md`, `memory/timeline.md`, `memory/places.md`, `plan/threads.md`, `plan/next.md` and `bible/calendar.md`. The state snapshot at Day 169, the one-per-day timeline through Day 169, the place gazetteer and the character chapter logs were sound; no scene file was touched.*
+
+### Drifts fixed in the Chapter 40 pass
+
+1. **`memory/story-so-far.md`** — was still the Chapter 30 consolidation (Day 131, 100 IDs). Rewritten through Chapter 40 and organised by arc: B1–B10 compressed heavily, B11 (Ch 31–36) and B12 (Ch 37–40) given fuller detail, with the nine stoppings, the calendar reconciliation, Sella's first opening, the gone pan, Hessa Rale, the Day 161 fraction, the Day 166 held beat, the sixth green and sixth half-turn, and the Day 169 snapshot carried forward. 6,998 words, inside the 7,000-word cap. Older far-off and Earth lore is now compressed into a pointer bullet because it lives unchanged in `bible/premise.md`, the digests and the character sheets; no fact was deleted from the repository.
+2. **`memory/digests/ch-0031-0040.md`** — created: a 1,993-word digest of Chapters 31–40 with chapter numbers, events, the absence of deaths and payoffs, the eighth-to-ninth stoppings, the two held fractions, Hessa's arrival, and the unchanged power and relationship state.
+3. **`plan/threads.md`** — the prose tallies were short by one open thread (and, from Chapter 30, by one planted thread). Corrected 23 closing notes to the table's canon: 61/35/1 through Ch 25, 62/35/1 at Ch 26, 63/35/1 at Ch 27–29 and 64/35/1 from Ch 30 onward. Table statuses were not touched; T087 remains the only paid thread. Item 11 above is therefore resolved.
+4. **`characters/fenna-clay.md`** — the sheet claimed a Ch 40 speaking debut and `first_appearance: 40`, which the written chapters do not support. Corrected `first_appearance` to the unnamed Ch 5 silhouette, replaced the false "Arc So Far" entry, and added a Ch 31–40 Chapter Log line tracing the fourth, fifth and sixth greens. The named speaking debut is deferred, not written.
+
+### Contradictions not fixed, with a plan to reconcile in the story
+
+15. **Fenna's speaking debut.** Every plan through Ch 30 assigned her named speaking appearance to Chapter 40 (cup tapped with a knuckle, answered by a foundling, first ear he meets in a person). Chapters 31–40 were written with the green never named as Fenna and her offstage; the sixth green on Day 149 is still a colour joined to no ear. *Plan:* keep her unnamed and silent until a later chapter deliberately stages the Cross scene; when it is written, let the ear be answered there, then amend her History, Bonds, Arc So Far and `first_appearance` together. Do not name her in narration, give her dialogue, or let the boy connect the green to a person before that scene. The sheet's future-tense dialogue remains years hence and must not be spoken by a child.
+16. **`plan/next.md` month wording.** It says "Ember, not Smoke, is the eighth month," while `bible/calendar.md` lists Ember as month 6 (days 151–180) and Smoke as month 8 (days 211–240). The operative dating in that note is correct: Day 180 is Ember 1, and the written firing month is Tallow (Day 150 = Tallow 1, Day 179 = Tallow 30). *Plan:* treat "eighth" as a wording slip in a forward note; never call Smoke the month of Days 150–179 and never correct the district's Tallow usage in narration. `plan/next.md` may be reworded in a later forward-notes pass; no finished file depends on the phrase.
+
+### Minor watch items carried forward
+
+- The nine stoppings are held at nine: the ear-sentence came to the word on Day 152 but no tenth stood up before the seventh year was earned. It came to Tarn's teeth on Days 165 and 168 and stayed unsaid. Do not stand a tenth up in Chapter 41.
+- The Day 161 damper fraction and the Day 166 shelf beat are two held objects on two places; do not pair them into a rule, for a rule is an account that has found a payer.
+- Six greens at mouths and seven shapes counting Berr's glaze; never Fenna in narration. The foundling's sixth half-turn is a shape with no sale. Both gather interest and are not spent.
+- The pan's gone place, the shelf's two gaps, the fold's crust and gap, the field's empty place and T098 stay on separate trays; no third gap, no fourth likeness, no finger drawn.
+- No seventh hearing, no sixth sighting of the neat dark hand, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin or box opened, no silt-leach named, no collector for Dessa, no Marra in Sill and no ending occurred in Chapters 31–40; preserve all through Chapter 41.
+- Every day from Day 1 to Day 169 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 170 onward.

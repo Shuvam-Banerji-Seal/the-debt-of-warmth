@@ -8,7 +8,7 @@ species: human (Grathic)
 origin: "High Kiln, Sill, Grath; House Clay, glaze-mixers for four generations"
 affiliation: "the Glaze Room, High Kiln; the kiln-masters' household; a widow's mark held in trust"
 status: alive
-first_appearance: 40
+first_appearance: 5
 ---
 
 ## Appearance
@@ -61,9 +61,11 @@ She wants to mix a glaze that does not poison the mixer, which is an impossibili
 
 ## Arc So Far
 
-She is on the page in Chapter 5 before she is named: a green-mouthed silhouette across the market where the boy is set in the bridge's shade, looking at pots and saying nothing, filed among the things he cannot enter. She enters in her own right at the Cross in Chapter 40, tapping a cup with a knuckle and being answered by a foundling who did not wait to be asked, which is the first time in the book that anybody hears the same note as he does --- the first ear he meets in a person, years after the green was planted in silence.
+She is on the page in Chapter 5 before she is named: a green-mouthed silhouette across the market where the boy is set in the bridge's shade, looking at pots and saying nothing, filed among the things he cannot enter. Chapter 40 passed with her offstage and her name still unspoken in narration; the sixth green at a silent woman's mouth on Reed 30 (Day 149) is her thread, filed as a colour joined to no ear and never Fenna in narration. Her named speaking debut --- tapping a cup with a knuckle and being answered by a foundling who did not wait to be asked, the first ear he meets in a person --- was planned for Chapter 40 and did not land; it stays planned for a later chapter, and no chapter may name her or give her dialogue until that scene is written.
 
 ## Chapter Log
+
+- Ch 31–40: Offstage throughout. Her thread advances in silence: the **fourth** green at a silent woman's mouth on Reed 15 (Day 134), the **fifth** on Reed 20 (Day 139) and the **sixth** on Reed 30 (Day 149) are filed as colours joined to no ear, never named and never Fenna in narration. The speaking debut planned for Ch 40 did not land; no dialogue and no name on the page. `first_appearance` above marks the unnamed silhouette in Ch 5, not a written speaking part.
 
 - Ch 5: A silhouette only across the market's edge on Stone 15 --- green of lead glaze at the corner of her mouth, standing among the pots and not looking into the basket. No dialogue and no name on the page; the boy filed the green without knowing what it was. Her speaking debut stays planned for Ch 40 (the Cross, the cup that cracks at the handle).
 
