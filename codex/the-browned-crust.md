@@ -32,7 +32,7 @@ What follows is the leaf, including the parts a clerk would take out. I have set
 > The stone goes round and the grist comes out of it
 > with no hands in the figure and no name on the sack.
 > We wet what was ground and cover it and wait.
-> The waiting is not the work. It is the part before the work.
+> The waiting is not the work.
 
 *Answer:* Break the loaf. Pass the crust. The warm goes round.
 
@@ -40,9 +40,9 @@ What follows is the leaf, including the parts a clerk would take out. I have set
 
 > Flour alone is a white dust and water alone is a river.
 > Put them together in a covered bowl and the bowl swells
-> the way a house swells in a winter with everybody in it.
+> the way a house swells in winter with everybody in it.
 > Do not lift the cloth to see. A thing looked at too early
-> goes down in the middle and stays down.
+> goes down in the middle.
 
 *Here the reader lays her hand on the cloth over the bowl and does not lift it.*
 
@@ -62,8 +62,8 @@ What follows is the leaf, including the parts a clerk would take out. I have set
 
 > In Stone we keep the bread in a warmed box
 > and in the Five we light the year from the year before.
-> The fire in this oven is a small fire and has never been asked
-> who pays for it, which is the only courtesy we have shown it.
+> The fire in this oven has never been asked who pays for it,
+> which is the only courtesy we have shown it.
 > Hold the peel steady. A loaf put in crooked comes out crooked
 > and is eaten anyway, as crooked things are in this street.
 
@@ -75,12 +75,12 @@ What follows is the leaf, including the parts a clerk would take out. I have set
 
 > Give the browned edge to the child and keep the crumb.
 > The crust took the fire and the crumb was carried over it;
-> these are two gifts and we have only learned to give one.
-> A child who has come back and wants the crust before the breast
+> two gifts, and we have learned to give only one.
+> A child come back who wants the crust before the breast
 > is not asking for his former name. He is asking for the brown.
-> Give it to him. He will not know why he wants it, and neither do we.
+> Give it to him. He will not know why, and neither do we.
 
-*Here the loaves come out. The first crust is broken off and held a moment in the reader's fingers before it is given.*
+*Here the loaves come out. The first crust is broken off and held a moment in the reader's fingers.*
 
 *Answer:* Break the loaf. Pass the crust. The warm goes round.
 
@@ -90,10 +90,10 @@ What follows is the leaf, including the parts a clerk would take out. I have set
 > once for the moot and once for them that came up the road late.
 > The figure read over the basket and the figure paid out of the house
 > are two loaves set down side by side; nobody here has made them agree.
-> The other figure is not said aloud. It is left in the dough,
-> where it goes soft in the winter and comes back in the thaw.
+> The other figure is left in the dough,
+> where it goes soft in winter and comes back in the thaw.
 
-*Here the reader touches the tally. The other figure is not written on the leaf and has never been entered anywhere that a woman can ask about.*
+*Here the reader touches the tally. The other figure is not written on the leaf and has never been entered where a woman can ask about it.*
 
 *Answer:* Break the loaf. Pass the crust. The warm goes round.
 
@@ -101,12 +101,12 @@ What follows is the leaf, including the parts a clerk would take out. I have set
 
 > The grey lies along the skirting board where a promise stood.
 > We leave it on the Last Day and burn it in the morning
-> and say it is dealt with, which is a thing people say
+> and say it is dealt with, which is what people say
 > when they have no other word for an end.
 > Say the name into the corner before the morning comes.
 > A name said into the corner stays where the person sat.
 
-*The reader turns toward the corner and does not sweep it. There is a small ridge there the width of a finger, the colour of the road after rain.*
+*The reader turns toward the corner and does not sweep it. The ridge there is the width of a finger, the colour of the road after rain.*
 
 *Answer:* Break the loaf. Pass the crust. The warm goes round.
 
@@ -126,7 +126,7 @@ What follows is the leaf, including the parts a clerk would take out. I have set
 
 # What the clerk did
 
-A clerk of the factor's office come up from Greybank borrowed the leaf while the flour was being weighed. He writes in the narrow upright hand they teach in the College and took the verbs out as though a verb were a thing a woman could hide in her sleeve and carry past a door. He laid his hand on the leaf before he looked at me, which is the manner of that office.
+A clerk of the factor's office come up from Greybank borrowed the leaf while the flour was being weighed. He writes in the narrow upright hand they teach in the College and took the verbs out as though a verb were a thing a woman could hide in her sleeve. He laid his hand on the leaf before he looked at me, which is the manner of that office.
 
 - At *the warm goes round*, he wrote *the measure is in circulation* above, underlined twice. Underneath, in mine: *That is the account of a loaf going from one hand to another. I have watched it go. I have never seen the figure carry it.* Both stand.
 - At *give the browned edge to the child*, he wrote *transfer: no value entered*. It is true in the figure. The green bead left on the leaf came off a girl from the Cross who leaned to see what he had written and put her thumb down instead of asking. She was not entered either.
@@ -134,11 +134,11 @@ A clerk of the factor's office come up from Greybank borrowed the leaf while the
 - At the space the length of a small loaf he put a round nought and wrote *vacancy* beside it. A nought is a number and a bench has no column. I have left his nought in the space and my space standing around it, as a crack shows under a keying.
 - At the close he wrote *return recorded, one entry* against the four loaves and the fifth place, a true thing in a language nobody here speaks. The four went home with four households and the fifth went nowhere, and both are entered the same.
 
-I have left all of it standing, his hand above mine and mine underneath, as the brown keeps the fire and the crumb the carrying. He takes the verbs out because a thing always true has no need of them. I put them back because a woman with flour to her elbow wants to know which hand broke the loaf and which passed it.
+I have left all of it standing, his hand above mine and mine underneath, as the brown keeps the fire. He takes the verbs out because a thing always true has no need of them. I put them back because a woman with flour to her elbow wants to know which hand broke the loaf and which passed it.
 
 # What a woman put in the margin
 
-The charcoal is thick and slips at the *th*, being letters learned off a tally and not off a book. A woman of the low yard whose boy came back quiet in the Thin Year came in after the loaves were cut and read what I had written. She would not stand where I could see her face.
+The charcoal is thick and slips at the *th*, being letters learned off a tally and not off a book. A woman of the low yard whose boy came back quiet in the Thin Year came in after the loaves were cut and read what I had written, standing where I could not see her face.
 
 At V: “He put his mouth to the crust before his eyes found me. I had been told he would not know me. He knew the brown. I have not told the clerk which of the three he was.”
 
@@ -154,7 +154,7 @@ I have left both lines standing. A bakehouse that scores itself will soon be a c
 
 # At the head and in the gutter
 
-The flour at the head is mine and dries bone-pale, the colour of a potter's forearms at the end of a day in the pits; it is how this bakehouse signs anything it has touched. The crumb in the fold came off the first loaf of the Thin Year and has gone hard and will not crumble further, which is more than can be said for the loaf it came from. The scorch is where the oven mouth took the corner while I held the leaf near to read; the fire took the corner and not the word. The grey in the gutter came off a cuff that had been in a corner where no cuff has business lying, and I have not swept it and nobody will own it. The green is not ours; bread takes no glaze. A girl with the sweetness still at her mouth leaned to see the stations and touched the leaf and went back down the street without saying what she had seen. The tallow is off the lamp I keep low so the women at the bench will not know I am writing down what they say and change their words. The grey wool came off a cradle blanket and goes on coming off, though I have shaken the leaf four times. The damp is from the mixing bench, which takes the water out of everything left on it overnight. The square in the lower margin is where I scraped a word away with the back of the peel before I knew what I had written. I have not put it back and have not forgotten it. There is no Last Day for a bakehouse. The corners are swept here on the morning after, and what is found in them is burnt and called dealt with, and the leaf goes back under the loaf shelf before it is dealt with.
+The flour at the head is mine and dries bone-pale, the colour of a potter's forearms at the end of a day in the pits; it is how this bakehouse signs anything it has touched. The crumb in the fold came off the first loaf of the Thin Year and has gone hard and will not crumble further, which is more than can be said for the loaf it came from. The scorch is where the oven mouth took the corner while I held the leaf near to read; the fire took the corner and not the word. The grey in the gutter came off a cuff that had been in a corner where no cuff has business lying, and I have not swept it and nobody will own it. The green is not ours; bread takes no glaze. A girl with the sweetness still at her mouth leaned to see the stations and touched the leaf. The tallow is off the lamp I keep low so the women at the bench will not know I am writing down what they say and change their words. The grey wool came off a cradle blanket and goes on coming off, though I have shaken the leaf four times. The damp is from the mixing bench, which takes the water out of everything left on it overnight. The square in the lower margin is where I scraped a word away with the back of the peel before I knew what I had written. I have not put it back or forgotten it. There is no Last Day for a bakehouse. The corners are swept here on the morning after and what is found in them is burnt and called dealt with.
 
 # At the foot
 
@@ -164,4 +164,4 @@ In a hand that is not mine, not the clerk's and not the woman's, struck once and
 >
 > The cradle gives back the shape and keeps the rest.
 
-I asked the clerk, the woman of the low yard, the girl from the Cross and a man going past with a sack of grist, and had four answers and no hand. I have left the struck line where it was struck. The leaf goes back into the sacking and under the loaf shelf. Next Last Day the four loaves will be set to the four corners before light and the fifth place left at the end of the bench; the clerk will come up from Greybank with his soft cuff and take the verbs out, and I shall put them back. Some child in this street will put his mouth to the brown before his eyes find anybody, and no figure in any book will tell his mother why. The bench stays where it stands. The bread goes on being made.
+I asked the clerk, the woman of the low yard, the girl from the Cross and a man with a sack of grist, and had four answers and no hand. I have left the struck line where it was struck. The leaf goes back into the sacking and under the loaf shelf. Next Last Day the four loaves will be set to the four corners before light and the fifth place left at the end of the bench; the clerk will come up from Greybank with his soft cuff and take the verbs out, and I shall put them back. Some child in this street will put his mouth to the brown before his eyes find anybody, and no figure in any book will tell his mother why. The bench stays where it stands. The bread goes on being made.
