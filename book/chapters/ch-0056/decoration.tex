@@ -1,0 +1,75 @@
+\begin{tikzpicture}
+  % The chapter's heart: a seventh green comes to a silent mouth and a
+  % seventh shape walks through the market's edge. He files the one as a
+  % colour and the other as a shape, and sets them on places that do not
+  % touch. A cup turned a quarter and set back where it stood; a sliver
+  % on a string that catches the light and goes dull. No eighth, no name,
+  % no cause, and nobody told.
+
+  % quiet side rules, with a small star-flower at each far end
+  \node at (-4.66,0.12) {\pgfornament[width=1.00cm,color=ornament,opacity=0.46]{12}};
+  \node at ( 4.66,0.12) {\pgfornament[width=1.00cm,color=ornament,symmetry=v,opacity=0.46]{12}};
+  \draw[faded!60!ink, line width=0.42pt, opacity=0.26]
+    (-4.12,0.12) -- (-3.66,0.12);
+  \draw[faded!60!ink, line width=0.42pt, opacity=0.26]
+    ( 3.66,0.12) -- ( 4.12,0.12);
+
+  % the two places: open arcs whose lips face one another and never meet
+  \draw[faded!82!ink, line width=0.86pt, opacity=0.56, line cap=round]
+    (-2.20,0.12) ++(112:1.00) arc (112:248:1.00);
+  \draw[faded!72!ink, line width=0.38pt, opacity=0.28, line cap=round]
+    (-2.20,0.12) ++(108:0.90) arc (108:252:0.90);
+  \draw[faded!82!ink, line width=0.82pt, opacity=0.54, line cap=round]
+    ( 2.20,0.12) ++(-68:0.94) arc (-68:68:0.94);
+  \draw[faded!72!ink, line width=0.36pt, opacity=0.26, line cap=round]
+    ( 2.20,0.12) ++(-64:0.84) arc (-64:64:0.84);
+
+  % the gap between them: two ends ticked, the middle left blank, nothing
+  % crossing over. A colour is not a shape; neither is a hearing or a cause.
+  \draw[faded!56!ink, line width=0.36pt, dotted, opacity=0.32]
+    (-1.08,0.12) -- (-0.42,0.12);
+  \draw[faded!56!ink, line width=0.36pt, dotted, opacity=0.32]
+    ( 0.42,0.12) -- ( 1.12,0.12);
+  \fill[faded!72!ink, opacity=0.42] (-1.08,0.12) circle (0.019);
+  \fill[faded!72!ink, opacity=0.42] ( 1.12,0.12) circle (0.019);
+
+  % left place: the cup at the pot board, mouth dark and empty
+  \filldraw[fill=night, fill opacity=0.74,
+            draw=faded!84!ink, draw opacity=0.56, line width=0.60pt]
+    (-2.20,0.16) ellipse (0.46 and 0.13);
+  \draw[faded!68!ink, line width=0.42pt, opacity=0.34]
+    (-2.20,0.16) ellipse (0.58 and 0.19);
+
+  % a quarter turn taken without lifting, then set back: a dotted arc
+  % that departs and returns, with nothing moved at the end of it
+  \draw[faded!58!ink, line width=0.40pt, dotted, opacity=0.38]
+    (-2.20,0.16) ++(-6:0.70) arc (-6:84:0.70);
+
+  % the seventh green: sweet lead glaze in the crease beside the lip,
+  % a small crescent of moss that is only a colour and is never named
+  \fill[moss, opacity=0.66]
+    (-1.80,0.02)
+    .. controls (-1.66,0.16) and (-1.64,0.32) .. (-1.78,0.40)
+    .. controls (-1.74,0.24) and (-1.84,0.14) .. cycle;
+
+  % right place: the thread and the green sliver on a string
+  \draw[faded!66!ink, line width=0.42pt, opacity=0.38, line cap=round]
+    (2.20,1.00) .. controls (2.14,0.70) and (2.26,0.44) .. (2.20,0.18);
+  \filldraw[fill=moss!72!ash, fill opacity=0.70,
+            draw=faded!76!ink, draw opacity=0.48, line width=0.50pt]
+    (2.20,0.18)
+    .. controls (2.31,0.06) and (2.31,-0.18) .. (2.20,-0.34)
+    .. controls (2.09,-0.18) and (2.09,0.06) .. cycle;
+
+  % it catches the light and goes dull; the catch is a dot, not a sign
+  \fill[vellum, opacity=0.62] (2.17,0.02) circle (0.027);
+  \draw[faded!48!ink, line width=0.32pt, dotted, opacity=0.22]
+    (2.17,0.02) .. controls (2.42,0.14) and (2.66,0.14) .. (2.82,0.06);
+
+  % a faint line under the whole, like a day gone by and not reckoned
+  \draw[faded!48!ink, line width=0.40pt, opacity=0.24]
+    (-1.60,-1.22) .. controls (0,-1.30) and (0,-1.30) .. (1.60,-1.22);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.56)
+    {two greens, and places that do not touch};
+\end{tikzpicture}
