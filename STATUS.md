@@ -2,7 +2,7 @@
 
 - Chapters complete: **55**
 - Words of story: **924,920**
-- Current chapter: 55 (step: publish, scene 7)
+- Current chapter: 56 (step: plan, scene 1)
 - Last chapter: What the Week Gathered (Days 216–218 · Grain 7–9, Y.H. 813)
 - Author calls so far: 619 (tokens in 105,050,542, out 13,484,964)
 - Updated: 2026-11-26 20:46
