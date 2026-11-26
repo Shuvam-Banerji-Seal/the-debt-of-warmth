@@ -2,7 +2,7 @@
 
 - Chapters complete: **31**
 - Words of story: **487,823**
-- Current chapter: 31 (step: publish, scene 8)
+- Current chapter: 32 (step: plan, scene 1)
 - Last chapter: Four at the Teeth (Days 132–134 · Reed 13–15, Y.H. 813)
 - Author calls so far: 365 (tokens in 59,275,152, out 7,925,864)
 - Updated: 2026-11-26 06:08
