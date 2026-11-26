@@ -27,7 +27,7 @@ I have not struck it. A burden halved in the telling is still a burden carried i
 
 > *In the margin, in a hand that is mine:* They called themselves walking thin. I have put the words here and not in the year, because a man who keeps moving because stopping is the same as cooling is not a figure and the loft-book has no column for him.
 
-**Y.H. 812, the Thin Year.** The granary gave out in Grain, before the second harvest, and was opened again in Smoke. I have entered both dates, which the first keeper did not, because he entered openings and not closings, as a man enters what he can see from the quay.
+**Y.H. 812, the Thin Year.** The granary gave out in Grain, before the second firing, and was opened again in Smoke. I have entered both dates, which the first keeper did not, because he entered openings and not closings, as a man enters what he can see from the quay.
 
 # The table of loads
 
