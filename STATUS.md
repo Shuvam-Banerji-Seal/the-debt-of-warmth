@@ -2,7 +2,7 @@
 
 - Chapters complete: **46**
 - Words of story: **751,537**
-- Current chapter: 46 (step: publish, scene 7)
+- Current chapter: 47 (step: plan, scene 1)
 - Last chapter: The Figure over the Basket (Days 189–191 · Ember 10–12, Y.H. 813)
 - Author calls so far: 527 (tokens in 88,831,763, out 11,437,071)
 - Updated: 2026-11-26 15:19
