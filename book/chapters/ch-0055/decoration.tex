@@ -1,0 +1,77 @@
+\begin{tikzpicture}
+  % The chapter's heart: the hand goes up an inch and comes down on the
+  % river's note --- a little closed arc that begins and ends at the hand
+  % and never reaches the rim. The two inches to the pot stay two inches;
+  % a word gone four times round is no nearer home. What the house gathers
+  % it does not count.
+
+  % quiet side rules, with a small fleuron at each far end
+  \node at (-4.62,0.10) {\pgfornament[width=1.05cm,color=ornament,opacity=0.50]{3}};
+  \node at ( 4.62,0.10) {\pgfornament[width=1.05cm,color=ornament,symmetry=v,opacity=0.50]{3}};
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.28]
+    (-4.06,0.10) -- (-2.05,0.10);
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.28]
+    ( 2.05,0.10) -- ( 4.06,0.10);
+
+  % the widow's mark, hanging where it hung: one red stroke, untouched
+  \draw[rubric, line width=0.72pt, opacity=0.50, line cap=round]
+    (-1.98,-0.02) -- (-1.98,0.22);
+
+  % the river's note below: two low lines keeping their own time
+  \draw[faded!66!ink, line width=0.50pt, opacity=0.34, line cap=round]
+    (-2.02,-0.92) .. controls (-1.30,-0.80) and (-0.70,-1.04) .. (-0.02,-0.92)
+    .. controls (0.66,-0.80) and (1.30,-1.04) .. (2.02,-0.92);
+  \draw[faded!50!ink, line width=0.34pt, opacity=0.20, line cap=round]
+    (-1.74,-1.06) .. controls (-1.10,-0.96) and (-0.56,-1.16) .. (0.02,-1.06)
+    .. controls (0.60,-0.96) and (1.16,-1.16) .. (1.74,-1.06);
+
+  % the fire's four pulls out of that low note, and the gap where a fifth
+  % would have been: a count kept in fours, not a bell, not a hearing
+  \foreach \fx in {-1.72,-1.44,-1.16,-0.88}{
+    \draw[faded!72!ink, line width=0.62pt, opacity=0.46, line cap=round]
+      (\fx,-0.88) -- (\fx,-0.60);
+  }
+  \draw[faded, line width=0.38pt, dotted, opacity=0.24]
+    (-0.60,-0.88) -- (-0.60,-0.64);
+
+  % the small hand: an upright stroke with a rounded knuckle, held up
+  \draw[faded!84!ink, line width=2.00pt, opacity=0.66, line cap=round]
+    (0.00,-0.12) -- (0.00,0.30);
+
+  % the inch it goes up and the coming-down: a narrow closed arc that
+  % begins and ends at the hand and never arrives at the rim
+  \draw[faded!78!ink, line width=0.66pt, opacity=0.62, line cap=round]
+    (0.00,-0.10)
+    .. controls (0.26,0.20) and (0.22,0.64) .. (0.00,0.80)
+    .. controls (-0.22,0.64) and (-0.26,0.20) .. (0.00,-0.10);
+
+  % the little silence after the count, held at the top of the arc
+  \draw[faded!44!ink, line width=0.34pt, dotted, opacity=0.26]
+    (-0.10,0.80) -- (0.10,0.80);
+
+  % the pot's edge to the right: a short double rim, the shelf beyond it
+  \draw[faded!80!ink, line width=0.70pt, opacity=0.58, line cap=round]
+    (1.50,-0.12) -- (1.50,0.54);
+  \draw[faded!58!ink, line width=0.44pt, opacity=0.36, line cap=round]
+    (1.60,-0.12) -- (1.60,0.46);
+  \draw[faded!70!ink, line width=0.56pt, opacity=0.46, line cap=round]
+    (1.46,0.54) -- (1.64,0.54);
+  \draw[faded!48!ink, line width=0.40pt, opacity=0.26]
+    (1.64,0.20) -- (2.10,0.20);
+
+  % the measured span: two inches, both ends ticked, a break before the rim
+  \draw[faded!62!ink, line width=0.40pt, dotted, opacity=0.34]
+    (0.08,0.02) -- (0.70,0.02);
+  \draw[faded!62!ink, line width=0.40pt, dotted, opacity=0.22]
+    (1.02,0.02) -- (1.40,0.02);
+  \draw[faded!70!ink, line width=0.52pt, opacity=0.42]
+    (0.08,-0.06) -- (0.08,0.10);
+  \draw[faded!70!ink, line width=0.52pt, opacity=0.42]
+    (1.40,-0.06) -- (1.40,0.10);
+
+  % a faint flourish under the whole, like a line gone round and back
+  \node at (0,-1.30) {\pgfornament[width=6.0cm,color=ornament,opacity=0.22,symmetry=c]{80}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.64)
+    {what the house gathers it does not count};
+\end{tikzpicture}
