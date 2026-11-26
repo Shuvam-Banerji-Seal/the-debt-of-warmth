@@ -7,7 +7,7 @@ relates_to: [the Waste, Wastelings, Waste Cant, Grathic, Keld, Keld Keep, the Ri
 
 I keep the post. There is a post and no gate, and the surveyors who set me here count men through it: those who go up and those who come down. When the party turns back I stay with the counting. Nine winters I have heard what the people beyond it say, and this winter I put it down, because a keeper who stays long enough at a post becomes the only man who can remember a sentence that the country it came from has already let go.
 
-I write in Grathic letters because Waste Cant is not written. It is a handful of borrowed words and a way of letting the ends fall away, and what cannot be done with the mouth is not done with a hand. Where a sound has no word I have left a blank. Do not put a word into the blank. A man come up with lime from Stonemouth asked me what they say when there is nothing to say. I told him they say it to the cold. He went away believing he had learned the Waste, which is the usual end of a conversation between a man with a fire and a man without one.
+I write in Grathic letters because Waste Cant is not written. It is a handful of borrowed words and a way of letting the ends fall away, and what cannot be done with the mouth is not done with a hand. Where a sound has no word I have left a blank. Do not put a word into the blank. A man come up with lime from Stonemouth asked me what they say when there is nothing to say. I told him they say it to the cold. He went away believing he had learned the Waste, which is the usual end of such a conversation.
 
 Say these to the ground or to the stone you are sitting against, never to the person who has just said them. Said to a person, one of these sentences becomes a question with an answer owed, and there is not one sentence here with an answer owed in it.
 
@@ -63,17 +63,17 @@ Say these to the ground or to the stone you are sitting against, never to the pe
 
 12. “Nothing swept. No Last Day.”
 
-*Gloss — There is no day on which the grey is gathered in the morning and burnt, because there is no morning after out here to burn it in. The Ash of a person whose warmth was never taken is gathered by Wastelings and given away. I put my hand on such a grey place and it left no mark on me and no mark on the leaf, and that is the outer stain along this fold, which nobody has owned and which I have not swept.*
+*Gloss — There is no day on which the grey is gathered and burnt, because there is no morning after out here to burn it in. The Ash of a person whose warmth was never taken is gathered by Wastelings and given away. I put my hand on such a place and it left no mark on me or the leaf; that is the stain along this fold, which nobody has owned and which I have not swept.*
 
 13. “The cold is not empty.”
 
-*Gloss — It is full of what nobody kept. This is the sentence every traveller brings back and every clerk tries to enter, and it is the one I have heard most often and understood least. A Vorr will say of his dead that they were never owed and leave it standing; out here there is no word for owing at all, so the sentence cannot even be refused. What comes in is not called kept and not called lost. It is called there.*
+*Gloss — It is full of what nobody kept. Every traveller brings back this sentence and every clerk tries to enter it; I have heard it oftenest and understood it least. A Vorr says of his dead that they were never owed and leaves it standing; out here there is no word for owing, so the sentence cannot even be refused. What comes in is not called kept or lost. It is called there.*
 
 # Of the thing that comes close
 
 14. “It stands. You go.”
 
-*Gloss — The cold-eater comes toward any vessel with a head. It has no language and no appetite a visitor can recognise; it does not kill, it takes. Lowlanders say it is the Waste itself come to fetch what is owed. That is a lowland sentence. There is nothing owed out here, and the Wastelings do not fight the shape because there is nothing among them worth owning. A man who stands his ground against it is not brave; he is a vessel who has not understood the arrangement. I have left that sentence where it was said to me and have not made it a rule.*
+*Gloss — The cold-eater comes toward any vessel with a head. It has no language and no appetite a visitor can recognise; it does not kill, it takes. Lowlanders say it is the Waste come to fetch what is owed. That is a lowland sentence. There is nothing owed out here, and they do not fight the shape because there is nothing among them worth owning. A man who stands his ground against it is not brave; he has not understood the arrangement. I have left the sentence where it was said and made no rule of it.*
 
 15. “That is what it is for.”
 
@@ -97,28 +97,28 @@ Say these to the ground or to the stone you are sitting against, never to the pe
 
 # What the clerk did
 
-A survey-clerk of the factor at Greybank borrowed the leaves on a market morning. He has a cuff gone soft from washing and ink settled in two fingers of it that will not come out. He writes upright and narrow and takes the verbs out as though a verb were a thing he could carry off in a cuff.
+A survey-clerk of the factor at Greybank borrowed the leaves on a market morning. He has a cuff gone soft from washing and ink in two fingers that will not come out. He writes upright and narrow and takes the verbs out as though a verb were a thing he could carry off in a cuff.
 
 - At *warm?* he set *the thermal condition of the party is not entered*, which is a sentence true of every man alive and therefore of none.
 - At *a stone, a name, a day, no figure* he wrote *no consideration recorded; three gifts void*. He was right by his own law and has entered the three things as nothing, which is what the country does and what the country does not call nothing.
 - At *the cold is not empty* he wrote *the Waste is occupied*, which is a word for a room and not a word for a sink, and is the nearest I have ever known him come to agreeing with them.
 - At the space in the verse he put a round nought and wrote *vacancy* beneath. A nought is a figure. The space was a man's place, and the clerk has made it smaller by writing in it.
 
-I have put the words back underneath and left his standing above, the way a newer survey line lies over an older one on the rim-seam and neither is struck out. He takes the doer out so that a thing always true can be carried into a counting room. I put the doer back because a keeper at a post wants to know which way a man was facing when he stopped.
+I have put the words back underneath and left his above, the way a newer survey line lies over an older one on the rim-seam. He takes the doer out so that a thing always true can be carried into a counting room. I put the doer back because a keeper at a post wants to know which way a man was facing when he stopped.
 
 # Cut into the edge, in a Keldish tally-man's hand
 
 > Ask one of them what his measure is and he will hold out his hands. Our numbers are on the arm and theirs are in what they have not let go. Both can be read. Only one can be entered.
 
-He cut it with his tally-knife and would not write it, which is the proper manner of a man who has been up to the stones. The cut has gone grey in the fold and the words are plainer than some I wrote in charcoal.
+He cut it with his tally-knife and would not write it, the manner of a man who has been up to the stones. The cut has gone grey in the fold.
 
 # At the head and in the gutter
 
-The frost at the head came up out of the grain in the ninth winter and pressed the first two sayings together, so that *warm?* and *not far enough* stand closer here than they were said. I have not prised them apart; they are generally said in one breath. The coal smut at the fold is mine, off the sleeve I wipe the tally with. The flake of warm-stone kept its heat through one night on the stone floor and is cold now, which is the order of things here. The grey stone in the lower gutter was given to me by a woman who would not take a bowl for it and has never been entered; I stitched it in so that the account and the thing it accounts for travel together. The white hair between the third and fourth leaves is not mine and not hers, and I have left it where it lay. The Ash along the outer fold leaves no stain and I have not swept it. There is no Last Day at this post, and I have not found one since I came up.
+The frost at the head came up out of the grain in the ninth winter and pressed the first two sayings together, so that *warm?* and *not far enough* stand closer here than they were said. I have not prised them apart; they are generally said in one breath. The coal smut at the fold is mine, off the sleeve I wipe the tally with. The flake of warm-stone kept its heat through one night on the stone floor and is cold now, which is the order of things here. The grey stone in the lower gutter was given by a woman who would not take a bowl for it; I stitched it in so the account and the thing it accounts for travel together. The white hair between the third and fourth leaves is not mine, and I have left it where it lay. The Ash along the outer fold leaves no stain and I have not swept it. There is no Last Day at this post, and I have not found one since I came up.
 
 # At the foot, in a hand nobody will own
 
 > A man is what he has not yet given.
 > When he has given it, he is the road.
 
-I asked a Wasteling who came through with no stone, a surveyor come down from the stones, and a clerk at Greybank, and had three answers and no hand. I have left the lines where they were written. The sheets go back into the oiled cloth and the cloth under the board at the post. Tomorrow the party will come up and count the men, and I shall count with them, and the people beyond the post will go on past it without asking what the counting is for, which is the only honest answer any post has ever been given.
+I asked a Wasteling who came through with no stone, a surveyor come down from the stones, and a clerk at Greybank, and had three answers and no hand. I have left the lines where they were written. The sheets go back into the oiled cloth and the cloth under the board at the post. Tomorrow the party will come up and count the men, and I shall count with them, and the people beyond the post will go past it without asking what the counting is for, which is the only honest answer any post has had.
