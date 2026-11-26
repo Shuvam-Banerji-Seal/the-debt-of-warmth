@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **48**
-- Words of story: **788,541**
-- Current chapter: 49 (step: plan, scene 1)
-- Last chapter: The Inch Asked Again (Days 195–197 · Ember 16–18, Y.H. 813)
-- Author calls so far: 547 (tokens in 92,362,031, out 11,840,702)
-- Updated: 2026-11-26 16:30
+- Chapters complete: **49**
+- Words of story: **808,074**
+- Current chapter: 49 (step: publish, scene 7)
+- Last chapter: A Figure Twice Read (Days 198–200 · Ember 19–21, Y.H. 813)
+- Author calls so far: 557 (tokens in 94,100,456, out 12,036,643)
+- Updated: 2026-11-26 17:07
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
