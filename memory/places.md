@@ -295,6 +295,11 @@ On Reed 7, Y.H. 813 Sella set the basket in the moot-post's finger's width of sh
 
 On Reed 10, Y.H. 813, the first Account-day of Reed, the crowd leaned over the reading block under the moot-post while Berr Clay came up short with the red wool cord folded under his coat and the green of tasted glaze at one mouth-corner, wiped his thumb twice on his apron before touching nothing, held a narrow slate unopened against his forearm and read *one in twelve, as the notice says* low into the goers-by. He called the levy and said *The levy is called. It is not called by me*, sending a man with a number in his fist to a slate at the watch with *your house*, never *I*; the true subtraction stayed in the locked box up the clay road and the number read aloud was not the number paid. The bell went four, four and a gap with nobody crossing himself, the heard bell kept beside the told bell; below the bridge the soft-cuffed clerk was still set for an uncalled measure, and the yard went around the place where a hand went in on Seed 15 and did not come out, with a look and no number (T098 carried). Sella set the basket in the moot-post's shade where no slate lay and stood a half-pace off. Ch 30.
 
+### The pot board
+**Kind:** display board, market fixture. **Region:** the Cross, Sill.
+The shallow board at the Cross on which potters set out bowls for buyers to look at, dust in the hollows and the light going along the rims. On Reed 15, Y.H. 813 a silent woman stood before it with the sweetish green of lead glaze at one corner of her mouth, clay under her nails and a pale line across the back of one hand, and turned a cup a quarter without lifting it, then set it back exactly where it had stood and went off with the light. The boy filed the green as the fourth at a mouth and the fifth shape of the colour, a colour and not a name, joined to no ear (T050/T051). The board kept the place where the cup had been.
+**Relations:** At the Cross, central Sill, beside the reading block and the moot-post's thin shade; the fish-trade shade lies below the north bridge.
+
 ### Slate Row
 **Kind:** Court quarter. **Region:** Sill.
 A narrow street holding the Court's room, the assessor's house, the collector's table and the Waiting Room. On market-days the Court also sets a table at the fringe of the Cross, where a clerk touches the top slate before he looks at the woman waiting and says *it's entered as it stands*; from that end of the square Slate Row is spoken of as a direction, not a place anybody means to go that day. On Ilmen 1, Y.H. 813 the new year's slates were opened here and spoken of from the Clay Yard only as a direction; one in twelve stayed printed and unchallenged and the true deduction was spoken by nobody.
@@ -379,6 +384,11 @@ Shallow pans worn in the clay of the yard where slip is mixed and spent slip is 
 **Relations:** Inside the Clay Yard, west and south of the Vail kiln-house; the drying racks stand east of them and the Slip Brook runs behind them.
 
 *The close ground of the Clay Yard drawn on `atlas/the-clay-yard`: the yard, the Vail kiln-house and wheel-shed, the drying racks, the houses of the row and the Slip Brook behind them. Direction is from the Vail kiln-house.*
+
+### The flagstones
+**Kind:** yard paving. **Region:** the Clay Yard, the Vail kiln-house, Low Kiln.
+The paved ground before the Vail kiln-house where Tarn takes his broom only after it has been instructed. The stones keep the shallow bright patch where his stroke stopped on the first fraction of change in the equality under the roof, a place nobody enters; the stroke goes on over it without the half-check and the patch stays where it stopped, joined to no cause and to no ear. On Reed 14, Y.H. 813 the stroke went on over the flagstones and past the bright patch while Jorra's bent finger stood in the cold damper ahead of Sella's unfinished sentence, and neither man named the other's silence (T036/T076).
+**Relations:** Before the Vail kiln-house in the Clay Yard, Low Kiln; the clean dark line and the new finer grey lie in the house's corner nearby.
 
 ### The Vail kiln-house
 **Kind:** house and kiln. **Region:** the Clay Yard, Low Kiln.
