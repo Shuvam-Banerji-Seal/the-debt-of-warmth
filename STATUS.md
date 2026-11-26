@@ -2,7 +2,7 @@
 
 - Chapters complete: **59**
 - Words of story: **1,010,543**
-- Current chapter: 59 (step: publish, scene 7)
+- Current chapter: 60 (step: plan, scene 1)
 - Last chapter: Over the Covered Grain (Days 228–230 · Grain 19–21, Y.H. 813)
 - Author calls so far: 659 (tokens in 112,645,572, out 14,441,997)
 - Updated: 2026-11-26 23:10
