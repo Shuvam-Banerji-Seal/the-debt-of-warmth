@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **51**
-- Words of story: **847,073**
-- Current chapter: 52 (step: plan, scene 1)
-- Last chapter: What the Roof Kept (Days 204–206 · Ember 25–27, Y.H. 813)
-- Author calls so far: 579 (tokens in 98,294,243, out 12,614,508)
-- Updated: 2026-11-26 18:39
+- Chapters complete: **52**
+- Words of story: **866,404**
+- Current chapter: 52 (step: publish, scene 7)
+- Last chapter: The Third Reading (Days 207–209 · Ember 28–30, Y.H. 813)
+- Author calls so far: 589 (tokens in 100,096,141, out 12,849,537)
+- Updated: 2026-11-26 19:17
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

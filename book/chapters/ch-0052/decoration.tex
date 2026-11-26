@@ -1,0 +1,64 @@
+\begin{tikzpicture}
+  % The chapter's heart: the figure is read a third time and the district's
+  % arithmetic changes again, but the box goes up the road with the true
+  % subtraction locked inside. Three readings are cut into the lid; no fourth
+  % is cut. The keyhole is empty, and the man the box would answer to is not named.
+
+  % the road the box goes up, broken on either side of it
+  \draw[faded!60!ink, line width=0.46pt, opacity=0.30]
+    (-4.86,-0.66) -- (-1.52,-0.66);
+  \draw[faded!60!ink, line width=0.46pt, opacity=0.30]
+    (1.52,-0.66) -- (4.86,-0.66);
+
+  % quiet fleurons at the far ends of the road
+  \node at (-4.55,0.02) {\pgfornament[width=1.1cm,color=ornament,opacity=0.52]{6}};
+  \node at ( 4.55,0.02) {\pgfornament[width=1.1cm,color=ornament,symmetry=v,opacity=0.52]{6}};
+
+  % the coffer body
+  \filldraw[fill=faded!16!vellum, fill opacity=0.86,
+            draw=faded!86!ink, draw opacity=0.70, line width=0.90pt]
+    (-1.30,-0.62) rectangle (1.30,0.52);
+
+  % the true subtraction, locked in the dark: a different, slanted mark,
+  % showing only as a ghost through the near-opaque face
+  \fill[rubric, opacity=0.14]
+    (0.62,-0.30) .. controls (0.78,-0.14) and (0.92,-0.02) .. (1.06,0.10)
+    -- (1.00,0.13) .. controls (0.86,0.00) and (0.72,-0.12) .. (0.58,-0.27)
+    -- cycle;
+
+  % straps at the corners
+  \draw[faded!72!ink, line width=0.62pt, opacity=0.44]
+    (-1.06,-0.62) -- (-1.06,0.52);
+  \draw[faded!72!ink, line width=0.62pt, opacity=0.44]
+    ( 1.06,-0.62) -- ( 1.06,0.52);
+
+  % the lid, overhanging, and its seam
+  \filldraw[fill=faded!26!ink, fill opacity=0.34,
+            draw=faded!84!ink, draw opacity=0.66, line width=0.86pt]
+    (-1.44,0.52) rectangle (1.44,0.80);
+  \draw[faded!62!ink, line width=0.44pt, opacity=0.34]
+    (-1.44,0.62) -- (1.44,0.62);
+
+  % three readings cut into the lid; the fourth place is left blank
+  \foreach \rx in {-1.10,-0.86,-0.62}{
+    \draw[rubric!72!ink, line width=1.05pt, opacity=0.74, line cap=round]
+      (\rx,0.56) -- (\rx,0.76);
+  }
+  \draw[faded, line width=0.46pt, dotted, opacity=0.34]
+    (-0.38,0.56) -- (-0.38,0.76);
+
+  % the clasp strap over the seam
+  \filldraw[fill=faded!30!ink, fill opacity=0.30,
+            draw=faded!78!ink, draw opacity=0.60, line width=0.70pt]
+    (-0.12,0.80) rectangle (0.12,0.18);
+  % the lock plate, and the empty keyhole in it
+  \fill[night, opacity=0.86] (0,0.44) circle (0.052);
+  \fill[night, opacity=0.86]
+    (-0.022,0.44) -- (0.022,0.44) -- (0.046,0.26) -- (-0.046,0.26) -- cycle;
+  \draw[gold!40!ornament, line width=0.40pt, opacity=0.40]
+    (0.16,0.30) .. controls (0.24,0.42) and (0.24,0.50) .. (0.14,0.56);
+
+  \node at (0,-1.18) {\pgfornament[width=8.6cm,color=ornament,opacity=0.32,symmetry=c]{81}};
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.60)
+    {the figure read is not the figure paid};
+\end{tikzpicture}
