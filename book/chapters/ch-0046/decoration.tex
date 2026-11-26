@@ -1,0 +1,119 @@
+\begin{tikzpicture}
+  % The chapter's heart: the month's account is read aloud over the basket
+  % in the moot-post's shade where no slate lay. The figure goes twice over
+  % a body that cannot answer: once for the moot, once, coming late, for the
+  % households. The bell goes four, four and a gap and nobody crosses
+  % himself; the printed one in twelve stands unchallenged. A finger passes
+  % over the figure and stops short of touching it; the true subtraction goes
+  % up the clay road in a locked box and arrives at no entry. The figure read
+  % is not the figure paid, and the cost of the man carried out is entered
+  % nowhere. The figure passes over the basket and does not go into it.
+
+  % the flagstones at the Cross, carrying no figure
+  \draw[faded, line width=0.40pt, dotted, opacity=0.16]
+    (-4.40,-1.10) -- (4.40,-1.10);
+
+  % the moot-post's shade, held separate: a band where no slate lay
+  \fill[night, opacity=0.055] (-0.98,-1.08) rectangle (0.98,0.02);
+  \draw[faded, line width=0.38pt, dotted, opacity=0.18]
+    (-0.98,-1.08) -- (-0.98,0.02);
+  \draw[faded, line width=0.38pt, dotted, opacity=0.18]
+    (0.98,-1.08) -- (0.98,0.02);
+
+  % the basket, a vessel set down in the shade; the boy lies in it, fold at
+  % ear and chin, and gives the figure no answer
+  \fill[faded!18!ink, opacity=0.30]
+    (-0.85,0.05) .. controls (-0.78,-0.48) and (-0.70,-0.92) .. (-0.58,-0.98)
+    -- (0.58,-0.98) .. controls (0.70,-0.92) and (0.78,-0.48) .. (0.85,0.05)
+    -- cycle;
+  \draw[faded!86!ink, line width=0.96pt, opacity=0.66]
+    (-0.85,0.05) .. controls (-0.78,-0.48) and (-0.70,-0.92) .. (-0.58,-0.98)
+    -- (0.58,-0.98) .. controls (0.70,-0.92) and (0.78,-0.48) .. (0.85,0.05)
+    -- cycle;
+  \fill[night, opacity=0.50] (0,0.05) ellipse (0.85 and 0.14);
+  \draw[faded!86!ink, line width=0.94pt, opacity=0.68]
+    (0,0.05) ellipse (0.85 and 0.14);
+  \draw[faded!74!vellum, line width=0.62pt, opacity=0.38, line cap=round]
+    (-0.30,0.09) .. controls (-0.10,0.21) and (0.16,0.19) .. (0.33,0.07);
+
+  % the weave of the basket, counted by nobody
+  \foreach \wy in {-0.18,-0.40,-0.62,-0.82}{
+    \draw[faded!60!ink, line width=0.34pt, opacity=0.22]
+      (-0.83,\wy+0.04) .. controls (0,\wy-0.10) .. (0.83,\wy+0.04);
+  }
+  \foreach \wx in {-0.50,-0.25,0,0.25,0.50}{
+    \draw[faded!55!ink, line width=0.30pt, opacity=0.15]
+      (\wx-0.16,-0.92) -- (\wx+0.16,0.00);
+  }
+  \draw[faded!56!ink, line width=0.40pt, opacity=0.24]
+    (-0.80,0.02) .. controls (-0.70,-0.48) and (-0.62,-0.90) .. (-0.56,-0.96);
+
+  % the figure goes twice over the basket: once for the moot, and once,
+  % coming late and dotted, for the households. Both pass over and do not
+  % go in; a figure read aloud is still not the figure paid.
+  \draw[rubric!52!faded, line width=0.86pt, opacity=0.56, line cap=round]
+    (1.02,0.80) .. controls (0.44,1.06) and (-0.54,1.06) .. (-1.24,0.94);
+  \draw[rubric!40!faded, line width=0.62pt, dotted, opacity=0.38, line cap=round]
+    (1.00,0.64) .. controls (0.30,0.88) and (-0.70,0.88) .. (-1.38,0.78);
+  \fill[rubric!48!faded, opacity=0.44] (-1.24,0.94) circle (0.024);
+  \fill[rubric!36!faded, opacity=0.28] (-1.38,0.78) circle (0.020);
+
+  % the printed figure, standing unchallenged, one in twelve
+  \node[font=\CinzelFont\scriptsize, text=rubric!80!ink, opacity=0.74]
+    at (0.10,1.26) {1 in 12};
+
+  % the narrow slate held edge-on to the forearm, its writing turned to the
+  % sleeve; a finger passes over the figure and stops short of touching it
+  \fill[faded!14!vellum, opacity=0.60]
+    (1.10,0.78) -- (2.02,0.54) -- (2.07,0.73) -- (1.15,0.97) -- cycle;
+  \draw[faded!86!ink, line width=0.82pt, opacity=0.58]
+    (1.10,0.78) -- (2.02,0.54) -- (2.07,0.73) -- (1.15,0.97) -- cycle;
+  \draw[faded!52!ink, line width=0.38pt, opacity=0.24]
+    (1.16,0.84) -- (1.98,0.63);
+  \draw[faded!72!ink, line width=0.72pt, opacity=0.36, line cap=round]
+    (2.80,0.26) .. controls (2.48,0.40) and (2.26,0.50) .. (2.06,0.60);
+  \draw[faded!82!ink, line width=0.62pt, opacity=0.44, line cap=round]
+    (2.06,0.60) .. controls (1.92,0.66) and (1.84,0.70) .. (1.76,0.72);
+  \fill[faded, opacity=0.26] (1.72,0.73) circle (0.020);
+
+  % the bell goes four, four and a gap; nobody crosses himself
+  \draw[faded!84!ink, line width=0.86pt, opacity=0.56]
+    (-2.98,0.92) .. controls (-2.92,0.50) and (-2.86,0.34) .. (-2.70,0.28)
+    -- (-2.26,0.28) .. controls (-2.10,0.34) and (-2.04,0.50) .. (-1.98,0.92)
+    -- cycle;
+  \draw[faded!78!ink, line width=0.66pt, opacity=0.42]
+    (-2.48,0.94) -- (-2.48,1.10);
+  \fill[faded!82!ink, opacity=0.38] (-2.48,1.13) circle (0.045);
+  \fill[faded!70!ink, opacity=0.28] (-2.48,0.22) circle (0.058);
+  \foreach \sy in {0.80,0.62,0.44,0.26}{
+    \draw[rubric!44!faded, line width=0.72pt, opacity=0.46, line cap=round]
+      (-3.16,\sy) .. controls (-3.36,\sy+0.05) and (-3.48,\sy+0.03) .. (-3.60,\sy-0.04);
+  }
+  \foreach \sy in {0.80,0.62,0.44,0.26}{
+    \draw[rubric!36!faded, line width=0.60pt, opacity=0.32, line cap=round]
+      (-3.78,\sy) .. controls (-3.98,\sy+0.05) and (-4.10,\sy+0.03) .. (-4.20,\sy-0.04);
+  }
+  % the fifth that should have come, and does not
+  \draw[faded, line width=0.40pt, dotted, opacity=0.24]
+    (-4.34,0.56) .. controls (-4.46,0.52) and (-4.52,0.46) .. (-4.58,0.40);
+  \fill[faded, opacity=0.20] (-4.59,0.39) circle (0.018);
+
+  % the box goes up the clay road locked, the true subtraction inside and
+  % arriving nowhere; the printed figure is not the figure paid
+  \fill[faded!24!ink, opacity=0.32] (2.78,-0.66) rectangle (3.58,-0.06);
+  \draw[faded!86!ink, line width=0.88pt, opacity=0.62]
+    (2.78,-0.66) rectangle (3.58,-0.06);
+  \draw[faded!72!ink, line width=0.56pt, opacity=0.42]
+    (2.78,-0.26) -- (3.58,-0.26);
+  \fill[gold!45!faded, opacity=0.54] (3.15,-0.34) rectangle (3.23,-0.18);
+  \draw[rubric!38!faded, line width=0.48pt, opacity=0.26]
+    (2.92,-0.46) -- (3.14,-0.46);
+  \draw[faded, line width=0.42pt, dotted, opacity=0.24]
+    (3.58,-0.38) .. controls (4.04,-0.16) and (4.42,0.06) .. (4.80,0.14);
+
+  \node at (-3.86,1.42) {\pgfornament[width=1.9cm,color=ornament,opacity=0.72]{80}};
+  \node at ( 3.86,1.42) {\pgfornament[width=1.9cm,color=ornament,symmetry=v,opacity=0.72]{80}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {the figure read is not the figure paid};
+\end{tikzpicture}
