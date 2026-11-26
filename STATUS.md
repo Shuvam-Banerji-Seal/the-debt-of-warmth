@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **53**
-- Words of story: **886,201**
-- Current chapter: 54 (step: plan, scene 1)
-- Last chapter: The Unmarked Turning (Days 210–212 · Grain 1–3, Y.H. 813)
-- Author calls so far: 599 (tokens in 101,599,712, out 13,061,638)
-- Updated: 2026-11-26 19:47
+- Chapters complete: **54**
+- Words of story: **905,692**
+- Current chapter: 54 (step: publish, scene 7)
+- Last chapter: The Pot Not Heard From (Days 213–215 · Grain 4–6, Y.H. 813)
+- Author calls so far: 609 (tokens in 103,363,742, out 13,271,863)
+- Updated: 2026-11-26 20:16
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

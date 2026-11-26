@@ -1,0 +1,65 @@
+\begin{tikzpicture}
+  % The chapter's heart: the pot that sang before its time is not heard from
+  % since. It stands whole --- no crack in it, nothing lost --- but the note
+  % that used to leave it has thinned to a hair and stopped. The saying turned
+  % by a hair; the song went out on the wrong wind. A direction with no hand
+  % at the foot of it, no owner, no room, no cause, no figure.
+
+  % a faint flourished rule above, and two quiet fleurons at the far ends
+  \node at (0,1.40) {\pgfornament[width=5.6cm,color=ornament,opacity=0.20,symmetry=c]{73}};
+  \node at (-4.62,0.04) {\pgfornament[width=1.05cm,color=ornament,opacity=0.50]{11}};
+  \node at ( 4.62,0.04) {\pgfornament[width=1.05cm,color=ornament,symmetry=v,opacity=0.50]{11}};
+
+  % the wrong wind: two lines that rise toward the pot and arrive nowhere,
+  % carrying the saying past it and off, not to it
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.24, line cap=round]
+    (-4.06,-0.10) .. controls (-2.60,0.06) and (-1.80,0.12) .. (-1.16,0.08);
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.24, line cap=round]
+    ( 1.16,0.08) .. controls ( 1.80,0.06) and ( 2.60,0.00) .. ( 4.06,-0.14);
+
+  % the thread of song rising from the mouth: it starts, climbs, and breaks
+  % into dotted nothing. A second, fainter wisp goes with it and goes out.
+  \draw[faded!72!ink, line width=0.50pt, opacity=0.42, line cap=round]
+    (0.00,0.32) .. controls (-0.12,0.55) and (0.10,0.72) .. (0.00,0.90);
+  \draw[faded, line width=0.38pt, dotted, opacity=0.24, line cap=round]
+    (0.00,0.96) .. controls (-0.08,1.08) and (0.06,1.16) .. (0.00,1.26);
+  \draw[faded!52!ink, line width=0.34pt, opacity=0.20, line cap=round]
+    (0.11,0.36) .. controls (0.22,0.56) and (0.06,0.66) .. (0.14,0.80);
+
+  % the pot, whole and uncracked; broad belly, drawn-in neck, a flared lip
+  \filldraw[fill=faded!16!vellum, fill opacity=0.90,
+            draw=faded!84!ink, draw opacity=0.70, line width=0.88pt]
+    (-0.40,0.26)
+    .. controls (-0.42,0.02) and (-0.58,-0.02) .. (-0.64,-0.20)
+    .. controls (-0.78,-0.42) and (-0.76,-0.72) .. (-0.48,-0.86)
+    .. controls (-0.28,-0.96) and (0.28,-0.96) .. (0.48,-0.86)
+    .. controls (0.76,-0.72) and (0.78,-0.42) .. (0.64,-0.20)
+    .. controls (0.58,-0.02) and (0.42,0.02) .. (0.40,0.26)
+    -- cycle;
+
+  % the handle, set a little beyond the reaching hand
+  \draw[faded!76!ink, line width=0.68pt, opacity=0.54, line cap=round]
+    (0.58,0.06) .. controls (0.98,0.18) and (1.00,-0.24) .. (0.62,-0.30);
+
+  % the mouth: an ellipse, dark and empty within
+  \filldraw[fill=night, fill opacity=0.82,
+            draw=faded!84!ink, draw opacity=0.68, line width=0.80pt]
+    (0,0.26) ellipse (0.40 and 0.095);
+
+  % the saying changes by a hair: one fine rubric line drawn across the mouth,
+  % parting what was said from what is now only reported
+  \draw[rubric!55!faded, line width=0.42pt, opacity=0.46, line cap=round]
+    (-0.44,0.31) .. controls (0.00,0.37) and (0.00,0.25) .. (0.44,0.31);
+
+  % meal-fine dust on the shoulder; the sweet edge of glaze gone out on the wind
+  \foreach \p in {(-0.30,-0.10),(-0.16,0.02),(0.24,-0.04)}{
+    \fill[vellum, opacity=0.26] \p circle (0.010);
+  }
+
+  % the shadow under it, where it stands and keeps its place
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.28, line cap=round]
+    (-0.54,-0.98) .. controls (0.00,-1.02) and (0.00,-1.02) .. (0.54,-0.98);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.54)
+    {not heard from since};
+\end{tikzpicture}
