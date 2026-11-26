@@ -2,7 +2,7 @@
 
 - Chapters complete: **54**
 - Words of story: **905,692**
-- Current chapter: 54 (step: publish, scene 7)
+- Current chapter: 55 (step: plan, scene 1)
 - Last chapter: The Pot Not Heard From (Days 213–215 · Grain 4–6, Y.H. 813)
 - Author calls so far: 609 (tokens in 103,363,742, out 13,271,863)
 - Updated: 2026-11-26 20:16
