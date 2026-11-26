@@ -1,0 +1,78 @@
+\begin{tikzpicture}
+  % The chapter's heart: the warm stone taken from the unmarked clay pot in
+  % the loft, set on the sill where the finger's-width light finds its one
+  % smooth face, looked at a long while, and put back. A faint stone still
+  % lies in the pot: the same stone, held and returned, with no figure, no
+  % payer and no forgiving. The loop of the taking-out and the putting-back
+  % closes on itself and leaves the debt as it stood. Cold, unreconciled.
+
+  % the loft floor, carrying no figure and no keeping entered
+  \draw[faded, line width=0.40pt, dotted, opacity=0.20]
+    (-3.10,-1.10) -- (3.10,-1.10);
+
+  % the shaft from the finger's-width opening, kept to a thin grace
+  \fill[gold, opacity=0.040]
+    (2.44,0.24) -- (0.50,0.72) -- (0.50,1.02) -- (2.44,1.48) -- cycle;
+  \fill[gold, opacity=0.55] (2.44,0.20) rectangle (2.56,1.52);
+  \draw[faded!82!ink, line width=0.58pt, opacity=0.42]
+    (2.44,0.20) -- (2.44,1.52);
+  \draw[faded!82!ink, line width=0.58pt, opacity=0.42]
+    (2.56,0.20) -- (2.56,1.52);
+
+  % the loft sill, a separate plank; the stone rests on it in the light
+  \fill[faded!12!vellum, opacity=0.52] (-0.96,0.56) rectangle (0.96,0.66);
+  \draw[faded!82!ink, line width=0.78pt, opacity=0.58]
+    (-0.96,0.56) rectangle (0.96,0.66);
+  \draw[faded!52!ink, line width=0.40pt, opacity=0.24]
+    (-0.92,0.61) -- (0.92,0.61);
+
+  % the unmarked clay pot: no figure on it, no slate opened over it
+  \fill[faded!20!night, opacity=0.34]
+    (-0.55,-1.08) .. controls (-0.94,-0.60) and (-0.92,-0.12) .. (-0.60,0.00)
+    -- (0.60,0.00) .. controls (0.92,-0.12) and (0.94,-0.60) .. (0.55,-1.08) -- cycle;
+  \draw[faded!86!ink, line width=0.92pt, opacity=0.66]
+    (-0.55,-1.08) .. controls (-0.94,-0.60) and (-0.92,-0.12) .. (-0.60,0.00)
+    -- (0.60,0.00) .. controls (0.92,-0.12) and (0.94,-0.60) .. (0.55,-1.08) -- cycle;
+  \fill[night, opacity=0.52] (0,0.00) ellipse (0.60 and 0.11);
+  \draw[faded!86!ink, line width=0.92pt, opacity=0.66]
+    (0,0.00) ellipse (0.60 and 0.11);
+
+  % the faint stone still lying in the pot, two years gone and cold
+  \fill[faded!70!ink, opacity=0.06]
+    (-0.30,-0.30) .. controls (-0.36,-0.16) and (-0.14,-0.10) .. (0.06,-0.14)
+    .. controls (0.26,-0.18) and (0.32,-0.34) .. (0.18,-0.42)
+    .. controls (0.02,-0.50) and (-0.24,-0.44) .. (-0.30,-0.30) -- cycle;
+  \draw[faded, line width=0.40pt, dotted, opacity=0.30]
+    (-0.30,-0.30) .. controls (-0.36,-0.16) and (-0.14,-0.10) .. (0.06,-0.14)
+    .. controls (0.26,-0.18) and (0.32,-0.34) .. (0.18,-0.42)
+    .. controls (0.02,-0.50) and (-0.24,-0.44) .. (-0.30,-0.30) -- cycle;
+
+  % the stone held up: one smooth face turned to the light, the rest common
+  \fill[gold!24!faded, opacity=0.44]
+    (-0.44,0.78) .. controls (-0.54,0.98) and (-0.40,1.26) .. (-0.12,1.34)
+    .. controls (0.20,1.42) and (0.48,1.24) .. (0.50,0.99)
+    .. controls (0.52,0.76) and (0.24,0.64) .. (-0.02,0.66)
+    .. controls (-0.24,0.67) and (-0.38,0.68) .. (-0.44,0.78) -- cycle;
+  \draw[faded!88!ink, line width=0.95pt, opacity=0.72]
+    (-0.44,0.78) .. controls (-0.54,0.98) and (-0.40,1.26) .. (-0.12,1.34)
+    .. controls (0.20,1.42) and (0.48,1.24) .. (0.50,0.99)
+    .. controls (0.52,0.76) and (0.24,0.64) .. (-0.02,0.66)
+    .. controls (-0.24,0.67) and (-0.38,0.68) .. (-0.44,0.78) -- cycle;
+  \draw[gold!72!vellum, line width=1.25pt, opacity=0.72, line cap=round]
+    (0.04,1.22) .. controls (0.22,1.26) and (0.38,1.14) .. (0.44,0.98);
+  \fill[gold!80!vellum, opacity=0.78] (0.30,1.18) circle (0.032);
+
+  % the taking-out and the putting-back: one dotted loop that returns to
+  % where it began and enters nothing. The debt has not moved.
+  \draw[faded, line width=0.42pt, dotted, opacity=0.30]
+    (-0.30,0.06) .. controls (-0.72,0.22) and (-0.80,0.44) .. (-0.44,0.70);
+  \draw[faded, line width=0.42pt, dotted, opacity=0.30]
+    (0.40,0.70) .. controls (0.78,0.42) and (0.70,0.20) .. (0.32,0.04);
+  \fill[faded, opacity=0.32] (0.31,0.02) circle (0.020);
+
+  \node at (-4.55,0.12) {\pgfornament[width=1.0cm,color=ornament]{6}};
+  \node at ( 4.55,0.12) {\pgfornament[width=1.0cm,color=ornament,symmetry=v]{6}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.52)
+    {put back, and not forgiven};
+\end{tikzpicture}
