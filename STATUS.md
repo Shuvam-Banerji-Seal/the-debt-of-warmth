@@ -2,7 +2,7 @@
 
 - Chapters complete: **38**
 - Words of story: **616,736**
-- Current chapter: 38 (step: publish, scene 8)
+- Current chapter: 39 (step: plan, scene 1)
 - Last chapter: A Figure Held Edge-On (Days 153–159 · Tallow 4–10, Y.H. 813)
 - Author calls so far: 443 (tokens in 73,519,322, out 9,572,018)
 - Updated: 2026-11-26 10:22
