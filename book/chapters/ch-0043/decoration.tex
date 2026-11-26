@@ -1,0 +1,82 @@
+\begin{tikzpicture}
+  % the chapter's heart: the opening performed before the kiln. A hand
+  % goes to the mark at the throat, holds one breath, and goes to nothing
+  % after. The clay lid comes up off the mouth with the back of a hand and
+  % coal goes under the back of a broken pot; the fire takes. Heat is kept
+  % behind a screen and let through the gate of two bites, and the mouth
+  % answers four low pulls with the silence where the fifth should have
+  % been --- no payer named, no slate entered, nobody seeing what it mends.
+  % The cost goes to the pot.
+
+  % the flagstones under the mouth, carrying no figure
+  \draw[faded, line width=0.40pt, dotted, opacity=0.18]
+    (-2.40,-1.08) -- (2.40,-1.08);
+
+  % the kept heat, low behind the screen
+  \fill[gold, opacity=0.055] (0,-0.45) ellipse (1.04 and 0.53);
+
+  % the kiln mouth: a dark arch, vessel-opening, not a room
+  \fill[night, opacity=0.54]
+    (-0.95,-0.95) -- (0.95,-0.95) -- (0.95,-0.25) arc (0:180:0.95) -- cycle;
+  \draw[faded!82!ink, line width=0.92pt, opacity=0.64]
+    (-0.95,-0.95) -- (0.95,-0.95) -- (0.95,-0.25) arc (0:180:0.95) -- cycle;
+  \draw[faded!48!ink, line width=0.40pt, opacity=0.26]
+    (-0.76,-0.95) -- (-0.76,-0.25) arc (180:0:0.76) -- (0.76,-0.95);
+
+  % four low pulls, and the silence where the fifth should have been
+  \foreach \hx/\hh in {-0.52/-0.17,-0.18/-0.05,0.18/-0.11,0.52/-0.21}{
+    \draw[rubric!40!faded, line width=0.92pt, opacity=0.56, line cap=round]
+      (\hx,-0.78) .. controls (\hx-0.05,-0.55) and (\hx+0.05,-0.41) .. (\hx,\hh);
+  }
+  \draw[faded, line width=0.42pt, dotted, opacity=0.32, line cap=round]
+    (0.80,-0.78) .. controls (0.84,-0.62) and (0.82,-0.53) .. (0.80,-0.45);
+  \fill[faded, opacity=0.30] (0.80,-0.43) circle (0.020);
+
+  % the broken pot set under the coal, its rim with a place gone
+  \draw[faded!56!ink, line width=0.52pt, opacity=0.30]
+    (-0.42,-0.56) .. controls (0,-0.82) and (0,-0.82) .. (0.42,-0.56);
+  \draw[faded!56!ink, line width=0.52pt, opacity=0.30]
+    (-0.47,-0.56) -- (-0.16,-0.56);
+  \draw[faded!56!ink, line width=0.52pt, opacity=0.30]
+    (0.12,-0.56) -- (0.47,-0.56);
+
+  % the gate of two bites, letting the kept heat through
+  \draw[faded!84!ink, line width=0.88pt, opacity=0.62, line cap=round]
+    (-0.11,-0.95) -- (-0.11,-0.63);
+  \draw[faded!84!ink, line width=0.88pt, opacity=0.62, line cap=round]
+    (0.11,-0.95) -- (0.11,-0.63);
+  \fill[rubric!55!faded, opacity=0.62] (-0.11,-0.61) circle (0.034);
+  \fill[rubric!55!faded, opacity=0.62] ( 0.11,-0.61) circle (0.034);
+
+  % the clay lid, lifted off and tilted, a gap showing where the coal went
+  \fill[faded!14!vellum, opacity=0.74]
+    (-1.20,0.74) -- (0.78,1.06) -- (0.88,1.24) -- (-1.10,0.92) -- cycle;
+  \draw[faded!86!ink, line width=0.94pt, opacity=0.70]
+    (-1.20,0.74) -- (0.78,1.06) -- (0.88,1.24) -- (-1.10,0.92) -- cycle;
+  \draw[faded!52!ink, line width=0.42pt, opacity=0.28]
+    (-1.06,0.85) -- (0.80,1.15);
+  \foreach \gx/\gy in {0.36/0.64,0.56/0.59,0.72/0.66}{
+    \fill[ink, opacity=0.52] (\gx,\gy) circle (0.034);
+  }
+
+  % the widow's mark at the throat, small and rubric, held one breath
+  \draw[rubric, line width=1.08pt, opacity=0.72, line cap=round]
+    (-2.45,0.62) -- (-2.45,0.30);
+  \draw[rubric, line width=1.08pt, opacity=0.72, line cap=round]
+    (-2.61,0.46) -- (-2.29,0.46);
+  \fill[rubric!70!gold, opacity=0.70] (-2.45,0.46) circle (0.044);
+
+  % the hand goes to the mark before the kiln: a solid instruction reaching
+  % the lifted lid; after the kiln it goes to nothing, a stub that stops
+  \draw[faded!78!ink, line width=0.76pt, opacity=0.56, line cap=round]
+    (-2.29,0.46) .. controls (-1.90,0.62) and (-1.50,0.73) .. (-1.16,0.80);
+  \draw[faded, line width=0.42pt, dotted, opacity=0.32, line cap=round]
+    (-2.61,0.46) .. controls (-2.95,0.42) and (-3.16,0.36) .. (-3.40,0.28);
+  \fill[faded, opacity=0.30] (-3.42,0.27) circle (0.020);
+
+  \node at (-4.62,0.16) {\pgfornament[width=1.0cm,color=ornament]{12}};
+  \node at ( 4.62,0.16) {\pgfornament[width=1.0cm,color=ornament,symmetry=v]{12}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.52)
+    {the hand goes to the mark before the kiln};
+\end{tikzpicture}
