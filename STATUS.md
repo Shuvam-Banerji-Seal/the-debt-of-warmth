@@ -2,7 +2,7 @@
 
 - Chapters complete: **39**
 - Words of story: **630,098**
-- Current chapter: 39 (step: publish, scene 6)
+- Current chapter: 40 (step: plan, scene 1)
 - Last chapter: The Sentence Finished (Days 160–162 · Tallow 11–13, Y.H. 813)
 - Author calls so far: 452 (tokens in 75,025,047, out 9,787,397)
 - Updated: 2026-11-26 10:48
