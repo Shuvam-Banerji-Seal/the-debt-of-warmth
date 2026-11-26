@@ -1,0 +1,81 @@
+\begin{tikzpicture}
+  % The chapter's heart: the inch asked again, three askings in three days
+  % held three ways. On the third night the hand goes up and stays through
+  % the whole counted breath and into the letting go, coming down with the
+  % breath rather than before it --- a coordination, not a reach and not a
+  % greater reach, worth nothing, filed on a place of its own. The old
+  % ghost askings stay beside it, shorter, and become no rule.
+
+  % the fold of wool under the boy, the body that cannot close two inches
+  \draw[faded!70!ink, line width=0.60pt, opacity=0.26]
+    (-3.20,-0.90) .. controls (-2.30,-1.08) and (-1.30,-1.08) .. (-0.58,-0.90);
+
+  % the fire counted at, in the room that does not touch this one
+  \fill[gold, opacity=0.09] (-4.40,0.62) circle (0.24);
+  \draw[gold!68!faded, line width=0.70pt, opacity=0.50, line cap=round]
+    (-4.40,0.44) .. controls (-4.30,0.62) and (-4.50,0.70) .. (-4.40,0.84);
+  \draw[faded, line width=0.38pt, dotted, opacity=0.22]
+    (-4.12,0.62) .. controls (-3.60,0.62) and (-3.10,0.58) .. (-2.70,0.48);
+
+  % the counted breath, spanning the width: small intake, hold, letting go
+  \draw[gold!55!faded, line width=1.05pt, opacity=0.62, line cap=round]
+    (-0.90,-0.28) .. controls (-0.46,0.34) and (-0.10,0.44) .. (0.24,0.44);
+  \draw[gold!55!faded, line width=1.05pt, opacity=0.62, line cap=round]
+    (0.24,0.44) -- (1.86,0.44);
+  \draw[gold!55!faded, line width=1.05pt, opacity=0.62, line cap=round]
+    (1.86,0.44) .. controls (2.80,0.42) and (3.46,-0.18) .. (4.30,-0.32);
+
+  % three earlier askings, ghost traces, dotted, each shorter, none a rule
+  \draw[faded, line width=0.52pt, dotted, opacity=0.34, line cap=round]
+    (-2.36,-0.32) .. controls (-2.22,0.06) .. (-2.10,-0.30);
+  \draw[faded, line width=0.48pt, dotted, opacity=0.26, line cap=round]
+    (-2.02,-0.34) .. controls (-1.94,-0.10) .. (-1.86,-0.32);
+  \draw[faded, line width=0.44pt, dotted, opacity=0.20, line cap=round]
+    (-1.72,-0.36) .. controls (-1.68,-0.26) .. (-1.64,-0.35);
+
+  % the hand, palm turned up, outside the wool
+  \fill[faded!28!vellum, opacity=0.52]
+    (-2.52,-0.78) .. controls (-2.60,-0.44) and (-2.30,-0.24) .. (-2.02,-0.30)
+    .. controls (-1.80,-0.36) and (-1.74,-0.60) .. (-1.84,-0.78)
+    .. controls (-2.02,-0.94) and (-2.36,-0.94) .. (-2.52,-0.78) -- cycle;
+  \draw[faded!84!ink, line width=0.86pt, opacity=0.62]
+    (-2.52,-0.78) .. controls (-2.60,-0.44) and (-2.30,-0.24) .. (-2.02,-0.30)
+    .. controls (-1.80,-0.36) and (-1.74,-0.60) .. (-1.84,-0.78)
+    .. controls (-2.02,-0.94) and (-2.36,-0.94) .. (-2.52,-0.78) -- cycle;
+  \foreach \fx in {-2.42,-2.24,-2.06,-1.90}{
+    \draw[faded!74!ink, line width=0.48pt, opacity=0.40, line cap=round]
+      (\fx,-0.30) .. controls (\fx+0.02,-0.10) .. (\fx+0.06,-0.02);
+  }
+  \draw[faded!70!ink, line width=0.48pt, opacity=0.34, line cap=round]
+    (-1.86,-0.56) .. controls (-1.68,-0.52) and (-1.62,-0.38) .. (-1.66,-0.26);
+
+  % the inch, measured by nobody, from fold to lifted palm
+  \draw[faded, line width=0.40pt, dotted, opacity=0.38]
+    (-2.86,-0.72) -- (-2.86,-0.14);
+  \draw[faded!70!ink, line width=0.52pt, opacity=0.42]
+    (-2.96,-0.72) -- (-2.76,-0.72);
+  \draw[faded!70!ink, line width=0.52pt, opacity=0.42]
+    (-2.96,-0.14) -- (-2.76,-0.14);
+  \node[font=\FellFont\itshape\small, text=faded, opacity=0.78] at (-3.04,0.16)
+    {an inch};
+
+  % the longest holding: the hand goes up and joins the plateau, rides the
+  % hold, and comes down with the letting go --- two lines converge into one
+  % descent, a coordination, not a reach
+  \draw[rubric!52!faded, line width=0.92pt, opacity=0.58, line cap=round]
+    (-2.10,-0.30) .. controls (-1.40,0.06) and (-0.60,0.38) .. (0.24,0.44);
+  \draw[rubric!52!faded, line width=0.86pt, opacity=0.56, line cap=round]
+    (1.86,0.50) .. controls (2.82,0.50) and (3.46,-0.12) .. (4.30,-0.32);
+  \fill[rubric!60!faded, opacity=0.50] (0.24,0.44) circle (0.030);
+  \fill[rubric!60!faded, opacity=0.44] (3.00,0.12) circle (0.026);
+
+  % the sixth place, filed apart: a short mark and a dot, touching no count
+  \draw[faded!70!ink, line width=0.54pt, opacity=0.34] (3.30,-1.10) -- (3.76,-1.10);
+  \fill[faded!60!ink, opacity=0.34] (3.53,-1.02) circle (0.024);
+
+  \node at (-4.62,1.16) {\pgfornament[width=1.5cm,color=ornament,opacity=0.72]{6}};
+  \node at ( 4.62,1.16) {\pgfornament[width=1.5cm,color=ornament,symmetry=v,opacity=0.72]{6}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.58)
+    {held into the letting go};
+\end{tikzpicture}
