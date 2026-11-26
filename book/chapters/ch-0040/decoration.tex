@@ -1,0 +1,64 @@
+\begin{tikzpicture}
+  % the chapter's heart: the hand that goes BENEATH the loaf shelf.
+  % The board carries its row and its two unnamed gaps and says nothing;
+  % under the front edge the charcoal lies waiting, unread and with no
+  % figure. A finger comes up from underneath, holds for the length of
+  % one counted breath, and is taken away without a look. The beat is
+  % filed on a place of its own --- a small closed ring the dotted line
+  % approaches but never joins --- held and unspoken, not a reading,
+  % not a payment, not made a pair with the other fractions into a rule.
+  % The road knows the weight it is not asked to read.
+
+  % the board, drawn long and low, its front edge the line the hand knows
+  \fill[faded!12!vellum, opacity=0.62]
+    (-3.85,0.12) -- (3.85,0.12) -- (3.68,0.47) -- (-3.68,0.47) -- cycle;
+  \draw[faded!82!ink, line width=0.92pt, opacity=0.60]
+    (-3.85,0.12) -- (3.85,0.12) -- (3.68,0.47) -- (-3.68,0.47) -- cycle;
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.32]
+    (-3.62,0.23) -- (3.62,0.23);
+  \draw[faded!48!ink, line width=0.40pt, opacity=0.24]
+    (-3.30,0.38) -- (3.32,0.38);
+
+  % the row above, suggested in low arcs; two spaces stay where they are,
+  % the old place at the row's end and the palm's breadth, unnamed
+  \foreach \lx in {-3.05,-2.24,-1.43,0.62,1.43,2.24,3.05}{
+    \draw[faded!72!ink, line width=0.62pt, opacity=0.34]
+      (\lx-0.28,0.48) .. controls (\lx,0.86) and (\lx+0.02,0.86) .. (\lx+0.28,0.48);
+  }
+  \draw[faded, line width=0.40pt, dotted, opacity=0.26] (-0.98,0.50) -- (-0.28,0.50);
+  \draw[faded, line width=0.40pt, dotted, opacity=0.26] (0.00,0.50) -- (0.30,0.50);
+
+  % the charcoal tally beneath the front edge: short uneven marks,
+  % none of them gathered into a figure, waiting for a hand that is not his
+  \foreach \cx/\cl in {0.42/0.10,0.79/0.06,1.12/0.13,1.63/0.08,1.99/0.11,2.41/0.05}{
+    \draw[faded!58!ink, line width=0.72pt, opacity=0.30, line cap=round]
+      (\cx,0.01) -- (\cx+\cl,0.13);
+  }
+
+  % the hand from underneath --- not a reach from the road, but a finger
+  % rising under the board and resting against its underside
+  \draw[faded!84!ink, line width=0.98pt, opacity=0.60, line cap=round]
+    (-1.72,-1.52) .. controls (-1.64,-0.82) and (-1.24,-0.24) .. (-0.86,0.07);
+  \draw[faded!78!ink, line width=0.84pt, opacity=0.48, line cap=round]
+    (-1.16,-1.52) .. controls (-1.10,-0.80) and (-0.80,-0.27) .. (-0.62,0.02);
+  \fill[rubric!58!faded, opacity=0.70] (-0.75,0.06) circle (0.052);
+  \draw[faded, line width=0.40pt, dotted, opacity=0.26]
+    (-0.68,0.00) -- (-0.68,-0.22);
+
+  % one counted breath, held: the dotted line comes near and stops short,
+  % and the small closed ring is kept on a place of its own
+  \draw[faded, line width=0.42pt, dotted, opacity=0.28]
+    (-0.70,-0.24) .. controls (-0.10,-0.44) and (0.18,-0.74) .. (0.58,-0.86);
+  \draw[faded!70!ink, line width=0.58pt, opacity=0.44] (1.06,-0.88) circle (0.135);
+  \fill[rubric!46!faded, opacity=0.54] (1.06,-0.88) circle (0.032);
+
+  % a faint road going off under it all, carrying no figure that can be read
+  \draw[faded, line width=0.42pt, dotted, opacity=0.18]
+    (2.10,-1.24) .. controls (3.20,-1.16) and (4.10,-1.10) .. (4.90,-1.06);
+
+  \node at (-4.63,-0.42) {\pgfornament[width=1.0cm,color=ornament]{94}};
+  \node at ( 4.63,-0.42) {\pgfornament[width=1.0cm,color=ornament,symmetry=v]{94}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.52)
+    {one breath beneath the board, unread};
+\end{tikzpicture}
