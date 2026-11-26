@@ -1,0 +1,64 @@
+---
+name: Hessa Rale
+epithet: "the woman who carries the figure and never reads it"
+aliases: [Hessa, Hessa of Slate Row, the runner, the slate-runner]
+role: other
+born: "unknown; a woman of Slate Row, Sill, Grath"
+species: human (Grathic)
+origin: "Slate Row, Sill, Grath"
+affiliation: "carries slates between the Cross at Sill and Greybank for the Thane of Clay; no house of her own spoken of"
+status: "alive — first seen on Day 158, Tallow 9, carrying Berr Clay's narrow slate edge-on through the Clay Yard; seen again on the first Account-day of Tallow carrying it up the clay road toward Greybank, hand to slate before eye to the crowd, no figure read by anyone"
+first_appearance: 38
+---
+
+## Appearance
+
+A woman of thirty-odd years with the drained, level face of somebody who has walked the same road too often to measure it any more. Nothing about her is arranged for looking at: her coat is shortened at the skirt for the road's mud, and the mud has dried on it in a pale scurf which she does not brush off, because a runner's coat is a tool and nobody scours a tool for its own sake. A strap crosses her chest and a second, shorter strap has been let out to take the weight when the road is long; she settles both without seeming to, the way a person settles a burden that has become part of the walk. Her hands are the hands of a woman who carries and does not open. The fingers close on a slate's edge with a working looseness, the thumb lies along the grain of the frame, and nothing presses where the writing is. She holds the slate edge-on to her own forearm so that the face of it turns toward her sleeve and the writing looks at nobody. That is not concealment: it is the manner of carrying a slate so the writing is not rubbed and no goer-by takes a figure off it without a hand to put there. She moves at the pace of a person who has made a bargain with distance and keeps it without thinking. What people notice first is the slate; what they notice last, if they notice at all, is that her hand went to it before her eyes went to them.
+
+## Voice & Manner
+
+Clipped, practical, the grammar of the road rather than the Court. She answers the question actually put and not the one behind it, and she is done with a conversation when the road is done with it, without rudeness and without apology. She never pronounces, never reads aloud, never says *the account* or *the figure* where *the slate* will do. Her sentences are short and complete; what she will not carry she leaves standing where it was set down, the way a man leaves a pot where there is no hand to carry it. A slight dry amusement goes with the road and not with people.
+
+- “I don't read it. I carry it. There's a difference, and the road doesn't care which.”
+- “Cross to Greybank. Reading goes up before noon. I've got a road to walk.”
+- “Ask the road. It knows the way and I know the weight. That's the whole of what either of us knows.”
+
+## History
+
+She comes out of Slate Row, where the Court's tables and the Waiting Room stand and where a person can be made answerable for a thing merely by having touched it. She took up running because it was work that could be measured in the legs and kept in the hands: a slate goes from the Cross to Greybank and back, and what is written on it belongs to the person who set it down. Over the years she has carried slates for the assessor's house, for the collector's table at the Cross, and for Berr Clay the Thane, whose narrow slate goes up the clay road ahead of the reading and comes back with the true subtraction nobody in Sill has been shown. She has never been asked to read one and has never offered. The district is full of people who put a hand to a record before they put an eye to a person; she is one of them and does not know it, or does not think about it, which amounts to the same thing from the outside. She knows the road in all weathers, knows which ruts hold water and which stretch of the clay road dries pale in scurf, and has made a bargain with distance that she keeps without thinking. Nothing in her history has yet made her a reader of anyone's private keeping, and she is careful that nothing does.
+
+## Wounds & Fears
+
+No wound is spoken of. Her hands carry the small wear of a working person who grips an edge and not a face: nails short, thumb callused along one side from the frame of a slate, the skin at the wrist hardened by a strap. She fears a slate rubbed blank in a coat, a strap parting on the road, and being made answerable for a figure she did not set down; these are the fears of a carrier, not of a clerk. She has seen what happens to a person in Slate Row who is caught between a figure and the person it is about, and she keeps her own face turned toward the sleeve.
+
+## Desires
+
+She wants the road kept, the slates delivered whole, and to be paid for carrying and never for knowing. She thinks she wants nobody to take an interest in what she carries. What she needs, years from now, is harder: to understand that a figure is not a thing that travels by itself, and that the hand which lays the district's separate keepings together will one day be a hand like hers — a carrier's hand that has learned, too late, what it has been carrying. That day is far off and she is not yet part of it.
+
+## Bonds
+
+**Berr Clay, the Thane of Clay** — she carries his narrow slate between the Cross and Greybank and does not read it. He is a good reason in a neat hand; she is the road under it. On Day 158 his cord was spoken of as a direction up the clay road, and on Day 159 she took the slate up that road ahead of the reading, after he had called the levy and denied it with *your house*, never *I*. No loyalty is spoken and no figure passes between them.
+
+**The Cross and Greybank** — the two ends of her road. At the Cross the reading goes up before noon; at Greybank the factor and the bank are. She joins the two places without ever joining what is written at either.
+
+**Sella Vail and the Vail basket** — on Day 158 she came through the Clay Yard and Sella carried the boy past at the half-pace, gave the house no name for the slate and did not say whose it was. Neither woman asked the other anything. At the Cross on Day 159 Sella set the basket in the moot-post's shade where no slate lay.
+
+**The boy under the Vail roof** — he does not know her name and she has not looked into the basket. He saw the order of her reaching and filed it as the eighth record-first hand in the district, on a place of its own, joined to none. She has no idea she has been filed.
+
+## Arc So Far
+
+She enters in the firing month of Y.H. 813, on the eve of the first Account-day of Tallow, and is seen twice: once coming through the Clay Yard from the direction of the Cross with Berr Clay's narrow slate held edge-on to her forearm, and once the next morning taking it up the clay road toward Greybank. In the yard a woman asked what the levy would take now the kilns had been brought up and hands were in the month; Hessa answered that she did not read it, she carried it, that there was a difference and the road did not care which; when the woman wanted more she said *Cross to Greybank. Reading goes up before noon. I've got a road to walk* and went on through the yard, leaving the question standing where it had been set down. Her hand went to the slate before her eyes went to the people, the small flat correction of the strap and a turn of the wrist to bring the edge round. To the boy that order of reaching is an eighth such hand-shape in the district, kept on its own place beside Marra's pause, the neat dark hand, the Court-table clerk, the soft-cuffed clerk at the landing, the soft hands at Slate Row, Berr's twice-wiped thumb and the finger that goes beneath the Vail loaf shelf. He does not let eight likenesses trouble him into a rule, for a rule wants a payer and no payer has been named to any of them. At the Cross on the Account-day she came through again with the slate edge-on, hand to slate before eye to the crowd, and went up the clay road with the writing turned to her sleeve; no figure came off it under any roof in Sill. She is a runner and not a reader of anyone's private keeping, and the figure on the slate remained what figures on carried slates remained in this district: a thing somebody else had set down and nobody here had read.
+
+## Chapter Log
+
+- Ch 38: First appearance. On Day 158, Tallow 9, came through the Clay Yard from the direction of the Cross with Berr's narrow slate, held edge-on to her forearm; hand to slate before eye to the yard, coat shortened and dried road mud in pale scurf, two straps, thumb along the frame and nothing pressing where the writing was. To a woman who asked what the levy would take: *I don't read it. I carry it. There's a difference, and the road doesn't care which*; to the woman who wanted more: *Cross to Greybank. Reading goes up before noon. I've got a road to walk*. Filed by the boy as an eighth record-first hand on a place of its own, joined to none (T080 advanced, not paid); no figure read, no slate opened. On Day 159, the first Account-day of Tallow, came through the square again taking the slate up the clay road toward Greybank, hand to slate before eye to the rails, edge-on, writing toward her sleeve; stood apart from the soft-cuffed clerk's inward slate, two records going inward and the resemblance a shape and not a cause. No new scar or possession, no change of voice, no bond paid.
+
+## Secrets (private)
+
+1. She can read perfectly well. She chose not to, years ago, after carrying a slate whose figure named a person she knew; that is the reason she turned the edge to her sleeve and made a manner of it. Nobody in the district knows she chose.
+2. She has carried both figures — the printed one in twelve that Berr reads aloud and the true subtraction that goes back in the locked box — without ever letting the two touch in her hands. One day somebody will ask her to lay them together, and she will know more than she has ever said.
+3. The second, shorter strap was let out after a winter of long roads, not for the weight but because she wanted a reason to keep walking past Slate Row rather than into it.
+
+## Plans (private)
+
+She is to be seen again on the second Account-day of Tallow (Tallow 20) with the same order of reaching, still a runner, still unjoined to Marra, the clerks, the twice-wiped thumb, the finger beneath the shelf or the other record-first hands; her slate remains unread. Her road between the Cross and Greybank gathers interest across the firing months toward the far-off day a hand like hers will lay the district's private records together and call the joining an account — and toward the moment she must choose whether to read the figure she has carried for years. She is not a reader of anyone's private keeping yet, and must not be made one early, not joined to any withholding, and never made a convenient answer to the boy's questions. If she is given a second speaking appearance, keep the clipped road-grammar and the difference between carrying and reading intact; do not let her explain the world to him.
