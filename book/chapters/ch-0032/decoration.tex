@@ -1,0 +1,49 @@
+\begin{tikzpicture}
+  % the chapter's heart: the word brought a fifth time to the teeth and held
+  % there --- five stoppings, each an interval with its word stopped short of
+  % the gate, none passed, none counted into an account. A clear space is kept
+  % between every word and the teeth; the fifth is pressed a little nearer and
+  % still does not go through. No line joins the five, and no sixth is filled.
+
+  \fill[gold, opacity=0.036] (0,-0.04) ellipse (4.96 and 1.06);
+
+  % the gate of teeth: a shallow arc with small hanging teeth
+  \draw[faded!82!ink, line width=0.88pt, opacity=0.60]
+    plot[domain=-3.95:3.95, samples=48] (\x, {0.92+0.30*(\x/3.95)*(\x/3.95)});
+  \foreach \tx in {-3.6,-3.1,-2.6,-2.1,-1.6,-1.1,-0.6,-0.1,0.4,0.9,1.4,1.9,2.4,2.9,3.4}{
+    \pgfmathsetmacro{\aty}{0.92+0.30*(\tx/3.95)*(\tx/3.95)}
+    \draw[faded!74!ink, line width=0.80pt, opacity=0.48]
+      (\tx,\aty) -- (\tx,\aty-0.21);
+    \fill[faded!62!ink, opacity=0.20] (\tx,\aty-0.21) circle (0.022);
+  }
+
+  % five held words: each a measured span with its ends, the word stopped at
+  % the top, and a faint reach toward the teeth that is not completed
+  \foreach \sx/\fifth in {-2.85/0, -1.43/0, 0/0, 1.43/0, 2.85/1}{
+    \pgfmathsetmacro{\ayarc}{0.92+0.30*(\sx/3.95)*(\sx/3.95)}
+    \pgfmathsetmacro{\wytop}{\ayarc - 0.30 - 0.06*\fifth}
+    \pgfmathsetmacro{\wybase}{\wytop - 0.78}
+    \draw[faded!84!ink, line width=0.92pt, opacity=0.62]
+      (\sx,\wybase) -- (\sx,\wytop);
+    \draw[faded!80!ink, line width=0.72pt, opacity=0.52]
+      (\sx-0.11,\wybase) -- (\sx+0.11,\wybase);
+    \draw[faded!80!ink, line width=0.72pt, opacity=0.52]
+      (\sx-0.11,\wytop) -- (\sx+0.11,\wytop);
+    \draw[rubric!68!ink, line width=1.05pt, opacity=0.70]
+      (\sx-0.09,\wytop+0.10) -- (\sx+0.09,\wytop+0.10);
+    \draw[faded, line width=0.45pt, dotted, opacity=0.24]
+      (\sx,\wytop+0.14) -- (\sx,\ayarc-0.24);
+    \draw[faded, line width=0.45pt, dotted, opacity=0.20]
+      (\sx-0.13,\wybase-0.16) -- (\sx+0.13,\wybase-0.16);
+  }
+
+  % the fifth stopping, pressed nearer the word and still held
+  \pgfmathsetmacro{\fifthtop}{0.92+0.30*(2.85/3.95)*(2.85/3.95) - 0.36}
+  \fill[rubric!72!ink, opacity=0.58] (2.85,\fifthtop+0.20) circle (0.032);
+
+  \node at (-4.92,-0.06) {\pgfornament[width=1.05cm,color=ornament]{16}};
+  \node at ( 4.92,-0.06) {\pgfornament[width=1.05cm,color=ornament,symmetry=v]{16}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.48)
+    {five at the teeth, and no word paid};
+\end{tikzpicture}

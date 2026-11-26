@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **31**
-- Words of story: **487,823**
-- Current chapter: 32 (step: plan, scene 1)
-- Last chapter: Four at the Teeth (Days 132–134 · Reed 13–15, Y.H. 813)
-- Author calls so far: 365 (tokens in 59,275,152, out 7,925,864)
-- Updated: 2026-11-26 06:08
+- Chapters complete: **32**
+- Words of story: **505,262**
+- Current chapter: 32 (step: publish, scene 8)
+- Last chapter: Five at the Teeth (Days 135–137 · Reed 16–18, Y.H. 813)
+- Author calls so far: 376 (tokens in 61,119,322, out 8,160,438)
+- Updated: 2026-11-26 06:39
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
