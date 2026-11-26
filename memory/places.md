@@ -978,6 +978,8 @@ A blue-grey stained stream running off an old working nobody will admit to, said
 Four kilns and a shared clay pit, in permanent feud with Sill over the road.
 **Relations:** 8 leagues west of Sill; Stonemouth about 3 leagues east; the Rim Road passes north of it.
 
+*The close ground of the hamlet drawn on `atlas/nine-pots`: the four kilns, the shared clay pit, the potters' houses and worked strips, the feud road forded over the Ferr toward Sill, Stonemouth three leagues east at the meeting of the Ferr and the Ilm, the Lead Run and the Rim Road passing north. Direction is from the hamlet's moot-post.*
+
 ### Greybank
 **Kind:** granary town. **Region:** Grath, eastern gate.
 The Court's granary and factor's house, where the Clay Road ends and the Hearth Road begins; the first place a Sill man sees the Court at full size. On Ilmen 26, Y.H. 813 a man come downriver from Greybank, road-mud on his boots, told the bucket-round at Low Kiln's yard well that in the last war a counting room was shut with the damper closed and the men inside died of the breath; he said it as a curiosity with a date, eighteen leagues east, and went back down the road he came. The yard took it for history and nobody joined the sealed room to any kiln in Sill (T065). On Silt 25, Y.H. 813 a second man come downriver from Greybank with road-mud on his boots and a bag repeated the saying at the same well as a curiosity with a date; the yard took it as history again and nobody joined it to any kiln, while the boy filed the second telling beside the first without letting the two touch, keeping breath through the nose against breath in the throat and both saying *not the war's hand* (T095).

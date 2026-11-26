@@ -89,3 +89,33 @@
 - The pan's gone place, the shelf's two gaps, the fold's crust and gap, the field's empty place and T098 stay on separate trays; no third gap, no fourth likeness, no finger drawn.
 - No seventh hearing, no sixth sighting of the neat dark hand, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin or box opened, no silt-leach named, no collector for Dessa, no Marra in Sill and no ending occurred in Chapters 31–40; preserve all through Chapter 41.
 - Every day from Day 1 to Day 169 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 170 onward.
+
+---
+
+## Chapter 50 audit
+
+*Sources: the Chronicles and Continuity sections of `book/chapters/ch-0041`–`ch-0050/summary.md`, the sheets of everyone on or near stage (`sella-vail`, `tarn`, `jorra-vail`, `berr-clay`, `hessa-rale`, `mira-silt`, `orra-weir`, `alda-reed`, `dessa-silt`, `ulda`, `fenna-clay`), `characters/_minor.md`, `memory/state.md`, `memory/timeline.md`, `memory/places.md`, `plan/threads.md`, `plan/next.md` and `bible/calendar.md`. The Day 203 snapshot, the one-per-day timeline through Day 203, the place gazetteer, the character chapter logs and the thread table were sound; no scene file was touched.*
+
+### Drifts fixed in the Chapter 50 pass
+
+1. **`memory/story-so-far.md`** — was still the Chapter 40 consolidation (Day 169, 64 planted/35 open/1 paid, one opening). Rewritten through Chapter 50 and organised by arc: B1–B12 compressed heavily, B13 (Ch 41–50) given fuller detail, with the Day 171 third held change, the Day 180 second opening, the Day 183 loft-sill scrape, the Day 188 carried glaze-room hand and T064's planting, the five new places on the boy's trays, the two Ember Account-days, the held inch ending in a coordination with the river's rhythm, and the Day 203 snapshot carried forward. 6,997 words, inside the 7,000-word cap. The tally is corrected to 65 planted/34 open/1 paid.
+2. **`memory/digests/ch-0041-0050.md`** — created: a 1,997-word digest of Chapters 41–50 with chapter numbers, events, the absence of deaths and payoffs, the three held changes plus the fourth, fifth and sixth places, the two readings of Ember, the carried man, and the unchanged power and relationship state.
+3. **`characters/fenna-clay.md`** — three forward markers still said her speaking debut "stays planned for Ch 40" (History Ch 10, Chapter Log Ch 5 and Ch 10), although the Chapter 40 audit had deferred it. Corrected all three to say the planned Ch 40 debut was deferred and stays planned for a later chapter. The sheet's `first_appearance: 5` and its "Arc So Far" entry were already correct.
+
+### Contradictions not fixed, with a plan to reconcile in the story
+
+17. **The "ninety-six days" interval in Ch 41, scene 5.** The scene renders the Seed 16 breath's interval as having stood "for ninety-six days"; by `bible/calendar.md` Seed 16 is Day 106, sixty-six days before Day 172. Already flagged in Ch 41's summary; the memory files keep the simpler canon --- "the Seed 16 breath unspent, its small interval standing at the top of each reach" --- and the digest omits the number. *Plan:* do not propagate ninety-six, do not build a figure on it and do not rewrite the finished scene; if a chapter ever needs the interval stated, compute from Day 106.
+18. **The green and the foundling keep the number six across reappearances.** The sixth green at a mouth and the foundling's sixth half-turn were established on Day 149 (Ch 36). Ch 42, 46 and 49 show each again but call them "the sixth green" and "the foundling's sixth half-turn" with "no seventh of either"; `characters/_minor.md` and the sheets do the same. Read literally the reappearances would be a seventh, eighth and ninth sighting. *Plan:* treat "the sixth" as the label of the recurring object, re-seen rather than re-numbered; keep no seventh of either kind until a scene deliberately gives the green a name or a voice, or the foundling a loaf, slate or sale, at which point amend `characters/_minor.md` and the sheets together. Do not number the reappearances in narration.
+19. **Two openings, but recent chapters say "the one opening."** Sella touched the widow's mark before the kiln on Tallow 1 (Day 150) and again on Ember 1 (Day 180); Ch 44–50 speak of "the one opening" because only the Ember one is recent. *Plan:* keep both openings as canon, one before the first firing of each firing month, each held one breath and followed by no other touch; read "the one opening" in Ch 44–50 as the Ember opening. Do not stand a third up and do not erase Day 150.
+
+### Carried forward, still unresolved
+
+Items 1–5 (Dan's and Nina's birth years, Orra's presence at the birth, the stone above Dessa's bed, the rank list, Ulda's numbering), 6–10 (Dessa's mornings, the cold foot appearing twice, Ulda's glimpse count, the Ch 20 bell slip, Alda's sign count), 15 (Fenna's speaking debut --- now explicitly deferred in her sheet) and 16 (`plan/next.md`'s "eighth month" wording) remain as written above. None may be settled on the page before its planned chapter.
+
+### Minor watch items after Chapter 50
+
+- The nine stoppings are still nine; the ear-sentence came to the word on every day of Ch 41–50 and no tenth stood up. The seventh year is nearer its end than ever and has not given.
+- Three held changes stand on three places (Days 161, 166, 171), the loft scrape on a fourth, the pale line on a fifth and the held inch on a sixth; no payer is named to any and none may stand up together as a rule.
+- The man carried out on Day 188 went up the road breathing; neither reading answered for him, no Grathic cause was named, no collector was called and no offstage fate may be invented.
+- Sixth green a colour, foundling a shape, no seventh of either; Marra out of Sill; no seventh hearing, no sixth sighting of the neat dark hand, no seventh Alda note, no silt-leach named, no tin or slate opened, no Dessa name or number spoken to the boy and no ending.
+- Every day from Day 1 to Day 203 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 204 onward.
