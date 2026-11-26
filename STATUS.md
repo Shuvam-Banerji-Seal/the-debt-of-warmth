@@ -2,7 +2,7 @@
 
 - Chapters complete: **53**
 - Words of story: **886,201**
-- Current chapter: 53 (step: publish, scene 7)
+- Current chapter: 54 (step: plan, scene 1)
 - Last chapter: The Unmarked Turning (Days 210–212 · Grain 1–3, Y.H. 813)
 - Author calls so far: 599 (tokens in 101,599,712, out 13,061,638)
 - Updated: 2026-11-26 19:47
