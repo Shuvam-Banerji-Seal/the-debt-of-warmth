@@ -1,0 +1,67 @@
+\begin{tikzpicture}
+  % The chapter's heart: the fold of wool. The bundle comes in on the arm
+  % and is covered; the flail brings it out dressed, and it is poured back
+  % under the fold and kept by being covered. It has gained no figure. The
+  % chaff went up on the river wind and was entered by nobody; a cost asked
+  % is answered with the pot and the weather, and the pot has no figures.
+
+  % the cloth: a heavy drape thrown over the keeping, rounded at the crown
+  % and falling to a scalloped hem. Pale, edged in faded sepia. Nothing
+  % rises above it; there is no tally sticking up out of the fold.
+  \filldraw[fill=faded!12!vellum, fill opacity=0.86,
+            draw=faded!80!ink, draw opacity=0.56, line width=0.72pt]
+    (-2.95,-0.52)
+    .. controls (-3.10,0.20) and (-2.20,1.18) .. (0.00,1.26)
+    .. controls (2.20,1.18) and (3.10,0.20) .. (2.95,-0.52)
+    .. controls (2.20,-0.66) and (1.10,-0.60) .. (0.00,-0.62)
+    .. controls (-1.10,-0.60) and (-2.20,-0.66) .. cycle;
+
+  % a fold turned back at the crown: a shorter curve inside the dome
+  \draw[faded!72!ink, line width=0.48pt, opacity=0.40, line cap=round]
+    (-2.10,0.06) .. controls (-1.90,0.80) and (-0.90,1.06) .. (0.00,1.08)
+    .. controls (0.90,1.06) and (1.90,0.80) .. (2.10,0.06);
+
+  % two deeper falls in the wool, near the shoulders
+  \draw[faded!62!ink, line width=0.36pt, opacity=0.28, line cap=round]
+    (-1.45,1.16) .. controls (-1.70,0.60) and (-1.80,-0.05) .. (-1.74,-0.52);
+  \draw[faded!62!ink, line width=0.36pt, opacity=0.28, line cap=round]
+    ( 1.45,1.16) .. controls ( 1.70,0.60) and ( 1.80,-0.05) .. ( 1.74,-0.52);
+
+  % the hem's running stitch: short even dashes, a keeping, not a tally
+  \draw[faded!66!ink, line width=0.44pt, opacity=0.38,
+        dash pattern=on 2pt off 3pt]
+    (-2.70,-0.40) .. controls (-1.50,-0.50) and (1.50,-0.50) .. (2.70,-0.40);
+
+  % dressed grain at the hem: five kernels, known to the carrying arm and
+  % to no slate. Five, not a sixth; no figure stands over them.
+  \foreach \kx in {-1.10,-0.62,-0.14,0.36,0.86}{
+    \fill[gold!55!ornament, opacity=0.52]
+      (\kx,-0.70) ellipse (0.048 and 0.075);
+  }
+
+  % at the left, the pot the cost-question is sent to: a blank belly,
+  % with no figures on it and none arriving
+  \draw[faded!68!ink, line width=0.46pt, opacity=0.34, line cap=round]
+    (-3.90,-0.62) .. controls (-4.04,-0.38) and (-4.00,-0.18) .. (-3.84,-0.14);
+  \draw[faded!68!ink, line width=0.46pt, opacity=0.34, line cap=round]
+    (-3.60,-0.62) .. controls (-3.46,-0.38) and (-3.50,-0.18) .. (-3.66,-0.14);
+  \draw[faded!60!ink, line width=0.40pt, opacity=0.28, line cap=round]
+    (-3.82,-0.14) .. controls (-3.74,-0.08) and (-3.76,-0.08) .. (-3.68,-0.14);
+  \draw[faded!46!ink, line width=0.32pt, opacity=0.20]
+    (-3.90,-0.62) .. controls (-3.74,-0.68) and (-3.76,-0.68) .. (-3.60,-0.62);
+
+  % the chaff that went up on the river wind: flecks drifting out to the
+  % right, away from the fold, covered by nothing and entered by nobody
+  \draw[faded!52!ink, line width=0.34pt, opacity=0.26, line cap=round]
+    (2.40,0.30) .. controls (3.10,0.62) and (3.60,0.70) .. (4.16,0.58);
+  \foreach \p in {(3.00,0.48),(3.34,0.60),(3.68,0.66),(3.98,0.62)}{
+    \fill[faded!58!ink, opacity=0.30] \p circle (0.020);
+  }
+
+  % a faint ground shadow where the fold meets the hearth
+  \draw[faded!46!ink, line width=0.34pt, opacity=0.20]
+    (-3.05,-0.72) .. controls (0,-0.84) and (0,-0.84) .. (3.05,-0.72);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.30)
+    {covered, and counted nowhere};
+\end{tikzpicture}
