@@ -506,6 +506,56 @@ Through Ember 10–12, Y.H. 813 (Days 189–191) the boy was one hundred and eig
 
 Through Ember 13–15, Y.H. 813 (Days 192–194) the boy was one hundred and ninety-two, then ninety-three, then ninety-four days old and nobody said so. The account had gone away up the road in Berr's locked box and nothing under this roof changed hands. The instruction went to the wool, the fire, the pot, the broom and the running water and never to the basket; the carried fire lay under blind ash and the back of a broken pot at four low pulls and the silence where the fifth should have been, its payer unnamed for a hundred and ninety-two, ninety-three and ninety-four days; the river's note came through the finger's-width door and the boards overhead kept four nails, four, and a knot the width of a thumb — three counts in three places that did not become one. Sella told the fire it was the thaw, turned the coals with the back of a broken pot, said *The house will keep it* where another woman would say *I*, stood with the back of the pot in her hand counting under her breath toward no opening — the small intake, the hold, the letting go — pushed coal-black hair back with the burn-wrist so the grey streak showed pale, set the pot handle two inches beyond the reaching hand with her hand resting a half-beat longer at the setting, fed him from the house's own dish and did not wipe his mouth, and did not look toward the bed. The widow's mark hung where it hung at every morning, shelf and dusk, because a quiet morning after a reading is not an opening and there has been no opening since before the kiln on Ember 1. Cost-questions went to the pot and the weather on all three days and arrived nowhere; the yard went wide around the clean dark line, the thaw, the rack space with its broken birth-slates, the pan's gone round ring, the bare dark trough, the field's empty place and the place the carriers crossed, with a look and a wide step and no number. Her finger did not go beneath the loaf shelf on any of the three days, so the charcoal stayed unread; the stone lay cold and unreconciled in its pot in the Debt Loft. Men unnamed went low into the back room before first grey on the last two mornings and Jorra gave them no name, his bent finger standing in the cold damper as a remembered repetition and not a new change. Tarn's ear-sentence came to the threshold of the word that would call the loan and stopped there on all three days, six counted and the seventh held, nine stoppings with no tenth and the loan uncalled. At the going of each light she carried him home up the clay road, went wide around the yard's absences, set him on his bed under the roof and not in the Debt Loft, put the fold right without looking at his face, left the thread frozen and unwiped, banked the coals and did not touch the mark; the two rooms did not touch. In the small hours of Day 194 the boy's hand outside the wool went up an inch toward the river's note and held for the length of one of the breaths she counted at her fire in the room that did not touch his — small intake, hold, letting go — before coming down against the fold; it was filed on a place of its own and not promoted into a hearing, a stopping, a payment or a rule, and he still could not close the two inches to the pot handle. Ch 47.
 
+### The bed
+**Kind:** bed, household place. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The board-bed under the Vail roof on which Corin is laid on the third day and set again each dusk when Sella carries him home up the clay road, never in the Debt Loft. It holds a fold of grey wool with one stiff brown-edged crust two inches from his ear, its empty place unnamed and no third; the thread of drool at his mouth was frozen in the small hours and left unwiped because nobody under any roof has been given an instruction about the thread. The boards overhead keep four nails, four, and a knot the width of a thumb.
+**Relations:** In the boy's room of the Vail kiln-house; the loaf shelf stands in the other room, which does not touch it. Drawn close on `atlas/vail-house`.
+
+### The hearth
+**Kind:** hearth, fire-place. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The hearth of the second room, where the carried fire lies banked under blind ash and the back of a broken pot and keeps four low pulls and the silence where the fifth should have been, with no payer named. Sella turns the coals with the back of a broken pot, tells the fire it is the thaw and says *The house will keep it* where another woman would say *I*; Tarn brought the ear-sentence all the way to the word that would call the loan here and stopped with no figure and no name.
+**Relations:** In the fire and shelf room of the Vail kiln-house, across the dividing wall from the bed. Drawn close on `atlas/vail-house`.
+
+### The kiln mouth
+**Kind:** kiln mouth, opening. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The mouth of the Vail kiln, behind the wall from the hearth, where Sella put her hand to the widow's mark before the first firing of Ember on Day 180, held it one breath, let go, lifted the clay lid and tipped the carried coal under the back of a broken pot; the fire took with its fifth still missing. She has not touched the mark at any hour since. On Day 188 two men carried the glaze-room hand out of this kiln and across the yard with the cost entered nowhere.
+**Relations:** Beside the wheel-shed, east of the two rooms of the Vail kiln-house. Drawn close on `atlas/vail-house`.
+
+### The kindling
+**Kind:** sill, household place. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The sill where Tarn keeps the small knife, six counted in the worn thumb-mark where the house can check and the seventh at the lip where it cannot; he tells the wood *Six counted. The next I don't count* and brings the sentence about an ear worth more than the debt all the way to the word that would call the loan, stopping there with no figure and no name. Garl Vail's unforged collector sentence lies beside it.
+**Relations:** Inside the Vail kiln-house, Low Kiln. Drawn close on `atlas/vail-house`.
+
+### The clay jar
+**Kind:** jar, shelf object. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The clay jar fetched from House Silt and set on the shelf by the wall on Ilmen 13, not on the bench where the pot stood. It stands cold under its glaze; Sella's eye goes to it and her hand shuts half over nothing without touching it. Its place is held apart from the loaf shelf's two gaps and the crust in the fold.
+**Relations:** On the wall shelf of the fire and shelf room of the Vail kiln-house. Drawn close on `atlas/vail-house`.
+
+### The trough
+**Kind:** trough, well fixture. **Region:** the Clay Yard, Low Kiln.
+The trough at the yard well, bare and dark, its thin skin of ice gone, the water within called weather by those who do not taste it. Sella goes around it with a look and a wide step and no number, and the yard treats its emptiness as weather.
+**Relations:** Beside the yard well in the Clay Yard, south of the Vail kiln-house. Drawn close on `atlas/vail-house`.
+
+### The charred slate
+**Kind:** slate fragment, ash object. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The charred edge of a slate lying in the kiln ash, black on one side and eaten into the shape of a strip of bark, the writing gone off the end; the house has swept around it for a year without picking it up, and it stays where it lay through the turn of the year.
+**Relations:** In the kiln ash of the Vail kiln-house. Drawn close on `atlas/vail-house`.
+
+### The hollow wheel-seat
+**Kind:** seat, household object. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The hollow seat beside the wheel that the house knows by its objects before its people, named with the salt-stiff coat, the door that does not quite shut and the proverb about leaving the crack showing; the boy knows the shape of it without being told whose it was.
+**Relations:** Inside the Vail kiln-house, beside the wheel-shed. Drawn close on `atlas/vail-house`.
+
+### The salt-stiff coat
+**Kind:** coat, household object. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+Garl Vail's coat on a peg behind the door of the Vail kiln-house, salt-stiff and keeping his broader shape. His name is not spoken under this roof; the coat, the hollow seat, the uncalled tile debt and the charred slate in the ash kept their places through the turn of the year.
+**Relations:** Behind the door of the Vail kiln-house. Drawn close on `atlas/vail-house`.
+
+### The clean dark line
+**Kind:** mark, ash trace. **Region:** the Vail kiln-house, Clay Yard, Low Kiln.
+The line at the corner where the Ash ridge turned after it was burned on the morning following the Last Day. A new finer hairline of grey gathered beside it in Silt and was called the thaw; neither has been swept. The flood of Silt 9–15 stood a hand's breadth short of the old line and went around it rather than taking it, and the boy measured the line twice with one thumb and left both where they lay.
+**Relations:** In the corner of the fire and shelf room of the Vail kiln-house. Drawn close on `atlas/vail-house`.
+
 ### The loaf shelf
 On Reed 16, Y.H. 813 the shelf kept its two unnamed gaps while Sella reached a finger beneath the board where the charcoal tally lies, without looking or a word, and brought it away; the marks stayed unread, uncounted and separate from the two gaps above. Ch 32.
 
