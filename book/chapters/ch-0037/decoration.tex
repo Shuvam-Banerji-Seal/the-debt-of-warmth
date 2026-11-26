@@ -1,0 +1,67 @@
+\begin{tikzpicture}
+  % the chapter's heart: the first opening. A hand goes once to the widow's
+  % mark, holds one breath, and is not put there again; under the broken pot
+  % the coal takes and the fire pulls four times, and the fifth pull is a
+  % silence nobody gives a figure. Four curls rise along the coal bed; the
+  % fifth place is a bracket with nothing between its ends --- an interval,
+  % not a payment, its payer unnamed. The pot is cracked but still covers
+  % the coals, the way a mouth covers what it breathes.
+
+  % a low wash, the warmth kept under the roof
+  \fill[gold, opacity=0.030]
+    (-4.45,-0.74) .. controls (-1.5,-1.00) and (1.5,-1.00) .. (4.45,-0.74)
+    .. controls (1.5,-0.42) and (-1.5,-0.42) .. (-4.45,-0.74) -- cycle;
+
+  % the coal bed, drawn thin and almost unbroken
+  \draw[faded!58!ink, line width=0.45pt, opacity=0.22]
+    (-2.85,-0.72) -- (2.85,-0.72);
+
+  % four low pulls of breath, each a curl that rises and turns back into
+  % itself; the outer two are fainter because the month has only begun
+  \foreach \cx/\cop in {-2.30/0.48,-0.82/0.56,0.82/0.56,2.30/0.46}{
+    \draw[faded!74!ink, line width=0.76pt, opacity=\cop, line cap=round]
+      (\cx,-0.58) .. controls (\cx-0.17,-0.20) and (\cx+0.22,0.18) .. (\cx+0.02,0.46);
+    \draw[faded!74!ink, line width=0.70pt, opacity=\cop, line cap=round]
+      (\cx+0.02,0.46) .. controls (\cx-0.09,0.55) and (\cx-0.15,0.48) .. (\cx-0.10,0.41);
+    \draw[faded!60!ink, line width=0.48pt, opacity=0.22, line cap=round]
+      (\cx-0.06,-0.55) .. controls (\cx-0.20,-0.24) and (\cx+0.06,0.06) .. (\cx-0.02,0.28);
+    \fill[rubric!42!faded, opacity=0.34] (\cx,-0.66) ellipse (0.085 and 0.038);
+  }
+
+  % the broken pot set over the coals: an inverted bowl with a rim and a crack
+  \fill[faded!10!vellum, opacity=0.52]
+    (-0.68,-0.34) .. controls (-0.56,-0.96) and (0.56,-0.96) .. (0.68,-0.34) -- cycle;
+  \draw[faded!82!ink, line width=0.88pt, opacity=0.56]
+    (-0.68,-0.34) .. controls (-0.56,-0.96) and (0.56,-0.96) .. (0.68,-0.34);
+  \draw[faded!84!ink, line width=0.92pt, opacity=0.62] (-0.76,-0.34) -- (0.76,-0.34);
+  \draw[rubric!66!faded, line width=0.72pt, opacity=0.52, line join=round]
+    (0.05,-0.37) -- (-0.10,-0.56) -- (0.08,-0.74) -- (-0.01,-0.90);
+  \fill[rubric!48!faded, opacity=0.40] (0,-0.88) ellipse (0.16 and 0.052);
+
+  % the fifth pull: a bracketed silence, an empty interval with no figure
+  \draw[faded, line width=0.45pt, dotted, opacity=0.26] (3.50,-0.58) -- (3.50,0.42);
+  \draw[rubric!46!faded, line width=0.66pt, opacity=0.52] (3.38,-0.58) -- (3.62,-0.58);
+  \draw[rubric!36!faded, line width=0.66pt, opacity=0.34] (3.38,0.42) -- (3.62,0.42);
+  \draw[faded, line width=0.42pt, dotted, opacity=0.18] (3.50,-0.68) ellipse (0.11 and 0.048);
+
+  % the widow's mark at the crown, touched once before the opening
+  \draw[rubric!78!ink, line width=0.92pt, opacity=0.70] (-0.13,1.06) -- (0.13,1.06);
+  \draw[rubric!78!ink, line width=0.92pt, opacity=0.70] (0,0.93) -- (0,1.19);
+  \draw[rubric!58!faded, line width=0.56pt, opacity=0.46] (-0.09,1.15) -- (0.09,0.97);
+
+  % the one approach, and the fingertip resting; then the hand is taken away
+  \draw[faded!80!ink, line width=0.80pt, opacity=0.50]
+    (-1.05,1.33) .. controls (-0.58,1.28) and (-0.24,1.17) .. (-0.10,1.08);
+  \fill[rubric!55!faded, opacity=0.62] (-0.10,1.08) circle (0.044);
+
+  % one breath held, then let go: a small bracket that does not become a count
+  \draw[faded, line width=0.42pt, dotted, opacity=0.28] (0.26,0.95) -- (0.26,1.17);
+  \draw[faded, line width=0.42pt, opacity=0.28] (0.20,0.95) -- (0.32,0.95);
+  \draw[faded, line width=0.42pt, opacity=0.28] (0.20,1.17) -- (0.32,1.17);
+
+  \node at (-4.88,0.02) {\pgfornament[width=0.95cm,color=ornament]{8}};
+  \node at ( 4.88,0.02) {\pgfornament[width=0.95cm,color=ornament,symmetry=v]{8}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.44)
+    {four pulls, and the fifth a silence};
+\end{tikzpicture}
