@@ -2,7 +2,7 @@
 
 - Chapters complete: **56**
 - Words of story: **945,349**
-- Current chapter: 56 (step: publish, scene 7)
+- Current chapter: 57 (step: plan, scene 1)
 - Last chapter: The Seventh of the Green (Days 219–221 · Grain 10–12, Y.H. 813)
 - Author calls so far: 629 (tokens in 106,776,486, out 13,696,450)
 - Updated: 2026-11-26 21:17
