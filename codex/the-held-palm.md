@@ -45,7 +45,7 @@ The clap must sound, palm to palm. A clap that goes edgewise, or slaps a wet boa
 > nine for the board and the boat's own name ---
 > the tenth is a palm and it isn't a claim.
 
-*The brine-gull line came in from the north bridge, they say, and the children will not give it up. They clap it to a gull that went off upriver with a coal out of a banked fire that was not yet cold, which is a thing a child can see and a clerk cannot enter, and so it stays.*
+*The brine-gull line came up the Salt Road, they say, and the children will not give it up. They clap it to a gull that went off upriver with a coal out of a banked fire that was not yet cold, which is a thing a child can see and a clerk cannot enter, and so it stays.*
 
 # What is said at the held palm
 
