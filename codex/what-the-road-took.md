@@ -2,7 +2,7 @@
 title: What the Road Took and the Market Gave, Being a Chapman's Book of Rates for the Ilm Circuit and the Roads Upon It, Copied into No Counting House
 kind: A pedlar's pocket-book of prices and road-dues, the board's figure set above the figure actually paid; figures in a rough travelling hand, one column left as a place and not a nought, the verbs put back where a borrowed hand took them out, two corrections in other hands, and a line at the foot nobody will own
 provenance: Written on the circuit between Sill, the Weir, Stonemouth, Nine Pots, Mud End and the Standing Post in the Thin Year Y.H. 812, after the Long Cold; carried forward at the Opening of the Slates, Ilmen 1, Y.H. 813, and written up again in Reed of that year. It is a chapman's book, kept in the inner coat pocket where the pack-strap has worn a place through the leather, and it survives soft at the fore-edge with dried eel slime, grey silt worked into the gutter, a white salt bloom at the head, tar at the fold, a docken leaf pressed flat between two leaves, a green bead of lead glaze in the lower corner, a bit gone verdigris in the bottom margin, an Ash thumb at the head, iron-gall in two fingers, a small bare square where a word was scraped away, two corrections in borrowed hands, and one line at the foot nobody will own.
-relates_to: [Sill, the Cross, Account-day, the bell at the Cross, the Fishstairs, the Weir, the plank walk, Stonemouth, the Ferr, Nine Pots, Cold Acre, the Tallow Works, Mud End, the Bone Orchard, Greybank, the Greybank quay, Vhal, the Council of Tides, Keld Keep, the Cold Pass, the Standing Post, the Fenmarch, the Hearthseat, Grath, the Clay Road, the river road, the Salt Road, the Rim Road, the Hearth Road, the south bridge, the north bridge, bit, mark, crown, ember, one in twelve, the deduction, quiet ash, lead glaze, peat, reeds, eels, salt, iron, tile, coarse pots, rope, tallow, glass, marked sticks, the Long Cold, the Thin Year, the Opening of the Slates]
+relates_to: [Sill, the Cross, Account-day, the bell at the Cross, the Fishstairs, the Weir, the plank walk, Stonemouth, the Ferr, Nine Pots, Cold Acre, Mud End, Greybank, the Greybank quay, the Sallow, the Council of Tides, Keld, the Cold Pass, the Standing Post, the Fenmarch, Grath, the Clay Road, the river road, the Salt Road, the Rim Road, the Hearth Road, the south bridge, the north bridge, bit, mark, crown, ember, lead glaze, peat, reeds, eels, salt, iron, tile, coarse pots, rope, glass, marked sticks, the Long Cold, the Thin Year, the Opening of the Slates]
 ---
 
 I carry a pack on the Ilm circuit and have done these nineteen years, which is longer than most men last at the Court's work. Every market morning I hear a figure cried that I have already paid for in shoe leather, and every evening I set down what I gave, and the two never agree. This book is the second figure. The board on the quay tells what a thing fetched under the beam; it cannot tell what it cost to bring there, because no man behind a beam has walked the road.
@@ -36,7 +36,6 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 | Good axe | 2 marks | 2 marks; half a mark in Keld, which is the same axe |
 | Ash-mite paste, a thimble, at Mud End | not on any board | 4 bits, no questions; the same grey in a Court jar is sixty marks and sealed |
 | Reed bundle, an armful, at the Weir | not on any board | ask the arm that carried it; the arm does not know cost |
-| Barley, a peck, at Cold Acre | not cried | 2 bits, though the well there gives water for nothing |
 
 > *Margin:* I have set the eel row without a figure of my own, which is a place and not a nought. A buyer names a number under an apron; the seller puts her thumb to a cord and keeps it there longer than the number wants. There is no figure in that. A chapman who explains a stall does not last a tend at these boards.
 
@@ -44,7 +43,7 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 
 # The markets of the circuit
 
-The Cross at Sill holds its market on the tenth, twentieth and thirtieth, when the bell goes four, four and a gap and nobody crosses himself, and the slate is read twice, once for the moot and once for those who came late. I have stood under that bell in nine years of weather and never heard a figure that agreed with the one I paid at the stall. At Greybank the market is every day and the beam is always warm. At the Weir the eels are sold at dawn and the traps blessed on Ilmen fifteenth, and the eels run whether anybody blesses them or not. Stonemouth sells lime, sandstone and a reed-wolf tooth for a clamp-handle. Nine Pots sells pots and has never sold Sill a road.
+The Cross at Sill holds its market on the tenth, twentieth and thirtieth, when the bell goes four, four and a gap and nobody crosses himself, and the slate is read twice, once for the moot and once for those who came late. I have stood under that bell in nineteen years of weather and never heard a figure that agreed with the one I paid at the stall. At Greybank the market is every day and the beam is always warm. At the Weir the eels are sold at dawn and the traps blessed on Ilmen fifteenth, and the eels run whether anybody blesses them or not. Stonemouth sells lime, sandstone and a reed-wolf tooth for a clamp-handle. Nine Pots sells pots and has never sold Sill a road.
 
 There is a figure spoken in the yards of Low Kiln which is not the printed one. I have heard it and have not set it here. I have no beam to weigh it on, and a man who writes a figure he cannot weigh will be asked to read it aloud.
 
@@ -61,9 +60,7 @@ There is a figure spoken in the yards of Low Kiln which is not the printed one. 
 | South bridge at Sill, loaded cart | 1 bit | 1 bit |
 | North bridge at Sill | nothing | nothing; the Fishstairs folk argued it and won |
 | The Nine Pots road, west from Sill | no gate | a pot set down at the feud post, which Sill calls an insult and the potters call a toll |
-| Cold Acre road | no gate | a bit left under the well-cover, which nobody calls a toll because the well gives for nothing |
 | Fen boardwalks to the Standing Post | 1 bit for a dry foot | a marked stick for a wet one; outsiders are not told which boards bear |
-| Road to the Bone Orchard | nothing | pots broken at the grave-mounds cost the household, not the road |
 | Salt Road, a sack of salt at the coast pass | 1 mark to the Council of Tides | 1 mark, freely entered, which is what they call it |
 | Rim Road, a cart at the pass | 1 mark, or iron to the value | 1 mark in iron, the iron being heavier than the mark |
 | Rim Road, a beast on the hoof | half a mark | half a mark, and a warm-stone off the next man who has one |
@@ -92,7 +89,7 @@ I have set all this under the roads and not among them. A due is a figure somebo
 > and the road keeps the rest in the soles of a man.
 >
 > A pot at Nine Pots and a bit at the Weir,
-> a bit for the bridge and a mark at the mere;
+> a bit for the bridge and a mark at the pass;
 > the Clay pays twice and the Salt pays twice,
 > and the Hearth pays at home where the fire lies.
 >
@@ -105,7 +102,7 @@ I have set all this under the roads and not among them. A due is a figure somebo
 
 # What the two borrowed hands did
 
-The College man strikes the verbs out of what I write. Where I set *I paid*, he sets *was paid*, as though a mark could pay itself and nobody carry it up the road; where I set *the road took*, he sets *was taken*, as though a cold had no hand in it. I put both back underneath and leave his words standing above. A verb is the difference between a price and a debt, and a man who loses the verb has lost the man who owed.
+The College man strikes the verbs out. Where I set *I paid*, he sets *was paid*, as though a mark could pay itself and nobody carry it; where I set *the road took*, he sets *was taken*, as though a cold had no hand in it. I put both back underneath and leave his words above. A verb is the difference between a price and a debt, and a man who loses the verb has lost the man who owed.
 
 The other hand is a counting house hand out of Sere, with a little gold in the ink. Against *2 bits in Grain, 5 in Stone* it wrote *seasonal rate*, and against the eel row, *market rate*, and put figures in the margin where I had put the price. I left both standing. A house of Sere can call a figure a rate, because a rate is a thing that can be emptied and refilled. I have held peat in a barrow in Silt and called it what it was.
 
