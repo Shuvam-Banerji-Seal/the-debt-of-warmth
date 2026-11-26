@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Bone Orchard — outside the north gate of Sill</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 48% 46%, rgba(255,249,228,.42), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', SEAWASH='#a9bfb2',
+      GOLD='#a9833c', GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', ASH='#9a9080',
+      EARTH='#d8c8a4', GRAVE='#cbb68d';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(197813);
+  function rr(a,b){return a+(b-a)*rnd();}
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  /* ---------- layers, inked in order ---------- */
+  var defs=E('defs',{});
+  E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.52});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gStruct=E('g',{}),
+      gRoad=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+  var i,k;
+
+  /* foxing, folds, and the old damp of the paper */
+  for(i=0;i<26;i++){
+    E('ellipse',{cx:rr(80,2320),cy:rr(80,1520),rx:rr(16,78),ry:rr(10,48),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gWash);
+  }
+  [620,1240,1860].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:60,y1:806,x2:2340,y2:806,stroke:'#7a5a30','stroke-width':1,opacity:0.05},gWash);
+  /* the cold ridge wash */
+  E('path',{d:D(jit([[60,372],[420,352],[860,376],[1300,356],[1780,382],[2340,366],[2340,470],[1780,486],[1300,466],[860,492],[420,470],[60,486]],4,30),true),
+    fill:'#b9b9a0',opacity:0.20},gWash);
+  /* the orchard ground wash */
+  E('path',{d:D(jit([[560,900],[640,772],[800,726],[980,700],[1160,716],[1340,696],[1520,724],[1660,792],[1710,900],[1660,1006],[1480,1056],[1280,1072],[1070,1048],[870,1066],[690,1024],[578,972]],4,26),true),
+    fill:'#c9b98f',opacity:0.30},gWash);
+  /* the Ilm wash at the foot of the chart */
+  E('path',{d:D(jit([[676,1300],[760,1274],[860,1290],[980,1262],[1100,1282],[1220,1258],[1340,1280],[1460,1266],[1584,1290],
+                     [1590,1350],[1470,1368],[1350,1350],[1230,1374],[1110,1352],[990,1378],[870,1354],[770,1370],[676,1344]],3.4,18),true),
+    fill:SEAWASH,opacity:0.22},gWash);
+
+  /* ---------- terrain: the ridge, the orchard trees, the rough grass ---------- */
+  function hill(x,y,s,p){
+    E('path',{d:'M'+(x-13*s).toFixed(1)+' '+y+' q'+(13*s).toFixed(1)+' '+(-14*s).toFixed(1)+' '+(26*s).toFixed(1)+' 0',
+      fill:'none',stroke:FADE,'stroke-width':1.2,opacity:0.55},p);
+  }
+  function tree(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M0 0 L0 -34 M0 -12 q-9 -6 -15 -14 M0 -18 q9 -7 16 -16 M0 -24 q-6 -6 -10 -13 M0 -28 q5 -5 9 -11',
+      fill:'none',stroke:INK,'stroke-width':1.6,'stroke-linecap':'round',opacity:0.9},g);
+    E('path',{d:'M-3 -34 l3 -8 l3 8',fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.7},g);
+  }
+  function tuft(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-5 2 q-2 -8 -6 -12 M0 2 L0 -14 M5 2 q2 -7 7 -11 M-2 2 q-1 -6 -3 -9',
+      fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.8},g);
+  }
+  for(i=0;i<34;i++){hill(rr(120,2280),rr(330,430),rr(0.8,1.6),gTerr);}
+  E('path',{d:D(jit([[70,452],[420,436],[820,458],[1220,440],[1640,462],[2040,444],[2330,454]],2.6,28)),
+    fill:'none',stroke:FADE,'stroke-width':1,'stroke-dasharray':'2 7',opacity:0.45},gTerr);
+  /* trees standing in and about the burial ground */
+  [[636,860,0.9],[700,790,1.05],[772,930,0.8],[846,754,0.95],[922,1000,0.85],[998,772,1.1],
+   [1074,930,0.75],[1150,760,0.9],[1232,1004,0.8],[1300,784,1.0],[1380,950,0.85],[1452,748,0.95],
+   [1530,860,0.8],[1600,788,0.9],[1660,940,0.75],[742,1010,0.7],[1114,1042,0.7],[1568,1020,0.7]
+  ].forEach(function(t){tree(t[0],t[1],t[2],gTerr);});
+  for(i=0;i<70;i++){tuft(rr(600,1680),rr(748,1064),rr(0.6,1.1),gTerr);}
+  for(i=0;i<40;i++){tuft(rr(140,2280),rr(486,690),rr(0.6,1.0),gTerr);}
+
+  /* ---------- the Ilm, cut at the foot of the chart ---------- */
+  var center=jit([[660,1330],[900,1320],[1140,1326],[1380,1318],[1600,1330]],2.0,16);
+  var bankS=[],bankN=[],norm=[],half=[];
+  for(k=0;k<center.length;k++){
+    var a=center[Math.max(0,k-1)],b=center[Math.min(center.length-1,k+1)];
+    var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+    var nx=-dy/le,ny=dx/le,t=k/(center.length-1),w=52+8*t+Math.sin(k*0.8)*3;
+    bankS.push([center[k][0]+nx*w+rr(-2,2),center[k][1]+ny*w+rr(-2,2)]);
+    bankN.push([center[k][0]-nx*w+rr(-2,2),center[k][1]-ny*w+rr(-2,2)]);
+    norm.push([nx,ny]); half.push(w);
+  }
+  E('path',{d:D(bankS.concat(bankN.slice().reverse()),true),fill:SEAWASH,opacity:0.55},gWater);
+  E('path',{d:D(center),fill:'none',stroke:SEA,'stroke-width':2.6,'stroke-linecap':'round',opacity:0.32},gWater);
+  for(k=0;k<34;k++){
+    var q=Math.floor(rr(1,center.length-2)),f=rr(-0.7,0.7);
+    E('path',{d:'M'+(center[q][0]+norm[q][0]*half[q]*f).toFixed(1)+' '+(center[q][1]+norm[q][1]*half[q]*f).toFixed(1)+' q9 -3 19 0',
+      fill:'none',stroke:SEA,'stroke-width':1,opacity:rr(0.10,0.24)},gWater);
+  }
+  [bankS,bankN].forEach(function(bank){
+    E('path',{d:D(bank),fill:'none',stroke:INK,'stroke-width':1.9,'stroke-linejoin':'round'},gWater);
+    for(k=2;k<bank.length-1;k+=2){
+      var a=bank[k-1],b=bank[k+1],dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+      E('line',{x1:bank[k][0],y1:bank[k][1],x2:bank[k][0]-dy/le*10+dx/le*3,y2:bank[k][1]+dx/le*10+dy/le*3,
+        stroke:INK,'stroke-width':0.8,opacity:0.3},gWater);
+    }
+  });
+
+  /* ---------- structures ---------- */
+  function brokenPot(x,y,s,rot,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') rotate('+rot+') scale('+s+')'},p);
+    E('path',{d:'M-12 4 q-4 -16 8 -19 q14 -2 16 12 l-4 8 l-6 -5 l-5 6 l-5 -6 z',
+      fill:'#dcc9a2',stroke:INK,'stroke-width':1.3,'stroke-linejoin':'round'},g);
+    E('path',{d:'M-8 -4 q8 -5 18 0 M-6 2 q8 -4 16 1',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.7},g);
+    E('path',{d:'M-17 9 l6 -3 l-2 7 z M15 10 l7 -2 l-3 8 z',fill:'#cbb58f',stroke:INK,'stroke-width':0.8},g);
+  }
+  function shard(x,y,s,p){
+    E('path',{d:'M-5 3 l4 -6 l4 5 z',fill:'#d2bd95',stroke:FADE,'stroke-width':0.8,
+      transform:'translate('+x+' '+y+') rotate('+rr(0,180)+') scale('+s+')',opacity:0.9},p);
+  }
+  function graveMound(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-15 0 q15 -12 30 0',fill:GRAVE,stroke:FADE,'stroke-width':1.2},g);
+    E('path',{d:'M-15 0 q15 -5 30 0',fill:'none',stroke:INK,'stroke-width':0.8,opacity:0.55},g);
+    E('path',{d:'M0 -4 l0 -13 l6 0 l0 13 z',fill:'#d8caa6',stroke:INK,'stroke-width':1},g);
+  }
+  function barrow(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-26 2 L24 2 L18 14 L-20 14 Z',fill:'#b99c72',stroke:INK,'stroke-width':1.4},g);
+    E('circle',{cx:-14,cy:14,r:6,fill:'#6b5331',stroke:INK,'stroke-width':1.2},g);
+    E('circle',{cx:12,cy:14,r:6,fill:'#6b5331',stroke:INK,'stroke-width':1.2},g);
+    E('path',{d:'M-24 2 q10 -18 22 -16 q12 1 24 16 z',fill:ASH,stroke:INK,'stroke-width':1.2},g);
+    for(i=0;i<10;i++){E('path',{d:'M'+(-20+i*4.4).toFixed(1)+' -6 l2 -3 l2 3',fill:'none',stroke:FADE,'stroke-width':0.7,opacity:0.7},g);}
+  }
+  function house(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('rect',{x:-16,y:-14,width:32,height:20,fill:'#e2d3ad',stroke:INK,'stroke-width':1.6},g);
+    E('path',{d:'M-20 -14 L0 -26 L20 -14 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.6},g);
+    E('rect',{x:-4,y:-5,width:8,height:11,fill:'#6b5331',stroke:INK,'stroke-width':1},g);
+    E('path',{d:'M11 -20 l0 -9 q4 -3 1 -7',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.55},g);
+  }
+  function well(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('ellipse',{cx:0,cy:6,rx:14,ry:7,fill:'#b8a887',stroke:INK,'stroke-width':1.3},g);
+    E('ellipse',{cx:0,cy:5,rx:9,ry:4,fill:'#8a9a88',stroke:INK,'stroke-width':0.9},g);
+    E('line',{x1:-15,y1:4,x2:-15,y2:-18,stroke:INK,'stroke-width':1.4},g);
+    E('line',{x1:15,y1:4,x2:15,y2:-18,stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M-19 -18 L0 -28 L19 -18 Z',fill:'#dcc9a2',stroke:INK,'stroke-width':1.4},g);
+    E('line',{x1:0,y1:-20,x2:0,y2:4,stroke:FADE,'stroke-width':0.8},g);
+  }
+  function gate(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('rect',{x:-22,y:-30,width:8,height:34,fill:'#cbb58f',stroke:INK,'stroke-width':1.5},g);
+    E('rect',{x:14,y:-30,width:8,height:34,fill:'#cbb58f',stroke:INK,'stroke-width':1.5},g);
+    E('path',{d:'M-28 -30 L28 -30 L24 -38 L-24 -38 Z',fill:'#dcc9a2',stroke:INK,'stroke-width':1.5},g);
+    for(i=0;i<5;i++){E('line',{x1:-19+i*9,y1:-30,x2:-19+i*9,y2:2,stroke:FADE,'stroke-width':0.7,opacity:0.45},g);}
+  }
+  function bridge(x,y,p){
+    E('line',{x1:x,y1:y-42,x2:x,y2:y+42,stroke:INK,'stroke-width':2},p);
+    for(i=0;i<7;i++){E('line',{x1:x-15,y1:y-36+i*12,x2:x+15,y2:y-36+i*12,stroke:INK,'stroke-width':2},p);}
+  }
+
+  /* the fence of stakes and the rough boundary of the burial ground */
+  var outline=jit([[560,900],[640,772],[800,726],[980,700],[1160,716],[1340,696],[1520,724],[1660,792],
+                   [1710,900],[1660,1006],[1480,1056],[1280,1072],[1070,1048],[870,1066],[690,1024],[578,972]],3,20);
+  E('path',{d:D(outline,true),fill:'none',stroke:INK,'stroke-width':2.2,'stroke-linejoin':'round'},gStruct);
+  E('path',{d:D(jit([[590,892],[662,786],[810,748],[984,724],[1158,740],[1338,720],[1514,748],[1636,806],
+                     [1684,900],[1636,996],[1472,1040],[1276,1056],[1072,1032],[876,1048],[700,1006]],2.6,22),true),
+    fill:'none',stroke:FADE,'stroke-width':1,'stroke-dasharray':'3 6',opacity:0.7},gStruct);
+  for(k=0;k<outline.length;k+=2){
+    var px=outline[k][0],py=outline[k][1];
+    E('line',{x1:px,y1:py+3,x2:px+rr(-2,2),y2:py-13,stroke:INK,'stroke-width':1.2,opacity:0.75},gStruct);
+  }
+
+  /* the shallow graves of the thin-return children, in uneven rows with gaps */
+  [[700,830],[770,826],[846,834],[916,828],[990,838],[1062,830],[1136,840],[1210,832],[1284,842],
+   [742,880],[816,876],[888,884],[960,878],[1034,888],[1108,880],[1182,890],[1256,882],[1330,892],
+   [694,942],[768,938],[840,948],[914,940],[988,950],[1062,942],[1136,952],[1210,944],[1284,954],
+   [756,996],[830,990],[904,1000],[978,992],[1052,1002],[1126,994],[1200,1004],[1274,996],[1348,1006]
+  ].forEach(function(g){graveMound(g[0],g[1],rr(0.82,1.12),gStruct);});
+
+  /* the east ground where pots are broken for the dead */
+  [[1470,806],[1530,790],[1590,812],[1500,860],[1566,850],[1626,868],[1478,924],[1544,916],
+   [1610,934],[1504,980],[1570,972],[1634,988]
+  ].forEach(function(p){brokenPot(p[0],p[1],rr(0.78,1.08),rr(-20,20),gStruct);});
+  for(i=0;i<34;i++){shard(rr(1440,1664),rr(776,1018),rr(0.6,1.1),gStruct);}
+  E('path',{d:D(jit([[1420,780],[1620,770],[1680,900],[1600,1020],[1436,1010],[1396,900]],3,24),true),
+    fill:'none',stroke:RED,'stroke-width':1,'stroke-dasharray':'5 7',opacity:0.45},gStruct);
+
+  /* the barrow of grey Ash tipped at the south edge, and the heap it left */
+  barrow(1180,1104,1.05,gStruct);
+  E('path',{d:D(jit([[1110,1086],[1164,1066],[1234,1070],[1270,1096],[1230,1118],[1150,1116]],3,12),true),
+    fill:ASH,stroke:INK,'stroke-width':1.2,opacity:0.9},gStruct);
+  for(i=0;i<12;i++){shard(rr(1120,1260),rr(1070,1118),rr(0.5,0.9),gStruct);}
+
+  /* Cold Acre, on the ridge beyond the orchard */
+  [[1440,486],[1524,470],[1608,488],[1372,548],[1460,556],[1550,552],[1640,548]
+  ].forEach(function(h){house(h[0],h[1],rr(0.85,1.1),gStruct);});
+  well(1500,500,0.9,gStruct);
+  /* the barley and turnip strips of Cold Acre */
+  for(i=0;i<7;i++){
+    var sy=596+i*7;
+    E('path',{d:'M1360 '+sy+' q90 -4 178 0 q92 4 164 0',fill:'none',stroke:FADE,'stroke-width':0.9,opacity:rr(0.35,0.6)},gStruct);
+  }
+  for(i=0;i<9;i++){tuft(rr(1360,1700),rr(596,640),rr(0.5,0.8),gStruct);}
+
+  /* Sill at the foot, drawn faint for neighbourhood only */
+  [[900,1458],[980,1450],[1064,1456],[1236,1452],[1320,1460],[1404,1454]
+  ].forEach(function(h){E('g',{opacity:0.45},gStruct);house(h[0],h[1],0.85,gStruct.lastChild);});
+  E('path',{d:D(jit([[860,1424],[1000,1418],[1150,1422],[1300,1416],[1440,1424]],2,20)),
+    fill:'none',stroke:FADE,'stroke-width':1.2,'stroke-dasharray':'4 5',opacity:0.5},gStruct);
+  gate(1150,1190,1.0,gStruct);
+  bridge(1150,1330,gStruct);
+
+  /* ---------- roads ---------- */
+  E('path',{d:D(jit([[1150,1444],[1150,1330],[1150,1196],[1150,1070],[1176,930],[1190,790]],2.2,22)),
+    fill:'none',stroke:INK,'stroke-width':2.2,'stroke-dasharray':'8 6','stroke-linecap':'round',opacity:0.78},gRoad);
+  E('path',{d:D(jit([[1190,790],[1320,700],[1440,606],[1500,514]],2.4,22)),
+    fill:'none',stroke:INK,'stroke-width':2,'stroke-dasharray':'7 6','stroke-linecap':'round',opacity:0.68},gRoad);
+  function edgeArrow(x,y,dir,p){
+    E('path',{d:'M'+x+' '+y+' L'+(x+dir*52)+' '+y+' M'+(x+dir*52)+' '+y+' l'+(dir*-10)+' -6 M'+(x+dir*52)+' '+y+' l'+(dir*-10)+' 6',
+      fill:'none',stroke:INK,'stroke-width':1.7},p);
+  }
+  edgeArrow(2140,1420,1,gRoad);
+  edgeArrow(660,1330,-1,gRoad);
+
+  /* ---------- text helpers: every label is inked last, above everything ---------- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      'stroke':(o&&o.halo)?PALE:null,'stroke-width':(o&&o.halo)?3.2:null,'paint-order':(o&&o.halo)?'stroke':null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||24;
+    lines.forEach(function(ln,k){T(x,y+k*lh,ln,{font:'FellIt',size:o.size||17,fill:o.fill||'#5a4127',opacity:o.opacity||0.92});});
+  }
+
+  /* the ground, named in place */
+  T(1130,890,'THE BONE ORCHARD',{font:'FellSC',size:26,ls:6,fill:FADE,anchor:'middle',opacity:0.85,halo:true});
+  T(1130,918,'of the thin return',{font:'FellIt',size:17,fill:FADE,anchor:'middle',halo:true});
+  T(968,982,'the thin-return graves',{font:'FellIt',size:16,fill:INK,anchor:'middle',halo:true});
+  T(1536,1052,'the broken-pot ground',{font:'FellIt',size:16,fill:RED,anchor:'middle',halo:true});
+  T(1290,1146,'the Ash barrow',{font:'FellIt',size:16,fill:FADE,anchor:'middle',halo:true});
+  T(1150,1236,'the north gate',{font:'Fell',size:17,anchor:'middle',halo:true});
+  T(1150,1376,'the north bridge',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
+  T(1120,1290,'the Ilm',{font:'FellIt',size:23,fill:SEA,rot:-1,anchor:'middle',halo:true});
+  T(1500,584,'Cold Acre',{font:'Fell',size:19,anchor:'middle',halo:true});
+  T(1500,610,'the well that never freezes',{font:'FellIt',size:14,fill:SEA,anchor:'middle',halo:true});
+  T(1130,1466,'Sill',{font:'Fell',size:18,fill:FADE,anchor:'middle',opacity:0.75,halo:true});
+  T(990,1470,'the Cross',{font:'FellIt',size:14,fill:FADE,anchor:'middle',opacity:0.8,halo:true});
+  T(1050,1100,'the north gate road',{font:'FellIt',size:14,fill:FADE,rot:-78,halo:true});
+  T(1880,364,'the ridge',{font:'FellIt',size:16,fill:FADE,rot:2,halo:true});
+  T(2156,1410,'to Sill — one league south',{font:'FellIt',size:15,fill:FADE,anchor:'end',halo:true});
+  T(700,1338,'downriver to the Fishstairs',{font:'FellIt',size:14,fill:FADE,anchor:'end',halo:true});
+
+  /* ---------- marginal notes in the surveyor's voice ---------- */
+  note(120,268,[
+    'This ground lies one league north of the Cross by the',
+    'north gate road. On every market-day a barrow of grey',
+    'Ash goes out through the gate, heaped a little above',
+    'the sides where the load has shifted, and comes back empty.'
+  ],{size:17,lh:24,fill:'#574226'});
+  note(1660,258,[
+    'Pots are broken here for the dead and the shards left',
+    'where they fell. Cold Acre stands another league beyond',
+    'on the ridge, with six houses, barley, turnips and one',
+    'well that does not freeze in the hardest Stone.'
+  ],{size:16,lh:24,fill:'#574226'});
+  note(706,1282,[
+    'The graves are shallow and there is no slate over any of',
+    'them. A thin return is carried here by the arm that knew',
+    'the household, and set down without a figure.'
+  ],{size:16,lh:24,fill:'#574226'});
+  note(1660,1170,[
+    'No Court slate is kept on this ground and no collector',
+    'walks it. What is broken here is broken for the house,',
+    'and the house does not write it down.'
+  ],{size:16,lh:24,fill:RED});
+  note(120,660,[
+    'The trees are bare in Ember and the ground is dry. In',
+    'Silt the road to the gate is clay to the ankle and a',
+    'barrow goes no further than the ditch.'
+  ],{size:15,lh:23,fill:'#574226'});
+
+  /* ---------- title cartouche ---------- */
+  E('path',{d:'M704 58 L1696 58 L1716 78 L1716 194 L1696 214 L704 214 L684 194 L684 78 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.94},gFrame);
+  E('path',{d:'M710 68 L1690 68 L1706 84 L1706 188 L1690 204 L710 204 L694 188 L694 84 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M648 136 q30 -22 54 0 q-24 22 -54 0 z M1752 136 q-30 -22 -54 0 q24 22 54 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(1200,120,'THE BONE ORCHARD',{font:'CinzelDec',size:38,ls:3.2,anchor:'middle',fill:INK});
+  T(1200,156,'outside the north gate of Sill, one league north of the Cross',{font:'FellIt',size:20,anchor:'middle',fill:FADE});
+  T(1200,188,'surveyed and inked in Y.H. 813 — the month of Ember',{font:'FellSC',size:14,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<27;i++){
+    var sx=704+i*37.8;
+    E('path',{d:'M'+sx+' 72 l2.5 5 l5 0 l-4 3.5 l1.5 5 l-5 -3 l-5 3 l1.5 -5 l-4 -3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 200 l2.5 -5 l5 0 l-4 -3.5 l1.5 -5 l-5 3 l-5 -3 l1.5 5 l-4 3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---------- compass rose ---------- */
+  var rx=2180,ry=330;
+  E('circle',{cx:rx,cy:ry,r:46,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:rx,cy:ry,r:37,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?40:23;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-40)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+40)+' L'+(rx+9)+' '+ry+' Z',fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-40)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-54,'N',{size:21,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,j){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][j];
+    T(rx+Math.sin(ca)*60+3,ry-Math.cos(ca)*60+7,cdir,{font:'FellSC',size:16,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- convention of signs ---------- */
+  E('rect',{x:110,y:1110,width:540,height:396,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1118,width:524,height:380,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(380,1152,'CONVENTION OF SIGNS',{font:'FellSC',size:21,ls:3,anchor:'middle'});
+  E('line',{x1:140,y1:1164,x2:620,y2:1164,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  house(160,1190,0.9,gFrame); T(202,1196,'a house of Sill',{font:'Fell',size:16});
+  gate(160,1222,0.8,gFrame); T(202,1228,'the north gate',{font:'Fell',size:16});
+  graveMound(160,1254,0.9,gFrame); T(202,1260,'a thin-return grave',{font:'Fell',size:16});
+  brokenPot(160,1290,0.85,0,gFrame); T(202,1292,'a pot broken for the dead',{font:'Fell',size:16});
+  barrow(162,1328,0.62,gFrame); T(202,1324,'the Ash barrow',{font:'Fell',size:16});
+  tree(160,1364,0.95,gFrame); T(202,1356,'a bare orchard tree',{font:'Fell',size:16});
+  well(160,1392,0.7,gFrame); T(202,1388,'Cold Acre well',{font:'Fell',size:16});
+  E('line',{x1:142,y1:1420,x2:178,y2:1420,stroke:INK,'stroke-width':2,'stroke-dasharray':'6 5'},gFrame);
+  T(202,1426,'the north gate road',{font:'Fell',size:16});
+  E('path',{d:'M142 1454 q8 -3 16 0',fill:'none',stroke:SEA,'stroke-width':2},gFrame);
+  T(202,1460,'the Ilm, running seaward',{font:'Fell',size:16});
+
+  /* ---------- scale bar ---------- */
+  T(1560,1424,'A LEAGUE IS THREE THOUSAND PACES',{font:'FellSC',size:13,ls:1.4,fill:FADE});
+  E('rect',{x:1560,y:1434,width:480,height:13,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1560+i*120,y:1434,width:120,height:13,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1560+i*120,1468,[0,750,1500,2250][i]+'',{font:'Fell',size:15,anchor:'middle',fill:INK});
+  }
+  T(2050,1448,'paces',{font:'FellIt',size:16,fill:FADE});
+  T(1560,1492,'The orchard is a league from the Cross; Cold Acre another league beyond it.',{font:'FellIt',size:13,fill:FADE});
+
+  /* ---------- engraved ornaments in the margin ---------- */
+  function engravedPot(x,y,p){
+    var g=E('g',{transform:'translate('+x+' '+y+')'},p);
+    E('path',{d:'M0 0 q-9 -30 14 -36 q24 -5 28 20 l-8 14 l-10 -9 l-9 11 l-9 -11 z',
+      fill:'#d7c49c',opacity:0.72,stroke:INK,'stroke-width':1.5,'stroke-linejoin':'round'},g);
+    E('path',{d:'M4 -12 q14 -8 30 -2 M6 -3 q13 -7 27 -1',fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.5},g);
+    E('path',{d:'M-8 4 l10 -5 l-3 12 z M40 6 l11 -4 l-5 12 z',fill:'#cbb58f',stroke:INK,'stroke-width':0.9},g);
+  }
+  engravedPot(298,756,gFrame);
+  T(298,802,'a pot broken at a death-house door',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+
+  /* ---------- the ruled border and its hatch ---------- */
+  E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:2296,height:1496,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<116;i++){
+    var px=56+i*19.7;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:1548,x2:px,y2:1566,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<76;i++){
+    var py=56+i*19.6;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:2348,y1:py,x2:2366,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[2348,52,-1,1],[52,1548,1,-1],[2348,1548,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>

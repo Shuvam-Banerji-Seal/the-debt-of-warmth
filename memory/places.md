@@ -397,6 +397,23 @@ The ground of pots broken for the dead and of the shallow graves of thin-return 
 
 On Tallow 11–13, Y.H. 813 the yard went around the clean dark line, the new finer grey called the thaw, the rack space with its broken birth-slates, the bare dark trough at the well, the pan's gone place and the empty place where a hand went in on Seed 15, with a look and a wide step and no number; men unnamed went low into the finger's-width-open back room before first grey on Tallow 12 and Jorra came through with grey dust ground small as meal, while Tarn's stroke went over the flagstones without the half-check and over the collector's road without a turn, no collector coming. Ch 39.
 
+*The close ground of the burial ground drawn on `atlas/bone-orchard`: the staked orchard, the thin-return graves, the broken-pot ground, the Ash barrow at the south edge, the north gate road and Cold Acre beyond. Direction is from the north gate.*
+
+### The thin-return graves
+**Kind:** graves, burial ground. **Region:** the Bone Orchard, outside Sill's north gate.
+The shallow graves of thin-return children inside the Bone Orchard, in uneven rows with gaps and no slate over any of them. A thin return is carried here by the arm that knew the household and set down without a figure. Drawn on `atlas/bone-orchard`.
+**Relations:** Inside the Bone Orchard, one league north of the Cross by the north gate road.
+
+### The broken-pot ground
+**Kind:** ground for broken pots. **Region:** the Bone Orchard, outside Sill's north gate.
+The east ground of the Bone Orchard where pots are broken for the dead and the shards left where they fell. The breaking is done for the house and is not written down. Drawn on `atlas/bone-orchard`.
+**Relations:** Inside the Bone Orchard, east of the thin-return graves.
+
+### The Ash barrow
+**Kind:** barrow, cart. **Region:** the Bone Orchard, outside Sill's north gate.
+The barrow of grey Ash that goes out through the north gate toward the Bone Orchard on every market-day, heaped a little above the sides where the load has shifted, and comes back empty; nobody in the square looks at it twice. Another went out at the last market on Stone 30, Y.H. 812, and was not looked at twice. Its heap is tipped at the orchard's south edge. Drawn on `atlas/bone-orchard`.
+**Relations:** From the Cross through the north gate to the Bone Orchard, one league north of Sill.
+
 ### The Clay Yard
 **Kind:** work yard. **Region:** Low Kiln, Sill.
 The slip pits, wheel shed, drying racks and kiln that make up a clay child's whole world. On Kindling, Y.H. 812 the year's fire came up this yard before first light in a clay dish with a coal under ash, passed from hearth to hearth, and no house said where it had first been lit or what it cost. House Silt stands three doors up the yard; Sella Vail's walk from its door to the Vail kiln-house on the third morning is counted by the boy in the bundle as a line of steps, against Dessa's nineteen out and nineteen back. On that morning the sleet of the day before has gone off into a dry cold that lifts the oiled paper at the windows; a woman at a tub looks up as the bundle passes and goes back to her work without appearing to have seen it.
