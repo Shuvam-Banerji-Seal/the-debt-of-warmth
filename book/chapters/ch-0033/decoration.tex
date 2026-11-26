@@ -1,0 +1,51 @@
+\begin{tikzpicture}
+  % the chapter's heart: the sixth stopping laid on the interval tray as an
+  % object among objects, a sixth interval and not a sixth payment. Six
+  % likenesses held each in its own place, nothing laid across anything else,
+  % so they cannot stand up together and call themselves a doctrine --- for a
+  % doctrine is an account that has found a payer, and none has been named.
+
+  \fill[gold, opacity=0.036] (0,-0.04) ellipse (4.98 and 1.05);
+
+  % the cloth of the file, laid out as a man lays instruments on a towel
+  \fill[faded!9!vellum, opacity=0.52]
+    (-4.30,-0.62) .. controls (-4.46,-0.30) and (-4.46,0.34) .. (-4.30,0.62)
+    -- (4.30,0.62) .. controls (4.46,0.34) and (4.46,-0.30) .. (4.30,-0.62) -- cycle;
+  \draw[faded!84!ink, line width=0.88pt, opacity=0.56]
+    (-4.30,-0.62) .. controls (-4.46,-0.30) and (-4.46,0.34) .. (-4.30,0.62)
+    -- (4.30,0.62) .. controls (4.46,0.34) and (4.46,-0.30) .. (4.30,-0.62) -- cycle;
+  \draw[faded!70!ink, line width=0.52pt, opacity=0.26]
+    (-4.18,-0.46) .. controls (-1.60,-0.41) and (1.60,-0.41) .. (4.18,-0.46);
+  \foreach \cy in {-0.24,0.02,0.28}{
+    \draw[faded!56!ink, line width=0.38pt, opacity=0.13]
+      (-3.95,\cy) .. controls (-1.60,\cy+0.03) and (1.60,\cy-0.03) .. (3.95,\cy+0.01);
+  }
+
+  % six interval-objects, each in its own place, parallel, none touching
+  \foreach \sx in {-3.50,-2.10,-0.70,0.70,2.10,3.50}{
+    \begin{scope}[shift={(\sx,0)}]
+      \draw[faded!82!ink, line width=0.82pt, opacity=0.58] (-0.54,0) -- (-0.08,0);
+      \draw[faded, line width=0.48pt, dotted, opacity=0.24] (0.08,0) -- (0.54,0);
+      \draw[faded!80!ink, line width=0.74pt, opacity=0.52] (-0.54,-0.14) -- (-0.54,0.14);
+      \draw[faded!80!ink, line width=0.74pt, opacity=0.52] (0.54,-0.14) -- (0.54,0.14);
+      \draw[rubric!68!ink, line width=0.98pt, opacity=0.68] (-0.08,-0.12) -- (-0.08,0.12);
+      \draw[rubric!68!ink, line width=0.98pt, opacity=0.68] (0.08,-0.12) -- (0.08,0.12);
+    \end{scope}
+  }
+
+  % above them the would-be standing of a doctrine: six separate hesitations,
+  % each over its object, none reaching up to join the others
+  \foreach \sx in {-3.50,-2.10,-0.70,0.70,2.10,3.50}{
+    \draw[faded, line width=0.45pt, dotted, opacity=0.20] (\sx,0.30) -- (\sx,0.66);
+  }
+  % the line that would bind them into one account is broken, never drawn
+  \foreach \xa/\xb in {-3.95/-2.95,-2.75/-1.75,-1.55/-0.55,-0.35/0.65,0.85/1.85,2.05/3.05,3.25/3.95}{
+    \draw[rubric!35!faded, line width=0.45pt, opacity=0.16] (\xa,0.86) -- (\xb,0.86);
+  }
+
+  \node at (-4.80,0.02) {\pgfornament[width=0.95cm,color=ornament]{12}};
+  \node at ( 4.80,0.02) {\pgfornament[width=0.95cm,color=ornament,symmetry=v]{12}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.42)
+    {six held, and still not paid};
+\end{tikzpicture}
