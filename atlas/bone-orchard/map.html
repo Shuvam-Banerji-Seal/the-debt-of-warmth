@@ -107,14 +107,15 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   for(i=0;i<40;i++){tuft(rr(140,2280),rr(486,690),rr(0.6,1.0),gTerr);}
 
   /* ---------- the Ilm, cut at the foot of the chart ---------- */
-  var center=jit([[660,1330],[900,1320],[1140,1326],[1380,1318],[1600,1330]],2.0,16);
+  var center=jit([[680,1320],[800,1308],[920,1324],[1040,1306],[1160,1322],[1280,1308],[1400,1326],[1520,1312],[1600,1324]],2.6,12);
   var bankS=[],bankN=[],norm=[],half=[];
   for(k=0;k<center.length;k++){
     var a=center[Math.max(0,k-1)],b=center[Math.min(center.length-1,k+1)];
     var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
-    var nx=-dy/le,ny=dx/le,t=k/(center.length-1),w=52+8*t+Math.sin(k*0.8)*3;
-    bankS.push([center[k][0]+nx*w+rr(-2,2),center[k][1]+ny*w+rr(-2,2)]);
-    bankN.push([center[k][0]-nx*w+rr(-2,2),center[k][1]-ny*w+rr(-2,2)]);
+    var nx=-dy/le,ny=dx/le,t=k/(center.length-1);
+    var w=(29+20*t+Math.sin(k*0.9)*7)*(0.32+0.68*Math.sin(Math.PI*t));
+    bankS.push([center[k][0]+nx*w+rr(-4,4),center[k][1]+ny*w+rr(-4,4)]);
+    bankN.push([center[k][0]-nx*w+rr(-4,4),center[k][1]-ny*w+rr(-4,4)]);
     norm.push([nx,ny]); half.push(w);
   }
   E('path',{d:D(bankS.concat(bankN.slice().reverse()),true),fill:SEAWASH,opacity:0.55},gWater);
@@ -130,6 +131,16 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
       var a=bank[k-1],b=bank[k+1],dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
       E('line',{x1:bank[k][0],y1:bank[k][1],x2:bank[k][0]-dy/le*10+dx/le*3,y2:bank[k][1]+dx/le*10+dy/le*3,
         stroke:INK,'stroke-width':0.8,opacity:0.3},gWater);
+    }
+  });
+  /* two silt shoals break the current, cut in pale hatch */
+  [[848,1332],[1338,1322]].forEach(function(sh){
+    var sp=jit([[sh[0]-34,sh[1]+4],[sh[0]-14,sh[1]-9],[sh[0]+16,sh[1]-10],[sh[0]+34,sh[1]+3],
+                [sh[0]+12,sh[1]+11],[sh[0]-18,sh[1]+10]],2.2,9);
+    E('path',{d:D(sp,true),fill:'#d3c09a',stroke:FADE,'stroke-width':1,'stroke-dasharray':'3 5',opacity:0.85},gWater);
+    for(k=0;k<7;k++){
+      E('line',{x1:sh[0]-22+k*7,y1:sh[1]-6,x2:sh[0]-16+k*7,y2:sh[1]+7,
+        stroke:FADE,'stroke-width':0.7,opacity:0.45},gWater);
     }
   });
 
@@ -269,7 +280,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   /* the ground, named in place */
   T(1130,890,'THE BONE ORCHARD',{font:'FellSC',size:26,ls:6,fill:FADE,anchor:'middle',opacity:0.85,halo:true});
   T(1130,918,'of the thin return',{font:'FellIt',size:17,fill:FADE,anchor:'middle',halo:true});
-  T(968,982,'the thin-return graves',{font:'FellIt',size:16,fill:INK,anchor:'middle',halo:true});
+  T(866,1006,'the thin-return graves',{font:'FellIt',size:16,fill:INK,anchor:'middle',halo:true});
   T(1536,1052,'the broken-pot ground',{font:'FellIt',size:16,fill:RED,anchor:'middle',halo:true});
   T(1290,1146,'the Ash barrow',{font:'FellIt',size:16,fill:FADE,anchor:'middle',halo:true});
   T(1150,1236,'the north gate',{font:'Fell',size:17,anchor:'middle',halo:true});
@@ -279,7 +290,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   T(1500,610,'the well that never freezes',{font:'FellIt',size:14,fill:SEA,anchor:'middle',halo:true});
   T(1130,1466,'Sill',{font:'Fell',size:18,fill:FADE,anchor:'middle',opacity:0.75,halo:true});
   T(990,1470,'the Cross',{font:'FellIt',size:14,fill:FADE,anchor:'middle',opacity:0.8,halo:true});
-  T(1050,1100,'the north gate road',{font:'FellIt',size:14,fill:FADE,rot:-78,halo:true});
+  T(908,1122,'the north gate road',{font:'FellIt',size:14,fill:FADE,anchor:'end',halo:true});
   T(1880,364,'the ridge',{font:'FellIt',size:16,fill:FADE,rot:2,halo:true});
   T(2156,1410,'to Sill — one league south',{font:'FellIt',size:15,fill:FADE,anchor:'end',halo:true});
   T(700,1338,'downriver to the Fishstairs',{font:'FellIt',size:14,fill:FADE,anchor:'end',halo:true});
@@ -297,7 +308,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
     'on the ridge, with six houses, barley, turnips and one',
     'well that does not freeze in the hardest Stone.'
   ],{size:16,lh:24,fill:'#574226'});
-  note(706,1282,[
+  note(120,900,[
     'The graves are shallow and there is no slate over any of',
     'them. A thin return is carried here by the arm that knew',
     'the household, and set down without a figure.'
@@ -378,9 +389,12 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   /* ---------- engraved ornaments in the margin ---------- */
   function engravedPot(x,y,p){
     var g=E('g',{transform:'translate('+x+' '+y+')'},p);
-    E('path',{d:'M0 0 q-9 -30 14 -36 q24 -5 28 20 l-8 14 l-10 -9 l-9 11 l-9 -11 z',
+    E('path',{d:'M-12 -30 L12 -30 L8 -22 Q18 -14 18 -6 L12 2 L6 -5 L0 3 L-6 -5 L-12 2 L-18 -6 Q-18 -14 -8 -22 Z',
       fill:'#d7c49c',opacity:0.72,stroke:INK,'stroke-width':1.5,'stroke-linejoin':'round'},g);
-    E('path',{d:'M4 -12 q14 -8 30 -2 M6 -3 q13 -7 27 -1',fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.5},g);
+    E('path',{d:'M-12 -26 L12 -26 M-12 -20 q12 -5 24 0',fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.5},g);
+    for(i=0;i<7;i++){
+      E('line',{x1:-12+i*4,y1:-17,x2:-8+i*4,y2:-4,stroke:FADE,'stroke-width':0.7,opacity:0.35},g);
+    }
     E('path',{d:'M-8 4 l10 -5 l-3 12 z M40 6 l11 -4 l-5 12 z',fill:'#cbb58f',stroke:INK,'stroke-width':0.9},g);
   }
   engravedPot(298,756,gFrame);
