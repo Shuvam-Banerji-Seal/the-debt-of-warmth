@@ -2,7 +2,7 @@
 
 - Chapters complete: **36**
 - Words of story: **582,154**
-- Current chapter: 36 (step: publish, scene 9)
+- Current chapter: 37 (step: plan, scene 1)
 - Last chapter: Nine at the Teeth (Days 147–149 · Reed 28–30, Y.H. 813)
 - Author calls so far: 421 (tokens in 69,257,115, out 9,117,909)
 - Updated: 2026-11-26 09:07
