@@ -2,7 +2,7 @@
 
 - Chapters complete: **44**
 - Words of story: **716,723**
-- Current chapter: 44 (step: publish, scene 7)
+- Current chapter: 45 (step: plan, scene 1)
 - Last chapter: The Stone in the Loft (Days 183–185 · Ember 4–6, Y.H. 813)
 - Author calls so far: 507 (tokens in 85,184,709, out 11,024,392)
 - Updated: 2026-11-26 14:11
