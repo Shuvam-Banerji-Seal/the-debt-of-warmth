@@ -1,0 +1,68 @@
+\begin{tikzpicture}
+  % the chapter's heart: the grey cord gone grey with a working thumb,
+  % knotted low with the teeth and put back inside the coat --- a keeping
+  % that knows what the mouth will not say and what the Court cannot read.
+  % Four knots stand, and none of them is counted into an account.
+  % Set apart from the closed mouth above, with a clear space between:
+  % keep the two apart; nothing joins them and nothing is paid.
+
+  \fill[gold, opacity=0.036] (0,-0.03) ellipse (4.94 and 1.05);
+
+  % the mouth above, closed, with no word coming out of it
+  \draw[faded!72!ink, line width=0.72pt, opacity=0.36]
+    (-3.55,0.90) .. controls (-3.05,0.84) and (-2.55,0.84) .. (-2.05,0.90);
+  \draw[faded!58!ink, line width=0.48pt, opacity=0.22]
+    (-3.55,0.90) .. controls (-3.05,0.98) and (-2.55,0.98) .. (-2.05,0.90);
+
+  % the clear space kept between the mouth and the cord, uncrossed
+  \draw[faded, line width=0.45pt, dotted, opacity=0.18] (-2.80,0.64) -- (-2.80,0.24);
+
+  % the cord's loose tail, curling back on the left
+  \draw[ash!75!faded, line width=2.3pt, opacity=0.64, line cap=round]
+    (-4.02,0.06) .. controls (-4.34,0.12) and (-4.44,-0.10) .. (-4.24,-0.24);
+
+  % the cord itself: grey with thumb oil, low waves, running toward the coat
+  \draw[ash!75!faded, line width=2.6pt, opacity=0.72, line cap=round]
+    plot[domain=-4.05:3.95, samples=64] (\x,{0.00+0.13*sin(deg(1.45*\x))});
+  \draw[vellum, line width=0.55pt, opacity=0.20]
+    plot[domain=-4.05:3.95, samples=64] (\x,{0.018+0.13*sin(deg(1.45*\x))});
+
+  % the twist of the cord, in small slanting bites along its length
+  \foreach \tx in {-3.80,-3.40,-3.00,-2.60,-2.20,-1.80,-1.40,-1.00,-0.60,-0.20,0.20,0.60,1.00,1.40,1.80,2.20,2.60,3.00,3.40}{
+    \pgfmathsetmacro{\ty}{0.13*sin(deg(1.45*\tx))}
+    \draw[faded!55!ink, line width=0.45pt, opacity=0.26] (\tx,\ty-0.095) -- (\tx+0.06,\ty+0.095);
+  }
+
+  % four knots, each a small crossing kept on its own place, none read
+  \foreach \kx in {-2.90,-1.35,0.20,1.75}{
+    \pgfmathsetmacro{\ky}{0.13*sin(deg(1.45*\kx))}
+    \begin{scope}[shift={(\kx,\ky)}]
+      \draw[ash!78!faded, line width=1.5pt, opacity=0.76, rotate=35] (0,0) ellipse (0.21 and 0.085);
+      \draw[ash!78!faded, line width=1.5pt, opacity=0.76, rotate=-35] (0,0) ellipse (0.21 and 0.085);
+      \fill[faded!60!ink, opacity=0.30] (0,0) circle (0.045);
+    \end{scope}
+  }
+
+  % the last knot tied low with the teeth: two marks pressed into the cord
+  \draw[faded!74!ink, line width=0.62pt, opacity=0.38]
+    (2.02,0.16) .. controls (2.12,0.06) and (2.12,-0.02) .. (2.02,-0.11);
+  \draw[faded!74!ink, line width=0.62pt, opacity=0.38]
+    (2.20,0.14) .. controls (2.30,0.05) and (2.30,-0.03) .. (2.20,-0.12);
+  \draw[rubric!55!faded, line width=0.70pt, opacity=0.44]
+    (2.11,0.10) .. controls (2.16,0.03) and (2.16,-0.03) .. (2.11,-0.09);
+
+  % the fold of the coat: the cord goes in and is carried there, hidden
+  \fill[faded!18!ink, opacity=0.24]
+    (3.60,1.05) .. controls (4.20,0.45) and (4.20,-0.45) .. (3.60,-1.05)
+    -- (4.00,-1.05) .. controls (4.45,-0.40) and (4.45,0.40) .. (4.00,1.05) -- cycle;
+  \draw[faded!72!ink, line width=0.70pt, opacity=0.44]
+    (3.60,1.05) .. controls (4.20,0.45) and (4.20,-0.45) .. (3.60,-1.05);
+  \draw[faded!50!ink, line width=0.42pt, dotted, opacity=0.22]
+    (4.12,0.86) .. controls (4.42,0.35) and (4.42,-0.35) .. (4.12,-0.86);
+
+  \node at (-4.95,0.02) {\pgfornament[width=0.92cm,color=ornament]{21}};
+  \node at ( 4.95,0.02) {\pgfornament[width=0.92cm,color=ornament,symmetry=v]{21}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.44)
+    {four knots, and no account};
+\end{tikzpicture}

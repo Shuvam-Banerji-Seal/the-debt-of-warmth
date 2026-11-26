@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **30**
-- Words of story: **470,227**
-- Current chapter: 31 (step: plan, scene 1)
-- Last chapter: The Tally Under the Shelf (Days 129–131 · Reed 10–12, Y.H. 813)
-- Author calls so far: 349 (tokens in 57,043,725, out 7,676,710)
-- Updated: 2026-11-25 23:14
+- Chapters complete: **31**
+- Words of story: **487,823**
+- Current chapter: 31 (step: publish, scene 8)
+- Last chapter: Four at the Teeth (Days 132–134 · Reed 13–15, Y.H. 813)
+- Author calls so far: 365 (tokens in 59,275,152, out 7,925,864)
+- Updated: 2026-11-26 06:08
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
