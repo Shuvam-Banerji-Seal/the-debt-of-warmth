@@ -39,15 +39,15 @@ The manner first, because a saying said wrongly is a different saying. Say them 
 
 7. “What is heard is not written. What is written can be carried away.”
 
-*Gloss — The Vorr keep the long listenings in the head and write none of them. A survey-clerk once asked one of them to set down what the stone had said and was given the height of the stone, which was true and useless and which he entered. There are perhaps four thousand Vorr in the world, most of them here in Keld and almost none in Grath, and I have never heard of one writing a sentence. They have no call to. A thing said to a stone stays where it was said, which is more than can be said for a thing said at a table.*
+*Gloss — The Vorr keep the long listenings in the head and write none of them. A clerk once asked one to set down what the stone had said and was given its height, which was true and useless and which he entered. There are perhaps four thousand Vorr, most of them here in Keld and almost none in Grath, and I have never heard of one writing a sentence. A thing said to a stone stays where it was said, which is more than can be said for a thing said at a table.*
 
 8. “The impatient hear the stone scratch.”
 
-*Gloss — They will not let an impatient person sit, and there is no argument about it. A man who cannot sit still has already spent his season and will bring back nothing but a number he could have had at home, and a temper besides, which is worse than either. I watched a young surveyor try it in Ash and come down with the figure unchanged. He has not been up since, and neither has his temper.*
+*Gloss — They will not let an impatient person sit, and there is no argument about it. A man who cannot sit still has spent his season and brings back a number he could have had at home, and a temper besides. I watched a young surveyor try it in Ash and come down with the figure unchanged. He has not been up since, and neither has his temper.*
 
 # Of the questions men carry up the stones
 
-*Men walk five leagues of scree with a question in the pocket and bring back the same answer in different words. I have set four of them here, with what was said on the stone and what was done with it at Greybank.*
+*Men walk five leagues of scree with a question and bring back the same answer in different words. I have set four here, with what was said on the stone and what was entered at Greybank.*
 
 | What was asked | What the Vorr said | What was entered |
 |---|---|---|
