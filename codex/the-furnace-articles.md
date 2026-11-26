@@ -110,7 +110,7 @@ A clerk of the Council borrowed the leaf on the morning after the salt boats cam
 - Against *he is kept, not hired* he set *retained at the furnace, no wage arising*, true about a figure and false about a girl who eats from the dish. I have put mine back underneath.
 - Against the row about a hand that will not hold a pipe steady he wrote *one hand, current; measure not affected*. I have set *the hand kept* beneath it where a girl can read it.
 
-The other hand is charcoal, and belongs to a girl come down from High Kiln with the Glaze Room still in her mouth. Against rule 8 she struck *a mark of skill* and wrote *It is lead. It is paid out of the hand*, and would not sign it. She has put the price where the proportion should have been, which is the only column in this trade that tells the truth. I have not asked her name and she has not given it.
+The other hand is charcoal, a girl come down from High Kiln with the Glaze Room in her mouth. Against rule 8 she struck *a mark of skill* and wrote *It is lead. It is paid out of the hand*, and would not sign it. She has put the price where the proportion should have been, which is the only column in this trade that tells the truth. I have not asked her name and she has not given it.
 
 # At the head and in the gutter
 
@@ -121,4 +121,4 @@ The white at the head is salt and not Ash; there is no Ash in Vhal that has not 
 > The pot keeps the lead and the gum keeps the green.
 > The heat keeps the name that the tally left out.
 
-I asked a furnace-master, a clerk come down from the Council room, and a woman who sells eels on the Quay, and had three answers and no hand, as I have had before. I have left the lines where they were written. The leaf goes back on its wire beside the anneal; the heat will take another word by the next firing and I shall not write it back. Tomorrow a child will be brought at twelve with a name she will not use at the furnace, and I shall lift the pipe-end, keep it level, and say what came up before I say who came.
+I asked a furnace-master, a clerk come down from the Council room, and a woman who sells eels on the Quay, and had three answers and no hand. I have left the lines where they were written. The leaf goes back on its wire; the heat will take another word by the next firing and I shall not write it back. Tomorrow a child will be brought at twelve with a name she will not use at the furnace, and I shall lift the pipe-end, keep it level, and say what came up before I say who came.
