@@ -2,7 +2,7 @@
 
 - Chapters complete: **48**
 - Words of story: **788,541**
-- Current chapter: 48 (step: publish, scene 7)
+- Current chapter: 49 (step: plan, scene 1)
 - Last chapter: The Inch Asked Again (Days 195–197 · Ember 16–18, Y.H. 813)
 - Author calls so far: 547 (tokens in 92,362,031, out 11,840,702)
 - Updated: 2026-11-26 16:30
