@@ -5,7 +5,7 @@ provenance: Gathered over nine winters at the survey post in the Cold Pass, ten 
 relates_to: [the Waste, Wastelings, Waste Cant, Grathic, Keld, Keld Keep, the Rim, the Rim Road, the Cold Pass, the survey post, the cold-eater, the uncollected, the Vorr, warm-stone, the Warm, the measure, embers, the Ash, the Return, the Hearth, the collector, cold iron, slate, Greybank, the factor at Greybank, Ledgerhand, Stonemouth, Sill, Grath, the Long Cold, the Thin Year, no Last Day, the sitting dead, stone, name, a day's warmth, frost]
 ---
 
-I keep the post. There is a post and no gate, and the surveyors who set me here count men through it: those who go up and those who come down. When the party turns back I stay with the counting. Nine winters I have heard what the people beyond it say, and this winter I put it down, because a keeper who stays long enough at a post becomes the only man who can remember a sentence that the country it came from has already let go.
+I keep the post. There is a post and no gate, and the surveyors who set me here count men through it: those who go up and those who come down. When the party turns back I stay with the counting. Nine winters I have heard what the people beyond it say, and this winter I put it down, because a keeper who stays long enough becomes the only man who remembers a sentence that the country it came from has let go.
 
 I write in Grathic letters because Waste Cant is not written. It is a handful of borrowed words and a way of letting the ends fall away, and what cannot be done with the mouth is not done with a hand. Where a sound has no word I have left a blank. Do not put a word into the blank. A man come up with lime from Stonemouth asked me what they say when there is nothing to say. I told him they say it to the cold. He went away believing he had learned the Waste, which is the usual end of such a conversation.
 
@@ -77,7 +77,7 @@ Say these to the ground or to the stone you are sitting against, never to the pe
 
 15. “That is what it is for.”
 
-*Gloss — Said of a cold-eater by a woman I asked why they did not drive it off. I took it for an answer about the creature and after a while saw it was an answer about everything: the post, the counting, the sitting dead, the things given away. I have kept it because it is the only sentence in this country that sounds like a reason and refuses to be one.*
+*Gloss — Said of a cold-eater by a woman I asked why they did not drive it off. I took it for an answer about the creature and saw it was an answer about everything: the post, the counting, the sitting dead, the things given away. I have kept it because it is the only sentence in this country that sounds like a reason and refuses to be one.*
 
 # What they say when a man goes on ahead
 
@@ -86,6 +86,7 @@ Say these to the ground or to the stone you are sitting against, never to the pe
 > Stone in the hand and the road in the face,
 > a name let go where the name stood;
 > one for the man who goes on ahead
+>
 > and one for the man who does not come back.
 >
 > No mark, no debt, no fire to carry,
