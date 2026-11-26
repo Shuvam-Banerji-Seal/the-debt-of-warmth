@@ -1,0 +1,70 @@
+\begin{tikzpicture}
+  % the chapter's heart: the box goes up the road locked. Above its lid
+  % the printed figure stands in the crowd's air, read and unchallenged;
+  % under the lid the true subtraction lies where no finger goes, kept and
+  % not paid. The seam between them is the whole distance of the month.
+  % The road carries the box toward High Kiln and opens no slate along it.
+
+  % the clay road, two faint edges going off right toward High Kiln
+  \draw[faded, line width=0.44pt, dotted, opacity=0.22]
+    (-4.90,-1.00) .. controls (-2.10,-0.93) and (1.20,-0.96) .. (4.90,-1.10);
+  \draw[faded, line width=0.40pt, dotted, opacity=0.14]
+    (-4.90,-1.29) .. controls (-1.80,-1.22) and (2.10,-1.25) .. (4.90,-1.39);
+
+  % the shadow the locked box lays on the road, carrying its weight
+  \fill[ink, opacity=0.055]
+    (-2.05,-0.96) .. controls (0,-1.14) and (0,-1.14) .. (2.05,-0.96)
+    .. controls (0,-0.78) and (0,-0.78) .. (-2.05,-0.96) -- cycle;
+
+  % the box: dark, low and shut, its front grained with no figure read
+  \fill[night!78, opacity=0.54]
+    (-1.75,-0.90) -- (1.75,-0.90) -- (1.75,-0.08) -- (-1.75,-0.08) -- cycle;
+  \draw[faded!86!ink, line width=0.98pt, opacity=0.64]
+    (-1.75,-0.90) -- (1.75,-0.90) -- (1.75,-0.08) -- (-1.75,-0.08) -- cycle;
+  \draw[faded!58!ink, line width=0.42pt, opacity=0.26]
+    (-1.44,-0.63) -- (1.44,-0.63);
+  \draw[faded!46!ink, line width=0.40pt, opacity=0.20]
+    (-1.44,-0.35) -- (1.44,-0.35);
+
+  % the true subtraction, kept under the lid: a close uneven cluster,
+  % never gathered into the figure that is spoken over the crowd
+  \foreach \gx/\gy in {-1.16/-0.50,-0.90/-0.44,-0.62/-0.52,-0.34/-0.46,
+                       -0.04/-0.51,0.24/-0.45,0.54/-0.50,0.84/-0.44}{
+    \draw[faded!68!ink, line width=0.62pt, opacity=0.20, line cap=round]
+      (\gx,\gy) -- (\gx,\gy+0.13);
+  }
+
+  % the lid, a separate plank: its seam is the division between what is
+  % read aloud and what is paid, and nothing passes through it
+  \fill[faded!13!vellum, opacity=0.58]
+    (-1.88,-0.08) -- (1.88,-0.08) -- (1.88,0.13) -- (-1.88,0.13) -- cycle;
+  \draw[faded!88!ink, line width=0.98pt, opacity=0.70]
+    (-1.88,-0.08) -- (1.88,-0.08) -- (1.88,0.13) -- (-1.88,0.13) -- cycle;
+  \draw[faded!64!ink, line width=0.44pt, opacity=0.30]
+    (-1.86,0.03) -- (1.86,0.03);
+
+  % the closed clasp: the box goes up the road locked, with no key
+  \fill[gold, opacity=0.52] (-0.13,0.05) rectangle (0.13,-0.07);
+  \draw[faded!84!ink, line width=0.60pt, opacity=0.54]
+    (-0.13,0.05) rectangle (0.13,-0.07);
+  \fill[rubric!60!faded, opacity=0.64] (0.00,-0.01) circle (0.032);
+
+  % the figure read aloud: one set apart, then the printed row standing
+  % unchallenged in the air above the lid
+  \draw[rubric!54!faded, line width=0.94pt, opacity=0.62, line cap=round]
+    (-0.92,0.98) -- (-0.92,0.60);
+  \foreach \rx in {-0.44,-0.20,0.04,0.28,0.52,0.76}{
+    \draw[rubric!48!faded, line width=0.78pt, opacity=0.50, line cap=round]
+      (\rx,0.86) -- (\rx,0.66);
+  }
+  % the reading descends to the lid and stops there; it does not enter
+  \draw[faded, line width=0.42pt, dotted, opacity=0.30]
+    (-0.10,0.63) -- (-0.10,0.19);
+  \fill[faded, opacity=0.34] (-0.10,0.16) circle (0.018);
+
+  \node at (-4.62,0.20) {\pgfornament[width=1.0cm,color=ornament]{11}};
+  \node at ( 4.62,0.20) {\pgfornament[width=1.0cm,color=ornament,symmetry=v]{11}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {what is read is not what is paid};
+\end{tikzpicture}
