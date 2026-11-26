@@ -2,7 +2,7 @@
 title: The Sayings of Grath, Being the Maxims of the Clay Country, Gathered in the Clay Yard at Low Kiln and Glossed for a Child Come Back from the Bank
 kind: A slip-treader's gathering of the proverbs, pot-bench maxims, firing-counts and household threats of the Grathic, set down in the common tongue; the sayings spoken low and said to the ground, the pot or the fire, the glosses in the treader's own charcoal hand, with a kiln-master's correction in broad charcoal and a Court clerk's figures in a narrow upright hand, and one line at the back in a hand nobody will own
 provenance: Gathered in the Clay Yard at Low Kiln in Sill through Ash of Y.H. 813 and written on birch bark in the Five Cold Days at the turn of the year by Hesta Tallow, a widow who has trodden slip for one and thirty years and holds a small kiln by the widow's mark. She set it down because she had begun to forget one of the sayings and because a child returned thin to the yard would want to know what the house used to say; bark is used because a saying that travels must go where the speaker does not, and slate is for figures that stay put. It survives folded twice and tied with a strip of grey wool, sewn at the fold with eel-sinew got from the Fishstairs, with wet clay ground into the first leaf, a chalk thumb at the head, a scorch along the lower edge where the bark lay too near the kiln mouth, a small-ale ring, a pressed sherd between the third and fourth leaf, grey Ash in the gutter, and the sweet green of lead glaze at one corner where a woman from High Kiln set her hand
-relates_to: [Grath, Grathic, Low Kiln, Sill, the Clay Yard, Sill, the Cross, the pot board, slip, the wheel, the kiln, the damper, the carried fire, the First Firing, the widow's mark, the moot, the Ash, the slate, the collector, cold iron, the measure, the deduction, one in twelve, the Weighing notice, Greybank, the Breaking, the Ilm, the Fishstairs, thin return, whole return, clay-bound, kept hands, Sere, measure for measure, birch bark, Ledgerhand, hearth-maid, the birth-flower, the second chill, sweet sickness, the kiln's breath, the Thane of Clay]
+relates_to: [Grath, Grathic, Low Kiln, Sill, the Clay Yard, the Cross, the pot board, slip, the wheel, the kiln, the damper, the carried fire, the First Firing, the widow's mark, the moot, the Ash, the slate, the collector, cold iron, the measure, the deduction, one in twelve, the Weighing notice, Greybank, the Breaking, the Ilm, the Fishstairs, thin return, whole return, clay-bound, kept hands, Sere, measure for measure, birch bark, Ledgerhand, hearth-maid, the birth-flower, the second chill, sweet sickness, the kiln's breath, the Thane of Clay]
 ---
 
 I have trodden slip in this yard for one and thirty years, and this winter I found I could not bring up one of our sayings when I wanted it. It was gone the way a name goes from a person banked too often: I knew the shape of it and not the word. So I have put them here, in the tongue we speak, on bark, because bark will go where a body is not going.
@@ -69,55 +69,55 @@ These are not sung. Say them low, to the pot, the clay, the floor, the fire, in 
 
 *Gloss — This was said over Garl's tile debt through seven days of high water and it was true then. The debt lay where it lay. It did not rot. Nothing in Grath rots as slowly as a debt nobody has picked up.*
 
-14. “The collector comes with a slate, not a threat. The threat is in the slate.”
+13. “The collector comes with a slate, not a threat. The threat is in the slate.”
 
 *Gloss — He does not raise his voice. He writes. A house can shout at a man and be done with it; a house cannot shout at a figure that has already been entered. A cold iron tube and a clean hand are the whole of the law as it arrives at a door.*
 
-15. “Rent is eight marks and the frost is free.”
+14. “Rent is eight marks and the frost is free.”
 
 *Gloss — This is the dry joke of the district and it is not funny in Stone. Fuel is four marks and food is twelve, and a man who misses three days of work has begun to owe. The frost asks nothing and gives less.*
 
-16. “A thin return comes back liking a country it cannot name.”
+15. “A thin return comes back liking a country it cannot name.”
 
 *Gloss — Many measures pooled and divided make a stranger with a taste for a house that was never his. We feed them. We do not ask them to remember us, and we do not say what a whole return costs, because a person who buys one has paid somebody, and here we know who.*
 
 # Of the grey in the corner
 
-17. “The grey in the corner is not dirt.”
+16. “The grey in the corner is not dirt.”
 
 *Gloss — It gathers where a promise was not kept and shows plain by tallow-light. In the daytime it is not there. On the Last Day it is left where it lies and burned the next morning, and the clean line where it stood is not the same as gone. This is not a saying for a feast.*
 
 # Of children and the yard
 
-19. “Knuckle the pot. If it sings, the house eats. If it lies flat, the yard takes another year.”
+17. “Knuckle the pot. If it sings, the house eats. If it lies flat, the yard takes another year.”
 
-*Gloss — The First Firing at twelve. A clear note and there is a feast; a flat note and the child serves a year in the yard and tries again. It is not cruel. It is the same test every pot in the yard has had to pass, and it does not excuse the child from anything it excuses the clay from.*
+*Gloss — The First Firing at twelve. A clear note and there is a feast; a flat note and the child serves a year in the yard and tries again. It is the same test every pot must pass, and it excuses the child from nothing.*
 
-20. “A foundling is named by whoever writes first.”
+18. “A foundling is named by whoever writes first.”
 
 *Gloss — The hearth-maid or the collector, whichever reaches the bench before anyone looks at the face. The name is what the slate can hold, not what the child is. It has no house-name until a hearth claims it, which is the way of keeping a person from inheriting a debt he did not make.*
 
-21. “Good axe, two marks. Cow, twenty-four. A boy sweeping the yard, six bits a day.”
+19. “Good axe, two marks. Cow, twenty-four. A boy sweeping the yard, six bits a day.”
 
 *Gloss — Not a proverb. A list. It is kept here because a returning child will ask what he was worth and a grandmother ought to be able to tell him the price of an axe without pretending it was love that set it.*
 
 # Of the river
 
-22. “Ask the river what the water cost. The river will tell you the weather.”
+20. “Ask the river what the water cost. The river will tell you the weather.”
 
 *Gloss — An answer given with the weather in it and no figure anywhere. It comes down from the Fishstairs and up the Weir and is the same sentence in every mouth along the Ilm. A person who wants to know what the flood took had better have a slate, because the river has none.*
 
 # Of the south and the Court
 
-24. “A man without a kiln-mark is a man without a debt, and we do not trust him.”
+21. “A man without a kiln-mark is a man without a debt, and we do not trust him.”
 
 *Gloss — Travellers are lodged at the Cross and watched. Sere traders are disliked because they buy poor measures and pay in crowns that will not change at the Cross, and are sold to anyway. A Wasteling is not disliked so much as pitied in a way that closes the door.*
 
-25. “Measure for measure means what the man who said it has already decided.”
+22. “Measure for measure means what the man who said it has already decided.”
 
 *Gloss — A southern phrase, brought back by men who went down the Peat Line with wool and came back with a figure in their heads. At home we say one in twelve, as the notice says, and the notice and the man between them keep a whole district warm for a season. The south empties a bowl and calls it the same thing as a number.*
 
-26. “The Court owns no slaves and calls that civility. Its Kept belong to their accounts and calls that kindness.”
+23. “The Court owns no slaves and calls that civility. Its Kept belong to their accounts and calls that kindness.”
 
 *Gloss — Fewer than twenty in the world. They sit in rooms with good fires they cannot feel. Say this at the pot and not at the Court table, where there is a clerk who will write it down as an opinion and send it up with the figures.*
 
@@ -143,7 +143,7 @@ These are not sung. Say them low, to the pot, the clay, the floor, the fire, in 
 
 # At the head and in the gutter
 
-The chalk at the head is my thumb; I held the bark down on the bench in a draught from the yard door and did not know I had marked it. The scorch along the lower edge is where I laid the fold too near the kiln mouth one evening, and it took the corner off three sayings; I have not written them in again, because a saying with its corner gone is a saying the yard has half forgotten, which is how most of them reach us. The ale ring is not mine and I have not tried to find whose it is. The sherd between the third and fourth leaf is a piece of a jar that answered flat and was set here to remind me what flat sounds like. The grey in the gutter came off a cuff that lay where no cuff had business lying, and I have not swept it. The green at the corner came from a woman who stood at the pot board with glaze in the crease beside her mouth and put her hand down here while she was deciding whether to buy. She did not buy. The strip of grey wool is mine and holds the fold; there is a knot in it for the one saying I could not bring up, and I have not untied it to see whether the word has come back.
+The chalk at the head is my thumb; I held the bark down on the bench in a draught from the yard door and did not know I had marked it. The scorch along the lower edge is where I laid the fold too near the kiln mouth one evening, and it took the corner off three sayings; I have not written them in again, because a saying with its corner gone is a saying the yard has half forgotten, which is how most of them reach us. The sherd between the third and fourth leaf is a piece of a jar that answered flat and was set here to remind me what flat sounds like. The grey in the gutter came off a cuff that lay where no cuff had business lying, and I have not swept it. The green at the corner came from a woman who stood at the pot board with glaze in the crease beside her mouth and put her hand down here while she was deciding whether to buy. She did not buy. The strip of grey wool is mine and holds the fold; there is a knot in it for the one saying I could not bring up, and I have not untied it to see whether the word has come back.
 
 # At the back, in a hand nobody will own
 
