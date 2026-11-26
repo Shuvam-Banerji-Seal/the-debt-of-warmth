@@ -40,11 +40,11 @@ The Sere word is not ours and I did not learn it in Grath. A factor's man came u
 | Ash 22 | A thrower of the low yard, second pouring | 41 | thin | a cradle in Low Kiln | the district | flat | Figure below the first. Set side by side, joined neither. |
 | Ash 24 | A man of Mud End. *Peat* | 47 | thin | three cradles, by lot | the district | none | Drawn before light. Slate came in grey at the head. Read over the cradles at noon. |
 | Ash 25 | A glaze-room girl, High Kiln. *Sweet* | 38 | thin | a cradle on the terrace | the district | nearly | Turned her mouth toward the cup. No word for the taste. Entered in the likeness, not the figure. |
-| Ash 26 | A bought breath, eleven months served, Fenmarch | 22 | thin | a cradle at the Post | the reeve | flat | Eleven months entered whether he lasted them or not. The cradle knows nothing of months. |
+| Ash 26 | A bought breath, eleven months served, Fenmarch | 22 | thin | a cradle at the Standing Post | the reeve | flat | Eleven months entered whether he lasted them or not. The cradle knows nothing of months. |
 | Ash 27 | A house of the terraces, disputed | 52 | — | — | — | flat | Thumb wiped twice before touching nothing. Figure asked for, then not wanted. Left standing. No pouring made. |
-| Ash 28 | A vessel returned twice, entered whole by the factor's order | 29 | whole | one cradle, named on the roll | a house upriver | full | Below the last two figures. *Whole* set above *with memory* in a borrowed hand. Both stand. |
+| Ash 28 | A vessel returned twice, entered whole by the factor's order | 29, struck to 30 | whole | one cradle, named on the roll | a house upriver | full | Below the last two figures. *Whole* set above *with memory* in a borrowed hand. Both stand. |
 | Ash 29 | A foundling left at the mill, no slate-name | 12 | — | — | — | full | Stone under him, not a name. Stands till a hearth claims him. Not a return and not entered as one. |
-| Ash 30 | Forty of Low Kiln, one line for the batch, by lot | — | thin | cradles in the district | the district | none | Names not taken. A barrow of grey went out through the north gate in the afternoon. No figure came off the batch. |
+| Ash 30 | Six and twenty of the lower yard, one line for the batch, by lot | — | thin | cradles in the district | the district | none | Names not taken. Grey went out through the north gate in the afternoon. No figure came off the batch. |
 
 Draws on this leaf: eight. Lines with no pouring in them: two. Figures struck: one. Columns struck: one.
 
