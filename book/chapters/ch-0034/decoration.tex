@@ -1,0 +1,81 @@
+\begin{tikzpicture}
+  % the chapter's heart: seven stoppings held, none paid, no payer named.
+  % They lie in one room, each in its own place, under a binding line broken
+  % into seven gaps so seven likenesses cannot stand up and call themselves
+  % an account. Across an uncrossed space is the other room: the fold, the
+  % crust two inches off, and the small hand that goes up an inch toward the
+  % note of water over water and comes down against the wool. Nothing joins,
+  % nothing is counted, and the inch is not crossed.
+
+  % a long lens, not the round wash of other chapters
+  \fill[gold, opacity=0.030]
+    (-5.0,0) .. controls (-1.2,-0.92) and (1.2,-0.92) .. (5.0,0)
+    .. controls (1.2,0.92) and (-1.2,0.92) .. (-5.0,0) -- cycle;
+
+  % seven intervals in the first room, each a measured span with a stop at
+  % its top and a bare mark at its foot; the seventh is pressed a shade nearer
+  \foreach \sx/\sy in {-3.95/-0.40,-3.45/-0.36,-2.95/-0.32,-2.45/-0.29,-1.95/-0.27,-1.45/-0.25}{
+    \draw[faded!82!ink, line width=0.80pt, opacity=0.54] (\sx,\sy-0.30) -- (\sx,\sy);
+    \draw[rubric!58!faded, line width=0.92pt, opacity=0.54] (\sx-0.082,\sy) -- (\sx+0.082,\sy);
+    \draw[faded, line width=0.42pt, dotted, opacity=0.20] (\sx-0.10,\sy-0.42) -- (\sx+0.10,\sy-0.42);
+  }
+  \draw[faded!86!ink, line width=0.86pt, opacity=0.62] (-0.95,-0.53) -- (-0.95,-0.17);
+  \draw[rubric!82!ink, line width=1.02pt, opacity=0.74] (-1.04,-0.17) -- (-0.86,-0.17);
+  \draw[faded, line width=0.42pt, dotted, opacity=0.22] (-1.05,-0.59) -- (-0.85,-0.59);
+
+  % the line that would bind them into one paying account is broken in seven
+  \foreach \xa/\xb in {-4.22/-3.76,-3.62/-3.16,-3.02/-2.56,-2.42/-1.96,-1.82/-1.36,-1.22/-0.76,-0.62/-0.16}{
+    \draw[rubric!38!faded, line width=0.45pt, opacity=0.18] (\xa,0.40) -- (\xb,0.40);
+  }
+
+  % the uncrossed space between the rooms
+  \draw[faded, line width=0.45pt, dotted, opacity=0.17] (0.06,-0.96) -- (0.06,0.46);
+
+  % water over water, the note the hand will not reach
+  \draw[faded!72!ink, line width=0.70pt, opacity=0.44]
+    plot[domain=0.92:4.02, samples=40] (\x, {0.72+0.05*sin(deg(2.6*\x))});
+  \draw[faded!56!ink, line width=0.56pt, opacity=0.30]
+    plot[domain=0.92:4.02, samples=40] (\x, {0.95+0.05*sin(deg(2.6*\x+1.2))});
+
+  % the fold of wool, drawn low, and the crust left where it was put
+  \fill[faded!12!vellum, opacity=0.46]
+    (0.52,-1.03) .. controls (1.40,-0.77) and (3.18,-0.77) .. (4.02,-1.03)
+    -- (4.02,-1.16) .. controls (3.18,-0.94) and (1.40,-0.94) .. (0.52,-1.16) -- cycle;
+  \draw[faded!70!ink, line width=0.68pt, opacity=0.38]
+    (0.52,-1.03) .. controls (1.40,-0.77) and (3.18,-0.77) .. (4.02,-1.03);
+  \fill[vellum, opacity=0.62] (1.30,-0.79) ellipse (0.17 and 0.095);
+  \draw[faded!74!ink, line width=0.62pt, opacity=0.38] (1.30,-0.79) ellipse (0.17 and 0.095);
+  \draw[faded, line width=0.42pt, dotted, opacity=0.18] (1.50,-0.79) -- (2.00,-0.79);
+
+  % the forearm out of the fold, and the palm held open but not spending
+  \draw[faded!80!ink, line width=0.78pt, opacity=0.50,
+        fill=faded!10!vellum, fill opacity=0.32]
+    (2.04,-0.98) .. controls (2.10,-0.64) and (2.18,-0.44) .. (2.28,-0.29)
+    .. controls (2.62,-0.31) and (2.78,-0.44) .. (2.72,-0.62)
+    .. controls (2.62,-0.80) and (2.56,-0.90) .. (2.56,-0.98) -- cycle;
+  \fill[faded!12!vellum, opacity=0.42] (2.46,-0.21) ellipse (0.33 and 0.21);
+  \draw[faded!78!ink, line width=0.72pt, opacity=0.52] (2.46,-0.21) ellipse (0.33 and 0.21);
+
+  % four fingers rising, curled at the tips; the thumb stays in
+  \draw[faded!84!ink, line width=1.0pt, opacity=0.64, line cap=round]
+    (2.23,-0.08) .. controls (2.19,0.10) and (2.24,0.26) .. (2.30,0.34);
+  \draw[faded!84!ink, line width=1.0pt, opacity=0.64, line cap=round]
+    (2.39,-0.05) .. controls (2.37,0.15) and (2.41,0.29) .. (2.45,0.39);
+  \draw[faded!84!ink, line width=1.0pt, opacity=0.64, line cap=round]
+    (2.57,-0.05) .. controls (2.59,0.14) and (2.63,0.27) .. (2.66,0.36);
+  \draw[faded!84!ink, line width=1.0pt, opacity=0.64, line cap=round]
+    (2.72,-0.08) .. controls (2.78,0.08) and (2.82,0.20) .. (2.82,0.29);
+  \draw[faded!78!ink, line width=0.86pt, opacity=0.50, line cap=round]
+    (2.21,-0.17) .. controls (2.02,-0.09) and (1.96,0.00) .. (1.96,0.07);
+
+  % the inch not taken: a measured gap, bracketed at both ends, uncrossed
+  \draw[faded, line width=0.45pt, dotted, opacity=0.30] (2.45,0.42) -- (2.45,0.69);
+  \draw[rubric!58!faded, line width=0.62pt, opacity=0.48] (2.36,0.42) -- (2.54,0.42);
+  \draw[rubric!38!faded, line width=0.62pt, opacity=0.34] (2.36,0.69) -- (2.54,0.69);
+
+  \node at (-4.92,0.02) {\pgfornament[width=0.92cm,color=ornament]{25}};
+  \node at ( 4.92,0.02) {\pgfornament[width=0.92cm,color=ornament,symmetry=v]{25}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.46)
+    {seven held, and an inch short of water};
+\end{tikzpicture}
