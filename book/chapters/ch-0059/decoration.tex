@@ -1,0 +1,92 @@
+\begin{tikzpicture}
+  % The chapter's heart: the figure read over the covered grain --- a number
+  % that does not know what it cost. A slate is held edge-on above a woven
+  % basket under a fold; a join is drawn between them and stops short, with
+  % an empty cupped hand beneath it, for the count that would join them has
+  % no hand to stand under it. To the right the boards stand: a row with a
+  % pot on it, and a question come on the wind with no owner and no mouth.
+  % The figure does not read the basket; the row stands where it stood.
+
+  % flourished end rules, set low and quiet
+  \node at (-4.62,0.26) {\pgfornament[width=1.60cm,color=ornament,opacity=0.38]{80}};
+  \node at ( 4.62,0.26) {\pgfornament[width=1.60cm,color=ornament,symmetry=v,opacity=0.38]{80}};
+
+  % a faint ground under the whole, like a day not reckoned
+  \draw[faded!44!ink, line width=0.38pt, opacity=0.20]
+    (-3.05,-1.04) .. controls (0,-1.16) and (0,-1.16) .. (3.05,-1.04);
+
+  % —— the reading slate, held edge-on and tilted, its face turned away ——
+  \filldraw[fill=faded!14!vellum, fill opacity=0.84,
+            draw=faded!82!ink, draw opacity=0.52, line width=0.58pt]
+    (-2.38,0.98) -- (-0.56,0.62) -- (-0.53,0.46) -- (-2.35,0.82) -- cycle;
+  \draw[faded!62!ink, line width=0.36pt, opacity=0.30]
+    (-2.38,0.98) -- (-2.35,0.82);
+
+  % one figure read boldly near the left end; the rest are faint ticks
+  \draw[rubric!60!ink, line width=0.66pt, opacity=0.46, line cap=round]
+    (-2.22,0.92) -- (-2.12,0.90);
+  \foreach \tx in {-1.92,-1.59,-1.26,-0.93,-0.64}{
+    \pgfmathsetmacro\ty{0.86 - (\tx + 2.00)*0.155}
+    \pgfmathsetmacro\tyb{\ty - 0.052}
+    \draw[faded!50!ink, line width=0.34pt, opacity=0.28, line cap=round]
+      (\tx,\ty) -- (\tx,\tyb);
+  }
+
+  % the join the reader would make: it leaves the slate and stops short of
+  % the fold. The figure does not read down into what it is held over.
+  \draw[faded!52!ink, line width=0.34pt, dotted, opacity=0.30]
+    (-1.44,0.46) -- (-1.44,-0.02);
+
+  % the hand that does not stand under the count: a cupped palm left empty,
+  % with its finger-marks and nothing held in it
+  \draw[faded!56!ink, line width=0.40pt, opacity=0.26, line cap=round]
+    (-1.78,-0.10) .. controls (-1.68,-0.36) and (-1.20,-0.36) .. (-1.10,-0.10);
+  \foreach \fx in {-1.72,-1.54,-1.36,-1.17}{
+    \draw[faded!48!ink, line width=0.30pt, opacity=0.22, line cap=round]
+      (\fx,-0.17) -- (\fx,-0.12);
+  }
+
+  % —— the covered basket: dressed grain under a fold near the hearth ——
+  \filldraw[fill=faded!18!vellum, fill opacity=0.74,
+            draw=faded!78!ink, draw opacity=0.46, line width=0.56pt]
+    (-2.14,-0.48)
+    .. controls (-2.12,-0.86) and (-1.82,-0.98) .. (-1.44,-0.98)
+    .. controls (-1.06,-0.98) and (-0.76,-0.86) .. (-0.74,-0.48)
+    .. controls (-1.10,-0.56) and (-1.78,-0.56) .. cycle;
+  \draw[faded!70!ink, line width=0.42pt, opacity=0.34]
+    (-1.44,-0.48) ellipse (0.70 and 0.13);
+
+  % the weave: horizontal courses that keep their own count, unentered
+  \foreach \wy in {-0.62,-0.75,-0.87}{
+    \draw[faded!48!ink, line width=0.30pt, opacity=0.22, line cap=round]
+      (-2.04,\wy) .. controls (-1.44,\wy - 0.09) and (-1.44,\wy - 0.09) .. (-0.84,\wy);
+  }
+
+  % a fold of wool over the rim: a low hump, not a tally standing up
+  \draw[faded!80!ink, line width=0.50pt, opacity=0.42, line cap=round]
+    (-2.06,-0.46) .. controls (-1.94,-0.28) and (-0.94,-0.28) .. (-0.82,-0.46);
+  \draw[faded!60!ink, line width=0.34pt, opacity=0.26, line cap=round]
+    (-1.94,-0.42) .. controls (-1.84,-0.34) and (-1.68,-0.34) .. (-1.60,-0.42);
+
+  % —— the boards: three rows, one with a pot, under an unowned question ——
+  \foreach \ry in {0.62,0.14,-0.34}{
+    \draw[faded!72!ink, line width=0.52pt, opacity=0.40, line cap=round]
+      (1.56,\ry) -- (3.96,\ry);
+  }
+  \filldraw[fill=night, fill opacity=0.50,
+            draw=faded!76!ink, draw opacity=0.42, line width=0.52pt]
+    (2.34,0.28) .. controls (2.38,0.12) and (2.72,0.12) .. (2.76,0.28) -- cycle;
+  \draw[faded!70!ink, line width=0.42pt, opacity=0.36]
+    (2.55,0.28) ellipse (0.21 and 0.065);
+
+  % the row stands where it stood: a mark at the pot's place, no figure
+  \fill[rubric!55!faded, opacity=0.34] (2.55,0.14) circle (0.019);
+
+  % the question comes in on the wind and ends with nobody to own it
+  \draw[faded!60!ink, line width=0.38pt, opacity=0.28, line cap=round]
+    (3.62,0.94) .. controls (3.26,0.88) and (3.14,0.60) .. (2.94,0.40);
+  \fill[faded!62!ink, opacity=0.32] (2.94,0.40) circle (0.021);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.32)
+    {the figure does not read the basket};
+\end{tikzpicture}
