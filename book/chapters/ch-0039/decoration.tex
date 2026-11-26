@@ -1,0 +1,65 @@
+\begin{tikzpicture}
+  % the chapter's heart: the sentence finished at the cold damper.
+  % A hand comes to the iron and is held back above it, still knowing
+  % where the iron stands; the tongue moves a hair's breadth and no more.
+  % Above, the words run on past the broken dash and arrive at their full
+  % stop --- a sentence nobody can be made to give back. The heat stays
+  % low and cold under the roof; nothing here is warmed or paid.
+
+  % the low warmth kept under the roof, drawn narrow this time
+  \fill[gold, opacity=0.024]
+    (-3.90,-0.30) .. controls (-1.4,-0.62) and (1.4,-0.62) .. (3.90,-0.30)
+    .. controls (1.4,0.02) and (-1.4,0.02) .. (-3.90,-0.30) -- cycle;
+
+  % the sentence: words that run on past a broken dash to a full stop
+  \foreach \wx/\wl in {-1.90/0.30,-1.35/0.22,-0.78/0.34,-0.30/0.18,0.90/0.26,1.30/0.16}{
+    \draw[faded!78!ink, line width=0.80pt, opacity=0.52, line cap=round]
+      (\wx,0.95) -- (\wx+\wl,0.95);
+  }
+  \draw[faded!60!ink, line width=0.70pt, opacity=0.32, line cap=round, dotted]
+    (0.28,0.95) -- (0.60,0.95);
+  \fill[ink, opacity=0.82] (1.62,0.95) circle (0.046);
+
+  % the hand held back: a forearm that comes to the iron and stops short
+  \draw[faded!84!ink, line width=0.95pt, opacity=0.58, line cap=round]
+    (-3.55,0.62) .. controls (-2.05,0.60) and (-1.25,0.30) .. (-0.98,-0.02);
+  \draw[faded!78!ink, line width=0.82pt, opacity=0.46, line cap=round]
+    (-3.55,0.24) .. controls (-2.10,0.28) and (-1.28,0.02) .. (-0.94,-0.10);
+  \fill[rubric!58!faded, opacity=0.66] (-0.96,-0.05) circle (0.05);
+  \draw[faded, line width=0.40pt, dotted, opacity=0.26]
+    (-0.96,-0.11) -- (-0.96,-0.33);
+
+  % the cold iron damper: a slim bar with its two bites in the top edge
+  \fill[night!68, opacity=0.52]
+    (-2.60,-0.56) -- (2.08,-0.56) -- (2.34,-0.46) -- (-2.60,-0.34) -- cycle;
+  \draw[faded!86!ink, line width=0.82pt, opacity=0.58]
+    (-2.60,-0.56) -- (2.08,-0.56) -- (2.34,-0.46) -- (-2.60,-0.34) -- cycle;
+  \draw[faded!84!ink, line width=0.70pt, opacity=0.52]
+    (-1.82,-0.365) -- (-1.70,-0.45) -- (-1.58,-0.375);
+  \draw[faded!84!ink, line width=0.70pt, opacity=0.52]
+    (-0.02,-0.415) -- (0.10,-0.50) -- (0.22,-0.425);
+
+  % the tongue, moved a hair's breadth along the iron and left there
+  \fill[night!85, opacity=0.60]
+    (0.95,-0.30) -- (2.20,-0.30) -- (2.36,-0.24) -- (0.95,-0.23) -- cycle;
+  \draw[faded!90!ink, line width=0.80pt, opacity=0.62]
+    (0.95,-0.30) -- (2.20,-0.30) -- (2.36,-0.24) -- (0.95,-0.23) -- cycle;
+  \draw[rubric!58!faded, line width=0.70pt, opacity=0.58]
+    (2.32,-0.27) -- (2.32,-0.20);
+
+  % the fixed stop, with the hair's breadth measured between tongue and iron
+  \fill[ink, opacity=0.52] (2.50,-0.62) rectangle (2.58,-0.16);
+  \draw[ink, line width=0.50pt, opacity=0.42] (2.50,-0.62) rectangle (2.58,-0.16);
+  \draw[faded, line width=0.40pt, dotted, opacity=0.30]
+    (2.36,-0.14) -- (2.50,-0.14);
+  \draw[faded!70!ink, line width=0.55pt, opacity=0.48]
+    (2.36,-0.18) -- (2.36,-0.10);
+  \draw[faded!70!ink, line width=0.55pt, opacity=0.48]
+    (2.50,-0.18) -- (2.50,-0.10);
+
+  \node at (-4.55,0.05) {\pgfornament[width=1.0cm,color=ornament]{6}};
+  \node at ( 4.55,0.05) {\pgfornament[width=1.0cm,color=ornament,symmetry=v]{6}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.30)
+    {a sentence finished, and the hand held back};
+\end{tikzpicture}
