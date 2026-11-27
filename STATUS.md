@@ -2,7 +2,7 @@
 
 - Chapters complete: **66**
 - Words of story: **1,145,777**
-- Current chapter: 66 (step: publish, scene 7)
+- Current chapter: 67 (step: plan, scene 1)
 - Last chapter: The Figure Over the Wool (Days 249–251 · Smoke 10–12, Y.H. 813)
 - Author calls so far: 734 (tokens in 126,774,194, out 16,187,425)
 - Updated: 2026-11-27 09:32
