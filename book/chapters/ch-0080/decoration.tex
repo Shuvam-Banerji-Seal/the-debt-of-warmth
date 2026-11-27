@@ -1,0 +1,89 @@
+\begin{tikzpicture}
+  % The chapter's heart: what the boards kept. An ownerless voice crosses the
+  % well-roof and gives the Frost 14 saying a third shaping. Three shapings rest
+  % on the boards, each on a place of its own with a finger between every pair.
+  % Above them stands the empty place where a speaker would stand --- hollow,
+  % unoccupied, casting no shadow --- for a witness stands somewhere and can be
+  % asked, and no one here stands to be asked.
+
+  % —— the boards: three weathered rows of plank, holding no account ——
+  \foreach \by in {-0.30,0.00,0.30}{
+    \fill[faded!7!vellum, opacity=0.88]
+      (-4.26,\by-0.11) rectangle (4.26,\by+0.11);
+    \draw[faded!46!ink, line width=0.42pt, opacity=0.42, line cap=round]
+      (-4.26,\by-0.11) rectangle (4.26,\by+0.11);
+    \draw[faded!24!ink, line width=0.22pt, opacity=0.20, line cap=round]
+      (-4.20,\by+0.04) -- (4.20,\by+0.04);
+  }
+  % staggered seams, no two rows joined into one
+  \foreach \sx in {-3.62,-1.18,1.30,3.74}{
+    \draw[faded!34!ink, line width=0.28pt, opacity=0.26] (\sx,-0.41) -- (\sx,-0.19);
+  }
+  \foreach \sx in {-2.46,0.04,2.56}{
+    \draw[faded!34!ink, line width=0.28pt, opacity=0.26] (\sx,-0.11) -- (\sx,0.11);
+  }
+  \foreach \sx in {-3.08,-0.60,1.86,4.00}{
+    \draw[faded!34!ink, line width=0.28pt, opacity=0.26] (\sx,0.19) -- (\sx,0.41);
+  }
+
+  % —— the three shapings of one saying, kept on the boards ——
+  \foreach \cx in {-2.60,0.00,2.60}{
+    \foreach \k in {0,1,2,3,4}{
+      \pgfmathsetmacro{\mx}{\cx - 0.44 + 0.22*\k}
+      \draw[ink!58!faded, line width=0.44pt, opacity=0.48, line cap=round]
+        (\mx,-0.04) -- (\mx+0.09,0.03);
+    }
+    \draw[faded!34!ink, line width=0.24pt, opacity=0.26, line cap=round]
+      (\cx-0.54,-0.13) -- (\cx+0.54,-0.13);
+  }
+  % the third shaping, filed today: one mark gone red, still not a witness
+  \draw[rubric!82!ink, line width=0.74pt, opacity=0.80, line cap=round]
+    (2.60,-0.04) -- (2.69,0.03);
+
+  % —— a finger's width between each pair of keepings ——
+  \foreach \gx in {-1.30,1.30}{
+    \draw[faded!34!ink, line width=0.26pt, opacity=0.24, line cap=round]
+      (\gx-0.06,-0.16) -- (\gx-0.06,0.18);
+    \draw[faded!34!ink, line width=0.26pt, opacity=0.24, line cap=round]
+      (\gx+0.06,-0.16) -- (\gx+0.06,0.18);
+    \draw[faded!30!ink, line width=0.20pt, opacity=0.18,
+          dash pattern=on 1pt off 2.2pt] (\gx,-0.42) -- (\gx,0.44);
+  }
+
+  % —— the empty standing-place above the boards, a figure with nobody in it ——
+  \draw[faded!40!ink, line width=0.36pt, opacity=0.34,
+        dash pattern=on 2pt off 2.4pt]
+    (0,1.28) circle (0.15);
+  \draw[faded!40!ink, line width=0.36pt, opacity=0.32,
+        dash pattern=on 2pt off 2.4pt]
+    (-0.30,1.06) .. controls (-0.42,0.84) and (-0.48,0.70) .. (-0.46,0.56)
+    -- (0.46,0.56) .. controls (0.48,0.70) and (0.42,0.84) .. (0.30,1.06);
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.22,
+        dash pattern=on 1.2pt off 2pt]
+    (-0.19,0.49) ellipse (0.10 and 0.045);
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.22,
+        dash pattern=on 1.2pt off 2pt]
+    (0.19,0.49) ellipse (0.10 and 0.045);
+
+  % —— the voice that comes from no one and arrives on the third place ——
+  \draw[faded!42!ink, line width=0.40pt, opacity=0.38,
+        dash pattern=on 0.8pt off 2.6pt, line cap=round]
+    (0.13,1.34) .. controls (1.10,1.28) and (2.06,0.94) .. (2.60,0.48);
+  \draw[rubric!50!ornament, line width=0.34pt, opacity=0.36]
+    (2.60,0.48) circle (0.045);
+  \node[font=\FellFont\itshape\scriptsize, text=rubric, opacity=0.58] at (1.50,1.20)
+    {a voice with no owner};
+
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (-2.60,-0.68)
+    {first saying};
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (0,-0.68)
+    {second shaping};
+  \node[font=\CinzelFont\scriptsize, text=rubric, opacity=0.60] at (2.60,-0.68)
+    {third shaping};
+
+  % —— a small star above, a fine flourish below, and the motto ——
+  \node at (0,1.72) {\pgfornament[width=1.5cm,color=ornament,opacity=0.28]{12}};
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.06)
+    {no witness stands to be asked};
+  \node at (0,-1.46) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{81}};
+\end{tikzpicture}
