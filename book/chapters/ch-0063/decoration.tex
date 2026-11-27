@@ -1,0 +1,73 @@
+\begin{tikzpicture}
+  % The chapter's heart: the carried coal tipped under a broken pot. The fire
+  % takes where nobody looks, still missing its fifth; the thumb-length of
+  % lead-glazed clay was touched once before the kiln and at no other hour.
+  % The hand goes to the mark before the kiln. Nothing mended is seen.
+
+  % the flagstones at the kiln mouth
+  \draw[faded!56!ink, line width=0.44pt, opacity=0.30, line cap=round]
+    (-2.65,-0.58) -- (2.65,-0.58);
+
+  % —— the broken pot, turned over the coal: mouth down, foot up ——
+  \fill[gold!7!vellum, opacity=0.55]
+    (-1.30,-0.42)
+    .. controls (-1.20,0.34) and (-0.56,0.76) .. (-0.30,0.80)
+    -- (0.30,0.80)
+    .. controls (0.56,0.76) and (1.20,0.34) .. (1.30,-0.42)
+    .. controls (0.70,-0.30) and (-0.70,-0.30) .. cycle;
+  \draw[faded!74!ink, line width=0.58pt, opacity=0.46, line cap=round]
+    (-1.30,-0.42) .. controls (-1.20,0.34) and (-0.56,0.76) .. (-0.30,0.80);
+  \draw[faded!74!ink, line width=0.58pt, opacity=0.46, line cap=round]
+    (0.30,0.80) .. controls (0.56,0.76) and (1.20,0.34) .. (1.30,-0.42);
+  \draw[faded!66!ink, line width=0.48pt, opacity=0.40]
+    (-0.30,0.80) -- (0.30,0.80);
+  \draw[faded!58!ink, line width=0.34pt, opacity=0.28]
+    (0,0.80) ellipse (0.30 and 0.075);
+
+  % a thrown ring on the clay belly, and the crack that made the pot broken
+  \draw[faded!52!ink, line width=0.30pt, opacity=0.24, line cap=round]
+    (-1.05,0.14) .. controls (-0.55,0.30) and (0.55,0.30) .. (1.05,0.14);
+  \draw[faded!56!ink, line width=0.34pt, opacity=0.30, line cap=round]
+    (0.44,0.72) .. controls (0.30,0.44) and (0.56,0.20) .. (0.40,-0.08)
+    .. controls (0.30,-0.24) and (0.48,-0.34) .. (0.38,-0.42);
+
+  % the jagged rim, broken where the coal was covered
+  \draw[faded!70!ink, line width=0.50pt, opacity=0.42,
+        decoration={random steps, segment length=0.11, amplitude=0.055}, decorate]
+    (1.30,-0.42) -- (-1.30,-0.42);
+
+  % the warm beneath: the fire has taken, and nobody sees what it mended
+  \fill[rubric!30!gold, opacity=0.15] (0,-0.40) ellipse (1.04 and 0.13);
+  \foreach \hx in {-0.86,-0.46,-0.02,0.44}{
+    \draw[rubric!52!faded, line width=0.28pt, opacity=0.22, line cap=round]
+      (\hx,-0.48) .. controls (\hx + 0.06,-0.34) and (\hx - 0.06,-0.24) .. (\hx + 0.02,-0.14);
+  }
+
+  % four low pulls of coal under the mouth, and the empty place of the fifth
+  \foreach \cx in {-0.78,-0.26,0.24,0.72}{
+    \fill[rubric!55!night, opacity=0.58]
+      (\cx,-0.51) -- ++(0.085,0.03) -- ++(0.03,-0.075) -- ++(-0.095,-0.01) -- cycle;
+  }
+  \draw[faded!50!ink, line width=0.32pt, opacity=0.22,
+        dash pattern=on 1.4pt off 2pt]
+    (1.16,-0.50) ellipse (0.095 and 0.05);
+
+  % —— the widow's mark: a thumb-length of lead-glazed clay, above and apart ——
+  \fill[ash!24!vellum, opacity=0.72] (2.52,0.60) ellipse (0.11 and 0.29);
+  \draw[faded!72!ink, line width=0.50pt, opacity=0.44]
+    (2.52,0.60) ellipse (0.11 and 0.29);
+  \draw[gold!66!ornament, line width=0.40pt, opacity=0.38, line cap=round]
+    (2.47,0.72) .. controls (2.43,0.56) and (2.47,0.46) .. (2.51,0.40);
+  \draw[faded!58!ink, line width=0.30pt, opacity=0.28]
+    (2.52,0.89) circle (0.020);
+
+  % the one touch before the kiln, arriving from outside and stopping there
+  \draw[faded!54!ink, line width=0.36pt, opacity=0.28, line cap=round]
+    (3.36,1.34) .. controls (3.10,1.22) and (2.80,1.06) .. (2.58,0.91);
+  \draw[faded!54!ink, line width=0.36pt, opacity=0.28, line cap=round]
+    (2.52,0.85) -- (2.65,0.97);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.30)
+    {nobody saw what it mended};
+  \node at (0,-1.66) {\pgfornament[width=2.2cm,color=ornament,opacity=0.38]{80}};
+\end{tikzpicture}
