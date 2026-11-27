@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **91**
-- Words of story: **1,620,459**
-- Current chapter: 92 (step: plan, scene 1)
-- Last chapter: The Uncut Notch (Days 324–326 · Bone 25–27, Y.H. 813)
-- Author calls so far: 991 (tokens in 177,098,687, out 22,317,589)
-- Updated: 2026-11-28 01:50
+- Chapters complete: **92**
+- Words of story: **1,641,686**
+- Current chapter: 92 (step: publish, scene 7)
+- Last chapter: What the Figure Does Not Know (Days 327–329 · Bone 28–30, Y.H. 813)
+- Author calls so far: 1001 (tokens in 178,930,957, out 22,559,749)
+- Updated: 2026-11-28 02:31
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

@@ -1,0 +1,66 @@
+\begin{tikzpicture}
+  % The chapter's heart: six sealed arithmetics now stand behind one printed
+  % figure. Berr carried the sixth up the road locked this Bone 30, but the six
+  % do not know one another and the figure was never asked what it read over.
+  % Six are six and not one account; a rule made from them would want a payer
+  % put under all six, and none stands. The price keeps its silence and the
+  % month goes out with no boundary drawn about it. The faint lines from the
+  % slates stop short of the figure --- behind, and never joined to it.
+
+  % —— a small star-flower above ——
+  \node at (0,1.58) {\pgfornament[width=0.72cm,color=ornament,opacity=0.24]{12}};
+
+  % —— the month goes out under an arc that is never closed ——
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.22, line cap=round]
+    (-3.70,0.98) .. controls (-2.40,1.46) and (2.40,1.46) .. (3.70,0.98);
+
+  % —— six sealed slates, backs turned, set shoulder to shoulder ——
+  \foreach \sx/\sy in {-3.20/0.50,-1.92/0.72,-0.64/0.84,0.64/0.84,1.92/0.72,3.20/0.50}{
+    \fill[faded!22!ink, opacity=0.30]
+      (\sx-0.24,\sy-0.30) rectangle (\sx+0.24,\sy+0.30);
+    \draw[ornament!46!ink, line width=0.38pt, opacity=0.44, line cap=round]
+      (\sx-0.24,\sy-0.30) rectangle (\sx+0.24,\sy+0.30);
+    \draw[ink!40!faded, line width=0.24pt, opacity=0.34, line cap=round]
+      (\sx-0.14,\sy-0.16) -- (\sx+0.14,\sy-0.16);
+    \draw[faded!34!ink, line width=0.26pt, opacity=0.36, line cap=round]
+      (\sx-0.10,\sy+0.30) .. controls (\sx,\sy+0.44) .. (\sx+0.10,\sy+0.30);
+    \draw[faded!30!ink, line width=0.22pt, opacity=0.28,
+          dash pattern=on 1pt off 2.2pt, line cap=round]
+      (\sx,\sy-0.32) -- (\sx,0.10);
+  }
+
+  % —— a finger between every pair: the five joins stop short of both ——
+  \foreach \xA/\xB/\yy in {-2.90/-2.22/0.61,-1.62/-0.94/0.78,
+                            -0.34/0.34/0.84,0.94/1.62/0.78,2.22/2.90/0.61}{
+    \draw[faded!28!ink, line width=0.22pt, opacity=0.28,
+          dash pattern=on 1pt off 2.6pt, line cap=round]
+      (\xA,\yy) -- (\xB,\yy);
+  }
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.42]
+    at (-3.52,0.16) {behind, unjoined};
+
+  % —— the sixth: a red cord folded square, and the sweet green of glaze ——
+  \draw[rubric!56!ink, line width=0.30pt, opacity=0.58, line cap=round]
+    (3.08,0.80) rectangle (3.32,0.94);
+  \fill[moss, opacity=0.52] (3.42,0.58) circle (0.032);
+
+  % —— the one printed figure, reading over it what it does not know ——
+  \fill[vellum, opacity=0.96] (-1.16,-0.38) rectangle (1.16,0.04);
+  \draw[ornament!52!ink, line width=0.46pt, opacity=0.48, line cap=round]
+    (-1.16,-0.38) rectangle (1.16,0.04);
+  \node[font=\CinzelFont\small, text=rubric, opacity=0.86] at (0,-0.17)
+    {one in twelve};
+
+  % —— the space where the price should stand, still unsigned ——
+  \draw[faded!28!ink, line width=0.24pt, opacity=0.26,
+        dash pattern=on 1pt off 2pt] (-0.52,-0.70) -- (0.52,-0.70);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.24] (-0.52,-0.80) -- (-0.52,-0.60);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.24] (0.52,-0.80) -- (0.52,-0.60);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (0,-0.94)
+    {unsigned};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.26)
+    {six are six, and none knows another};
+  \node at (0,-1.62) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{81}};
+\end{tikzpicture}
