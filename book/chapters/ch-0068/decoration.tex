@@ -1,0 +1,89 @@
+\begin{tikzpicture}
+  % The chapter's heart: the weight the hand knows against the figure the slate
+  % never enters. The palm holds its grain by the handful and knows what it
+  % weighs and not what it cost; the hanging slate knows a figure and not the
+  % grain. Two inches of air stand between them, worth nothing, and the reach
+  % stops short, for agreeing the two would want a payer and none stands to
+  % either. A thing not entered is not therefore free.
+
+  % —— the forearm coming in from the left ——
+  \draw[faded!60!ink, line width=0.46pt, opacity=0.38, line cap=round]
+    (-4.18,-1.02) .. controls (-3.80,-0.84) and (-3.54,-0.58) .. (-3.30,-0.34);
+  \draw[faded!60!ink, line width=0.46pt, opacity=0.38, line cap=round]
+    (-4.18,-0.70) .. controls (-3.84,-0.58) and (-3.58,-0.38) .. (-3.34,-0.22);
+  \draw[faded!46!ink, line width=0.30pt, opacity=0.22, line cap=round]
+    (-4.18,-1.02) -- (-4.18,-0.70);
+
+  % —— the cupped palm, its weight known to the hand ——
+  \fill[ash!10!vellum, opacity=0.74]
+    (-3.34,-0.22)
+      .. controls (-3.04,0.20) and (-2.10,0.40) .. (-1.10,0.20)
+      .. controls (-0.70,0.06) and (-1.00,-0.48) .. (-1.86,-0.62)
+      .. controls (-2.62,-0.68) and (-3.22,-0.50) .. cycle;
+  \draw[faded!66!ink, line width=0.52pt, opacity=0.42, line cap=round]
+    (-3.34,-0.22)
+      .. controls (-3.04,0.20) and (-2.10,0.40) .. (-1.10,0.20)
+      .. controls (-0.70,0.06) and (-1.00,-0.48) .. (-1.86,-0.62)
+      .. controls (-2.62,-0.68) and (-3.22,-0.50) .. cycle;
+
+  % the thumb folded over the near rim
+  \draw[faded!62!ink, line width=0.44pt, opacity=0.36, line cap=round]
+    (-3.30,-0.18) .. controls (-3.12,0.10) and (-2.98,0.24) .. (-2.82,0.12);
+  \draw[faded!48!ink, line width=0.30pt, opacity=0.24, line cap=round]
+    (-2.82,0.12) .. controls (-2.78,0.02) and (-2.84,-0.06) .. (-2.96,-0.10);
+
+  % four fingers curling over the far rim
+  \draw[faded!58!ink, line width=0.40pt, opacity=0.34, line cap=round]
+    (-1.62,0.32) .. controls (-1.50,0.58) and (-1.34,0.60) .. (-1.26,0.42);
+  \draw[faded!58!ink, line width=0.40pt, opacity=0.34, line cap=round]
+    (-1.34,0.30) .. controls (-1.22,0.56) and (-1.04,0.56) .. (-0.98,0.38);
+  \draw[faded!56!ink, line width=0.38pt, opacity=0.32, line cap=round]
+    (-1.06,0.24) .. controls (-0.96,0.46) and (-0.80,0.44) .. (-0.76,0.28);
+  \draw[faded!52!ink, line width=0.34pt, opacity=0.28, line cap=round]
+    (-0.82,0.16) .. controls (-0.74,0.34) and (-0.60,0.30) .. (-0.62,0.16);
+
+  % the dressed grain, gathered by the handful and given no figure
+  \foreach \gx/\gy in {-2.86/-0.02, -2.58/0.10, -2.30/0.00, -2.02/0.12,
+                      -1.74/0.04, -2.72/-0.18, -2.44/-0.20, -2.16/-0.14,
+                      -1.88/-0.18}{
+    \fill[gold!46!ornament, opacity=0.52] (\gx,\gy) ellipse (0.075 and 0.032);
+    \draw[faded!50!ink, line width=0.20pt, opacity=0.30]
+      (\gx,\gy) ellipse (0.075 and 0.032);
+  }
+
+  % —— the hanging slate: a figure known, and not the grain ——
+  \fill[rubric!24!ink, opacity=0.46] (2.60,1.20) circle (0.040);
+  \draw[faded!56!ink, line width=0.36pt, opacity=0.30, line cap=round]
+    (2.60,1.16) .. controls (2.52,0.96) and (2.56,0.78) .. (2.66,0.62);
+  \fill[ash!12!vellum, opacity=0.68]
+    (1.80,0.66) -- (3.44,0.62) -- (3.52,-0.42) -- (1.72,-0.38) -- cycle;
+  \draw[faded!66!ink, line width=0.50pt, opacity=0.42, line cap=round]
+    (1.80,0.66) -- (3.44,0.62) -- (3.52,-0.42) -- (1.72,-0.38) -- cycle;
+  \draw[faded!48!ink, line width=0.30pt, opacity=0.24, line cap=round]
+    (1.94,0.26) -- (3.36,0.22);
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.18,
+        dash pattern=on 1.1pt off 2.4pt]
+    (2.30,0.24) -- (3.00,0.23);
+  \draw[faded!44!ink, line width=0.28pt, opacity=0.22, line cap=round]
+    (1.94,-0.06) -- (3.36,-0.10);
+
+  % —— the reach that stops short of the slate, no payer between ——
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.18,
+        dash pattern=on 1pt off 2.6pt]
+    (-0.68,0.30) .. controls (0.20,0.60) and (0.94,0.52) .. (1.62,0.48);
+
+  % —— two inches of air, worth nothing at that distance ——
+  \draw[faded!44!ink, line width=0.30pt, opacity=0.24,
+        dash pattern=on 1pt off 2.4pt]
+    (-0.40,-0.10) -- (1.50,-0.10);
+  \draw[faded!44!ink, line width=0.30pt, opacity=0.24, line cap=round]
+    (-0.40,-0.20) -- (-0.40,0.00);
+  \draw[faded!44!ink, line width=0.30pt, opacity=0.24, line cap=round]
+    (1.50,-0.20) -- (1.50,0.00);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.62] at (0.55,0.20)
+    {two inches of air};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0.10,-1.34)
+    {what it weighs, and not what it cost};
+  \node at (0.10,-1.66) {\pgfornament[width=1.0cm,color=ornament,opacity=0.28]{1}};
+\end{tikzpicture}
