@@ -879,6 +879,13 @@ Through Seed 5–11, Y.H. 813 the fields stood in the ground as worked ground th
 
  Through Reed 10–12, Y.H. 813 the worked strips east of Low Kiln stood done behind the reed work, and the empty place in the returning line where a hand went in on Seed 15 and did not come back was still gone around with a look and a wide step and no number; on Reed 10 a man come up from the strips stood at the edge of the Account-day reading and the yard went around it without a figure, a name, a body or a payer (T098 carried, not paid). Ch 30.
 
+*The close ground of the fields drawn on `atlas/the-worked-strips`: the five long rutted plots east of Low Kiln with their furrows and a flood stone, the way down to the strip landing, the clay-heavy Slip Brook, the reedbeds standing grey in the ruts, the river road above and the Ilm along the head of the chart; Low Kiln and the drying racks drawn faint at the west edge. Direction is from the head of the first strip. The empty place in the returning line is set down in the cartographer's margin and marked nowhere on the plots, for a mark would be a figure and no figure stands.*
+
+### The strip landing
+**Kind:** landing, timber stage. **Region:** the worked strips, Low Kiln, Sill.
+A small timber landing on the south bank of the Ilm at the head of the way down from the worked strips, shown with a moored punt. No slate stands here and no figure is taken; it is ground a cartographer puts in for neighbourhood, not a market. Drawn on `atlas/the-worked-strips`.
+**Relations:** At the north edge of the worked strips, east of Low Kiln; the river road runs above it, the Weir lies one league upriver and Mud End three leagues downriver.
+
 ### The turnip grounds
 **Kind:** fields. **Region:** Sill, west of Low Kiln.
 Small plots of turnips and chard worked by the households of the slip pits.

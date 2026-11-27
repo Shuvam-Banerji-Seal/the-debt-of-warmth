@@ -145,7 +145,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
     E('path',{d:D(jit(edgeA.concat(edgeB.slice().reverse()),2.6,10),true),
       fill:STRIP,opacity:0.55,stroke:FADE,'stroke-width':1.3,'stroke-linejoin':'round'},p);
     /* the furrows, laid by hand along each plot */
-    for(q=1;q<center.length-1;q++){
+    for(q=1;q<center.length-2;q++){
       var f=(q%2===0)?0.34:-0.34;
       E('path',{d:D(jit([[center[q][0]+norm[q][0]*half[q]*f,center[q][1]+norm[q][1]*half[q]*f],
         [center[q+1][0]+norm[q+1][0]*half[q+1]*(f+0.16),center[q+1][1]+norm[q+1][1]*half[q+1]*(f+0.16)],
@@ -266,7 +266,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   T(280,1108,'Low Kiln',{font:'FellSC',size:17,ls:2,fill:FADE,opacity:0.72,anchor:'middle',halo:true});
   T(470,1030,'the drying racks',{font:'FellIt',size:13,fill:FADE,opacity:0.72,anchor:'middle',halo:true});
   T(392,1124,'the Vail kiln-house',{font:'FellIt',size:13,fill:FADE,opacity:0.72,anchor:'middle',halo:true});
-  T(1000,512,'the landing',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  T(1000,512,'the strip landing',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
   T(96,352,'upriver to the Weir',{font:'FellIt',size:14,fill:FADE,halo:true});
   T(2310,516,'downriver to Mud End',{font:'FellIt',size:14,fill:FADE,anchor:'end',halo:true});
   T(96,612,'west to Low Kiln and the Cross',{font:'FellIt',size:14,fill:FADE,halo:true});
