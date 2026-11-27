@@ -24,7 +24,6 @@ Twelve copper bits to a silver mark. Twenty silver marks to a gold crown, which 
 | Sour milk, a quart | 1 bit | 1 bit, and sourer in Stone |
 | Salt herring | 2 bits | 2 bits; 3 when the boat has been in |
 | Smoked eel | 3 bits | 3 at the Fishstairs; 4 once it has lain at my fire |
-| Turnips, two | 1 bit | 1 bit, and the greens over |
 | Coarse pots, the score | 4 bits | 4 bits; a broken one is the seller's |
 | Peat, a barrow | 2 bits in Grain; 5 in Stone | 5 bits, the year being what it is |
 | Salt, a sack off the pans | 3 marks | 3 marks, and a mark again at the pass |
@@ -106,7 +105,7 @@ South-east from Greybank to the Hearthseat, a hundred and forty leagues, the mer
 | Grain going south, weighed at Greybank | by the deduction, entered at this end |
 | A man who asks what he has paid | the figure is read to him twice |
 
-> *Margin:* A carter from High Kiln asked me what the Hearth Road cost and I showed him the empty column. He said it was the most honest figure in the book and the dearest. The Court takes nothing at the gate because it has already taken it at home. I have not struck the column out. An empty column is the only part of a list a carter can read twice.
+> *Margin:* A carter from High Kiln asked me what the Hearth Road cost and I showed him the empty column. He said it was the most honest figure in the book and the dearest. The Court takes nothing at the gate because it has already taken it at home. An empty column is the only part of a list a carter can read twice.
 
 ## Bridges, ford and the little ways
 
@@ -169,4 +168,4 @@ The ale rings are mine; I set my cup down while telling a man what his bed will 
 
 I asked a carter, a neighbour come down from Low Kiln, and a clerk off the Greybank beam, and had three answers and no hand, as I have had before. I have left the line where it was written.
 
-The leaf goes back on the nail by the door and the book behind the meal tub. Tomorrow a man will come in off the clay with wet legs and ask for a figure, and I shall give him this one, and by evening it will be a thing that was true.
+The leaf goes back on the nail by the door. Tomorrow a man will come in off the clay and ask for a figure, and I shall give him this one, and by evening it will be a thing that was true.
