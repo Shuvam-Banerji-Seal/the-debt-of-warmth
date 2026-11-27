@@ -23,7 +23,7 @@ Say these to the plank, the basket, the water under the plank, and to a person l
 
 3. “The sill sings before it breaks. Nobody sets a clock by the song.”
 
-*Gloss — When the Warm rises in Ilmen the stone under the falls gives a low note that carries up to the Fishstairs. The town sets its clocks by it and does not explain it. We say the river is clearing its throat before the Breaking. A man from Greybank wanted the hour entered; we told him the hour was the note, and the note was not entered.*
+*Gloss — When the Warm rises in Ilmen the stone under the falls gives a low note that carries to the Fishstairs. The town sets its clocks by it and does not explain it. We say the river clears its throat before the Breaking. A man from Greybank wanted the hour entered; we told him the hour was the note, and the note was not entered.*
 
 4. “The Breaking comes up the same steps every year and takes a different house.”
 
@@ -49,7 +49,7 @@ Say these to the plank, the basket, the water under the plank, and to a person l
 
 8. “A knot remembers what the hand forgets.”
 
-*Gloss — We tie grey wool when a thing is owed and untie it when paid, and the sleeve-cord has one knot tied low where the hand could not see. A knot does not care who tied it and keeps longer than a name. A factor's clerk entered our knots as nil, because a knot is not a figure. He was right by his law and wrong about the cord.*
+*Gloss — We tie grey wool when a thing is owed and untie it when paid; the sleeve-cord has one knot tied low where the hand could not see. A knot keeps longer than a name and does not care who tied it. A factor's clerk entered our knots as nil, because a knot is not a figure. Right by his law, wrong about the cord.*
 
 9. “Do not read a cord. Ask the woman who tied it.”
 
@@ -57,7 +57,7 @@ Say these to the plank, the basket, the water under the plank, and to a person l
 
 10. “Forty and one. The one has no name and is not a debt.”
 
-*Gloss — In the year of the flower a woman at these traps tied forty knots for the children of Low Kiln who went up in the levy, and a forty-first she cannot account for. She has never untied it. When she says the word low into a basket, the child in it looks at her and cannot answer, which is the answer given by people who asked the same question at their own first tying.*
+*Gloss — In the year of the flower a woman at these traps tied forty knots for the children of Low Kiln taken in the levy, and a forty-first she cannot account for. She has never untied it. When she says the word low into a basket, the child looks at her and cannot answer, which is the answer given by people who asked the same question at their own first tying.*
 
 > *In the narrow upright hand, written against this saying:* Figure entered as nil. Vacancy. *Underneath, in mine:* A nought is a number. The forty-first is a place. He has made the place smaller by writing in it, which is the whole art of that hand.
 
@@ -77,11 +77,11 @@ Say these to the plank, the basket, the water under the plank, and to a person l
 
 14. “One in twelve is printed. The other goes up the Clay Road in a box.”
 
-*Gloss — Read twice at the Cross, once for the moot and once for those who came late. The reader says the levy is called and is not called by him, taking himself neatly out of his own sentence. What goes up the road locked in his box is a different figure, and the two have never agreed on this plank.*
+*Gloss — Read twice at the Cross, once for the moot and once for those who came late. The reader says the levy is called and not called by him, taking himself out of his own sentence. What goes up the road in his locked box is a different figure, and the two have never agreed here.*
 
 15. “A name said to the water is not entered.”
 
-*Gloss — The slate takes a number and the house takes a name, and both travel where the person does not. What is said at the trap stays there. A woman whose child came back from another hearth says one name at home and keeps the other for the officer, and has never joined them, which is the only kindness her house can manage.*
+*Gloss — The slate takes a number and the house takes a name, and both travel where the person does not. What is said at the trap stays there. A woman whose child came back from another hearth keeps one name at home and one for the officer, and has never joined them, which is the only kindness her house can manage.*
 
 # Of the dead and the plank
 
@@ -91,11 +91,11 @@ Say these to the plank, the basket, the water under the plank, and to a person l
 
 17. “Nothing is swept off a plank.”
 
-*Gloss — In Sill they leave the grey in the corners on the Last Day and burn it in the morning and call it dealt with. There is no corner on a plank. What falls off goes into the water and becomes somebody else's weather, a difference no clerk has had to enter.*
+*Gloss — In Sill they leave the grey in the corners on the Last Day, burn it in the morning and call it dealt with. There is no corner on a plank. What falls off goes into the water and becomes somebody else's weather, a difference no clerk has entered.*
 
 # The basket-song
 
-*Sung lifting the traps at the turn of the water, going out and not coming back. The fourth line of the second part is held, not sung, and the space after it is the length of a knot. Nobody fills it.*
+*Sung lifting the traps at the turn of the water, going out and not coming back. The fourth line of the second part is held, and the space after it is the length of a knot. Nobody fills it.*
 
 > Four for the baskets and one set out,
 > one for the cord that the thumb knows;
@@ -130,11 +130,11 @@ I have put the sayings back under his hand. He takes the doers out because a thi
 
 > I carry the slate edge-on and never look at what is on it. The figure that goes up to Greybank does not know what came out of any basket on this river. I have walked that road eleven years and never once opened one.
 
-Below, in mine: she said it to the plank and would not say it twice. I have not asked her. A person who carries a slate is not one who reads it, and the road cares about neither.
+Below, in mine: she said it to the plank and would not say it twice. I have not asked. A person who carries a slate is not one who reads it, and the road cares about neither.
 
 # At the head and in the gutter
 
-The silt at the head came off the hand that held the tally down on the rail in high water; no wet sleeve takes it out, which is why we use charcoal. The slime at the fold is off the leading cord and goes soft when the weather goes soft, which tells me when to shut the tin. The hook nick is from a basket set down by a man paying for six eels and charged for five, or the other way, which he has not settled and I have not entered. The gull's peck went through one word of the song and nobody has claimed the bird. The green thread in the gutter is a glass eel, fine as a hair, and I have left it where it fell. The pressed reed came from a bundle set down while a woman decided whether to sell. The grey along the outer fold is not mine and not the factor's. I have not swept it. There is a Last Day downriver; there is none on a plank.
+The silt at the head came off the hand that held the tally down on the rail in high water; no wet sleeve takes it out, which is why we use charcoal. The slime at the fold is off the leading cord and goes soft when the weather goes soft, which tells me when to shut the tin. The hook nick is from a basket set down by a man paying for six eels and charged for five, or the other way, which he has not settled. The gull's peck went through one word of the song and nobody has claimed the bird. The green thread in the gutter is a glass eel, fine as a hair, left where it fell. The pressed reed came from a bundle set down while a woman decided whether to sell. The grey along the outer fold is not mine and not the factor's. I have not swept it. There is a Last Day downriver; there is none on a plank.
 
 # At the foot, in a hand nobody will own
 
@@ -142,4 +142,4 @@ The silt at the head came off the hand that held the tally down on the rail in h
 > The cord keeps and cannot be read.
 > A man is what he has carried to the basket and not yet let go.
 
-I asked a woman who lifts the traps, a slate-runner, and a factor's man out of Greybank, and had three answers and no hand. I have left the lines where they were written. The leaves go back into the eel-skin under the trap-house board. Tomorrow the water turns at the fourth and the baskets go down; I shall count them going in, say nothing of what came out, and tie one knot low where my thumb cannot see it, which is the whole of the trade at the Weir.
+I asked a woman who lifts the traps, a slate-runner, and a factor's man out of Greybank, and had three answers and no hand. I have left the lines where they were written. The leaves go back into the eel-skin under the board. Tomorrow the water turns at the fourth and the baskets go down; I shall count them going in, say nothing of what came out, and tie one knot low where my thumb cannot see it, which is the whole of the trade at the Weir.
