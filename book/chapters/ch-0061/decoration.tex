@@ -1,0 +1,65 @@
+\begin{tikzpicture}
+  % The chapter's heart: the ownerless question opened as a wound and found
+  % empty at the bottom. Three askings stand above it with a finger between
+  % each pair, and the third goes up the terrace while the row stands where
+  % it stood. A witness stands somewhere and can be asked, and nobody stood.
+
+  % quiet doubled end-rules, not last chapter's fleurons
+  \draw[faded!46!ink, line width=0.40pt, opacity=0.26]
+    (-5.05,0.16) -- (-4.28,0.16);
+  \draw[faded!46!ink, line width=0.40pt, opacity=0.26]
+    ( 4.28,0.16) -- ( 5.05,0.16);
+  \foreach \ex in {-4.80,-4.54}{
+    \fill[faded!48!ink, opacity=0.24] (\ex,0.16) circle (0.014);
+  }
+
+  % —— the wound: the question cut open, its edges held apart, empty inside ——
+  \fill[rubric!7!vellum, opacity=0.50]
+    (-2.45,0.30)
+    .. controls (-1.30,0.86) and (1.30,0.86) .. (2.45,0.30)
+    .. controls (-1.30,-0.20) and (1.30,-0.20) .. cycle;
+  \draw[rubric!48!faded, line width=0.64pt, opacity=0.44, line cap=round]
+    (-2.45,0.30) .. controls (-1.30,0.86) and (1.30,0.86) .. (2.45,0.30);
+  \draw[rubric!48!faded, line width=0.64pt, opacity=0.44, line cap=round]
+    (-2.45,0.30) .. controls (-1.30,-0.20) and (1.30,-0.20) .. (2.45,0.30);
+  \draw[rubric!38!faded, line width=0.30pt, opacity=0.24, line cap=round]
+    (-2.10,0.30) .. controls (-1.20,0.66) and (1.20,0.66) .. (2.10,0.30);
+
+  % at the bottom of the wound, the empty place where a witness would stand
+  \draw[faded!54!ink, line width=0.38pt, opacity=0.30]
+    (0,-0.04) ellipse (0.16 and 0.055);
+  \draw[faded!46!ink, line width=0.30pt, opacity=0.22,
+        dash pattern=on 1.5pt off 2.5pt]
+    (0,0.10) -- (0,0.34);
+
+  % —— three askings, hollow and without an owner, above the wound ——
+  \foreach \ax in {-1.25,0.00,1.25}{
+    \draw[faded!66!ink, line width=0.44pt, opacity=0.38]
+      (\ax,1.10) circle (0.13);
+  }
+
+  % the finger held between each pair: three askings are not one witness
+  \foreach \fx in {-0.62,0.62}{
+    \draw[faded!56!ink, line width=0.40pt, opacity=0.32, line cap=round]
+      (\fx,0.98) -- (\fx,1.22);
+    \fill[faded!52!ink, opacity=0.28] (\fx,0.98) circle (0.014);
+  }
+
+  % the third goes up the terrace, answered and still unowned
+  \draw[faded!58!ink, line width=0.40pt, opacity=0.30, line cap=round]
+    (1.36,1.22) .. controls (1.70,1.52) and (2.20,1.50) .. (2.55,1.66)
+    .. controls (2.80,1.78) and (2.92,1.60) .. (2.78,1.52);
+
+  % —— the row stands where it stood: four nails and a knot ——
+  \draw[faded!78!ink, line width=0.62pt, opacity=0.46, line cap=round]
+    (-3.10,-0.78) -- (3.10,-0.78);
+  \foreach \nx in {-2.50,-1.50,1.50,2.50}{
+    \draw[faded!64!ink, line width=0.46pt, opacity=0.36, line cap=round]
+      (\nx,-0.86) -- (\nx,-0.70);
+  }
+  \draw[faded!62!ink, line width=0.44pt, opacity=0.34]
+    (0,-0.78) circle (0.055);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.38)
+    {three askings are not one witness};
+\end{tikzpicture}

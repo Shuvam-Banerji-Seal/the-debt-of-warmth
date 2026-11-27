@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **60**
-- Words of story: **1,029,678**
-- Current chapter: 61 (step: plan, scene 1)
-- Last chapter: Where the Weather Answers (Days 231–233 · Grain 22–24, Y.H. 813)
-- Author calls so far: 674 (tokens in 115,467,990, out 14,785,496)
-- Updated: 2026-11-27 05:52
+- Chapters complete: **61**
+- Words of story: **1,048,952**
+- Current chapter: 61 (step: publish, scene 7)
+- Last chapter: The Row Stood Where It Stood (Days 234–236 · Grain 25–27, Y.H. 813)
+- Author calls so far: 684 (tokens in 117,239,381, out 15,013,831)
+- Updated: 2026-11-27 06:27
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
