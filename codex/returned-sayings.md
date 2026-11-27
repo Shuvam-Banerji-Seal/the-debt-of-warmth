@@ -19,7 +19,7 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 2. “Come back as you can. Nobody comes back as they were.”
 
-*Gloss — Said low, to the cradle. At the Weighing they announce the whole returns and the houses clap; the returned say this afterwards, when the cloth has been put away. It is not bitterness. It is the only sentence in the room that lets a woman hold the child she has been given without asking her to be somebody else.*
+*Gloss — Said low, to the cradle. At the Weighing they announce the whole returns and the houses clap; the returned say this afterwards, when the cloth is put away. It is not bitterness. It is the only sentence that lets a woman hold the child she has been given without asking her to be somebody else.*
 
 3. “The name is written into the vessel before it can refuse one.”
 
@@ -33,7 +33,7 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 5. “A whole return has a figure. A beautiful return has a cloth.”
 
-*Gloss — A whole return is booked at twelve hundred marks and forty unspent measures, and no man has been told why forty. The beautiful ones are shown at feasts in the south with coins laid on clean cloth, and on the third day the hand begins to shake and the priests call it the price of beauty. Somebody pays that price. The cloth is laid out before the feast and the hand is not.*
+*Gloss — A whole return is booked at twelve hundred marks and forty unspent measures, and no man has been told why forty. The beautiful ones are shown at southern feasts with coins laid on clean cloth, and on the third day the hand begins to shake and the priests call it the price of beauty. Somebody pays that price. The cloth is laid out before the feast and the hand is not.*
 
 6. “One in twelve is printed. The other one goes into the house.”
 
@@ -41,17 +41,17 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 7. “The fire under the cradle is lit by somebody who is not named at the feast.”
 
-*Gloss — Every hearth touches its flame from the carried coal, and nobody says where the first coal came from or who kept it through the Five. In Sere the fire stands in the open court and a man may singe his wrist; here it is brought under a pot and counted. The returned say this when a house has been given a warm child and no fuel. Ask who paid and you will be told to ask the fire, which is an answer given by people who asked the same thing at their own cradle.*
+*Gloss — Every hearth touches its flame from the carried coal, and nobody says where the first coal came from or who kept it through the Five. In Sere the fire stands in the open court and a man may singe his wrist; here it is brought under a pot and counted. The returned say this when a house has a warm child and no fuel. Ask who paid and you will be told to ask the fire, an answer given by people who asked the same thing at their own cradle.*
 
 8. “Quiet ash stops the voice. It does not stop the wanting.”
 
-*Gloss — A phial costs sixty marks and is dispensed by a greyed hand. The previous life stops arriving in dreams, which the rich call a mercy and the poor a price they cannot pay. I have seen a woman take the phial, sit quieter afterwards, and reach for the cup exactly as before. The ash stops the voice and leaves the hand.*
+*Gloss — A phial costs sixty marks and is dispensed by a greyed hand. The previous life stops arriving in dreams, which the rich call a mercy and the poor a price they cannot pay. I have seen a woman take the phial, sit quieter, and reach for the cup exactly as before. The ash stops the voice and leaves the hand.*
 
 # Of the guest and the third day
 
 9. “A returned one may bring a guest.”
 
-*Gloss — She calls a name not given in this house and reaches for a door that is not in the room. A bowl-leech from Sere pressed a sentence into my margin saying a spoken name puts no shape back and that this is a disorder of the memory, not a visitor. He is right in a cold language. I have kept the house's sentence above his: a woman at the cradle wants to know which door to stand by.*
+*Gloss — She calls a name not given in this house and reaches for a door not in the room. A bowl-leech from Sere pressed a sentence into my margin saying a spoken name puts no shape back and that this is a disorder of the memory, not a visitor. He is right in a cold language. I have kept the house's sentence above his: a woman at the cradle wants to know which door to stand by.*
 
 10. “Worse before better is the order of it.”
 
@@ -69,7 +69,7 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 13. “Ask a returned man what he was and he will ask what you are short of.”
 
-*Gloss — I took it for evasion the first year. In the eleventh I understood it was the whole of what he could tell you: not who he had been but what was missing from the room he came into. It is not asked unkindly. A man who wants his name back is asking after the shape of a hole.*
+*Gloss — I took it for evasion the first year. In the eleventh I understood it was all he could tell you: not who he had been but what was missing from the room he came into. It is not asked unkindly. A man who wants his name back is asking after the shape of a hole.*
 
 14. “A name said at home is a door. A number is a hole in the wall.”
 
@@ -77,7 +77,7 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 15. “Do not ask the cradle whose child it is.”
 
-*Gloss — Said to a woman newly come to the lower room, who wants to know which of the district's dead lies under the wool. The slate knows and the cradle does not, and a cradle that knew would be a different thing. I have set this saying last because it is the one I have had most cause to use.*
+*Gloss — Said to a woman newly come to the lower room, who wants to know which of the district's dead lies under the wool. The slate knows and the cradle does not, and a cradle that knew would be a different thing. I have set this last because it is the one I have had most cause to use.*
 
 # The cradle-verse
 
@@ -106,9 +106,9 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 A clerk of the factor borrowed the leaves on a market morning, with ink in two fingers that would not come out. He writes in the narrow upright hand and takes the verbs out as though a verb were a thing he could spill from a cuff.
 
 - At *the hand goes to the cup before the eyes go to the face*, he wrote *a preference is retained from the pooled measure*, which leaves the hand out and the preference in.
-- At *come back as you can*, he set *a thin return is entered*, true in his language and of no use to a woman holding a child under wool.
+- At *come back as you can*, he set *a thin return is entered*, true in his language and of no use to a woman holding a child.
 - At *one in twelve is printed*, he put a small stop in the figure and wrote it again above, larger.
-- At *quiet ash stops the voice*, he wrote *dream-intrusion suppressed*, the neatest sentence I have read about a thing he has never watched.
+- At *quiet ash stops the voice*, he wrote *dream-intrusion suppressed*, the neatest sentence I have read about a thing he never watched.
 - At the place in the verse he put a round nought and wrote *vacancy* beneath it. A nought is a number. The place was a name, and he has made it smaller.
 
 I have put the sayings back underneath and left his hand above. He takes the doer out because a thing always true has no need of anybody doing it. I put the doer back because a woman at the cradle wants to know which hand to hold the stone with.
@@ -131,4 +131,4 @@ The filings at the head came off the tube-case when an officer set it down hard 
 > We are a people of every house and no country.
 > We are poured and we are entered and we are carried.
 
-I asked a woman who keeps the cradle, a clerk of the factor's house, and a returned man who could not say which of his five names he wanted, and had three answers and no hand. I have left the lines where they were written. The leaf goes back under the loose board beside the cradle. Tomorrow a district will be poured in the room above me, the four sayings will be read in the clean voice, and the house will answer with one word; I shall write two figures that are not the same one and leave the place in the verse the length it is.
+I asked a woman who keeps the cradle, a clerk of the factor's house, and a returned man who could not say which of his five names he wanted, and had three answers and no hand. I have left the lines where they were written. The leaf goes back under the loose board beside the cradle. Tomorrow a district will be poured above me, the four sayings read in the clean voice, and the house will answer with one word; I shall write two figures that are not the same one and leave the place in the verse the length it is.
