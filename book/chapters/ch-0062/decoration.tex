@@ -1,0 +1,50 @@
+\begin{tikzpicture}
+  % the same figure goes twice over the basket: once for the moot, once
+  % for the households that came late. Both arcs pass over and go off;
+  % neither comes down into the fold, and the basket carries neither home.
+  \draw[faded!60!ink, line width=0.46pt, opacity=0.36, line cap=round]
+    (-3.00,0.58) .. controls (-1.70,0.98) and (1.10,0.98) .. (3.00,0.58);
+  \draw[faded!56!ink, line width=0.42pt, opacity=0.32, line cap=round]
+    (-3.00,1.06) .. controls (-1.70,1.46) and (1.10,1.46) .. (3.00,1.06);
+  \draw[faded!50!ink, line width=0.34pt, opacity=0.24, line cap=round]
+    (3.00,0.58) .. controls (3.36,0.62) and (3.54,0.78) .. (3.72,0.70);
+  \draw[faded!48!ink, line width=0.32pt, opacity=0.22, line cap=round]
+    (3.00,1.06) .. controls (3.36,1.10) and (3.54,1.26) .. (3.72,1.18);
+
+  \node[font=\CinzelFont\scriptsize, text=rubric, opacity=0.62] at (-1.35,1.00)
+    {one in twelve};
+  \node[font=\CinzelFont\scriptsize, text=rubric, opacity=0.62] at (-1.35,1.48)
+    {one in twelve};
+
+  % the carrying handle, its grip left empty: nothing stands under the weight
+  \draw[faded!66!ink, line width=0.46pt, opacity=0.36, line cap=round]
+    (-1.40,-0.46) .. controls (-1.16,0.42) and (-0.34,0.42) .. (-0.10,0.20);
+  \draw[faded!66!ink, line width=0.46pt, opacity=0.36, line cap=round]
+    ( 0.10,0.20) .. controls ( 0.34,0.42) and ( 1.16,0.42) .. ( 1.40,-0.46);
+
+  % the basket, shallow and woven, the dressed grain under its wool fold
+  \fill[gold!6!vellum, opacity=0.55]
+    (-1.55,-0.38)
+    .. controls (-1.50,-0.98) and (-0.90,-1.08) .. (0,-1.08)
+    .. controls (0.90,-1.08) and (1.50,-0.98) .. (1.55,-0.38)
+    .. controls (0.90,-0.55) and (-0.90,-0.55) .. cycle;
+  \draw[faded!76!ink, line width=0.58pt, opacity=0.46, line cap=round]
+    (-1.55,-0.38)
+    .. controls (-1.50,-0.98) and (-0.90,-1.08) .. (0,-1.08)
+    .. controls (0.90,-1.08) and (1.50,-0.98) .. (1.55,-0.38);
+  \draw[faded!72!ink, line width=0.54pt, opacity=0.44]
+    (0,-0.38) ellipse (1.55 and 0.19);
+  \draw[faded!56!ink, line width=0.34pt, opacity=0.28]
+    (0,-0.34) ellipse (1.32 and 0.12);
+  \foreach \wy in {-0.56,-0.74,-0.90}{
+    \draw[faded!50!ink, line width=0.30pt, opacity=0.24, line cap=round]
+      (-1.44,\wy + 0.07) .. controls (-0.70,\wy - 0.10) and (0.70,\wy - 0.10) .. (1.44,\wy + 0.07);
+  }
+  \draw[faded!82!ink, line width=0.50pt, opacity=0.44, line cap=round]
+    (-1.32,-0.34) .. controls (-1.10,0.02) and (1.10,0.02) .. (1.32,-0.34);
+  \draw[faded!58!ink, line width=0.30pt, opacity=0.26, line cap=round]
+    (-1.02,-0.20) .. controls (-0.88,-0.06) and (-0.66,-0.06) .. (-0.54,-0.18);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.44)
+    {the basket hears the figure twice};
+\end{tikzpicture}
