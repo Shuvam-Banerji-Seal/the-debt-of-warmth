@@ -1,7 +1,7 @@
 ---
 title: The Weighing Physician's Book, Being Remedies for the Beautiful Return, the Quiet Dream, the Greyed Hand, the Weighing Chill, the Kept Room and the Fever That Cooks, Set Down in the Hearthseat with the Errors Left Standing and a Clay-Yard Woman's Thumb in the Margin
 kind: A physician's book of remedies in the soft, ledger-leaning manner of the Keeping, written in Grathic with the verbs thinned almost to Ledgerhand; the cures in a neat physician's hand on the back of a spoiled Weighing notice, the objections of a clay-yard hearth-maid pressed in tallow and slip into the margin, the corrections of a College of Assessors clerk in narrow upright Ledgerhand, a song for the Weighing with a place left where the fifth stroke should stand, and one line at the foot in a hand nobody will own
-provenance: Written in the Hearthseat on the Keel between Ash of Y.H. 812 and Ilmen of Y.H. 813, the Long Cold and the Thin Year, by Senn, a physician of the Weighing Hall who examined the Kept in their rooms at each Weighing and held the hands of the returned on the third day; begun on the back of a Weighing notice spoiled when the ink ran in the damp, on which *one in twelve* is still legible through every remedy, folded into four and carried in the inner pocket of a clean coat. It was never copied at Greybank: the fair copy was taken by the College and lost, and the rough leaf survives in the physician's own room off the Weighing Hall, with the printed figure showing through, a press of tallow and a thumb of clay slip in the margin where a woman from Low Kiln laid her hand, grey Ash off a Kept room's skirting board worked into the gutter, a scorch where a spark off the grating of the Hearth-fire caught the second leaf, a pale clip-ring pressed into the third, three objections in the rough hand of the clay-yard woman, six corrections in the upright hand of the College clerk, and the one line at the foot in a hand nobody will own
+provenance: Written in the Hearthseat on the Keel between Ash of Y.H. 812 and Ilmen of Y.H. 813, the Long Cold and the Thin Year, by Senn, a physician of the Weighing Hall who examined the Kept in their rooms at each Weighing and held the hands of the returned on the third day; begun on the back of a Weighing notice spoiled when the ink ran in the damp, on which *one in twelve* is still legible through every remedy, folded into four and carried in the inner pocket of a clean coat. It was never copied at Greybank: the fair copy was taken by the College and lost, and the rough leaf survives in the physician's own room off the Weighing Hall, with the printed figure showing through, a press of tallow and a thumb of clay slip in the margin where a woman from Low Kiln laid her hand, grey Ash off a Kept room's skirting board worked into the gutter, a scorch where a spark off the grating of the Hearth-fire caught the second leaf, a pale clip-ring pressed into the third, objections in the rough hand of the clay-yard woman, six corrections in the upright hand of the College clerk, and the one line at the foot in a hand nobody will own
 relates_to: [the Warm Court, the Hearthseat, the Keel, the Weighing Hall, the Hearth-fire, the College of Assessors, Slate Row of the Hearthseat, the rooms of the Kept, the Kept, Greybank, Sill, Low Kiln, the Clay Yard, the Weighing notice, the Weighing, one in twelve, Ledgerhand, Grathic, the measure, embers, the Warm, the cold, the cold that stays, the Return, whole return, beautiful return, thin return, quiet ash, the Ash, the second chill, the Afterdrop, the full note, the flat note, cold iron, the collector, the greyed hand, the clip-ring, the bell at the Cross, the Five, the Last Day, lead glaze, the sweet sickness, birth-flower, the guest, the Long Cold, the Thin Year]
 ---
 
@@ -81,19 +81,17 @@ Against the Kept: *A stone does not feel the fire either. Ask it if it's well.*
 
 Against the phial: *Six stopped speaking of the dream. I'd want to know what the six are doing now.*
 
-Against the walking: *Hold the next one. See if you can write what you saw.*
-
 Against the greyed hand: *It's the draw. I have seen it taken out of a man in a winter.*
 
 Against the beautiful return: *A woman who doesn't know her child isn't quiet. She's gone.*
 
-She writes in verbs and presses them in with the side of her thumb. The slip under her nail has left a brown print in the gutter and I have not washed it. She took the child away before the count was entered and left no name for the birth-slate.
+She presses her verbs in with the side of her thumb. The slip under her nail has left a brown print in the gutter and I have not washed it. She took the child away before the count was entered and left no name.
 
 # What the College clerk did
 
 A clerk of the College borrowed the leaves at the Weighing, when the Hall had no time to mind a physician's rough paper. The ink sits in two fingers of his cuff and will not come out. He struck out my column headed *Who is debited* and wrote *No cost entered* above it, which is a true thing in a dishonest place. Against the Kept he wrote *The vessels are retained in health*, the most beautiful sentence I have ever read in a hand that has never sat in a room with one. Where I wrote that the Hearth keeps what it is given, he wrote *the measure is retained*, taking the verbs out, as though a thing always true had no need of anybody doing it. He has eleven words for a deduction and no word for a hand held.
 
-I have put my verbs back underneath his. A clerk of my own College corrects me into coldness and I have let him, because a physician who writes as I do will be struck from the rolls by a man who has never held a hand.
+I have put my verbs back underneath his. A clerk of my College corrects me into coldness and I have let him, because a physician who writes as I do will be struck from the rolls by a man who has never held a hand.
 
 # At the head and in the gutter
 
@@ -104,4 +102,4 @@ The figure shows through every leaf: *one in twelve, as the notice says*. The da
 > The slate keeps the name. The drawer keeps the phial.
 > The woman between them is kept in no house.
 
-I asked the College clerk, a physician come up from Low Kiln, and a woman with a child on her hip, and had three answers and no hand. I have left the line where it was written. The book goes back into the inner pocket of the clean coat. Tomorrow the Weighing will be read and a household will come with a hand that will not hold a cup, and I shall enter the calm as a mercy and turn the slate face down before I look at the child, because a child is not an account and a woman at the Weighing wants a hand more than she wants a correction.
+I asked the College clerk, a physician come up from Low Kiln, and a woman with a child on her hip, and had three answers and no hand. I have left the line where it was written. Tomorrow the Weighing will be read and a household will come with a hand that will not hold a cup, and I shall enter the calm as a mercy and turn the slate face down before I look at the child, because a child is not an account and a woman at the Weighing wants a hand more than she wants a correction.
