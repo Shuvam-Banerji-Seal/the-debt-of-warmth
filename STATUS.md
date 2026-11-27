@@ -2,7 +2,7 @@
 
 - Chapters complete: **65**
 - Words of story: **1,128,042**
-- Current chapter: 65 (step: publish, scene 7)
+- Current chapter: 66 (step: plan, scene 1)
 - Last chapter: The Fifth Asking (Days 246–248 · Smoke 7–9, Y.H. 813)
 - Author calls so far: 724 (tokens in 124,686,593, out 15,965,663)
 - Updated: 2026-11-27 08:52
