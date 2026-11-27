@@ -69,7 +69,7 @@ Say these to the plank, the basket, the water under the plank, and to a person l
 
 12. “You hear the collector on the plank before you see his slate.”
 
-*Gloss — His boots have never been in the water. Children here are taught to know the sound of them before their own names, which is a grim kindness and the only warning the weir gives. He comes with a cold tube and a clean figure, and the figure does not get wet on the way.*
+*Gloss — His boots have never been in the water. Children here are taught to know the sound of them before their own names, a grim kindness and the only warning the weir gives. He comes with a cold tube and a clean figure, and the figure does not get wet.*
 
 13. “Cold iron takes. The water takes. Only one of them writes it down.”
 
