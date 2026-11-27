@@ -100,4 +100,4 @@ The small bare square in the lower margin is where I scraped a word away with a 
 
 I asked a boatman, a clerk come down from the College, and a woman who sold eels at the Weir, and had three answers and no hand. I have left the line where it was written.
 
-The book goes back under the stern seat and the tube into its wool sleeve. Tomorrow the oars go out on the flood and a house will come down to the bank, and I shall set the knuckle to the gunwale before the tube, and write the note before the face, and put the verbs back where the College struck them out. Downriver the salt gets into the fold and upriver the silt does. The four of us will enter the same year and our entries will not meet. The boat goes on.
+The book goes back under the stern seat and the tube into its wool sleeve. Tomorrow the oars go out on the flood and a house will come down to the bank, and I shall set the knuckle to the gunwale before the tube, and write the note before the face, and put the verbs back where the College struck them out. The four of us will enter the same year and our entries will not meet. The boat goes on.
