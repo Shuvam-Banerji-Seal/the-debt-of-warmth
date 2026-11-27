@@ -1,0 +1,89 @@
+\begin{tikzpicture}
+  % The chapter's heart: the count kept in wood. A thumb-nail goes across
+  % five notches before the eye goes to the asker and the mouth comes last.
+  % The bark holds what no slate can take off it.
+
+  % a quiet ground line, not last chapter's kiln flagstones
+  \draw[faded!44!ink, line width=0.36pt, opacity=0.22, line cap=round]
+    (-3.52,-1.30) -- (4.46,-1.30);
+
+  % —— the birch strip, leaning, its cut edge to the right ——
+  \fill[ash!18!vellum, opacity=0.92]
+    (-3.28,-1.12)
+    .. controls (-3.42,-0.30) and (-3.22,0.72) .. (-3.02,1.06)
+    -- (-2.06,0.86)
+    .. controls (-2.24,0.40) and (-2.36,-0.48) .. (-2.24,-1.20)
+    .. controls (-2.58,-1.16) and (-2.94,-1.14) .. cycle;
+  \draw[faded!76!ink, line width=0.56pt, opacity=0.46, line cap=round]
+    (-3.28,-1.12) .. controls (-3.42,-0.30) and (-3.22,0.72) .. (-3.02,1.06);
+  \draw[faded!76!ink, line width=0.56pt, opacity=0.46, line cap=round]
+    (-3.02,1.06) -- (-2.06,0.86);
+  \draw[faded!72!ink, line width=0.52pt, opacity=0.42, line cap=round]
+    (-2.06,0.86) .. controls (-2.24,0.40) and (-2.36,-0.48) .. (-2.24,-1.20);
+  \draw[faded!66!ink, line width=0.44pt, opacity=0.34, line cap=round]
+    (-2.24,-1.20) .. controls (-2.58,-1.16) and (-2.94,-1.14) .. (-3.28,-1.12);
+
+  % lenticels, the short dark marks that birch keeps on its face
+  \foreach \ly/\lx/\ll in {
+    -0.92/-3.14/0.16, -0.66/-3.18/0.22, -0.34/-3.20/0.14,
+    -0.06/-3.16/0.20, 0.24/-3.12/0.13, 0.52/-3.08/0.18,
+    0.78/-3.04/0.11, -0.52/-2.74/0.12, 0.10/-2.70/0.16,
+    0.60/-2.64/0.10
+  }{
+    \draw[faded!58!ink, line width=0.34pt, opacity=0.26, line cap=round]
+      (\lx,\ly) -- (\lx + \ll,\ly - 0.025);
+  }
+
+  % five notches cut into the right edge, a thumb-nail's width apart
+  \foreach \ny in {-0.86,-0.42,0.02,0.46,0.80}{
+    \pgfmathsetmacro{\nx}{-2.24 + 0.085*(\ny + 1.20)}
+    \fill[rubric!58!ink, opacity=0.52]
+      (\nx+0.05,\ny+0.075) -- (\nx-0.18,\ny+0.005) -- (\nx+0.05,\ny-0.06) -- cycle;
+  }
+
+  % the thumb-nail, crossing the notches before anything else is reached
+  \fill[gold!16!vellum, opacity=0.88]
+    (-1.98,1.14) .. controls (-1.80,1.14) and (-1.68,0.98) .. (-1.70,0.80)
+    .. controls (-1.84,0.84) and (-1.94,0.98) .. cycle;
+  \draw[faded!62!ink, line width=0.40pt, opacity=0.32, line cap=round]
+    (-1.98,1.14) .. controls (-1.80,1.14) and (-1.68,0.98) .. (-1.70,0.80);
+  \draw[faded!70!ink, line width=0.46pt, opacity=0.38, line cap=round]
+    (-1.90,1.18) .. controls (-1.68,1.04) and (-1.58,0.86) .. (-1.64,0.66);
+
+  % —— the order of reaching: hand, then eye, then mouth ——
+  % the thin lines stop short of each sigil and never join them
+  \draw[faded!48!ink, line width=0.34pt, opacity=0.24, line cap=round]
+    (-1.56,0.80) .. controls (-1.08,0.72) and (-0.70,0.64) .. (-0.36,0.58);
+  \draw[faded!48!ink, line width=0.34pt, opacity=0.24, line cap=round]
+    (0.64,0.50) .. controls (1.10,0.44) and (1.56,0.32) .. (1.96,0.22);
+
+  % a finger's width held between each pair
+  \foreach \gx in {-0.94,1.30}{
+    \draw[faded!54!ink, line width=0.36pt, opacity=0.28, line cap=round]
+      (\gx,0.60) -- (\gx,0.80);
+  }
+
+  % the eye, going to the woman who asked
+  \draw[faded!68!ink, line width=0.48pt, opacity=0.40, line cap=round]
+    (0.02,0.52) .. controls (0.18,0.70) and (0.42,0.70) .. (0.58,0.52)
+    .. controls (0.42,0.34) and (0.18,0.34) .. cycle;
+  \fill[faded!70!ink, opacity=0.42] (0.30,0.52) circle (0.055);
+
+  % the mouth, last, answering out of the wood
+  \draw[faded!68!ink, line width=0.48pt, opacity=0.40, line cap=round]
+    (2.10,0.16) .. controls (2.30,0.04) and (2.54,0.04) .. (2.74,0.16);
+  \draw[faded!52!ink, line width=0.32pt, opacity=0.26, line cap=round]
+    (2.18,0.19) -- (2.66,0.19);
+
+  % an empty slate, waiting for a figure that never crosses to it
+  \fill[ash!12!vellum, opacity=0.48]
+    (3.14,-0.90) -- (4.28,-0.90) -- (4.20,0.02) -- (3.22,0.02) -- cycle;
+  \draw[faded!50!ink, line width=0.38pt, opacity=0.26]
+    (3.14,-0.90) -- (4.28,-0.90) -- (4.20,0.02) -- (3.22,0.02) -- cycle;
+  \draw[faded!44!ink, line width=0.30pt, opacity=0.20,
+        dash pattern=on 1.4pt off 2.4pt]
+    (2.76,0.12) .. controls (2.94,0.04) and (3.02,-0.06) .. (3.14,-0.18);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.58)
+    {what is kept in wood is not entered on a slate};
+\end{tikzpicture}
