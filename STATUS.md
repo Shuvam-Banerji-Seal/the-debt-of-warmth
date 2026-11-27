@@ -2,7 +2,7 @@
 
 - Chapters complete: **81**
 - Words of story: **1,419,526**
-- Current chapter: 81 (step: publish, scene 7)
+- Current chapter: 82 (step: plan, scene 1)
 - Last chapter: The Last Tend of Frost (Days 294–296 · Frost 25–27, Y.H. 813)
 - Author calls so far: 889 (tokens in 156,814,141, out 19,762,102)
 - Updated: 2026-11-27 19:20
