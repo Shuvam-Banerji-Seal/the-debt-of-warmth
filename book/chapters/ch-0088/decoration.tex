@@ -1,0 +1,75 @@
+\begin{tikzpicture}
+  % The chapter's heart: the note let go early. For the first time the hand
+  % took its small intake and let it go while the low sound was still going
+  % under the finger's-width door --- before the note had done. The surgeon
+  % read a clamp taken off too soon, with the field not yet dry; the infant,
+  % a hand that gave up before it was done wanting. Both true, neither won.
+  % It was filed as one object on a place of its own, a finger between it and
+  % the stayed-at-the-inch object, and was not made again.
+
+  % —— the clamp off too soon, with a bead still forming (the surgeon's read) ——
+  \draw[ink!50!faded, line width=0.42pt, opacity=0.44, line cap=round]
+    (-3.18,1.46) -- (-2.86,1.06);
+  \draw[ink!50!faded, line width=0.42pt, opacity=0.44, line cap=round]
+    (-2.54,1.46) -- (-2.86,1.06);
+  \fill[rubric!52!ink, opacity=0.56] (-2.86,1.06) circle (0.032);
+  \draw[faded!34!ink, line width=0.24pt, opacity=0.26,
+        dash pattern=on 1pt off 2pt] (-2.86,1.00) -- (-2.86,0.82);
+  \fill[rubric!60!ink, opacity=0.52] (-2.86,0.74) circle (0.036);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (-2.86,1.62)
+    {clamp off too soon};
+
+  % —— the river's note, still going where the hand let go ——
+  \draw[faded!42!ink, line width=0.34pt, opacity=0.44, line cap=round]
+    (-3.46,-0.16) .. controls (-3.00,0.04) and (-2.62,-0.38) .. (-2.14,-0.16)
+    .. controls (-1.66,0.04) and (-1.28,-0.38) .. (-0.80,-0.16)
+    .. controls (-0.38,0.02) and (0.02,-0.34) .. (0.44,-0.18);
+  % the cut: the note stops while still low
+  \draw[rubric!54!ink, line width=0.50pt, opacity=0.58, line cap=round]
+    (0.40,-0.36) -- (0.50,0.02);
+  % where it would have gone, unsounded
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.22,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (0.60,-0.18) .. controls (0.96,-0.02) and (1.18,-0.34) .. (1.46,-0.20);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46] at (-1.50,-0.48)
+    {the note still going};
+
+  % —— the open hand that gave up before it was done wanting (infant's read) ——
+  \fill[ink!52!faded, opacity=0.40] (-1.62,0.58) ellipse (0.32 and 0.20);
+  \draw[ink!48!faded, line width=0.30pt, opacity=0.38, line cap=round]
+    (-1.62,0.58) ellipse (0.32 and 0.20);
+  \foreach \fn in {0,1,2,3}{
+    \pgfmathsetmacro{\fy}{0.68 - \fn*0.10}
+    \pgfmathsetmacro{\fx}{-1.36 + \fn*0.02}
+    \draw[ink!52!faded, line width=0.38pt, opacity=0.44, line cap=round]
+      (\fx,\fy) -- (\fx+0.32,\fy+0.14-\fn*0.02);
+  }
+  \draw[ink!50!faded, line width=0.36pt, opacity=0.40, line cap=round]
+    (-1.88,0.48) -- (-2.06,0.34);
+  % the small intake let fall, whole, before the note had done
+  \draw[faded!36!ink, line width=0.24pt, opacity=0.28,
+        dash pattern=on 1pt off 2pt] (-1.62,0.34) -- (-1.62,0.10);
+  \fill[rubric!58!ink, opacity=0.62] (-1.62,0.02) circle (0.048);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.48]
+    at (-1.06,0.46) {let go before done};
+
+  % —— a finger between the early letting-go and the stayed object ——
+  \draw[faded!34!ink, line width=0.24pt, opacity=0.26,
+        dash pattern=on 1pt off 2.4pt] (1.90,-0.90) -- (1.90,1.04);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (1.90,1.18)
+    {a finger between};
+
+  % —— the stayed-at-the-inch object, on a place of its own ——
+  \draw[faded!34!ink, line width=0.26pt, opacity=0.28, line cap=round]
+    (2.30,0.02) -- (3.46,0.02);
+  \draw[ornament!52!ink, line width=0.42pt, opacity=0.44, line cap=round]
+    (2.60,0.34) .. controls (2.92,0.50) and (3.14,0.28) .. (2.90,0.10)
+    .. controls (2.72,-0.02) and (2.52,0.10) .. (2.62,0.28);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46] at (2.88,-0.34)
+    {not made again};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.10)
+    {let go before the note had done};
+  \node at (0,-1.48) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{81}};
+\end{tikzpicture}
