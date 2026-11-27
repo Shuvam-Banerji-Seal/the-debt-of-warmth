@@ -2,7 +2,7 @@
 
 - Chapters complete: **63**
 - Words of story: **1,088,577**
-- Current chapter: 63 (step: publish, scene 7)
+- Current chapter: 64 (step: plan, scene 1)
 - Last chapter: The Coal Under the Broken Pot (Days 240–242 · Smoke 1–3, Y.H. 813)
 - Author calls so far: 704 (tokens in 121,148,707, out 15,469,959)
 - Updated: 2026-11-27 07:31
