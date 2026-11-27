@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **95**
-- Words of story: **1,705,829**
-- Current chapter: 96 (step: plan, scene 1)
-- Last chapter: Before the Reading (Days 336–338 · Ash 7–9, Y.H. 813)
-- Author calls so far: 1031 (tokens in 185,383,342, out 23,338,295)
-- Updated: 2026-11-28 04:15
+- Chapters complete: **96**
+- Words of story: **1,727,633**
+- Current chapter: 96 (step: publish, scene 7)
+- Last chapter: Seven Behind One Figure (Days 339–341 · Ash 10–12, Y.H. 813)
+- Author calls so far: 1041 (tokens in 187,598,152, out 23,583,434)
+- Updated: 2026-11-28 04:48
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

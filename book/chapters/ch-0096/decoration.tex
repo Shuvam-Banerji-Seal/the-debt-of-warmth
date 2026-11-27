@@ -1,0 +1,65 @@
+\begin{tikzpicture}
+  % The chapter's heart: seven arithmetics stand behind one printed figure.
+  % Seven are seven and not one account. The figure went up on the block and
+  % the block answered nothing; the figure read is not the figure paid, and
+  % no signature stands on the space. Six hearings sit beside with the seventh
+  % place empty, and the seven counts below keep their own gaps and do not sum.
+
+  % —— a small star-flower above ——
+  \node at (0,1.66) {\pgfornament[width=0.74cm,color=ornament,opacity=0.24]{12}};
+
+  % —— the printed figure, carved on the reading block ——
+  \fill[vellum, opacity=0.46]
+    (-0.62,-0.40) -- (0.56,-0.34) -- (0.62,1.02) -- (-0.56,0.96) -- cycle;
+  \draw[ornament!46!ink, line width=0.34pt, opacity=0.44, line cap=round]
+    (-0.62,-0.40) -- (0.56,-0.34) -- (0.62,1.02) -- (-0.56,0.96) -- cycle;
+  \draw[faded!26!ink, line width=0.20pt, opacity=0.24, line cap=round]
+    (-0.48,0.70) -- (0.50,0.74);
+  \draw[faded!26!ink, line width=0.20pt, opacity=0.22, line cap=round]
+    (-0.50,-0.20) -- (0.54,-0.16);
+  % the upright, the flag and the foot of the one
+  \draw[rubric!58!ink, line width=3.2pt, opacity=0.84, line cap=round]
+    (-0.02,-0.14) -- (0.02,0.76);
+  \draw[rubric!58!ink, line width=2.0pt, opacity=0.78, line cap=round]
+    (-0.34,0.54) -- (0.02,0.76);
+  \draw[rubric!58!ink, line width=2.0pt, opacity=0.76, line cap=round]
+    (-0.30,-0.14) -- (0.34,-0.14);
+
+  % —— the space where no signature stands ——
+  \draw[faded!30!ink, line width=0.22pt, opacity=0.30,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (1.00,0.10) -- (2.72,0.10);
+  \draw[faded!26!ink, line width=0.20pt, opacity=0.24] (1.00,0.16) -- (1.00,0.04);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (1.00,-0.12) {no signature on the space};
+
+  % —— six hearings beside, the seventh place left empty ——
+  \foreach \hx in {-4.50,-4.00,-3.50,-3.00,-2.50,-2.00}{
+    \draw[faded!34!ink, line width=0.28pt, opacity=0.40] (\hx,0.34) circle (0.060);
+  }
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.28,
+        dash pattern=on 1pt off 1.8pt]
+    (-1.50,0.34) circle (0.060);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.40] at (-3.10,0.02)
+    {six beside, the seventh empty};
+
+  % —— seven arithmetics, each its own count, a finger between every pair ——
+  \foreach \cx/\n in {-4.40/3,-3.00/4,-1.60/2,0.00/5,1.60/3,3.00/4,4.40/1}{
+    \draw[faded!28!ink, line width=0.22pt, opacity=0.28] (\cx-0.30,-1.02) -- (\cx+0.30,-1.02);
+    \foreach \k in {1,...,\n}{
+      \draw[ink!40!faded, line width=0.70pt, opacity=0.52, line cap=round]
+        (\cx-0.24+0.10*\k,-1.02) -- (\cx-0.24+0.10*\k,-0.70);
+    }
+  }
+  \foreach \gx in {-3.70,-2.30,-0.80,0.80,2.30,3.70}{
+    \draw[ink!40!faded, line width=0.9pt, opacity=0.38, line cap=round]
+      (\gx,-0.92) -- (\gx,-0.80);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (0.00,-1.22)
+    {seven behind the figure};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.52)
+    {seven are seven, and not one account};
+  \node at (0,-1.82) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{96}};
+\end{tikzpicture}
