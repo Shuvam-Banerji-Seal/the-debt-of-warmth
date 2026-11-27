@@ -870,7 +870,19 @@ A board in the room of House Reed that lifts at one end. Beneath it lie the seco
 ### Rusk's room
 **Kind:** room, dwelling. **Region:** the Fishstairs, Sill.
 A room above the Fishstairs in which an old man keeps a drawer with a small lock. He never sits down indoors.
-**Relations:** Above the Fishstairs, below the north bridge.
+**Relations:** Above the Fishstairs, below the north bridge; the stair to the Fishstairs goes down from it to the boards and the out-of-line landing.
+
+*The close ground of the old man's room drawn on `atlas/rusks-room`: the floorboards, the locked drawer left shut, the bench and the stool nobody sees him use, the pot he taps for its note, the ice-mouse-fur coat and salt-stiff hat on their pegs, the ash in the corners unswept, and the window over the steps; the stair down, the Fishstairs and the out-of-line landing, the north bridge and the fish-trade shade, the Singing Sill, the river road upriver to the Weir and downriver to Greybank, and the Cross and Slate Row drawn faint at the edges. Direction is from the locked drawer in the east wall.*
+
+### The locked drawer
+**Kind:** drawer, lock, holding. **Region:** Rusk's room, the Fishstairs, Sill.
+The drawer against the east wall of Rusk's room, shut under a small lock. The old man touches it with his knuckles when a certain kind of question is asked; it is said that he reads a paper from it once a year on the Last Day, when the ash in the corners is not swept. No surveyor has set down what lies under the lid, and the chart cuts the drawer and leaves it shut.
+**Relations:** Inside Rusk's room, against the east wall, above the Fishstairs, below the north bridge. Drawn close on `atlas/rusks-room`.
+
+### The stair to the Fishstairs
+**Kind:** stair, way. **Region:** Rusk's room, the Fishstairs, Sill.
+The short stair of boards that goes down from Rusk's room to the Fishstairs and the edge of the fish-trade below the north bridge.
+**Relations:** From the south-east corner of Rusk's room down to the boards at the Fishstairs. Drawn on `atlas/rusks-room`.
 
 ### The Court's room
 **Kind:** hall, court and place of the Return. **Region:** Slate Row, Sill.
