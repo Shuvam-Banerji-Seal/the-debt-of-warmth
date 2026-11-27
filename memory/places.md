@@ -1027,8 +1027,50 @@ The bank way by which Sill reaches the Weir and Stonemouth; it meets the Clay Ro
 
 ### Cold Acre
 **Kind:** farm hamlet. **Region:** Grath, north ridge.
-Six houses, barley, turnips and one well that never freezes.
-**Relations:** 2 leagues north of Sill on the ridge; 1 league beyond the Bone Orchard.
+Six houses, barley, turnips and one well that never freezes. The barrow of grey Ash goes past on the ridge road to the north gate on every market-day and the children stand and let it go by; there is no Last Day on a ridge and nothing gets swept.
+**Relations:** 2 leagues north of Sill on the ridge; 1 league beyond the Bone Orchard; the Tallow Works about 2 leagues east.
+
+*The close ground of the hamlet drawn on `atlas/cold-acre`: the six houses and byre within their drift-stone wall, the well with its stone lip, clay dish, well-rope and eleven links to the water with the twelfth hanging dry, the well-shrine, the bare ring where frost will not hold and the untaken turn stands, the barley strips and turnip ground, the north gate road south to Sill and the Bone Orchard, and the Tallow Works east. Direction is from the well.*
+
+### The well that never freezes
+**Kind:** well, wonder, shrine. **Region:** Cold Acre, Grath.
+The well of the six houses which has given water through every one of the ninety-four days of ice and never frozen. It is not warm, which is a thing the priest come up from Greybank called a little sister of the Nine Wells and a mercy of the Hearth drawn through the ridge; the well has given no sign that it heard him. Eleven links of its chain go down to the water and the twelfth hangs dry in the hand of the drawer and has never wetted. Three assessors have measured its lip with a cord and set a figure in a column that has never held anything; the well is not sold, and keeps itself and those who come to it. No slate has stood at the lip. Drawn on `atlas/cold-acre`.
+**Relations:** At the centre of Cold Acre, within the bare ring; the well-shrine and the stone lip stand beside it.
+
+### The well-shrine
+**Kind:** shrine, marker. **Region:** the well that never freezes, Cold Acre.
+The crossed-stone marker set beside the well, where the well-man spoke first to the rope, then to the stone lip, the dish, the ridge and the sky above the ridge, and last of all to the six households. Nils of Cold Acre kept the rope and the shrine for two and thirty winters. Drawn on `atlas/cold-acre`.
+**Relations:** Beside the well that never freezes at Cold Acre.
+
+### The stone lip
+**Kind:** well-curb, stone. **Region:** the well that never freezes, Cold Acre.
+The stone curb of the Cold Acre well, worn smooth by two and thirty winters of hands; the clay dish is set upon it and not in the water. The assessor measures the lip with a cord; the children's stone is set upon the curb when a turn is left standing. Drawn on `atlas/cold-acre`.
+**Relations:** The rim of the well that never freezes, inside the bare ring.
+
+### The clay dish
+**Kind:** vessel, dish. **Region:** the well that never freezes, Cold Acre.
+The dish set on the stone lip to be drawn into, never set in the water; a dish set in the water is a thing left to be fetched. A woman's dish once stood from the first voice of the sermon to the last and was drunk from standing. Drawn on `atlas/cold-acre`.
+**Relations:** Upon the stone lip of the Cold Acre well.
+
+### The well-rope
+**Kind:** rope, chain. **Region:** the well that never freezes, Cold Acre.
+The rope and chain of the Cold Acre well, kept and wound by the rope-woman, with eleven links going to the water and the twelfth hanging dry in the hand; it has lowered eleven links every morning for more than thirty winters and never once lowered twelve. The leaf of the children's well-game is kept under the loose stone of the curb in the nick where the rope is coiled. Drawn on `atlas/cold-acre`.
+**Relations:** Upon the crossbeam of the well that never freezes, inside the bare ring.
+
+### The twelfth link
+**Kind:** link, chain, keeping. **Region:** the well-rope, Cold Acre.
+The twelfth link of the Cold Acre well-chain, which hangs in the drawer's hand and never wets. A man of the College said it is kept back for the Hearth; one part in twelve is printed on the notice and is not a lie, and a printed thing travels where a chain does not. The two stand in the air between them and neither goes into the other. Drawn on `atlas/cold-acre`.
+**Relations:** The dry link of the well-rope at the well that never freezes.
+
+### The bare ring
+**Kind:** ground, children's place. **Region:** Cold Acre, Grath.
+The bare ring of ground that goes around the Cold Acre well where the frost will not hold and the ground stays dark and a little soft to the boot. Here the children pass the stone behind their backs through eight turnings and leave the untaken turn standing with a shut fist on the curb; a child is brought back only by another taking the stone and breathing on it twice. They do not play in the Five or on a market-day while the Ash barrow passes. Drawn on `atlas/cold-acre`.
+**Relations:** Around the well that never freezes at Cold Acre.
+
+### The barley strips and turnip ground of Cold Acre
+**Kind:** worked ground. **Region:** Cold Acre, Grath.
+The furrowed barley strips and the short turnip rows of the six houses, standing grey with frost in their edges in Frost while the ground around the well stays bare. Kess of Cold Acre keeps the barley measure and the seed account for the six houses. Drawn on `atlas/cold-acre`.
+**Relations:** East of the well and the six houses of Cold Acre.
 
 ### The Tallow Works
 **Kind:** works. **Region:** Grath, north-east of Sill.
