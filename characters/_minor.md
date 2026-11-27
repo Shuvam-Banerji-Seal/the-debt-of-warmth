@@ -1096,3 +1096,13 @@
 - **The woman with a basket of kindling on Ash 12** — an unnamed neighbour who asked what the seventh year would want when it came; Tarn said *Yes, house* and kept the late because it puts off the paying (T036/T076). Walk-on, no sheet. Ch 96.
 
 - **The two fence-menders who argued the thaw on Ash 12** — unnamed men who said the thaw would be early and late; Tarn said *Yes, house* to each and kept the late because it puts off the paying, agreeing so thoroughly that no argument could find a foot (T036/T076). Not the yard's early-and-late thaw arguers of other chapters, kept on their own day; no sheets. Ch 96.
+
+- **The Cold Acre hare-carrier on Ash 13–15** — an unnamed man down from Cold Acre with a hare across his shoulders who on each of the three days answered the price with the weather, which had carried the snow and could carry the price, and went off toward the clay road with the hare unweighed and nobody opening a slate (T077). The recurring hunter, kept on his own days; no sheet. Ch 97.
+
+- **The man with the cracked jar in a rope sling on Ash 13–15** — an unnamed neighbour who asked what the month's mending would want and was told to ask the pot, and the pot, being a pot, said nothing; no figure given and no entry left (T077). Walk-on, no sheet. Ch 97.
+
+- **The woman with a basket of kindling on Ash 13–15** — an unnamed neighbour who asked what the seventh year would want when it came; Tarn said *Yes, house* and kept the late because a late thaw puts off the paying (T036/T076). Walk-on, no sheet. Ch 97.
+
+- **The two fence-menders who argued the thaw on Ash 13–15** — unnamed men who said the thaw would be early and late; Tarn said *Yes, house* to each and kept the late because it puts off the paying, agreeing so thoroughly that no argument could find a foot (T036/T076). Not the yard's early-and-late thaw arguers of other chapters, kept on their own days; no sheets. Ch 97.
+
+- **The woman who asked Ilva at the yard well on Ash 15** — an unnamed neighbour waiting her turn with a pot on her hip and her shawl tight against the river wind who asked what Ash's firings had taken and got *Ask the pot what it cost. I keep the count, not the account*, Ilva's hand going toward her sleeve and staying with the strip unread and no figure coming off the wood; she was expressly not the speaker of any ownerless saying and no fifth shaping came (T080 advanced, not paid). Walk-on, no sheet. Ch 97.
