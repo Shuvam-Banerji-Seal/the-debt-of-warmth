@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Smithy — Low Kiln, Sill</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 46% 42%, rgba(255,249,228,.40), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', GOLD='#a9833c',
+      GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', CLAY='#8d9a92', SEAWASH='#a9bfb2',
+      BLUE='#5c7180';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(813301);
+  function rr(a,b){return a+(b-a)*rnd();}
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  /* ---- layers, inked in order; every lettering waits for the last one ---- */
+  var defs=E('defs',{});
+  E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.52});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gStruct=E('g',{}),
+      gRoad=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+
+  /* foxing, the old folds, and the soft wash of the low ground */
+  var i;
+  for(i=0;i<30;i++){
+    E('ellipse',{cx:rr(90,2310),cy:rr(90,1510),rx:rr(14,72),ry:rr(9,40),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gWash);
+  }
+  [690,1390,2030].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('path',{d:D(jit([[90,1050],[540,1040],[1020,1058],[1500,1044],[1980,1060],[2320,1048],[2320,1560],[90,1560]],4,36),true),
+    fill:'#c9b99a',opacity:0.22},gWash);
+  E('path',{d:D(jit([[90,246],[600,236],[1140,250],[1680,238],[2240,252],[2320,248],[2320,404],[1680,416],[1140,402],[600,418],[90,404]],3,30),true),
+    fill:'#b9a488',opacity:0.20},gWash);
+
+  /* ---- the terrace above, and the clay of the yard ---- */
+  E('path',{d:D(jit([[90,392],[420,380],[760,394],[1100,382],[1460,398],[1820,386],[2310,400]],3,26)),
+    fill:'none',stroke:FADE,'stroke-width':1.6,opacity:0.55},gTerr);
+  for(i=0;i<62;i++){
+    var hx=rr(110,2290),hy=rr(258,382);
+    E('line',{x1:hx,y1:hy+8,x2:hx+rr(8,20),y2:hy-rr(8,18),stroke:FADE,'stroke-width':0.9,opacity:rr(0.18,0.42)},gTerr);
+  }
+  function tuft(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-5 2 q-2 -8 -6 -12 M0 2 L0 -14 M5 2 q2 -7 7 -11 M-2 2 q-1 -6 -3 -9',
+      fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.7},g);
+  }
+  for(i=0;i<22;i++){tuft(rr(120,2290),rr(1320,1410),rr(0.6,1.1),gTerr);}
+
+  /* ---- water: the Slip Brook behind the row, and the Ilm below ---- */
+  function channel(pts,w0,w1,fill,p){
+    var c=jit(pts,5,12), bankA=[],bankB=[],nm=[],hw=[],k;
+    for(k=0;k<c.length;k++){
+      var a=c[Math.max(0,k-1)],b=c[Math.min(c.length-1,k+1)];
+      var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/le,ny=dx/le,t=k/(c.length-1),w=w0+(w1-w0)*t+Math.sin(k*0.7)*1.4;
+      bankA.push([c[k][0]+nx*(w+rr(-1.2,1.2)),c[k][1]+ny*(w+rr(-1.2,1.2))]);
+      bankB.push([c[k][0]-nx*(w+rr(-1.2,1.2)),c[k][1]-ny*(w+rr(-1.2,1.2))]);
+      nm.push([nx,ny]); hw.push(w);
+    }
+    E('path',{d:D(bankA.concat(bankB.slice().reverse()),true),fill:fill,opacity:0.5},p);
+    [bankA,bankB].forEach(function(bk){
+      E('path',{d:D(bk),fill:'none',stroke:INK,'stroke-width':1.6,'stroke-linejoin':'round',opacity:0.78},p);
+      for(var m=2;m<bk.length-2;m+=4){
+        var q=bk[m-1],r=bk[m+1],dx=r[0]-q[0],dy=r[1]-q[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+        E('line',{x1:bk[m][0],y1:bk[m][1],x2:bk[m][0]-dy/le*rr(6,10),y2:bk[m][1]+dx/le*rr(6,10),
+          stroke:INK,'stroke-width':0.7,opacity:0.22},p);
+      }
+    });
+    for(k=0;k<44;k++){
+      var z=Math.floor(rr(2,c.length-3)),f=rr(-0.7,0.7);
+      var px=c[z][0]+nm[z][0]*hw[z]*f,py=c[z][1]+nm[z][1]*hw[z]*f;
+      E('path',{d:'M'+px.toFixed(1)+' '+py.toFixed(1)+' q7 -2.4 15 0',fill:'none',stroke:SEA,'stroke-width':0.9,opacity:rr(0.10,0.25)},p);
+    }
+  }
+  channel([[120,1296],[420,1276],[720,1304],[1020,1282],[1320,1308],[1620,1286],[1920,1312],[2220,1290],[2380,1302]],9,17,CLAY,gWater);
+  channel([[720,1490],[1080,1476],[1440,1494],[1800,1480],[2160,1496]],30,46,SEAWASH,gWater);
+  /* the dotted line the Breaking puts to the low houses */
+  E('path',{d:D(jit([[420,1352],[800,1344],[1180,1356],[1560,1346],[1960,1358],[2300,1348]],2,20)),
+    fill:'none',stroke:SEA,'stroke-width':1.3,'stroke-dasharray':'4 6',opacity:0.48},gWater);
+
+  /* ---- buildings ---- */
+  function bldg(x,y,w,h,p,op){
+    var c=[[x,y],[x+w,y+rr(-3,3)],[x+w+rr(-3,3),y+h],[x+rr(-3,3),y+h+rr(-3,3)]];
+    var poly=jit(c,2.0,15);
+    E('path',{d:D(poly,true),fill:'#e6d8b8',stroke:INK,'stroke-width':2,'stroke-linejoin':'round',opacity:op||1},p);
+    E('path',{d:D(jit([[x+9,y+9],[x+w-9,y+9],[x+w-9,y+h-9],[x+9,y+h-9]],1.0,20),true),
+      fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.5},p);
+    for(var k=0;k<8;k++){
+      var yy=y+16+k*((h-30)/8);
+      E('line',{x1:x+2,y1:yy,x2:x+w-2,y2:yy+rr(-2,2),stroke:FADE,'stroke-width':0.5,opacity:0.16},p);
+    }
+    return poly;
+  }
+  function door(x,y,p){
+    E('rect',{x:x-6,y:y-3,width:12,height:9,fill:'#efe3c6',stroke:'none'},p);
+    E('line',{x1:x-6,y1:y-3,x2:x+6,y2:y+2,stroke:INK,'stroke-width':1.3},p);
+    E('line',{x1:x+6,y1:y+2,x2:x+6,y2:y+10,stroke:INK,'stroke-width':1},p);
+  }
+  function smoke(x,y,p){
+    E('path',{d:'M'+x+' '+y+' q-10 -12 1 -20 q9 -7 1 -15',fill:'none',stroke:INK,'stroke-width':1,opacity:0.42},p);
+    E('path',{d:'M'+(x+12)+' '+(y-4)+' q-7 -10 2 -17',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.32},p);
+  }
+
+  /* the smithy itself: long, low, with no kiln-mark over the door */
+  bldg(320,466,920,438,gStruct);
+  E('path',{d:'M1148 466 L1148 430 L1204 430 L1204 466 Z',fill:'#d4c5a1',stroke:INK,'stroke-width':1.6},gStruct);
+  smoke(1176,426,gStruct);
+  E('path',{d:D(jit([[332,458],[470,450],[620,460],[770,452],[920,462],[1080,452],[1232,460]],2,22)),
+    fill:'none',stroke:INK,'stroke-width':2.4,opacity:0.85},gStruct);
+  door(756,902,gStruct);
+
+  /* the forge hearth, the bellows and the fire that is not the house's fire */
+  E('path',{d:'M470 830 q0 -78 76 -78 q76 0 76 78 z',fill:'#cbb99a',stroke:INK,'stroke-width':2},gStruct);
+  E('path',{d:'M490 830 q0 -56 56 -56 q56 0 56 56 z',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.6},gStruct);
+  E('path',{d:'M508 826 q34 -22 68 0 z',fill:'#382718',stroke:INK,'stroke-width':1},gStruct);
+  for(i=0;i<11;i++){
+    E('line',{x1:516+i*6,y1:826,x2:520+i*6,y2:818-rr(0,9),stroke:RED,'stroke-width':1.3,opacity:rr(0.4,0.82)},gStruct);
+  }
+  smoke(546,756,gStruct);
+  E('path',{d:'M392 776 l62 -18 l4 44 l-66 -10 z',fill:'#c7b593',stroke:INK,'stroke-width':1.6},gStruct);
+  E('line',{x1:455,y1:788,x2:488,y2:804,stroke:INK,'stroke-width':1.4},gStruct);
+  E('path',{d:'M376 812 l18 8 l-4 18 l-18 -8 z',fill:'#bdae8c',stroke:INK,'stroke-width':1.1},gStruct);
+
+  /* the anvil on its block */
+  E('path',{d:'M700 806 L826 806 L806 820 L790 830 L736 830 L720 820 Z',fill:'#93836c',stroke:INK,'stroke-width':1.8},gStruct);
+  E('path',{d:'M742 830 L786 830 L792 866 L736 866 Z',fill:'#c1b193',stroke:INK,'stroke-width':1.4},gStruct);
+  E('path',{d:'M714 804 l22 -8 l0 10 l-22 4 z',fill:'#93836c',stroke:INK,'stroke-width':1.2},gStruct);
+
+  /* the bench with its chisel notches: a count in wood that no officer reads */
+  E('path',{d:'M872 780 L1132 778 L1134 808 L872 810 Z',fill:'#cbb995',stroke:INK,'stroke-width':1.6},gStruct);
+  E('line',{x1:884,y1:836,x2:900,y2:808,stroke:INK,'stroke-width':1.2},gStruct);
+  E('line',{x1:1118,y1:838,x2:1126,y2:808,stroke:INK,'stroke-width':1.2},gStruct);
+  for(i=0;i<8;i++){
+    var nx=894+i*25;
+    E('line',{x1:nx,y1:784,x2:nx+rr(-1,1),y2:797,stroke:INK,'stroke-width':1.6,opacity:0.85},gStruct);
+  }
+  /* the ninth place, where two notches ran together, left as it stands */
+  E('line',{x1:1100,y1:782,x2:1100,y2:800,stroke:RED,'stroke-width':2,opacity:0.9},gStruct);
+  E('line',{x1:1106,y1:783,x2:1106,y2:799,stroke:RED,'stroke-width':1,opacity:0.5},gStruct);
+  /* a slate lying face down: there is none here a man would write on */
+  E('path',{d:'M1030 704 L1094 700 L1098 726 L1034 730 Z',fill:'#9a968a',stroke:INK,'stroke-width':1.2,opacity:0.75},gStruct);
+
+  /* the kiln behind the bench: four pulls, the fifth not supplied */
+  function kiln(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-44 30 q0 -56 44 -56 q44 0 44 56 z',fill:'#cbbf9d',stroke:INK,'stroke-width':2,'stroke-linejoin':'round'},g);
+    E('path',{d:'M-30 30 q0 -42 30 -42 q30 0 30 42',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.6},g);
+    for(var k=-30;k<32;k+=8){E('line',{x1:k,y1:28,x2:k+4,y2:-14-Math.abs(k)*0.3,stroke:FADE,'stroke-width':0.6,opacity:0.24},g);}
+    E('path',{d:'M-12 30 q12 -15 24 0 z',fill:'#3a2a18',stroke:INK,'stroke-width':1},g);
+    E('path',{d:'M-4 26 q4 -8 8 0',fill:'none',stroke:RED,'stroke-width':1.3,opacity:0.8},g);
+    return g;
+  }
+  kiln(1230,792,0.68,gStruct);
+
+  /* tubes hung on pegs, their grips polished grey to the thumb */
+  function tube(x,y,p){
+    var g=E('g',{transform:'translate('+x+' '+y+')'},p);
+    E('rect',{x:-5,y:0,width:10,height:112,rx:4,fill:'#7c6a55',stroke:INK,'stroke-width':1.3},g);
+    E('rect',{x:-6,y:0,width:12,height:38,rx:4,fill:'#a89f8d',stroke:INK,'stroke-width':1},g);
+    E('path',{d:'M-8 112 q8 6 16 0',fill:'none',stroke:INK,'stroke-width':1.2},g);
+    E('circle',{cx:0,cy:-10,r:2.4,fill:INK},g);
+  }
+  tube(430,540,gStruct); tube(496,536,gStruct); tube(562,542,gStruct);
+  /* three waiting on the peg, the grip of the second polished grey to the thumb */
+
+  /* Keldish bars with the blue bloom no potter will glaze over */
+  E('path',{d:'M1006 528 L1158 522 L1162 542 L1010 548 Z',fill:'#8e9aa0',stroke:INK,'stroke-width':1.4},gStruct);
+  for(i=0;i<7;i++){
+    E('line',{x1:1018+i*20,y1:526,x2:1020+i*20,y2:546,stroke:BLUE,'stroke-width':1.1,opacity:rr(0.3,0.7)},gStruct);
+  }
+  E('path',{d:'M1010 560 L1156 556 L1160 574 L1014 578 Z',fill:'#9aa4a2',stroke:INK,'stroke-width':1.2,opacity:0.9},gStruct);
+
+  /* the ash pit and the water trough outside the door */
+  E('path',{d:D(jit([[640,930],[740,926],[754,970],[650,976]],2,14),true),fill:'#7d6a52',stroke:INK,'stroke-width':1.3,opacity:0.8},gStruct);
+  E('path',{d:'M864 952 L980 948 L974 982 L870 984 Z',fill:'#c3b49a',stroke:INK,'stroke-width':1.5},gStruct);
+  E('path',{d:'M874 958 q52 -4 100 -2',fill:'none',stroke:SEA,'stroke-width':1,opacity:0.55},gStruct);
+
+  /* the neighbourhood, drawn faint at the edges for company only */
+  bldg(1510,506,224,166,gStruct,0.42);
+  E('path',{d:'M1636 506 L1636 478',stroke:INK,'stroke-width':1.3,opacity:0.4},gStruct);
+  smoke(1636,474,gStruct);
+  bldg(1816,552,150,118,gStruct,0.36);
+  E('circle',{cx:1872,y:640,r:20,fill:'none',stroke:FADE,'stroke-width':1,opacity:0.4},gStruct);
+  function dryrack(x,y,w,p){
+    var g=E('g',{opacity:0.34},p);
+    E('line',{x1:x,y1:y,x2:x,y2:y+130,stroke:INK,'stroke-width':1.6},g);
+    E('line',{x1:x+w,y1:y,x2:x+w,y2:y+130,stroke:INK,'stroke-width':1.6},g);
+    [0,1,2].forEach(function(r){
+      var ry=y+14+r*46;
+      E('line',{x1:x-3,y1:ry,x2:x+w+3,y2:ry,stroke:INK,'stroke-width':1.3},g);
+      for(var q=10;q<w;q+=22){
+        E('path',{d:'M'+(x+q)+' '+ry+' q-6 -9 0 -16 q6 7 0 16 z',fill:'#cbbf9d',stroke:FADE,'stroke-width':0.7},g);
+      }
+    });
+  }
+  dryrack(2070,540,190,gStruct);
+  /* the yard well with its little roof */
+  E('circle',{cx:1620,y:884,r:24,fill:'#cbbfa1',stroke:INK,'stroke-width':1.6,opacity:0.65},gStruct);
+  E('circle',{cx:1620,y:884,r:16,fill:'#7d8b83',stroke:INK,'stroke-width':1,opacity:0.65},gStruct);
+  E('path',{d:'M1588 872 L1620 848 L1652 872 Z',fill:'#d4c5a1',stroke:INK,'stroke-width':1.4,opacity:0.65},gStruct);
+  bldg(2050,830,178,124,gStruct,0.3);
+  /* House Reed and the birth-flower shrine beyond */
+  bldg(2040,1090,156,96,gStruct,0.28);
+  E('path',{d:'M1984 1092 l0 -24 l30 0 l0 24 z',fill:'#e6d8b8',stroke:INK,'stroke-width':1.3,opacity:0.45},gStruct);
+  E('path',{d:'M1996 1068 l0 13 M1990 1074 l12 0',fill:'none',stroke:RED,'stroke-width':1.2,opacity:0.6},gStruct);
+
+  /* worked strips west of the shop */
+  for(i=0;i<6;i++){
+    E('path',{d:'M740 '+((1200+i*16).toFixed(1))+' q-120 -6 -250 0',fill:'none',stroke:MG,'stroke-width':1,opacity:0.34},gStruct);
+  }
+
+  /* ---- roads and the ruts of the yard ---- */
+  E('path',{d:D(jit([[100,1096],[480,1088],[880,1100],[1280,1090],[1680,1102],[2080,1092],[2320,1098]],2,20)),
+    fill:'none',stroke:INK,'stroke-width':2,'stroke-dasharray':'7 6','stroke-linecap':'round',opacity:0.68},gRoad);
+  E('path',{d:D(jit([[756,906],[744,952],[730,1004],[718,1060]],2,16)),
+    fill:'none',stroke:INK,'stroke-width':1.5,'stroke-dasharray':'6 6',opacity:0.58},gRoad);
+  E('path',{d:D(jit([[1580,690],[1630,776],[1660,860],[1650,1070]],2,18)),
+    fill:'none',stroke:FADE,'stroke-width':1.4,'stroke-dasharray':'6 6',opacity:0.45},gRoad);
+  E('path',{d:D(jit([[1390,430],[1300,404],[1210,388],[1120,372]],2,18)),
+    fill:'none',stroke:FADE,'stroke-width':1.4,'stroke-dasharray':'6 5',opacity:0.5},gRoad);
+  function edgeArrow(x,y,dir,p){
+    E('path',{d:'M'+x+' '+y+' L'+(x+dir*52)+' '+y+' M'+(x+dir*52)+' '+y+' l'+(dir*-9)+' -5 M'+(x+dir*52)+' '+y+' l'+(dir*-9)+' 5',
+      fill:'none',stroke:INK,'stroke-width':1.6},p);
+  }
+  edgeArrow(160,1096,-1,gRoad);
+  edgeArrow(2304,1098,1,gRoad);
+
+  /* ---- text helpers: every label inked last, above all else ---- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      'stroke':(o&&o.halo)?PALE:null,'stroke-width':(o&&o.halo)?3.2:null,'paint-order':(o&&o.halo)?'stroke':null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||23;
+    lines.forEach(function(ln,k){T(x,y+k*lh,ln,{font:'FellIt',size:o.size||16,fill:o.fill||'#574226',opacity:o.opacity||0.94,halo:o.halo});});
+  }
+
+  /* the named ground, lettered in place */
+  T(320,334,'LOW KILN',{font:'FellSC',size:22,ls:5,fill:FADE,anchor:'middle',opacity:0.8});
+  T(1180,306,'HIGH KILN',{font:'FellSC',size:22,ls:5,fill:FADE,anchor:'middle',opacity:0.78});
+  T(470,948,'the smithy',{font:'Fell',size:23,anchor:'middle',halo:true});
+  T(546,754,'the forge hearth',{font:'FellIt',size:15,anchor:'middle',halo:true});
+  T(432,742,'the bellows',{font:'FellIt',size:13,anchor:'middle',halo:true});
+  T(762,792,'the anvil',{font:'FellIt',size:14,anchor:'middle',halo:true});
+  T(1000,766,'the smith\'s bench',{font:'FellIt',size:14,anchor:'middle',halo:true});
+  T(1230,852,'the kiln behind the bench',{font:'FellIt',size:13,anchor:'middle',halo:true});
+  T(1078,516,'Keldish iron, blue-bloomed',{font:'FellIt',size:13,anchor:'middle',halo:true});
+  T(496,678,'the tubes, mended at the mouth',{font:'FellIt',size:13,anchor:'middle',halo:true});
+  T(700,1000,'the ash pit',{font:'FellIt',size:12,anchor:'middle',halo:true});
+  T(920,1004,'the smith\'s trough',{font:'FellIt',size:12,anchor:'middle',halo:true});
+  T(1064,690,'no slate written on here',{font:'FellIt',size:12,fill:RED,anchor:'middle',halo:true});
+  T(1622,492,'the Vail kiln-house',{font:'Fell',size:16,anchor:'middle',halo:true,opacity:0.82});
+  T(1890,520,'the Vail wheel-shed',{font:'FellIt',size:13,anchor:'middle',halo:true,opacity:0.78});
+  T(2164,520,'the drying racks',{font:'FellIt',size:14,anchor:'middle',halo:true,opacity:0.8});
+  T(1620,946,'the yard well',{font:'FellIt',size:13,anchor:'middle',halo:true,opacity:0.8});
+  T(2138,802,'House Silt',{font:'Fell',size:15,anchor:'middle',halo:true,opacity:0.78});
+  T(2116,1064,'House Reed',{font:'Fell',size:14,anchor:'middle',halo:true,opacity:0.75});
+  T(1992,1140,'the birth-flower shrine',{font:'FellIt',size:12,fill:RED,anchor:'middle',halo:true,opacity:0.82});
+  T(1160,1136,'THE CLAY YARD',{font:'FellSC',size:22,ls:5,fill:FADE,anchor:'middle',opacity:0.84,halo:true});
+  T(980,1270,'the Slip Brook',{font:'FellIt',size:19,fill:SEA,rot:1,halo:true});
+  T(1080,1524,'the Ilm',{font:'FellIt',size:24,fill:SEA,rot:1,halo:true});
+  T(540,1162,'the worked strips',{font:'FellIt',size:15,fill:MG,anchor:'middle',halo:true});
+  T(180,1066,'to the Cross — a short way west',{font:'FellIt',size:14,fill:FADE,halo:true});
+  T(2330,1132,'downriver to Greybank',{font:'FellIt',size:14,fill:FADE,anchor:'end',halo:true});
+  T(1356,366,'the steep street to High Kiln',{font:'FellIt',size:13,fill:FADE,anchor:'middle',rot:-8,halo:true});
+
+  /* ---- marginal notes in the surveyor's voice ---- */
+  note(120,268,[
+    'No kiln-mark stands over this door and the shop is not a',
+    'great house. Here are mended kiln irons, barrow irons and',
+    'the collectors\' cold-iron tubes. The smith has set his',
+    'count in chisel notches on the bench for eleven years.'
+  ],{size:16,lh:23,fill:'#574226'});
+  note(1510,266,[
+    'Iron comes down from Keld with the blue bloom on it that',
+    'no potter will take a glaze over. It goes back the way',
+    'it came. The keeper of the quay tally at Greybank writes',
+    'back in a hand the smith can read at a glance.'
+  ],{size:15,lh:22,fill:'#574226'});
+  note(660,1170,[
+    'The kiln behind the bench answers four low pulls with the',
+    'fifth missing. Eleven years beside it and the smith has',
+    'never named the silence. The yard calls it the kiln and',
+    'goes on, as it does with the ash at the Vail corner.'
+  ],{size:15,lh:22,fill:'#574226'});
+  note(1520,1170,[
+    'A collector\'s tube has no note of its own. It takes and',
+    'does not give; the grip comes grey to the thumb and the',
+    'smith draws it clean and sets the seam cold, entering',
+    'nothing. The pale ring left at a wrist is not made here.'
+  ],{size:15,lh:22,fill:'#574226'});
+  note(1520,1298,[
+    'A counting room shut in the last war with the damper',
+    'closed stands eighteen leagues east by the Clay Road.',
+    'He has mended damper irons and never asked what room',
+    'they came out of. A room shuts where the iron says.'
+  ],{size:14,lh:21,fill:RED,halo:true});
+
+  /* ---- title cartouche ---- */
+  E('path',{d:'M756 58 L1644 58 L1664 78 L1664 194 L1644 214 L756 214 L736 194 L736 78 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.94},gFrame);
+  E('path',{d:'M762 68 L1638 68 L1654 84 L1654 188 L1638 204 L762 204 L746 188 L746 84 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M684 136 q30 -22 54 0 q-24 22 -54 0 z M1716 136 q-30 -22 -54 0 q24 22 54 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(1200,118,'THE SMITHY',{font:'CinzelDec',size:38,ls:3.4,anchor:'middle',fill:INK});
+  T(1200,154,'the forge east of the Clay Yard — Low Kiln, Sill',{font:'FellIt',size:21,anchor:'middle',fill:FADE});
+  T(1200,188,'surveyed and inked in Y.H. 813 — the month of Frost',{font:'FellSC',size:14,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<21;i++){
+    var sx=758+i*42;
+    E('path',{d:'M'+sx+' 72 l2.5 5 l5 0 l-4 3.5 l1.5 5 l-5 -3 l-5 3 l1.5 -5 l-4 -3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 200 l2.5 -5 l5 0 l-4 -3.5 l1.5 -5 l-5 3 l-5 -3 l1.5 5 l-4 3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---- compass rose ---- */
+  var rx=2184,ry=336;
+  E('circle',{cx:rx,cy:ry,r:46,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:rx,cy:ry,r:37,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?40:23;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-40)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+40)+' L'+(rx+9)+' '+ry+' Z',fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-40)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-54,'N',{size:21,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cd,k){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][k];
+    T(rx+Math.sin(ca)*60+3,ry-Math.cos(ca)*60+7,cd,{font:'FellSC',size:16,anchor:'middle',fill:FADE});
+  });
+
+  /* ---- convention of signs ---- */
+  E('rect',{x:110,y:1182,width:520,height:296,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1190,width:504,height:280,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(370,1218,'CONVENTION OF SIGNS',{font:'FellSC',size:20,ls:3,anchor:'middle'});
+  E('line',{x1:140,y1:1230,x2:600,y2:1230,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  E('path',{d:'M146 1254 L186 1254 L180 1262 L174 1268 L158 1268 L152 1262 Z',fill:'#93836c',stroke:INK,'stroke-width':1.2},gFrame);
+  T(198,1264,'the anvil and the forge',{font:'Fell',size:15});
+  var tg=E('g',{transform:'translate(158 1280) scale(0.42)'},gFrame); tube(0,0,tg);
+  T(198,1334,'the tube, mended at the mouth',{font:'Fell',size:14});
+  E('path',{d:'M146 1358 L214 1356 M156 1358 L156 1370 M170 1358 L170 1370 M184 1357 L184 1369 M198 1357 L198 1369',fill:'none',stroke:INK,'stroke-width':1.4},gFrame);
+  T(226,1370,'notches in wood, no figure',{font:'FellIt',size:13});
+  kiln(166,1414,0.22,gFrame);
+  T(198,1420,'four pulls and a gap',{font:'Fell',size:14});
+  E('path',{d:'M146 1452 L216 1450 M152 1456 L210 1454',stroke:BLUE,'stroke-width':1.2,opacity:0.7},gFrame);
+  T(226,1458,'Keld iron, blue-bloomed',{font:'FellIt',size:13});
+
+  /* ---- scale bar, in paces ---- */
+  T(1466,1450,'IN PACES — THE SHOP DOOR TO THE CLAY ROAD',{font:'FellSC',size:12,ls:1.2,fill:FADE});
+  E('rect',{x:1466,y:1460,width:520,height:12,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1466+i*130,y:1460,width:130,height:12,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1466+i*130,1494,[0,25,50,75,100][i]+'',{font:'Fell',size:14,anchor:'middle',fill:INK});
+  }
+  T(2006,1474,'paces',{font:'FellIt',size:15,fill:FADE});
+  T(1466,1522,'A league is three thousand paces; a man on foot makes four leagues in a day.',{font:'FellIt',size:12,fill:FADE});
+
+  /* ---- the ruled border and its hatch ---- */
+  E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:2296,height:1496,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<116;i++){
+    var px=56+i*19.7;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:1548,x2:px,y2:1566,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<76;i++){
+    var py=56+i*19.6;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:2348,y1:py,x2:2366,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[2348,52,-1,1],[52,1548,1,-1],[2348,1548,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>

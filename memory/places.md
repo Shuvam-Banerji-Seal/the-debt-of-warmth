@@ -872,8 +872,35 @@ The table at which the collector draws the measure and writes a name; the Waitin
 
 ### The smithy
 **Kind:** works, forge. **Region:** Low Kiln, Sill.
-A small forge east of the Clay Yard where kiln irons, barrow irons and the collectors' cold-iron tubes are mended. It keeps no kiln-mark and is not a great house.
+A small forge east of the Clay Yard where kiln irons, barrow irons and the collectors' cold-iron tubes are mended. It keeps no kiln-mark and is not a great house. Harn the smith has worked here eleven years and sets his count in chisel notches on the bench where no officer has asked to read it; the letter he wrote in the last tend of Silt, Y.H. 813 to his sister at the Greybank quay is kept in a tin of iron tallies there.
 **Relations:** In Low Kiln, between the Clay Yard and House Silt.
+
+*The close ground of the forge drawn on `atlas/the-smithy`: the forge hearth and bellows, the anvil, the bench with its notches, the kiln behind the bench breathing in fours with the fifth missing, the pegs of mended tubes, the Keldish iron with its blue bloom, the ash pit and the trough; the Clay Road, the yard well, House Silt, House Reed and the birth-flower shrine drawn faint at the edges. Direction is from the anvil. Surveyed and inked in Y.H. 813, the month of Frost.*
+
+### The smith's hearth
+**Kind:** forge hearth. **Region:** the smithy, Low Kiln.
+The hearth of the small forge where kiln irons and the collectors' tubes are heated. The smith taps iron the way the women at the racks tap a pot, because a rule that holds for clay holds for anything worked and may fail; a cold-iron tube answers neither full nor flat.
+**Relations:** Inside the smithy, east of the Clay Yard.
+
+### The smith's bench
+**Kind:** bench, keeping place. **Region:** the smithy, Low Kiln.
+The bench where the smith sets his count in chisel notches and has done for eleven years without an officer asking what the notches were, which is how he knows they are not a figure. His sister at Greybank struck an eleven through and put nine underneath it, because two notches had run together in one tend; the place where they ran is left as it stands. No slate in the shop would serve for a sentence.
+**Relations:** Inside the smithy, under the kiln behind it.
+
+### The kiln behind the bench
+**Kind:** small kiln. **Region:** the smithy, Low Kiln.
+The kiln at the smith's back that takes its breath in fours and misses the fifth. He has worked beside it eleven years and never heard the fifth, and has never given the missing breath a name; the yard calls it the kiln and goes on.
+**Relations:** Inside the smithy, behind the smith's bench.
+
+### The smith's ash pit
+**Kind:** ash pit. **Region:** the smithy, Low Kiln.
+The dark pit outside the forge where the smith's iron-gall and charcoal sweepings go. Grey works into it from every cuff that leans over the bench, and is left where it lies like the grey in a Low Kiln corner.
+**Relations:** Beside the smithy door, south of the forge hearth.
+
+### The smith's trough
+**Kind:** water trough. **Region:** the smithy, Low Kiln.
+The trough outside the smithy door in which hot iron is cooled. It is not the trough at the yard well, which is skinned over in Frost and stands beside a flat stone out of the path of feet.
+**Relations:** Beside the smithy door, east of the ash pit.
 
 ### The meal mill
 **Kind:** mill, works. **Region:** Sill, on the Ilm below the south bridge.
