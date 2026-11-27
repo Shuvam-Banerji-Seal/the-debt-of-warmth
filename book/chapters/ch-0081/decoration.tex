@@ -1,0 +1,91 @@
+\begin{tikzpicture}
+  % The chapter's heart: two inches of air. The crust lies two inches from
+  % the ear; the pot rim stands two inches beyond the reaching hand. The
+  % surgeon's knowing --- warm from the outside, and slowly --- is worth
+  % nothing at that distance. Both are true, and the second is louder.
+  % Above, Frost's last tend goes out the way it came in, without a
+  % boundary drawn: weather, entered nowhere.
+
+  % —— a small fleuron to the left of the frost ——
+  \node at (-3.40,1.16) {\pgfornament[width=0.9cm,color=ornament,opacity=0.26]{11}};
+
+  % —— Frost's last tend, going out without a boundary drawn ——
+  \draw[ornament!50!ink, line width=0.40pt, opacity=0.36, line cap=round]
+    (-1.65,1.24) .. controls (-0.60,1.40) and (0.52,1.36) .. (1.52,1.12);
+  \draw[ornament!42!ink, line width=0.30pt, opacity=0.26, line cap=round]
+    (-0.66,1.37) .. controls (-0.40,1.60) and (-0.20,1.64) .. (-0.06,1.62);
+  \draw[ornament!42!ink, line width=0.30pt, opacity=0.26, line cap=round]
+    (0.42,1.37) .. controls (0.68,1.56) and (0.90,1.56) .. (1.08,1.50);
+  % the last tend simply stops; no line is drawn behind it
+  \draw[faded!32!ink, line width=0.24pt, opacity=0.22,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (1.52,1.12) .. controls (1.80,1.08) and (2.02,1.00) .. (2.16,0.90);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52] at (3.00,1.02)
+    {a last tend, no boundary drawn};
+
+  % —— the little hand, carried everywhere and told by nobody ——
+  \fill[faded!9!vellum, opacity=0.88]
+    (-4.05,-0.56) .. controls (-2.85,-0.50) and (-1.70,-0.44) .. (-0.92,-0.32)
+    -- (-0.88,0.04) .. controls (-1.80,0.08) and (-2.95,0.12) .. (-4.05,0.14)
+    -- cycle;
+  \draw[faded!44!ink, line width=0.42pt, opacity=0.42, line cap=round]
+    (-4.05,-0.56) .. controls (-2.85,-0.50) and (-1.70,-0.44) .. (-0.92,-0.32);
+  \draw[faded!44!ink, line width=0.42pt, opacity=0.42, line cap=round]
+    (-4.05,0.14) .. controls (-2.95,0.12) and (-1.80,0.08) .. (-0.88,0.04);
+  % the back of the hand
+  \fill[faded!9!vellum, opacity=0.90]
+    (-0.92,-0.32) .. controls (-0.48,-0.36) and (-0.10,-0.30) .. (0.02,-0.12)
+    .. controls (0.10,0.02) and (0.06,0.18) .. (-0.06,0.22)
+    .. controls (-0.42,0.18) and (-0.78,0.12) .. (-0.88,0.04) -- cycle;
+  \draw[faded!48!ink, line width=0.44pt, opacity=0.44, line cap=round,
+        line join=round]
+    (-0.92,-0.32) .. controls (-0.48,-0.36) and (-0.10,-0.30) .. (0.02,-0.12)
+    .. controls (0.10,0.02) and (0.06,0.18) .. (-0.06,0.22);
+
+  % —— four fingers reaching, the thumb held under, the gap unclosed ——
+  \draw[faded!52!ink, line width=1.4pt, opacity=0.48, line cap=round]
+    (-0.06,0.18) .. controls (0.26,0.24) and (0.48,0.24) .. (0.62,0.20);
+  \draw[faded!52!ink, line width=1.5pt, opacity=0.50, line cap=round]
+    (0.02,0.04) .. controls (0.34,0.08) and (0.56,0.08) .. (0.70,0.04);
+  \draw[faded!50!ink, line width=1.4pt, opacity=0.48, line cap=round]
+    (0.00,-0.08) .. controls (0.32,-0.04) and (0.52,-0.06) .. (0.64,-0.10);
+  \draw[faded!48!ink, line width=1.3pt, opacity=0.46, line cap=round]
+    (-0.12,-0.20) .. controls (0.14,-0.18) and (0.34,-0.20) .. (0.50,-0.22);
+  \draw[faded!42!ink, line width=1.3pt, opacity=0.40, line cap=round]
+    (-0.56,-0.24) .. controls (-0.34,-0.40) and (-0.02,-0.44) .. (0.20,-0.38);
+  % the knuckles, four and a thumb-width, not five
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.32, line cap=round]
+    (-0.04,0.22) .. controls (0.02,0.06) and (0.02,-0.10) .. (-0.10,-0.22);
+
+  % —— the pot, its rim two inches beyond the fingertip ——
+  \fill[faded!9!vellum, opacity=0.88]
+    (1.86,-0.06) -- (3.86,-0.06) -- (3.62,-0.92) -- (2.10,-0.92) -- cycle;
+  \draw[ornament!55!ink, line width=0.48pt, opacity=0.46,
+        line cap=round, line join=round]
+    (1.86,-0.06) -- (3.86,-0.06) -- (3.62,-0.92) -- (2.10,-0.92) -- cycle;
+  \fill[night!86, opacity=0.90] (2.86,-0.06) ellipse (1.00 and 0.20);
+  \draw[ornament!58!ink, line width=0.52pt, opacity=0.52]
+    (2.86,-0.06) ellipse (1.00 and 0.20);
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.26, line cap=round]
+    (2.10,-0.82) -- (3.62,-0.82);
+  % the pot board
+  \draw[faded!40!ink, line width=0.40pt, opacity=0.36, line cap=round]
+    (1.62,-0.94) -- (4.14,-0.94);
+
+  % —— the two inches of air, measured and not closed ——
+  \draw[faded!38!ink, line width=0.30pt, opacity=0.30,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (0.74,-0.52) -- (1.82,-0.52);
+  \foreach \tx in {0.74,1.82}{
+    \draw[ink!58, line width=0.36pt, opacity=0.46, line cap=round]
+      (\tx,-0.42) -- (\tx,-0.62);
+  }
+  \fill[rubric!58!gold, opacity=0.64] (1.82,-0.06) circle (0.035);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.56] at (1.28,-0.80)
+    {two inches of air};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.34)
+    {both true; the second louder};
+  \node at (0,-1.70) {\pgfornament[width=4.2cm,color=ornament,opacity=0.22,symmetry=v]{81}};
+\end{tikzpicture}
