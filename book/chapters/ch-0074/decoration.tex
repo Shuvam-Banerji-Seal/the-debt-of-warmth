@@ -1,0 +1,75 @@
+\begin{tikzpicture}
+  % The chapter's heart: on the Fifthday the finger went BENEATH the shelf's
+  % front edge and stayed for two counted breaths, where on Day 166 it stayed
+  % for one, then came away without a word. The charcoal was not read; the row
+  % kept its two gaps. The returned beat was filed on its own place beside the
+  % older held beats --- not a fourth likeness stood up, no figure, no gift, no
+  % rule. Below, the held and empty intervals lie side by side with a finger
+  % between, and the file lies open on the towel with every gap left gap.
+
+  % —— the loaf shelf, its front edge and its shallow top face ——
+  \fill[faded!8!vellum, opacity=0.62]
+    (-3.95,0.18) -- (-3.55,0.52) -- (3.55,0.52) -- (3.95,0.18) -- cycle;
+  \draw[ornament!60!ink, line width=0.66pt, opacity=0.60, line cap=round]
+    (-3.95,0.18) -- (3.95,0.18);
+  \draw[faded!48!ink, line width=0.38pt, opacity=0.38, line cap=round]
+    (-3.55,0.52) -- (3.55,0.52);
+  \draw[faded!34!ink, line width=0.28pt, opacity=0.22, line cap=round]
+    (-3.95,0.18) -- (-3.55,0.52);
+  \draw[faded!34!ink, line width=0.28pt, opacity=0.22, line cap=round]
+    (3.95,0.18) -- (3.55,0.52);
+
+  % —— the charcoal row on the top face, with two gaps given no number ——
+  \foreach \cx in {-2.70,-2.25,-1.80,-0.90,-0.45,0.45,0.90,1.80,2.25,2.70}{
+    \draw[ink!62, line width=0.66pt, opacity=0.50, line cap=round]
+      (\cx - 0.03,0.30) -- (\cx + 0.03,0.42);
+  }
+  \foreach \gx in {-1.35,1.35}{
+    \draw[faded!42!ink, line width=0.26pt, opacity=0.24,
+          dash pattern=on 1pt off 2pt, line cap=round]
+      (\gx - 0.06,0.30) -- (\gx - 0.06,0.42);
+    \draw[faded!42!ink, line width=0.26pt, opacity=0.24,
+          dash pattern=on 1pt off 2pt, line cap=round]
+      (\gx + 0.06,0.30) -- (\gx + 0.06,0.42);
+  }
+
+  % —— the finger held beneath the front edge, and the two counted breaths ——
+  \fill[faded!18!vellum, opacity=0.78]
+    (-0.34,0.16) .. controls (-0.30,-0.02) and (-0.16,-0.12) .. (0.02,-0.12)
+    .. controls (0.18,-0.12) and (0.30,-0.04) .. (0.32,0.16) -- cycle;
+  \draw[faded!56!ink, line width=0.40pt, opacity=0.42, line cap=round]
+    (-0.34,0.16) .. controls (-0.30,-0.02) and (-0.16,-0.12) .. (0.02,-0.12)
+    .. controls (0.18,-0.12) and (0.30,-0.04) .. (0.32,0.16);
+  \draw[rubric!64!gold, line width=0.72pt, opacity=0.64, line cap=round]
+    (-0.42,-0.32) .. controls (-0.20,-0.50) and (0.20,-0.50) .. (0.42,-0.32);
+  \draw[rubric!56!gold, line width=0.66pt, opacity=0.52, line cap=round]
+    (-0.60,-0.56) .. controls (-0.28,-0.82) and (0.28,-0.82) .. (0.60,-0.56);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.56] at (0,-1.02)
+    {two breaths, unread};
+
+  % —— the older held beats, each on its own place ——
+  \foreach \hx in {-2.55,2.55}{
+    \fill[gold!58!ornament, opacity=0.52] (\hx,-0.34) ellipse (0.085 and 0.055);
+    \draw[faded!40!ink, line width=0.28pt, opacity=0.24, line cap=round]
+      (\hx,-0.34) -- (\hx,-0.02);
+  }
+
+  % —— held and empty intervals side by side, with a finger between ——
+  \draw[faded!46!ink, line width=0.50pt, opacity=0.40, line cap=round]
+    (-2.95,-0.92) -- (-2.05,-0.92);
+  \draw[faded!34!ink, line width=0.34pt, opacity=0.26,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (-1.85,-0.92) -- (-0.95,-0.92);
+  \draw[ornament!60!ink, line width=0.60pt, opacity=0.52, line cap=round]
+    (-1.95,-1.06) -- (-1.95,-0.78);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (-1.95,-1.26)
+    {a finger between};
+
+  % —— fleurons in the upper corners, unlike the flanking pairs of late chapters ——
+  \node at (-4.15,0.32) {\pgfornament[width=1.0cm,color=ornament,opacity=0.26]{11}};
+  \node at ( 4.15,0.32) {\pgfornament[width=1.0cm,color=ornament,opacity=0.26,symmetry=v]{11}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.68)
+    {the beat returned, and the file left open};
+  \node at (0,-1.94) {\pgfornament[width=0.9cm,color=ornament,opacity=0.24]{80}};
+\end{tikzpicture}
