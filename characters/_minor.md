@@ -1072,3 +1072,27 @@
 - **The woman with a basket of kindling on Ash 7 and Ash 9** — an unnamed neighbour who asked what the seventh year would want when it came; Tarn said *Yes, house* and kept the late because a late thaw puts off the paying (T036/T076). Walk-on, no sheet. Ch 95.
 
 - **The two fence-menders who argued the thaw on Ash 7 and Ash 9** — unnamed men who said the thaw would be early and late; Tarn said *Yes, house* to each and kept the late because it puts off the paying, agreeing so thoroughly that no argument could find a foot (T036/T076). Not the yard's early-and-late thaw arguers of earlier chapters, kept on their own days; no sheets. Ch 95.
+
+- **The crowd at the first reading of Ash** — two hundred people who leaned toward the reading block under the moot-post on Ash 10 (Day 339) while eight pigs came over the boards, uncounted aloud; the figure went twice over the basket and nobody challenged it. The counting crowd of every Account-day, kept on its own day. Ch 96.
+
+- **The woman who asked Hessa what she carried on Ash 10** — an unnamed woman by the path to whom the slate-runner said *I don't read it. I carry it. There's a difference, and the road doesn't care which*, answering the question put and not the one behind it; no figure came off the slate and no reader was made (T080 advanced, not paid). Ch 96.
+
+- **The man with a number in his fist on Ash 10** — an unnamed goer-by whose number stood in his fist at the reading; the figure went into a slate and arrived nowhere, and the true subtraction went up the road in Berr's locked box (T015/T041/T047, T077). The recurring fist-to-sleeve figure, kept on its own day. Ch 96.
+
+- **The soft-cuffed clerk at the out-of-line landing on Ash 10** — the unnamed officer still set below the north bridge for a measure nobody called, slate to his forearm with the writing inward, his hand to the slate before his eyes to the stalls; the market sold over him as water over a stone and nobody took him off (T090 carried). Ch 96.
+
+- **The green-mouthed woman at the pot board on Ash 10** — an unnamed silent woman across the square with the sweetish green of lead glaze at one mouth-corner and a pale line across the back of one hand, who turned a cup a quarter and set it back exactly where it stood; a colour joined to no ear and never Fenna in the narration, no eighth of the colour (T050/T051 held). Ch 96.
+
+- **The foundling at the market's edge on Ash 10** — an unnamed small shape in cast-off clothes that caught the light on a green sliver and went dull, given no name and no dialogue, no loaf, slate, sale or second look joined, never Ulda in the narration and no eighth of the shape (T033/T034 held). Ch 96.
+
+- **The Cold Acre hare-carrier on Ash 11 and Ash 12** — an unnamed man down from Cold Acre with a hare across his shoulders who answered the price with the weather and went off toward the clay road with nobody weighing the hare or opening a slate (T077). The recurring hunter, kept on his own days; no sheet. Ch 96.
+
+- **The man with the cracked jar in a rope sling on Ash 11 and Ash 12** — an unnamed neighbour whose cracked jar was answered with the pot, and the pot, being a pot, said nothing (T077, T058/T079). Walk-on, no sheet. Ch 96.
+
+- **The woman with a cost-question on Ash 11** — an unnamed neighbour whose question about what Ash's first reading had taken was answered with the weather, leaving no entry (T077). Walk-on, no sheet. Ch 96.
+
+- **The woman who asked Ilva at the yard well on Ash 11** — an unnamed neighbour waiting her turn who asked what Ash's first reading had taken and got *Ask the pot what it cost. I keep the count, not the account*, Ilva's hand going toward her sleeve and staying with the notched strip unread and no figure coming off the wood; she was expressly not the speaker of any ownerless saying and no fifth shaping came (T080 advanced, not paid). Walk-on, no sheet. Ch 96.
+
+- **The woman with a basket of kindling on Ash 12** — an unnamed neighbour who asked what the seventh year would want when it came; Tarn said *Yes, house* and kept the late because it puts off the paying (T036/T076). Walk-on, no sheet. Ch 96.
+
+- **The two fence-menders who argued the thaw on Ash 12** — unnamed men who said the thaw would be early and late; Tarn said *Yes, house* to each and kept the late because it puts off the paying, agreeing so thoroughly that no argument could find a foot (T036/T076). Not the yard's early-and-late thaw arguers of other chapters, kept on their own day; no sheets. Ch 96.
