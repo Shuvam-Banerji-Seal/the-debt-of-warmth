@@ -2,7 +2,7 @@
 
 - Chapters complete: **73**
 - Words of story: **1,273,094**
-- Current chapter: 73 (step: publish, scene 7)
+- Current chapter: 74 (step: plan, scene 1)
 - Last chapter: The Mark Before the Kiln (Days 270–272 · Frost 1–3, Y.H. 813)
 - Author calls so far: 807 (tokens in 140,171,173, out 17,868,721)
 - Updated: 2026-11-27 13:52
