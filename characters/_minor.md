@@ -1060,3 +1060,15 @@
 - **The ownerless voice over the boards on Ash 5** — a voice with nobody behind it said, on the same breath as the price of barley and the weather, that the slate that burned was burned in the room with the damper shut: the Greybank saying of the counting room shut in the war spoken without a date, a room, a hand at a flame, a name, a figure, a confession, a cause or a payer, going off up the terrace while the work went on and nobody turned twice. The boy filed it as a first joining of the burned slate to the shut room on a place of its own — not a sixth telling of the slate, not a third telling of the room, not a hearing, seventh, stopping, payment, cause or rule (T035/T031/T065/T095 advanced and **not paid**). No sheet, Ch 94.
 
 - **The ownerless voice at the well on Ash 5** — a voice with nobody standing anywhere to be asked gave the Frost 14 well-saying a **fourth shaping**: the runner who carried the figure had come back down the road with the writing turned toward her. No owner, room, hand, name, figure, confession or cause; four shapings are still not a witness and no fifth came. Ilva drawing a pace away was expressly not made the speaker and Hessa was not made a reader (T080 advanced and **not paid**). No sheet, Ch 94.
+
+- **The Cold Acre hare-carrier on Ash 7–9** — an unnamed man down from Cold Acre with a hare across his shoulders who on each of the three days answered the price with the weather and went toward the clay road with nobody weighing the hare or opening a slate (T077). The recurring hunter, kept on his own days; no sheet. Ch 95.
+
+- **The man with the cracked jar in a rope sling on Ash 7–9** — an unnamed neighbour whose cracked jar was answered with the pot, and the pot, being a pot, said nothing (T077, T058/T079). Walk-on, no sheet. Ch 95.
+
+- **The woman with a cost-question on Ash 7 and Ash 9** — an unnamed neighbour whose question about cost was answered with the weather, leaving no entry (T077). Walk-on, no sheet. Ch 95.
+
+- **The woman who asked Ilva at the yard well on Ash 8** — an unnamed neighbour waiting her turn who asked what the firings of Ash had taken and got *Ask the pot what it cost. I keep the count, not the account*, Ilva's hand going toward her sleeve and staying with the notched strip unread and no figure coming off the wood; she was expressly not the speaker of any ownerless saying and no fifth shaping came (T080 advanced, not paid). Walk-on, no sheet. Ch 95.
+
+- **The woman with a basket of kindling on Ash 7 and Ash 9** — an unnamed neighbour who asked what the seventh year would want when it came; Tarn said *Yes, house* and kept the late because a late thaw puts off the paying (T036/T076). Walk-on, no sheet. Ch 95.
+
+- **The two fence-menders who argued the thaw on Ash 7 and Ash 9** — unnamed men who said the thaw would be early and late; Tarn said *Yes, house* to each and kept the late because it puts off the paying, agreeing so thoroughly that no argument could find a foot (T036/T076). Not the yard's early-and-late thaw arguers of earlier chapters, kept on their own days; no sheets. Ch 95.
