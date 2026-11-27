@@ -2,7 +2,7 @@
 
 - Chapters complete: **86**
 - Words of story: **1,522,332**
-- Current chapter: 86 (step: publish, scene 7)
+- Current chapter: 87 (step: plan, scene 1)
 - Last chapter: The Number That Did Not Know (Days 309–311 · Bone 10–12, Y.H. 813)
 - Author calls so far: 939 (tokens in 167,022,837, out 21,003,486)
 - Updated: 2026-11-27 22:47
