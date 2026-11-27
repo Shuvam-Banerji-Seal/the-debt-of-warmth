@@ -1,0 +1,81 @@
+\begin{tikzpicture}
+  % The chapter's heart: the fire keeps its own count and tells nobody.
+  % Four low pulls stand lit in its breast; the fifth is a blank place with
+  % its payer unnamed. Above the pot the widow's mark was held one breath
+  % before the coal went under the broken pot, and let go. Six openings in
+  % six months are six scattered sparks and not a rule; no seventh is made
+  % due. The hand that feeds the fire keeps another count and has no one
+  % to tell it to.
+
+  % —— a small fleuron above ——
+  \node at (0,1.70) {\pgfornament[width=0.72cm,color=ornament,opacity=0.24]{29}};
+
+  % —— the coal bed and the rim of the broken pot ——
+  \draw[ornament!46!ink, line width=0.40pt, opacity=0.44, line cap=round]
+    (-1.48,-0.62) .. controls (-0.62,-0.44) and (0.58,-0.50) .. (1.38,-0.70);
+  \foreach \cx/\cy/\cr in {-0.94/-0.58/0.070,-0.38/-0.52/0.088,
+                             0.22/-0.56/0.060,0.84/-0.62/0.076}{
+    \fill[rubric!56!ink, opacity=0.56] (\cx,\cy) circle (\cr);
+  }
+
+  % —— the flame: a vessel that holds a count it will not speak ——
+  \fill[night!82, opacity=0.90]
+    (-0.42,-0.50) .. controls (-1.40,-0.06) and (-1.32,0.74) .. (-0.42,1.18)
+    .. controls (0.48,0.74) and (0.56,-0.06) .. (-0.42,-0.50) -- cycle;
+  \fill[rubric!36!gold, opacity=0.22]
+    (-0.42,-0.32) .. controls (-1.02,-0.02) and (-0.96,0.58) .. (-0.42,0.92)
+    .. controls (0.12,0.58) and (0.18,-0.02) .. (-0.42,-0.32) -- cycle;
+  \draw[gold!48!ornament, line width=0.46pt, opacity=0.52, line cap=round]
+    (-0.42,-0.50) .. controls (-1.40,-0.06) and (-1.32,0.74) .. (-0.42,1.18)
+    .. controls (0.48,0.74) and (0.56,-0.06) .. (-0.42,-0.50);
+
+  % —— four low pulls, kept; the fifth a blank place, its payer unnamed ——
+  \foreach \tx in {-0.88,-0.64,-0.40,-0.16}{
+    \draw[gold, line width=1.9pt, opacity=0.74, line cap=round]
+      (\tx,-0.02) -- (\tx,0.52);
+    \fill[rubric!48!gold, opacity=0.56] (\tx,0.52) circle (0.032);
+  }
+  \draw[faded!40!ink, line width=0.22pt, opacity=0.30,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (0.08,-0.02) -- (0.08,0.52);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.42]
+    at (0.62,0.46) {the fifth, unpaid};
+
+  % —— the smoke goes up and tells nothing ——
+  \draw[faded!28!ink, line width=0.24pt, opacity=0.26,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (-0.42,1.18) .. controls (-0.64,1.38) and (-0.18,1.46) .. (-0.40,1.58);
+
+  % —— the widow's mark: lead-glazed clay on a cord oiled by a working thumb ——
+  \draw[ornament!44!ink, line width=0.30pt, opacity=0.40, line cap=round]
+    (2.46,1.32) .. controls (2.30,1.00) and (2.54,0.86) .. (2.46,0.66);
+  \fill[ash!26!night, opacity=0.44]
+    (2.30,0.64) .. controls (2.24,0.48) .. (2.34,0.34)
+    -- (2.62,0.34) .. controls (2.72,0.48) .. (2.66,0.64) -- cycle;
+  \draw[ornament!48!ink, line width=0.36pt, opacity=0.46, line cap=round]
+    (2.30,0.64) .. controls (2.24,0.48) .. (2.34,0.34)
+    -- (2.62,0.34) .. controls (2.72,0.48) .. (2.66,0.64) -- cycle;
+  \draw[faded!34!ink, line width=0.24pt, opacity=0.36, line cap=round]
+    (2.40,0.50) -- (2.48,0.42) -- (2.56,0.50);
+  \draw[gold!50!ornament, line width=0.28pt, opacity=0.38, line cap=round]
+    (2.42,0.92) .. controls (2.48,0.84) and (2.52,0.78) .. (2.50,0.70);
+  % one breath, held, let go toward no opening
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.28,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (2.70,0.56) .. controls (2.96,0.72) and (3.08,0.58) .. (3.26,0.76);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.44]
+    at (3.32,0.80) {one breath};
+
+  % —— six openings in six months: six sparks, scattered, not a rule ——
+  \foreach \sx/\sy/\sr in {-4.06/0.62/0.030,-3.54/0.24/0.026,-3.88/-0.30/0.028,
+                            -3.20/-0.64/0.024,-4.34/-0.16/0.022,-2.86/0.56/0.026}{
+    \fill[gold!56!ornament, opacity=0.52] (\sx,\sy) circle (\sr);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.40] at (-3.54,-0.94)
+    {six, and no seventh due};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.24)
+    {the fire keeps its own count};
+  \node at (0,-1.64) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{83}};
+\end{tikzpicture}
