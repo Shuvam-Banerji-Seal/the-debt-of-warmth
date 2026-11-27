@@ -53,7 +53,7 @@ A child carried in out of the water and warmed before the fire will sometimes ge
 
 # The counting song
 
-*Sung low at the boards while the eels are sorted, to the water and not to the people. The place after the eleventh is held, the length of a hand going into a basket and coming out with nothing. Nobody fills it.*
+*Sung low at the boards while the eels are sorted, to the water and not to the people. The twelfth is held in the singing, the length of a hand going into a basket and coming out with nothing. Nobody fills it.*
 
 > Four for the steps and one for the short,
 > one for the board that will not bear;
