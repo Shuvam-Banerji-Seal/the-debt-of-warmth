@@ -2,7 +2,7 @@
 
 - Chapters complete: **74**
 - Words of story: **1,288,978**
-- Current chapter: 74 (step: publish, scene 7)
+- Current chapter: 75 (step: plan, scene 1)
 - Last chapter: The Week of Going Around (Days 273–275 · Frost 4–6, Y.H. 813)
 - Author calls so far: 817 (tokens in 142,045,173, out 18,073,259)
 - Updated: 2026-11-27 14:20
