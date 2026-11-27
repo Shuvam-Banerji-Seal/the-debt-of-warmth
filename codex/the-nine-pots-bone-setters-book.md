@@ -18,7 +18,7 @@ I write on the back of a road-tally a rain spoiled. The figures went before anyb
 - Ask which kiln before you ask which hand. A man who has carried from the fourth tells you where his back hurts; a man who has carried from none tells you where it ought to. This is not kindness. It is the order of the room.
 - Lay the broken one on sacking, never on the clay floor. Clay takes the warm out of a side faster than a bed does. A physician from Greybank wrote that a cold floor draws; I have set my line above his. Both stand.
 - Turn the slate face down before you go to a child. I have no slate-name and never shall. A bone I can see I can set; a name written before the face is looked at is a bone set by somebody who was not in the room.
-- Put the stone in wool at the belly and try it on your own wrist first. The stone came off somebody's kiln bank and somebody paid for the coal.
+- Put the stone in wool at the belly and try it on your own wrist. The stone came off somebody's kiln bank and somebody paid for the coal.
 - Bind loose enough to see a fingernail. A finger you cannot see has begun to go the colour of old rope.
 - We used to say never bind with cupworm silk, because it seals a crack in green ware and a bone is not a pot. I have bound four. Three held. I have left the saying standing and put the four underneath.
 - When the third night comes, let the woman do the counting. A number counted for her belongs to whoever counted it.
@@ -37,8 +37,6 @@ Against the cupworm line the physician wrote *no tensile strength in flesh*, in 
 | The cold that stays | Three turns of wool, a stone at the belly, and work | The extremity goes first and the heart holds out, and there is an hour on the far side of the warming when a man gets worse. The physician says a warmed body spends faster and walking faster still. I have no name for that hour and have left the place where the name would stand the length a name of that kind wants. | The man, who cannot stop working. |
 | The second chill | Warmth, barley-water, a watch to the fourth day; we walk them | A hearth-maid come west from Low Kiln says a warmed body gives heat away faster and that the child should be held and counted with. I have walked eleven and held two; all saw the fourth morning, and one went thin. I have kept the counts on birch bark and not added them, for a count added is a count a clerk can carry. | The household, one night's sleep; sometimes the child. |
 | The birth-flower | Nothing. Two fingers crossed, and the word the mother gives | A woman of the washing at Sill crossed two fingers over one and gave me a date instead of an answer. I have put the date in the margin. The physician says it is a flowering of the blood and not a flower, and is right in a language nobody here speaks. | Nobody knows. The child's skin, perhaps. |
-| Milk that will not come | Another woman to hold the child while the mother sleeps | The favour is paid out of the other woman's own house, and I say so before I ask. The physician says a woman with milk of her own cannot spare the evening, which is true. I have asked nine times, been refused twice, and counted the refusals as kindness. | The other woman's child, first. |
-| A guest from another house | The name nine times at the door; a bowl where the old bowl stood | We say the child has carried a guest out of the house it was poured into. The physician says a spoken name puts no shape back, and is right as a man who has never held one. One went off it by the ninth speaking and one kept it a year. I have entered neither. | Nobody. The house, in a year it cannot spend. |
 
 Nothing in this book is given away. It is carried from one potter to another and called a cure. That is the only sentence I will stand behind.
 
@@ -48,11 +46,9 @@ The potters tap a green pot before it goes to the kiln and hear whether it will 
 
 I tapped a man once, gone thin after a return, and put my ear to the little flat I thought I heard. The flat was not in him. A body is not a pot, though we make pots in the shape of bodies and put a face on the fourth. I did not say so at the time, because a moot-man was in the room with a tally. I have written it here, which is a different matter.
 
-The cup on the bench knows more about whether a room held its warm through the night than the man in it. I set the stone by the cup and not by the yard bell, which counts something that has nothing to do with this house.
-
 # The road
 
-The feud is over a road neither town will mend. I have dressed hands from both sides of it. The men of Sill come west over the ford when the Ferr is low and call our road a disgrace; our men go east and say the same, and both arrive with the same cut in the palm where a stone went in. I have never asked which side a man belongs to before I set his hand. Once I did, and a man who had come six leagues for a bone went away without it, and I have never asked again.
+The feud is over a road neither town will mend. The men of Sill come west over the ford when the Ferr is low and call our road a disgrace; our men go east and say the same, and both arrive with the same cut in the palm where a stone went in. I have never asked which side a man belongs to before I set his hand. Once I did, and a man who had come six leagues for a bone went away without it.
 
 A road takes and takes and enters nothing. A slate enters everything and takes nothing. Between the two a person stands and is mended or not, and the hamlet goes on calling the road ours and theirs and leaving it where it is.
 
@@ -75,17 +71,17 @@ A road takes and takes and enters nothing. A slate enters everything and takes n
 > the third night comes and the warm goes back,
 > and what goes back is not what went ---
 
-A clerk of the College put a round nought in the place and wrote *vacancy* beneath it. A nought is a figure and can be carried out in a cuff. The road's name is a place and stays.
+A clerk of the College put a round nought in the place and wrote *vacancy* beneath it. A nought is a figure a clerk can carry out; the road's name is a place and stays.
 
-I changed one line in four-and-twenty years. I sang *set it green and bind it loose* and now sing *set it green and leave the nail*, because a man cannot see a nail through a fold tied too tight; the men singing with me have not noticed, which is how I know the line wanted changing. A line said over a hundred bones belongs to the room, not to the woman who holds the book.
+I changed one line in four-and-twenty years: *set it green and bind it loose* is now *set it green and leave the nail*, because a man cannot see a nail through a fold tied too tight. The men singing with me have not noticed, which is how I know the line wanted changing.
 
 # What the physician pressed in the margin
 
-He came down from Greybank in Smoke of Y.H. 811 with a book that had the word *lead* in it and a hand that wrote without asking. Against the cupworm silk he set *no tensile strength in flesh*; against the birth-flower, *a mark in the blood*; against the four-kiln cough, *the dust of the clay, and no physic but departure*, which is true and of no use to a house whose living is cut out of that clay. He was right about all three. I have left his sentences above mine, so the next reader can tell which is which, and put my words back underneath where a man at three in the morning will find them.
+He came down from Greybank in Smoke of Y.H. 811 with a book that had the word *lead* in it and a hand that wrote without asking. Against the cupworm silk he set *no tensile strength in flesh*; against the birth-flower, *a mark in the blood*; against the four-kiln cough, *the dust of the clay, and no physic but departure*, true and of no use to a house whose living is cut out of that clay. He was right about all three. I have left his sentences above mine and my words underneath, where a man at three in the morning will find them.
 
 # What the College clerk did
 
-He borrowed the leaf at Greybank when the winter pots were being counted, with ink in two fingers of a cuff soft at the edge from washing. Against my column headed *Who carries it* he wrote *No cost entered*, which is a true thing in a dishonest place. Where I wrote *the road takes and enters nothing*, he set *no toll is recorded on the nine pots road*, the most beautiful sentence I have ever read in a hand that has never carried a stone. Where I wrote *we bind it loose enough to see the nail*, he wrote *the limb is dressed and retained*, taking the hands out as though a bone could set itself.
+He borrowed the leaf at Greybank when the winter pots were counted, ink in two fingers of a soft cuff. Against my column headed *Who carries it* he wrote *No cost entered*, which is a true thing in a dishonest place. Where I wrote *the road takes and enters nothing*, he set *no toll is recorded on the nine pots road*, the most beautiful sentence I have ever read in a hand that has never carried a stone. Where I wrote *we bind it loose enough to see the nail*, he wrote *the limb is dressed and retained*, taking the hands out as though a bone could set itself.
 
 I have put my verbs back underneath his. A clerk can speak without verbs because he is never in the room. A man with a thumb lying the wrong way wants to know which hand will set it, and who will pay for the clay.
 
@@ -93,15 +89,15 @@ I have put my verbs back underneath his. A clerk can speak without verbs because
 
 > A pot tells you when it is fired. A hand does not. I have sat at this post through two feuds and counted no bones; the bones come to Talla and the figures come to me, and neither of us asks the other what the road cost. --- M.
 
-He wrote it at the foot of the remedies while I was at the ford. I have set his line above my row and mine under it, as the yard keeps the old cut showing under a new dressing. A man who has counted nothing is allowed one sentence in a book of physic.
+He wrote it while I was at the ford; I have set his line above mine. A man who has counted nothing is allowed one sentence in a book of physic.
 
 # At the head and in the gutter
 
-The chalk at the head is off the moot-post, where I marked the days the road was impassable; there were more than I thought and I have not written how many. The blue tideline came off the Ferr and took two words clean off the second leaf; I have not written them back, because a remedy with two words gone is a remedy said slowly. The clay in the gutter is out of the shared pit, the only thing here put there by the trade and not by a person. The cupworm cocoon was pressed in by a girl who said its silk holds a crack in green ware and would hold a bone; I have not told her about the three hands, or the fourth. The ring of barley-water came from a cup set down while I told a man to drink and he would not. The scorch is a spark off the fourth kiln, put out under my hand; I have not entered the burn. The green bead in the corner was pressed in by a girl of High Kiln with the sweetness at one mouth-corner, and I did not ask whose glaze it was. There is no Last Day in a potter's apron and nothing here is swept up and burnt and called dealt with.
+The chalk at the head is off the moot-post, where I marked the days the road was impassable. The blue tideline came off the Ferr and took two words clean off the second leaf; I have not written them back. The clay in the gutter is out of the shared pit, the only thing here put there by the trade and not by a person. The cupworm cocoon was pressed in by a girl who said its silk holds a crack in green ware and would hold a bone; I have not told her about the three hands, or the fourth. The ring of barley-water came from a cup set down while I told a man to drink and he would not. The scorch is a spark off the fourth kiln, put out under my hand; I have not entered the burn. The green bead in the corner was pressed in by a girl of High Kiln with the sweetness at one mouth-corner, and I did not ask whose glaze it was. There is no Last Day in a potter's apron and nothing here is swept up and burnt and called dealt with.
 
 # At the foot, in a hand nobody will own
 
 > The pot keeps the crack. The bone keeps the crook.
 > The road keeps nothing, and is paid all the same.
 
-I asked the physician, the College clerk and a moot-man who has counted nothing, and had three answers and no hand. The book goes back into the apron. Tomorrow a man will come in off the feud road with his thumb lying the wrong way, and I shall set it green, bind it loose enough to see the nail, put my verbs back where the clerk took them out, and turn the slate face down before I look at the child, because a child is not an account and a man at three in the morning wants a hand held steady more than he wants a correction.
+I asked the physician, the clerk and the moot-man, and had three answers and no hand. The book goes back into the apron. Tomorrow a man will come in off the feud road with his thumb lying the wrong way, and I shall set it green, bind it loose enough to see the nail, put my verbs back where the clerk took them out, and turn the slate face down before I look at the child, because a child is not an account and a man at three in the morning wants a hand held steady more than he wants a correction.
