@@ -2,7 +2,7 @@
 
 - Chapters complete: **78**
 - Words of story: **1,358,707**
-- Current chapter: 78 (step: publish, scene 7)
+- Current chapter: 79 (step: plan, scene 1)
 - Last chapter: The Count in Wood (Days 285–287 · Frost 16–18, Y.H. 813)
 - Author calls so far: 857 (tokens in 150,994,870, out 18,965,951)
 - Updated: 2026-11-27 17:07
