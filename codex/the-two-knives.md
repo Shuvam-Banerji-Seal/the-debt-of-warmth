@@ -14,7 +14,7 @@ These articles were first cut on the board at the mouth in the year the pass was
 ## Of the taking
 
 1. The cutters take an apprentice, not a house. The trade answers for her bread, her bed and the figures she is taught to cut; the house gives her up for four years and has her back at the end with two knives and no figure written against her. A house that will not give her up has given nothing.
-2. A child is taken after her own Descent, and not before. A child who has never been cut has no business cutting: she does not know how far a figure goes, and will cut the flesh instead of the skin. No child is taken younger because somebody has a gentle hand. The arm teaches the knife, and the arm must have been cut first.
+2. A child is taken after her own Descent, and not before. A child who has never been cut has no business cutting: she does not know how far a figure goes, and will cut the flesh instead of the skin. The arm teaches the knife, and the arm must have been cut first.
 3. She states what she holds before she says who she is, at the foot of the post and not at the table. A cutter who gives her name first is sent back to begin again. This is not pride. A name goes home at dusk; a number goes down.
 4. She is kept, not hired. She eats from the cutter's dish and sleeps in the cutter's room, and what she earns goes to the house that sent her and comes back as bread, not as a figure in a hand.
 5. No child is asked whether she wants the knife. She is asked whether she understands what she is bought for: the reading of an arm instead of a face, two sets of figures in one skin, a stone given after the cut and never before, and a hand that must not shake while the man is looking away. The wanting comes after, or it does not come; the trade has never claimed to teach that part.
@@ -23,7 +23,7 @@ These articles were first cut on the board at the mouth in the year the pass was
 ## Of the knives
 
 7. There are two knives and never one. The first cuts a way at thirteen and belongs to the floor; the second cuts a figure and belongs to the arm that carries it. A cutter who brings the first knife above ground has taken something that was not given, and the mine-reeve will ask her once.
-8. The figure goes in shallow. A cut that goes too deep is a clerk's notion of permanence: a number is a thing said once, not a thing buried. Where a man has been counted twice, cut the later deeper and leave the earlier showing. Two sets on one arm is one man counted twice, which the Court has always liked; the arm has never liked it and has never been asked.
+8. The figure goes in shallow. A cut that goes too deep is a clerk's notion of permanence: a number is a thing said once, not a thing buried. Where a man has been counted twice, cut the later deeper and leave the earlier showing. Two sets on one arm is one man counted twice, which the Court has always liked; the arm has never been asked.
 9. Speak the figure to the arm and not across the table. A figure spoken to a man turns into a question by supper, and there is no entry for a question at this mouth.
 10. The stone comes after the knife, never before. A stone in the palm before the cut teaches the arm to expect mercy, and the arm will not take the figure cleanly. Give it after, and do not say whose fire warmed it. Somebody paid, and the payer is not in the room.
 
@@ -89,7 +89,7 @@ These articles were first cut on the board at the mouth in the year the pass was
 > keep the place where the Stones do not answer
 > the length of a man sitting against a stone.
 
-The clamp-scratch across the third verse came from a man showing his brother how the iron bites, on a morning when the song was being pasted and nobody had a hand to stop him. Both were called honest afterwards and one has a dead hand. I have flattened the paper as well as I could. The words are plain enough under it.
+The clamp-scratch across the third verse came from a man showing his brother how the iron bites, on a morning when nobody had a hand to stop him. Both were called honest afterwards and one has a dead hand. I have flattened the paper as well as I could.
 
 # What the borrowed hands did
 
