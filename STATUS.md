@@ -2,7 +2,7 @@
 
 - Chapters complete: **72**
 - Words of story: **1,256,823**
-- Current chapter: 72 (step: publish, scene 7)
+- Current chapter: 73 (step: plan, scene 1)
 - Last chapter: The Figure Goes Up the Road (Days 267–269 · Smoke 28–30, Y.H. 813)
 - Author calls so far: 797 (tokens in 138,579,854, out 17,650,613)
 - Updated: 2026-11-27 13:12
