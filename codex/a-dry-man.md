@@ -15,7 +15,7 @@ Eighty leagues of salt road to Greybank, then the Clay Road to Sill, then the ma
 
 At the Cross in Sill a woman selling eels told me, “A dry man is a dangerous man,” and would not say whether she meant the weather, the strangers going down, or me. I asked a second time and she said it to her basket instead, which is how I learned the manner of the country before I had set foot in it: a thing said to a basket is a saying, and a thing said to a person is an argument.
 
-Past the last dry rise the road becomes a board. There is no gate and no name at the entering of it, and nobody asks what you carry, which after Greybank feels like a door left open in a house where a man has been expected. I had expected to be asked. I was not, and have thought about that more than I have thought about the hemp.
+Past the last dry rise the road becomes a board. There is no gate and no name at the entering of it, and nobody asks what you carry, which after Greybank feels like a door left open in a house where a man has been expected. I had expected to be asked. I was not, and have thought about that more than about the hemp.
 
 # The Post, and the boards you are not shown
 
@@ -23,7 +23,7 @@ The Standing Post is a raised boardwalk and a post carved with reeves' marks. It
 
 I was lodged there nine days and nobody told me which boards would bear me. On the second morning I put my foot where a woman had put hers an hour before, and the board gave and did not go down, and she said from the next board, “Stand where you stood, and the board will mind you.” I have taken it for a promise about boards and nothing else; there is no paper here that lasts long enough to carry another kind.
 
-Every dry place here is lent. The houses stand on posts so that the water may call the loan in without taking the house with it. I have sat on a board with my feet hanging over my own goods and understood that I was not on the ground at all, and that this is considered ordinary.
+Every dry place here is lent. The houses stand on posts so that the water may call the loan in without taking the house with it. I have sat on a board with my feet hanging over my own goods and understood I was not on the ground at all, and that this is ordinary.
 
 # How they choose a reeve
 
@@ -35,7 +35,7 @@ I told her I had a stone in my coat. She said, “Then you have not come far eno
 
 # What the mud is said to keep
 
-They say the Marsh Mother keeps the warm in the mud and hands it back to whoever can reach it. A priest up from Greybank told a man at the Post this was the Hearth under a Fen name. The man, mending a net at the rail, said theirs had no keys and no slate and no figure, and needed no man in a clean coat to open it. He did not look at me, and I have written it as I heard it, said to the net.
+They say the Marsh Mother keeps the warm in the mud and hands it back to whoever can reach it. A priest up from Greybank told a man at the Post this was the Hearth under a Fen name. The man, mending a net at the rail, said theirs had no keys and no slate and no figure, and needed no man in a clean coat to open it. He did not look at me; I have written it as I heard it, said to the net.
 
 In Grath they leave the ash in the corner on the Last Day and burn it in the morning. Here the ash in the corner is gathered, bottled and sold. A woman of the Post sold me a phial of it for two bits and said it was for a man who wanted his own dreams to stop arriving. It was grey and ordinary in the glass. I have carried it eighty leagues and have not opened it and have not entered it either, because I could not think what figure to set against a thing bought to forget.
 
@@ -55,7 +55,7 @@ Children here are taught to know a collector by his boots before they are taught
 | Count-stick, horn-notched | given, not sold | nothing | not a vessel |
 | Grey wool, one knot | given | not given | nil |
 
-Twelve bits to the silver mark and twenty marks to the crown, which is the counting I brought with me from the Quay. The Court books an ember at five marks, and no man in Vhal has ever exchanged one; here they have not even heard of one, which is a mercy of a kind.
+Twelve bits to the silver mark and twenty to the crown, which is the counting I brought from the Quay. The Court books an ember at five marks, and no man in Vhal has exchanged one; here they have not heard of one, which is a mercy of a kind.
 
 They offered me a thin return for ten marks, a third of what the Court charges the district for the same thing. I asked what it was and was told it was a return. I asked whose. The woman said a buyer who asks whose has already decided not to buy, and she was right. I have not entered that I was asked. A thing not entered is the only kind of honesty I have ever been able to keep.
 
@@ -70,11 +70,11 @@ Said standing, to the post and not to a person, by a reeve who had fined a man t
 3. A term unpaid becomes a measure.
 4. A measure is not entered here. It travels.
 
-A bought breath has a hook in it. A woman of the Post told me this and put her finger in her own mouth to show where the hook is: in the word a man would need in order to complain. She would not say it before the buyer, who was standing a little way off with his hands in his sleeves. I have set both down, the saying and the hand, and have not put them together.
+A bought breath has a hook in it. A woman of the Post put her finger in her own mouth to show where: in the word a man would need in order to complain. She would not say it before the buyer, who stood a little off with his hands in his sleeves. I have set both down, the saying and the hand, and have not put them together.
 
 # The stick, and the knot
 
-Law here is carried in a stick and not on a slate. Fen Cant is not written; it is said in the mouth, cut in a stick, and tied in knots. The reeve gave me a count-stick with a notch cut in horn, and when I asked what it counted he said it counted what was owed, and when I asked who was owed, he said a stick has no ear and will not argue with me. A notch in horn takes differently from a notch in bone; he could tell his own stick in the dark by the feel of it, which he gave as the reason and not as the price.
+Law here is carried in a stick and not on a slate. Fen Cant is not written; it is said in the mouth, cut in a stick, and tied in knots. The reeve gave me a count-stick with a notch cut in horn, and when I asked what it counted he said it counted what was owed, and when I asked who was owed, he said a stick has no ear and will not argue with me. A notch in horn takes differently from one in bone; he could tell his own stick in the dark by the feel, which he gave as the reason and not the price.
 
 I tied a knot of grey wool through the first leaf for the word I could not write. They tie wool when a thing is owed and untie it when it is paid, and a knot does not care whose hand made it. The factor's clerk entered my knot as *nil*, because a knot is not a figure. He was right. That is why I will not untie it.
 
@@ -104,13 +104,13 @@ The fourth verse was about the ground between here and Grath, which the Court ca
 The factor's clerk writes upright and narrow, with ink settled in two fingers of a cuff that will not come out. He borrowed the leaves on a market morning and took the verbs out as though a verb were a thing a man could carry away in a cuff.
 
 - At *a bought breath has a hook in it* he wrote *the term is entered against the party's own obligation*, and underlined it twice. The hook is in a word, and words of that kind are not entered in his office, which is perhaps why his sentences never catch on anything.
-- At *I tied a knot* he put *nil*, and at the stick, *not a vessel*. A stick is not a vessel and a knot is not a figure. He has not struck a word of mine; he has only written above it, which is the manner of that hand.
+- At *I tied a knot* he put *nil*, and at the stick, *not a vessel*. A stick is not a vessel and a knot is not a figure. He has not struck a word of mine, only written above it, which is the manner of that hand.
 
 A reeve of the Post, who can write in the clay letters and chose charcoal, wrote along the margin in a hand that had clearly not been trained to keep a book: *Hemp paid. Thin not bought. No harm done to the account.* I have put mine beneath. I was asked to buy a person and said no, which is not the same as no harm done, and I have not let his line carry mine away from the board where it was said.
 
 # At the head and in the gutter
 
-The white at the head is salt bloom off my own paper. The peat in the gutter is theirs and has worked into the grain and will not come out, which is why the moot signs in peat and not in ink. The press of wet sedge came off the morning the boardwalk stood under water and the sayings were said to the boards instead of to a person. The tideline has taken two words, and I have not written them back; a saying with two words gone is a saying said slowly. The horn-shaving is off the fifth stick, the fish-hook nick from a man paying me for eels with the hook still in his hand. The tallow is my lamp, set too near the leaf. The grey along the outer fold is not mine and not the clerk's and not the reeve's. I have not swept it. There is no Last Day in the Fen and nothing anywhere gets burnt in the morning.
+The white at the head is salt bloom off my paper. The peat in the gutter is theirs and has worked into the grain and will not come out, which is why the moot signs in peat and not in ink. The press of wet sedge came off the morning the boardwalk stood under water and the sayings were said to the boards instead of to a person. The tideline has taken two words, and I have not written them back; a saying with two words gone is a saying said slowly. The horn-shaving is off the fifth stick, the fish-hook nick from a man paying me for eels with the hook still in his hand. The tallow is my lamp, set too near the leaf. The grey along the outer fold is not mine and not the clerk's and not the reeve's. I have not swept it. There is no Last Day in the Fen and nothing gets burnt in the morning.
 
 # At the foot, in a hand nobody will own
 
