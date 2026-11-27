@@ -1094,8 +1094,60 @@ The furrowed barley strips and the short turnip rows of the six houses, standing
 
 ### The Tallow Works
 **Kind:** works. **Region:** Grath, north-east of Sill.
-A rendering house for sheep fat whose smell carries into Sill on a north wind.
-**Relations:** 2 leagues north-east of Sill; Cold Acre about two leagues to the west.
+A rendering house for sheep fat whose smell carries into Sill on a north wind, where tallow is poured into lamps and the fourth cup goes under the bench. The lamp-women know the town by its smoke and not by their names; the Thane's watchman burns the wasps' nests at the shed door and enters no value arising.
+**Relations:** 2 leagues north-east of Sill; Cold Acre about two leagues to the west by the ridge road.
+
+*The close ground of the works drawn on `atlas/the-tallow-works`: the rendering house and its hot flue, the thumb-wide warm crack where the wall meets the flue, the vats, the lamp-room, the byre, the nest-fire at the shed door, the sheep-folds, the sluice run, the ridge road west to Cold Acre and Sill, and the sweet smoke going down on a north wind. Direction is from the vats.*
+
+### The rendering house
+**Kind:** works building, fat-house. **Region:** the Tallow Works, Grath.
+The clay-daubed house where sheep fat is rendered in the vats; the lamp-women call it the fat-house. Its north wall holds the heat after the fire is banked and the flue runs hot from the second hour.
+**Relations:** At the centre of the Tallow Works, two leagues north-east of Sill.
+
+### The rendering vats
+**Kind:** vats, works. **Region:** the rendering house, the Tallow Works.
+The pots into which skim, skull and trotter go and come out light; the fat is poured from them while it is still running, and the lamp-woman keeps her tally on the back of a spoiled fat-tally gone soft at the fold.
+**Relations:** Inside the rendering house at the Tallow Works.
+
+### The hot flue
+**Kind:** flue, vent. **Region:** the rendering house, the Tallow Works.
+The vent that runs hot from the second hour and draws the sweet smoke over the ridge and into Sill on a north wind; a spark out of it has singed a watcher's leaf, and the tallow-wasp nests in the seam where it meets the north wall.
+**Relations:** On the north wall of the rendering house at the Tallow Works.
+
+### The warm crack
+**Kind:** seam, nesting place. **Region:** the hot flue, the rendering house.
+A thumb-wide seam running the length of the flue where wall meets vent, behind which the tallow-wasp hangs its grey paper nest; the fat is only where the warmth has been. A second crack in the cold north wall past the flue has never held a nest and is warm on the stillest morning of Ember, with no fire behind it that the watchman can find; he means to try it with a bare crock next Tallow. Set down in `codex/the-nest-in-the-warm-crack`, not marked on any wall.
+**Relations:** Along the north wall of the rendering house at the Tallow Works.
+
+### The lamp-room
+**Kind:** room, store. **Region:** the Tallow Works.
+The room where the wicks are trimmed to a fingernail and the lamps kept; the lamp-woman's poured leaf of the year-turning song lies under a cracked saucer here, sewn with a burned wick into grey wool. There is no Last Day in a lamp-room.
+**Relations:** Beside the rendering house at the Tallow Works.
+
+### The byre at the Tallow Works
+**Kind:** byre, meeting room. **Region:** the Tallow Works.
+The byre where the men sit at the turning of the year and the lamp-woman carries a light in after the pouring, with a bench along its wall.
+**Relations:** East of the rendering house at the Tallow Works.
+
+### The nest-fire
+**Kind:** fire, disposal place. **Region:** the yard of the Tallow Works.
+The fire at the shed door where the wasps' nests are burnt as the factor at Greybank ordered, four marks a nest refused and no reason given; the ash goes down with the wash-water into the sluice when the floor is sluiced.
+**Relations:** At the door of the rendering house yard, the Tallow Works.
+
+### The sluice run
+**Kind:** drain, runnel. **Region:** the Tallow Works.
+The run that carries the wash-water and the ash of the burnt nests away south-east out of the yard.
+**Relations:** From the yard of the Tallow Works, running south-east.
+
+### The sheep-folds
+**Kind:** folds, pens. **Region:** the Tallow Works.
+The rough-posted pens on the rise north of the house where the ewes are kept before shearing. A sheep has no slate and no return.
+**Relations:** North of the rendering house at the Tallow Works.
+
+### The ridge road
+**Kind:** road. **Region:** Grath, north-east.
+The ridge way by which the barrow of grey Ash goes out from Sill through the north gate and on past Cold Acre to the Tallow Works; east of Cold Acre it is a two-league rutted way with no Court surfacing.
+**Relations:** From the north gate of Sill past the Bone Orchard and Cold Acre east to the Tallow Works.
 
 ### Mud End
 **kind:** peat hamlet. **Region:** Grath, downriver.
@@ -1106,8 +1158,40 @@ Nine houses and peat stacks where the moot meets in a byre and the winter peat d
 
 ### Reedholt
 **Kind:** marsh hamlet. **Region:** Grath, east marsh.
-Reed-cutters' huts on the edge of the marsh where wolves come in the reedbeds.
+Reed-cutters' huts on the edge of the marsh where wolves come in the reedbeds. Meg Sedge buys eels on the marsh road and weighs peat at the dry here; Lull Mud, a mud-wife, has caught children on the boardwalks for twenty-one years. A man here with two fingers gone clicks four for himself and a fifth he will not explain.
 **Relations:** About 4 leagues east of Sill, south of the river road; Mud End about 2 leagues north-east.
+
+*The close ground of the hamlet drawn on `atlas/reedholt`: the reed-cutters' huts on posts, the mud-wife's hut, the peat-dry and its lifted tally board, the peat stacks, the boardwalk with a plank gone, the peat-hut, the Reed Cut and the cut bundles, and the landing and punt on the Ilm. The river road runs above the marsh toward Sill and Greybank; the marsh road comes down from Mud End, passes the hamlet and goes on toward the Quiet Acre, drawn faint at the edges for neighbourhood only. The black peat and the bog-cow are set down in the surveyor's margin and drawn nowhere, for a figure would make a thing stand that does not stand. Direction is from the peat-dry. Surveyed and inked in Y.H. 813, the month of Frost.*
+
+### The east marsh
+**Kind:** marsh, wetland. **Region:** Grath, east of Sill.
+The wet ground beyond the reedbeds in which Reedholt stands and the peat is cut; dry places in it are a loan from the water, called in when the water pleases. Fen Cant is not written here, and what must be kept is cut in a stick or tied in a knot.
+**Relations:** East of Sill and south of the river road; holds Reedholt, the peat-dry, the Reed Cut and the black peat.
+
+### The peat-dry
+**Kind:** drying ground, works. **Region:** Reedholt, east marsh.
+The dry at Reedholt where Meg Sedge weighs peat and names her figures into an apron; a notched count-stick is kept under a loose board in oiled sacking, and grey is gathered and bottled here in unmarked jars.
+**Relations:** East of Reedholt; the marsh road runs past it; the peat-dries of the bog-hunter lie further east.
+
+### The mud-wife's hut
+**Kind:** hut, birth-room. **Region:** Reedholt.
+The hut on posts of Lull Mud, a mud-wife who catches children on the boardwalks and lays out the drowned of the drained cuts; the reed-name is said three times into the ground under the boards and a knot of grey wool is tied for the word that cannot be written.
+**Relations:** Inside Reedholt, on the hummock beside the boardwalk.
+
+### The peat-hut
+**Kind:** hut. **Region:** east marsh, east of Reedholt.
+The hut of the bog-hunter who keeps the peat-dries for the reeve and takes the bog-cow for its hide and horn; a peat-fire burns under a pot at the end of a stand.
+**Relations:** In the black peat east of the marsh road, east of Reedholt.
+
+### The Reed Cut
+**Kind:** cutting ground, reeds. **Region:** east marsh, Reedholt.
+The ground where reed is cut; a child cutting a first bundle in the dark goes alone and brings it back dry or does not come back. The arm knows a bundle's weight and no slate its price.
+**Relations:** South-west of Reedholt, in the reedbeds by the marsh road.
+
+### The black peat
+**Kind:** peat ground, bog. **Region:** east marsh.
+The black peat east of the marsh road where the bog-cow stands and the ground gives under the boot and comes back warm under a grey skin. It is set down in the surveyor's margin and marked nowhere on `atlas/reedholt`, for a figure would make a thing stand that does not stand.
+**Relations:** East of the marsh road, east of Reedholt; the peat-hut stands in it.
 
 ### Stonemouth
 **Kind:** quarry village. **Region:** Grath, upper Ilm.
@@ -1275,6 +1359,16 @@ The improving road and worsening weather between Sill and the Rim, travelled wit
 The merchants' road to the Court, spoken of in Grath as if it were a fever.
 **Relations:** Runs south-east from Greybank to the Hearthseat, 140 leagues; Greybank is 18 leagues east of Sill.
 
+### The river road
+**Kind:** road. **Region:** Grath, along the Ilm.
+The road east out of Sill along the Ilm; Reedholt stands south of it. On `atlas/reedholt` it runs above the marsh toward Greybank with edge arrows to both towns.
+**Relations:** Runs east from the Cross at Sill along the south bank of the Ilm; the marsh road leaves it for Reedholt.
+
+### The marsh road
+**Kind:** road, boardwalk way. **Region:** Grath to the Fenmarch.
+The road from Sill through Mud End and Reedholt and on into the Quiet Acre and toward the Standing Post; boardwalks and marked sticks cross the wet cuts, and a traveller pays a bit for the ground and nothing for the crossing. Fen Cant is not written, so the dues are cut in sticks and tied in knots.
+**Relations:** Runs from Mud End south-west to Reedholt, then on past the peat-hut toward the Quiet Acre; drawn through `atlas/reedholt` and `atlas/mud-end`.
+
 ---
 
 ## IV. Wonders, wastes and buried places
@@ -1293,6 +1387,11 @@ Blue-green cliffs stained by old lead workings, sweet-smelling in the heat; chil
 **Kind:** depopulated province. **Region:** south of Grath.
 Roads, wells and doorways with no people; the ledger's empty squares after Y.H. 40, paid for by the first whole returns.
 **Relations:** About 60 leagues south of Sill, between Grath and the Fenmarch; the Peat Line lies further south-west.
+
+### The Quiet Acre
+**Kind:** empty country, fen name. **Region:** beyond Reedholt.
+What the Fenfolk call the Empty Cantons: wells and doorways and no people. A doorway is built for coming back through, and a square of bare clay above a lintel is where a house-roll once hung. Orra counted eleven doorways and did not count the twelfth, because a thing with no figure in it is what that country keeps. No honest survey goes past it.
+**Relations:** Beyond Reedholt on the marsh road; marked by an edge note on `atlas/reedholt`, drawn nowhere.
 
 ### The Singing Sill
 **Kind:** river ledge, wonder. **Region:** Sill, the Ilm.
