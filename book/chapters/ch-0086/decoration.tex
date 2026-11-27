@@ -1,0 +1,78 @@
+\begin{tikzpicture}
+  % The chapter's heart: the number that did not know what it cost. One printed
+  % figure stands on a notice-card, unchallenged, and the dressed grain lies
+  % covered under wool beside it with no figure laid on it at all. Between the
+  % figure and the price is a space with no signature on it. Four arithmetics
+  % of the year stand each on its own place behind the one printed figure:
+  % four are four, and their faint lines stop short of joining into an account.
+  % The finger goes between the finding and the covered thing, and does not lay
+  % one across the other.
+
+  \node at (0,1.70) {\pgfornament[width=0.72cm,color=ornament,opacity=0.22]{12}};
+
+  % —— four readings of the year, each on its own place, joined to nothing ——
+  \foreach \cx in {-3.70,-3.06,-2.42,-1.78}{
+    \fill[vellum, opacity=0.80] (\cx-0.22,0.42) rectangle (\cx+0.22,1.06);
+    \draw[faded!38!ink, line width=0.28pt, opacity=0.30]
+      (\cx-0.22,0.42) rectangle (\cx+0.22,1.06);
+    \draw[rubric!52!ink, line width=0.46pt, opacity=0.46, line cap=round]
+      (\cx-0.09,0.62) -- (\cx-0.09,0.90);
+    \draw[rubric!52!ink, line width=0.46pt, opacity=0.46, line cap=round]
+      (\cx+0.09,0.62) -- (\cx+0.09,0.90);
+    \draw[faded!34!ink, line width=0.22pt, opacity=0.24,
+          dash pattern=on 1pt off 2pt, line cap=round]
+      (\cx+0.22,0.74) -- (\cx+0.50,0.74);
+  }
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50] at (-2.74,1.28)
+    {four readings of the year};
+
+  % —— the notice-card, with the one printed figure ——
+  \fill[vellum, opacity=0.96] (-1.05,-0.18) rectangle (0.45,1.18);
+  \draw[ornament!52!ink, line width=0.46pt, opacity=0.42, line cap=round]
+    (-1.05,-0.18) rectangle (0.45,1.18);
+  \node[font=\CinzelFont\small, text=rubric, opacity=0.78] at (-0.30,0.92)
+    {one in twelve};
+  \draw[rubric!58!ink, line width=0.62pt, opacity=0.60, line cap=round]
+    (-0.76,0.66) -- (0.16,0.66);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46] at (-0.30,-0.02)
+    {printed, unchallenged};
+
+  % —— the space between figure and price, with no signature on it ——
+  \draw[faded!34!ink, line width=0.24pt, opacity=0.26,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (-1.00,-0.60) -- (0.40,-0.60);
+  \draw[faded!30!ink, line width=0.24pt, opacity=0.22] (-1.00,-0.70) -- (-1.00,-0.50);
+  \draw[faded!30!ink, line width=0.24pt, opacity=0.22] ( 0.40,-0.70) -- ( 0.40,-0.50);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.44] at (-0.30,-0.86)
+    {no signature on the space};
+
+  % —— the finger between the finding and the covered thing ——
+  \draw[faded!42!ink, line width=0.30pt, opacity=0.34,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (0.78,-0.32) -- (0.78,1.28);
+  \draw[ornament!50!ink, line width=0.40pt, opacity=0.36, line cap=round]
+    (0.66,1.28) .. controls (0.72,1.42) and (0.84,1.42) .. (0.90,1.28);
+  \node[anchor=west, font=\CinzelFont\scriptsize, text=faded, opacity=0.42]
+    at (0.96,1.44) {the finger between};
+
+  % —— the dressed grain under wool, read over by a number that does not know ——
+  \fill[faded!12!vellum, opacity=0.86]
+    (1.20,0.30) .. controls (1.70,0.72) and (2.40,0.78) .. (3.10,0.60)
+    .. controls (3.55,0.46) and (3.86,0.44) .. (3.95,0.30)
+    .. controls (3.80,-0.10) and (3.20,-0.34) .. (2.40,-0.30)
+    .. controls (1.80,-0.28) and (1.36,-0.06) .. (1.20,0.30) -- cycle;
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.28, line cap=round]
+    (1.20,0.30) .. controls (1.70,0.72) and (2.40,0.78) .. (3.10,0.60)
+    .. controls (3.55,0.46) and (3.86,0.44) .. (3.95,0.30);
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.24, line cap=round]
+    (1.46,0.06) .. controls (2.10,0.34) and (2.90,0.30) .. (3.66,0.06);
+  \draw[faded!26!ink, line width=0.24pt, opacity=0.20, line cap=round]
+    (1.70,-0.10) .. controls (2.30,0.10) and (2.96,0.06) .. (3.42,-0.12);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50] at (2.58,-0.62)
+    {covered, and unfigured};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.34)
+    {four are four, and not one account};
+  \node at (0,-1.70) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{96}};
+\end{tikzpicture}
