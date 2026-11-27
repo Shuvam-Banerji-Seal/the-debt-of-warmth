@@ -15,7 +15,7 @@ The north prints one in twelve on its notice and reads it twice over a basket. I
 
 # The board as it hangs over the beam
 
-*The first figure is what is said at the household door or on the factor's counter. The second is what is taken here, where the load is set down and the buyer has already begun to think about the road home. Both were cried between the last market of Stone and the third Account-day of Grain.*
+*The first figure is what is said at the household door or on the factor's counter. The second is what is taken here, where the load is set down. Both were cried between the last market of Stone and the third Account-day of Grain.*
 
 | Article | As it is said | As it is taken here |
 |---|---|---|
@@ -31,7 +31,6 @@ The north prints one in twelve on its notice and reads it twice over a basket. I
 | House-born hand who can read a tally | 40 marks | 40 marks; the seller counts her years twice and the buyer does not correct him |
 | Northern shape, whole, with memory | not cried at any board | 1,200 marks and forty unspent measures, as it is written in the factor's room; it does not cross this beam |
 | Debt-slates, burned by lot after a feast | no figure | the fire; the slates are made new before the wine is cold |
-| A bowl at the third hour | no figure | the wine goes round and does not come back |
 
 > *Margin, in mine:* The factor's clerk struck out *sound of wind*, saying a board has no use for a description. I put it back. No row here is a person's name. That is not the same as saying no person stands behind it.
 
@@ -41,7 +40,6 @@ The north prints one in twelve on its notice and reads it twice over a basket. I
 
 | | What is given | What I write |
 |---|---|---|
-| A foot over the Line | 1 bit to the reeve, 1 bit to the Emperor's man | both figures, standing side by side and agreeing on nothing but the coin |
 | A wet foot | a stick notched by the bunch | no figure; the boards are counted and nobody says which will bear |
 | Tribute in eels, going north | eels by the basket | the basket, in kind; north of here a man is a neighbour, which costs less |
 | A name said over a child before the collector comes | a name said three times into the ground under the boards | nothing; no stick can hold it and no court has asked |
@@ -49,7 +47,7 @@ The north prints one in twelve on its notice and reads it twice over a basket. I
 | The seventh name | kept empty for the household to choose | a space, the length of a name, not a nought |
 | The yellow dust of the burning winds | breathed through a season | nothing; a man comes back thin and no post charges it |
 
-A nought is a figure that can be carried away in a pocket and spent somewhere else. A space is where it stands. I have kept the space.
+A nought is a figure that can be spent somewhere else. A space is where it stands. I have kept the space.
 
 # The dues of the roads
 
@@ -67,11 +65,11 @@ Two hundred leagues south to the Bowl of Sere, through eleven grain posts and a 
 | A person in a cord going south | 2 marks at the Line | 2 marks here and 2 again at the Bowl Gate; the second is for the road, which has no slate |
 | A cart coming north with eels | 3 bits | 3 bits, and the eels weighed again on the northern bank, where the reeve uses a different beam |
 
-> *Margin:* A carter from the Bowl asked me why a sack pays eleven times to travel one road and I told him the twelfth is a place and not a charge. He said a place was the dearest thing on any road, which is a true thing and not an entry I can make.
+> *Margin:* A carter asked why a sack pays eleven times to travel one road. I told him the twelfth is a place and not a charge. He said a place was the dearest thing on any road, which is true and not an entry I can make.
 
 ## The Wine Road
 
-It comes in from the east, where the wine is made, and runs to the east gate of the Bowl and from there to the coast, where the Vhaleni buy it and will not say what they will do with it. The road is paid in wine when the factor's man is thirsty, which is often.
+It comes in from the east, where the wine is made, and runs to the east gate of the Bowl and from there to the coast, where the Vhaleni buy it. The road is paid in wine when the factor's man is thirsty, which is often.
 
 | | As told | As taken |
 |---|---|---|
@@ -97,17 +95,16 @@ The water between the countries has two banks and two hands on it, and the hands
 | | As told | As taken |
 |---|---|---|
 | A basket of eels going north | tribute | 3 bits to the reeve, in eels, by the basket |
-| The same basket going south | 2 bits to the factor's man | 2 bits, and the eels counted once more at the beam |
 | A dry foot | 1 bit each way | 1 bit to each bank, and the two agree on nothing but the coin |
 | A person counted in the south and carried north | no due at the water | the paper that names him is left in the rain, which is a virtue in Vhalen and a convenience everywhere else |
 
 ## The drain cuts
 
-No post, no figure, no hand. The fever follows the ditch up into the water in both directions, and whichever country dug pays it. I have set this under the roads and not among them, because a due is a figure somebody will stand behind and the ditch has nobody.
+No post, no figure, no hand. Fever follows the ditch up into the water in both directions, and whichever country dug pays it. I have set this under the roads and not among them: a due is a figure somebody will stand behind and the ditch has nobody.
 
 # The song the drivers carry
 
-*Sung going down the Grain Road with the empty carts, never coming back up with grain. The drivers say it to the posts and not to one another, and leave the last line until the eleventh is behind them.*
+*Sung going down the Grain Road with the empty carts, never coming back up with grain. Said to the posts, not to one another.*
 
 > Twelve to the mark and twenty to the crown,
 > the north counts what it lost and the south what it kept;
@@ -124,20 +121,20 @@ No post, no figure, no hand. The fever follows the ditch up into the water in bo
 > the beam keeps what the cart brought over,
 > and the Line keeps the rest in the mud.
 
-> *In the leaning hand of a bowl-house tally-clerk, with a little gold in the ink, against the last part:* Five roads entered. Nil. *Underneath, in mine:* There are six, and the sixth is a place. A nought is a figure that can be carried away. The sixth stays where it is.
+> *In the leaning hand of a bowl-house tally-clerk, against the last part:* Five roads entered. Nil. *Underneath, in mine:* There are six, and the sixth is a place. A nought is a figure that can be carried away. The sixth stays where it is.
 
 # What the two hands did
 
-The clerk from Greybank writes upright and narrow and leaves the doer out of every sentence. Against *a hand goes into the sack* he wrote *a levy is applied at the twelfth post*; the bowl-house man, who writes leaning with gold at the ends of the strokes, put *contractual person* where I put *a person in a cord*, and a nought where the song keeps a place. I have left both readings standing above mine. A verb is the difference between a price and a debt, and a house with no verbs has no way of saying who paid.
+The clerk from Greybank writes upright and narrow and leaves the doer out: against *a hand goes into the sack* he wrote *a levy is applied at the twelfth post*. The bowl-house man, who writes leaning with gold at the ends of the strokes, put *contractual person* where I put *a person in a cord*, and a nought where the song keeps a place. I have left both readings standing above mine. A verb is the difference between a price and a debt.
 
 # At the head and in the gutter
 
-The yellow at the head and in the fold is off the burning winds and has worked into the grain of the warrant; no damp takes it out, and it is the only mark on this leaf that came without a hand. The wine ring is the width of the cup they carry down from the court at the third hour. The myrrh across the second leaf came off a phial set beside a cradle while the woman who owns neither spoke to a child who is not hers. The salt bloom has eaten the figure against *salt herring*, so that I cannot now read whether it stood at two bits or three; a price the weather has taken is truer than one a clerk can still read, and I have not written it in again. The eel slime at the foot is mine, from holding the basket still on the northern bank while the reeve counted. The green bead is lead glaze off a cup whose rim had gone thin; a buyer set it on the leaf and went back to the wine. The oil is from the jars on the Wine Road. The curl of grey wool caught in the sewing came off a northern coat when a man leaned to see the figures; he did not see it go and I have not told him. The small bare square is the word I scraped away. There is no Last Day at this beam. The board is scraped and written again every tend, and nothing here is burnt in the morning and called dealt with except the slates at a feast, which are made new before the wine is cold.
+The yellow at the head and in the fold is off the burning winds and has worked into the grain of the warrant; no damp takes it out, and it is the only mark here that came without a hand. The wine ring is the width of the cup they carry down from the court at the third hour. The myrrh came off a phial set beside a cradle while the woman who owns neither spoke to a child who is not hers. The salt bloom has eaten the figure against *salt herring*, so that I cannot read whether it stood at two bits or three; a price the weather has taken is truer than one a clerk can still read, and I have not written it in again. The eel slime at the foot is mine, from holding the basket still while the reeve counted. The green bead is lead glaze off a cup whose rim had gone thin; a buyer set it on the leaf and went back to the wine. The grey wool caught in the sewing came off a northern coat when a man leaned to see the figures; he did not see it go. There is no Last Day at this beam. The board is scraped and written again every tend, and nothing here is burnt in the morning and called dealt with except the slates at a feast, which are made new before the wine is cold.
 
 # At the foot, in a hand nobody will own
 
 > The board keeps what the cart carried. The mud keeps what the road took. The bowl keeps what nobody paid for.
 
-I asked a carter of the Grain Road, a woman who holds a share in a boat on the Quay at Vhal, and a reeve's man come up from the Standing Post, and had three answers and no hand. I have left the line where it was written.
+I asked a carter of the Grain Road, a woman who holds a share in a boat on the Quay at Vhal, and a reeve's man from the Standing Post, and had three answers and no hand. I have left the line where it was written.
 
-The leaf goes back into the oiled silk and the silk into the breast pocket, against the counting peg. Tomorrow the eels come up out of the north and the grain goes down, and a figure will be asked at this beam that by evening will be a thing that was true for a morning, which is the most a figure here can promise. I shall set it under the figure they gave and leave the space between them as it is.
+The leaf goes back into the oiled silk and the silk into the breast pocket. Tomorrow the eels come up out of the north and the grain goes down, and a figure will be asked at this beam that by evening will be a thing that was true for a morning. I shall set it under the figure they gave and leave the space between them as it is.
