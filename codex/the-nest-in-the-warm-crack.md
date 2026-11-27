@@ -1,0 +1,97 @@
+---
+title: The Nest in the Warm Crack, Being a Watchman's Field Notes on the Tallow-Wasp at the Rendering House Beyond Sill
+kind: A watchman's field book on one small beast, set down as the record of rounds kept over the rendering fires and not as natural philosophy; the rounds in Grathic, the tally in charcoal on the backs of spoiled fat-tallies, a verse of the vats as the lamp-women say it, one ruling in the narrow upright Ledgerhand of the factor's clerk at Greybank, a line traced in rancid tallow by a lamp-woman who would not give her name, and one line at the foot in a hand nobody will own
+provenance: Written in Tallow and Ember of Y.H. 812, the Thin Year, by one of the Thane's men set to keep the rendering house two leagues north-east of Sill, who took the wasps' nests and burned them as he was bid; set down at the end of rounds in the shed with a tallow lamp under the draught of the flue, first on the backs of fat-tallies spoiled by a spill, then on three folds of birch bark sewn with eel-sinew and carried in a coat pocket against a flint. Copied forward at Greybank in Ilmen of Y.H. 813. It survives with a brown tallow thumb ground into the head, a grey bloom of sour fat along the fold, a press of wet wool across the first leaf, a singe where the flue drew a spark onto the third, a small round mark where a buyer set a mark-piece down and took it up again, the charcoal rubbed thin where the wrap was carried against the thigh, one ruling in the clerk's Ledgerhand, one line traced in rancid tallow by a lamp-woman, and the one line at the foot
+relates_to: [tallow-wasp, the Tallow Works, Sill, Greybank, Cold Acre, the factor at Greybank, the Thane of Clay, the north wind, sheep, tallow, sweet smoke, the flue, the rendering house, the warm crack, the nest, resin, the graft, Sere, bowl-surgeon, crown, mark, bit, the Warm, the cold, the measure, Thin, Held, swelling, fever, the physician, collector, cold iron, the Ash, Grathic, Ledgerhand, lamp-woman, the sweet-sickness, lead glaze, wet wool, birch bark, eel-sinew, Tallow, Ember, Ilmen, the Thin Year, the Long Cold, the Last Day]
+---
+
+I keep the rendering house two leagues north-east of Sill, and my whole charge is that the fat is rendered and the nests are burned. The men at the Works call it a post for a man with no nose. They are right. In Tallow the smoke goes over the ridge and into Sill on a north wind, and a man in the Clay Yard will know what I have been doing before he sees me, which saves him the trouble of asking and saves me the trouble of lying.
+
+These leaves were fat-tallies once, before a spill took the figures clean off, which was a mercy of a kind: a figure the fat has eaten cannot be entered. I write in charcoal now. Charcoal goes into the grain and a clerk cannot take it off with a cuff. The brown at the head is my own thumb setting the sheet down on the bench, and it has gone rancid in the fibre, so the whole leaf smells of the shed even when it is folded away in a pocket. I have not scraped it. A book that smells of nothing was never taken on a round.
+
+# Where it keeps
+
+It nests in the warm crack. That is the first thing a new man must learn and the thing that costs him a morning. The house has a flue that runs hot from the second hour and a north wall that holds the heat after the fire is banked, and the wasps are in the seam where wall meets flue, not in the vats and not in the fat. I have watched a man set a dish of hot fat on the bench and catch nothing in it, and set an empty crock against the warm wall and find it full by the middle of the watch. The fat is where the warmth has been. That is the whole of that saying, and I have put it down without making a lesson of it, because a lesson written in this book is a thing somebody will carry up the road and enter.
+
+The crack is the width of a thumb and runs the length of the flue. The nest hangs behind it like a paper bladder, grey and ribbed, with a small door I have never seen a wasp use in daylight. They swarm in the sweet smoke. In Ember the smoke is thick enough to take a man by the throat, and the wasps come up out of the crevices into it and go down again, and the lamp-women work the whole watch through it with their sleeves at their mouths, counting the pours and never the insects. A man counts what he is paid to count.
+
+# What it is
+
+It is a wasp. I will set that down before anything else, because the verse does not. It has a wasp's narrow waist and a wasp's way of hanging in the air as though it were weighing the room, and it is the colour of rendered fat gone cold, with a darker band at the head. It is smaller than the wasps that come at the fruit in Greybank and readier to take offence, which is a thing I can say from having given it offence.
+
+I have opened seven. In each I found wasps and grey paper and nothing I could set a name to as a cause. The place alters the creature the way smoke alters a side hung in the flue: the same animal comes out of it, changed in colour and carrying a little of the fire. I have not written what the wasp wants with the warmth. A man who writes what a wasp wants in a book he keeps in his pocket is a man who will be asked next what a collector wants, and there is no end to that sort of work.
+
+# The sting
+
+It swells the ways near the skin so that the Warm pools and cannot go on. A man feels it as a hot place under the skin, and the hot place spreads a little, and then the fever comes, and then the cold. The order is the thing to keep. I had a man stung twenty times at the banking of the fire in Ember, feverish by the second watch and talking freely, and we took the fever for the worst of it and left him by the door; by the going of the light he was cold and would not answer to his name. The physician at Greybank told me the fever was the body's own fire and the cold was the account. He said it in a clean voice with his hands in his sleeves, which is a manner of speaking I have heard from men who are paid whether the man comes back or not.
+
+There is no physic for it that I know. Keep the man warm and keep him still, and do not open the swelling, for there is nothing in it to let out and a knife lets out the little that was holding. Salt does not touch it. A lamp-woman set a warmed stone to a boy's hand after Ember 16 and sat with him the whole night, and the boy came back by morning. I have set that down because it happened and not because the stone did it.
+
+One of the men says the fever is the wasp's own warmth poured into a man and the cold is what is called back out of him. I have not put that saying in the tally. A thing of that kind, once it is written, gets carried up the road and comes home with a figure on it.
+
+# The verse of the vats
+
+*Said at the vats while the fat is still running, not at a fire. The third line is the old line, and every woman on the row says it wrong on purpose, because a verse that gives a man a reason is a verse he can take home and set by his own hearth, and a man with a reason by his own fire sleeps better than a man with a swelling.*
+
+> One for the vat and one for the flue,
+> the wasp keeps the crack where the heat has been;
+> it comes to the fat and it comes to the flame,
+> it takes the warm and it leaves the cold.
+>
+> Fever first and the cold after,
+> a man stung twenty will not say his name;
+> count them going and count them back,
+> and leave the last one for the wall to keep.
+>
+> Burn the nest. Do not sell the wall.
+> A resin that holds is a resin that wants;
+> the south will pay and the north will burn,
+> and the crack stays warm whether or no.
+
+They sing it wrong on purpose and I have left the wrong line standing. She does not come to the fat. I have set a dish of fat in the yard sun and had no wasp in it by dusk, and set a bare crock to the warm wall and had it full by the middle of a watch. The women know this as well as I do. They sing it the other way because a wasp that wants nothing from a man is a wasp a man cannot forgive for the swelling, and a man who cannot forgive has to carry something home.
+
+# The tally
+
+These are the rounds I kept a true account of. There were others I did not write because my hands were full and one I did not write because I had the smoke in my eyes and had forgotten the hour. I have set down both sorts as they stand. The last column is the clerk's, not mine; I counted what stung, he entered what could be burned.
+
+| Round | Place | Stung | Nests | Burnt | Entered |
+|---|---|---|---|---|---|
+| Tallow 4 | Flue wall, east crack | none | two | two | 0 |
+| Tallow 12 | North wall, behind the vat | one, a lamp-woman's wrist | three | three | 0 |
+| Tallow 27 | The banked fire, second hour | four, all at the flue | one | one | nil |
+| Ember 3 | Old crack above the door | none | four | four | 0 |
+| Ember 16 | Vat side, where the spill was | one boy, twenty stings | two | two | 0 |
+
+> *In the narrow upright Ledgerhand of the factor's clerk, struck through the "Stung" column:* Insects not a vessel. Swelling: not entered. Warm in a wall is not a deduction. Account stands.
+
+> *And beneath the "Entered" column, in the same hand:* Twelve nests destroyed. No value arising.
+
+I have left his hand standing. He has put *nil* against the boy and *no value arising* against twelve nests that a man from the coast offered four marks apiece for, on a bench in this shed, in the middle of a watch. I have written the twenty stings in the margin below, where his ruler cannot reach, and set my own mark beside them in charcoal.
+
+> *Below, in my hand:* Ember 16. One boy. Twenty stings. Fever at the second watch, cold at the going of the light. A warmed stone and a woman's two hands. No figure, and none asked for.
+
+# The nest and the buyer
+
+The paper of the nest yields a resin. A man came up from the coast road in Ember with a soft southern way of speaking and four marks in his pocket, and he wanted the paper whole and not crushed. He said a bowl-surgeon in Sere would set the resin in a graft to hold a wall until the vessel took, and would pay four marks a nest for it. I asked him what a resin holds when the want is in the graft and not in the wall. He said that was a question for a surgeon and not for a man who keeps a rendering shed, which was a true answer and not the one I put to him.
+
+We burn them. That is the order come down from the factor at Greybank, and I have never been given a reason for it and do not invent one to fill the space. There is a fire at the shed door that takes them, and the ash goes down with the wash-water into the run when the floor is sluiced. Four marks is near a month's wage to a man on this road. The buyer set a mark-piece on the bench and took it up again when I would not name a price, and the round mark he left is on this leaf where he pressed the tally to read the count. I have not wiped it off and I have not spent it. The fire is still at the door.
+
+# What the hearths say
+
+They say the wasp is drawn to the smell of rendered fat, and there are songs in the Fenmarch with a woman's name in them and a wrong done at a rendering. I have heard them and I have no quarrel with a song. But I have set fat where there was no warmth and caught nothing, and set a bare crock where there was warmth and no fat and had it full, and I have left the cause where I found it, which is in the crack. What the wasp does with the warmth it carries into the nest I have not written. That is a question for a man with a slate and not for one with a fire at the door.
+
+> *Traced in rancid tallow on the corner of the second leaf, the letters gone soft where the fat has turned: It is not the fat that calls them. It is the wall that kept the fire. We pour the fat and the warm goes with it, and they come to where the warm has left. Burn the nest and the wall stays warm. They will be back next Ember. --- A.*
+
+She writes in the fat she pours, so the line goes sour before the words go. I have put her hand above mine. She wrote it at the vats and I wrote mine at the door, and neither of us has asked the wasp anything.
+
+# At the head and in the margins
+
+The brown at the head is mine and has gone into the fibre, which is why the leaf smells of the shed in any room. The grey along the fold is sour fat and came up of itself; it is the only thing in this book that entered without a hand. The press of wet wool across the first leaf came off a morning in Tallow when the wind turned and we lay flat under the flue with the smoke going over us and the book under my coat. The singe on the third leaf is a spark the flue drew out of the fire while I was writing, and the hand that beat it out was mine and is not entered. The round at the foot is the buyer's mark-piece, and I have kept it where it fell. The charcoal is thin where I carried the wrap against my thigh. The clerk's ruling I have not touched, and the lamp-woman's line I have set above my own, because hers went sour first and is entitled to stand.
+
+# At the foot, in a hand nobody will own
+
+> It keeps the warmth of a fire it never lit. Ask the wall, not the wasp.
+
+I asked a clerk, a lamp-woman, a physician with his hands in his sleeves, and a man who came up from the coast with four marks, and had four answerings and no hand. I have left the line where it was written.
+
+There is a crack in the cold north wall, past the flue, that has never held a nest and is warm to the back of the hand on the stillest morning of Ember, with no fire behind it that I can find. I have burned nothing out of it. Next Tallow I will take a bare crock and a lamp and set them against that wall at the second hour, and I will count what comes and what goes back, and if the wasps come to a wall with no fire in it I will set that down too, in charcoal, with the cause left standing where it is and no figure at the end of the row.
