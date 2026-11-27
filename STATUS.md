@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **75**
-- Words of story: **1,306,276**
-- Current chapter: 76 (step: plan, scene 1)
-- Last chapter: The Frost That Stayed (Days 276–278 · Frost 7–9, Y.H. 813)
-- Author calls so far: 827 (tokens in 143,746,557, out 18,286,509)
-- Updated: 2026-11-27 15:01
+- Chapters complete: **76**
+- Words of story: **1,322,790**
+- Current chapter: 76 (step: publish, scene 7)
+- Last chapter: What the Reading Did Not Know (Days 279–281 · Frost 10–12, Y.H. 813)
+- Author calls so far: 837 (tokens in 146,420,712, out 18,513,406)
+- Updated: 2026-11-27 15:37
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

@@ -1,0 +1,99 @@
+\begin{tikzpicture}
+  % The chapter's heart: the figure read over what it did not know the cost
+  % of. On the month's first Account-day a thane's finger passed over a
+  % printed one in twelve, the levy was called and denied with "your house",
+  % and the arithmetic went up the road in a locked box and could not be
+  % changed back. The figure read is still not the figure paid: between the
+  % carved figure and the empty price the space stands unsigned. Below, kept
+  % apart with a finger between, the count stays in wood where no slate can
+  % take a figure off it --- I keep the count, not the account.
+
+  % —— the reading block, with the figure carved on it ——
+  \fill[night!86, opacity=0.86]
+    (-2.85,-0.42) -- (-2.72,0.98) -- (-1.02,0.98) -- (-1.02,-0.42) -- cycle;
+  \draw[ornament!62!ink, line width=0.62pt, opacity=0.54, line cap=round]
+    (-2.85,-0.42) -- (-2.72,0.98) -- (-1.02,0.98) -- (-1.02,-0.42) -- cycle;
+  \draw[faded!32!ink, line width=0.28pt, opacity=0.22, line cap=round]
+    (-2.70,0.82) -- (-1.16,0.82);
+  \node[font=\CinzelFont\large, text=rubric, opacity=0.86] at (-1.88,0.30) {1 : 12};
+  \draw[rubric!58!ornament, line width=0.46pt, opacity=0.56, line cap=round]
+    (-2.48,-0.04) -- (-1.28,-0.04);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.54] at (-1.94,-0.70)
+    {the figure};
+
+  % —— the empty price tablet: an outline with no number in it ——
+  \fill[night!7!vellum, opacity=0.42]
+    (0.30,-0.42) rectangle (2.10,0.98);
+  \draw[faded!48!ink, line width=0.50pt, opacity=0.38,
+        dash pattern=on 2.2pt off 2.2pt, line cap=round]
+    (0.30,-0.42) rectangle (2.10,0.98);
+  \draw[faded!32!ink, line width=0.28pt, opacity=0.22,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (0.72,0.28) -- (1.68,0.28);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.54] at (1.20,-0.70)
+    {the price};
+
+  % —— the space between them, left unsigned ——
+  \foreach \gx in {-0.94,0.22}{
+    \draw[faded!40!ink, line width=0.30pt, opacity=0.22,
+          dash pattern=on 1pt off 2.4pt, line cap=round]
+      (\gx,-0.20) -- (\gx,0.88);
+  }
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.18,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (-0.90,0.30) -- (0.18,0.30);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.56] at (-0.36,-0.70)
+    {unsigned};
+
+  % —— the eye that reads over it and knows nothing of what it reads ——
+  \node at (-0.38,1.34) {\pgfornament[width=0.95cm,color=ornament,opacity=0.32]{95}};
+  \draw[faded!34!ink, line width=0.28pt, opacity=0.20,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (-0.38,1.02) .. controls (-0.52,0.72) and (-1.22,0.62) .. (-1.86,0.48);
+
+  % —— the thane's finger, going to its object first ——
+  \fill[faded!16!vellum, opacity=0.86]
+    (-4.15,1.02) .. controls (-3.55,0.96) and (-2.85,0.72) .. (-2.32,0.46)
+    .. controls (-2.26,0.34) and (-2.34,0.26) .. (-2.50,0.30)
+    .. controls (-2.95,0.48) and (-3.60,0.68) .. (-4.15,0.76) -- cycle;
+  \draw[faded!56!ink, line width=0.38pt, opacity=0.42, line cap=round]
+    (-4.15,1.02) .. controls (-3.55,0.96) and (-2.85,0.72) .. (-2.32,0.46)
+    .. controls (-2.26,0.34) and (-2.34,0.26) .. (-2.50,0.30)
+    .. controls (-2.95,0.48) and (-3.60,0.68) .. (-4.15,0.76);
+  \fill[rubric!66!gold, opacity=0.72] (-2.30,0.40) circle (0.045);
+
+  % —— the heard bell, four and four and a gap, kept in its own square ——
+  \foreach \bx in {2.58,2.80,3.02,3.24}{
+    \draw[faded!50!ink, line width=0.52pt, opacity=0.42, line cap=round]
+      (\bx,0.92) -- (\bx,1.20);
+  }
+  \foreach \bx in {3.76,3.98,4.20,4.42}{
+    \draw[faded!50!ink, line width=0.52pt, opacity=0.42, line cap=round]
+      (\bx,0.92) -- (\bx,1.20);
+  }
+  \draw[rubric!48!ornament, line width=0.30pt, opacity=0.30,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (3.34,1.06) -- (3.66,1.06);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.48] at (3.50,0.62)
+    {four, four, a gap};
+
+  % —— the count kept in wood, set apart with a finger between ——
+  \fill[faded!10!vellum, opacity=0.76]
+    (-2.05,-1.06) rectangle (2.05,-0.82);
+  \draw[faded!50!ink, line width=0.44pt, opacity=0.42, line cap=round]
+    (-2.05,-1.06) rectangle (2.05,-0.82);
+  \foreach \nx in {-1.70,-1.30,-0.90,-0.50,-0.10,0.30,0.70,1.10,1.50,1.90}{
+    \draw[ink!56, line width=0.50pt, opacity=0.44, line cap=round]
+      (\nx,-0.82) -- (\nx,-0.64);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.54] at (0,-1.30)
+    {kept in wood};
+
+  % —— fleurons, unlike the flanking pairs of the last chapters ——
+  \node at (-4.35,-0.55) {\pgfornament[width=0.9cm,color=ornament,opacity=0.26]{6}};
+  \node at (4.35,-0.55) {\pgfornament[width=0.9cm,color=ornament,opacity=0.26,symmetry=v]{6}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {the figure read is not the figure paid};
+  \node at (0,-1.92) {\pgfornament[width=0.8cm,color=ornament,opacity=0.22]{2}};
+\end{tikzpicture}
