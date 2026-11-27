@@ -5,9 +5,9 @@ provenance: Preached by Valen Openhand, the Bowl-Priest, come down from the open
 relates_to: [Sere, the Bowl of Sere, the Ember bowl-house, the Ten Bowls, the Sun-Emperor, the Council of Bowls, the Spending, Valen Openhand, the Bowl-Priest, the fire-shrine, the open courts, the public bowl, the four bowls, the fourth bowl, the Bowl feast, name-days, whole return, thin return, Solene Ember, bowl, clay-name, measure for measure, the burning of debt-slates, quiet ash, gold ink, prepared paper, crown, mark, bit, wine-press, warm wine, burning winds, myrrh, olive oil, grain, Greybank, the factor at Greybank, Ledgerhand, Grathic, the Return, the Hearth, the Warm Court, one in twelve]
 ---
 
-I keep the wine-list at the press in the Ember house and nobody asked me for this. I am north-born and write in charcoal; the house writes in thin gold and would not set a bond-woman's hand among its contracts. I write on the back of a leaf spoiled at the third hour, because a spoiled paper is a paper nobody will borrow for a column. He spoke to the fire, then to the four bowls, then to the girl whose name-day it was, and last to the company, which is the order a priest uses when a room is waiting to know which of them is to be emptied.
+I keep the wine-list at the press in the Ember house and nobody asked me for this. I am north-born and write in charcoal; the house writes in thin gold and would not set a bond-woman's hand among its contracts. I write on the back of a leaf spoiled at the third hour, because a spoiled paper is a paper nobody will borrow for a column. He spoke to the fire, then to the four bowls, then to the girl whose name-day it was, and last to the company.
 
-The gold at the head came off the clerk's cuff; the yellow in the fold is the dust of the burning winds and I have not shaken it out. The wine-ring is the third bowl. The myrrh came off a burial cloth whose family bought back the ash and is called generous in this house. The green shard is from a bowl of my own country, cracked in the first heat after I was brought south.
+The gold at the head came off the clerk's cuff; the yellow in the fold is the dust of the burning winds and I have not shaken it out. The wine-ring is the third bowl. The myrrh came off a burial cloth whose family bought back the ash and is called generous here. The green shard is from a bowl of my own country, cracked in the first heat after I was brought south.
 
 # The manner of the shrine, as the house keeps it
 
@@ -21,7 +21,7 @@ The gold at the head came off the clerk's cuff; the yellow in the fold is the du
 - The Sun-Emperor's act is announced at the third hour in a court three streets away. Stop until it has passed. Begin again after.
 - A slave is given a clay-name by the house and the old name is forbidden. In some houses it is written inside a bowl which the slave is never allowed to look into.
 
-He said the last twice, once to the fire and once to a woman at the lower table given three copper bits for standing and not yet told what she was standing for. I have not joined the two sayings.
+He said the last twice, once to the fire and once to a woman at the lower table given three copper bits for standing. I have not joined the two sayings.
 
 # The sermon, as he said it
 
@@ -33,7 +33,7 @@ He put his hand out above the clay bowl and warmed it without touching. His cuff
 
 This fire is fed with oil, and the oil was bought, and the myrrh was bought, and somebody chose to spend both on a flame out before the wine is cold. He said it in the open voice of the courts, with the ends thrown away; the room leaned after him. I wrote the endings in where I heard them, which a Sere clerk would not do.
 
-> *Margin, in charcoal, mine:* He had three rings on the hand he warmed. I counted them because a bond-woman counts what is given her to count. He said *a life hoarded* while a woman at the lower table held a bowl she was not permitted to empty. Both stood in the room. I have not put one over the other.
+> *Margin, in charcoal, mine:* He had three rings on the hand he warmed. He said *a life hoarded* while a woman at the lower table held a bowl she was not permitted to empty. Both stood in the room. I have not put one over the other.
 
 ## Of the four bowls
 
@@ -55,7 +55,7 @@ The girl whose name-day it was stood at the end of the row in a dress gone stiff
 
 The girl looked at the fourth bowl and then at her mother, who could not go through the door where her numbers were read. Her mother looked at the fire. I have written the order of their looking and not what it means.
 
-I have two names. One was given me in the north and is forbidden here, and one is clay and belongs to this house. I wrote the first inside a bowl in my first winter and have never looked into it, which is the courtesy of this country and the only one of its courts I have been allowed to enter.
+I have two names. One was given me in the north and is forbidden here, and one is clay and belongs to this house. I wrote the first inside a bowl in my first winter and have never looked into it, which is the courtesy of this country.
 
 ## Of the burning
 
@@ -75,7 +75,7 @@ The guest put the question to me afterward and I told him I did not read the acc
 
 ## Of them that are emptied
 
-The returned woman was brought in after the third bowl, as she is. Solene Ember was returned whole here in Y.H. 799, Y.H. 804 and Y.H. 809, and the house speaks of the fourth as a man looks forward to a harvest he has already sold. She turned a cup a quarter, set it back and said nothing, and the company applauded her being whole.
+The returned woman was brought in after the third bowl. Solene Ember was returned whole here in Y.H. 799, Y.H. 804 and Y.H. 809, and the house speaks of the fourth as a man looks forward to a harvest he has already sold. She turned a cup a quarter, set it back and said nothing, and the company applauded her.
 
 “A beautiful return is proof of a generous house,” the priest said. “A life poured out gloriously comes back beautiful. A life kept in a corner comes back thin, and thin returns are for the north, who buy them, and we are kind enough to sell.”
 
@@ -140,7 +140,7 @@ I have left his hand above mine and my words underneath, as the new slate lies o
 
 # What the northern hand did
 
-A factor’s clerk at Greybank wrote on the copy in the narrow upright hand. He has never been south and has strong views about dust.
+A factor’s clerk at Greybank wrote on the copy in the narrow upright hand. He has never been south.
 
 - At the fire-shrine: *private fire, no public charge*.
 - At the fourth bowl: a round nought and *vacancy*, which is a number and is not a bowl.
@@ -164,6 +164,6 @@ Struck through once and written again underneath, very small:
 >
 > The fire takes the names and nobody asks who brought the oil.
 
-I asked the girl from the press, the woman who keeps the fire, the clerk and a factor come down from Greybank, and had four answerings and no hand. I have left the line struck through and standing, the only honest way to keep a sentence you cannot sign.
+I asked the girl from the press, the woman who keeps the fire, the clerk and a factor from Greybank, and had four answerings and no hand. I have left the line struck through and standing, the only honest way to keep a sentence you cannot sign.
 
 The leaf goes back into the oiled silk and the silk into the clay bowl. Next name-day three bowls will go round and one will stand, and the clerk will take the verbs out and I shall put them back, and the fourth bowl will go away full as it came, and nobody in this house will ask it what it holds.
