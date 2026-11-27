@@ -1,0 +1,70 @@
+\begin{tikzpicture}
+  % The chapter's heart: a keeping made of not-doings. On the fold where the
+  % hand is laid back like a tool put away, two places rest side by side and
+  % do not touch. One holds a note carried across a silence and kept; the
+  % other is left empty on its own place --- an object, a keeping and not a
+  % miss. The stroke that would supply it stops short, for to cross the gap
+  % would want a payer and none stands to either place.
+
+  % —— the fold, a cloth band laid along the low middle ——
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.22, line cap=round]
+    (-3.95,-0.52) .. controls (-1.60,-0.70) and (1.60,-0.70) .. (3.95,-0.52);
+  \draw[faded!38!ink, line width=0.32pt, opacity=0.18, line cap=round]
+    (-3.95,-1.16) .. controls (-1.60,-1.32) and (1.60,-1.32) .. (3.95,-1.16);
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.16]
+    (-3.95,-0.52) -- (-3.95,-1.16);
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.16]
+    (3.95,-0.52) -- (3.95,-1.16);
+  \draw[faded!34!ink, line width=0.26pt, opacity=0.14, line cap=round]
+    (-3.40,-1.04) .. controls (-1.40,-1.14) and (1.40,-1.14) .. (3.40,-1.04);
+
+  % —— LEFT: the held one, a note carried across and set down ——
+  \fill[ash!10!vellum, opacity=0.72]
+    (-2.05,-0.86) ellipse (0.98 and 0.26);
+  \draw[faded!62!ink, line width=0.44pt, opacity=0.34]
+    (-2.05,-0.86) ellipse (0.98 and 0.26);
+  \draw[gold!64!ornament, line width=1.25pt, opacity=0.60, line cap=round]
+    (-2.88,-0.86) .. controls (-2.63,-0.66) and (-2.45,-1.06) .. (-2.20,-0.86)
+    .. controls (-1.95,-0.66) and (-1.77,-1.06) .. (-1.52,-0.86);
+  \fill[gold!72!ornament, opacity=0.72] (-2.20,-0.86) circle (0.048);
+  \draw[faded!48!ink, line width=0.32pt, opacity=0.24, line cap=round]
+    (-2.00,0.56) -- (-2.00,-0.58);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.58] at (-2.00,0.80)
+    {the held one};
+
+  % —— RIGHT: an empty place kept on its own, and not a miss ——
+  \fill[ash!8!vellum, opacity=0.52]
+    (2.05,-0.86) ellipse (0.98 and 0.26);
+  \draw[faded!62!ink, line width=0.44pt, opacity=0.34]
+    (2.05,-0.86) ellipse (0.98 and 0.26);
+  \draw[faded!44!ink, line width=0.28pt, opacity=0.18]
+    (2.05,-0.86) ellipse (0.86 and 0.19);
+  \draw[faded!34!ink, line width=0.26pt, opacity=0.12, line cap=round]
+    (1.30,-1.02) .. controls (1.9,-1.10) and (2.2,-1.10) .. (2.80,-1.02);
+  % the stroke that would supply it, arriving nowhere
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.20,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (2.05,0.60) -- (2.05,-0.46);
+  \draw[faded!38!ink, line width=0.28pt, opacity=0.16]
+    (1.94,-0.46) -- (2.16,-0.46);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.58] at (2.05,0.80)
+    {kept empty};
+
+  % —— the finger held between, stopping short of both places ——
+  \draw[faded!58!ink, line width=0.42pt, opacity=0.34, line cap=round]
+    (-0.12,1.16) .. controls (-0.18,0.38) and (-0.16,-0.02) .. (-0.07,-0.26);
+  \draw[faded!58!ink, line width=0.42pt, opacity=0.34, line cap=round]
+    (0.12,1.16) .. controls (0.18,0.38) and (0.16,-0.02) .. (0.07,-0.26);
+  \draw[faded!54!ink, line width=0.38pt, opacity=0.30, line cap=round]
+    (-0.07,-0.26) .. controls (-0.03,-0.36) and (0.03,-0.36) .. (0.07,-0.26);
+  \draw[faded!46!ink, line width=0.26pt, opacity=0.20, line cap=round]
+    (-0.11,0.06) .. controls (0,0.12) and (0.10,0.04) .. (0.12,-0.04);
+
+  % small flourishes at the ends of the fold
+  \node at (-4.16,-0.84) {\pgfornament[width=1.1cm,color=ornament,opacity=0.26]{21}};
+  \node at ( 4.16,-0.84) {\pgfornament[width=1.1cm,color=ornament,opacity=0.26,symmetry=v]{21}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.52)
+    {a keeping and not a miss};
+  \node at (0,-1.78) {\pgfornament[width=0.9cm,color=ornament,opacity=0.24]{9}};
+\end{tikzpicture}
