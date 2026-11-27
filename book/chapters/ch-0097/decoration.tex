@@ -1,0 +1,87 @@
+\begin{tikzpicture}
+  % The chapter's heart: the small knife lies at the very edge of its sill,
+  % where a house can check it and where a hand could also slip it off. A hand
+  % passed over it; the check ended at the little ring, and the hand stayed a
+  % breath longer than the check had need of before it was taken away. Six sit
+  % where the checking reaches; the next sits uncut on its own place. The held
+  % breath is filed beside the five, not among them, with a finger between.
+  % Nothing was cut, counted, called, spent or paid; no payer stands under it.
+
+  % —— a small fleur-de-lis above ——
+  \node at (0,1.66) {\pgfornament[width=0.72cm,color=ornament,opacity=0.24]{6}};
+
+  % —— the sill: a stone ledge, its edge to the right ——
+  \fill[ash!30!ink, opacity=0.26]
+    (-3.05,-0.16) -- (3.00,-0.16) -- (3.00,0.16) -- (-3.05,0.16) -- cycle;
+  \draw[ornament!34!ink, line width=0.30pt, opacity=0.32, line cap=round]
+    (-3.05,-0.16) -- (3.00,-0.16);
+  \draw[ornament!40!ink, line width=0.34pt, opacity=0.42, line cap=round]
+    (-3.05,0.16) -- (3.00,0.16);
+  \fill[ink!18!faded, opacity=0.18] (2.28,0.15) ellipse (0.72 and 0.04);
+
+  % —— six where the house can check, a finger between every pair ——
+  \foreach \nx in {-2.55,-1.95,-1.35,-0.75,-0.15,0.45}{
+    \draw[ink!40!faded, line width=1.0pt, opacity=0.50, line cap=round]
+      (\nx,0.17) -- (\nx,0.34);
+  }
+  \foreach \fx in {-2.25,-1.65,-1.05,-0.45,0.15}{
+    \draw[ink!46!faded, line width=0.9pt, opacity=0.40, line cap=round]
+      (\fx,0.21) -- (\fx,0.30);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.44] at (-1.05,0.55)
+    {six counted};
+
+  % —— the next, on its own place, uncut and not counted ——
+  \draw[faded!30!ink, line width=0.24pt, opacity=0.32,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (1.05,0.17) -- (1.05,0.34);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.44] at (1.14,0.55)
+    {the next I don't count};
+
+  % —— the knife: corded handle, belly and tip at the very edge of the sill ——
+  \fill[ink!62!night, opacity=0.80]
+    (1.55,0.19) -- (2.15,0.19) -- (2.15,0.37) -- (1.55,0.37) -- cycle;
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.44, line cap=round]
+    (1.55,0.19) -- (2.15,0.19) -- (2.15,0.37) -- (1.55,0.37) -- cycle;
+  \foreach \hx in {1.70,1.86,2.02}{
+    \draw[ornament!40!ink, line width=0.5pt, opacity=0.38, line cap=round]
+      (\hx,0.19) -- (\hx,0.37);
+  }
+  \fill[ash!58!vellum, opacity=0.74]
+    (2.15,0.19) -- (2.94,0.26) -- (3.00,0.28) -- (2.94,0.31) -- (2.15,0.37) -- cycle;
+  \draw[ornament!40!ink, line width=0.30pt, opacity=0.42, line cap=round]
+    (2.15,0.19) -- (2.94,0.26) -- (3.00,0.28) -- (2.94,0.31) -- (2.15,0.37);
+  \draw[vellum!80, line width=0.30pt, opacity=0.30, line cap=round]
+    (2.18,0.22) -- (2.92,0.29);
+
+  % —— the house's check: a hand passing over, ending at the little ring ——
+  \draw[faded!30!ink, line width=0.30pt, opacity=0.36,
+        dash pattern=on 1.2pt off 2pt, line cap=round]
+    (1.55,1.02) .. controls (1.85,1.18) and (2.20,0.86) .. (2.42,0.62);
+  \draw[faded!34!ink, line width=0.30pt, opacity=0.46] (2.42,0.62) circle (0.055);
+
+  % —— the hand stays a breath past the check before it is taken away ——
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.32,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (2.42,0.62) .. controls (2.66,0.60) and (2.82,0.72) .. (2.90,0.90);
+  \draw[rubric!34!ink, line width=0.34pt, opacity=0.44, line cap=round]
+    (2.90,0.90) .. controls (3.06,0.96) and (3.08,1.16) .. (2.92,1.22)
+    .. controls (2.80,1.26) and (2.80,1.08) .. (2.92,1.10);
+
+  % —— the held interval bracketed: beyond the check, on its own place ——
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.28,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (2.42,0.46) -- (2.90,0.46);
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.26] (2.42,0.40) -- (2.42,0.52);
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.26] (2.90,0.40) -- (2.90,0.52);
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.26,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (2.96,1.20) -- (3.10,1.18);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (3.16,1.18) {one breath past the check};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.18)
+    {a breath the house cannot check};
+  \node at (0,-1.56) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{81}};
+\end{tikzpicture}
