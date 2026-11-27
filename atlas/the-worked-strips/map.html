@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Worked Strips — the barley fields east of Low Kiln, Sill</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 48% 46%, rgba(255,249,228,.42), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', SEAWASH='#a9bfb2',
+      GOLD='#a9833c', GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', ASH='#9a9080',
+      EARTH='#d8c8a4', CLAY='#cbb58f', STRIP='#c9ad7e', REED='#8a9273';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(813257);
+  function rr(a,b){return a+(b-a)*rnd();}
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  /* ---------- layers, inked in order; all lettering goes on last ---------- */
+  var defs=E('defs',{});
+  E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.52});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gStruct=E('g',{}),
+      gRoad=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+  var i,k;
+
+  /* foxing, folds and the old damp of the paper */
+  for(i=0;i<26;i++){
+    E('ellipse',{cx:rr(80,2320),cy:rr(80,1520),rx:rr(16,78),ry:rr(10,48),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gWash);
+  }
+  [620,1240,1860].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:60,y1:806,x2:2340,y2:806,stroke:'#7a5a30','stroke-width':1,opacity:0.05},gWash);
+  /* the warm brown skin of the worked ground, east of the town */
+  E('path',{d:D(jit([[560,620],[900,600],[1300,616],[1700,634],[1980,668],[2020,1080],[1720,1130],[1300,1112],[900,1124],[600,1096]],5,30),true),
+    fill:EARTH,opacity:0.22},gWash);
+  /* the greyer ground of the reeds to the east and south */
+  E('path',{d:D(jit([[1700,556],[2000,540],[2340,566],[2340,1100],[2060,1080],[1840,1000],[1740,820]],5,30),true),
+    fill:REED,opacity:0.18},gWash);
+  /* the Ilm's broad wash along the head of the chart */
+  E('path',{d:D(jit([[60,358],[360,380],[720,408],[1080,432],[1440,460],[1800,490],[2160,520],[2360,540],
+                      [2360,600],[2160,580],[1800,550],[1440,520],[1080,496],[720,472],[360,446],[60,424]],3.4,20),true),
+    fill:SEAWASH,opacity:0.20},gWash);
+
+  /* ---------- a tapered, hand-drawn river ---------- */
+  function river(center,w0,w1,col,wash,p){
+    var bankA=[],bankB=[],norm=[],half=[];
+    for(k=0;k<center.length;k++){
+      var a=center[Math.max(0,k-1)],b=center[Math.min(center.length-1,k+1)];
+      var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/le,ny=dx/le,t=k/(center.length-1);
+      var w=(w0+(w1-w0)*t)*(0.88+Math.sin(k*0.83)*0.09)*(0.62+0.38*Math.sin(Math.PI*(0.16+0.84*t)));
+      bankA.push([center[k][0]+nx*w+rr(-3,3),center[k][1]+ny*w+rr(-3,3)]);
+      bankB.push([center[k][0]-nx*w+rr(-3,3),center[k][1]-ny*w+rr(-3,3)]);
+      norm.push([nx,ny]); half.push(w);
+    }
+    E('path',{d:D(bankA.concat(bankB.slice().reverse()),true),fill:wash,opacity:0.62},p);
+    E('path',{d:D(center),fill:'none',stroke:col,'stroke-width':2.3,'stroke-linecap':'round',opacity:0.32},p);
+    for(var q=0;q<44;q++){
+      var j=Math.floor(rr(1,center.length-2)),f=rr(-0.72,0.72);
+      E('path',{d:'M'+(center[j][0]+norm[j][0]*half[j]*f).toFixed(1)+' '+(center[j][1]+norm[j][1]*half[j]*f).toFixed(1)+' q9 -3 19 0',
+        fill:'none',stroke:col,'stroke-width':1,opacity:rr(0.10,0.24)},p);
+    }
+    [bankA,bankB].forEach(function(bank){
+      E('path',{d:D(bank),fill:'none',stroke:INK,'stroke-width':1.8,'stroke-linejoin':'round'},p);
+      for(k=2;k<bank.length-1;k+=2){
+        var a=bank[k-1],b=bank[k+1],dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+        E('line',{x1:bank[k][0],y1:bank[k][1],x2:bank[k][0]-dy/le*9+dx/le*3,y2:bank[k][1]+dx/le*9+dy/le*3,
+          stroke:INK,'stroke-width':0.8,opacity:0.3},p);
+      }
+    });
+    return {a:bankA,b:bankB,c:center,h:half};
+  }
+
+  /* ---------- terrain ---------- */
+  function hill(x,y,s,p){
+    E('path',{d:'M'+(x-13*s).toFixed(1)+' '+y+' q'+(13*s).toFixed(1)+' '+(-14*s).toFixed(1)+' '+(26*s).toFixed(1)+' 0',
+      fill:'none',stroke:FADE,'stroke-width':1.2,opacity:0.5},p);
+  }
+  function tuft(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-5 2 q-2 -8 -6 -12 M0 2 L0 -14 M5 2 q2 -7 7 -11 M-2 2 q-1 -6 -3 -9',
+      fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.8},g);
+  }
+  function stone(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-9 3 L-4 -5 L5 -6 L10 1 L5 5 L-4 5 Z',fill:ASH,stroke:FADE,'stroke-width':0.9,opacity:0.9},g);
+    E('path',{d:'M-4 -5 L2 2 L10 1',fill:'none',stroke:INK,'stroke-width':0.6,opacity:0.5},g);
+  }
+  for(i=0;i<16;i++){hill(rr(90,2320),rr(276,324),rr(0.5,1.0),gTerr);}
+  for(i=0;i<14;i++){hill(rr(120,560),rr(1120,1240),rr(0.4,0.8),gTerr);}
+  /* a single flood stone a woman swept around, and a few others */
+  stone(1006,836,1.1,gTerr);
+  for(i=0;i<7;i++){stone(rr(700,1900),rr(680,1080),rr(0.5,0.8),gTerr);}
+
+  /* ---------- the worked strips: five long, rutted plots ---------- */
+  function plot(center,w0,w1,p){
+    var edgeA=[],edgeB=[],norm=[],half=[],q;
+    for(q=0;q<center.length;q++){
+      var a=center[Math.max(0,q-1)],b=center[Math.min(center.length-1,q+1)];
+      var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/le,ny=dx/le,t=q/(center.length-1);
+      var w=(w0+(w1-w0)*t)*(0.90+0.10*Math.sin(q*1.13));
+      edgeA.push([center[q][0]+nx*w,center[q][1]+ny*w]);
+      edgeB.push([center[q][0]-nx*w,center[q][1]-ny*w]);
+      norm.push([nx,ny]); half.push(w);
+    }
+    E('path',{d:D(jit(edgeA.concat(edgeB.slice().reverse()),2.6,10),true),
+      fill:STRIP,opacity:0.55,stroke:FADE,'stroke-width':1.3,'stroke-linejoin':'round'},p);
+    /* the furrows, laid by hand along each plot */
+    for(q=1;q<center.length-1;q++){
+      var f=(q%2===0)?0.34:-0.34;
+      E('path',{d:D(jit([[center[q][0]+norm[q][0]*half[q]*f,center[q][1]+norm[q][1]*half[q]*f],
+        [center[q+1][0]+norm[q+1][0]*half[q+1]*(f+0.16),center[q+1][1]+norm[q+1][1]*half[q+1]*(f+0.16)],
+        [center[q+2][0]+norm[q+2][0]*half[q+2]*(f-0.10),center[q+2][1]+norm[q+2][1]*half[q+2]*(f-0.10)]],1.8,9)),
+        fill:'none',stroke:FADE,'stroke-width':1.0,opacity:0.55},p);
+    }
+    /* the unworked rut between the rows */
+    E('path',{d:D(jit(edgeB.map(function(v){return [v[0]+norm[0][0]*3,v[1]+norm[0][1]*3];}),2,12)),
+      fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.35},p);
+  }
+  plot(jit([[720,690],[920,678],[1120,694],[1340,680],[1540,696]],2.4,14),30,26,gTerr);
+  plot(jit([[700,790],[900,776],[1120,792],[1360,778],[1580,796]],2.4,14),34,28,gTerr);
+  plot(jit([[720,890],[940,874],[1180,892],[1440,878],[1680,896]],2.6,14),36,30,gTerr);
+  plot(jit([[760,990],[1000,974],[1260,992],[1540,978],[1800,996]],2.6,14),38,32,gTerr);
+  plot(jit([[820,1090],[1080,1074],[1360,1092],[1660,1078],[1920,1096]],2.8,14),40,34,gTerr);
+  /* reeds standing grey in the ruts, and along the eastern marsh */
+  for(i=0;i<58;i++){tuft(rr(1500,2320),rr(586,1040),rr(0.5,1.0),gTerr);}
+  for(i=0;i<20;i++){tuft(rr(900,1700),rr(600,680),rr(0.5,0.8),gTerr);}
+
+  /* ---------- the waters: the Ilm and the clay-heavy Slip Brook ---------- */
+  var ilm=river(jit([[60,390],[360,412],[720,440],[1080,464],[1440,490],[1800,518],[2160,548],[2360,566]],3.2,14),
+               18,34,SEA,SEAWASH,gWater);
+  var brook=river(jit([[438,1108],[470,972],[508,846],[548,720],[600,604],[664,506],[740,466]],2.4,12),
+                 2.4,8,'#6d7f6e','#b9c4b4',gWater);
+  /* the silt the brook leaves where it comes into the river */
+  E('path',{d:D(jit([[700,452],[752,442],[806,454],[784,486],[728,492]],3,12),true),
+    fill:ASH,opacity:0.24},gWater);
+
+  /* ---------- structures, most of Low Kiln drawn faint for neighbourhood ---------- */
+  function house(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('rect',{x:-16,y:-14,width:32,height:20,fill:'#e2d3ad',stroke:INK,'stroke-width':1.5},g);
+    E('path',{d:'M-20 -14 L0 -26 L20 -14 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.5},g);
+    E('rect',{x:-4,y:-5,width:8,height:11,fill:'#6b5331',stroke:INK,'stroke-width':0.9},g);
+    E('path',{d:'M11 -20 l0 -9 q4 -3 1 -7',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.5},g);
+  }
+  function racks(x,y,p){
+    var g=E('g',{transform:'translate('+x+' '+y+')'},p);
+    for(var a=0;a<4;a++){
+      E('line',{x1:a*16,y1:-4,x2:a*16,y2:-26,stroke:INK,'stroke-width':1.2},g);
+      E('line',{x1:a*16-2,y1:-14,x2:a*16+18,y2:-14,stroke:INK,'stroke-width':1.1},g);
+    }
+    E('line',{x1:-4,y1:-26,x2:52,y2:-26,stroke:INK,'stroke-width':1.1},g);
+  }
+  function bundle(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-18 0 q18 -12 36 0 l-4 7 q-14 5 -28 0 z',fill:REED,stroke:FADE,'stroke-width':1.1},g);
+    for(var a=-12;a<13;a+=6){E('line',{x1:a,y1:-6,x2:a+2,y2:6,stroke:MG,'stroke-width':0.8,opacity:0.7},g);}
+    E('path',{d:'M0 -7 q-3 -4 -1 -8 M0 -7 q3 -5 5 -8',fill:'none',stroke:MG,'stroke-width':0.9},g);
+  }
+  /* the far edge of Low Kiln, faint: houses, the Vail roof, the drying racks */
+  var faint=E('g',{opacity:0.38},gStruct);
+  [[248,872],[300,900],[232,948],[318,980],[264,1024],[344,1052],[196,1004]].forEach(function(h){
+    house(h[0],h[1],0.80,faint);
+  });
+  /* the Vail kiln-house roof with its smoke */
+  var vr=E('g',{opacity:0.42},gStruct);
+  house(388,1080,1.1,vr);
+  E('path',{d:'M388 1054 q-8 -10 2 -17 q8 -7 1 -14 q-4 -6 2 -10',fill:'none',stroke:FADE,'stroke-width':1.2,opacity:0.7},vr);
+  racks(470,1000,vr);
+  /* stubble and cut bundles at the head of the strips */
+  for(i=0;i<26;i++){
+    var sx=rr(740,1860),sy=rr(672,1080);
+    E('path',{d:'M'+sx+' '+sy+' l'+rr(-3,3)+' '+rr(-9,-5),fill:'none',stroke:MG,'stroke-width':0.9,opacity:0.55},gStruct);
+  }
+  [[1210,758],[1410,852],[1660,946],[1300,1044]].forEach(function(b){bundle(b[0],b[1],rr(0.8,1.05),gStruct);});
+  /* the landing and a moored punt on the river */
+  E('path',{d:'M980 470 L1010 470 L1010 512 L980 512 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.2},gStruct);
+  for(i=0;i<3;i++){E('line',{x1:984+i*10,y1:472,x2:984+i*10,y2:510,stroke:FADE,'stroke-width':0.7,opacity:0.6},gStruct);}
+  var punt=E('g',{transform:'translate(1120 476)'},gStruct);
+  E('path',{d:'M-26 0 q26 12 52 0 l-8 8 q-18 6 -36 0 z',fill:'#cbb58f',stroke:INK,'stroke-width':1.3},punt);
+  E('line',{x1:4,y1:0,x2:4,y2:-22,stroke:INK,'stroke-width':1.2},punt);
+  E('path',{d:'M4 -20 l12 6 l-12 4 z',fill:'#e2d3ad',stroke:FADE,'stroke-width':0.8},punt);
+
+  /* ---------- roads and ways ---------- */
+  function edgeArrow(x,y,dir,p){
+    E('path',{d:'M'+x+' '+y+' L'+(x+dir*50)+' '+y+' M'+(x+dir*50)+' '+y+' l'+(dir*-10)+' -6 M'+(x+dir*50)+' '+y+' l'+(dir*-10)+' 6',
+      fill:'none',stroke:INK,'stroke-width':1.7},p);
+  }
+  /* the river road, along the south bank above the strips */
+  E('path',{d:D(jit([[60,580],[400,600],[800,620],[1200,640],[1600,660],[2000,680],[2340,696]],2.4,24)),
+    fill:'none',stroke:INK,'stroke-width':2.3,'stroke-dasharray':'8 6','stroke-linecap':'round',opacity:0.8},gRoad);
+  edgeArrow(90,584,-1,gRoad);
+  edgeArrow(2320,692,1,gRoad);
+  /* the way down from the strips to the landing */
+  E('path',{d:D(jit([[1006,842],[1010,780],[1000,700],[1000,560],[1002,512]],2,16)),
+    fill:'none',stroke:INK,'stroke-width':1.5,'stroke-dasharray':'6 6','stroke-linecap':'round',opacity:0.55},gRoad);
+  /* the marsh way going out east toward Reedholt */
+  E('path',{d:D(jit([[1960,1010],[2060,1030],[2170,1050],[2300,1070]],2,18)),
+    fill:'none',stroke:INK,'stroke-width':1.5,'stroke-dasharray':'6 6','stroke-linecap':'round',opacity:0.5},gRoad);
+  edgeArrow(2300,1070,1,gRoad);
+  /* river arrows, upriver to the Weir and downriver to Mud End */
+  edgeArrow(96,424,-1,gRoad);
+  edgeArrow(2290,556,1,gRoad);
+
+  /* ---------- lettering, inked last above everything ---------- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      'stroke':(o&&o.halo)?PALE:null,'stroke-width':(o&&o.halo)?3.2:null,'paint-order':(o&&o.halo)?'stroke':null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||23;
+    lines.forEach(function(ln,j){T(x,y+j*lh,ln,{font:'FellIt',size:o.size||16,fill:o.fill||'#574226',opacity:o.opacity||0.92});});
+  }
+
+  /* the ground, named in place */
+  T(1250,930,'THE WORKED STRIPS',{font:'FellSC',size:27,ls:4,fill:FADE,anchor:'middle',halo:true});
+  T(1250,962,'the barley fields east of Low Kiln',{font:'FellIt',size:16,fill:FADE,anchor:'middle',halo:true});
+  T(720,404,'the Ilm',{font:'FellIt',size:24,fill:SEA,rot:3,anchor:'middle',halo:true});
+  T(520,864,'the Slip Brook',{font:'FellIt',size:17,fill:'#4c615c',rot:-67,anchor:'middle',halo:true});
+  T(2050,790,'the reedbeds',{font:'FellIt',size:17,fill:MG,anchor:'middle',halo:true});
+  T(1680,650,'the river road',{font:'FellIt',size:15,fill:FADE,rot:2.5,halo:true});
+  T(280,1108,'Low Kiln',{font:'FellSC',size:17,ls:2,fill:FADE,opacity:0.72,anchor:'middle',halo:true});
+  T(470,1030,'the drying racks',{font:'FellIt',size:13,fill:FADE,opacity:0.72,anchor:'middle',halo:true});
+  T(392,1124,'the Vail kiln-house',{font:'FellIt',size:13,fill:FADE,opacity:0.72,anchor:'middle',halo:true});
+  T(1000,512,'the landing',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  T(96,352,'upriver to the Weir',{font:'FellIt',size:14,fill:FADE,halo:true});
+  T(2310,516,'downriver to Mud End',{font:'FellIt',size:14,fill:FADE,anchor:'end',halo:true});
+  T(96,612,'west to Low Kiln and the Cross',{font:'FellIt',size:14,fill:FADE,halo:true});
+  T(2310,726,'east to Greybank by the river road',{font:'FellIt',size:14,fill:FADE,anchor:'end',halo:true});
+  T(2290,1100,'the marsh way to Reedholt',{font:'FellIt',size:13,fill:FADE,anchor:'end',halo:true});
+  T(1008,1092,'the way down to the landing',{font:'FellIt',size:12,fill:FADE,rot:88,anchor:'middle',halo:true});
+
+  /* ---------- marginal notes in the surveyor's voice ---------- */
+  note(110,272,[
+    'The Ilm runs west to the Weir and east to Greybank. In Silt it',
+    'comes up over the low steps and puts them a hand’s breadth',
+    'out of line; the district calls the whole of it weather.'
+  ],{size:16,lh:22,fill:'#574226'});
+  note(1826,300,[
+    'The reeds stand in the ruts where the barley stood. A bundle',
+    'is counted in the arm that carries it, and the question of its',
+    'cost is answered with the river and the weather.'
+  ],{size:16,lh:22,fill:'#574226'});
+  note(1000,1232,[
+    'Seed went into these strips out of fists in Seed; the first cut',
+    'grain came out in Grain, was beaten, winnowed, spread thin and',
+    'set under wool. An arm knew what it weighed and no slate knew',
+    'what it cost. The Slip Brook came up clay-heavy in the night',
+    'and took a woman from the end of nineteen steps; the yard'
+  ],{size:16,lh:22,fill:'#574226'});
+  note(1000,1350,[
+    'lifted her out and said nothing, and called the water weather.'
+  ],{size:16,lh:22,fill:RED});
+  note(1830,1150,[
+    'One hand went in on Seed 15 and did not come out with the last',
+    'on Seed 27. The yard goes around that place in the returning',
+    'line with a look and a wide step. No mark is set upon it here:',
+    'a mark would be a figure, and no figure stands.'
+  ],{size:16,lh:22,fill:RED});
+
+  /* ---------- title cartouche ---------- */
+  E('path',{d:'M684 58 L1716 58 L1736 78 L1736 194 L1716 214 L684 214 L664 194 L664 78 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.94},gFrame);
+  E('path',{d:'M690 68 L1710 68 L1726 84 L1726 188 L1710 204 L690 204 L674 188 L674 84 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M628 136 q30 -22 54 0 q-24 22 -54 0 z M1772 136 q-30 -22 -54 0 q24 22 54 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(1200,112,'THE WORKED STRIPS',{font:'CinzelDec',size:37,ls:3,anchor:'middle',fill:INK});
+  T(1200,150,'the barley fields east of Low Kiln, Sill',{font:'FellIt',size:18,anchor:'middle',fill:FADE});
+  T(1200,186,'surveyed and inked in Y.H. 813 — the month of Smoke',{font:'FellSC',size:13,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<27;i++){
+    var sx=684+i*38.4;
+    E('path',{d:'M'+sx+' 72 l2.5 5 l5 0 l-4 3.5 l1.5 5 l-5 -3 l-5 3 l1.5 -5 l-4 -3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 200 l2.5 -5 l5 0 l-4 -3.5 l1.5 -5 l-5 3 l-5 -3 l1.5 5 l-4 3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---------- compass rose ---------- */
+  var rx=2186,ry=222;
+  E('circle',{cx:rx,cy:ry,r:44,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:rx,cy:ry,r:35,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?38:22;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-38)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+38)+' L'+(rx+9)+' '+ry+' Z',fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-38)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-50,'N',{size:20,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,j){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][j];
+    T(rx+Math.sin(ca)*56+3,ry-Math.cos(ca)*56+6,cdir,{font:'FellSC',size:15,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- convention of signs ---------- */
+  E('rect',{x:110,y:1150,width:540,height:356,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1158,width:524,height:340,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(380,1190,'CONVENTION OF SIGNS',{font:'FellSC',size:21,ls:3,anchor:'middle'});
+  E('line',{x1:140,y1:1202,x2:620,y2:1202,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  var fh=E('g',{opacity:0.5},gFrame); house(160,1230,0.8,fh);
+  T(202,1236,'a house of Low Kiln, drawn faint',{font:'Fell',size:15});
+  E('path',{d:'M142 1266 l20 -2 M142 1272 l20 -2',fill:'none',stroke:FADE,'stroke-width':1.4},gFrame);
+  T(202,1272,'a worked strip and its furrow',{font:'Fell',size:15});
+  tuft(160,1304,0.9,gFrame); T(202,1310,'reeds in the ruts',{font:'Fell',size:15});
+  E('path',{d:'M142 1338 q8 -3 16 0',fill:'none',stroke:'#6d7f6e','stroke-width':2},gFrame);
+  T(202,1344,'the Slip Brook',{font:'Fell',size:15});
+  E('line',{x1:140,y1:1370,x2:178,y2:1370,stroke:INK,'stroke-width':2,'stroke-dasharray':'6 5'},gFrame);
+  T(202,1376,'the river road',{font:'Fell',size:15});
+  E('path',{d:'M142 1404 q8 -3 16 0',fill:'none',stroke:SEA,'stroke-width':2},gFrame);
+  T(202,1410,'the Ilm',{font:'Fell',size:15});
+  bundle(160,1440,0.7,gFrame); T(202,1446,'a cut bundle, counted in the arm',{font:'Fell',size:14});
+
+  /* ---------- scale bar ---------- */
+  T(1560,1420,'A HUNDRED PACES',{font:'FellSC',size:13,ls:1.4,fill:FADE});
+  E('rect',{x:1560,y:1430,width:360,height:13,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1560+i*90,y:1430,width:90,height:13,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1560+i*90,1464,[0,25,50,75][i]+'',{font:'Fell',size:15,anchor:'middle',fill:INK});
+  }
+  T(1940,1444,'paces',{font:'FellIt',size:16,fill:FADE});
+  T(1560,1492,'The strips lie east of Low Kiln; the Weir one league upriver.',{font:'FellIt',size:13,fill:FADE});
+
+  /* ---------- an engraved ear of barley in the margin ---------- */
+  function barleyEar(x,y,p){
+    var g=E('g',{transform:'translate('+x+' '+y+')'},p);
+    E('path',{d:'M0 40 Q2 4 0 -44',fill:'none',stroke:INK,'stroke-width':1.5},g);
+    for(var a=0;a<6;a++){
+      var gy=-36+a*11;
+      E('path',{d:'M0 '+(gy+8)+' q-13 -2 -15 -13 q11 0 15 9 M0 '+(gy+8)+' q13 -2 15 -13 q-11 0 -15 9',
+        fill:'#d7c49c',opacity:0.85,stroke:INK,'stroke-width':1,'stroke-linejoin':'round'},g);
+      E('path',{d:'M-13 '+(gy-3)+' l-12 -9 M13 '+(gy-3)+' l12 -9',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.6},g);
+    }
+    /* the top grain is gone; the place where it stood is left empty */
+    E('path',{d:'M-4 -52 q4 -4 8 0',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.5},g);
+  }
+  barleyEar(2130,1260,gFrame);
+  T(2130,1372,'an ear of the dressed grain',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+  T(2130,1394,'weighed in the arm, not on a slate',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+
+  /* ---------- the ruled border and its hatch ---------- */
+  E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:2296,height:1496,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<116;i++){
+    var px=56+i*19.7;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:1548,x2:px,y2:1566,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<76;i++){
+    var py=56+i*19.6;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:2348,y1:py,x2:2366,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[2348,52,-1,1],[52,1548,1,-1],[2348,1548,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>
