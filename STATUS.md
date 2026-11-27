@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **89**
-- Words of story: **1,579,727**
-- Current chapter: 90 (step: plan, scene 1)
-- Last chapter: The Figure Read Twice (Days 318–320 · Bone 19–21, Y.H. 813)
-- Author calls so far: 969 (tokens in 172,464,617, out 21,697,920)
-- Updated: 2026-11-28 00:22
+- Chapters complete: **90**
+- Words of story: **1,600,279**
+- Current chapter: 90 (step: publish, scene 7)
+- Last chapter: What the Fingers Let Fall (Days 321–323 · Bone 22–24, Y.H. 813)
+- Author calls so far: 979 (tokens in 174,185,769, out 21,920,514)
+- Updated: 2026-11-28 00:55
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

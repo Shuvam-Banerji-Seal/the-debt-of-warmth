@@ -1,0 +1,71 @@
+\begin{tikzpicture}
+  % The chapter's heart: the handful lifted at the rack end and let fall back
+  % through her fingers, not spread. A testing that took nothing and paid
+  % nothing, kept as one object on a place of its own with a finger between it
+  % and the four held changes, and not made again. The surgeon knew the lift of
+  % a dressing's edge and the letting of it fall; the infant wanted the crust
+  % lifted two inches and got no lifting --- both true, neither won.
+
+  \node at (0,1.62) {\pgfornament[width=0.78cm,color=ornament,opacity=0.26]{11}};
+
+  % —— the cupped hand, fingers spread and angled down ——
+  \fill[ink!50!faded, opacity=0.40]
+    (-2.30,0.98) .. controls (-2.56,1.10) and (-2.86,0.92) .. (-2.78,0.62)
+    .. controls (-2.70,0.40) and (-2.34,0.36) .. (-2.06,0.52) -- cycle;
+  \draw[ink!48!faded, line width=0.40pt, opacity=0.46, line cap=round]
+    (-2.30,0.98) .. controls (-2.56,1.10) and (-2.86,0.92) .. (-2.78,0.62)
+    .. controls (-2.70,0.40) and (-2.34,0.36) .. (-2.06,0.52);
+  % the thumb, folded in
+  \draw[ink!50!faded, line width=0.42pt, opacity=0.48, line cap=round]
+    (-2.30,0.90) .. controls (-2.02,0.98) and (-1.86,0.84) .. (-1.78,0.66);
+  % four fingers, with gaps between them
+  \foreach \fy in {0.92,0.80,0.68,0.56}{
+    \draw[ink!52!faded, line width=0.46pt, opacity=0.50, line cap=round]
+      (-2.10,\fy) .. controls (-1.66,\fy+0.04) and (-1.20,\fy-0.02) .. (-0.86,\fy-0.16);
+  }
+  \node[anchor=east, font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (-2.72,1.26)
+    {the lifted hand};
+
+  % —— the grains let fall back through the gaps ——
+  \foreach \gx/\gy in {-1.42/0.26,-1.18/0.14,-0.92/0.30,-0.70/0.18,
+                       -0.48/0.26,-0.30/0.10,-0.58/0.02,-0.10/0.22,
+                        0.08/0.06,-0.22/-0.08,0.24/0.14,0.34/-0.02,
+                        0.02/-0.16,-0.44/-0.14,-0.80/-0.04,0.18/-0.12}{
+    \fill[ornament!60!ink, opacity=0.56] (\gx,\gy) circle (0.030);
+  }
+
+  % —— the dressed grain heap, not spread ——
+  \fill[faded!40!ink, opacity=0.30]
+    (-1.30,-0.52) .. controls (-0.60,-0.20) and (0.60,-0.20) .. (1.30,-0.52)
+    .. controls (0.60,-0.66) and (-0.60,-0.66) .. (-1.30,-0.52) -- cycle;
+  \draw[ornament!50!ink, line width=0.42pt, opacity=0.46, line cap=round]
+    (-1.30,-0.52) .. controls (-0.60,-0.20) and (0.60,-0.20) .. (1.30,-0.52);
+  \foreach \gx/\gy in {-0.86/-0.40,-0.52/-0.30,-0.18/-0.34,0.20/-0.30,0.56/-0.36,0.90/-0.44}{
+    \fill[ornament!52!ink, opacity=0.44] (\gx,\gy) circle (0.026);
+  }
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46] at (0,-0.94)
+    {the dressed grain, not spread};
+
+  % —— the wool over the grain, one corner lifted (the dressing's edge) ——
+  \draw[faded!34!ink, line width=0.36pt, opacity=0.32, line cap=round]
+    (0.34,-0.44) .. controls (0.86,-0.34) and (1.30,-0.50) .. (1.64,-0.62)
+    .. controls (1.30,-0.76) and (0.76,-0.62) .. (0.34,-0.60);
+  \draw[rubric!48!ink, line width=0.38pt, opacity=0.44, line cap=round]
+    (0.34,-0.44) .. controls (0.28,-0.30) and (0.38,-0.22) .. (0.56,-0.24);
+
+  % —— a finger between, and the handful kept on a place of its own ——
+  \draw[faded!32!ink, line width=0.24pt, opacity=0.26,
+        dash pattern=on 1pt off 2.4pt] (2.10,-0.98) -- (2.10,0.90);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.40] at (2.10,1.04)
+    {a finger between};
+  \draw[ornament!50!ink, line width=0.38pt, opacity=0.42, line cap=round]
+    (2.90,0.02) circle (0.44);
+  \fill[rubric!50!ink, opacity=0.52] (2.90,0.02) circle (0.030);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46] at (2.90,-0.68)
+    {one object, unspent};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.32)
+    {lifted, let fall, and nothing paid};
+  \node at (0,-1.70) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{82}};
+\end{tikzpicture}
