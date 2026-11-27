@@ -2,7 +2,7 @@
 title: The Prayer Before the Tube, Being What a Collector Says into the Wool on the Clay Road, with the Manner of It, the Four Sayings Turned End for End, the Answer Made with the Hands, a Clerk's Correction and a Hearth-Maid's Margin
 kind: A collector's own order of service, carried in the wool sleeve of the cold-iron tube and said low before the draw; written without a name, in charcoal on the back of a voided district tally, with the rubrics of the road, seven parts and the answer made after each, the four sayings in the order a collector comes to them rather than the order the notice prints, one correction in the narrow upright Ledgerhand of a factor's clerk, the thick charcoal of a hearth-maid come up from Low Kiln, and two lines at the foot that will not lie down together
 provenance: Written between Greybank and Sill on the Clay Road in the last tend of Ash, Y.H. 812, the Thin Year, by a collector of the lower road who signs with a crossed tube and not with a name, and carried back through the Five in the wool sleeve of the tube, which is why there is iron in every fold; borrowed at Greybank by a clerk of the factor, who set the four sayings right at the head and wrote against the grey fingers, and read over by a hearth-maid from Low Kiln on a market morning at the Cross, who put four lines in the margin with a stick of charcoal. It survives as one leaf folded small enough for a coat pocket: cold-iron filings ground into the head, a grey wool fibre from the tube's sleeve, a green bead of lead glaze in the lower corner, frost-crisp along one edge where it lay against the outer fold of a coat on the Rim Road in Stone, a tallow thumb, a ring of small ale gone dark, silt in the gutter from the assessor's step at Sill, and a grey Ash print along the foot that nobody will own.
-relates_to: [the Return, the Keeping, the Warm Court, collector, cold iron, the tube, the draw, the slate, Ledgerhand, the measure, embers, one in twelve, the deduction, the four sayings, the Cross, the clay road, Sill, Slate Row, the collector's table, Greybank, the factor at Greybank, Low Kiln, hearth-maids, whole return, thin return, the cradle, grey fingers, the Ash, the full note, the flat note, the Waiting Room, the Hearth Drawing, the Hearth, the Waste, Grathic, bit, mark, the bell at the Cross]
+relates_to: [the Return, the Keeping, the Warm Court, collector, cold iron, the tube, the draw, the slate, Ledgerhand, the measure, embers, one in twelve, the deduction, the four sayings, the Cross, the Clay Road, Sill, Slate Row, the collector's table, Greybank, the factor at Greybank, Low Kiln, hearth-maids, whole return, thin return, the cradle, grey fingers, the Ash, the full note, the flat note, the Waiting Room, the Hearth Drawing, the Hearth, the Waste, Grathic, bit, mark, the bell at the Cross]
 ---
 
 I have drawn measure on this road for nine years and I have never once said the four sayings in the order they are printed. They are printed for a room. They are said in a clean voice by a clerk who has never held the tube, with the slate face up and the man already on the pallet and the door shut behind him. On the road we turn them end for end. It is not doctrine. It is the order in which a collector comes to them, which is a different thing and the only one I can answer for.
@@ -16,10 +16,10 @@ I wrote this on the back of a district tally voided for a figure entered in the 
 - Wrap the tube before you say the prayer, not after. A man can hold iron while he speaks, but he will not speak well with his fingers going the colour of the sky before snow.
 - Stand with the road at your back and the house in front. The house is what you are about to take from. The road has no opinion and will not follow you home.
 - Do not look at the face. Look at the arm, where the ways run near the skin. A face will tell you nothing you can use, and a thing you cannot use is a thing you will remember, which is worse.
-- Say it into the wool, not into the air. Words said into the air go up and get entered somewhere. The wool keeps them for the length of one draw and then lets them go, which is as much as any prayer of mine is owed.
+- Say it into the wool, not into the air. Words said into the air go up and get entered somewhere. The wool keeps them one draw and lets them go, which is as much as any prayer of mine is owed.
 - Count the draws on the fingers afterwards, never before. A figure counted before the draw is a figure you have already decided, and a decided figure is the same thing as a false one with the ink dry.
 - If the bell comes off the Cross four and four and a gap, stop at the gap. The gap belongs to somebody else. Begin again when the bell has finished counting what it counts.
-- Never say it twice over one man. A second prayer is an argument with the first, and the first was the honest one, being said before I knew how much he had.
+- Never say it twice over one man. A second prayer argues with the first, and the first was honest, being said before I knew how much he had.
 
 # The prayer
 
@@ -33,7 +33,7 @@ I wrote this on the back of a district tally voided for a figure entered in the 
 > I am the hand that holds you to the way. I am not the way,
 > and I am not the taking, whatever the slate may say later.
 
-Here I draw the tube through the wool a second time, so that the sleeve keeps its shape for the next man. It is a small care and costs nothing, which is why I keep it and have entered nowhere.
+Here I draw the tube through the wool again, so the sleeve keeps its shape for the next man. A small care, and costs nothing, which is why I keep it and enter it nowhere.
 
 *The answer is made: wrap the iron. Turn the slate. Wipe the hand.*
 
@@ -45,7 +45,7 @@ Here I draw the tube through the wool a second time, so that the sleeve keeps it
 > A good arm gives full and gives quickly. A worn arm gives flat,
 > and the figure is smaller, which is not smaller to the man.
 
-Here I set the cold rim against the way and wait for the small hiss. There is no ceremony in it. There is iron, a smell like wet wool put near a fire, and the time it takes to write a figure down.
+Here I set the cold rim to the way and wait for the small hiss. There is iron, a smell like wet wool near a fire, and the time it takes to write a figure down.
 
 *The answer is made: wrap the iron. Turn the slate. Wipe the hand.*
 
@@ -56,7 +56,7 @@ Here I set the cold rim against the way and wait for the small hiss. There is no
 > One in twelve, as the notice says. Printed. Read twice,
 > once for the moot and once for those who came late up the road.
 > I write the printed figure. What the district pays is not my hand,
-> and the man who set the other figure has gone up the clay road with it
+> and the man who set the other figure has gone up the Clay Road with it
 > and does not carry it in the open.
 
 Here I read the figure twice, low, into the wool. The second is for the person at the door who came too late to be counted and stands in the draught.
@@ -70,7 +70,7 @@ Here I read the figure twice, low, into the wool. The second is for the person a
 > *The account stands.* It stands after the man sits down. It does not stand while he is standing.
 > *The measure is banked.* Last, because it is the true one and the one I do the most.
 
-The clerk set these in their proper order above mine, with *as appointed* written against them. Both stand. His is the order in which a clerk prints a thing for a room. Mine is the order in which a collector comes to it, which begins with the record and ends with the taking. I have not put my hand under his here. I have put it beside.
+The clerk set these in their proper order above mine, with *as appointed* against them. Both stand. His is the order a clerk prints for a room; mine begins with the record and ends with the taking. I have put my hand beside his, not under it.
 
 *The answer is made: wrap the iron. Turn the slate. Wipe the hand.*
 
@@ -144,4 +144,4 @@ Struck once and written again underneath, very small:
 
 > Neither order is said to the arm.
 
-I asked the clerk, the hearth-maid and a man who holds a slate at the Cross, and had three answers and no hand. I have left the struck line where it was struck. The leaf goes back into the wool and the wool over the tube. At the Hearth Drawing the first measure of the year will come off this iron on this road, and I shall say the four sayings backwards into the wool, and the clerk will set them right above my words, and the hearth-maid will come up from Low Kiln with a stone in her hand and will not give it to me until I have finished, which is the only order of service I have kept nine years without correction.
+I asked the clerk, the hearth-maid and a slate-holder at the Cross, and had three answers and no hand. I have left the struck line where it was struck. The leaf goes back into the wool, the wool over the tube. At the Hearth Drawing the first measure of the year will come off this iron on this road, and I shall say the four sayings backwards into the wool, and the clerk will set them right above my words, and the hearth-maid will come up from Low Kiln with a stone in her hand and will not give it to me until I have finished, which is the only order of service I have kept nine years without correction.
