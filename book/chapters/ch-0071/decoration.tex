@@ -1,0 +1,63 @@
+\begin{tikzpicture}
+  % The chapter's heart: the hand's honest answerings. Two notes of the river
+  % stand each on its own place, and the silence between them is kept empty on
+  % a third --- not a miss, and no house count borrowed to fill it. One rhythm
+  % is carried over both and on past the second, and lands on nothing; agreeing
+  % any two of the counts would want a payer and none stands to any of them.
+  % What the grain cost stays where no slate goes.
+
+  % —— the river, water over water, through the finger's-width door ——
+  \draw[faded!42!ink, line width=0.34pt, opacity=0.20, line cap=round]
+    (-4.30,-0.55) .. controls (-3.20,-0.34) and (-2.20,-0.76) .. (-1.10,-0.55)
+    .. controls (0.00,-0.34) and (1.10,-0.76) .. (2.20,-0.55)
+    .. controls (3.20,-0.34) and (4.00,-0.76) .. (4.30,-0.55);
+  \draw[faded!34!ink, line width=0.30pt, opacity=0.16, line cap=round]
+    (-4.30,-0.98) .. controls (-3.00,-0.78) and (-2.00,-1.18) .. (-0.90,-0.98)
+    .. controls (0.20,-0.78) and (1.30,-1.18) .. (2.40,-0.98)
+    .. controls (3.30,-0.78) and (4.00,-1.18) .. (4.30,-0.98);
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.12, line cap=round]
+    (-3.60,-1.30) .. controls (-2.20,-1.16) and (1.20,-1.46) .. (3.60,-1.30);
+
+  % —— the first low note, on its own place ——
+  \fill[gold!62!ornament, opacity=0.58] (-1.92,-0.55) ellipse (0.095 and 0.058);
+  \draw[faded!58!ink, line width=0.38pt, opacity=0.34, line cap=round]
+    (-1.92,-0.55) -- (-1.92,-0.02);
+
+  % —— the second low note, on another place ——
+  \fill[gold!62!ornament, opacity=0.58] (1.92,-0.55) ellipse (0.095 and 0.058);
+  \draw[faded!58!ink, line width=0.38pt, opacity=0.34, line cap=round]
+    (1.92,-0.55) -- (1.92,-0.02);
+
+  % —— the silence between, kept empty on a third place, filled by nothing ——
+  \draw[faded!44!ink, line width=0.32pt, opacity=0.24]
+    (0,-0.55) ellipse (0.13 and 0.070);
+  \draw[faded!36!ink, line width=0.26pt, opacity=0.16, line cap=round]
+    (-0.32,-0.78) -- (0.32,-0.78);
+  \draw[faded!36!ink, line width=0.26pt, opacity=0.16, line cap=round]
+    (-0.32,-0.86) -- (-0.32,-0.70);
+  \draw[faded!36!ink, line width=0.26pt, opacity=0.16, line cap=round]
+    (0.32,-0.86) -- (0.32,-0.70);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.54] at (0,0.46)
+    {kept empty};
+
+  % —— one rhythm carried over both, crossing no second count, on past the last ——
+  \draw[gold!68!ornament, line width=0.95pt, opacity=0.56, line cap=round]
+    (-2.55,-0.12) .. controls (-2.05,0.34) and (-1.05,0.30) .. (-0.35,0.02)
+    .. controls (0.35,-0.26) and (1.05,0.30) .. (1.72,0.06)
+    .. controls (2.20,-0.10) and (2.70,0.16) .. (3.05,0.42);
+  \draw[gold!72!ornament, line width=0.95pt, opacity=0.60, line cap=round]
+    (3.05,0.42) -- (3.05,0.66);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.56] at (3.34,0.72)
+    {past the note};
+
+  % the small intake held, an inch raised and not a reaching
+  \draw[faded!48!ink, line width=0.30pt, opacity=0.22, line cap=round]
+    (-2.55,-0.12) .. controls (-2.62,-0.24) and (-2.58,-0.36) .. (-2.48,-0.42);
+
+  \node at (-4.45,-0.58) {\pgfornament[width=1.0cm,color=ornament,opacity=0.26]{6}};
+  \node at ( 4.45,-0.58) {\pgfornament[width=1.0cm,color=ornament,opacity=0.26,symmetry=v]{6}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {a rhythm carried, and nothing filled};
+  \node at (0,-1.88) {\pgfornament[width=0.9cm,color=ornament,opacity=0.24]{11}};
+\end{tikzpicture}
