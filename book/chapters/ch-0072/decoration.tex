@@ -1,0 +1,87 @@
+\begin{tikzpicture}
+  % The chapter's heart: the figure goes up the road with the box shut, and
+  % the wool lies where it lay. Three readings are three and not one account:
+  % the count is read over the basket, locked away and carried up the clay
+  % road, yet it never comes to rest on the covered grain below. The figure
+  % read is still not the figure paid. The warm arithmetic cannot be made
+  % cold again, and the space between stays unsigned.
+
+  % —— the clay road, rising to the right ——
+  \draw[faded!40!ink, line width=0.40pt, opacity=0.24, line cap=round]
+    (-4.45,-1.16) .. controls (-2.60,-0.70) and (-0.10,0.02) .. (3.30,0.86);
+  \draw[faded!34!ink, line width=0.34pt, opacity=0.18, line cap=round]
+    (-4.45,-0.80) .. controls (-2.60,-0.36) and (-0.10,0.36) .. (3.30,1.20);
+  \foreach \rx/\ry in {-3.40/-0.71, -1.60/-0.26, 1.30/0.51, 2.70/0.87}{
+    \draw[faded!32!ink, line width=0.26pt, opacity=0.14, line cap=round]
+      (\rx - 0.02,\ry - 0.15) -- (\rx + 0.02,\ry + 0.15);
+  }
+
+  % —— the shut box going up the road, the true subtraction inside ——
+  \begin{scope}[shift={(0.55,0.33)}, rotate=14]
+    \fill[faded!12!vellum, opacity=0.86]
+      (-0.48,-0.26) rectangle (0.48,0.26);
+    \draw[ornament!70!ink, line width=0.62pt, opacity=0.62]
+      (-0.48,-0.26) rectangle (0.48,0.26);
+    \draw[faded!54!ink, line width=0.44pt, opacity=0.42]
+      (-0.48,0.10) -- (0.48,0.10);
+    \draw[faded!46!ink, line width=0.34pt, opacity=0.30]
+      (-0.40,-0.18) -- (0.40,-0.18);
+    \draw[faded!50!ink, line width=0.30pt, opacity=0.32]
+      (-0.06,0.16) -- (0.06,0.16);
+    \fill[rubric!60!ornament, opacity=0.72] (0,-0.02) circle (0.062);
+    \draw[ink!60, line width=0.40pt, opacity=0.55]
+      (0,-0.02) -- (0,-0.13);
+  \end{scope}
+
+  % —— the figure carried up the road: three readings, kept apart ——
+  \draw[gold!66!ornament, line width=0.95pt, opacity=0.58, line cap=round]
+    (1.00,0.62) .. controls (1.75,0.82) and (2.55,0.94) .. (3.20,1.12);
+  \draw[gold!72!ornament, line width=0.95pt, opacity=0.62, line cap=round]
+    (3.20,1.12) -- (3.00,1.04);
+  \draw[gold!72!ornament, line width=0.95pt, opacity=0.62, line cap=round]
+    (3.20,1.12) -- (3.12,0.92);
+  \foreach \fx/\fy in {1.45/0.78, 2.15/0.90, 2.82/1.02}{
+    \draw[rubric!58!ink, line width=0.52pt, opacity=0.58, line cap=round]
+      (\fx,\fy) -- (\fx,\fy + 0.22);
+    \draw[rubric!50!ink, line width=0.44pt, opacity=0.48, line cap=round]
+      (\fx + 0.10,\fy + 0.03) -- (\fx + 0.10,\fy + 0.19);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.56] at (3.92,0.80)
+    {up the road};
+
+  % —— the reading never lands on the covered grain: a line that stops ——
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.18,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (0.10,-0.06) .. controls (-0.45,-0.34) and (-0.95,-0.58) .. (-1.42,-0.74);
+  \draw[faded!38!ink, line width=0.30pt, opacity=0.16, line cap=round]
+    (-1.42,-0.84) -- (-1.42,-0.64);
+
+  % —— the wool, lying where it lay, on the cool stone ——
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.20, line cap=round]
+    (-4.05,-1.28) .. controls (-3.20,-1.34) and (-2.20,-1.34) .. (-1.45,-1.28);
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.12, line cap=round]
+    (-3.92,-1.46) .. controls (-3.00,-1.52) and (-2.20,-1.52) .. (-1.58,-1.46);
+  \draw[faded!32!ink, line width=0.28pt, opacity=0.14]
+    (-4.05,-1.28) -- (-3.92,-1.46);
+  \draw[faded!32!ink, line width=0.28pt, opacity=0.14]
+    (-1.45,-1.28) -- (-1.58,-1.46);
+  \fill[gold!24!ash, opacity=0.42]
+    (-2.75,-1.20) ellipse (0.86 and 0.24);
+  \fill[ash!10!vellum, opacity=0.90]
+    (-3.55,-1.16)
+      .. controls (-3.44,-0.76) and (-2.70,-0.60) .. (-2.02,-0.80)
+      .. controls (-2.30,-1.00) and (-3.00,-1.10) .. (-3.55,-1.16) -- cycle;
+  \draw[faded!62!ink, line width=0.44pt, opacity=0.36, line cap=round]
+    (-3.55,-1.16) .. controls (-3.44,-0.76) and (-2.70,-0.60) .. (-2.02,-0.80);
+  \draw[faded!54!ink, line width=0.38pt, opacity=0.30, line cap=round]
+    (-2.02,-0.80) .. controls (-2.30,-1.00) and (-3.00,-1.10) .. (-3.55,-1.16);
+  \draw[faded!46!ink, line width=0.28pt, opacity=0.22, line cap=round]
+    (-3.20,-1.06) .. controls (-2.86,-0.82) and (-2.40,-0.80) .. (-2.16,-0.88);
+
+  \node at (-3.42,-1.66) {\pgfornament[width=1.1cm,color=ornament,opacity=0.26]{80}};
+  \node at ( 3.42,-1.66) {\pgfornament[width=1.1cm,color=ornament,opacity=0.26,symmetry=v]{80}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.66)
+    {three readings, not one account};
+  \node at (0,-1.92) {\pgfornament[width=0.9cm,color=ornament,opacity=0.24]{12}};
+\end{tikzpicture}
