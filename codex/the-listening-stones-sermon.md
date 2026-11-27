@@ -23,7 +23,7 @@ The pale at the head is lead dust off the survey-sheet; no brushing takes it out
 - If the stone sweats and the smell of hot lead comes up, go down without counting the hour. The mountain gives warning once.
 - When a man with a slate comes among the sitters, stop, and begin again after. His figure is for a room below. Do not lay the two together.
 
-He said the last twice, once to the stone and once to a man in a Keldish coat who was writing nothing I could see.
+He said the last twice, once to the stone and once to a man in a Keldish coat writing nothing I could see.
 
 # The sermon, as he said it
 
@@ -47,7 +47,7 @@ He drew the hand back and looked at the palm as a man looks at a tool set down i
 >
 > The stone keeps the number; it does not say of whom.
 
-> *Margin, in my hand:* He used the Vorr word for *correct* that also means *unmoved*, as a stone is unmoved when the wind goes over it. I have set *correct* because that is the word the Keep uses in its answer. He would not have the other word written.
+> *Margin, in my hand:* He used a Vorr word for *correct* that also means *unmoved*, as a stone is unmoved in wind. I set *correct*, the Keep's word. He would not have the other written.
 
 ## Of the arm
 
@@ -69,7 +69,7 @@ The duellist said that a number a man could not show was no use in a duel, and s
 
 ## Of the oldest repair
 
-A surveyor of the seam stood at the edge with his slate turned face down against his forearm, which is how surveyors carry a thing they will not have read over in the wind.
+A surveyor of the seam stood at the edge, his slate turned face down against his forearm, as surveyors carry a thing they will not have read over in the wind.
 
 “He will tell you,” Om said, without looking at him, “that the rim-seam shows repair laid over repair, that the oldest are not stone and not clay, and that in the record they look like language. Then he will stop and turn his slate face down, because the man who wrote the entry before his was taken out of the shaft.”
 
@@ -107,7 +107,7 @@ He put the palm back for the last time. The snow in the joint had not moved whil
 
 # The sitting-song
 
-*Sung low, seated, with the palm on the stone. The Keldish take the second and fourth lines; the Vorr take the last two. The number is not spoken at any sitting, and I have left the space the length of its not being spoken.*
+*Sung low, seated, palm on the stone. The Keldish take the second and fourth lines; the Vorr take the last two. The number is not spoken, and I have left the space its length.*
 
 > Sat from forty and the snow in the joint,
 > the stone gave a number and keeps its own;
@@ -126,11 +126,11 @@ He put the palm back for the last time. The snow in the joint had not moved whil
 > the count is correct and the count is not ours,
 > and the hand goes down with the number in it.
 
-A girl from the shelter asked what the space was for. Nobody answered her. The clerk put a round nought against it on the third day, which I have left where he set it.
+A girl asked what the space was for. Nobody answered her. The clerk put a round nought against it, which I have left where he set it.
 
 # The stone-tally, as the shelter keeps it
 
-*A warm-stone goes out with a sitter and comes back with him, or does not. These sittings I set down where they stood. The numbers are not entered, because no number has ever been given out at these stones.*
+*A warm-stone goes out with a sitter and comes back with him, or does not. These sittings I set down where they stood, and the numbers are not entered, because no number has been given out at these stones.*
 
 | Stone | Who sat | What was asked of the stone | What the stone gave |
 |---|---|---|---|
@@ -157,7 +157,7 @@ I have put the verbs back underneath and left his hand standing above, as the st
 
 # At the head and in the fold
 
-The lead at the head grates between the teeth if a person is foolish enough to test it; the glass-men do that once and do not do it again. The grit is stone dust ground by every palm that has sat here, and I know a sitter by it. The chip in the fold has not lost all its heat, which is what warm-stone does. The tallow is mine; I held the leaf down in the wind and did not know I had marked it. The iron in the gutter is filings off the wire at the tie. The grey came off a cuff and I have not swept it. The wet ring is the tin of snow, set down while he spoke of the arm. The lichen lay in the crease when I took the leaf from the spoiled sheet, and I have left it. The clerk noticed none of these things, which is how I know he is a good clerk.
+The lead at the head grates between the teeth if a person is foolish enough to test it; the glass-men do that once and do not do it again. The grit is stone dust ground by every palm that has sat here, and I know a sitter by it. The chip in the fold has not lost all its heat, which is what warm-stone does. The tallow is mine; I held the leaf down in the wind and did not know I had marked it. The iron in the gutter is filings off the wire at the tie. The grey came off a cuff and I have not swept it. The wet ring is the tin of snow, set down while he spoke of the arm. The lichen lay in the crease when I took the leaf from the sheet, and I have left it. The clerk noticed none of these things, which is how I know he is a good clerk.
 
 # At the foot
 
@@ -169,4 +169,4 @@ Struck through once and written again underneath, very small, in a hand that is 
 
 I asked Om, the surveyor, the duellist and the clerk, and had four answerings and no hand. I have left the line struck through and standing, the only honest way to keep a sentence you cannot sign.
 
-The leaf goes back in the tin with the warm-stone chip in its fold and the wire tied as it was. Next Stone the sitters will come up the five leagues from Keld Keep with snow in the joints, and a Vorr will lay a palm to the Fourth and come away with a number he will not spend. If the clerk comes I shall let him take the verbs out and put them back, and leave the nought in its place and the number where it was not spoken.
+The leaf goes back in the tin with the warm-stone chip in its fold and the wire tied as it was. Next Stone the sitters will come up the five leagues from Keld Keep with snow in the joints, and a Vorr will lay a palm to the Fourth and come away with a number unspent. If the clerk comes I shall let him take the verbs out and put them back, and leave the nought in its place and the number where it was not spoken.
