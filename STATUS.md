@@ -2,7 +2,7 @@
 
 - Chapters complete: **67**
 - Words of story: **1,164,180**
-- Current chapter: 67 (step: publish, scene 7)
+- Current chapter: 68 (step: plan, scene 1)
 - Last chapter: The Count Kept in Wood (Days 252–254 · Smoke 13–15, Y.H. 813)
 - Author calls so far: 744 (tokens in 128,110,904, out 16,398,453)
 - Updated: 2026-11-27 10:06
