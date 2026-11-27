@@ -1067,6 +1067,16 @@ The twelfth link of the Cold Acre well-chain, which hangs in the drawer's hand a
 The bare ring of ground that goes around the Cold Acre well where the frost will not hold and the ground stays dark and a little soft to the boot. Here the children pass the stone behind their backs through eight turnings and leave the untaken turn standing with a shut fist on the curb; a child is brought back only by another taking the stone and breathing on it twice. They do not play in the Five or on a market-day while the Ash barrow passes. Drawn on `atlas/cold-acre`.
 **Relations:** Around the well that never freezes at Cold Acre.
 
+### The untaken turn
+**Kind:** place in a children's game, ground. **Region:** the bare ring, Cold Acre.
+The turn that stands when the stone stops passing at the eighth line of the Cold Acre well-game: the child shuts her fist on the stone, sets the fist on the curb and does not open it. She is brought back only when another child takes the stone from her hand, breathes on it twice and puts it back. Drawn on `atlas/cold-acre`.
+**Relations:** On the stone curb of the well that never freezes, inside the bare ring.
+
+### The place where the thirteenth would stand
+**Kind:** empty place, margin of a song. **Region:** the well that never freezes, Cold Acre.
+The empty place in the Cold Acre drawing-song, between *six for the houses, six for the dead* and the coming of the bell. Nobody answered what it was for; an assessor's clerk put a round nought against it later and left it where he set it. Drawn on `atlas/cold-acre`.
+**Relations:** Kept in the drawing-song of the well that never freezes, marked on the chart by a red nought beside the curb.
+
 ### The barley strips and turnip ground of Cold Acre
 **Kind:** worked ground. **Region:** Cold Acre, Grath.
 The furrowed barley strips and the short turnip rows of the six houses, standing grey with frost in their edges in Frost while the ground around the well stays bare. Kess of Cold Acre keeps the barley measure and the seed account for the six houses. Drawn on `atlas/cold-acre`.
