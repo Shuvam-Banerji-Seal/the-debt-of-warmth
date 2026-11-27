@@ -1,0 +1,80 @@
+\begin{tikzpicture}
+  % The chapter's heart: the hand that stayed. It came up one inch toward the
+  % river's note, took its small intake, let it go whole --- and did not come
+  % straight down. It stayed at the inch for the space of the note's fading,
+  % held and not reaching; the two inches to the crust stayed unclosed.
+  % The surgeon read a clamp left after bleeding; the infant, a hand still
+  % wanting. Both true, neither won. One staying is a keeping, two a habit,
+  % and a habit wants a payer --- so it was not made again.
+
+  % —— the river's note, fading before it comes to the hand ——
+  \foreach \i in {0,1,2,3,4,5}{
+    \pgfmathsetmacro{\op}{0.44 - \i*0.062}
+    \pgfmathsetmacro{\x}{-3.40 + \i*0.78}
+    \draw[faded!42!ink, line width=0.34pt, opacity=\op, line cap=round]
+      (\x,1.14) .. controls (\x+0.26,1.28) and (\x+0.52,1.02) .. (\x+0.78,1.14);
+  }
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46] at (-2.50,1.42)
+    {the note fades};
+
+  % —— the fold the hand came up from ——
+  \draw[faded!36!ink, line width=0.46pt, opacity=0.34, line cap=round]
+    (-3.58,-0.88) .. controls (-3.32,-0.30) and (-3.74,0.20) .. (-3.50,0.94);
+  \draw[faded!30!ink, line width=0.30pt, opacity=0.24, line cap=round]
+    (-3.30,-0.82) .. controls (-3.08,-0.28) and (-3.48,0.20) .. (-3.26,0.88);
+  \node[anchor=east, font=\CinzelFont\scriptsize, text=faded, opacity=0.40]
+    at (-3.66,-1.00) {the fold};
+
+  % —— the line of the reach, the inch come up, the two inches unclosed ——
+  \draw[faded!30!ink, line width=0.24pt, opacity=0.24, line cap=round]
+    (-3.32,-0.32) -- (3.28,-0.32);
+  \draw[ornament!52!ink, line width=0.54pt, opacity=0.52, line cap=round]
+    (-3.06,-0.32) -- (-0.82,-0.32);
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.36] (-3.06,-0.44) -- (-3.06,-0.20);
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.36] (-0.82,-0.44) -- (-0.82,-0.20);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (-1.92,-0.66)
+    {one inch come up};
+
+  \draw[faded!38!ink, line width=0.30pt, opacity=0.36,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (-0.06,-0.32) -- (2.46,-0.32);
+  % a finger between the hand and the crust, joining nothing
+  \draw[faded!34!ink, line width=0.26pt, opacity=0.30,
+        dash pattern=on 1pt off 2pt] (1.16,-0.52) -- (1.16,-0.12);
+
+  % —— the hand itself, held at the inch ——
+  \fill[ink!56!faded, opacity=0.42] (-0.46,0.00) circle (0.34 and 0.24);
+  \draw[ink!48!faded, line width=0.32pt, opacity=0.40, line cap=round]
+    (-0.46,0.00) circle (0.34 and 0.24);
+  \foreach \fy in {-0.10,0.00,0.10,0.20}{
+    \draw[ink!52!faded, line width=0.40pt, opacity=0.46, line cap=round]
+      (-0.20,\fy) -- (0.10,\fy+0.03);
+  }
+  \draw[ink!50!faded, line width=0.38pt, opacity=0.42, line cap=round]
+    (-0.66,-0.18) .. controls (-0.46,-0.34) .. (-0.26,-0.28);
+  \draw[faded!40!ink, line width=0.44pt, opacity=0.38, line cap=round]
+    (-0.80,0.00) -- (-1.06,0.00);
+  % the stay: two small rubric marks, like a breath held
+  \draw[rubric!52!ink, line width=0.46pt, opacity=0.52, line cap=round]
+    (-0.46,0.32) -- (-0.46,0.48);
+  \draw[rubric!52!ink, line width=0.46pt, opacity=0.52, line cap=round]
+    (-0.46,-0.34) -- (-0.46,-0.50);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=rubric, opacity=0.60]
+    at (-0.86,0.66) {held, and not reaching};
+
+  % —— the crust two inches off, its corner a hair up from the wool ——
+  \fill[ink!64!faded, opacity=0.54]
+    (2.44,-0.44) .. controls (2.60,-0.30) and (2.98,-0.30) .. (3.12,-0.44)
+    .. controls (2.98,-0.56) and (2.60,-0.56) .. (2.44,-0.44) -- cycle;
+  \draw[ornament!46!ink, line width=0.34pt, opacity=0.42, line cap=round]
+    (2.44,-0.44) .. controls (2.60,-0.30) and (2.98,-0.30) .. (3.12,-0.44);
+  \draw[rubric!50!ink, line width=0.40pt, opacity=0.50, line cap=round]
+    (3.12,-0.44) .. controls (3.20,-0.52) and (3.24,-0.56) .. (3.28,-0.58);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46] at (2.34,-0.80)
+    {two inches, unclosed};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.32)
+    {staying is not reaching};
+  \node at (0,-1.70) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{87}};
+\end{tikzpicture}

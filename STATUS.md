@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **86**
-- Words of story: **1,522,332**
-- Current chapter: 87 (step: plan, scene 1)
-- Last chapter: The Number That Did Not Know (Days 309–311 · Bone 10–12, Y.H. 813)
-- Author calls so far: 939 (tokens in 167,022,837, out 21,003,486)
-- Updated: 2026-11-27 22:47
+- Chapters complete: **87**
+- Words of story: **1,541,672**
+- Current chapter: 87 (step: publish, scene 7)
+- Last chapter: The Hand That Stayed (Days 312–314 · Bone 13–15, Y.H. 813)
+- Author calls so far: 949 (tokens in 168,883,349, out 21,242,825)
+- Updated: 2026-11-27 23:20
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
