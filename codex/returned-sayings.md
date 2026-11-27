@@ -7,15 +7,15 @@ relates_to: [the Return, the returned, the collected, whole return, thin return,
 
 I keep the return-slate in the lower room at Greybank. My trade is to write what a person booked at and what came out of the pouring, which are two figures and never the same one. A woman came down from Low Kiln in the Thin Year with a child returned thin and asked what the child's liking for a cup meant. I told her to ask the child. She said the child could not speak yet. I told her the cup could not speak either, and the two would have to manage between them, which is how most arrangements here begin.
 
-So I have set down what the returned say to one another on the bench against the wall, between the drawing and the pouring, when they have been emptied of one figure and not yet pressed into another. Some have been poured three times and answer to the wrong name. They talk in a low mixed speech, Grathic at the ends and something else in the middle, because measures from four countries get pressed into one room and no one grammar survives the pressing. I have written it in Grathic letters and left a southern word standing where ours would not come.
+So I have set down what the returned say on the bench against the wall, between the drawing and the pouring, emptied of one figure and not yet pressed into another. Some have been poured three times and answer to the wrong name. They talk in a low mixed speech, Grathic at the ends and something else in the middle, because measures from four countries get pressed into one room and no one grammar survives the pressing. I have written it in Grathic letters and left a southern word standing where ours would not come.
 
-Say these to the cup, the cradle, the fire, never to the person returned. Said looking at a person, one of these sentences becomes a question with an answer owed, and there is not one sentence here with an answer owed in it. A woman banked three times will say the same sentence to the same child in a different voice, and the child will hear the difference.
+Say these to the cup, the cradle, the fire, never to the person returned. Said looking at a person, a sentence becomes a question with an answer owed, and not one here has an answer owed in it. A woman banked three times will say the same sentence to the same child in a different voice, and the child will hear the difference.
 
 # Of the cup and the hand that goes first
 
 1. “The hand goes to the cup before the eyes go to the face.”
 
-*Gloss — What the women at the cradle say of a thin return. Many measures are pooled and divided, and what comes back is a stranger with a liking for a table he never sat at and a hand that reaches for a cup before he has seen it. The Low Kiln woman asked whether her child remembered her. I told her the hand remembered the cup and the rest was still to be made, and she took that as kindly as if I had promised her something, which I had not.*
+*Gloss — What the women at the cradle say of a thin return. Measures are pooled and divided, and what comes back is a stranger with a liking for a table he never sat at and a hand that reaches for a cup before he has seen it. The Low Kiln woman asked whether her child remembered her. I told her the hand remembered the cup and the rest was still to be made, and she took that as kindly as if I had promised her something, which I had not.*
 
 2. “Come back as you can. Nobody comes back as they were.”
 
@@ -27,7 +27,7 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 4. “A man banked past three is an unsafe marriage.”
 
-*Gloss — Not a jest. Across Sarn a person poured more than three times is held unsafe to marry, because the Second Want may arrive in a child's body wearing the wrong face. The physicians struck the word from their records in Y.H. 651 and went on writing the thing under the name of the afterdrop. The old women at the cradle still say the first word when no officer is listening. I have left both names standing, as the slate keeps the newer figure over the older one.*
+*Gloss — Not a jest. Across Sarn a person poured more than three times is held unsafe to marry, because the Second Want may arrive in a child's body wearing the wrong face. The physicians struck the word from their records in Y.H. 651 and went on writing the thing as the afterdrop. The old women at the cradle still say the first word when no officer listens. I have left both names standing, as the slate keeps the newer figure over the older one.*
 
 # Of what is paid and who is named
 
@@ -37,11 +37,11 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 6. “One in twelve is printed. The other one goes into the house.”
 
-*Gloss — We in the bank know two figures. The notice says one part in twelve for the Hearth; in the households below the terrace of Low Kiln the part that goes into the slate and the part that goes out of the house are different, and the difference has no name because a thing with a name can be argued with. A returned person learns it not from a notice but from how cold the house is in the morning.*
+*Gloss — We in the bank know two figures. The notice says one in twelve for the Hearth; in Low Kiln the part that goes into the slate and the part that goes out of the house are different, and the difference has no name because a thing with a name can be argued with. A returned person learns it from how cold the house is in the morning.*
 
 7. “The fire under the cradle is lit by somebody who is not named at the feast.”
 
-*Gloss — Every hearth touches its flame from the carried coal, and nobody says where the first coal came from or who kept it through the Five. In Sere the fire stands in the open court and a man may singe his wrist in it; here it is brought under a pot and counted. The returned say this when a house has been given a warm child and no fuel. Ask who paid and you will be told to ask the fire, which is an answer given by people who asked the same thing at their own cradle.*
+*Gloss — Every hearth touches its flame from the carried coal, and nobody says where the first coal came from or who kept it through the Five. In Sere the fire stands in the open court and a man may singe his wrist; here it is brought under a pot and counted. The returned say this when a house has been given a warm child and no fuel. Ask who paid and you will be told to ask the fire, which is an answer given by people who asked the same thing at their own cradle.*
 
 8. “Quiet ash stops the voice. It does not stop the wanting.”
 
@@ -55,15 +55,15 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 10. “Worse before better is the order of it.”
 
-*Gloss — The afterdrop: a rekindled child grows worse on the third day, and a hearth-maid warms a stone against her own wrist before she puts it to the child. They keep it. They keep it anyway. In the south they pour a second bowl and applaud; the hand steadies for an hour and is worse by evening. Neither sentence asks what the first bowl took.*
+*Gloss — The afterdrop: a rekindled child grows worse on the third day, and a hearth-maid warms a stone against her own wrist before putting it to the child. They keep it. They keep it anyway. In the south they pour a second bowl and applaud; the hand steadies for an hour and is worse by evening. Neither asks what the first bowl took.*
 
 11. “They read four over us. We answer with one.”
 
-*Gloss — At the pouring the officer reads the four sayings of the Keeping in the clean voice, and the house answers in its own words. In the lower room the answer is a single word said to the cradle: warm. The house keeps a place where a fifth would stand and does not say what stands in it. I have left the place the length of it here, and have not put a nought in it.*
+*Gloss — At the pouring the officer reads the four sayings of the Keeping in the clean voice, and the house answers in its own words. In the lower room the answer is one word said to the cradle: warm. The house keeps a place where a fifth would stand and does not say what stands in it. I have left the place the length of it here, and put no nought in it.*
 
 12. “A thin return is nobody's fault and everybody's child.”
 
-*Gloss — The district pays thirty marks and the measures are pooled, so no household can be told which of its dead came back in this cradle. We feed them. We do not ask them to remember us. A clerk at the factor's house wrote *value nil* against a man exhibited at a feast with a coin held flat in his palm, and the man let a girl take the coin for a crust. There is no figure for the hand that let her.*
+*Gloss — The district pays thirty marks and the measures are pooled, so no household can be told which of its dead came back in this cradle. We feed them and do not ask them to remember us. A clerk at the factor's house wrote *value nil* against a man exhibited at a feast with a coin held flat in his palm, and the man let a girl take it for a crust. There is no figure for the hand that let her.*
 
 # Of the question and the refusal
 
@@ -73,7 +73,7 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 14. “A name said at home is a door. A number is a hole in the wall.”
 
-*Gloss — The district's pot supplies a name at birth and the old name is entered in a separate column that the family is not shown. A woman whose child has come back from another house says the household name at home and keeps the entered one for the slate. I have entered both in my book and have never once joined them, which is the only kindness my office allows.*
+*Gloss — The district's pot supplies a name at birth and the old name is entered in a separate column the family is not shown. A woman whose child came back from another house says the household name at home and keeps the entered one for the slate. I have entered both and never joined them, which is the only kindness my office allows.*
 
 15. “Do not ask the cradle whose child it is.”
 
@@ -81,7 +81,7 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 
 # The cradle-verse
 
-*Said low, to the cradle, by the women who sit with a returned child through the third day. The place after the last line is the length of a name and no singer has ever filled it. The room says the refrain with the singer whether the child is whole or thin.*
+*Said low, to the cradle, by the women who sit with a returned child through the third day. The place after the last line is the length of a name and no singer has filled it. The room says the refrain whether the child is whole or thin.*
 
 > Four for the pulls and one that is not pulled,
 > the stone goes cold and the house says warm;
@@ -99,29 +99,29 @@ Say these to the cup, the cradle, the fire, never to the person returned. Said l
 >
 > *[a place the length of a name]*
 
-*Gloss — The fourth pull of the kiln is counted and the fifth is not, which is the house's arithmetic and not the bank's. The refrain is said twice at a thin return, once for the child and once for the house that got it. The cut square is not a nought. A nought is a figure and can be carried out in a cuff; a name held in a cloth stays where the cloth is.*
+*Gloss — The fourth pull of the kiln is counted and the fifth is not, which is the house's arithmetic and not the bank's. The refrain is said twice at a thin return, once for the child and once for the house that got it. The cut square is not a nought: a nought is a figure carried out in a cuff, while a name held in a cloth stays where the cloth is.*
 
 # What the factor's clerk did
 
-A clerk of the factor borrowed the leaves on a market morning, with ink in two fingers that would not come out and a cuff gone soft from washing. He writes in the narrow upright hand and takes the verbs out as though a verb were a thing he could spill from a cuff.
+A clerk of the factor borrowed the leaves on a market morning, with ink in two fingers that would not come out. He writes in the narrow upright hand and takes the verbs out as though a verb were a thing he could spill from a cuff.
 
 - At *the hand goes to the cup before the eyes go to the face*, he wrote *a preference is retained from the pooled measure*, which leaves the hand out and the preference in.
 - At *come back as you can*, he set *a thin return is entered*, true in his language and of no use to a woman holding a child under wool.
-- At *one in twelve is printed*, he put a small stop in the figure and wrote the figure again above it, larger.
-- At *quiet ash stops the voice*, he wrote *dream-intrusion suppressed*, which is the neatest sentence I have ever read about a thing he has never watched.
-- At the place in the verse he put a round nought and wrote *vacancy* beneath it. A nought is a number. The place was a name, and he has made it smaller by writing in it.
+- At *one in twelve is printed*, he put a small stop in the figure and wrote it again above, larger.
+- At *quiet ash stops the voice*, he wrote *dream-intrusion suppressed*, the neatest sentence I have read about a thing he has never watched.
+- At the place in the verse he put a round nought and wrote *vacancy* beneath it. A nought is a number. The place was a name, and he has made it smaller.
 
 I have put the sayings back underneath and left his hand above. He takes the doer out because a thing always true has no need of anybody doing it. I put the doer back because a woman at the cradle wants to know which hand to hold the stone with.
 
 # What the physician pressed in the margin
 
-He came up from the Bowl of Sere with myrrh in the fold of his coat and a hand that writes cold. Against the guest he set *a disorder of the memory, not a visitor*. Against the third day he set *the head rises when too much has been poured*. Against the Second Want, which I had written as the old women say it, he wrote *settling of the graft*, and underlined it twice, which is the word the Court's physicians have used since Y.H. 651.
+He came up from the Bowl of Sere with myrrh in his coat-fold and a hand that writes cold. Against the guest he set *a disorder of the memory, not a visitor*. Against the third day, *the head rises when too much has been poured*. Against the Second Want, which I had written as the old women say it, he wrote *settling of the graft*, underlined twice, which is the word the Court's physicians have used since Y.H. 651.
 
 He was right about the head and wrong about the guest. I have left his sentences above mine so the next reader can tell which is which, which is the whole use of a margin.
 
 # At the head and in the gutter
 
-The filings at the head came off the tube-case when an officer set it down hard and went out without apologising. The tallow thumb is mine; I turn the leaf with the hand I hold the cradle with. The ring is barley-water set down while I sought the word for the child's liking and left until it went dark, which is that afternoon in one circle. The crust was given by a woman from Low Kiln who had come down with nothing and would not take a mark for it; the brown edge went into the grain and I have not brushed it. The grey in the gutter came off a cuff laid where no cuff has business lying in a room where the cradle stands. I have not swept it and there is no Last Day in this room. The cut square I made myself with a knife and have not written the word back, because a word written where a name was is a word the bank can enter.
+The filings at the head came off the tube-case when an officer set it down hard and went out without apologising. The tallow thumb is mine; I turn the leaf with the hand I hold the cradle with. The ring is barley-water set down while I sought the word for the child's liking and left until it went dark, that afternoon in one circle. The crust was given by a woman from Low Kiln who would not take a mark for it; the brown edge went into the grain and I have not brushed it. The grey in the gutter came off a cuff laid where no cuff has business lying in a room where the cradle stands. I have not swept it and there is no Last Day in this room. The cut square I made with a knife and have not written the word back, because a word written where a name was is a word the bank can enter.
 
 # At the foot, in a hand nobody will own
 
@@ -131,4 +131,4 @@ The filings at the head came off the tube-case when an officer set it down hard 
 > We are a people of every house and no country.
 > We are poured and we are entered and we are carried.
 
-I asked a woman who keeps the cradle, a clerk of the factor's house, and a returned man who could not say which of his five names he wanted, and had three answers and no hand. I have left the lines where they were written. The leaf goes back under the loose board beside the cradle. Tomorrow a district will be poured in the room above me and the four sayings will be read in the clean voice, and the house will answer with one word, and I shall write two figures that are not the same one, and leave the place in the verse the length it is.
+I asked a woman who keeps the cradle, a clerk of the factor's house, and a returned man who could not say which of his five names he wanted, and had three answers and no hand. I have left the lines where they were written. The leaf goes back under the loose board beside the cradle. Tomorrow a district will be poured in the room above me, the four sayings will be read in the clean voice, and the house will answer with one word; I shall write two figures that are not the same one and leave the place in the verse the length it is.
