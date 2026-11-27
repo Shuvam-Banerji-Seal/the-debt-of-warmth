@@ -2,7 +2,7 @@
 title: The Back Place, Being the Setting-Song of the Kiln Throat at Low Kiln, Sung as the Green Pots Go In, with the Rows as They Are Set, the Space at the Back That Is Gone Around with a Look, a Factor's Clerk's Figures in the Narrow Upright Hand, a Gloss in Green Charcoal, and One Line at the Foot Nobody Will Own
 kind: A setter's work song of the clay yard in the low half-sung Grathic of Low Kiln, counted in rows of three and the turning of the wrist, said down into the throat and not up into the yard; the rubrics in the setter's charcoal hand, the clerk's figures above in Ledgerhand, a glaze-girl's green gloss in the margin, and one line at the foot nobody has claimed
 provenance: Set down in Frost of Y.H. 813 by Senna, a woman who sets the pots into the throat of a kiln two doors below the Vail in Low Kiln of Sill and has set them through seventeen firings; written in charcoal thinned with wet slip on the back of a firing-tally spoiled by a thumb through the count, folded into four and tied with grey wool to a nail beside the damper; copied at Greybank onto the back of a voided weigh-slip. It survives with a wet-slip thumb at the head, brick dust in the fold, a wad of clay pressed flat between the second and third leaf, a scorch along the lower edge, a green bead of lead glaze in the lower corner, a sherd from the throat, a grey Ash smear along the gutter nobody will own, the clerk's figures above, the green gloss in the margin, and one line at the foot in a hand nobody has claimed
-relates_to: [Low Kiln, Sill, the Clay Yard, the kiln, the kiln throat, the kiln mouth, the damper, the drying racks, the Vail kiln-house, High Kiln, the Glaze Room, lead glaze, the sweet sickness, the pale line at the gum, the full note, the flat note, a pot gone wrong, leave the crack showing, grey wool, the carried fire, the widow's mark, one in twelve, the Cross, the bell at the Cross, Greybank, the factor, Ledgerhand, Grathic, the Ash, the Last Day, brine-gull, the Ilm, the Singing Sill, the Slip Brook, thin return, vessel]
+relates_to: [Low Kiln, Sill, the Clay Yard, the kiln, the kiln throat, the kiln mouth, the damper, the drying racks, the Vail kiln-house, High Kiln, the Glaze Room, lead glaze, the sweet sickness, the pale line at the gum, the flat note, grey wool, the carried fire, one in twelve, the Cross, the bell at the Cross, Greybank, the factor, Ledgerhand, Grathic, the Ash, the Last Day, brine-gull, the Ilm, the Singing Sill]
 ---
 
 I set the pots into the throat of a kiln two doors below the Vail and have done it through seventeen firings. A man come off the north bridge with a soft cuff and a slate asked a girl at the tubs what was said while the green ware went in, and wrote her answer down before she had finished giving it. What he took away had the doing out of it and a figure standing where a place should be. So I have set the words down as we say them at the mouth and put the verbs back.
@@ -31,7 +31,7 @@ The wet-slip thumb at the head is mine. I held the tally down on the flagstone w
 > and comes apart in the hand that has only just learned.
 >
 > *Set it. Leave the space. Let the heat come round.*
-> *Three to a row, and the back place left as it was found.*
+> *Three to a row, and the back place left as found.*
 > *The fire takes both and answers to neither.*
 
 > A wad of clay under every pot, no bigger than a thumb,
@@ -40,7 +40,7 @@ The wet-slip thumb at the head is mine. I held the tally down on the flagstone w
 > and the pot either keeps its seat or goes over.
 >
 > *Set it. Leave the space. Let the heat come round.*
-> *Three to a row, and the back place left as it was found.*
+> *Three to a row, and the back place left as found.*
 > *The fire takes both and answers to neither.*
 
 > A thumb's width between and no more and no less;
@@ -49,7 +49,7 @@ The wet-slip thumb at the head is mine. I held the tally down on the flagstone w
 > and the pot comes out with its green note still in it.
 >
 > *Set it. Leave the space. Let the heat come round.*
-> *Three to a row, and the back place left as it was found.*
+> *Three to a row, and the back place left as found.*
 > *The fire takes both and answers to neither.*
 
 > At the back there's a place where two go and three would go,
@@ -59,7 +59,7 @@ The wet-slip thumb at the head is mine. I held the tally down on the flagstone w
 > what we set we don't count, and what we don't set we don't name.
 >
 > *Set it. Leave the space. Let the heat come round.*
-> *Three to a row, and the back place left as it was found.*
+> *Three to a row, and the back place left as found.*
 > *The fire takes both and answers to neither.*
 
 > A girl come down from the Glaze Room with the sweet at her mouth
@@ -68,7 +68,7 @@ The wet-slip thumb at the head is mine. I held the tally down on the flagstone w
 > and the hand that sets is the hand that will answer.
 >
 > *Set it. Leave the space. Let the heat come round.*
-> *Three to a row, and the back place left as it was found.*
+> *Three to a row, and the back place left as found.*
 > *The fire takes both and answers to neither.*
 
 > The last pot in is the one you never see again;
@@ -77,7 +77,7 @@ The wet-slip thumb at the head is mine. I held the tally down on the flagstone w
 > and the fire has it, and gives back what it chose.
 >
 > *Set it. Leave the space. Let the heat come round.*
-> *Three to a row, and the back place left as it was found.*
+> *Three to a row, and the back place left as found.*
 > *The fire takes both and answers to neither.*
 
 There is a space before the last refrain, the length of a hand coming away from the last pot. The clerk put a nought in it, which is a thing you can hold up; a hand coming away is not.
@@ -105,11 +105,11 @@ There is a space before the last refrain, the length of a hand coming away from 
 
 # What the clerk did
 
-The factor's clerk borrowed the tally on a morning when the weigh-slips were out drying, with ink on the first joint of two fingers that would not come out. He took the verbs out and set his words above mine. I have left his hand standing and put ours underneath, as the throat keeps the pot and the flagstone keeps the wad.
+The factor's clerk borrowed the tally on a morning when the weigh-slips were out drying, ink on two fingers that would not come out. He took the verbs out and set his words above mine. I have left his hand standing and put ours underneath, as the throat keeps the pot and the flagstone keeps the wad.
 
 - At *the only promise in this yard that burns*, he wrote *clay seating, consumable; no residue arises*. True in the figure and false at the mouth, where the wad goes all the way.
 - At *three to a row*, he wrote *capacity, three per shelf*, and at the back place, *shortfall, one position*. He has made the place into something owed by somebody; there is no owing in a look.
-- At *the back place left as it was found*, he wrote *nil*, and drew his line a finger's breadth past the margin.
+- At *the back place left as found*, he wrote *nil*, and drew his line a finger's breadth past the margin.
 - At *the fire takes both and answers to neither*, he wrote *thermal transfer, unrecorded*. He thinks a transfer entered is a transfer known.
 - At *the count is in the arm that carried*, he wrote *labour, one mark the day; no deduction for injury*. He has put a figure where an arm was.
 
