@@ -2,7 +2,7 @@
 
 - Chapters complete: **71**
 - Words of story: **1,237,868**
-- Current chapter: 71 (step: publish, scene 7)
+- Current chapter: 72 (step: plan, scene 1)
 - Last chapter: What the Grain Does Not Say (Days 264–266 · Smoke 25–27, Y.H. 813)
 - Author calls so far: 787 (tokens in 136,458,593, out 17,391,468)
 - Updated: 2026-11-27 12:34
