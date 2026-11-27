@@ -27,11 +27,11 @@ He said the last twice, once to the fire and once to a woman at the lower table 
 
 ## Of the fire
 
-He put his hand out above the clay bowl and warmed it without touching. His cuffs were clean and his fingers were full.
+He put his hand above the clay bowl and warmed it without touching. His cuffs were clean and his fingers full.
 
 “A vessel was made to pour,” he said. “The cup that keeps is the cup that sours. A life hoarded is a life wasted. Say it over the wine. Do not say it over the accounts, where it would be a very different sentence and might cost somebody a province.”
 
-This fire is fed with oil, and the oil was bought, and the myrrh was bought, and somebody chose to spend both on a flame out before the wine is cold. He said it in the open voice of the courts, with the ends thrown away; the room leaned after him. I wrote the endings in where I heard them, which a Sere clerk would not do.
+This fire is fed with oil, and the oil was bought, and the myrrh was bought, and somebody chose to spend it on a flame out before the wine is cold. He spoke in the open voice of the courts, with the ends thrown away; the room leaned after him. I wrote the endings in where I heard them, which a Sere clerk would not do.
 
 > *Margin, in charcoal, mine:* He had three rings on the hand he warmed. He said *a life hoarded* while a woman at the lower table held a bowl she was not permitted to empty. Both stood in the room. I have not put one over the other.
 
@@ -39,7 +39,7 @@ This fire is fed with oil, and the oil was bought, and the myrrh was bought, and
 
 He turned the first bowl a quarter, the way a potter shows a buyer the foot of a cup.
 
-“This one is for the house,” he said. “The debt is named and the bowl goes round. The second is for the fire. The third is for the slate. They go round and are poured, and nobody is the poorer, because what is poured was going to be spent anyway.”
+“This one is for the house,” he said. “The debt is named and the bowl goes round. The second is for the fire. The third is for the slate. They go round and are poured, and nobody is the poorer, because what is poured was going to be spent.”
 
 He came to the fourth and stopped. It stood full, with the light going along the rim.
 
@@ -53,7 +53,7 @@ The girl whose name-day it was stood at the end of the row in a dress gone stiff
 
 “A name is a bowl,” the priest said. “The more names, the more pourings; the more of a person has been used, the more generous the house has been. Do not be sorry for the six. They were spent on you.”
 
-The girl looked at the fourth bowl and then at her mother, who could not go through the door where her numbers were read. Her mother looked at the fire. I have written the order of their looking and not what it means.
+The girl looked at the fourth bowl and then at her mother, who could not go through the door where her numbers were read. Her mother looked at the fire. I have written the order and not what it means.
 
 I have two names. One was given me in the north and is forbidden here, and one is clay and belongs to this house. I wrote the first inside a bowl in my first winter and have never looked into it, which is the courtesy of this country.
 
@@ -71,13 +71,13 @@ The guest asked which he meant.
 
 “Measure for measure,” the priest said, and went back to his wine.
 
-The guest put the question to me afterward and I told him I did not read the accounts of this house and had never been through the door. He said I was fortunate. I have thought about that word more than about the fire.
+The guest asked me afterward and I told him I did not read the accounts of this house. He said I was fortunate. I have thought about that word more than about the fire.
 
 ## Of them that are emptied
 
 The returned woman was brought in after the third bowl. Solene Ember was returned whole here in Y.H. 799, Y.H. 804 and Y.H. 809, and the house speaks of the fourth as a man looks forward to a harvest he has already sold. She turned a cup a quarter, set it back and said nothing, and the company applauded her.
 
-“A beautiful return is proof of a generous house,” the priest said. “A life poured out gloriously comes back beautiful. A life kept in a corner comes back thin, and thin returns are for the north, who buy them, and we are kind enough to sell.”
+“A beautiful return is proof of a generous house,” the priest said. “A life poured out gloriously comes back beautiful. A life kept in a corner comes back thin, and thin returns are for the north, who buy them.”
 
 A thin northerner stood at the lower table with three copper bits under his palm. I kept my hand on my wine-list and did not look at him.
 
@@ -85,7 +85,7 @@ A thin northerner stood at the lower table with three copper bits under his palm
 
 ## Of the door
 
-A woman of this house may own the bowls and the slaves and her husband’s debt; she may not go through the door where her numbers are read. The priest called it a courtesy with a door in it and said a door is not an argument and will not fight anybody.
+A woman of this house may own the bowls and the slaves and her husband’s debt, but not go through the door where her numbers are read. The priest called it a courtesy with a door in it: a door is not an argument and will not fight anybody.
 
 I have stood outside with a wine-list in my hand and heard nothing but a man reading figures in a low patient way. The wood is ordinary wood and there is a latch on the inside. On the last name-day a woman put her hand to the latch and took it away without turning it, and went back and clapped at the burning of a slate that was hers. I have not written which woman.
 
@@ -110,7 +110,7 @@ I have stood outside with a wine-list in my hand and heard nothing but a man rea
 > Ask it what holds it and ask it why
 > it goes back full when the others go dry.
 
-A girl from the press asked what the silence was for. Nobody answered her. The clerk put a small round mark against it later and at Greybank they put a nought.
+A girl from the press asked what the silence was for. Nobody answered her. The clerk put a round mark against it later and at Greybank they put a nought.
 
 # The four bowls, as the wine-list keeps them
 
