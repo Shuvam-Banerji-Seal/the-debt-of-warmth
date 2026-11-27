@@ -2,7 +2,7 @@
 
 - Chapters complete: **95**
 - Words of story: **1,705,829**
-- Current chapter: 95 (step: publish, scene 7)
+- Current chapter: 96 (step: plan, scene 1)
 - Last chapter: Before the Reading (Days 336–338 · Ash 7–9, Y.H. 813)
 - Author calls so far: 1031 (tokens in 185,383,342, out 23,338,295)
 - Updated: 2026-11-28 04:15
