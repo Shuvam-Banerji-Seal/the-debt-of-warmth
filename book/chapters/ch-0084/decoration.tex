@@ -1,0 +1,76 @@
+\begin{tikzpicture}
+  % The chapter's heart: a voice over the boards. An ownerless voice comes up
+  % from Slate Row on the same breath as the price of barley and the weather,
+  % passes over the boards of the Clay Yard and goes off up the terrace.
+  % Nobody stands under it to be asked: no owner, no hand at the flame, no
+  % witness, no payer. It is a fifth telling of the burned slate, laid beside
+  % the four behind it with a finger between every pair --- five are five and
+  % not a rule.
+
+  % —— a small flower above the voice ——
+  \node at (0,1.52) {\pgfornament[width=0.82cm,color=ornament,opacity=0.24]{9}};
+
+  % —— the breath of barley, the breath of weather, and the voice ——
+  % three lines on one breath, with no mouth under any of them
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.30, line cap=round]
+    (-3.90,0.46) .. controls (-2.20,0.58) and (0.20,0.54) .. (2.10,0.52)
+    .. controls (2.90,0.50) and (3.40,0.46) .. (3.70,0.40);
+  \draw[ornament!48!ink, line width=0.34pt, opacity=0.30, line cap=round]
+    (-3.90,0.72) .. controls (-2.20,0.84) and (0.20,0.80) .. (2.10,0.78)
+    .. controls (2.90,0.76) and (3.40,0.72) .. (3.70,0.66);
+  % the burned-slate saying, riding the same breath
+  \draw[rubric!62!ink, line width=0.62pt, opacity=0.66, line cap=round]
+    (-3.90,1.00) .. controls (-2.60,1.16) and (-1.00,1.02) .. (0.30,1.02)
+    .. controls (1.40,1.02) and (2.30,1.10) .. (3.10,1.22);
+  % it goes off up the terrace toward Slate Row, still ownerless
+  \draw[rubric!52!ink, line width=0.42pt, opacity=0.46,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (3.10,1.22) .. controls (3.40,1.30) and (3.70,1.42) .. (3.95,1.54);
+  \node[font=\FellFont\itshape\scriptsize, text=rubric, opacity=0.60] at (2.35,1.36)
+    {the voice};
+
+  % —— the empty place beneath the voice, where an owner would stand ——
+  \draw[faded!34!ink, line width=0.24pt, opacity=0.24,
+        dash pattern=on 1pt off 2.6pt] (-0.62,0.24) -- (0.62,0.24);
+  \foreach \tx in {-0.62,0.62}{
+    \draw[faded!32!ink, line width=0.24pt, opacity=0.22, line cap=round]
+      (\tx,0.17) -- (\tx,0.31);
+  }
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50] at (0,0.04)
+    {nobody stands under it};
+
+  % —— the boards: three stacked planks on two uprights ——
+  \fill[faded!8!vellum, opacity=0.86] (-3.55,-0.55) rectangle (3.55,-0.05);
+  \draw[ornament!52!ink, line width=0.46pt, opacity=0.44,
+        line cap=round, line join=round]
+    (-3.55,-0.55) rectangle (3.55,-0.05);
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.30]
+    (-3.50,-0.41) -- (3.50,-0.41);
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.30]
+    (-3.50,-0.23) -- (3.50,-0.23);
+  \draw[ornament!46!ink, line width=0.70pt, opacity=0.38, line cap=round]
+    (-3.20,-0.55) -- (-3.20,-0.95);
+  \draw[ornament!46!ink, line width=0.70pt, opacity=0.38, line cap=round]
+    ( 3.20,-0.55) -- ( 3.20,-0.95);
+  \draw[faded!38!ink, line width=0.36pt, opacity=0.32]
+    (-3.40,-0.95) -- (-3.00,-0.95);
+  \draw[faded!38!ink, line width=0.36pt, opacity=0.32]
+    ( 3.00,-0.95) -- ( 3.40,-0.95);
+
+  % —— five tellings of the burned slate, a finger between every pair ——
+  \foreach \sx in {-2.30,-1.30,-0.30,0.70,1.70}{
+    \fill[ink!72!faded, opacity=0.60] (\sx,-0.34) rectangle (\sx+0.22,-0.18);
+    \draw[ink!58!faded, line width=0.30pt, opacity=0.44]
+      (\sx,-0.34) rectangle (\sx+0.22,-0.18);
+  }
+  % the fifth, laid beside the four with a finger's width between
+  \draw[faded!40!ink, line width=0.26pt, opacity=0.34,
+        dash pattern=on 1pt off 2.2pt] (1.52,-0.38) -- (1.52,-0.14);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.48] at (0,-1.10)
+    {five tellings, a finger between every pair};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.40)
+    {five are five, and not a rule};
+  \node at (0,-1.74) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{81}};
+\end{tikzpicture}
