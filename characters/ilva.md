@@ -1,0 +1,67 @@
+---
+name: Ilva
+epithet: "the woman who keeps the month's firings in a strip of birch bark"
+aliases: [Ilva of the firing work, the woman at the yard well]
+role: other
+born: "Y.H. 780s, Low Kiln, Sill, Grath — the year was never entered on any slate she keeps"
+species: human (Grathic)
+origin: "Low Kiln, Sill, Grath; of the yard's firing work, not of a kiln-house"
+affiliation: "the firing work of the Clay Yard, Low Kiln"
+status: "alive; a woman of the yard and not of a house; keeps a count of firings notched on a short strip of birch bark carried in her sleeve; on Smoke 5 (Day 244) her order of reaching — hand to the record before eyes to the person and mouth to the answer — became the ninth record-first hand-shape in the boy's private file, on a place of its own beside the eighth, a finger between every pair, joined to none (T080 advanced, not paid)"
+first_appearance: 64
+---
+
+## Appearance
+
+A woman of the firing work in Low Kiln, past her first youth and not old enough to be spoken of as old, with the yard's pale clay dried in the crescents of her nails and the finer grey dust of the racks worked into the seam of one thumb. She does not scrub the seam out. Her hands know the weight of a pail and the edge of a wet board, and are not soft. She draws water at the yard well with the pail against her knee and goes on with her work without looking to see who has noticed her. The district would not turn its head twice for her; she is of the yard in the way the rack and the trough are of the yard. What she carries that nobody sees is a short strip of birch bark notched along one edge, pale where a thumb has rubbed the notches and dark in the uncut grain between, kept in her sleeve and put back with the flat of a hand. People notice the pail first and the sleeve not at all, which is the order she prefers.
+
+## Voice & Manner
+
+Plain, short, and exact in the way a tally is exact. She answers the question put and not the one behind it, and she never volunteers a figure for the work. She gives no name to the thing she keeps and has never been asked for one. There is no proverb in her, no instruction addressed to a pot or a fire; that belongs to the houses. When she is asked how many firings a month has taken, her hand goes to the record, her thumb passes over it, her eyes go to the person who asked, and only then does her mouth open. She does not explain the order and would not know what there was to explain.
+
+- “Five to this morning.”
+- “If it went on a slate it would want a figure put on it. It's a firing. Ask the pot what it cost.”
+- “I keep the count of the fires. I don't keep the account.”
+
+## History
+
+She was born in Low Kiln into the firing work and has never left it for a house. The work is the racks, the pails, the carrying, the counting of how many times the kilns have been lit since the month came in; it is done in glances and hands and the weight of the thing carried, and nobody in the yard gives it a figure aloud. A slate would want a figure put on it, and the yard has no wish to give the slate one, so Ilva keeps the month's firings in wood. The strip is hers; she puts it in her sleeve with the flat of her hand and takes it out when a question is asked that wants an answer. She is not a reader of private keepings. She is not the woman in the grey coat at the flare, not Hessa Rale with her edge-on slate between the Cross and Greybank, not the soft-cuffed clerk set below the north bridge for a measure nobody called, and not an officer with a reason. She is a woman who keeps a count in wood and draws water in a yard.
+
+## Wounds & Fears
+
+The sweet edge of lead glaze comes up off High Kiln on a wrong wind and goes over the boards and out again; she has learned to know it on the air and to make nothing of it, as the yard makes nothing of it. The yard goes around the place in the returning line where a hand went in on Seed 15 and did not come back, and she goes around it with a look and a wide step like everybody else, and does not count it among the firings or give it a name. Her fear is small and practical: that one day a slate will be put to her stick and a figure taken off it, and the count of firings will become an account with a payer standing under it. She has no wish to be the woman who explains what the notches mean.
+
+## Desires
+
+She wants the firings to go on and the count to stay true in wood, where no clerk's thumb can read it. She thinks she wants nothing beyond keeping her place in the yard. What she needs, though she is far from it, is to be one of the hands that will one day lay the district's private keepings together — the charcoal under the shelf, the reed-cutter's cord, the knot-string, the six pages, the tins, the pewter tin, the inward slates and this strip of notched birch — and to find that a count kept from a slate was still a record all along.
+
+## Bonds
+
+**Corin (the boy in the basket).** He was set down at the edge of the work where no slate lay while she answered a woman with a pot. She did not look at him, did not know he was reading her, and went on with her water. He took the order of her reaching and nothing else; he did not read the stick, ask her about it or take a figure off it. To her he is a child at the edge of the work. In his private file she is the ninth record-first hand, joined to none.
+
+**The neighbour with the pot** — asked how many firings the month had taken, got *Five to this morning*, and went off with her answer level. The exchange is the whole of their connection.
+
+**Sella Vail** — keeper of the house whose kiln the firings count. Ilva is of the yard and not of the house; there is no argument between them because there is no occasion for one.
+
+**Hessa Rale** — a fellow keeper of a record that no figure comes off, but a runner with a slate on the road to Greybank. The two are filed far apart and must not be joined.
+
+**Berr Clay** — his slate would want a figure off the stick. Ilva has never handed him the stick and never will; there is no quarrel, only the distance between wood and slate.
+
+## Arc So Far
+
+She enters in Smoke's second working week, on Day 244, at the yard well. A woman with a pot asks how many firings the month has taken; Ilva draws the notched strip from her sleeve, passes her thumb-nail over it, looks at the asker, and answers. The boy, two hundred and forty-four days old and unable to lift his own chin, reads the order of reaching and files it as the ninth of the district's record-first hands. Nothing is sold, entered or explained. She goes on with her water and does not appear again in the chapter.
+
+## Chapter Log
+
+- Ch 64: At the yard well on Smoke 5 (Day 244) she answered a woman who asked how many firings the month had taken. Her hand went into her sleeve for a short strip of birch bark notched along one edge, the nail of her thumb passed across the notches (pale where rubbed, dark in the uncut grain), her eyes went to the asker, and only then did her mouth answer *Five to this morning*. She put the strip back inside her sleeve with the flat of her hand and went on with her water. Clay was dried pale in the crescents of her nails and the grey rack dust was worked into the seam of one thumb; she was of the yard and not of the house, and nobody turned to look at her twice. The boy did not read the notches, ask her about them or take a figure off the stick, and did not join the order of reaching to the cord, the knots, the pages, the tins, the missing hand or the pale line. He filed it as the ninth record-first hand-shape on a place of its own beside the eighth, a finger between every pair, and would not let nine likenesses stand up and call themselves a rule, for a rule is an account that has found a payer and none stood to any (T080 advanced, not paid). She is not Marra, not Hessa Rale, not the soft-cuffed clerk and not an officer, and she is joined to none of them.
+
+## Secrets (private)
+
+1. The notches hold a count of firings, plain as a firing is plain. There is no hidden number on the stick and nothing on it waits to be read by anyone who knows how to read a slate.
+2. The boy has made her the ninth of his record-first hands. She knows nothing of this and has no reason to care.
+3. A figure kept in wood is still a keeping. The day may come when a hand not his lays the private records together and her strip is among them; that day is far off and she has done nothing to hasten it.
+4. She is not Fenna Clay, not Hessa Rale, not the green-mouthed woman at the pot board, and not a relation of any of them.
+
+## Plans (private)
+
+Keep her a quiet keeper of a figureless tally, one more hand in the district's long procession of people who keep what a Court cannot own. Bring her back around the yard well and the racks in Smoke's later tend, and at the first Account-day of Smoke if the firing count is wanted; she answers the question put and never the one behind it, and no figure ever comes off the stick. Do not let her explain the notches, become a confident, carry a slate or be joined to the clerk, the runner, the Drawing collector or Marra. When T080 is at last paid — the far-off day a hand not his lays the district's private records together — her strip of birch bark is one of the things that hand will find, and the count of firings will turn out to have been a record all along. Until then: not read, not joined, not named, not spent.
