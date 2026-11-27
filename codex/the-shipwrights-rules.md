@@ -16,7 +16,7 @@ These rules were gathered in Y.H. 605, when the Council first bought a galley by
 ## Of the taking
 
 1. The yard takes a boy, not a house. A house may bring him and feed him, but from the day he holds a chisel with the edge toward him he answers to the yard. The Council takes the hull and leaves the boy alone. In this port that is the last thing anybody has thought to tax.
-2. A boy is taken at twelve, set to the adze at thirteen and not before he can lift it with the edge kept up. A boy taken later is not made up the year he missed; the yard keeps no count of the hulls it did not build.
+2. A boy is taken at twelve, set to the adze at thirteen and not before he can lift it with the edge up. A boy taken later is not made up the year he missed; the yard keeps no count of hulls it did not build.
 3. He is kept, not hired. He eats from the yard dish, sleeps in the loft above the moulds, and what he makes goes to the yard and comes back as bread, which is not entered. A shipwright is paid in the only coin this trade uses, a curse said at the hour and not set down.
 4. His birth-name is said once at the taking and not used afterward at the yard. What he is called is the shaving, given at his first stroke of the adze and kept in the mouth. A shaving in the mouth cannot be entered, and there is nothing in this country the Council has not tried to enter.
 5. The wood is read before the boy. The price is given before the name and the curse before the hull. A man who names a boy before he has seen him handle an adze has mistaken the yard for a counting house, which is across the water.
@@ -37,7 +37,7 @@ These rules were gathered in Y.H. 605, when the Council first bought a galley by
 12. The keel is laid in Ember, when the ways are greased with tallow and the Quay stands to see. Nobody sings while a hull goes down; the song is carried up the ways, not down them, and nobody has given me a reason why, which is the same as giving a good one.
 13. Carry a barrel of rain aboard every hull before she launches. The salt-thing follows boats at night and taps the hull where the store is; fresh water stops it as a wall stops a man. Every captain denies the barrel and every captain carries one. A shipwright who launches without one has sold a debt to the sea and entered nothing.
 14. A brine-gull will lift a warm shaving off the ways and go off with it under its crop. No malice in it. Do not set a boy to watch the shavings in place of the seam; the gull is honest and the seam has a master.
-16. Name the tide your boat will not see, the way the young name one at the pans. Write it in salt on the keel-block and let the sun have it. What is in salt belongs to noon; what is said belongs to the speaker. Do not put it on paper. A thing that rots is no protection for a tide that was never a contract.
+15. Name the tide your boat will not see, the way the young name one at the pans. Write it in salt on the keel-block and let the sun have it. What is in salt belongs to noon; what is said belongs to the speaker. Do not put it on paper. A thing that rots is no protection for a tide that was never a contract.
 
 # The table of years
 
@@ -52,7 +52,7 @@ These rules were gathered in Y.H. 605, when the Council first bought a galley by
 | Sixteen | Lay a keel alone and set the ribs to it | The last of the boy's account with any house |
 | Seventeen | Launch a hull and stand at the last peg to hear the curse | The common end of a keeping, which is not a short one |
 
-17. Seventeen is the common end and not a short one; a boat is longer in the building than a girl is at a furnace. A boy who has been through the years is not paid out and sent away. He stays where the yard needs him, at the third yard or on a boat whose share goes through his mother. The yard does not choose. The wood does, and the Council after it.
+16. Seventeen is the common end and not a short one; a boat is longer in the building than a girl is at a furnace. A boy who has been through the years is not paid out and sent away. He stays where the yard needs him, at the third yard or on a boat whose share goes through his mother. The yard does not choose. The wood does, and the Council after it.
 
 # The table of faults
 
@@ -65,7 +65,7 @@ These rules were gathered in Y.H. 605, when the Council first bought a galley by
 | The Hearth beneath the salt asked about | Answered once: under the salt, and the Court's fire its chimney. Asked twice: send it to the dippers |
 | A curse sold to the Council and the other kept | Not entered. There is no law against it, which is why the yard does not speak of it |
 
-18. A fault copied twice in a building is a fault the boy has not understood, and the master sits with him at the mould until he has. The adze is not a rod, though men who never held one have called it both.
+17. A fault copied twice in a building is a fault the boy has not understood, and the master sits with him at the mould until he has. The adze is not a rod, though men who never held one have called it both.
 
 # The launching-song, pasted inside the cover
 
@@ -98,6 +98,7 @@ The wet rope across the third verse came from the song being carried up in rain 
 A Council clerk borrowed the leaf at Greybank with ink in two fingers of a soft cuff, and took the verbs out as though a verb were a thing a man could carry off in a sleeve.
 
 - Against rule 9 he set *the imprecation is comprised in the consideration* above *the curse is said every hour of the work*, a sentence true of no boat that went down the ways. I have put mine back underneath.
+
 The other hand is charcoal, a shipwright of the inner yard who would not sign it. Against *no shipwright in Vhal has ever given anything away* he struck the words hard and wrote above, *I gave a man a hull in Y.H. 611 and never entered it, which is the only curse I ever said with a name in it.* I have left his line struck above and mine standing under, so a boy can see what was said and what was done to it. The charcoal has come off on the fold and I have not brushed it away. A rule two men have argued over is a rule that has been used.
 
 # At the head and in the gutter
