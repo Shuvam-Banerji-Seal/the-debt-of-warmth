@@ -1,0 +1,80 @@
+\begin{tikzpicture}
+  % The chapter's heart: two counts in two materials, held apart.
+  % A firing kept in wood wants no figure put on it; the fire under the
+  % floor keeps four pulls and the silence where the fifth should stand.
+  % No inquiry crosses between them, for agreeing them would want a payer,
+  % and none stands to either.
+
+  % —— a hush of a ground, broken where the two counts do not meet ——
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.18, line cap=round]
+    (-4.02,-1.02) -- (-0.44,-1.02);
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.18, line cap=round]
+    (0.44,-1.02) -- (4.22,-1.02);
+
+  % —— LEFT: the count kept in wood, a tally laid flat and never summed ——
+  \fill[ash!12!vellum, opacity=0.80]
+    (-3.94,-0.78) -- (-0.82,-0.78) -- (-0.74,-0.20) -- (-3.86,-0.20) -- cycle;
+  \draw[faded!64!ink, line width=0.50pt, opacity=0.42, line cap=round]
+    (-3.94,-0.78) -- (-0.82,-0.78) -- (-0.74,-0.20) -- (-3.86,-0.20) -- cycle;
+  % grain going along the wood, not a written figure
+  \foreach \gy in {-0.66,-0.52,-0.38}{
+    \draw[faded!44!ink, line width=0.28pt, opacity=0.20, line cap=round]
+      (-3.80,\gy) .. controls (-2.30,\gy + 0.02) and (-1.30,\gy - 0.02) .. (-0.86,\gy + 0.01);
+  }
+  % a notch for a firing each, cut, counted, and never turned into a figure
+  \foreach \nx in {-3.52,-3.10,-2.68,-2.26,-1.84,-1.42}{
+    \draw[rubric!52!ink, line width=0.44pt, opacity=0.46, line cap=round]
+      (\nx,-0.20) -- (\nx + 0.10,-0.40);
+  }
+  % the place a figure would go, kept and left empty
+  \draw[faded!38!ink, line width=0.30pt, opacity=0.16,
+        dash pattern=on 1.2pt off 2.4pt]
+    (-3.30,-0.94) -- (-1.34,-0.94);
+  \draw[faded!36!ink, line width=0.28pt, opacity=0.14]
+    (-2.32,-0.94) ellipse (0.085 and 0.030);
+
+  % —— RIGHT: the count in fire, four pulls and the silent fifth ——
+  \draw[faded!58!ink, line width=0.46pt, opacity=0.36, line cap=round]
+    (0.86,-0.30) -- (4.06,-0.30);
+  \foreach \fx in {1.16,1.78,2.40,3.02}{
+    \draw[rubric!46!gold, line width=0.52pt, opacity=0.44, line cap=round]
+      (\fx,-0.30) -- (\fx + 0.04,-0.74);
+  }
+  % the fifth pull, drawn as the silence where it should stand
+  \draw[faded!40!ink, line width=0.36pt, opacity=0.18,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (3.64,-0.30) -- (3.68,-0.74);
+  % a wisp of heat under the floor, going nowhere
+  \draw[faded!46!ink, line width=0.30pt, opacity=0.20, line cap=round]
+    (2.02,-0.26) .. controls (1.82,0.08) and (2.26,0.26) .. (2.04,0.60);
+
+  % a pot set down wrong, giving its one thin note before its time
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.34, line cap=round]
+    (3.26,0.16) .. controls (3.42,0.06) and (3.76,0.06) .. (3.92,0.16);
+  \draw[faded!48!ink, line width=0.30pt, opacity=0.24, line cap=round]
+    (3.40,0.13) .. controls (3.44,-0.02) and (3.74,-0.02) .. (3.78,0.13);
+  \draw[rubric!50!faded, line width=0.36pt, opacity=0.34, line cap=round]
+    (3.60,0.20) .. controls (3.52,0.48) and (3.70,0.62) .. (3.58,0.86);
+
+  % —— the space held between: a wall that does not touch ——
+  \draw[faded!38!ink, line width=0.30pt, opacity=0.16,
+        dash pattern=on 1pt off 2.6pt]
+    (0,1.20) -- (0,-0.86);
+  % two rhythms crossing toward it and stopping short of it
+  \draw[faded!54!ink, line width=0.38pt, opacity=0.28, line cap=round]
+    (-0.94,0.40) .. controls (-0.48,0.46) and (-0.24,0.30) .. (-0.10,0.16);
+  \draw[faded!54!ink, line width=0.38pt, opacity=0.28, line cap=round]
+    (0.94,0.40) .. controls (0.48,0.46) and (0.24,0.30) .. (0.10,0.16);
+  % a finger's width, kept between them and not crossed
+  \draw[faded!44!ink, line width=0.30pt, opacity=0.20, line cap=round]
+    (-0.06,-0.66) -- (-0.06,-0.52);
+  \draw[faded!44!ink, line width=0.30pt, opacity=0.20, line cap=round]
+    (0.06,-0.66) -- (0.06,-0.52);
+  % the asking that would put a figure on it, left unfinished
+  \draw[faded!46!ink, line width=0.34pt, opacity=0.22, line cap=round]
+    (-0.14,0.94) .. controls (0.02,1.08) and (0.22,0.98) .. (0.16,0.78);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.44)
+    {neither asks the other what it cost};
+  \node at (0,-1.68) {\pgfornament[width=1.0cm,color=ornament,opacity=0.30]{6}};
+\end{tikzpicture}
