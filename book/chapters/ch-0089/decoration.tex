@@ -1,0 +1,75 @@
+\begin{tikzpicture}
+  % The chapter's heart: the figure read twice. One printed figure goes out
+  % along two branches so that those who came late hear what those who came
+  % early heard --- the moot and the late households, once each, no figure
+  % altered in the sending. Behind the figure five readings of the year stand,
+  % five and not one account; a rule made from five would want a payer put
+  % under all five, and none stands. The third thing, the price, is read aloud
+  % by nobody, and the space where it should stand has no signature on it.
+
+  \node at (0,1.62) {\pgfornament[width=0.78cm,color=ornament,opacity=0.26]{11}};
+
+  % —— the two sendings of the one figure — to early and to late ——
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.44, line cap=round]
+    (-0.98,1.04) .. controls (-1.72,1.32) and (-2.32,1.06) .. (-2.64,0.76);
+  \draw[faded!32!ink, line width=0.26pt, opacity=0.32, line cap=round]
+    (-0.98,0.88) .. controls (-1.72,1.14) and (-2.32,0.88) .. (-2.64,0.60);
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.44, line cap=round]
+    (0.98,1.04) .. controls (1.72,1.32) and (2.32,1.06) .. (2.64,0.76);
+  \draw[faded!32!ink, line width=0.26pt, opacity=0.32, line cap=round]
+    (0.98,0.88) .. controls (1.72,1.14) and (2.32,0.88) .. (2.64,0.60);
+
+  % —— the two hearings: an ear for those who came early, one for late ——
+  \draw[ink!48!faded, line width=0.46pt, opacity=0.50, line cap=round]
+    (-3.02,0.86) .. controls (-3.22,0.68) and (-3.20,0.40) .. (-2.98,0.34)
+    .. controls (-2.80,0.30) and (-2.74,0.44) .. (-2.86,0.52);
+  \draw[ink!44!faded, line width=0.34pt, opacity=0.42, line cap=round]
+    (-3.00,0.72) .. controls (-3.12,0.62) and (-3.08,0.48) .. (-2.96,0.50);
+  \draw[ink!48!faded, line width=0.46pt, opacity=0.50, line cap=round]
+    (3.02,0.86) .. controls (3.22,0.68) and (3.20,0.40) .. (2.98,0.34)
+    .. controls (2.80,0.30) and (2.74,0.44) .. (2.86,0.52);
+  \draw[ink!44!faded, line width=0.34pt, opacity=0.42, line cap=round]
+    (3.00,0.72) .. controls (3.12,0.62) and (3.08,0.48) .. (2.96,0.50);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50] at (-2.92,0.02)
+    {those who came early};
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50] at (2.92,0.02)
+    {those who came late};
+
+  % —— the one printed figure, unchanged in the sending ——
+  \fill[vellum, opacity=0.96] (-0.98,0.52) rectangle (0.98,1.26);
+  \draw[ornament!52!ink, line width=0.46pt, opacity=0.46, line cap=round]
+    (-0.98,0.52) rectangle (0.98,1.26);
+  \node[font=\CinzelFont\small, text=rubric, opacity=0.82] at (0,0.96)
+    {one in twelve};
+  \draw[rubric!58!ink, line width=0.60pt, opacity=0.60, line cap=round]
+    (-0.62,0.70) -- (0.62,0.70);
+
+  % —— the third thing: the price, read by nobody, its space unsigned ——
+  \draw[faded!30!ink, line width=0.24pt, opacity=0.28,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (-0.62,-0.08) -- (0.62,-0.08);
+  \draw[faded!30!ink, line width=0.24pt, opacity=0.26] (-0.62,-0.20) -- (-0.62,0.04);
+  \draw[faded!30!ink, line width=0.24pt, opacity=0.26] (0.62,-0.20) -- (0.62,0.04);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (0,-0.36)
+    {the price, unsigned};
+
+  % —— five readings of the year: five, their faint lines stop short of one ——
+  \foreach \cx/\ht in {-2.40/0.32,-1.20/0.46,0.00/0.38,1.20/0.50,2.40/0.34}{
+    \draw[ornament!50!ink, line width=0.44pt, opacity=0.46, line cap=round]
+      (\cx,-0.86) -- (\cx,\ht-0.86);
+    \draw[ornament!42!ink, line width=0.30pt, opacity=0.36, line cap=round]
+      (\cx-0.10,\ht-0.86) -- (\cx+0.10,\ht-0.86);
+  }
+  \foreach \cx in {-2.40,-1.20,0.00,1.20}{
+    \draw[faded!30!ink, line width=0.24pt, opacity=0.26,
+          dash pattern=on 1pt off 2.6pt, line cap=round]
+      (\cx+0.12,-0.56) -- (\cx+1.08,-0.56);
+  }
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50] at (0,-1.06)
+    {five readings, and not one account};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.40)
+    {twice read, and still unpaid};
+  \node at (0,-1.74) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{85}};
+\end{tikzpicture}

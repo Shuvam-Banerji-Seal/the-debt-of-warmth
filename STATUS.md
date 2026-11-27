@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **88**
-- Words of story: **1,560,353**
-- Current chapter: 89 (step: plan, scene 1)
-- Last chapter: The Note Let Go Early (Days 315–317 · Bone 16–18, Y.H. 813)
-- Author calls so far: 959 (tokens in 170,686,024, out 21,473,061)
-- Updated: 2026-11-27 23:51
+- Chapters complete: **89**
+- Words of story: **1,579,727**
+- Current chapter: 89 (step: publish, scene 7)
+- Last chapter: The Figure Read Twice (Days 318–320 · Bone 19–21, Y.H. 813)
+- Author calls so far: 969 (tokens in 172,464,617, out 21,697,920)
+- Updated: 2026-11-28 00:22
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
