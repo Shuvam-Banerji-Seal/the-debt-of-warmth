@@ -1,0 +1,89 @@
+\begin{tikzpicture}
+  % The chapter's heart: what the well kept. On the fourteenth afternoon a
+  % woman waiting her turn spoke to the boards and the well-roof, not into the
+  % basket: the runner who carried a slate had once carried a figure that named
+  % a person she knew. No owner stood to be asked; the saying arrived nowhere.
+  % The boy filed it as a shaping on a place of its own, beside an eighth hand
+  % with a finger between --- not a hearing, not a confession, not paid. Beside
+  % it, Ilva's notched strip stayed in her sleeve: the count kept in wood, the
+  % account not kept. Both go home with the weight; neither is called an account.
+
+  % —— the boards and the well-roof, spoken to and not through ——
+  \foreach \by in {0.54,0.72,0.90}{
+    \draw[ornament!52!ink, line width=0.52pt, opacity=0.44, line cap=round]
+      (-3.74,\by) -- (-1.28,\by);
+    \draw[faded!30!ink, line width=0.28pt, opacity=0.22, line cap=round]
+      (-3.74,\by-0.07) -- (-1.28,\by-0.07);
+  }
+  \foreach \jx in {-3.06,-2.36,-1.66}{
+    \draw[faded!28!ink, line width=0.26pt, opacity=0.20, line cap=round]
+      (\jx,0.48) -- (\jx,0.96);
+  }
+
+  % —— the well-mouth: old stone about a dark opening ——
+  \fill[ash!12!vellum, opacity=0.86]
+    (-2.51,-0.30) ellipse (1.20 and 0.46);
+  \fill[night!86, opacity=0.90]
+    (-2.51,-0.30) ellipse (0.94 and 0.33);
+  \draw[ornament!58!ink, line width=0.58pt, opacity=0.50]
+    (-2.51,-0.30) ellipse (1.20 and 0.46);
+  \foreach \a in {15,50,85,120,155,190,225,260,295,330}{
+    \draw[faded!36!ink, line width=0.30pt, opacity=0.28, line cap=round]
+      ({-2.51+0.94*cos(\a)},{-0.30+0.33*sin(\a)})
+      -- ({-2.51+1.20*cos(\a)},{-0.30+0.46*sin(\a)});
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (-2.51,-1.02)
+    {the dark that keeps};
+
+  % —— the saying with no speaker, going up to the boards, arriving nowhere ——
+  \draw[faded!44!ink, line width=0.42pt, opacity=0.36,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (-2.63,0.05) .. controls (-2.86,0.24) and (-2.26,0.32) .. (-2.52,0.49);
+  \foreach \wy in {0.15,0.27,0.39}{
+    \draw[faded!38!ink, line width=0.32pt, opacity=0.30, line cap=round]
+      (-2.60,\wy) -- (-2.42,\wy+0.02);
+  }
+  \node[font=\FellFont\itshape\scriptsize, text=rubric, opacity=0.52] at (-2.06,0.26)
+    {arrived nowhere};
+
+  % —— a finger's width between this keeping and the next ——
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.24,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (0.16,-0.80) -- (0.16,0.34);
+  \draw[rubric!52!ornament, line width=0.6pt, opacity=0.46, line cap=round]
+    (0.02,-0.24) -- (0.30,-0.24);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (0.16,-1.02)
+    {a finger between};
+
+  % —— the notched strip of birch, kept in a sleeve and not taken out ——
+  \fill[vellum, opacity=0.94, rounded corners=0.11cm]
+    (1.22,-0.52) rectangle (3.56,-0.16);
+  \draw[faded!50!ink, line width=0.46pt, opacity=0.44, rounded corners=0.11cm]
+    (1.22,-0.52) rectangle (3.56,-0.16);
+  \foreach \nx in {1.44,1.66,1.88,2.10,2.32,2.54,2.76,2.98}{
+    \draw[ink!62, line width=0.50pt, opacity=0.52, line cap=round]
+      (\nx,-0.16) -- (\nx,-0.30);
+  }
+  \draw[rubric!56!ornament, line width=0.54pt, opacity=0.50, line cap=round]
+    (3.08,-0.34) -- (3.16,-0.34);
+  \draw[faded!52!ink, line width=0.46pt, opacity=0.36, line cap=round]
+    (3.32,-0.16) -- (3.32,-0.30);
+  % the sleeve covering the end: the strip is not taken out
+  \fill[faded!12!vellum, opacity=0.90]
+    (3.42,-0.60) -- (3.90,-0.64) -- (3.84,-0.06) -- (3.36,-0.10) -- cycle;
+  \draw[faded!48!ink, line width=0.44pt, opacity=0.42, line cap=round]
+    (3.42,-0.60) -- (3.90,-0.64) -- (3.84,-0.06) -- (3.36,-0.10) -- cycle;
+  \draw[faded!34!ink, line width=0.28pt, opacity=0.26, line cap=round]
+    (3.40,-0.50) -- (3.86,-0.54);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (2.46,-1.02)
+    {count kept, not the account};
+
+  % —— small leaf marks and a ruled flourish, not another flanking pair ——
+  \node at (-4.10,0.96) {\pgfornament[width=0.9cm,color=ornament,opacity=0.26]{77}};
+  \node at ( 4.10,0.96) {\pgfornament[width=0.9cm,color=ornament,opacity=0.26,symmetry=v]{77}};
+  \node at (0,1.16) {\pgfornament[width=2.6cm,color=ornament,opacity=0.22]{84}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.52)
+    {what the well kept};
+  \node at (0,-1.86) {\pgfornament[width=0.9cm,color=ornament,opacity=0.24]{2}};
+\end{tikzpicture}
