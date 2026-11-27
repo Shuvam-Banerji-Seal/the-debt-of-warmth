@@ -1,0 +1,81 @@
+\begin{tikzpicture}
+  % The chapter's heart: the count in wood. A stick keeps what the slate
+  % cannot ask for; split it and it would become an account with a payer,
+  % and no payer stood. The hundred and fiftieth cut stands beside the
+  % hundred and forty-ninth, exact and worth nothing at two inches of air.
+  % Above, the held interval and the empty interval lie side by side on the
+  % sixth place: a round number held as an object, not stood up as a doctrine.
+
+  % —— the stick, kept whole and unsplit ——
+  \fill[faded!8!vellum, opacity=0.92]
+    (-3.94,-0.16) .. controls (-1.80,-0.10) and (1.80,-0.06) .. (3.94,-0.02)
+    -- (3.92,0.30) .. controls (1.80,0.26) and (-1.80,0.22) .. (-3.92,0.18)
+    -- cycle;
+  \draw[faded!50!ink, line width=0.50pt, opacity=0.44, line cap=round]
+    (-3.94,-0.16) .. controls (-1.80,-0.10) and (1.80,-0.06) .. (3.94,-0.02)
+    -- (3.92,0.30) .. controls (1.80,0.26) and (-1.80,0.22) .. (-3.92,0.18)
+    -- cycle;
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.22, line cap=round]
+    (-3.86,-0.06) .. controls (-1.80,0.00) and (1.80,0.04) .. (3.84,0.08);
+
+  % —— the cuts: fifteen tens, the last one the round number ——
+  \foreach \i in {0,1,...,14}{
+    \pgfmathsetmacro{\nx}{-3.40 + 0.47*\i}
+    \pgfmathsetmacro{\ny}{0.188 + 0.0072*\i}
+    \draw[ink!62, line width=0.52pt, opacity=0.52, line cap=round]
+      (\nx,\ny+0.03) -- (\nx,\ny-0.21);
+  }
+  \foreach \nx/\ny in {-3.40/0.188, -1.05/0.224, 1.30/0.260}{
+    \draw[ink!70, line width=0.62pt, opacity=0.58, line cap=round]
+      (\nx,\ny+0.05) -- (\nx,\ny-0.30);
+  }
+  % the hundred and fiftieth, cut deeper and in red, still not paid
+  \draw[rubric!78!ink, line width=0.92pt, opacity=0.82, line cap=round]
+    (3.18,0.34) -- (3.18,-0.06);
+  \fill[rubric!64!gold, opacity=0.72] (3.18,-0.06) circle (0.035);
+  % the finger's width between 149 and 150, with no figure put on it
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.28,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (2.71,-0.26) -- (3.18,-0.26);
+  \foreach \gx in {2.71,3.18}{
+    \draw[faded!38!ink, line width=0.28pt, opacity=0.26, line cap=round]
+      (\gx,-0.21) -- (\gx,-0.31);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.54] at (2.94,-0.48)
+    {150 beside 149};
+
+  % —— the split not made: a count that stays in wood has paid nobody ——
+  \draw[rubric!42!ornament, line width=0.36pt, opacity=0.30,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (-3.78,0.04) .. controls (-1.80,0.10) and (1.40,0.14) .. (2.72,0.16);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (-2.22,-0.48)
+    {not split, no payer};
+
+  % —— the held interval and the empty interval, side by side ——
+  % the held interval, with a bead at each end
+  \draw[ornament!58!ink, line width=0.46pt, opacity=0.46, line cap=round]
+    (-2.60,0.78) -- (-1.20,0.78);
+  \foreach \ex in {-2.60,-1.20}{
+    \draw[ornament!52!ink, line width=0.36pt, opacity=0.40, line cap=round]
+      (\ex,0.66) -- (\ex,0.90);
+    \fill[rubric!62!gold, opacity=0.68] (\ex,0.78) circle (0.036);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (-1.90,1.00)
+    {the held interval};
+  % the empty interval, equal in length and holding nothing
+  \draw[faded!36!ink, line width=0.40pt, opacity=0.30,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (-0.80,0.78) -- (0.60,0.78);
+  \foreach \ex in {-0.80,0.60}{
+    \draw[faded!32!ink, line width=0.30pt, opacity=0.24, line cap=round]
+      (\ex,0.68) -- (\ex,0.88);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (-0.10,1.00)
+    {the empty interval};
+
+  % —— a single small fleuron above, a fine rule below ——
+  \node at (0,1.34) {\pgfornament[width=0.9cm,color=ornament,opacity=0.28]{11}};
+  \node at (0,-0.88) {\pgfornament[width=6.4cm,color=ornament,opacity=0.22]{73}};
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.22)
+    {a count that stays in wood has paid nobody};
+\end{tikzpicture}
