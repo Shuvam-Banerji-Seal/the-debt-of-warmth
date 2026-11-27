@@ -2,7 +2,7 @@
 
 - Chapters complete: **93**
 - Words of story: **1,662,982**
-- Current chapter: 93 (step: publish, scene 7)
+- Current chapter: 94 (step: plan, scene 1)
 - Last chapter: What the Fire Keeps (Days 330–332 · Ash 1–3, Y.H. 813)
 - Author calls so far: 1011 (tokens in 180,777,344, out 22,813,480)
 - Updated: 2026-11-28 03:09
