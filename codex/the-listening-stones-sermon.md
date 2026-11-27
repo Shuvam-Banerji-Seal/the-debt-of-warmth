@@ -17,11 +17,11 @@ The pale at the head is lead dust off the survey-sheet; no brushing takes it out
 - Keep the warm-stone in the pocket against the thigh, not in the hand. The hand must be the cold thing. A warm hand reads its own heat and calls it the number.
 - Lay the flat of the palm to the stone. Do not knock. A pot answers the knuckle; a stone answers the sitting.
 - Sit until the cold is ordinary. The first hour belongs to the stone, the second to you, and after that to neither.
-- Ask one question. The stone will give a number. Do not ask what the number counts or who paid for it. Those are two questions and the stone allows one.
-- If the number is correct, say *The numbers are correct* and stop. That sentence is true and it is not a translation. Anything more is a man hearing himself.
-- Do not cut your measure into the stone. The arm is for that. The stones are older than the arm and have no need of being told.
-- If the stone sweats and the smell of hot lead comes up off it, go down without counting the hour as a sitting. The mountain gives warning once.
-- When a man with a slate comes among the sitters, stop, and begin again after. His figure is for a room below this one. Do not lay the two together.
+- Ask one question. The stone will give a number. Do not ask what it counts or who paid for it; the stone allows one question.
+- If the number is correct, say *The numbers are correct* and stop. That sentence is true and not a translation. Anything more is a man hearing himself.
+- Do not cut your measure into the stone. The arm is for that. The stones are older than the arm and need no telling.
+- If the stone sweats and the smell of hot lead comes up, go down without counting the hour. The mountain gives warning once.
+- When a man with a slate comes among the sitters, stop, and begin again after. His figure is for a room below. Do not lay the two together.
 
 He said the last twice, once to the stone and once to a man in a Keldish coat who was writing nothing I could see.
 
@@ -29,7 +29,7 @@ He said the last twice, once to the stone and once to a man in a Keldish coat wh
 
 ## Of the number
 
-He had the palm of his left hand flat against the Fourth Stone, and the snow went on standing in the joint beside his fingers as though the hand had told it to.
+He had his left palm flat on the Fourth Stone, and the snow went on standing in the joint beside his fingers as though the hand had told it to.
 
 “I sat from my fortieth year,” he said. “I have come away with a number.”
 
@@ -69,29 +69,25 @@ The duellist said that a number a man could not show was no use in a duel, and s
 
 ## Of the oldest repair
 
-A surveyor of the seam had come up from the First Seam and stood at the edge with his slate turned face down against his forearm, which is how surveyors carry a thing they will not have read over in the wind.
+A surveyor of the seam stood at the edge with his slate turned face down against his forearm, which is how surveyors carry a thing they will not have read over in the wind.
 
-“He will tell you,” Om said, without looking at the man, “that the rim-seam shows repair laid over repair, that the oldest are not stone and not clay, and that in the record they look like language. Then he will stop and turn his slate face down, because the man who wrote the entry before his was taken out of the shaft.”
+“He will tell you,” Om said, without looking at him, “that the rim-seam shows repair laid over repair, that the oldest are not stone and not clay, and that in the record they look like language. Then he will stop and turn his slate face down, because the man who wrote the entry before his was taken out of the shaft.”
 
 The surveyor said nothing. That is the answer the Keep gives when a thing is true and not to be carried further.
 
-“You cannot translate a repair,” Om said. “You can only lay another over it. That is what the Keep does and what the Nine did before it. A mended thing keeps the break under the patch. Ask the pot, not the potter. The pot knows where it was opened.”
+“You cannot translate a repair,” Om said. “You can only lay another over it. A mended thing keeps the break under the patch. Ask the pot, not the potter. The pot knows where it was opened.”
 
 A woman beside me asked what the oldest repairs were made of, which is what the surveyor had been asked and had not answered.
 
-“That is a question with a use,” he said. “I have sat at four stones and none has given me a word for it. They have given me numbers. A number is the shape of a thing with the thing taken away. If you want the thing, sit longer than I did, and be colder.”
+“A question with a use,” he said. “I have sat at four stones and none has given me a word for it. They have given me numbers. A number is the shape of a thing with the thing taken away. If you want the thing, sit longer than I did, and be colder.”
 
 > *The people answered:*
 >
 > The stone keeps the number; it does not say of whom.
 
-> *In the narrow upright hand of the mine-reeve's clerk who came up on the third day:* Surveyor's conjecture recorded as fact. Referent of *repair* not established. Strike the last clause.
-> *
-> *Underneath, in mine:* I have put *laid* and *gave* back under his *recorded* and *established*. His hand stands above and mine below, as the sitting stands under the stone.
-
 ## Of never owed
 
-He turned then from the stone to the company, which he had not done until that hour, and spoke to us in the short sentences they use at the Stones.
+He turned then from the stone to the company, which he had not done until that hour, and spoke in the short sentences they use at the Stones.
 
 “The Court says a vessel is emptied and pressed into another and the account stands. It says this to the dying so they may go away quiet. It is a sentence with a slate at the end of it.”
 
@@ -145,23 +141,23 @@ A girl from the shelter asked what the space was for. Nobody answered her. The c
 | The Third | the mine-reeve's clerk, taking the winter count | nothing entered | nil, written above the four |
 | The place under the Fifth | nobody | nothing | no stone, and no sitting |
 
-There were sittings before these, and the old keeper of the shelter could set a winter to most of them, and I have not written the winters, because a row of years is a thing a clerk can carry away and a stone is not. The place under the Fifth has no stone. I have left it in the tally so that the row may be read the way it stands.
+There were sittings before these, and the old keeper could set a winter to most of them; I have not written the winters, because a row of years is a thing a clerk can carry away and a stone is not. The place under the Fifth has no stone, and I have left it in the tally so the row may be read the way it stands.
 
 # What the clerk did
 
 He came up from Keld Keep on the third day with ink in two fingers, borrowed the leaf while I was at the ration-tin, and gave it back with the verbs taken out.
 
-- At *the stone gave a number*, he wrote *a figure was returned to the sitter*, above and underlined.
-- At *the numbers are correct*, he wrote *sentence affirmed; referent not stated*.
-- At *we were never owed*, he wrote *declaration of non-liability; not recognised*, and drew a small stop between two clusters of his neat dark hand.
-- At the number kept and not spoken, he wrote *no figure produced; enter as nil*.
+- At *the stone gave a number*: *a figure was returned to the sitter*, above and underlined.
+- At *the numbers are correct*: *sentence affirmed; referent not stated*.
+- At *we were never owed*: *declaration of non-liability; not recognised*, with a small stop between two clusters of his neat dark hand.
+- At the number kept and not spoken: *no figure produced; enter as nil*.
 - At the gap in the song a round nought and *vacancy*, as though a space where a number is not given were an empty column waiting to be filled.
 
-I have put the verbs back underneath and left his hand standing above, as the stone keeps the sitting under the number. He takes them out because a thing always true has no need of anyone to have done it. I put them back because a woman with her palm on a cold stone wants to know who sat, and whether it was her own hand that came down.
+I have put the verbs back underneath and left his hand standing above, as the stone keeps the sitting under the number. He takes them out because a thing always true has no need of anyone to have done it. I put them back because a woman with her palm on a cold stone wants to know who sat.
 
 # At the head and in the fold
 
-The lead at the head is from the survey-sheet, and grates between the teeth if a person is foolish enough to test it; the glass-men do that once and do not do it again. The grit is stone dust ground by every palm that has sat here, and I know a sitter by it on a man who has never been near the Stones. The chip in the fold came out of the ration and has not lost all its heat, which is what warm-stone does. The tallow is mine; I held the leaf down in the wind and did not know I had marked it. The iron in the gutter is filings off the wire at the tie. The grey came off a cuff and I have not swept it. The wet ring is the tin of snow, set down while he spoke of the arm and taken up before he saw it. The lichen was shut in the crease when I took the leaf from the spoiled sheet, and I have left it. The clerk noticed none of these things, which is how I know he is a good clerk.
+The lead at the head grates between the teeth if a person is foolish enough to test it; the glass-men do that once and do not do it again. The grit is stone dust ground by every palm that has sat here, and I know a sitter by it. The chip in the fold has not lost all its heat, which is what warm-stone does. The tallow is mine; I held the leaf down in the wind and did not know I had marked it. The iron in the gutter is filings off the wire at the tie. The grey came off a cuff and I have not swept it. The wet ring is the tin of snow, set down while he spoke of the arm. The lichen lay in the crease when I took the leaf from the spoiled sheet, and I have left it. The clerk noticed none of these things, which is how I know he is a good clerk.
 
 # At the foot
 
@@ -171,6 +167,6 @@ Struck through once and written again underneath, very small, in a hand that is 
 >
 > The stone keeps both, and will not say which is the mercy.
 
-I asked Om, the surveyor, the duellist and the clerk, and had four answerings and no hand. I have left the line struck through and standing, which is the only honest way to keep a sentence you cannot sign.
+I asked Om, the surveyor, the duellist and the clerk, and had four answerings and no hand. I have left the line struck through and standing, the only honest way to keep a sentence you cannot sign.
 
-The leaf goes back in the tin at the shelter with the warm-stone chip in its fold and the wire tied as it was. Next Stone the sitters will come up the five leagues from Keld Keep with the snow in the joints of the stones, and a Vorr will lay a palm to the Fourth and come away with a number he will not spend. If the clerk comes I shall let him take the verbs out and put them back, and leave the nought in its place and the number where it was not spoken.
+The leaf goes back in the tin with the warm-stone chip in its fold and the wire tied as it was. Next Stone the sitters will come up the five leagues from Keld Keep with snow in the joints, and a Vorr will lay a palm to the Fourth and come away with a number he will not spend. If the clerk comes I shall let him take the verbs out and put them back, and leave the nought in its place and the number where it was not spoken.
