@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **82**
-- Words of story: **1,441,252**
-- Current chapter: 83 (step: plan, scene 1)
-- Last chapter: The Figure Without a Signature (Days 297–299 · Frost 28–30, Y.H. 813)
-- Author calls so far: 899 (tokens in 159,023,596, out 20,004,818)
-- Updated: 2026-11-27 20:03
+- Chapters complete: **83**
+- Words of story: **1,461,168**
+- Current chapter: 83 (step: publish, scene 7)
+- Last chapter: A Hare Across the Shoulders (Days 300–302 · Bone 1–3, Y.H. 813)
+- Author calls so far: 909 (tokens in 160,937,518, out 20,236,721)
+- Updated: 2026-11-27 20:41
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

@@ -1,0 +1,95 @@
+\begin{tikzpicture}
+  % The chapter's heart: the carrying cost. A hare comes down across a man's
+  % shoulders and the yard asks what it cost; the man tells it the weather.
+  % The weight is judged by the carrying arm and not by a figure, so the slate
+  % held out for the cost has no number on it --- only a little weather.
+  % Below the shoulder, four low pulls stand where a fifth should stand, and
+  % that place is left empty: the fire's fifth, unpaid, with no payer named.
+
+  % —— a small flower at the left of the weather ——
+  \node at (-3.35,1.22) {\pgfornament[width=0.9cm,color=ornament,opacity=0.24]{9}};
+
+  % —— the weather, going off toward the north gate road, no boundary drawn ——
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.30, line cap=round]
+    (-0.20,1.16) .. controls (0.80,1.34) and (1.90,1.32) .. (2.86,1.16);
+  \draw[faded!36!ink, line width=0.28pt, opacity=0.24, line cap=round]
+    (0.10,0.94) .. controls (1.04,1.10) and (2.02,1.06) .. (2.96,0.90);
+  \draw[faded!32!ink, line width=0.24pt, opacity=0.20, line cap=round]
+    (0.60,1.38) .. controls (1.50,1.50) and (2.40,1.46) .. (3.20,1.34);
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.18,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (2.86,1.16) .. controls (3.20,1.14) and (3.52,1.12) .. (3.82,1.06);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52] at (3.06,1.56)
+    {the weather};
+
+  % —— the shoulder-line that carries, dipping at the neck ——
+  \draw[ornament!55!ink, line width=0.52pt, opacity=0.42, line cap=round]
+    (-3.60,-0.64) .. controls (-2.20,-0.02) and (-1.35,0.24) .. (-0.55,0.20)
+    .. controls (-0.20,0.16) and (0.20,0.16) .. (0.55,0.20)
+    .. controls (1.35,0.24) and (2.20,-0.02) .. (3.60,-0.64);
+  \draw[faded!38!ink, line width=0.32pt, opacity=0.26, line cap=round]
+    (-0.30,0.14) .. controls (-0.32,-0.06) and (-0.20,-0.16) .. (-0.12,-0.20);
+  \draw[faded!38!ink, line width=0.32pt, opacity=0.26, line cap=round]
+    (0.30,0.14) .. controls (0.32,-0.06) and (0.20,-0.16) .. (0.12,-0.20);
+
+  % —— the hare: body arched across the shoulder ——
+  \fill[ink!58!faded, opacity=0.56]
+    (-1.05,0.52) .. controls (-0.35,0.86) and (0.42,0.86) .. (1.12,0.50)
+    .. controls (1.30,0.40) and (1.28,0.26) .. (1.02,0.24)
+    .. controls (0.30,0.30) and (-0.45,0.28) .. (-1.00,0.30)
+    .. controls (-1.16,0.36) and (-1.16,0.46) .. (-1.05,0.52) -- cycle;
+  \draw[ink!52!faded, line width=0.40pt, opacity=0.40, line cap=round]
+    (-1.05,0.52) .. controls (-0.35,0.86) and (0.42,0.86) .. (1.12,0.50);
+  \draw[ink!48!faded, line width=0.34pt, opacity=0.32, line cap=round]
+    (-1.00,0.30) .. controls (-0.45,0.28) and (0.30,0.30) .. (1.02,0.24);
+  % the head hanging down in front of the shoulder
+  \fill[ink!60!faded, opacity=0.58]
+    (-1.02,0.44) .. controls (-1.22,0.36) and (-1.40,0.12) .. (-1.48,-0.12)
+    .. controls (-1.54,-0.30) and (-1.44,-0.38) .. (-1.30,-0.32)
+    .. controls (-1.16,-0.14) and (-1.04,0.14) .. (-1.02,0.44) -- cycle;
+  % the two long ears, hanging
+  \fill[ink!48!faded, opacity=0.48]
+    (-1.34,0.02) .. controls (-1.58,-0.24) and (-1.92,-0.60) .. (-2.08,-0.84)
+    .. controls (-1.98,-0.92) and (-1.80,-0.70) .. (-1.52,-0.34) -- cycle;
+  \fill[ink!44!faded, opacity=0.42]
+    (-1.26,-0.02) .. controls (-1.44,-0.34) and (-1.72,-0.72) .. (-1.86,-0.96)
+    .. controls (-1.72,-0.98) and (-1.56,-0.72) .. (-1.36,-0.36) -- cycle;
+  % the two hind legs, hanging on the other side
+  \fill[ink!56!faded, opacity=0.54]
+    (0.92,0.52) .. controls (1.18,0.42) and (1.34,0.10) .. (1.36,-0.24)
+    .. controls (1.36,-0.42) and (1.22,-0.46) .. (1.14,-0.30)
+    .. controls (1.04,-0.02) and (0.96,0.22) .. (0.92,0.52) -- cycle;
+  \fill[ink!48!faded, opacity=0.44]
+    (1.10,0.46) .. controls (1.36,0.32) and (1.56,-0.02) .. (1.62,-0.34)
+    .. controls (1.60,-0.46) and (1.46,-0.46) .. (1.40,-0.30)
+    .. controls (1.30,-0.04) and (1.20,0.20) .. (1.10,0.46) -- cycle;
+  % the small tail, and the eye
+  \fill[faded!34!vellum, opacity=0.80] (1.20,0.62) circle (0.11);
+  \fill[ink!74, opacity=0.62] (-1.36,-0.10) circle (0.035);
+
+  % —— the slate held out for the cost: no figure on it, only weather ——
+  \fill[vellum, opacity=0.62] (1.95,-0.92) rectangle (3.45,-0.58);
+  \draw[faded!42!ink, line width=0.38pt, opacity=0.34]
+    (1.95,-0.92) rectangle (3.45,-0.58);
+  \draw[faded!32!ink, line width=0.26pt, opacity=0.22]
+    (2.08,-0.85) -- (3.32,-0.85);
+  \draw[faded!38!ink, line width=0.28pt, opacity=0.26, line cap=round]
+    (2.18,-0.72) .. controls (2.55,-0.64) and (2.95,-0.76) .. (3.24,-0.68);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50] at (2.70,-1.12)
+    {asked the cost};
+
+  % —— four low pulls, and the fifth place left empty ——
+  \foreach \cx in {-1.05,-0.75,-0.45,-0.15}{
+    \draw[ornament!58!ink, line width=0.86pt, opacity=0.44, line cap=round]
+      (\cx,-0.56) -- (\cx,-0.42);
+  }
+  \draw[faded!38!ink, line width=0.26pt, opacity=0.24,
+        dash pattern=on 1pt off 2.2pt] (0.15,-0.58) -- (0.15,-0.39);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.46] at (-0.45,-0.78)
+    {four where five would stand};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.40)
+    {he told her the weather};
+  \node at (0,-1.74) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{85}};
+\end{tikzpicture}
