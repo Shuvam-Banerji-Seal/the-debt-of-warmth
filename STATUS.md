@@ -2,7 +2,7 @@
 
 - Chapters complete: **94**
 - Words of story: **1,684,017**
-- Current chapter: 94 (step: publish, scene 7)
+- Current chapter: 95 (step: plan, scene 1)
 - Last chapter: The Road Brings the Teller Back (Days 333–335 · Ash 4–6, Y.H. 813)
 - Author calls so far: 1021 (tokens in 182,960,272, out 23,079,090)
 - Updated: 2026-11-28 03:43
