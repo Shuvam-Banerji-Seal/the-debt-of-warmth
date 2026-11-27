@@ -1,0 +1,70 @@
+\begin{tikzpicture}
+  % The chapter's heart: the fifth asking opened as a surgeon opens a wound.
+  % The voice has no owner, room, hand at the kiln or cause; weather and price
+  % answer after it; the row stands with nobody in it. Five askings rest on a
+  % seventh place set apart, a finger between each pair, and the wound holds
+  % no witness at the bottom.
+
+  % the voice, beginning in blank air and going off up the terrace
+  \draw[faded!46!ink, line width=0.38pt, opacity=0.28, line cap=round]
+    (-2.34,1.34) .. controls (-1.74,1.18) and (-0.90,0.80) .. (-0.44,0.48);
+  \draw[faded!46!ink, line width=0.38pt, opacity=0.28, line cap=round]
+    (0.44,0.50) .. controls (1.22,0.88) and (2.48,1.16) .. (3.48,1.34);
+  \node[font=\CinzelFont\scriptsize, text=rubric, opacity=0.62] at (2.50,1.12)
+    {the fifth asking};
+
+  % the boards: two edges and their quiet grain, four nails and a knot
+  \draw[faded!64!ink, line width=0.50pt, opacity=0.42, line cap=round]
+    (-3.34,-0.16) -- (3.34,-0.16);
+  \draw[faded!64!ink, line width=0.50pt, opacity=0.42, line cap=round]
+    (-3.34,-0.50) -- (3.34,-0.50);
+  \foreach \gy in {-0.25,-0.34,-0.42}{
+    \draw[faded!44!ink, line width=0.28pt, opacity=0.20, line cap=round]
+      (-2.96,\gy) .. controls (-1.20,\gy + 0.015) and (1.20,\gy - 0.015) .. (2.96,\gy);
+  }
+  \foreach \nx in {-2.86,-2.26,2.26,2.86}{
+    \fill[rubric!46!ink, opacity=0.48] (\nx,-0.33) circle (0.035);
+  }
+  \draw[faded!56!ink, line width=0.34pt, opacity=0.26]
+    (-1.98,-0.33) ellipse (0.10 and 0.055);
+  \draw[faded!48!ink, line width=0.26pt, opacity=0.20]
+    (-1.98,-0.33) ellipse (0.045 and 0.024);
+
+  % —— the wound, opened in the boards and found empty ——
+  \fill[rubric!10!ash, opacity=0.30]
+    (-1.34,0.02)
+      .. controls (-0.72,0.56) and (0.72,0.56) .. (1.34,0.02)
+      .. controls (0.72,-0.52) and (-0.72,-0.52) .. cycle;
+  \draw[rubric!70!ink, line width=0.60pt, opacity=0.52, line cap=round]
+    (-1.34,0.02) .. controls (-0.72,0.56) and (0.72,0.56) .. (1.34,0.02);
+  \draw[rubric!70!ink, line width=0.60pt, opacity=0.52, line cap=round]
+    (1.34,0.02) .. controls (0.72,-0.52) and (-0.72,-0.52) .. (-1.34,0.02);
+  \foreach \wy in {0.22,0.02,-0.18}{
+    \draw[faded!50!ink, line width=0.28pt, opacity=0.22, line cap=round]
+      (-0.78,\wy) .. controls (0,\wy + 0.02) and (0,\wy - 0.02) .. (0.78,\wy);
+  }
+  \draw[faded!44!ink, line width=0.30pt, opacity=0.22,
+        dash pattern=on 1.2pt off 2.4pt]
+    (0,-0.26) ellipse (0.17 and 0.065);
+
+  % the row with no name: a place nobody stands in
+  \draw[faded!38!ink, line width=0.30pt, opacity=0.18, line cap=round]
+    (-3.34,-1.28) -- (0.52,-1.28);
+  \foreach \rx in {-2.84,-2.10,-1.36,-0.62}{
+    \draw[faded!42!ink, line width=0.28pt, opacity=0.18, line cap=round]
+      (\rx - 0.12,-1.28) .. controls (\rx,-1.16) .. (\rx + 0.12,-1.28);
+  }
+
+  % —— the seventh place, set apart, holding five askings ——
+  \draw[faded!58!ink, line width=0.44pt, opacity=0.34, line cap=round]
+    (1.30,-1.06) .. controls (2.30,-1.16) and (3.14,-1.16) .. (3.34,-1.06);
+  \foreach \ax in {1.52,1.96,2.40,2.84}{
+    \draw[faded!58!ink, line width=0.36pt, opacity=0.32, line cap=round]
+      (\ax,-1.08) .. controls (\ax - 0.045,-0.94) and (\ax + 0.045,-0.90) .. (\ax + 0.02,-0.82);
+  }
+  \draw[rubric!68!ink, line width=0.48pt, opacity=0.56, line cap=round]
+    (3.28,-1.06) .. controls (3.235,-0.92) and (3.325,-0.88) .. (3.30,-0.80);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (-0.60,-1.62)
+    {no witness at the bottom};
+\end{tikzpicture}

@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **64**
-- Words of story: **1,109,346**
-- Current chapter: 65 (step: plan, scene 1)
-- Last chapter: What the Notches Keep (Days 243–245 · Smoke 4–6, Y.H. 813)
-- Author calls so far: 714 (tokens in 122,926,515, out 15,724,045)
-- Updated: 2026-11-27 08:06
+- Chapters complete: **65**
+- Words of story: **1,128,042**
+- Current chapter: 65 (step: publish, scene 7)
+- Last chapter: The Fifth Asking (Days 246–248 · Smoke 7–9, Y.H. 813)
+- Author calls so far: 724 (tokens in 124,686,593, out 15,965,663)
+- Updated: 2026-11-27 08:52
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
