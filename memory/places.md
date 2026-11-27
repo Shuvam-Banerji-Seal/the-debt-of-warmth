@@ -787,6 +787,23 @@ The round pewter tin above the abandoned board-bed in House Silt, holding a scra
 An unnamed neighbour's clay-daubed house, the same room as a birth room and the Vail kiln-house with its bench by the door, its pot on the bench, its draught under the door and the grey of the Ash in a corner. Sella Vail carried the boy here before the kiln's first breath on Stone 12, Y.H. 812, and set the basket at the edge of the light where he could see the collection and not be part of it, never where a slate lay open. A dying neighbour on a board-bed against the far wall gave under the collector's cold iron tube, left with a pale round place on his arm where the iron had been; a rekindled child on a folded quilt at the other side of the hearth grew worse before the day was out. The Ash ridge along this room's skirting board is thicker by a finger's width than the ridge at Vail and turns the corner by the door without a break. The boy counted the room's nails four, four and a knot the width of a thumb, the same gap as under the Vail roof. On Stone 29, Y.H. 812 Sella walked two doors down and laid her thumb in this ridge after measuring the Vail one; this ridge was a finger's width thicker, and neither was swept.
 **Relations:** Two doors down the Clay Yard from the Vail kiln-house; House Silt is three doors down in the other direction.
 
+*The close ground of the Drawing house drawn on `atlas/the-drawing-house`: the bench by the door with its pot, the draught going along the floor, the nails four, four and a knot, the thicker ridge turning the corner, the pallet and the quilt. Direction is from the door in the south wall.*
+
+### The drawing pallet
+**Kind:** board-bed, pallet. **Region:** the Drawing house, Low Kiln, Sill.
+The board-bed against the far wall of the Drawing house on which the dying neighbour lay on Stone 12, Y.H. 812, when the collector set the cold iron tube to the way; he was left with a pale round place on his arm where the iron had been. The chart draws the pallet, the fold of its covering and the pale ring; neither the house nor the man bears a name on it.
+**Relations:** Inside the Drawing house, two doors down the Clay Yard from the Vail kiln-house. Drawn close on `atlas/the-drawing-house`.
+
+### The folded quilt
+**Kind:** quilt, child's bed. **Region:** the Drawing house, Low Kiln, Sill.
+The folded quilt at the other side of the hearth in the Drawing house where a rekindled child was laid on Stone 12, Y.H. 812; the child grew worse before the day was out. The chart draws the pot set between the child and the door and a warmed stone at the belly, as the hearth-maids set them, and enters no figure and no cause.
+**Relations:** Inside the Drawing house, beside the hearth. Drawn close on `atlas/the-drawing-house`.
+
+### The thicker ridge
+**Kind:** Ash ridge, mark. **Region:** the Drawing house, Low Kiln, Sill.
+The grey Ash ridge along the skirting board of the Drawing house, thicker by a finger's width than the ridge under the Vail roof and turning the corner by the door without a break. On Stone 29, Y.H. 812 Sella Vail came two doors down the yard and laid her thumb in it after measuring the Vail ridge; neither was swept. It stands on a place of its own, not the clean dark line at Vail or the finer grey hairline called the thaw beside it.
+**Relations:** Inside the Drawing house, turning the corner by the door. Drawn close on `atlas/the-drawing-house`.
+
 ### House Reed
 **Kind:** house, holding. **Region:** Low Kiln, Sill.
 The reed-cutters' house of Alda Reed, the hearth-maid, with a tin of second notes hidden under a floorboard. The chart draws the house but not the tin.
