@@ -1,0 +1,75 @@
+---
+title: The Quart Set Down at the Ninth Pot, Being a Winter Wager on the Nine Pots Road, the Road-Song as It Is Sung, and the Figure a Clerk Set Against the Frost
+kind: An alehouse keeper's telling of a night in the deep cold, set down for the settling of an argument about a quart and not for the improvement of the reader; the five quarts in a charcoal column, the sayings in the words they were spoken, the road-song as it is sung, the figure of a clerk entered over them, and one line at the foot in a hand nobody will own
+provenance: Written in Stone of Y.H. 812, the Thin Year after the Long Cold, at the alehouse called the Ninth Pot in Nine Pots, eight leagues west of Sill, by Cilla who keeps the bench and the fire behind it; set down because a man came the next morning and asked whether a quart had been drunk at the end of the bench and she could not tell him. Copied forward in Ilmen of Y.H. 813 onto the back of a spoiled kiln tally, sewn with eel-sinew into a fold of oiled paper and kept in the jar beside the bench. It survives with a tallow thumb at the head, a small-ale ring, a press of wet wool across the first leaf, frost-crisp at the fore-edge, grey Ash in the gutter, a scorch where the leaf was held too near the fire, one correction in the narrow upright hand of a clerk of the Sill table, one saying in charcoal in a wheel-man's hand, and one line at the foot in a hand that is nobody's.
+relates_to: [Nine Pots, Sill, the Ninth Pot, the west road, the shared clay pit, the four kilns, Stone, the Thin Year, the Long Cold, the frost, the Ilm, small ale, the bench, the slate, Ledgerhand, the deduction, one in twelve, the Court's table, the Ash, clay, slip, tallow, wet wool, the carried fire, carter, the wheel]
+---
+
+I keep the Ninth Pot at Nine Pots, which is eight leagues west of Sill and a long day's walk when the road is open. There are four kilns in this hamlet and nine pots in the name of it, and no living man will tell you which is the ninth. I have asked. I asked a man who had lived here sixty years, and he looked at the road the way a man looks at a thing he has been told not to touch, and said it was a question for somebody with a slate. There is no slate in this house. There is a bench black with the sleeves of forty winters, a fire behind it that is not mine to say where it came from, and one clay pot for the quart that stands between the first question and the last. That is the furniture, and a man may sit on all of it if he takes his boots off first, which nobody does.
+
+The road to Sill is the quarrel of this place. It has outlived every man who began it. Sill says the road is ours to keep because the clay goes west on it; we say it is theirs to keep because the carts come back empty and leave the ruts for our women to walk in. Both sayings are true and neither has mended a yard. In Stone the drift takes it, and the road belongs to the frost, which is the only landlord in Grath that never sends a bill and never comes to collect one.
+
+It took us in the Thin Year, on a Stone morning when the wind came over the Rim and shut the west road in a night. A carter out of Sill was caught on it with an empty cart and a horse that had gone lame somewhere short of the shared pit. He came into the Ninth Pot at dusk with the snow standing on his shoulders and did not take it off, nor ask for a seat, nor say whose horse it was. He stood with his back to the fire until the ice on his coat went grey at the edges, and then asked for a quart. I gave him one and he paid a bit for it, which is the price, and a carter who pays the price in this hamlet is a man who wants something.
+
+There were three at the bench when he came: Radd the wheel-man, Onn who treads the shared pit, and Denn of the fourth kiln. They had been telling the road story as men tell it when the road has shut them in, each with the same saying he told last winter and will tell the next, and none of them hearing the others. The clerk of the Sill table sat in the corner with a slate to his forearm. He had come up before the frost to measure the road, which is a thing a clerk will do when two hamlets have been at a word for fifty years and nobody has thought to ask him; the drift had kept him where he sat. He had a pen and a narrow hand, and he had not once looked at the carter.
+
+“I'll stand four quarts,” the carter said, “to the man who tells me what this road is worth. One for each of you and one for the bench. Then I'll drink my own and go to bed.”
+
+Radd turned the wheel in his hands though there was no wheel there, the way a man will turn a thing that is out of reach. “A road's worth the wheel that's on it,” he said. “Take the wheel off and it's a direction. I've sold directions. They don't pay.”
+
+Onn said the road was worth what it carried, and what it carried was mud, and he had trodden mud for nineteen years and could tell a man the weight of it and not the price. “A day's back,” he said. “It's worth a day's back and nothing in coin.” He said it to the pot, which is where we say such things.
+
+Denn of the fourth kiln said a road was worth the pot that went out on it and the state of the pot when it came back. “If it comes back whole, it's worth the firing,” he said. “If it comes back flat, I've lost the firing and the road too, and that's two losses with one name.”
+
+The clerk did not put his pen to the slate. He said he was not a man to wager on a way and had no opinion of a road. He kept his eyes on his own hand, which is the manner of that table.
+
+The fourth quart was mine, because a quart put to the bench is not scored against anybody. I set it down and said what I had. “A road is worth the man that's on it,” I said. “A man on a road is worth more than the same man off one, and that's the whole of what I know. Ask the road. It'll tell you the weather.”
+
+The carter drank his own without sitting down, wiped his mouth on the back of a glove, and then did a thing I have not seen a man do in this house before or since. He put a bit on the bench and pointed to the end of it where nobody sat. “There's a fifth,” he said. “Stand it there. A man went out on this road before the drift and hasn't come back. Set it where he'd have sat, and don't let anybody drink it.”
+
+Nobody asked who the man was. In this hamlet a question like that is answered with the weather and the road, and we had had enough of both. I set the pot down at the bench end. Radd looked at it and looked away. Onn shut both hands round his quart as though the heat were going out of it, which it was. Denn said nothing at all, which was the most he ever said. The clerk wrote two lines and I have left them standing.
+
+Before the fire was banked we sang the road song, as we sing it when the frost has shut us in, standing with a hand on the bench because it is the only warm thing in the room by then. The second line is the potters' error and I have set it down as they sing it. They will not have it changed.
+
+> Four kilns cold and the west road fast,
+> nine pots and nobody knows the last;
+> the frost has drawn a line across
+> and a man goes out and a man comes back.
+>
+> Knuckle the pot and the pot will say
+> which side the crack let the fire away;
+> ask the road what the carting cost ---
+> the road gives weather, the slate gives lost.
+>
+> One for the man that came in wet,
+> one for the man that hasn't come back yet,
+> and one set down where the bench is bare:
+> the house keeps it. Nobody's there.
+
+I have set the five quarts down as they stood, because of the man who came the next morning and asked whether a quart had been drunk at the end of the bench, and I could not tell him. This is the whole account the house keeps, in charcoal on the back of a spoiled kiln tally, because charcoal goes into the grain and a slate does not.
+
+| Quart | Set down for | Paid | Drunk |
+|---|---|---|---|
+| The first | the carter out of Sill | one bit | yes, standing |
+| The second | Radd of the wheel | one bit | yes |
+| The third | Onn of the shared pit | one bit | yes |
+| The fourth | the bench, not scored | one bit | yes, by the room |
+| The fifth | the bench end | one bit | nobody owned |
+
+The clerk's lines stand above mine in the narrow upright hand he uses, which is a hand that travels further than mine ever will.
+
+> *In the hand of the clerk of the Sill table:* Way: no measure stands. No deduction arises. Ale sold: five. Consumed: four. Party at the bench end: unidentified.
+
+I have not crossed him out. He is right about the four and wrong about the fifth, and he has put a figure where I put a man. A figure travels well and arrives empty. The fifth quart was drunk by somebody in this room or it was not drunk at all, and I will never know which, and I have left the column as it stands.
+
+> *In the margin, in charcoal, in Radd's hand:* A direction's not a road till a man's been lost on it.
+>
+> *Underneath, in mine:* He said that to the pot and not to the clerk, and the clerk did not take it, which is the one kindness I have ever seen him do.
+
+The tallow thumb at the head is mine; I held the tally down in the draught that comes under the door and did not know I had marked it. The ring is a small-ale ring that stood from the first quart to the fifth and was not lifted until morning. The press of wet wool across the first leaf came off the carter when he leaned to see what the clerk had written, and I have not written down which man held the door for him. The fore-edge is frost-crisp where the leaf lay under a stone too short for it; the writing there has gone thin and I have not gone over it, because a word written thin is a word said quietly, and most of ours are. The scorch is where I held the tally too near the fire to read what the clerk had done. The grey in the gutter came off a cuff that had no business near the corner where I keep the leaf, and I have not swept it. The road opened at the thaw and the carter went east with his horse shod. He did not ask after the fifth quart again, because it was paid for.
+
+At the foot, in a hand nobody will own:
+
+> The ninth pot was on the bench all along. Nobody knocked it.
+
+I asked Radd, Onn and Denn, and had three silences and no hand. I have left the line where it was written. The tally goes back into the jar and the fifth pot goes back on the bench, and on the next Stone night I shall set four quarts out and one at the end where nobody sits, and let whoever has a road to tell come in out of the cold and tell it to the pot.
