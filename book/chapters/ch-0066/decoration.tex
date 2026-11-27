@@ -1,0 +1,93 @@
+\begin{tikzpicture}
+  % The chapter's heart: the figure held over the wool. It goes twice across
+  % the covered basket, once for the moot and once for those came late, and
+  % the space beneath the fold has no signature and no payer. The true
+  % subtraction is already locked away up the road; the bell keeps its gap.
+
+  % —— the bell's four, four and a gap, set off to the left ——
+  \draw[faded!42!ink, line width=0.32pt, opacity=0.20, line cap=round]
+    (-3.62,0.84) -- (-1.86,0.84);
+  \foreach \bx in {-3.50,-3.31,-3.12,-2.93,-2.74,-2.55,-2.36,-2.17}{
+    \draw[faded!60!ink, line width=0.44pt, opacity=0.36, line cap=round]
+      (\bx,0.84) -- (\bx,1.06);
+  }
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.18,
+        dash pattern=on 1.2pt off 2.2pt]
+    (-1.98,0.84) -- (-1.98,1.06);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (-2.74,1.30)
+    {four, four, a gap};
+
+  % —— the basket, showing its rim beneath the fold ——
+  \draw[faded!54!ink, line width=0.40pt, opacity=0.26]
+    (0,-0.64) ellipse (1.66 and 0.18);
+  \foreach \wx in {-1.48,-1.20,-0.92,-0.64,-0.36,-0.08,0.20,0.48,0.76,1.04,1.32}{
+    \draw[faded!44!ink, line width=0.26pt, opacity=0.16, line cap=round]
+      (\wx,-0.80) -- (\wx,-0.50);
+  }
+
+  % —— the wool laid over the grain ——
+  \fill[ash!12!vellum, opacity=0.70]
+    (-1.72,-0.56)
+      .. controls (-1.64,0.20) and (-0.96,0.58) .. (0,0.62)
+      .. controls (0.96,0.58) and (1.64,0.20) .. (1.72,-0.56)
+      .. controls (1.18,-0.40) and (0.56,-0.46) .. (0,-0.44)
+      .. controls (-0.56,-0.46) and (-1.18,-0.40) .. cycle;
+  \draw[faded!68!ink, line width=0.52pt, opacity=0.40, line cap=round]
+    (-1.72,-0.56)
+      .. controls (-1.64,0.20) and (-0.96,0.58) .. (0,0.62)
+      .. controls (0.96,0.58) and (1.64,0.20) .. (1.72,-0.56);
+  \draw[faded!62!ink, line width=0.46pt, opacity=0.34, line cap=round]
+    (1.72,-0.56)
+      .. controls (1.18,-0.40) and (0.56,-0.46) .. (0,-0.44)
+      .. controls (-0.56,-0.46) and (-1.18,-0.40) .. (-1.72,-0.56);
+
+  % the folds of the cover, going nowhere and telling nothing
+  \draw[faded!52!ink, line width=0.32pt, opacity=0.24, line cap=round]
+    (-1.36,-0.40) .. controls (-1.24,0.06) and (-0.70,0.38) .. (-0.22,0.56);
+  \draw[faded!52!ink, line width=0.32pt, opacity=0.24, line cap=round]
+    (0.02,0.58) .. controls (0.52,0.40) and (1.10,0.14) .. (1.48,-0.42);
+  \draw[faded!46!ink, line width=0.28pt, opacity=0.20, line cap=round]
+    (-0.86,-0.24) .. controls (-0.54,0.06) and (-0.22,0.22) .. (0.10,0.30);
+
+  % —— the space beneath the fold: no figure, no signature, no payer ——
+  \draw[faded!38!ink, line width=0.30pt, opacity=0.16,
+        dash pattern=on 1.2pt off 2.6pt]
+    (-0.56,-0.70) -- (0.56,-0.70);
+  \draw[rubric!42!ink, line width=0.32pt, opacity=0.22]
+    (0,-0.70) ellipse (0.12 and 0.045);
+
+  % —— the figure goes twice over the covered thing ——
+  \draw[rubric!48!faded, line width=0.42pt, opacity=0.36, line cap=round]
+    (-0.62,0.86) .. controls (-1.16,0.48) and (-1.30,0.04) .. (-0.96,-0.30);
+  \draw[faded!60!ink, line width=0.42pt, opacity=0.32, line cap=round]
+    (0.54,0.80) .. controls (1.08,0.42) and (1.28,-0.02) .. (0.94,-0.34);
+
+  % —— the slate held above, one in twelve as the notice says ——
+  \fill[ash!10!vellum, opacity=0.62]
+    (-0.94,1.48) -- (0.76,1.30) -- (0.84,0.70) -- (-0.86,0.88) -- cycle;
+  \draw[faded!70!ink, line width=0.52pt, opacity=0.42, line cap=round]
+    (-0.94,1.48) -- (0.76,1.30) -- (0.84,0.70) -- (-0.86,0.88) -- cycle;
+  \draw[faded!44!ink, line width=0.28pt, opacity=0.22, line cap=round]
+    (-0.72,0.96) -- (0.68,0.80);
+  \node[font=\CinzelFont\scriptsize, text=rubric, opacity=0.70, rotate=-6]
+    at (-0.05,1.10) {one in twelve};
+
+  % —— the locked box gone up the clay road, its subtraction unread ——
+  \fill[ash!12!vellum, opacity=0.52]
+    (2.40,-0.42) -- (3.50,-0.42) -- (3.50,0.22) -- (2.40,0.22) -- cycle;
+  \draw[faded!62!ink, line width=0.44pt, opacity=0.36]
+    (2.40,-0.42) -- (3.50,-0.42) -- (3.50,0.22) -- (2.40,0.22) -- cycle;
+  \draw[faded!56!ink, line width=0.34pt, opacity=0.28]
+    (2.36,0.22) -- (3.54,0.22);
+  \draw[faded!46!ink, line width=0.28pt, opacity=0.20]
+    (2.56,0.00) -- (3.34,0.00);
+  \draw[rubric!54!ink, line width=0.36pt, opacity=0.36]
+    (2.95,0.10) circle (0.045);
+  \draw[faded!42!ink, line width=0.30pt, opacity=0.18,
+        dash pattern=on 1.2pt off 2.4pt]
+    (3.56,0.34) .. controls (3.90,0.66) and (4.08,0.94) .. (4.22,1.30);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.28)
+    {no signature under the wool};
+  \node at (0,-1.64) {\pgfornament[width=1.5cm,color=ornament,opacity=0.34]{11}};
+\end{tikzpicture}
