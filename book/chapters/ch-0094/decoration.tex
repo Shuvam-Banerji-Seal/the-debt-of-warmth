@@ -1,0 +1,93 @@
+\begin{tikzpicture}
+  % The chapter's heart: the road brings the teller back down it with the
+  % narrow slate turned toward herself, still edge-on, the writing unread.
+  % Three ownerless arrivals sit on their own places with a finger between,
+  % nobody behind them and nobody standing to be asked. The road knows the
+  % way; the runner knows the weight. Nothing is joined, named or paid.
+
+  % —— a small fleuron above ——
+  \node at (0,1.72) {\pgfornament[width=0.72cm,color=ornament,opacity=0.24]{11}};
+
+  % —— the clay road, coming down from Greybank, never arriving anywhere ——
+  \fill[faded!16!ink, opacity=0.14]
+    (-5.20,0.66) .. controls (-2.60,0.30) and (2.60,0.92) .. (5.20,0.36)
+    -- (5.20,0.06) .. controls (2.60,0.62) and (-2.60,0.00) .. (-5.20,0.36)
+    -- cycle;
+  \draw[ornament!42!ink, line width=0.34pt, opacity=0.40, line cap=round]
+    (-5.20,0.66) .. controls (-2.60,0.30) and (2.60,0.92) .. (5.20,0.36);
+  \draw[ornament!42!ink, line width=0.34pt, opacity=0.32, line cap=round]
+    (-5.20,0.36) .. controls (-2.60,0.00) and (2.60,0.62) .. (5.20,0.06);
+  % faint ruts in the road, going down and not up
+  \foreach \rx/\ry in {-4.40/0.46,-3.20/0.36,-2.00/0.30,1.60/0.66,2.80/0.74,4.00/0.70}{
+    \draw[faded!30!ink, line width=0.22pt, opacity=0.24, line cap=round]
+      (\rx-0.06,\ry+0.10) -- (\rx+0.06,\ry-0.10);
+  }
+
+  % —— three ownerless arrivals: empty places with a wisp and no owner ——
+  \foreach \cx/\cy in {-4.20/0.37,-3.20/0.29,-2.20/0.20}{
+    \draw[faded!34!ink, line width=0.30pt, opacity=0.42] (\cx,\cy) circle (0.085);
+    \draw[faded!28!ink, line width=0.22pt, opacity=0.26,
+          dash pattern=on 1pt off 2pt, line cap=round]
+      (\cx,\cy+0.11) .. controls (\cx-0.10,\cy+0.30) and (\cx+0.10,\cy+0.42)
+      .. (\cx,\cy+0.58);
+  }
+  % —— a finger between every pair, and one between the last and the slate ——
+  \foreach \fx/\fy in {-3.70/0.33,-2.70/0.25,-1.30/0.14}{
+    \draw[ink!40!faded, line width=0.9pt, opacity=0.34, line cap=round]
+      (\fx,\fy-0.06) -- (\fx,\fy+0.06);
+  }
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.44] at (-3.20,-0.22)
+    {nobody stands to be asked};
+
+  % —— the narrow slate, back toward the reader, writing turned inward ——
+  \fill[ash!34!night, opacity=0.64]
+    (-0.46,-0.42) -- (0.24,-0.54) -- (0.58,1.02) -- (-0.12,1.14) -- cycle;
+  \draw[ornament!50!ink, line width=0.46pt, opacity=0.52, line cap=round]
+    (-0.46,-0.42) -- (0.24,-0.54) -- (0.58,1.02) -- (-0.12,1.14) -- cycle;
+  % the grain of the frame, on the face that can be seen
+  \draw[faded!32!ink, line width=0.20pt, opacity=0.28, line cap=round]
+    (-0.30,-0.44) -- (0.04,1.10);
+  \draw[faded!32!ink, line width=0.20pt, opacity=0.26, line cap=round]
+    (-0.10,-0.48) -- (0.24,1.06);
+
+  % —— the inward face: a sliver where the writing lies, still edge-on ——
+  \fill[faded!24!ink, opacity=0.42]
+    (0.24,-0.54) -- (0.36,-0.52) -- (0.70,1.04) -- (0.58,1.02) -- cycle;
+  \draw[ornament!40!ink, line width=0.30pt, opacity=0.40, line cap=round]
+    (0.24,-0.54) -- (0.36,-0.52) -- (0.70,1.04) -- (0.58,1.02);
+  \foreach \wxa/\wya/\wxb/\wyb in {
+      0.33/-0.20/0.42/-0.19, 0.40/0.12/0.49/0.13,
+      0.47/0.44/0.56/0.45, 0.54/0.76/0.63/0.77}{
+    \draw[ink!48!rubric, line width=0.30pt, opacity=0.30, line cap=round]
+      (\wxa,\wya) -- (\wxb,\wyb);
+  }
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.28,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (0.63,0.77) -- (1.02,1.02);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (1.08,1.06) {the writing turned inward, unread};
+
+  % —— the thumb along the grain of the frame, nothing pressing the writing ——
+  \fill[ink!40!vellum, opacity=0.40] (-0.20,0.55) ellipse (0.13 and 0.16);
+  \draw[ink!48!faded, line width=0.38pt, opacity=0.44, line cap=round]
+    (-0.20,0.55) ellipse (0.13 and 0.16);
+  \draw[ink!46!faded, line width=0.36pt, opacity=0.40, line cap=round]
+    (-0.28,0.68) .. controls (-0.50,0.86) and (-0.72,0.94) .. (-0.86,0.92);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.28,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (-0.33,0.55) -- (-1.02,0.55);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.44]
+    at (-1.08,0.55) {thumb on the grain};
+
+  % —— the second strap let out for the long road ——
+  \draw[ornament!48!ink, line width=0.30pt, opacity=0.44, line cap=round]
+    (0.02,-0.50) .. controls (-0.06,-0.78) and (0.18,-0.92) .. (0.30,-1.06);
+  \draw[rubric!40!ink, line width=0.26pt, opacity=0.36] (0.30,-1.06) circle (0.035);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.42]
+    at (0.46,-0.90) {the strap let out};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.42)
+    {the road knows the way, and I know the weight};
+  \node at (0,-1.74) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{84}};
+\end{tikzpicture}
