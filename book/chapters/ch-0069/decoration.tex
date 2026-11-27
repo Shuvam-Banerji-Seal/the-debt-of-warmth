@@ -1,0 +1,103 @@
+\begin{tikzpicture}
+  % The chapter's heart: what the covered grain keeps. It is turned under
+  % wool for damp and laid back with no figure, changed in state and
+  % carrying no number. The hand that filled it is gone, but its print
+  % stays pressed in the wool and keeps what no slate can take. Above,
+  % two readings set a figure, then set it where the first stood and call
+  % it new; neither touches the grain. The space between is unsigned.
+
+  % —— the cool stone the grain rests on ——
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.20, line cap=round]
+    (-3.05,-0.98) .. controls (-1.5,-1.02) and (1.5,-1.02) .. (3.05,-0.98);
+  \draw[faded!34!ink, line width=0.30pt, opacity=0.16, line cap=round]
+    (-2.84,-1.18) .. controls (-1.4,-1.22) and (1.4,-1.22) .. (2.84,-1.18);
+  \draw[faded!30!ink, line width=0.28pt, opacity=0.14]
+    (-3.05,-0.98) -- (-2.84,-1.18);
+  \draw[faded!30!ink, line width=0.28pt, opacity=0.14]
+    (3.05,-0.98) -- (2.84,-1.18);
+
+  % —— the dressed grain, a low mound, given no figure ——
+  \fill[gold!24!ash, opacity=0.40]
+    (0,-0.52) ellipse (2.02 and 0.50);
+
+  % —— the wool laid over it ——
+  \fill[ash!10!vellum, opacity=0.88]
+    (-2.55,-0.52)
+      .. controls (-2.42,0.30) and (-1.30,0.52) .. (0.10,0.42)
+      .. controls (0.95,0.36) and (1.60,0.16) .. (1.92,-0.22)
+      .. controls (1.50,-0.42) and (0.80,-0.58) .. (0,-0.60)
+      .. controls (-0.95,-0.58) and (-1.85,-0.56) .. (-2.55,-0.52) -- (-2.55,-0.52);
+  \draw[faded!66!ink, line width=0.48pt, opacity=0.40, line cap=round]
+    (-2.55,-0.52)
+      .. controls (-2.42,0.30) and (-1.30,0.52) .. (0.10,0.42)
+      .. controls (0.95,0.36) and (1.60,0.16) .. (1.92,-0.22);
+  \draw[faded!60!ink, line width=0.44pt, opacity=0.34, line cap=round]
+    (1.92,-0.22)
+      .. controls (1.50,-0.42) and (0.80,-0.58) .. (0,-0.60)
+      .. controls (-0.95,-0.58) and (-1.85,-0.56) .. (-2.55,-0.52);
+
+  % the folds of the cover, turned and laid back for damp
+  \draw[faded!50!ink, line width=0.30pt, opacity=0.22, line cap=round]
+    (-2.10,-0.44) .. controls (-1.86,0.12) and (-1.06,0.36) .. (-0.34,0.44);
+  \draw[faded!46!ink, line width=0.28pt, opacity=0.20, line cap=round]
+    (0.18,0.42) .. controls (0.78,0.34) and (1.22,0.18) .. (1.62,-0.16);
+
+  % —— the corner lifted for damp, grain showing where no figure is ——
+  \fill[ash!14!vellum, opacity=0.94]
+    (1.92,-0.22)
+      .. controls (1.72,0.02) and (1.38,0.16) .. (1.16,0.02)
+      .. controls (1.34,-0.10) and (1.62,-0.20) .. (1.92,-0.22) -- (1.92,-0.22);
+  \draw[faded!62!ink, line width=0.42pt, opacity=0.36, line cap=round]
+    (1.92,-0.22)
+      .. controls (1.72,0.02) and (1.38,0.16) .. (1.16,0.02)
+      .. controls (1.34,-0.10) and (1.62,-0.20) .. (1.92,-0.22);
+  \foreach \gx/\gy in {1.30/-0.10, 1.52/-0.16, 1.74/-0.24, 1.42/-0.28}{
+    \fill[gold!50!ornament, opacity=0.54] (\gx,\gy) ellipse (0.072 and 0.030);
+    \draw[faded!48!ink, line width=0.20pt, opacity=0.28]
+      (\gx,\gy) ellipse (0.072 and 0.030);
+  }
+  % a cool breath going up out of the turned grain, joining nothing
+  \draw[faded!42!ink, line width=0.28pt, opacity=0.18, line cap=round]
+    (1.46,-0.08) .. controls (1.30,0.16) and (1.62,0.34) .. (1.44,0.60);
+
+  % —— the empty print of the hand that filled it, kept in the wool ——
+  \draw[faded!44!ink, line width=0.30pt, opacity=0.20]
+    (-1.05,-0.02) ellipse (0.32 and 0.22);
+  \foreach \fy in {0.10,0.02,-0.06,-0.14}{
+    \draw[faded!40!ink, line width=0.24pt, opacity=0.16, line cap=round]
+      (-0.84,\fy) .. controls (-0.62,\fy + 0.04) .. (-0.50,\fy - 0.02);
+  }
+  \draw[faded!40!ink, line width=0.24pt, opacity=0.16, line cap=round]
+    (-1.14,0.10) .. controls (-1.26,-0.02) .. (-1.18,-0.16);
+
+  % —— two readings set above: the second where the first stood, called new ——
+  \draw[faded!50!ink, line width=0.40pt, opacity=0.30]
+    (-0.55,1.18) circle (0.17);
+  \draw[faded!44!ink, line width=0.36pt, opacity=0.24,
+        dash pattern=on 1pt off 2pt]
+    (0.02,1.26) circle (0.17);
+  \draw[rubric!54!ink, line width=0.40pt, opacity=0.42]
+    (0.02,1.26) -- (0.02,1.43);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (1.02,1.22)
+    {set, and set again};
+
+  % — the figure never lands on the grain —
+  \draw[faded!38!ink, line width=0.28pt, opacity=0.16,
+        dash pattern=on 1pt off 2.4pt]
+    (0.02,1.09) -- (0.02,0.84);
+
+  % —— the unsigned space between the figure and the covered grain ——
+  \draw[faded!36!ink, line width=0.28pt, opacity=0.14,
+        dash pattern=on 1.1pt off 2.6pt]
+    (-1.55,0.74) -- (1.55,0.74);
+  \draw[faded!38!ink, line width=0.28pt, opacity=0.16]
+    (0,0.74) circle (0.055);
+
+  % small wheat sprigs at the ends of the stone
+  \node at (-3.52,-0.96) {\pgfornament[width=1.0cm,color=ornament,opacity=0.24,symmetry=h]{94}};
+  \node at ( 3.52,-0.96) {\pgfornament[width=1.0cm,color=ornament,opacity=0.24,symmetry=h]{94}};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.48)
+    {turned for damp, given no figure};
+  \node at (0,-1.74) {\pgfornament[width=0.9cm,color=ornament,opacity=0.26]{11}};
+\end{tikzpicture}
