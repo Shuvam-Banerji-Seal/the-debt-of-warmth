@@ -2,7 +2,7 @@
 
 - Chapters complete: **82**
 - Words of story: **1,441,252**
-- Current chapter: 82 (step: publish, scene 7)
+- Current chapter: 83 (step: plan, scene 1)
 - Last chapter: The Figure Without a Signature (Days 297–299 · Frost 28–30, Y.H. 813)
 - Author calls so far: 899 (tokens in 159,023,596, out 20,004,818)
 - Updated: 2026-11-27 20:03
