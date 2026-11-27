@@ -2,7 +2,7 @@
 
 - Chapters complete: **68**
 - Words of story: **1,182,478**
-- Current chapter: 68 (step: publish, scene 7)
+- Current chapter: 69 (step: plan, scene 1)
 - Last chapter: The Weight the Hand Knows (Days 255–257 · Smoke 16–18, Y.H. 813)
 - Author calls so far: 754 (tokens in 130,136,642, out 16,611,645)
 - Updated: 2026-11-27 10:36
