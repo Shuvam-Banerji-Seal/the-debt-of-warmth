@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **84**
-- Words of story: **1,482,010**
-- Current chapter: 85 (step: plan, scene 1)
-- Last chapter: A Voice Over the Boards (Days 303–305 · Bone 4–6, Y.H. 813)
-- Author calls so far: 919 (tokens in 162,724,822, out 20,480,725)
-- Updated: 2026-11-27 21:12
+- Chapters complete: **85**
+- Words of story: **1,503,900**
+- Current chapter: 85 (step: publish, scene 7)
+- Last chapter: The Morning Not Yet Earned (Days 306–308 · Bone 7–9, Y.H. 813)
+- Author calls so far: 929 (tokens in 165,190,107, out 20,726,176)
+- Updated: 2026-11-27 21:51
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

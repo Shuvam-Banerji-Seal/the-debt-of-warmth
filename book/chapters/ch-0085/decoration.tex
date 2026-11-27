@@ -1,0 +1,79 @@
+\begin{tikzpicture}
+  % The chapter's heart: the file left open with every gap left gap. Six
+  % small intakes are taken up and let go whole on the river's low note; not
+  % one is set down where a payment would stand, and the gap beside each is
+  % left as a gap. Above the last empty place the hand hangs in its two inches
+  % of air, and the morning beyond the page is a light that has not reached
+  % it --- one morning ahead, unearned. Four held changes keep their places
+  % and do not stand up as a rule.
+
+  % —— the towel, with a hanging lower edge ——
+  \fill[faded!7!vellum, opacity=0.90]
+    (-3.86,1.00) -- (3.86,1.00) -- (3.86,-1.16)
+    .. controls (3.10,-1.30) and (2.42,-1.10) .. (1.70,-1.22)
+    .. controls (0.96,-1.34) and (0.22,-1.14) .. (-0.56,-1.24)
+    .. controls (-1.34,-1.34) and (-2.14,-1.12) .. (-2.94,-1.22)
+    .. controls (-3.42,-1.28) and (-3.70,-1.24) .. (-3.86,-1.16) -- cycle;
+  \draw[faded!34!ink, line width=0.30pt, opacity=0.26, line cap=round]
+    (3.86,-1.16)
+    .. controls (3.10,-1.30) and (2.42,-1.10) .. (1.70,-1.22)
+    .. controls (0.96,-1.34) and (0.22,-1.14) .. (-0.56,-1.24)
+    .. controls (-1.34,-1.34) and (-2.14,-1.12) .. (-2.94,-1.22)
+    .. controls (-3.42,-1.28) and (-3.70,-1.24) .. (-3.86,-1.16);
+
+  % —— the file, left open on the towel ——
+  \fill[vellum, opacity=0.96] (-3.30,-0.92) rectangle (-0.10,0.80);
+  \fill[vellum, opacity=0.96] ( 0.10,-0.92) rectangle ( 3.30,0.80);
+  \draw[ornament!48!ink, line width=0.46pt, opacity=0.40, line cap=round]
+    (-3.30,-0.92) rectangle (-0.10,0.80);
+  \draw[ornament!48!ink, line width=0.46pt, opacity=0.40, line cap=round]
+    ( 0.10,-0.92) rectangle ( 3.30,0.80);
+  \draw[faded!40!ink, line width=0.26pt, opacity=0.30,
+        dash pattern=on 1pt off 2.4pt] (0,-0.94) -- (0,0.82);
+
+  % —— six intakes kept as small objects, each beside a gap left gap ——
+  \foreach \px in {-3.30,0.10}{
+    \foreach \y in {0.52,0.06,-0.40}{
+      \fill[ink!60!faded, opacity=0.52] (\px+0.24,\y) circle (0.045);
+      \draw[faded!54!ink, line width=0.48pt, opacity=0.48, line cap=round]
+        (\px+0.34,\y) -- (\px+0.82,\y);
+      \draw[faded!44!ink, line width=0.30pt, opacity=0.36, line cap=round]
+        (\px+1.26,\y-0.10) -- (\px+1.26,\y+0.10);
+      \draw[faded!44!ink, line width=0.30pt, opacity=0.36, line cap=round]
+        (\px+1.46,\y-0.10) -- (\px+1.46,\y+0.10);
+    }
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.46] at (0,-1.08)
+    {every gap left gap};
+
+  % —— the hand in its two inches of air; the intake not set down ——
+  \draw[ornament!52!ink, line width=0.44pt, opacity=0.44, line cap=round]
+    (-0.62,1.62) .. controls (-0.48,1.34) and (-0.24,1.20) .. (0,1.18)
+    .. controls ( 0.24,1.20) and ( 0.48,1.34) .. ( 0.62,1.62);
+  \foreach \fx in {-0.30,0.00,0.30}{
+    \draw[faded!42!ink, line width=0.30pt, opacity=0.32, line cap=round]
+      (\fx,1.22) -- (\fx,1.14);
+  }
+  \fill[rubric!62!ink, opacity=0.66] (0,1.04) circle (0.052);
+  \draw[faded!36!ink, line width=0.24pt, opacity=0.26,
+        dash pattern=on 1pt off 2.2pt] (0,0.98) -- (0,0.84);
+  \node[anchor=east, font=\CinzelFont\scriptsize, text=faded, opacity=0.44]
+    at (-0.80,1.00) {two inches of air};
+
+  % —— the morning one morning ahead: light that does not reach the page ——
+  \draw[faded!30!ink, line width=0.24pt, opacity=0.24,
+        dash pattern=on 1pt off 2.6pt] (2.78,1.16) -- (2.78,1.72);
+  \draw[gold!64!ornament, line width=0.40pt, opacity=0.46, line cap=round]
+    (2.94,1.34) -- (3.86,1.34);
+  \draw[gold!56!ornament, line width=0.36pt, opacity=0.36, line cap=round]
+    (3.04,1.52) -- (3.86,1.52);
+  \draw[gold!48!ornament, line width=0.30pt, opacity=0.26, line cap=round]
+    (3.16,1.68) -- (3.86,1.68);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (3.86,1.82) {one morning ahead};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.46)
+    {the morning not yet earned};
+  \node at (0,-1.78) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{82}};
+\end{tikzpicture}
