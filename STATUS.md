@@ -2,7 +2,7 @@
 
 - Chapters complete: **91**
 - Words of story: **1,620,459**
-- Current chapter: 91 (step: publish, scene 7)
+- Current chapter: 92 (step: plan, scene 1)
 - Last chapter: The Uncut Notch (Days 324–326 · Bone 25–27, Y.H. 813)
 - Author calls so far: 991 (tokens in 177,098,687, out 22,317,589)
 - Updated: 2026-11-28 01:50
