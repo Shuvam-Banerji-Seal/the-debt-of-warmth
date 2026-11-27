@@ -2,7 +2,7 @@
 
 - Chapters complete: **62**
 - Words of story: **1,069,472**
-- Current chapter: 62 (step: publish, scene 7)
+- Current chapter: 63 (step: plan, scene 1)
 - Last chapter: The Basket Heard the Figure Twice (Days 237–239 · Grain 28–30, Y.H. 813)
 - Author calls so far: 694 (tokens in 119,258,141, out 15,230,307)
 - Updated: 2026-11-27 06:59
