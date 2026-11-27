@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>House Reed and the Birth-flower Shrine — Low Kiln, Sill</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 48% 42%, rgba(255,249,228,.44), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', SEAWASH='#a9bfb2',
+      GOLD='#a9833c', GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', ASH='#8e8777';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(813324);
+  function rr(a,b){return a+(b-a)*rnd();}
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  /* ---------- layers, in the order they are inked ---------- */
+  var defs=E('defs',{});
+  E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.52});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gStruct=E('g',{}),
+      gRoad=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+
+  /* foxing, old folds, the dry warmth of the room, the east marsh and the grey of the Ash */
+  for(var fi=0;fi<30;fi++){
+    E('ellipse',{cx:rr(80,2320),cy:rr(80,1520),rx:rr(16,76),ry:rr(10,48),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gWash);
+  }
+  [560,1200,1840].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:60,y1:820,x2:2340,y2:820,stroke:'#7a5a30','stroke-width':1,opacity:0.05},gWash);
+  E('path',{d:D(jit([[452,484],[940,480],[1152,488],[1156,990],[944,994],[450,988]],3,26),true),
+    fill:'#efe3c6',opacity:0.34},gWash);
+  E('path',{d:D(jit([[1820,470],[2050,462],[2340,470],[2340,968],[2060,960],[1820,966]],3,28),true),
+    fill:'#aebd9e',opacity:0.16},gWash);
+  /* the Ash in the corners of this house also: invisible by daylight, a grey breath only */
+  [[700,910],[920,910],[1000,560]].forEach(function(c){
+    E('ellipse',{cx:c[0],cy:c[1],rx:28,ry:9,fill:ASH,opacity:0.07},gWash);
+  });
+
+  /* ---------- terrain: reeds at the brook, reeds to the east, weeds in the yard, willows at the Ilm ---------- */
+  function tuft(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-5 2 q-2 -8 -6 -12 M0 2 L0 -14 M5 2 q2 -7 7 -11 M-2 2 q-1 -6 -3 -9',
+      fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.8},g);
+  }
+  function willow(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M0 0 L0 -18',stroke:INK,'stroke-width':1.2},g);
+    E('path',{d:'M-12 -12 q12 -8 24 0 M-9 -17 q9 -7 18 0 M-6 -21 q6 -5 12 0',fill:'none',stroke:GREEN,'stroke-width':1.1,opacity:0.8},g);
+    E('path',{d:'M-7 -13 q-2 7 -5 10 M8 -13 q2 7 5 10',fill:'none',stroke:MG,'stroke-width':0.8,opacity:0.6},g);
+  }
+  var i;
+  for(i=0;i<66;i++){tuft(rr(110,2290),rr(382,434),rr(0.65,1.2),gTerr);}
+  for(i=0;i<118;i++){tuft(rr(1880,2310),rr(570,1000),rr(0.7,1.4),gTerr);}
+  for(i=0;i<26;i++){tuft(rr(1160,1800),rr(944,1000),rr(0.6,1.1),gTerr);}
+  for(i=0;i<9;i++){willow(rr(180,2240),rr(1078,1108),rr(0.5,0.9),gTerr);}
+
+  /* ---------- the Slip Brook, clay-heavy, along the north of the ground ---------- */
+  var center=jit([[60,410],[240,404],[420,412],[600,418],[780,414],[960,420],[1140,414],
+                  [1320,422],[1500,418],[1680,426],[1860,420],[2040,428],[2340,422]],2,14);
+  var bankN=[],bankS=[],norm=[],half=[],k;
+  for(k=0;k<center.length;k++){
+    var a=center[Math.max(0,k-1)],b=center[Math.min(center.length-1,k+1)];
+    var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+    var nx=-dy/le,ny=dx/le,t=k/(center.length-1);
+    var w=11+9*t+Math.sin(k*0.8)*2.2;
+    var js=rr(-2,2),jn=rr(-2,2);
+    bankN.push([center[k][0]+nx*(w+js),center[k][1]+ny*(w+js)]);
+    bankS.push([center[k][0]-nx*(w+jn),center[k][1]-ny*(w+jn)]);
+    norm.push([nx,ny]); half.push(w);
+  }
+  E('path',{d:D(bankN.concat(bankS.slice().reverse()),true),fill:'#b9b295',opacity:0.42},gWater);
+  E('path',{d:D(center),fill:'none',stroke:SEA,'stroke-width':2.6,'stroke-linecap':'round',opacity:0.3},gWater);
+  for(k=2;k<center.length-2;k+=2){
+    E('path',{d:'M'+center[k][0].toFixed(1)+' '+center[k][1].toFixed(1)+' q9 -2.6 19 0',
+      fill:'none',stroke:SEA,'stroke-width':1,opacity:rr(0.10,0.24)},gWater);
+  }
+  [bankN,bankS].forEach(function(bank){
+    E('path',{d:D(bank),fill:'none',stroke:INK,'stroke-width':1.5,'stroke-linejoin':'round',opacity:0.8},gWater);
+  });
+  /* the Ilm, a little way south of the house */
+  var ilm=jit([[70,1090],[420,1086],[780,1094],[1140,1090],[1500,1098],[1860,1092],[2340,1100]],2,20);
+  var ibN=[],ibS=[];
+  for(k=0;k<ilm.length;k++){
+    var aa=ilm[Math.max(0,k-1)],bb=ilm[Math.min(ilm.length-1,k+1)];
+    var ddx=bb[0]-aa[0],ddy=bb[1]-aa[1],lle=Math.sqrt(ddx*ddx+ddy*ddy)||1;
+    var nnx=-ddy/lle,nny=ddx/lle,w=17+Math.sin(k*0.9)*3;
+    ibN.push([ilm[k][0]+nnx*w,ilm[k][1]+nny*w]);
+    ibS.push([ilm[k][0]-nnx*w,ilm[k][1]-nny*w]);
+  }
+  E('path',{d:D(ibN.concat(ibS.slice().reverse()),true),fill:SEAWASH,opacity:0.52},gWater);
+  E('path',{d:D(ilm),fill:'none',stroke:SEA,'stroke-width':2.4,opacity:0.3},gWater);
+  E('path',{d:D(ibN),fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.75},gWater);
+  E('path',{d:D(ibS),fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.75},gWater);
+
+  /* ---------- structures: House Reed cut open, the shrine, then the faint neighbourhood ---------- */
+  function clayHouse(x,y,w,h,fill,op,p){
+    var g=E('g',{opacity:op||1},p||gStruct);
+    E('path',{d:D(jit([[x,y],[x+w,y],[x+w,y+h],[x,y+h]],2.4,16),true),
+      fill:fill||'#e6d8b8',stroke:INK,'stroke-width':2,'stroke-linejoin':'round'},g);
+    E('path',{d:D(jit([[x+9,y+9],[x+w-9,y+9],[x+w-9,y+h-9],[x+9,y+h-9]],1.6,16),true),
+      fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.55},g);
+    return g;
+  }
+  var front=clayHouse(470,500,490,470,'#e9dcbc',1,gStruct);
+  var back=clayHouse(960,500,180,470,'#e4d5b2',1,gStruct);
+  /* the wall between the two rooms, broken by an inner door */
+  E('path',{d:'M960 500 L960 760 M960 862 L960 970',stroke:INK,'stroke-width':2.4},gStruct);
+  E('path',{d:'M960 760 L932 760 M960 862 L932 862',stroke:INK,'stroke-width':1.4,opacity:0.8},gStruct);
+  E('path',{d:'M932 760 q-13 51 0 102',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.5},gStruct);
+  /* the front door standing a finger's width open in the south wall */
+  E('path',{d:'M666 970 L666 946',stroke:INK,'stroke-width':2.4},gStruct);
+  E('path',{d:'M726 970 L726 946',stroke:INK,'stroke-width':2.4},gStruct);
+  E('path',{d:'M666 946 L739 932',stroke:INK,'stroke-width':2},gStruct);
+  E('path',{d:'M666 970 L742 970',stroke:INK,'stroke-width':1.2,opacity:0.55},gStruct);
+
+  /* the hearth with a slip pot, and a shelf with a chipped cup */
+  E('path',{d:'M514 566 q42 -32 84 0',fill:'none',stroke:INK,'stroke-width':2},front);
+  E('path',{d:'M522 566 q34 -22 68 0',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.7},front);
+  E('path',{d:'M538 566 q-3 -20 18 -20 q21 0 18 20 z',fill:'#cbb58f',stroke:INK,'stroke-width':1.3},front);
+  E('rect',{x:876,y:632,width:34,height:6,fill:'#d9caa4',stroke:INK,'stroke-width':1.2},back);
+  E('path',{d:'M884 632 q-2 -16 11 -16 q13 0 11 16 z',fill:'#cbb58f',stroke:INK,'stroke-width':1.2},back);
+
+  /* the board-bed with its fold of grey wool, and a warmed stone held at the belly */
+  E('rect',{x:632,y:548,width:186,height:82,fill:'#d7c8a2',stroke:INK,'stroke-width':1.8},front);
+  E('line',{x1:632,y1:590,x2:818,y2:590,stroke:FADE,'stroke-width':0.9,opacity:0.6},front);
+  E('path',{d:D(jit([[660,592],[724,588],[792,594],[794,618],[726,614],[660,618]],2,10),true),
+    fill:'#a8a596',stroke:INK,'stroke-width':1,opacity:0.85},front);
+  E('ellipse',{cx:726,cy:602,rx:13,ry:8,fill:'#c3bfae',stroke:FADE,'stroke-width':1,opacity:0.9},front);
+  E('path',{d:'M712 604 q14 -7 28 0',fill:'none',stroke:'#efe3c6','stroke-width':1.2,opacity:0.85},front);
+
+  /* the bench by the door, a pot on it and a birth-slate propped writing-down */
+  E('rect',{x:496,y:876,width:196,height:10,fill:'#d9caa4',stroke:INK,'stroke-width':1.4},front);
+  E('line',{x1:506,y1:886,x2:506,y2:900,stroke:INK,'stroke-width':1.3},front);
+  E('line',{x1:682,y1:886,x2:682,y2:900,stroke:INK,'stroke-width':1.3},front);
+  E('path',{d:'M538 876 q-3 -17 13 -17 q16 0 13 17 z',fill:'#cbb58f',stroke:INK,'stroke-width':1.2},front);
+  E('rect',{x:616,y:854,width:34,height:22,fill:'#51483a',stroke:INK,'stroke-width':1.1,
+    transform:'rotate(-8 633 865)'},front);
+  E('path',{d:'M622 865 h22 M622 869 h15',stroke:'#c9b99a','stroke-width':0.6,opacity:0.7,
+    transform:'rotate(-8 633 865)'},front);
+
+  /* the loose board, lifted at one end: six narrow pages in a second hand, face-down, no seventh */
+  E('path',{d:'M792 808 L872 798 L880 812 L800 822 Z',fill:'#d9caa4',stroke:INK,'stroke-width':1.5},front);
+  E('path',{d:'M796 824 L876 814 L880 824 L802 834 Z',fill:'#3a3126',opacity:0.9},front);
+  for(i=0;i<6;i++){
+    E('rect',{x:808+i*3,y:796+i*2,width:32,height:7,fill:'#554b3c',stroke:INK,'stroke-width':0.9,opacity:0.96},front);
+  }
+  E('rect',{x:830,y:802,width:32,height:7,fill:'#41392d',stroke:INK,'stroke-width':1},front);
+  E('path',{d:'M848 812 L900 866',fill:'none',stroke:RED,'stroke-width':1,'stroke-dasharray':'3 4',opacity:0.7},front);
+  /* bundles of cut reeds leaned in the back room, and more at the door */
+  function reedBundle(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    var q;
+    for(q=-3;q<=3;q++){
+      E('path',{d:'M'+(q*5)+' 0 L'+(q*7-2)+' -64',fill:'none',stroke:MG,'stroke-width':1.2,opacity:0.85},g);
+      E('ellipse',{cx:(q*7-2),cy:-68,rx:2.4,ry:6,fill:'#9a8b5f',stroke:INK,'stroke-width':0.6,opacity:0.85},g);
+    }
+    E('path',{d:'M-22 -30 q22 6 44 0 M-24 -22 q24 6 48 0',fill:'none',stroke:FADE,'stroke-width':1.2},g);
+    E('path',{d:'M-4 0 L4 -4 L8 2 L0 6 Z',fill:'#b9a887',stroke:INK,'stroke-width':0.8},g);
+    return g;
+  }
+  reedBundle(1030,700,1.05,gStruct);
+  reedBundle(1124,944,0.85,gStruct);
+
+  /* the grey Ash ridge along the skirting, left where it lies */
+  var ashLine=jit([[716,900],[800,904],[884,898],[952,788],[1004,772],[1082,776]],1.6,12);
+  E('path',{d:D(ashLine),fill:'none',stroke:ASH,'stroke-width':5,opacity:0.16},gStruct);
+  E('path',{d:D(ashLine),fill:'none',stroke:ASH,'stroke-width':1.8,opacity:0.55},gStruct);
+
+  /* ---------- the birth-flower shrine: a niche in a low clay block ---------- */
+  E('path',{d:D(jit([[1556,828],[1804,824],[1810,900],[1552,900]],2.4,16),true),
+    fill:'#dcd0ae',stroke:INK,'stroke-width':2,'stroke-linejoin':'round'},gStruct);
+  E('path',{d:D(jit([[1588,556],[1772,552],[1772,832],[1588,832]],2.4,16),true),
+    fill:'#e6d8b8',stroke:INK,'stroke-width':2,'stroke-linejoin':'round'},gStruct);
+  E('path',{d:'M1618 600 L1742 598 L1742 746 L1618 748 Z',fill:'#c3b795',stroke:INK,'stroke-width':1.7},gStruct);
+  E('rect',{x:1624,y:704,width:112,height:8,fill:'#d9caa4',stroke:INK,'stroke-width':1.2},gStruct);
+  for(i=0;i<5;i++){
+    E('rect',{x:1632+i*3,y:676+i*2,width:36,height:7,fill:'#554b3c',stroke:INK,'stroke-width':0.9,opacity:0.95},gStruct);
+  }
+  /* a candle end with beeswax worked into the grain, and a curl of grey wool */
+  E('rect',{x:1718,y:668,width:9,height:32,fill:'#e4dcc0',stroke:INK,'stroke-width':1},gStruct);
+  E('path',{d:'M1722 668 q-3 -9 2 -14 q5 6 -2 14 z',fill:GOLD,stroke:RED,'stroke-width':0.7,opacity:0.9},gStruct);
+  E('path',{d:'M1632 664 q8 -10 16 -2 q-8 8 -14 2',fill:'none',stroke:ASH,'stroke-width':1.6,opacity:0.8},gStruct);
+  /* the crossed mark cut into the stone above the niche: drawn, and not explained */
+  E('path',{d:'M1648 510 L1712 540 M1712 510 L1648 540',fill:'none',stroke:FADE,'stroke-width':4,opacity:0.35},gStruct);
+  E('path',{d:'M1648 508 L1712 538 M1712 508 L1648 538',fill:'none',stroke:INK,'stroke-width':2.2,opacity:0.9},gStruct);
+  /* the slate-box of answered slates at the foot of the niche */
+  E('path',{d:'M1600 902 L1704 902 L1700 950 L1604 950 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.7},gStruct);
+  E('line',{x1:1608,y1:920,x2:1698,y2:920,stroke:FADE,'stroke-width':1.1,opacity:0.7},gStruct);
+  E('rect',{x:1620,y:892,width:30,height:8,fill:'#554b3c',stroke:INK,'stroke-width':0.9,
+    transform:'rotate(-5 1635 896)'},gStruct);
+  E('rect',{x:1652,y:890,width:30,height:8,fill:'#41392d',stroke:INK,'stroke-width':0.9,
+    transform:'rotate(4 1667 894)'},gStruct);
+
+  /* the faint neighbourhood: Vail, the Drawing house, House Silt, the smithy, the yard and its racks */
+  var dv=clayHouse(120,700,170,160,'#ded0ae',0.55,gStruct);
+  E('path',{d:'M186 700 L186 664 L242 664 L242 700',fill:'none',stroke:FADE,'stroke-width':1.5,opacity:0.6},gStruct);
+  E('path',{d:'M214 664 q8 -14 18 -2 q6 10 -16 6',fill:'none',stroke:ASH,'stroke-width':4,opacity:0.12},gStruct);
+  E('path',{d:'M196 652 q4 -22 16 -30',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.4},gStruct);
+  clayHouse(120,470,150,100,'#ded0ae',0.5,gStruct);
+  clayHouse(300,470,150,100,'#ded0ae',0.5,gStruct);
+  var ds=clayHouse(300,700,150,150,'#ded0ae',0.5,gStruct);
+  E('path',{d:'M406 700 L406 662 L444 662 L444 700',fill:'none',stroke:FADE,'stroke-width':1.4,opacity:0.5},gStruct);
+  for(i=0;i<5;i++){E('line',{x1:322+i*28,y1:900,x2:322+i*28,y2:958,stroke:FADE,'stroke-width':1.6,opacity:0.55},gStruct);}
+  E('line',{x1:316,y1:912,x2:456,y2:912,stroke:FADE,'stroke-width':1.1,opacity:0.5},gStruct);
+  for(i=0;i<3;i++){
+    E('ellipse',{cx:150+i*62,cy:944+(i%2)*8,rx:24,ry:13,fill:'#cfc4a2',stroke:FADE,'stroke-width':1,opacity:0.6},gStruct);
+  }
+  E('ellipse',{cx:432,cy:818,rx:26,ry:12,fill:'#cfc4a2',stroke:FADE,'stroke-width':1,opacity:0.55},gStruct);
+  E('path',{d:'M410 808 q22 -14 44 0 M416 800 q16 -12 32 0',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.5},gStruct);
+
+  /* a low clay wall between the house and the shrine, with a gap for the walk */
+  E('path',{d:D(jit([[1170,858],[1280,856],[1370,860],[1372,878],[1280,874],[1170,876]],1.4,16),true),
+    fill:'#ded0ae',stroke:FADE,'stroke-width':1.3,opacity:0.55},gStruct);
+  E('path',{d:D(jit([[1430,862],[1500,860],[1502,878],[1432,880]],1.4,16),true),
+    fill:'#ded0ae',stroke:FADE,'stroke-width':1.3,opacity:0.55},gStruct);
+
+  /* ---------- roads and ways ---------- */
+  function road(pts,p,col,dash,w){
+    E('path',{d:D(jit(pts,1.8,14)),fill:'none',stroke:col||INK,'stroke-width':w||2,
+      'stroke-dasharray':dash||'7 6','stroke-linecap':'round',opacity:0.72},p||gRoad);
+  }
+  /* the walk the women take from the house to the niche */
+  road([[700,978],[820,962],[980,952],[1140,934],[1300,920],[1460,916],[1600,906],[1678,900]],gRoad,INK,'5 6',1.8);
+  for(i=0;i<11;i++){
+    var tt=i/10;
+    E('line',{x1:706+972*tt+rr(-3,3),y1:980-78*tt+rr(-3,3),
+      x2:710+972*tt+rr(-3,3),y2:988-78*tt+rr(-3,3),stroke:INK,'stroke-width':0.8,opacity:0.45},gRoad);
+  }
+  /* the ruts of the Clay Yard below the houses and the shrine */
+  road([[120,1014],[420,1020],[760,1026],[1120,1022],[1480,1024],[1900,1018]],gRoad,INK,'8 6',2.2);
+  function edgeArrow(x,y,dir,p){
+    E('path',{d:'M'+x+' '+y+' L'+(x+dir*56)+' '+y+' M'+(x+dir*56)+' '+y+' l'+(dir*-10)+' -6 M'+(x+dir*56)+' '+y+' l'+(dir*-10)+' 6',
+      fill:'none',stroke:INK,'stroke-width':1.7},p||gRoad);
+  }
+  edgeArrow(150,1014,-1);
+  edgeArrow(1900,1018,1);
+  E('path',{d:'M2050 940 L2082 968 L2054 996',fill:'none',stroke:INK,'stroke-width':1.7},gRoad);
+
+  /* ---------- an engraved bundle of cut reeds tied twice, in the margin ---------- */
+  function reedEngrave(x,y,p){
+    var g=E('g',{transform:'translate('+x+' '+y+')'},p);
+    var q;
+    for(q=-3;q<=3;q++){
+      E('path',{d:'M'+(q*6)+' 34 L'+(q*9-3)+' -40',fill:'none',stroke:INK,'stroke-width':1.3,opacity:0.85},g);
+      E('ellipse',{cx:(q*9-3),cy:-46,rx:3,ry:8,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.85},g);
+      for(var h=-42;h<-28;h+=4){
+        E('line',{x1:(q*9-3)-2,y1:h,x2:(q*9-3)+3,y2:h-3,stroke:FADE,'stroke-width':0.6,opacity:0.5},g);
+      }
+    }
+    E('path',{d:'M-30 -6 q30 8 60 0 M-32 2 q32 8 64 0',fill:'none',stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M34 34 L58 20 L64 26 L40 40 Z',fill:'#e7d9b7',stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M40 40 q18 8 30 2',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.6},g);
+    return g;
+  }
+  reedEngrave(1300,326,gFrame);
+
+  /* ---------- text helpers: every label is inked last, above everything ---------- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      'stroke':(o&&o.halo)?PALE:null,'stroke-width':(o&&o.halo)?3.2:null,'paint-order':(o&&o.halo)?'stroke':null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||24;
+    lines.forEach(function(ln,k){T(x,y+k*lh,ln,{font:'FellIt',size:o.size||17,fill:o.fill||'#5a4127',opacity:o.opacity||0.92});});
+  }
+
+  /* the house, its room and the shrine, named in place */
+  T(716,478,'HOUSE REED',{font:'FellSC',size:24,ls:5,fill:INK,anchor:'middle',halo:true});
+  T(716,504,'the reed-cutters\' house, east of the Clay Yard',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
+  T(714,536,'the room',{font:'FellSC',size:16,ls:2,fill:INK,anchor:'middle',halo:true});
+  T(556,548,'hearth and slip pot',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+  T(726,564,'a warmed stone held at the belly',{font:'FellIt',size:10,fill:FADE,anchor:'middle',halo:true});
+  T(722,652,'board-bed and fold of grey wool',{font:'Fell',size:11,anchor:'middle',halo:true});
+  T(596,866,'the bench by the door',{font:'Fell',size:13,anchor:'middle',halo:true});
+  T(634,840,'birth-slate, writing-down',{font:'FellIt',size:10,fill:RED,anchor:'middle',halo:true});
+  T(844,770,'the loose board — six pages in a second hand',{font:'FellIt',size:10,fill:RED,anchor:'middle',halo:true});
+  T(1036,566,'bundles of cut reeds',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+  T(1140,902,'reeds at the door',{font:'FellIt',size:10,fill:FADE,anchor:'middle',halo:true});
+  T(876,930,'grey Ash left where it lies',{font:'FellIt',size:11,fill:ASH,anchor:'middle',halo:true});
+  T(696,992,'a finger\'s width open',{font:'FellIt',size:10,fill:FADE,anchor:'middle',halo:true});
+  T(1680,452,'THE BIRTH-FLOWER SHRINE',{font:'FellSC',size:20,ls:3,fill:INK,anchor:'middle',halo:true});
+  T(1680,480,'the niche where birth-slates lie overnight',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+  T(1680,556,'the crossed mark — cut, and not read',{font:'FellIt',size:11,fill:RED,anchor:'middle',halo:true});
+  T(1680,662,'birth-slates laid writing-down',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+  T(1686,784,'a candle end of beeswax',{font:'FellIt',size:10,fill:FADE,anchor:'middle',halo:true});
+  T(1652,884,'the slate-box of answered slates',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+
+  T(210,780,'the Vail kiln-house',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+  T(196,514,'the Drawing house',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+  T(376,514,'House Silt',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+  T(376,778,'the smithy',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+  T(386,938,'the drying racks',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+  T(212,980,'the slip pits',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+  T(440,800,'the yard well',{font:'FellIt',size:10,fill:FADE,anchor:'middle',halo:true});
+  T(1240,960,'the walk from the house to the niche',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+  T(1180,1048,'the Clay Road',{font:'FellIt',size:15,fill:FADE,anchor:'middle',halo:true});
+  T(160,1056,'west to the Cross',{font:'FellIt',size:12,fill:FADE,halo:true});
+  T(1970,1056,'east to Greybank',{font:'FellIt',size:12,fill:FADE,anchor:'end',halo:true});
+  T(600,398,'the Slip Brook',{font:'FellIt',size:20,fill:SEA,halo:true});
+  T(930,452,'clay-heavy — called weather',{font:'FellIt',size:11,fill:SEA,anchor:'middle',halo:true});
+  T(720,1124,'the Ilm',{font:'FellIt',size:24,fill:SEA,halo:true});
+  T(1220,1140,'to the south bridge',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+  T(2120,700,'the reedbeds',{font:'FellIt',size:16,fill:MG,anchor:'middle',halo:true});
+  T(2130,756,'toward Reedholt',{font:'FellIt',size:11,fill:FADE,anchor:'middle',halo:true});
+
+  /* ---------- marginal notes in the surveyor's voice ---------- */
+  note(120,268,[
+    'Alda Reed of this house goes to the slate before she goes',
+    'to the child, and the house has no name the boy can speak.',
+    'He knows it by the slope of the yard and the reeds laid',
+    'at the door. She comes from the east, past the niche.'
+  ],{size:16,lh:23,fill:'#574226'});
+  note(1520,258,[
+    'On the Long Night the women laid their slates in the',
+    'niche and answered the priest with the place where the',
+    'figure is not. He gave a girl a date for the mark above',
+    'and did not look at it. The chart cuts it and does not read it.'
+  ],{size:16,lh:23,fill:'#574226'});
+  note(720,1186,[
+    'Beneath the loose board six narrow pages lie in a second',
+    'hand no Court physician has seen. The first was not hers.',
+    'Six are six and no seventh is written. The tin in her bodice',
+    'is touched and never opened in company.'
+  ],{size:16,lh:23,fill:'#574226'});
+  note(720,1306,[
+    'Over the sign she laid the date she gave the woman three',
+    'doors down: Stone seven, the account up on the eighth,',
+    'before the paper went out. It stands over a death nobody',
+    'entered, and no living person can take it off.'
+  ],{size:15,lh:22,fill:RED});
+
+  /* ---------- title cartouche ---------- */
+  E('path',{d:'M664 58 L1716 58 L1736 78 L1736 194 L1716 214 L664 214 L644 194 L644 78 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.94},gFrame);
+  E('path',{d:'M670 68 L1710 68 L1726 84 L1726 188 L1710 204 L670 204 L654 188 L654 84 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M588 136 q30 -22 54 0 q-24 22 -54 0 z M1772 136 q-30 -22 -54 0 q24 22 54 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(1200,120,'HOUSE REED AND THE BIRTH-FLOWER',{font:'CinzelDec',size:32,ls:2,anchor:'middle',fill:INK});
+  T(1200,156,'the hearth-maid\'s house and the niche east of the Clay Yard — Low Kiln, Sill',{font:'FellIt',size:18,anchor:'middle',fill:FADE});
+  T(1200,182,'surveyed and inked in Y.H. 813 — the month of Bone',{font:'FellSC',size:14,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<27;i++){
+    var sx=670+i*39.2;
+    E('path',{d:'M'+sx+' 72 l2.5 5 l5 0 l-4 3.5 l1.5 5 l-5 -3 l-5 3 l1.5 -5 l-4 -3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 200 l2.5 -5 l5 0 l-4 -3.5 l1.5 -5 l-5 3 l-5 -3 l1.5 5 l-4 3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---------- compass rose ---------- */
+  var rx=2180,ry=318;
+  E('circle',{cx:rx,cy:ry,r:46,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:rx,cy:ry,r:37,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?40:23;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-40)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+40)+' L'+(rx+9)+' '+ry+' Z',fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-40)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-54,'N',{size:21,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,kk){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][kk];
+    T(rx+Math.sin(ca)*60+3,ry-Math.cos(ca)*60+7,cdir,{font:'FellSC',size:16,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- convention of signs ---------- */
+  E('rect',{x:110,y:1110,width:540,height:396,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1118,width:524,height:380,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(380,1152,'CONVENTION OF SIGNS',{font:'FellSC',size:21,ls:3,anchor:'middle'});
+  E('line',{x1:140,y1:1164,x2:620,y2:1164,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  E('path',{d:'M148 1182 h36 v14 h-36 z',fill:'#e6d8b8',stroke:INK,'stroke-width':1.3},gFrame);
+  T(200,1196,'a clay-daubed house',{font:'Fell',size:15});
+  E('rect',{x:148,y:1216,width:36,height:10,fill:'#d9caa4',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M156 1222 q-2 -9 9 -9 q11 0 9 9 z',fill:'#cbb58f',stroke:INK,'stroke-width':1},gFrame);
+  T(200,1234,'a bench and pot by the door',{font:'Fell',size:15});
+  E('path',{d:'M148 1266 q18 -14 36 0',fill:'none',stroke:INK,'stroke-width':1.3},gFrame);
+  E('path',{d:'M157 1266 q-2 -10 9 -10 q11 0 9 10 z',fill:'#cbb58f',stroke:INK,'stroke-width':1},gFrame);
+  T(200,1272,'a hearth with a slip pot',{font:'Fell',size:15});
+  E('rect',{x:148,y:1302,width:36,height:14,fill:'#d7c8a2',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M152 1312 q14 -6 28 0',fill:'none',stroke:ASH,'stroke-width':1.6,opacity:0.7},gFrame);
+  T(200,1318,'a board-bed and wool fold',{font:'Fell',size:15});
+  E('path',{d:'M148 1344 L176 1340 L178 1348 L150 1352 Z',fill:'#d9caa4',stroke:INK,'stroke-width':1.1},gFrame);
+  E('rect',{x:152,y:1338,width:22,height:6,fill:'#554b3c',stroke:INK,'stroke-width':0.9},gFrame);
+  T(200,1354,'a loose board, slates face-down',{font:'Fell',size:15});
+  E('path',{d:'M148 1382 h30 v26 h-30 z',fill:'#e6d8b8',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M154 1390 h18 v12 h-18 z',fill:'#c3b795',stroke:INK,'stroke-width':1},gFrame);
+  E('path',{d:'M152 1386 l22 8 M174 1386 l-22 8',stroke:INK,'stroke-width':1,opacity:0.8},gFrame);
+  T(200,1406,'the niche, with the mark cut above',{font:'Fell',size:15});
+  E('path',{d:'M150 1434 L150 1408 M156 1434 L160 1408 M162 1434 L168 1408',fill:'none',stroke:MG,'stroke-width':1.1},gFrame);
+  E('path',{d:'M146 1418 q18 4 34 0',fill:'none',stroke:FADE,'stroke-width':1},gFrame);
+  T(200,1440,'a bundle of cut reeds',{font:'Fell',size:15});
+  E('line',{x1:148,y1:1466,x2:182,y2:1466,stroke:INK,'stroke-width':2,'stroke-dasharray':'6 5'},gFrame);
+  T(200,1470,'a walk of counted paces',{font:'Fell',size:15});
+
+  /* ---------- scale bar ---------- */
+  T(1560,1424,'A HUNDRED PACES',{font:'FellSC',size:13,ls:1.4,fill:FADE});
+  E('rect',{x:1560,y:1434,width:560,height:13,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1560+i*140,y:1434,width:140,height:13,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1560+i*140,1468,[0,25,50,75,100][i]+'',{font:'Fell',size:15,anchor:'middle',fill:INK});
+  }
+  T(2134,1448,'paces',{font:'FellIt',size:16,fill:FADE});
+  T(1560,1492,'The shrine stands a few paces east of the reed-cutter\'s door.',{font:'FellIt',size:13,fill:FADE});
+
+  /* ---------- the ruled border and its hatch ---------- */
+  E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:2296,height:1496,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<116;i++){
+    var px=56+i*19.7;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:1548,x2:px,y2:1566,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<76;i++){
+    var py=56+i*19.6;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:2348,y1:py,x2:2366,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[2348,52,-1,1],[52,1548,1,-1],[2348,1548,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>

@@ -217,3 +217,41 @@ Items 1–26 remain as written above: Dan's and Nina's birth years, Orra's prese
 - `plan/arcs.md` has a Chapter 79 check but no Chapter 80 check; add one in the next planning pass. No written file depends on it.
 - No seventh hearing, no sixth sighting of the neat dark hand, no eighth green or shape, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin, box, slate or drawer opened, no silt-leach named, no collector for Dessa, no name for the carried man, no Marra in Sill, no witness for the row question and no ending.
 - Every day from Day 1 to Day 293 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 294 onward.
+
+---
+
+## Chapter 90 consolidation pass
+
+*Sources: the Chronicles and Continuity sections of `book/chapters/ch-0081`–`ch-0090/summary.md` (read in full), `memory/state.md`, `plan/threads.md` (current through Ch 90), `memory/timeline.md` (through Day 323), `memory/places.md`, `characters/_minor.md` and the sheets of everyone on stage (`sella-vail`, `tarn`, `jorra-vail`, `garl-vail`, `berr-clay`, `hessa-rale`, `ilva`, `mira-silt`, `orra-weir`, `alda-reed`, `dessa-silt`, `ulda`, `fenna-clay`, `rusk`, `marra`, `dan-marchetti`). No scene file was touched.*
+
+### Drifts fixed in this pass
+
+1. **`memory/story-so-far.md`** — was still the Chapter 80 consolidation (Day 293, 162 answers, four openings, burned slate at four). Rewritten through Chapter 90 and organised by arc: B1–B8 compress Chapters 1–80 harder (the digests hold their texture), and a new B9 carries Chapters 81–90 — Ilva's ninth hand, Frost's third arithmetic, the round three hundred as threshold, the **fifth opening** on Bone 2 (Day 301), the **fifth burned-slate telling** on Bone 5 (Day 304), the returned half-check on Bone 8, Bone's first and second arithmetics, the stayed-at-the-inch object (answer 203), the early letting-go (answer 207), the handful on Bone 22, and the count at 323 with 222 answers. Sections C–J updated to the Day 323 close. 7,002 words, inside the 7,000-word cap.
+2. **`memory/digests/ch-0081-0090.md`** — created: a 2,000-word digest of Chapters 81–90 with chapter numbers, the six advances (T080, T015/T041/T047, T058/T079, T035/T031/T065/T095, T062, T060/T086, T061/T082, T077), no death, no payoff, no power or relationship change, and the ledger at 101 unchanged.
+3. **`memory/state.md` opening snapshot** — said the boy came into Day 321 "with the two hundred and **seventeenth** answer laid down" as a tool put away. The last answer laid down at the close of Day 320 was **216**; answer 217 was filed during Day 321 (Ch 90 Chronicle and `memory/timeline.md` Day 321 both say so). Corrected to 216. No story change.
+4. **A stale reading count ("nine times over the basket")** in `memory/state.md` and `memory/story-so-far.md` no longer matched its own dated list: Smoke 10, 20 and 30, Frost 10, 20 and 30 with Frost 30 twice, Bone 10 twice and Bone 20 twice is eleven readings from Smoke 10 to Bone 20, and the longer list from Grain 10 through Bone 20 is larger still. The bare number was replaced with the explicit dated lists (and "eleven" where the short list is given). Supersedes item 27 above: do not build any figure on "nine"; compute counts from the dated lists. No finished file was rewritten.
+
+### Contradictions not fixed, with a plan to reconcile in the story
+
+31. **`book/chapters/ch-0090/summary.md`, Continuity, "Where everyone is now":** Tarn is said to have the "**sixth** year standing at its very end." Every other file — the Ch 90 Chronicle, the Ch 90 additions to the ledger in `plan/threads.md`, `memory/state.md`, `memory/story-so-far.md`, `characters/tarn.md` and `characters/garl-vail.md` — has the **seventh** year at its very end, nine stoppings and no tenth before it gives. *Plan:* treat "sixth" as a slip in the chapter summary, which is not a memory file and was not edited in this pass. At the next touch of that summary correct it to "seventh." In any scene, keep the seventh year, nine stoppings and no tenth; do not let the stray "sixth" propagate into a forward note, and do not let the year give merely because it is at its end.
+
+### Confirmed sound in this pass
+
+- `plan/threads.md` carries the full 101-ID ledger (66 planted, 34 open, 1 paid — T087) with a Chapter 90 additions table; no thread opened, paid or closed in Ch 81–90.
+- `memory/timeline.md` has one dated entry for every day from 294 to 323 with no gaps, ending on answer 222 and answer 216 as the tool put away at the opening of Day 321.
+- Every on-stage sheet has a Chapter 90 log; `characters/_minor.md` logs the Cold Acre hare-carriers, cracked-jar men, well women and other walk-ons of Ch 81–90. Ilva's sheet is current through Bone 23, Berr's through Bone 20, Hessa's through Bone 20.
+- Count, answers, holdings and ledger agree across state, digest, timeline and this rewrite: 323 exact, 222 honest answers, five arithmetics behind one unsigned figure, five openings, five burned-slate tellings, four held changes on four places, two small hand objects, one handful, nine hands with Ilva's strip unread, nine stoppings, six hearings with the seventh place empty, five askings with one shaping, three well-saying shapings, two shut-room tellings, three pot sayings with the Smoke 14 note apart, seven greens and seven shapes.
+
+### Carried forward, still unresolved
+
+Items 1–30 remain as written above, with counts advanced where this pass requires: the openings are now five, the burned slate five, the arithmetics five, the held changes four, the record-first hands nine with Ilva's ninth unread, the well-saying at three shapings, the row at five askings with one shaping, the two small objects of the hand and the handful each on a place of its own. None may be settled on the page before its planned chapter.
+
+### Minor watch items after Chapter 90
+
+- The handful at the rack end is one object on its own place, not made again on Bone 23 or 24; do not repeat it as a habit, make a fifth held change of it, join it to the covered grain, the four held changes, the five arithmetics, the two hand objects or the boy's gaps, or put a payer under it. The empty fingers of the two following mornings are a keeping beside it, not a second.
+- The staying at the inch (answer 203) and the early letting-go (answer 207) are two objects with a finger between them and every other object on the sixth; neither was made again, neither is a habit, way, rule or fifth held change, and both want a payer where none stood.
+- Five arithmetics of the year stand behind one printed figure, five readings five and not one account; the figure read is still not the figure paid, no signature on the space, and no reading closed the carried man's account or paid for the hand that went in on Seed 15. Bone 30 (Day 329), the month's third and last reading, stands six mornings ahead and must not be brought early.
+- The first firings of Frost and Bone stand behind the household with no lesson, sign, mending or payer; five openings in five months are five and not a rule, with the next in a later month's first firing, far off and unbrought. The stayed frost went off the well's north lip on Bone 3; the trough's skin and the silt-clouded plate stay weather entered nowhere.
+- The nine stoppings are still nine and the seventh year stands at its very end and has not given; the Seed 16 breath is unspent and the loan uncalled; no tenth before the giving is earned by a lived day.
+- No seventh hearing, no sixth sighting of the neat dark hand, no eighth green or shape, no sixth burned-slate telling, no fourth well-saying shaping, no third telling of the shut room, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin, box, slate, strip or drawer opened, no silt-leach named, no collector for Dessa, no name for the carried man, no Marra in Sill, no witness for the row question and no ending.
+- Every day from Day 1 to Day 323 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 324 onward.

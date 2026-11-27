@@ -847,8 +847,15 @@ The grey Ash ridge along the skirting board of the Drawing house, thicker by a f
 
 ### House Reed
 **Kind:** house, holding. **Region:** Low Kiln, Sill.
-The reed-cutters' house of Alda Reed, the hearth-maid, with a tin of second notes hidden under a floorboard. The chart draws the house but not the tin.
-**Relations:** In Low Kiln, east of the Clay Yard, near the birth-flower shrine.
+The reed-cutters' house of Alda Reed, the hearth-maid, with a tin of second notes hidden under a floorboard. The chart draws the house and the lifted board with its six pages turned face-down, but not the little tin she keeps on a cord inside her bodice.
+**Relations:** In Low Kiln, east of the Clay Yard, near the birth-flower shrine; the loose board is inside it.
+
+*The close ground of the hearth-maid's house, with the niche a few paces east drawn at the same scale, is on `atlas/house-reed`: the room with its bench, hearth and warmed stone at the belly, the loose board and its six pages, and the shrine with the mark cut above. Direction is from the finger's-width-open door in the south wall.*
+
+### The loose board
+**Kind:** floorboard, hiding-place. **Region:** House Reed, Low Kiln, Sill.
+A board in the room of House Reed that lifts at one end. Beneath it lie the second notes in a hand the Court has never seen: six narrow slates turned face-down, the first written by a hearth-maid long before Alda Reed was born, the sixth written on Day 64, Y.H. 813, and none of the six read by anybody. The chart draws the lifted board and the dark gap and leaves the pages unread; the little tin on its cord is not drawn at all.
+**Relations:** Inside House Reed, in Low Kiln, east of the Clay Yard. Drawn close on `atlas/house-reed`.
 
 ### Rusk's room
 **Kind:** room, dwelling. **Region:** the Fishstairs, Sill.
@@ -939,8 +946,20 @@ A small water-mill grinding the barley baked into the brown-edged loaf of Low Ki
 
 ### The birth-flower shrine
 **Kind:** shrine, niche. **Region:** Low Kiln, Sill.
-A small hearth-maids' niche where birth-slates are left overnight and the Return is taught to the district's children. A crossed mark is cut above it, which the chart draws but does not explain.
-**Relations:** In Low Kiln, beside House Reed, east of the Clay Yard.
+A small hearth-maids' niche where birth-slates are left overnight and the Return is taught to the district's children. A crossed mark is cut above it, which the chart draws but does not explain. A priest of the Temple of the Return preached here on the Long Night of Y.H. 812 over the slates the women had laid to lie overnight; the women answered him with the place where the figure is not.
+**Relations:** In Low Kiln, beside House Reed, a few paces east of the reed-cutter's door, east of the Clay Yard.
+
+*The niche drawn close, with the flat stone of birth-slates, the slate-box at its foot, the candle end and the crossed mark cut above, is on `atlas/house-reed`, together with House Reed a few paces west.*
+
+### The crossed mark
+**Kind:** cut mark, carving. **Region:** the birth-flower shrine, Low Kiln, Sill.
+Two strokes cut into the stone above the birth-flower shrine, older than the niche and older than the name. A priest asked what it signified gave the date Y.H. 782, the year the maids began to be paid, and gave the same date when asked again in another way. A line in a hand nobody owns reads: *The mark was here before the niche. The niche was here before the name.* The chart cuts it and does not explain it. A crossed mark of the same kind is cut into the blessing stone at the Weir.
+**Relations:** Above the niche of the birth-flower shrine, east of House Reed. Drawn close on `atlas/house-reed` and at the Weir on `atlas/the-weir`.
+
+### The shrine's slate-box
+**Kind:** box, keeping. **Region:** the birth-flower shrine, Low Kiln, Sill.
+The box at the foot of the niche in which the answered birth-slates are kept, among them the letter from the old hearth-maid at Cold Acre about the warming of stones and the second chill, folded thrice with a twist of grey wool through the tie-hole. The chart draws the box with two slates showing and does not open it.
+**Relations:** At the foot of the birth-flower shrine, beside House Reed in Low Kiln. Drawn close on `atlas/house-reed`.
 
 ### The yard well
 **Kind:** well. **Region:** Low Kiln, Sill.

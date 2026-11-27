@@ -1,0 +1,100 @@
+---
+title: The Grave-Dog, Being a Soldier's Field Notes on the Bone-Hound at the Bone Orchard Beyond Sill's North Gate; with the Watch-Song as It Is Sung, a Tally of Graves and Phials, a Ruling in Ledgerhand, a Line in Pale Ink, and One Line at the Foot Nobody Will Own
+kind: A soldier's field book on one beast, set down as the record of a watch kept over the thin-return graves and not as natural philosophy; the rounds in Grathic, the tally in charcoal on the backs of burial dockets gone soft with rain, a watch-song as it is sung, a ruling in the narrow upright Ledgerhand of a clerk of the Court's factor at Greybank, a line in the pale ink of an Ash-runner written on a scrap of salt-paper, and one line at the foot in a hand nobody will own
+provenance: Written in Ash and Bone of Y.H. 812, the Thin Year of the Long Cold, by Gant, one of the Thane of Clay's men set over the north road, in the watch-shed at the Bone Orchard a league beyond Sill's north gate, with a tallow end, a short spear and a spade; set down first on the backs of thin-return burial dockets spoiled by rain and then on two folds of birch bark sewn with eel-sinew, carried in a coat pocket under the arm; copied forward in Bone of Y.H. 813. It survives with grave-clay ground into the head, a grey Ash thumb along the fore-edge where the leaf was wiped on a sleeve, a small round mark where a five-bit piece was set down and left, a dry grave-flower pressed flat in the second fold, a tideline along the gutter where a pail went over, a scorch where the watch-lamp caught the fourth leaf, the charcoal rubbed thin where the wrap was carried against the thigh, one ruling in Ledgerhand standing above the words it corrects, one line in pale ink on salt-paper gone soft at a corner, and the line at the foot
+relates_to: [bone-hound, the Bone Orchard, Sill, the north gate, the north gate road, the thin-return graves, the broken-pot ground, the Ash barrow, Cold Acre, Greybank, the Fenmarch, the Standing Post, the Peat Line, Low Kiln, the Cross, the Thane of Clay, the factor at Greybank, Grathic, Ledgerhand, Ash, quiet ash, Ash-runners, Fenfolk, the Warm, Thin, Held, the collector, cold iron, the full note, the flat note, the year of the flower, Last Day, bit, mark, one in twelve, tallow, wet wool, clay, bone, birch bark, eel-sinew, salt-paper]
+---
+
+I keep the north road and the orchard beyond it for the Thane. It is no post a man writes home about. The orchard stands a league beyond the north gate, and the thin-return children lie in uneven rows with no slate over any of them. A cart of grey comes out from the Cross on every market-day and tips its load at the south edge and goes back empty, and nobody in the square looks at it twice. I am set to see that no one digs the rows in the dark and that no one lies down in them and stays there. I carry a spade, a short spear with the head gone blue on the quay stone, and a fire-pot of coals under blind ash. I write at the end of a watch with the tallow down to a knuckle.
+
+The dockets I wrote on first were thin-return burial dockets, and the rain took the figures clean off, which was a mercy of a kind: a figure the rain has eaten is a figure no clerk can enter. I write in charcoal now, on the backs of those same dockets and on two folds of birch bark sewn with eel-sinew. Charcoal goes into the grain and a cuff cannot take it off. The clay at the head is my own thumb setting the leaf down on the shed bench. I have not knocked it off. A book that has never been wiped on a sleeve was never taken into an orchard.
+
+# What it smells
+
+It follows the Ash, not the dead. This is the first thing a new man gets wrong, and the thing that makes him stand a whole watch facing the wrong way. He looks for the fresh grave, for the turned clay and theuk knees of a mourner, and all the while the beast is coming from the south edge where the cart tips.
+
+It comes to where the grey has lain. The rows are shallow and the grey gathers in them between the stakes, and a child set down in the year of the flower and a child set down last tend both carry the same smell to a nose that knows it. On the Last Day the households leave their grey where it lies and burn it in the morning and call it dealt with, and for a tend after that the orchard is quiet. Then it comes back. I have set the order down and no cause beside it.
+
+What is strange is the barrow. The Ash at the south edge is deeper than my spear and the beast will not go near it. I have watched one stand at the edge of the tipped grey with its nose working and then turn back up the rows, and I have stood a cold watch trying to make the two things agree. Grey in a cart is not grey in a grave. I know that much. I do not know how a dog knows it.
+
+It comes on still nights. It does not bark. When it has a grave open it makes a small sound low in the throat, and I have heard it from the shed and thought it was a man turning in his sleep, which is a thing a soldier learns to be ashamed of being glad of.
+
+# What it is
+
+It is a dog. I set that down before anything else, because the hearths will not. It has a dog's teeth and a dog's neck and a dog's way of putting its head on one side when it listens. It is bigger than the yard hounds at the Tallow Works and thinner, and the coat is the colour of wet grave-clay, so that a man sees the grey of the muzzle before he sees the body. The grey is under the nails and in the mouth. The teeth are worn flat on small bones. It smells of wet earth and Ash.
+
+I have opened three. Two were brought down on the north road and one was found dead with its head in a shallow grave it had dug out from the side. In all three I found a dog altered by the place it lived in, the way a potter's hands are altered by the wheel. In the second I found grey in the stomach and a warmth in it that I could feel through the paunch, which is not what I looked for in a beast that had been at a month-buried child. The bodies in these rows are not cold all the way through when they go down. I know that because I have had to cover them. I have written the two things on the same leaf and I have not drawn a line between them. A man who writes a cause into a book he keeps in his coat is a man who will be asked for it by somebody with a slate.
+
+# The hand
+
+It does not touch a man on his feet. I have stood within two paces with the spear down and it went on with its own work. But let a man go down at the lip of a grave, or kneel to lift something out of one, and the dog comes for the hand.
+
+A man of the orchard went in at Ash 14 to get a clay pipe back out of a grave before the frost took the clay hard. He was on one knee with his fingers in the edge when the dog came up behind him. It did not shake him or drag him. It put its mouth to the back of the hand and held the one place, the way a collector sets a tube and waits, and the man said afterwards that the worst of it was not the pain but the waiting and not knowing what it was waiting for. I struck the dog across the back with the spear-shaft and it went three paces off and stood, which is what it does; it does not run and it does not come back at a man who has hit it.
+
+There were two small holes and not much blood, and grey worked into them along the seam of the hand. An old woman of Low Kiln bound it with tallow and told him to keep it out of the Ash. At the end of the tend the holes were still holes. It is now the better part of a year and a half and he still shows them to people when the subject turns. Salt does not hold that bite and there is no physic for it that I know. Keep the hand out of the grey and let the man show it to whom he will.
+
+# The watch-song
+
+*Sung going in at the first watch, not coming back. The fourth line is the old line and every man on the road sings it wrong on purpose, because a song that gives the dog a reason is a song a man can carry home and set by his fire. I have set it down as it is sung.*
+
+> One for the spade and one for the grey,
+> one for the small ones set down without slate;
+> it comes on the still and it comes on the frost,
+> and it goes to the warm before the cold.
+>
+> It takes the Ash and it leaves the bone,
+> a mouth on the hand and a wound on its own;
+> count them going and count them back,
+> and one for the hand that did not close.
+>
+> Four in a row and a fifth not said ---
+> the old line's a lie and we sing it instead;
+> the gap is the place where the spade went in,
+> and we do not sing what the clay held within.
+
+The gap is the fifth place in a row the men stop at. They know it and sing it and have never once said whose it is. There is a woman comes up from Low Kiln on the Last Day and stands at that row and does not go to it, and I have let her keep it.
+
+# The tally
+
+These are the watches I kept a true account of. There were others I did not write because my hands were full, and one I did not write because I had drunk. I have set down both sorts as they stand. The last column is the clerk's, not mine. I counted graves; he counted phials.
+
+| Watch | Where | Graves opened | Hounds | Hands bitten | Phials sold | Entered |
+|---|---|---|---|---|---|---|
+| Ash 3 | South edge, under the barrow | none | one | none | 0 | 0 |
+| Ash 9 | Third row, thin-return graves | one | two | none | 1 | 0 |
+| Ash 14 | Broken-pot ground, east | none | one | one | 0 | nil |
+| Ash 22 | Fourth row, after the frost | two | three | none | 2 | 0 |
+| Bone 2 | North row, the newest mound | one | one | one | 1 | 0 |
+| Bone 11 | The row the woman stands at | none | one | none | 0 | nil |
+
+> *In the narrow upright hand of a clerk of the factor's house at Greybank, borrowed against the leaf at the north gate:* Canine not a vessel. Disturbance of a grave: no deduction arises. Hands bitten: not entered. Quiet ash going south: entered as vacancy. Phials received at five bits the phial. Account stands.
+
+I have left his hand standing. But he has put *vacancy* against a grave that was opened, and a vacancy is a word for a place where somebody stood. I have written that in the margin below, where his column cannot reach, and I have put my own mark beside it in charcoal.
+
+# The phials
+
+The grey out of a beast's stomach is sold as cheap quiet in the Fenmarch at five bits a phial, and men come through Cold Acre for it with a cart that has no load on the way out. I have stopped one with six phials sewn into a coat lining and asked him what he carried, and he told me the weather and the road, which is the answer the reed-cutters give at the Clay Yard when a woman asks what a bundle holds. I did not ask twice. A man who asks twice about a phial is a man who wants one.
+
+They say the cheap quiet that goes south over the Peat Line is why so many Fen returns come back thin. I have not seen a return and I have not seen a phial opened, so I have set the saying down beside the five bits and joined neither. I have written no name on any of the six rows above, and a phial with a name on it would not travel, which I learned from the man who told me the weather.
+
+> *In the pale ink of an Ash-runner, on a corner of salt-paper gone soft where the damp took it:* We do not ask whose ash it is. A phial that has a name on it will not travel. Bless the cart and do not ask the dog.
+
+I did not write his line and he did not write mine, and neither of us asked the dog anything.
+
+# What the hearths say
+
+They say it is a dog set to guard the graves, a wrong done at a weir and a mother's grief gone down into the clay on four legs. There are songs in the Fenmarch with a name in them. I have heard them and I have no quarrel with a song. I have opened three of these and found a dog, and found the newest graves gone into first, and a warmth in the small bodies that had not gone all the way out. If the beast guards anything, it is the place where the warm is, and that is not the same thing as guarding the dead, and it is not the same thing as a grief. I have written that sentence out once and crossed it out twice, because it is the kind of sentence that gets a man called a natural philosopher, and natural philosophers are not set to watch a burial ground in Ash.
+
+The yard calls it a mercy because it keeps the rows clear. I have not called it that.
+
+# At the head and in the margins
+
+The grave-clay at the head is mine. The grey thumb along the fore-edge is from Ash 22, when I wiped my hand on the leaf before I could find a rag, and I have left it, because it is the only mark on this book that came off a grave. The round mark is the five-bit piece the man set down on the bench and forgot; I have not spent it and I have not put it in a figure. The flower in the second fold was dry when I found it on a mound and I do not know who put it there. The tideline came from a pail going over on the shed step; the figures ran together and I did not write them again. The scorch is where the leaf caught when I held it to the lamp to read, and the hand that pulled it back was mine and is not entered. The charcoal is rubbed thin where I carried the wrap under my arm. The clerk's ruling I have not touched. The song is as the men sang it, with the old line wrong and the gap standing.
+
+# At the foot, in a hand nobody will own
+
+> It does not eat the dead. It eats what the dead were keeping.
+
+I asked a clerk, an Ash-runner, a woman who stands at a row, and a man who had lost the use of a hand, and had four answerings and no hand. I have left the line where it was written.
+
+There is a ground beyond the north row where the stakes have gone rotten and the clay comes up warm under the spade on the stillest morning of Bone, though nothing has been buried there this year. I have not dug there. Next Ash I will take a spade and a coil of cord and go in at the first watch with the lamp shut, and if the warm comes up where no grave has been opened I will set that down too, in charcoal, with the verb left in it and no figure at the end of the row.
