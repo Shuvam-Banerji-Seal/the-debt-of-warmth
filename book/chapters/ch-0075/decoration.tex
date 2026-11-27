@@ -1,0 +1,102 @@
+\begin{tikzpicture}
+  % The chapter's heart: the frost that stayed. On Frost 8 the white fronds
+  % the well lip wrote did not go when the sun was up, as they had gone on
+  % Frost 4, and the yard still called it weather. On Frost 9 the trough
+  % skinned from edge to edge; Sella pressed the back of the broken pot to the
+  % skin and lifted a plate of ice clouded with silt, set it on a flat stone
+  % out of the path of feet, and told the weather where to stand. Nobody gave
+  % it a figure. A vessel with a skin laid over it, and a faint sun that
+  % cannot take its writing back.
+
+  % —— the skinned trough: a vessel with a skin laid over it ——
+  \draw[faded!42!ink, line width=0.42pt, opacity=0.36, line cap=round]
+    (-3.62,-0.10) -- (-3.55,-0.52)
+    .. controls (-2.55,-0.68) and (-1.55,-0.68) .. (-1.48,-0.52)
+    -- (-1.42,-0.10);
+  \draw[faded!32!ink, line width=0.30pt, opacity=0.24, line cap=round]
+    (-3.55,-0.52) .. controls (-2.55,-0.66) and (-1.55,-0.66) .. (-1.48,-0.52);
+  \fill[night!9!vellum, opacity=0.86]
+    (-2.52,-0.10) ellipse (1.08 and 0.28);
+  \draw[ornament!56!ink, line width=0.56pt, opacity=0.52]
+    (-2.52,-0.10) ellipse (1.08 and 0.28);
+  \draw[faded!34!ink, line width=0.26pt, opacity=0.22, line cap=round]
+    (-3.36,-0.16) .. controls (-2.80,-0.03) and (-2.16,-0.18) .. (-1.72,-0.08);
+  \draw[faded!30!ink, line width=0.22pt, opacity=0.18, line cap=round]
+    (-3.10,-0.02) .. controls (-2.60,-0.20) and (-2.30,-0.02) .. (-1.80,-0.16);
+  % the place where the skin was broken and the plate lifted
+  \draw[rubric!48!ornament, line width=0.44pt, opacity=0.44, line cap=round]
+    (-1.62,-0.02) .. controls (-1.50,-0.14) and (-1.44,-0.06) .. (-1.34,-0.16);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (-2.52,-0.92)
+    {skinned from edge to edge};
+
+  % —— the flat stone, set out of the path of feet ——
+  \fill[faded!10!vellum, opacity=0.72]
+    (-1.02,-1.00) -- (1.00,-1.00) -- (0.84,-1.22) -- (-1.20,-1.22) -- cycle;
+  \draw[faded!48!ink, line width=0.46pt, opacity=0.40, line cap=round]
+    (-1.02,-1.00) -- (1.00,-1.00) -- (0.84,-1.22) -- (-1.20,-1.22) -- cycle;
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.26, line cap=round]
+    (-1.02,-1.00) -- (-1.20,-1.22);
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.26, line cap=round]
+    (1.00,-1.00) -- (0.84,-1.22);
+
+  % —— the plate of ice, clouded with silt, told where to stand ——
+  \fill[night!11!vellum, opacity=0.92]
+    (-0.68,-1.00) .. controls (-0.82,-0.62) and (-0.58,-0.24) .. (-0.16,0.10)
+    .. controls (0.02,0.24) and (0.20,0.18) .. (0.36,0.02)
+    .. controls (0.62,-0.24) and (0.72,-0.66) .. (0.56,-1.00) -- cycle;
+  \draw[ash!66!ink, line width=0.62pt, opacity=0.58, line cap=round]
+    (-0.68,-1.00) .. controls (-0.82,-0.62) and (-0.58,-0.24) .. (-0.16,0.10)
+    .. controls (0.02,0.24) and (0.20,0.18) .. (0.36,0.02)
+    .. controls (0.62,-0.24) and (0.72,-0.66) .. (0.56,-1.00);
+  \draw[night!34!vellum, line width=0.40pt, opacity=0.54, line cap=round]
+    (-0.52,-0.78) .. controls (-0.54,-0.44) and (-0.30,-0.14) .. (-0.10,0.02);
+  \draw[night!30!vellum, line width=0.32pt, opacity=0.44, line cap=round]
+    (0.46,-0.84) .. controls (0.52,-0.52) and (0.34,-0.18) .. (0.22,-0.04);
+  % the silt clouding the lifted plate: no figure put on any of it
+  \foreach \sx/\sy/\sr in {-0.34/-0.68/0.030, -0.12/-0.44/0.022,
+                           -0.42/-0.26/0.018, 0.18/-0.70/0.026,
+                           0.32/-0.38/0.020, 0.02/-0.22/0.016,
+                           -0.22/-0.86/0.024, 0.24/-0.90/0.018}{
+    \fill[faded!58!ink, opacity=0.40] (\sx,\sy) circle (\sr);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (0,-1.44)
+    {given no figure};
+
+  % —— the band set between trough and stone, telling it where to stand ——
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.20,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (-1.56,-0.24) .. controls (-1.30,-0.66) and (-1.10,-0.88) .. (-0.92,-0.96);
+
+  % —— the well lip, with the fronds that did not go with the sun ——
+  \draw[ornament!58!ink, line width=0.52pt, opacity=0.48, line cap=round]
+    (1.62,-0.16) arc (180:0:1.02 and 0.30);
+  \draw[faded!34!ink, line width=0.28pt, opacity=0.22, line cap=round]
+    (1.62,-0.16) arc (180:0:1.02 and 0.16);
+  \foreach \fx/\fh in {2.12/0.52, 2.64/0.74, 3.16/0.48}{
+    \draw[night!26!vellum, line width=0.50pt, opacity=0.68, line cap=round]
+      (\fx,-0.04) .. controls (\fx-0.05,\fh*0.55) and (\fx+0.05,\fh*0.82) .. (\fx,\fh);
+    \foreach \k in {1,2,3}{
+      \draw[night!24!vellum, line width=0.32pt, opacity=0.56, line cap=round]
+        (\fx,\fh*\k/4) -- (\fx-0.13,\fh*\k/4+0.10);
+      \draw[night!24!vellum, line width=0.32pt, opacity=0.56, line cap=round]
+        (\fx,\fh*\k/4) -- (\fx+0.13,\fh*\k/4+0.10);
+    }
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.52] at (2.64,-0.90)
+    {did not go with the sun};
+
+  % —— the faint sun whose warmth does not take the writing back ——
+  \fill[gold!16!vellum, opacity=0.46] (3.46,1.04) circle (0.19);
+  \draw[gold!52!ornament, line width=0.48pt, opacity=0.40] (3.46,1.04) circle (0.19);
+  \foreach \a in {0,45,90,135,180,225,270,315}{
+    \draw[gold!38!ornament, line width=0.32pt, opacity=0.26,
+          dash pattern=on 1pt off 2pt, line cap=round]
+      ({3.46+0.28*cos(\a)},{1.04+0.28*sin(\a)})
+      -- ({3.46+0.46*cos(\a)},{1.04+0.46*sin(\a)});
+  }
+
+  % —— a flourished rule, rather than another pair of flanking ornaments ——
+  \node at (0,-1.66) {\pgfornament[width=7.2cm,color=ornament,opacity=0.24]{80}};
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.90)
+    {the frost that stayed};
+\end{tikzpicture}
