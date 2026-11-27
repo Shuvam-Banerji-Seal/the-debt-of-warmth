@@ -119,3 +119,34 @@ Items 1–5 (Dan's and Nina's birth years, Orra's presence at the birth, the sto
 - The man carried out on Day 188 went up the road breathing; neither reading answered for him, no Grathic cause was named, no collector was called and no offstage fate may be invented.
 - Sixth green a colour, foundling a shape, no seventh of either; Marra out of Sill; no seventh hearing, no sixth sighting of the neat dark hand, no seventh Alda note, no silt-leach named, no tin or slate opened, no Dessa name or number spoken to the boy and no ending.
 - Every day from Day 1 to Day 203 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 204 onward.
+
+---
+
+## Chapter 60 audit
+
+*Sources: the Chronicles and Continuity sections of `book/chapters/ch-0051`–`ch-0060/summary.md`, the sheets of everyone on or near stage (`sella-vail`, `tarn`, `jorra-vail`, `berr-clay`, `hessa-rale`, `mira-silt`, `orra-weir`, `alda-reed`, `dessa-silt`, `ulda`, `fenna-clay`), `characters/_minor.md`, `memory/state.md`, `memory/timeline.md`, `memory/places.md`, `plan/threads.md`, `plan/next.md` and `bible/calendar.md`. The Day 233 snapshot, the one-per-day timeline through Day 233, the place gazetteer, the character chapter logs, the walk-on log and the thread table were sound; no scene file was touched.*
+
+### Drifts fixed in the Chapter 60 pass
+
+1. **`memory/story-so-far.md`** — was still the Chapter 50 consolidation (Day 203, 65 planted/34 open/1 paid, one recent opening). Rewritten through Chapter 60 and organised by arc: B1–B4 compress Chapters 1–50 into four grouped subsections (birth and taking, Dessa's death and the blessing, the Greybank sayings and the flood and planting, the reed/firing/kiln months), with the full texture left where it already lives in `memory/digests/ch-0001-0050.md` through `ch-0041-0050.md`, the timeline and the character sheets. B14–B16 carry Chapters 51–60 in full detail: the burned-slate word's four tellings, the harvest, the seventh green and seventh shape paid as sightings only, T101 planted and given a second asking, the forty-two answers of the held inch, and the Day 233 snapshot. 6,208 words, inside the 7,000-word cap. The tally is 66 planted/34 open/1 paid.
+2. **`memory/digests/ch-0051-0060.md`** — created: a 1,996-word digest of Chapters 51–60 with chapter numbers, events, the absence of deaths and payoffs, the four burned-slate tellings and three pot sayings, the harvest and T098, T101's planting and second asking, the seventh green and shape as sightings only, and the unchanged power and relationship state.
+
+No other memory file had drifted: `memory/state.md` matches the last scene's file laid open at Day 233, `memory/timeline.md` has one entry for every day through Day 233, `plan/threads.md` carries T101 as a row with two askings and the 101-ID tally, and every character sheet and walk-on entry has a Chapter 60 log.
+
+### Contradictions not fixed, with a plan to reconcile in the story
+
+20. **The row question's two askings are not a witness.** T101 has two askings (Grain 21, Grain 23) in a voice with no owner, room, hand at the kiln or cause, answered with the weather and the price of barley. *Plan:* keep both askings on the seventh place with a finger between them; do not let a third asking stand up as a corroboration, do not name the row, supply a witness, join the askings to the pot sayings or the burned-slate word, or promote the seed into a hearing, a cause or a seventh. A witness must stand somewhere and be askable before this pays.
+21. **The green and the foundling now have a seventh each.** Ch 56 pays a seventh green and a seventh sighting of the foundling as sightings only; earlier reappearances kept the label "the sixth." *Plan:* treat "the sixth"/"the seventh" as the label of the recurring object, not a running tally of every appearance; keep seven a colour and a shape on separate places with no eighth, no name, no joining and no promotion. Item 18 above is superseded only in its count, not in its rule.
+22. **The burned-slate word stands at four tellings.** Days 205, 208, 215 and 218 are four tellings of a slate burned in Slate Row, kept with a finger between that place, Jorra's dust and the two shut-room tellings. *Plan:* no fifth telling of the slate and no third telling of the shut counting room; do not join the word to the pot sayings, the row question, the kiln, the back room or the carried man, and do not bring a burned slate near the basket.
+
+### Carried forward, still unresolved
+
+Items 1–19 remain as written above: Dan's and Nina's birth years, Orra's presence at the birth, the stone above Dessa's bed, the rank list, Ulda's numbering, Dessa's mornings, the cold foot appearing twice, Ulda's glimpse count, the Ch 20 bell slip, Alda's sign count, Fenna's speaking debut (deferred), `plan/next.md`'s "eighth month" wording, the ninety-six-day interval in Ch 41, the sixth green/foundling reappearances, the two openings against "the one opening," and the thread-tally and calendar worked-example slips. None may be settled on the page before its planned chapter.
+
+### Minor watch items after Chapter 60
+
+- The nine stoppings are still nine; the ear-sentence came to the word on every day of Ch 51–60 and no tenth stood up. The seventh year stands at its very end and has not given; the Seed 16 breath is unspent and the loan uncalled.
+- Three held changes stand on three places (Days 161, 166, 171), the loft scrape on a fourth, the pale line on a fifth and the held inch on a sixth with forty-two answers; no payer is named to any and none may stand up together as a rule. The forty-second is a remembered two-rhythm coordination, not a power or a longer reach.
+- The first grain is dressed and stored under wool with no figure over it; do not let a figure read at Grain 20 (Day 229) know what it cost. Grain 30 (Day 239), the third and last Account-day, stands six mornings ahead and must not be brought early.
+- No seventh hearing, no sixth sighting of the neat dark hand, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin or box opened, no silt-leach named, no collector for Dessa, no name for the carried man, no Marra in Sill, no witness for the row question and no ending.
+- Every day from Day 1 to Day 233 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 234 onward.

@@ -980,6 +980,8 @@ A rendering house for sheep fat whose smell carries into Sill on a north wind.
 Nine houses and peat stacks where the moot meets in a byre and the winter peat decides whether anyone stays warm.
 **Relations:** 3 leagues downriver (east) of Sill; Greybank a further 15 leagues east; Reedholt lies in the marsh to the south.
 
+*The close ground of the hamlet drawn on `atlas/mud-end`: the nine houses and peat stacks on the dry shelf above the marsh, the byre where the moot meets and its moot-post, sods set out to dry, the peat cuttings in the southern banks, a landing and punt on the Ilm, the Clay Road east to Greybank and west to Sill, and Reedholt faint in the marsh to the south. Direction is from the byre. This is the hamlet of the man taken quiet in his sleep and called merciful, told sideways in the Clay Yard (T077).*
+
 ### Reedholt
 **Kind:** marsh hamlet. **Region:** Grath, east marsh.
 Reed-cutters' huts on the edge of the marsh where wolves come in the reedbeds.
@@ -987,8 +989,30 @@ Reed-cutters' huts on the edge of the marsh where wolves come in the reedbeds.
 
 ### Stonemouth
 **Kind:** quarry village. **Region:** Grath, upper Ilm.
-The meeting of the Ferr and the Ilm, with lime kilns and coarse sandstone workings.
+The meeting of the Ferr and the Ilm, with lime kilns and coarse sandstone workings. Its men cut lime and coarse sandstone, buy reed-wolf teeth for clamp-handles at two marks apiece, and haul Keldish iron up the Rim Road; the carter Orven and the quarryman Orrel went west past the survey post and came back with a stone they did not enter. The village keeps a name in a room where the Court keeps it on a slate.
 **Relations:** 5 leagues upriver (west) of Sill; the Weir is 4 leagues downriver; Nine Pots a further 3 leagues west by the Ferr.
+
+*The close ground of the village drawn on `atlas/stonemouth`: the sandstone workings and lime yard on the rising bank, the lime kilns and the ale-room beside them, the village houses, the weigh-clerk's bench by the landing, the river road east to Sill and west over the ford to Nine Pots, the Ferr coming down to the Ilm and the Lead Run stained from the old working. Direction is from the lime yard. The white hands of the quarrymen are the subject of a drinking song set down here in Y.H. 811.*
+
+### The lime kilns
+**Kind:** works, kilns. **Region:** Stonemouth, Grath.
+The lime-burning kilns of the quarry village, their mouths white with dust. The lime dust gives the burners the white cough; the book of remedies set down in the lime yard in Y.H. 811 keeps the cures with the errors left standing, among them the fall from the bank and the lead-rat's bite. The ale-room stands beside one of them.
+**Relations:** In Stonemouth, on the rising bank above the Ilm, west of the Ferr; 5 leagues upriver of Sill.
+
+### The sandstone workings
+**Kind:** quarry, works. **Region:** Stonemouth, Grath.
+The coarse sandstone workings of Stonemouth, cut into the rising bank above the river; with the lime yard they are the village's trade, and blocks go out by water and by the river road. Stone from here and lime hauled by the carters are the goods that pass up the Rim Road toward Keld Keep.
+**Relations:** In Stonemouth, west of the lime kilns and the Ferr; 5 leagues upriver of Sill.
+
+### The ale-room
+**Kind:** ale-room, room. **Region:** Stonemouth, Grath.
+The room beside the lime kiln where the woman who keeps it takes the men's names for their ale and gives a name back on the last day of a tend when the factor's man comes. The drinking song called *The White Hands* was set down here in charcoal and lime-dust on the back of a spoiled weigh-slip in Bone of Y.H. 811. A man in a clean coat come up the road from Greybank makes the room stop at the end of the part, and nobody says why.
+**Relations:** Beside the lime kilns in Stonemouth; 5 leagues upriver of Sill.
+
+### The weigh-clerk's bench
+**Kind:** bench, counting place. **Region:** Stonemouth, Grath.
+The bench at Stonemouth where the weigh-clerk counts reed-wolf teeth in marks and lays his cuff on the leaf before he looks at the man who brought them. Every bench in Stonemouth has an end: a name kept in a room is a different weight from a name kept on a slate, and a woman can carry the one when the men beside her have put the other down.
+**Relations:** By the landing at Stonemouth, beside the ferry stage and the Ilm; 5 leagues upriver of Sill.
 
 ### The Lead Run
 **Kind:** stream. **Region:** Grath, upper Ilm basin.

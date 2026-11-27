@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mud End — the peat hamlet three leagues downriver of Sill</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 48% 46%, rgba(255,249,228,.42), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', SEAWASH='#a9bfb2',
+      GOLD='#a9833c', GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', ASH='#9a9080',
+      EARTH='#d8c8a4', CLAY='#cbb58f', LEAD='#788883',
+      PEAT='#4a3827', TURF='#6d5a3e', BOG='#8f8a63';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(813240);
+  function rr(a,b){return a+(b-a)*rnd();}
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  /* ---------- layers, inked in order; all lettering goes on last ---------- */
+  var defs=E('defs',{});
+  E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.52});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gStruct=E('g',{}),
+      gRoad=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+  var i,k;
+
+  /* foxing, folds and the old damp of the paper */
+  for(i=0;i<26;i++){
+    E('ellipse',{cx:rr(80,2320),cy:rr(80,1520),rx:rr(16,78),ry:rr(10,48),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gWash);
+  }
+  [620,1240,1860].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:60,y1:808,x2:2340,y2:808,stroke:'#7a5a30','stroke-width':1,opacity:0.05},gWash);
+  /* the low northern bank toward the clay country */
+  E('path',{d:D(jit([[60,238],[420,224],[860,244],[1300,226],[1780,250],[2340,232],[2340,318],[1780,334],[1300,314],[860,338],[420,314],[60,330]],4,30),true),
+    fill:'#b9b9a0',opacity:0.17},gWash);
+  /* the hamlet's dry shelf above the marsh */
+  E('path',{d:D(jit([[330,962],[400,884],[520,852],[660,858],[766,902],[790,986],[742,1058],[620,1090],[470,1080],[360,1030]],4,24),true),
+    fill:'#c9b98f',opacity:0.26},gWash);
+  /* the Ilm running downriver */
+  E('path',{d:D(jit([[60,340],[340,362],[660,396],[1000,426],[1420,460],[1800,530],[2120,610],[2360,672],
+                     [2360,744],[2120,682],[1800,602],[1420,532],[1000,498],[660,468],[340,434],[60,412]],3.4,20),true),
+    fill:SEAWASH,opacity:0.20},gWash);
+  /* the marsh to the south, where the peat is cut */
+  E('path',{d:D(jit([[820,962],[1120,930],[1460,910],[1800,892],[2120,912],[2360,950],[2360,1306],[2040,1318],[1700,1282],[1360,1314],[1040,1272],[840,1142]],5,30),true),
+    fill:BOG,opacity:0.23},gWash);
+
+  /* ---------- a tapered, hand-drawn river ---------- */
+  function river(center,w0,w1,col,wash,p){
+    var bankA=[],bankB=[],norm=[],half=[];
+    for(k=0;k<center.length;k++){
+      var a=center[Math.max(0,k-1)],b=center[Math.min(center.length-1,k+1)];
+      var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/le,ny=dx/le,t=k/(center.length-1);
+      var w=(w0+(w1-w0)*t)*(0.88+Math.sin(k*0.83)*0.09)*(0.62+0.38*Math.sin(Math.PI*(0.16+0.84*t)));
+      bankA.push([center[k][0]+nx*w+rr(-3,3),center[k][1]+ny*w+rr(-3,3)]);
+      bankB.push([center[k][0]-nx*w+rr(-3,3),center[k][1]-ny*w+rr(-3,3)]);
+      norm.push([nx,ny]); half.push(w);
+    }
+    E('path',{d:D(bankA.concat(bankB.slice().reverse()),true),fill:wash,opacity:0.62},p);
+    E('path',{d:D(center),fill:'none',stroke:col,'stroke-width':2.3,'stroke-linecap':'round',opacity:0.32},p);
+    for(var q=0;q<40;q++){
+      var j=Math.floor(rr(1,center.length-2)),f=rr(-0.72,0.72);
+      E('path',{d:'M'+(center[j][0]+norm[j][0]*half[j]*f).toFixed(1)+' '+(center[j][1]+norm[j][1]*half[j]*f).toFixed(1)+' q9 -3 19 0',
+        fill:'none',stroke:col,'stroke-width':1,opacity:rr(0.10,0.24)},p);
+    }
+    [bankA,bankB].forEach(function(bank){
+      E('path',{d:D(bank),fill:'none',stroke:INK,'stroke-width':1.8,'stroke-linejoin':'round'},p);
+      for(var m=2;m<bank.length-1;m+=2){
+        var a=bank[m-1],b=bank[m+1],dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+        E('line',{x1:bank[m][0],y1:bank[m][1],x2:bank[m][0]-dy/le*9+dx/le*3,y2:bank[m][1]+dx/le*9+dy/le*3,
+          stroke:INK,'stroke-width':0.8,opacity:0.3},p);
+      }
+    });
+    return {a:bankA,b:bankB,c:center,h:half};
+  }
+
+  /* ---------- terrain ---------- */
+  function hill(x,y,s,p){
+    E('path',{d:'M'+(x-13*s).toFixed(1)+' '+y+' q'+(13*s).toFixed(1)+' '+(-14*s).toFixed(1)+' '+(26*s).toFixed(1)+' 0',
+      fill:'none',stroke:FADE,'stroke-width':1.2,opacity:0.5},p);
+  }
+  function tuft(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-5 2 q-2 -8 -6 -12 M0 2 L0 -14 M5 2 q2 -7 7 -11 M-2 2 q-1 -6 -3 -9',
+      fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.8},g);
+  }
+  function reed(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-5 3 q-3 -10 -7 -15 M0 3 L0 -19 M5 3 q3 -9 8 -14 M-2 3 q-2 -7 -4 -11',
+      fill:'none',stroke:MG,'stroke-width':1.1,opacity:0.85},g);
+    E('path',{d:'M0 -19 l-2 -5 M-7 -12 l-2 -5 M8 -11 l2 -5',fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.7},g);
+  }
+  function rock(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-11 3 L-6 -7 L3 -9 L11 -2 L7 4 Z',fill:'#b3a585',stroke:FADE,'stroke-width':1.1},g);
+    E('path',{d:'M-6 -7 L1 1 L11 -2 M3 -9 L1 1',fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.5},g);
+  }
+  for(i=0;i<38;i++){hill(rr(120,2280),rr(258,334),rr(0.8,1.6),gTerr);}
+  for(i=0;i<72;i++){reed(rr(840,2340),rr(948,1296),rr(0.55,1.05),gTerr);}
+  for(i=0;i<46;i++){tuft(rr(60,2340),rr(486,706),rr(0.6,1.05),gTerr);}
+  for(i=0;i<20;i++){tuft(rr(330,790),rr(860,1080),rr(0.5,0.8),gTerr);}
+
+  /* the Ilm, drawn west to east downriver, and a marsh drain into it */
+  var ilm=river(jit([[60,392],[340,410],[680,436],[1000,466],[1340,492],[1680,524],[2020,558],[2360,590]],3.2,14),
+                 17,30,SEA,SEAWASH,gWater);
+  var drain=river(jit([[1180,1300],[1220,1180],[1190,1060],[1250,930],[1240,800],[1300,680],[1340,492]],2.6,12),
+                 2.5,6,SEA,SEAWASH,gWater);
+
+  /* ---------- structures ---------- */
+  function smoke(x,y,p){
+    E('path',{d:'M'+x+' '+y+' q-6 -7 1 -12 q6 -5 0 -11 q-4 -5 1 -9',fill:'none',stroke:INK,'stroke-width':1,'stroke-linecap':'round',opacity:0.55},p);
+  }
+  function house(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('rect',{x:-16,y:-14,width:32,height:20,fill:'#e2d3ad',stroke:INK,'stroke-width':1.5},g);
+    E('path',{d:'M-20 -14 L0 -26 L20 -14 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.5},g);
+    E('rect',{x:-4,y:-5,width:8,height:11,fill:'#6b5331',stroke:INK,'stroke-width':0.9},g);
+    E('path',{d:'M11 -20 l0 -9 q4 -3 1 -7',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.5},g);
+  }
+  function byre(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-44 11 L-38 -16 L38 -16 L44 11 Z',fill:'#d3c29b',stroke:INK,'stroke-width':1.6},g);
+    E('path',{d:'M-52 -16 L0 -40 L52 -16 Z',fill:'#8a7654',stroke:INK,'stroke-width':1.6},g);
+    for(var t=0;t<6;t++){
+      E('path',{d:'M'+(-44+t*16)+' -18 q8 -6 16 0',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.55},g);
+    }
+    E('rect',{x:-8,y:-2,width:16,height:13,fill:'#6b5331',stroke:INK,'stroke-width':1},g);
+    E('line',{x1:50,y1:9,x2:64,y2:9,stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M64 9 L64 -9 L79 -9 L79 -4 L70 -4 L70 9 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.1},g);
+    smoke(24,-40,g);
+  }
+  function peatStack(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-16 6 L-14 -16 L14 -16 L16 6 Z',fill:TURF,stroke:INK,'stroke-width':1.4},g);
+    for(var t=0;t<4;t++){
+      E('line',{x1:-15,y1:-12+t*6,x2:15,y2:-12+t*6,stroke:PEAT,'stroke-width':0.8,opacity:0.5},g);
+    }
+    for(var v=0;v<5;v++){
+      E('line',{x1:-10+v*5,y1:-16,x2:-10+v*5,y2:6,stroke:INK,'stroke-width':0.6,opacity:0.32},g);
+    }
+    E('path',{d:'M-17 -16 q17 -7 34 0',fill:'none',stroke:FADE,'stroke-width':1.1},g);
+  }
+  function peatDry(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    for(var a=0;a<5;a++){
+      for(var b=0;b<5;b++){
+        var tx=(a-2)*13+b*2, ty=(b-2)*10;
+        E('path',{d:'M'+(tx-4)+' '+ty+' L'+(tx-4)+' '+(ty-7)+' L'+(tx+4)+' '+(ty-7)+' L'+(tx+4)+' '+ty+' Z',
+          fill:TURF,stroke:FADE,'stroke-width':0.7,opacity:0.85},g);
+      }
+    }
+  }
+  function cutting(x,y,p){
+    var g=E('g',{},p);
+    for(var b=0;b<5;b++){
+      var by=y+b*13;
+      E('path',{d:D(jit([[x-70+b*4,by],[x-30+b*6,by-5],[x+20+b*5,by-3],[x+70+b*3,by+2]],2,10),false),
+        fill:'none',stroke:PEAT,'stroke-width':3.2,opacity:0.55},g);
+      E('path',{d:D(jit([[x-70+b*4,by+5],[x-30+b*6,by],[x+20+b*5,by+2],[x+70+b*3,by+7]],2,10),false),
+        fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.5},g);
+    }
+  }
+  function landing(x,y,p){
+    var g=E('g',{},p);
+    E('path',{d:'M'+(x-26)+' '+y+' L'+(x+26)+' '+y+' L'+(x+22)+' '+(y+16)+' L'+(x-22)+' '+(y+16)+' Z',
+      fill:'#b9a17c',stroke:INK,'stroke-width':1.4},g);
+    for(var t=0;t<6;t++){
+      E('line',{x1:x-24+t*9,y1:y,x2:x-24+t*9,y2:y+16,stroke:FADE,'stroke-width':0.7,opacity:0.6},g);
+    }
+    E('line',{x1:x-18,y1:y+16,x2:x-18,y2:y+30,stroke:INK,'stroke-width':1.6},g);
+    E('line',{x1:x+18,y1:y+16,x2:x+18,y2:y+30,stroke:INK,'stroke-width':1.6},g);
+  }
+  function punt(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M-26 0 q26 11 52 0 l-8 8 q-18 5 -36 0 z',fill:'#c9b58f',stroke:INK,'stroke-width':1.3},g);
+    E('line',{x1:-14,y1:2,x2:14,y2:2,stroke:FADE,'stroke-width':0.8,opacity:0.6},g);
+  }
+  function mootPost(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s+')'},p);
+    E('path',{d:'M0 0 L0 -30 L10 -30 L10 -24 L4 -24 L4 0 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.3},g);
+    E('line',{x1:-6,y1:-16,x2:14,y2:-16,stroke:FADE,'stroke-width':1.1},g);
+  }
+
+  /* Mud End: nine houses, the byre, the peat stacks and drying sods */
+  [[360,720],[442,706],[520,722],[600,710],[678,734],[372,792],[456,788],[636,794],[704,776]
+  ].forEach(function(h){house(h[0],h[1],rr(0.78,1.02),gStruct);});
+  byre(520,902,1.0,gStruct);
+  mootPost(690,916,1.0,gStruct);
+  [[392,856],[462,862],[532,868],[602,860],[676,870]].forEach(function(t){peatStack(t[0],t[1],rr(0.82,1.05),gStruct);});
+  peatDry(880,962,0.9,gStruct);
+  peatDry(984,982,0.72,gStruct);
+  landing(700,454,gStruct);
+  punt(772,470,1.0,gStruct);
+  cutting(1130,1112,gStruct);
+  cutting(1370,1160,gStruct);
+
+  /* Reedholt, faint in the marsh to the south, for neighbourhood only */
+  [[1500,1190],[1568,1202],[1636,1188],[1580,1246]].forEach(function(h){
+    var g=E('g',{opacity:0.46},gStruct); house(h[0],h[1],0.72,g);
+  });
+  for(i=0;i<20;i++){reed(rr(1420,1720),rr(1170,1300),rr(0.6,1.0),E('g',{opacity:0.5},gStruct));}
+
+  /* Sill and Greybank drawn faint at the edges, for neighbourhood only */
+  [[70,930],[110,936],[74,972]].forEach(function(h){
+    var g=E('g',{opacity:0.42},gStruct); house(h[0],h[1],0.75,g);
+  });
+  [[2310,1080],[2350,1086],[2320,1122]].forEach(function(h){
+    var g=E('g',{opacity:0.42},gStruct); house(h[0],h[1],0.75,g);
+  });
+
+  /* ---------- roads ---------- */
+  /* the Clay Road, Sill to Greybank, passing the hamlet's south edge */
+  E('path',{d:D(jit([[60,990],[360,1000],[700,1010],[1040,1030],[1380,1050],[1720,1070],[2060,1090],[2360,1110]],2.4,22)),
+    fill:'none',stroke:INK,'stroke-width':2.3,'stroke-dasharray':'8 6','stroke-linecap':'round',opacity:0.8},gRoad);
+  /* the track up to the landing, and the peat way south to Reedholt */
+  E('path',{d:D(jit([[772,890],[790,760],[738,610],[700,470]],2.2,18)),
+    fill:'none',stroke:FADE,'stroke-width':1.5,'stroke-dasharray':'4 6','stroke-linecap':'round',opacity:0.65},gRoad);
+  E('path',{d:D(jit([[1010,1034],[1180,1090],[1360,1146],[1530,1192]],2.2,18)),
+    fill:'none',stroke:FADE,'stroke-width':1.5,'stroke-dasharray':'4 6','stroke-linecap':'round',opacity:0.6},gRoad);
+  function edgeArrow(x,y,dir,p){
+    E('path',{d:'M'+x+' '+y+' L'+(x+dir*50)+' '+y+' M'+(x+dir*50)+' '+y+' l'+(dir*-10)+' -6 M'+(x+dir*50)+' '+y+' l'+(dir*-10)+' 6',
+      fill:'none',stroke:INK,'stroke-width':1.7},p);
+  }
+  edgeArrow(2320,1110,1,gRoad);
+  edgeArrow(110,990,-1,gRoad);
+
+  /* ---------- lettering, inked last above everything ---------- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      'stroke':(o&&o.halo)?PALE:null,'stroke-width':(o&&o.halo)?3.2:null,'paint-order':(o&&o.halo)?'stroke':null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||23;
+    lines.forEach(function(ln,j){T(x,y+j*lh,ln,{font:'FellIt',size:o.size||16,fill:o.fill||'#574226',opacity:o.opacity||0.92});});
+  }
+
+  /* the ground, named in place */
+  T(540,630,'MUD END',{font:'FellSC',size:28,ls:5,fill:FADE,anchor:'middle',halo:true});
+  T(540,656,'nine houses, and the peat that warms them',{font:'FellIt',size:16,fill:FADE,anchor:'middle',halo:true});
+  T(520,830,'the peat stacks',{font:'FellIt',size:15,fill:INK,anchor:'middle',halo:true});
+  T(520,960,'the byre where the moot meets',{font:'FellIt',size:15,fill:INK,anchor:'middle',halo:true});
+  T(910,928,'peat set out to dry',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1220,1262,'the peat cuttings',{font:'FellIt',size:15,fill:INK,anchor:'middle',halo:true});
+  T(1568,1160,'REEDHOLT',{font:'FellSC',size:15,ls:2,fill:FADE,anchor:'middle',opacity:0.8,halo:true});
+  T(720,502,'the Ilm',{font:'FellIt',size:24,fill:SEA,rot:3,anchor:'middle',halo:true});
+  T(1510,1020,'the Clay Road',{font:'FellIt',size:15,fill:FADE,rot:4,halo:true});
+  T(806,650,'the path to the landing',{font:'FellIt',size:13,fill:FADE,rot:73,halo:true});
+  T(860,496,'the landing',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
+  T(1760,1322,'the marsh',{font:'FellSC',size:18,ls:6,fill:FADE,anchor:'middle',opacity:0.66,halo:true});
+  T(1980,1210,'the reedbeds',{font:'FellIt',size:15,fill:MG,anchor:'middle',halo:true});
+  T(112,956,'to Sill — three leagues upriver',{font:'FellIt',size:15,fill:FADE,halo:true});
+  T(2340,1064,'to Greybank — fifteen leagues downriver',{font:'FellIt',size:15,fill:FADE,anchor:'end',halo:true});
+  T(1268,690,'the marsh drain',{font:'FellIt',size:13,fill:SEA,rot:78,anchor:'middle',opacity:0.8,halo:true});
+
+  /* ---------- marginal notes in the surveyor's voice ---------- */
+  note(110,452,[
+    'Mud End stands three leagues downriver of Sill. Nine houses',
+    'keep their peat stacks on the dry shelf above the marsh;',
+    'the moot meets in a byre and the winter peat decides who'
+  ],{size:16,lh:22,fill:'#574226'});
+  T(110,518,'stays warm through the dark.',{font:'FellIt',size:16,fill:'#574226',opacity:0.92});
+  note(110,620,[
+    'A man was taken quiet in his sleep here, and them that',
+    'found him called it merciful. The danger has no name in',
+    'Grath; it is the same breath that kills behind a kiln.'
+  ],{size:16,lh:22,fill:RED});
+  note(1660,600,[
+    'Peat is cut from the southern banks and set up in sods',
+    'to dry. A winter in which the peat does not dry is the',
+    'fear of this hamlet, as a thin harvest is the fear of Sill.'
+  ],{size:16,lh:22,fill:'#574226'});
+  note(1660,860,[
+    'Reedholt lies in the marsh south of the river road, where',
+    'wolves come in the reedbeds. The peat way is trodden only',
+    'in the dry months and is not drawn past the first huts.'
+  ],{size:16,lh:22,fill:'#574226'});
+
+  /* ---------- title cartouche ---------- */
+  E('path',{d:'M674 58 L1726 58 L1746 78 L1746 194 L1726 214 L674 214 L654 194 L654 78 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.94},gFrame);
+  E('path',{d:'M680 68 L1720 68 L1736 84 L1736 188 L1720 204 L680 204 L664 188 L664 84 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M618 136 q30 -22 54 0 q-24 22 -54 0 z M1782 136 q-30 -22 -54 0 q24 22 54 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(1200,114,'MUD END',{font:'CinzelDec',size:38,ls:3.2,anchor:'middle',fill:INK});
+  T(1200,150,'the peat hamlet, three leagues downriver of Sill',{font:'FellIt',size:19,anchor:'middle',fill:FADE});
+  T(1200,186,'surveyed and inked in Y.H. 813 — the month of Grain',{font:'FellSC',size:13,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<28;i++){
+    var sx=678+i*37.4;
+    E('path',{d:'M'+sx+' 72 l2.5 5 l5 0 l-4 3.5 l1.5 5 l-5 -3 l-5 3 l1.5 -5 l-4 -3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 200 l2.5 -5 l5 0 l-4 -3.5 l1.5 -5 l-5 3 l-5 -3 l1.5 5 l-4 3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---------- compass rose ---------- */
+  var rx=2186,ry=222;
+  E('circle',{cx:rx,cy:ry,r:44,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:rx,cy:ry,r:35,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?38:22;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-38)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+38)+' L'+(rx+9)+' '+ry+' Z',fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-38)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-50,'N',{size:20,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,j){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][j];
+    T(rx+Math.sin(ca)*56+3,ry-Math.cos(ca)*56+6,cdir,{font:'FellSC',size:15,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- convention of signs ---------- */
+  E('rect',{x:110,y:1120,width:540,height:386,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1128,width:524,height:370,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(380,1160,'CONVENTION OF SIGNS',{font:'FellSC',size:21,ls:3,anchor:'middle'});
+  E('line',{x1:140,y1:1172,x2:620,y2:1172,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  house(160,1200,0.85,gFrame); T(202,1206,'a house of Mud End',{font:'Fell',size:16});
+  var br=E('g',{transform:'translate(160 1244) scale(0.34)'},gFrame); byre(0,0,1,br);
+  T(202,1250,'the byre and moot-post',{font:'Fell',size:16});
+  peatStack(160,1290,0.9,gFrame); T(202,1296,'a stack of winter peat',{font:'Fell',size:16});
+  var pd=E('g',{transform:'translate(160 1332) scale(0.5)'},gFrame); peatDry(0,0,0.7,pd);
+  T(202,1338,'sods set out to dry',{font:'Fell',size:16});
+  var ct=E('g',{transform:'translate(160 1378) scale(0.42)'},gFrame); cutting(0,0,ct);
+  T(202,1382,'the peat cuttings',{font:'Fell',size:16});
+  E('line',{x1:140,y1:1416,x2:178,y2:1416,stroke:INK,'stroke-width':2,'stroke-dasharray':'6 5'},gFrame);
+  T(202,1422,'the Clay Road',{font:'Fell',size:16});
+  E('path',{d:'M142 1454 q8 -3 16 0',fill:'none',stroke:SEA,'stroke-width':2},gFrame);
+  T(202,1460,'the Ilm, running downriver',{font:'Fell',size:16});
+
+  /* ---------- scale bar ---------- */
+  T(1560,1420,'A LEAGUE IS THREE THOUSAND PACES',{font:'FellSC',size:13,ls:1.4,fill:FADE});
+  E('rect',{x:1560,y:1430,width:360,height:13,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1560+i*90,y:1430,width:90,height:13,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1560+i*90,1464,[0,750,1500,2250][i]+'',{font:'Fell',size:15,anchor:'middle',fill:INK});
+  }
+  T(1940,1444,'paces',{font:'FellIt',size:16,fill:FADE});
+  T(1560,1492,'Three leagues downriver from the Cross at Sill; Greybank fifteen leagues on.',{font:'FellIt',size:13,fill:FADE});
+
+  /* ---------- an engraved peat spade in the margin ---------- */
+  function spade(x,y,p){
+    var g=E('g',{transform:'translate('+x+' '+y+')'},p);
+    E('line',{x1:0,y1:-30,x2:0,y2:6,stroke:INK,'stroke-width':2.4},g);
+    E('path',{d:'M-10 6 Q0 -2 10 6 L7 20 Q0 26 -7 20 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.6},g);
+    E('path',{d:'M-7 10 q7 -4 14 0',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.6},g);
+  }
+  spade(772,1296,gFrame);
+  T(772,1350,'a spade for the winter peat',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+
+  /* ---------- the ruled border and its hatch ---------- */
+  E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:2296,height:1496,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<116;i++){
+    var px=56+i*19.7;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:1548,x2:px,y2:1566,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<76;i++){
+    var py=56+i*19.6;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:2348,y1:py,x2:2366,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[2348,52,-1,1],[52,1548,1,-1],[2348,1548,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>
