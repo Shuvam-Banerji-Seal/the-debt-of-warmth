@@ -284,13 +284,13 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   T(320,334,'LOW KILN',{font:'FellSC',size:22,ls:5,fill:FADE,anchor:'middle',opacity:0.8});
   T(1180,306,'HIGH KILN',{font:'FellSC',size:22,ls:5,fill:FADE,anchor:'middle',opacity:0.78});
   T(470,948,'the smithy',{font:'Fell',size:23,anchor:'middle',halo:true});
-  T(546,754,'the forge hearth',{font:'FellIt',size:15,anchor:'middle',halo:true});
-  T(432,742,'the bellows',{font:'FellIt',size:13,anchor:'middle',halo:true});
-  T(762,792,'the anvil',{font:'FellIt',size:14,anchor:'middle',halo:true});
+  T(546,754,'the smith\'s hearth',{font:'FellIt',size:15,anchor:'middle',halo:true});
+  T(432,742,'the smith\'s bellows',{font:'FellIt',size:13,anchor:'middle',halo:true});
+  T(762,792,'the smith\'s anvil',{font:'FellIt',size:14,anchor:'middle',halo:true});
   T(1000,766,'the smith\'s bench',{font:'FellIt',size:14,anchor:'middle',halo:true});
   T(1230,852,'the kiln behind the bench',{font:'FellIt',size:13,anchor:'middle',halo:true});
   T(1078,516,'Keldish iron, blue-bloomed',{font:'FellIt',size:13,anchor:'middle',halo:true});
-  T(496,678,'the tubes, mended at the mouth',{font:'FellIt',size:13,anchor:'middle',halo:true});
+  T(496,678,'the smith\'s tubes, mended at the mouth',{font:'FellIt',size:13,anchor:'middle',halo:true});
   T(700,1000,'the ash pit',{font:'FellIt',size:12,anchor:'middle',halo:true});
   T(920,1004,'the smith\'s trough',{font:'FellIt',size:12,anchor:'middle',halo:true});
   T(1064,690,'no slate written on here',{font:'FellIt',size:12,fill:RED,anchor:'middle',halo:true});
@@ -334,6 +334,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
     'smith draws it clean and sets the seam cold, entering',
     'nothing. The pale ring left at a wrist is not made here.'
   ],{size:15,lh:22,fill:'#574226'});
+  E('path',{d:'M1506 1286 L1994 1284 L1998 1372 L1510 1374 Z',fill:'#e7d9b7',stroke:FADE,'stroke-width':0.8,opacity:0.82},gFrame);
   note(1520,1298,[
     'A counting room shut in the last war with the damper',
     'closed stands eighteen leagues east by the Clay Road.',
@@ -393,14 +394,14 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   T(226,1458,'Keld iron, blue-bloomed',{font:'FellIt',size:13});
 
   /* ---- scale bar, in paces ---- */
-  T(1466,1450,'IN PACES — THE SHOP DOOR TO THE CLAY ROAD',{font:'FellSC',size:12,ls:1.2,fill:FADE});
+  T(1466,1450,'IN PACES — THE SHOP DOOR TO THE CLAY ROAD',{font:'FellSC',size:12,ls:1.2,fill:FADE,halo:true});
   E('rect',{x:1466,y:1460,width:520,height:12,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
   for(i=0;i<4;i++){
     E('rect',{x:1466+i*130,y:1460,width:130,height:12,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
-    T(1466+i*130,1494,[0,25,50,75,100][i]+'',{font:'Fell',size:14,anchor:'middle',fill:INK});
+    T(1466+i*130,1494,[0,25,50,75,100][i]+'',{font:'Fell',size:14,anchor:'middle',fill:INK,halo:true});
   }
-  T(2006,1474,'paces',{font:'FellIt',size:15,fill:FADE});
-  T(1466,1522,'A league is three thousand paces; a man on foot makes four leagues in a day.',{font:'FellIt',size:12,fill:FADE});
+  T(2006,1474,'paces',{font:'FellIt',size:15,fill:FADE,halo:true});
+  T(1466,1522,'A league is three thousand paces; a man on foot makes four leagues in a day.',{font:'FellIt',size:12,fill:FADE,halo:true});
 
   /* ---- the ruled border and its hatch ---- */
   E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);

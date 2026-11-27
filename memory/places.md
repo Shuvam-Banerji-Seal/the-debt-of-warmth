@@ -882,6 +882,21 @@ A small forge east of the Clay Yard where kiln irons, barrow irons and the colle
 The hearth of the small forge where kiln irons and the collectors' tubes are heated. The smith taps iron the way the women at the racks tap a pot, because a rule that holds for clay holds for anything worked and may fail; a cold-iron tube answers neither full nor flat.
 **Relations:** Inside the smithy, east of the Clay Yard.
 
+### The smith's bellows
+**Kind:** bellows, forge tool. **Region:** the smithy, Low Kiln.
+The bellows at the smith's hearth. He was old enough to hold them in the year of the Rising, Y.H. 668, and not old enough to be told what the tubes he watched were for. He learned what they were for by watching what came back.
+**Relations:** Beside the smith's hearth, inside the smithy.
+
+### The smith's anvil
+**Kind:** anvil, forge tool. **Region:** the smithy, Low Kiln.
+The anvil on its block where kiln irons, barrow irons and damper irons are re-set. The smith taps iron the way the women at the racks tap a pot, because a rule that holds for clay holds for anything worked and may fail.
+**Relations:** On the floor of the smithy, east of the smith's hearth.
+
+### The smith's tubes
+**Kind:** iron tubes, instruments. **Region:** the smithy, Low Kiln.
+The collectors' cold-iron tubes brought to the smithy to be mended. They come in with the grip polished grey to the thumb and the grey worked into the creases of the handle; the smith draws them clean and sets the seam cold and enters nothing. He does not set a tube to a wrist, which is the officer's work. The tubes have no note of their own: they take and do not give.
+**Relations:** On pegs inside the smithy; used by officers of the Keeping at the collector's table in Slate Row and at collections throughout Grath.
+
 ### The smith's bench
 **Kind:** bench, keeping place. **Region:** the smithy, Low Kiln.
 The bench where the smith sets his count in chisel notches and has done for eleven years without an officer asking what the notches were, which is how he knows they are not a figure. His sister at Greybank struck an eleven through and put nine underneath it, because two notches had run together in one tend; the place where they ran is left as it stands. No slate in the shop would serve for a sentence.
