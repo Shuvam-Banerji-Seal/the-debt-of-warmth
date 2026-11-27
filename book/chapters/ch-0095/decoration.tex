@@ -1,0 +1,105 @@
+\begin{tikzpicture}
+  % The chapter's heart: the twice-mended pot stands with the hairline of
+  % the first break left showing. A restoration would hide the hand that
+  % handled it; a mending leaves that hand showing. At the crossing of the
+  % old-brass staple and the tighter wire a thumb stayed one breath longer
+  % than the lift had need of, and no figure came off it. Three days went
+  % by with nothing opened, named, paid or ended; the reading is still one
+  % morning off. The held interval lies beside the five, not among them.
+
+  % —— a small flower above ——
+  \node at (0,1.60) {\pgfornament[width=0.70cm,color=ornament,opacity=0.24]{15}};
+
+  % —— the pot board, and the shadow of a pot that has not been lifted ——
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.28, line cap=round]
+    (-1.46,-0.92) -- (1.46,-0.92);
+  \fill[ink!16!faded, opacity=0.16]
+    (-0.92,-0.88) ellipse (0.88 and 0.075);
+
+  % —— the bail, lifted thumb-first, with the weight not yet on it ——
+  \draw[ornament!48!ink, line width=0.44pt, opacity=0.50, line cap=round]
+    (-0.82,0.56) .. controls (-0.56,1.30) and (0.56,1.30) .. (0.82,0.56);
+  \fill[ornament!40!ink, opacity=0.44] (-0.82,0.56) circle (0.036);
+  \fill[ornament!40!ink, opacity=0.44] (0.82,0.56) circle (0.036);
+  \draw[faded!28!ink, line width=0.20pt, opacity=0.28,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (0.70,1.02) -- (1.28,1.14);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.44]
+    at (1.34,1.16) {lifted thumb-first};
+
+  % —— the pot: dark clay, open at the rim, holding nothing counted ——
+  \fill[night!80, opacity=0.90]
+    (-1.05,0.56) .. controls (-1.20,-0.12) and (-0.88,-0.76) .. (-0.40,-0.88)
+    -- (0.40,-0.88) .. controls (0.88,-0.76) and (1.20,-0.12) .. (1.05,0.56)
+    -- cycle;
+  \draw[ornament!50!ink, line width=0.46pt, opacity=0.54, line cap=round]
+    (-1.05,0.56) .. controls (-1.20,-0.12) and (-0.88,-0.76) .. (-0.40,-0.88)
+    -- (0.40,-0.88) .. controls (0.88,-0.76) and (1.20,-0.12) .. (1.05,0.56);
+  \fill[night!94, opacity=0.62] (0,0.56) ellipse (1.05 and 0.13);
+  \draw[ornament!46!ink, line width=0.38pt, opacity=0.48, line cap=round]
+    (0,0.56) ellipse (1.05 and 0.13);
+
+  % —— the hairline of the first break, still showing from rim to belly ——
+  \draw[rubric!36!ink, line width=0.38pt, opacity=0.66, line cap=round]
+    (0.24,0.50) -- (0.14,0.28) -- (0.22,0.06) -- (0.06,-0.16)
+    -- (0.10,-0.38) -- (-0.04,-0.58) -- (0.00,-0.76) -- (-0.12,-0.86);
+
+  % —— the older, duller staple of the first mending, low on the belly ——
+  \draw[ornament!34!ink, line width=0.72pt, opacity=0.34, line cap=round]
+    (-0.22,-0.48) -- (-0.22,-0.76);
+  \draw[ornament!34!ink, line width=0.72pt, opacity=0.34, line cap=round]
+    (0.14,-0.48) -- (0.14,-0.76);
+  \draw[ornament!34!ink, line width=0.72pt, opacity=0.34, line cap=round]
+    (-0.22,-0.48) -- (0.14,-0.48);
+
+  % —— the old-brass staple of the second mending, straddling the crack ——
+  \draw[gold!48!ornament, line width=1.0pt, opacity=0.76, line cap=round]
+    (-0.06,0.22) -- (-0.06,-0.18);
+  \draw[gold!48!ornament, line width=1.0pt, opacity=0.76, line cap=round]
+    (0.36,0.22) -- (0.36,-0.18);
+  \draw[gold!48!ornament, line width=1.0pt, opacity=0.76, line cap=round]
+    (-0.06,0.22) -- (0.36,0.22);
+  \fill[gold!40!ornament, opacity=0.60] (-0.06,-0.18) circle (0.028);
+  \fill[gold!40!ornament, opacity=0.60] (0.36,-0.18) circle (0.028);
+
+  % —— the tighter wire, crossing over the staple and over the break ——
+  \draw[gold!58!ink, line width=0.46pt, opacity=0.68, line cap=round]
+    (-0.52,-0.02) .. controls (-0.10,0.03) and (0.42,0.03) .. (0.76,-0.04);
+  \draw[gold!58!ink, line width=0.46pt, opacity=0.62, line cap=round]
+    (-0.50,-0.12) .. controls (-0.08,-0.07) and (0.44,-0.07) .. (0.74,-0.14);
+
+  % —— the thumb at the crossing: arriving, staying, let go, no figure ——
+  \fill[vellum!78, opacity=0.62] (0.16,0.06) ellipse (0.145 and 0.105);
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.44, line cap=round]
+    (0.16,0.06) ellipse (0.145 and 0.105);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.30,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (0.16,0.17) .. controls (0.52,0.36) and (0.54,-0.04) .. (0.16,0.17);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.30,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (-0.02,0.08) -- (-2.02,0.46);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (-2.08,0.48) {one breath, bought at nothing};
+
+  % —— the crack pointed out, and the hand that handled it left showing ——
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.30,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (0.10,-0.58) -- (1.98,-0.72);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (2.04,-0.74) {the crack left showing};
+
+  % —— the file lies open with every gap left gap, and no slate read ——
+  \foreach \gx in {-4.86,-4.18,-3.50}{
+    \draw[faded!26!ink, line width=0.22pt, opacity=0.26] (\gx,-0.58) -- (\gx,-0.40);
+  }
+  \draw[faded!24!ink, line width=0.20pt, opacity=0.24,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (-4.86,-0.50) -- (-3.50,-0.50);
+  \node[anchor=west, font=\CinzelFont\scriptsize, text=faded, opacity=0.38]
+    at (-3.40,-0.50) {gaps left gap};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.30)
+    {leave the crack showing};
+  \node at (0,-1.66) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{88}};
+\end{tikzpicture}
