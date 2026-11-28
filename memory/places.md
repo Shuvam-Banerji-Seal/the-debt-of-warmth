@@ -1613,10 +1613,52 @@ Blue-green cliffs stained by old lead workings, sweet-smelling in the heat; chil
 Roads, wells and doorways with no people; the ledger's empty squares after Y.H. 40, paid for by the first whole returns.
 **Relations:** About 60 leagues south of Sill, between Grath and the Fenmarch; the Peat Line lies further south-west.
 
+*The close ground of the province drawn on `atlas/the-empty-cantons`: the rutted south road under turf, the six dry wells, the nine doorways, the bare squares and the slate in the notch, the cold hearths with white ash, the dry cuts, and the twelfth doorway left out of the count; Reedholt, the Standing Post, Greybank, Cold Acre and Sill drawn faint at the edges for neighbourhood only. Surveyed and inked in Y.H. 814, the month of Ilmen.*
+
 ### The Quiet Acre
 **Kind:** empty country, fen name. **Region:** beyond Reedholt.
 What the Fenfolk call the Empty Cantons: wells and doorways and no people. A doorway is built for coming back through, and a square of bare clay above a lintel is where a house-roll once hung. Orra counted eleven doorways and did not count the twelfth, because a thing with no figure in it is what that country keeps. No honest survey goes past it.
-**Relations:** Beyond Reedholt on the marsh road; marked by an edge note on `atlas/reedholt` and a surveyor's note on `atlas/the-standing-post`, drawn nowhere.
+**Relations:** Beyond Reedholt on the marsh road; marked by an edge note on `atlas/reedholt` and a surveyor's note on `atlas/the-standing-post`; the close ground now drawn on `atlas/the-empty-cantons`.
+
+### The south road
+**Kind:** road, old way. **Region:** the Empty Cantons, south of Grath.
+The way south out of Sill by Cold Acre and Greybank into the Cantons, rutted to the depth of a cart's wheel under the turf where no wheel has gone in eight hundred years. A cart cannot make it in a day; men walk it. Gedde the well-sinker came back up it in Ilmen of Y.H. 813 with nothing to tell except the lie of the ground.
+**Relations:** Runs south from Sill and Cold Acre into the Empty Cantons, with the way in from Greybank joining it; the Peat Line and Sere lie beyond. Drawn on `atlas/the-empty-cantons`.
+
+### The six dry wells
+**Kind:** wells, dry. **Region:** the Empty Cantons.
+Six wells measured by Gedde in Ash and Stone of Y.H. 812: first by the road, second in the doorway-yard, third under the fallen wall, fourth by the last standing hearth, fifth with a bare clay square above it, sixth beyond the doorways. The water is down out of sight, not gone; the stones are laid round each mouth in the old order. The surveyor wrote *dry* against each and *no entry* against the first.
+**Relations:** Scattered through the Empty Cantons along the south road and among the doorways. Drawn on `atlas/the-empty-cantons`.
+
+### The nine doorways
+**Kind:** doorways, ruins. **Region:** the Empty Cantons.
+Nine doorways standing where the walls have gone, counted by Gedde's survey; three have a square of bare clay above the lintel where a house-roll hung, and there is no nail in any of the nine. In one a slate still stands in its notch. Orra of the Weir counted eleven and did not count the twelfth, because a thing with no figure in it is what that country keeps.
+**Relations:** In the Empty Cantons, chiefly about the doorway-yard on the south road. Drawn on `atlas/the-empty-cantons`.
+
+### The twelfth doorway
+**Kind:** doorway, uncounted. **Region:** the Empty Cantons.
+The doorway Orra did not count, kept out of the figure because a thing with no figure in it is what that country keeps. It stands apart at the far edge of the ground, drawn faint and unnumbered on the chart.
+**Relations:** At the south-west edge of the Empty Cantons. Drawn, unnumbered, on `atlas/the-empty-cantons`.
+
+### The bare clay squares
+**Kind:** marks, absence. **Region:** the Empty Cantons.
+Squares of bare clay set into the stonework above three of the nine doorways, where the house-rolls once hung; no nail stands in them and no mark where a nail had been. The Greybank annals set forty such squares in the ledger after Y.H. 40, where a clerk of the College wrote *enter as nil* and put noughts above them. A square is where a figure stood and was taken away; a nought is a figure put in its place.
+**Relations:** Above the doorways in the Empty Cantons. Drawn on `atlas/the-empty-cantons`.
+
+### The slate in the doorway
+**Kind:** slate, unread record. **Region:** the Empty Cantons.
+A slate standing in the notch of one of the nine doorways, its grooves shapes rather than figures a clerk can read; one groove is deeper than an iron point would cut. A Vorr asked about it said the numbers were correct and would not say what they counted.
+**Relations:** In one of the nine doorways in the Empty Cantons. Drawn on `atlas/the-empty-cantons`.
+
+### The cold hearths
+**Kind:** hearths, cold. **Region:** the Empty Cantons.
+Hearths gone cold with a white dust like bone meal in the hollow where a fire would have been, not grey ash. A Fen man said the white is what is left when a promise has been kept too long; Gedde set the saying down and joined nothing to it. There is no Last Day in the Cantons and nobody sweeps.
+**Relations:** Scattered through the Empty Cantons, one beside the fourth well. Drawn on `atlas/the-empty-cantons`.
+
+### The dry cuts
+**Kind:** drains, dry. **Region:** the Empty Cantons.
+Ditches cut to drain the low ground, which hold no damp; the low ground itself is cool and empty where water would be if there were any.
+**Relations:** Across the low ground of the Empty Cantons. Drawn on `atlas/the-empty-cantons`.
 
 ### The Singing Sill
 **Kind:** river ledge, wonder. **Region:** Sill, the Ilm.

@@ -235,7 +235,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
         'stroke-dasharray':'13 9','stroke-linecap':'round',opacity:0.78},p);
     });
   }
-  var southRoad=jit([[1200,270],[1140,400],[1070,520],[1010,660],[960,800],[880,940],[820,1080],[740,1220],[690,1330]],2.8,24);
+  var southRoad=jit([[950,270],[900,400],[850,520],[820,660],[800,800],[760,940],[720,1080],[700,1220],[690,1330]],2.8,24);
   rutRoad(southRoad,gRoad);
   rutRoad(jit([[2340,470],[2120,500],[1900,548],[1690,610],[1480,660],[1300,690]],2.8,24),gRoad);
   rutRoad(jit([[1480,660],[1580,800],[1650,940],[1780,1080],[1900,1210],[2020,1330]],2.8,24),gRoad);
@@ -245,8 +245,8 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
     E('path',{d:'M'+x+' '+y+' L'+(x+dir*52)+' '+y+' M'+(x+dir*52)+' '+y+' l'+(dir*-11)+' -6 M'+(x+dir*52)+' '+y+' l'+(dir*-11)+' 6',
       fill:'none',stroke:INK,'stroke-width':1.7},p);
   }
-  edgeArrow(1200,270,0,gRoad);         /* north, up */
-  E('path',{d:'M1200 270 l-6 -12 l12 0 z',fill:INK},gRoad);
+  edgeArrow(950,270,0,gRoad);          /* north, up */
+  E('path',{d:'M950 270 l-6 -12 l12 0 z',fill:INK},gRoad);
   edgeArrow(2340,470,1,gRoad);
   edgeArrow(60,1130,-1,gRoad);
   edgeArrow(2020,1330,1,gRoad);
@@ -288,7 +288,7 @@ svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
   T(964,888,'the fourth — by the last hearth',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
   T(1428,926,'the fifth — bare clay above',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
   T(1832,1054,'the sixth — beyond the doorways',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
-  T(1460,588,'THE NINE DOORWAYS',{font:'FellSC',size:19,ls:2,fill:INK,anchor:'middle',halo:true});
+  T(1560,548,'THE NINE DOORWAYS',{font:'FellSC',size:19,ls:2,fill:INK,anchor:'middle',halo:true});
   T(1600,616,'one keeps a slate in its notch',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
   T(1330,614,'bare squares where the rolls hung',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
   T(1290,962,'cold hearths — the ash is white',{font:'FellIt',size:16,fill:FADE,anchor:'middle',halo:true});
