@@ -1,0 +1,38 @@
+\begin{tikzpicture}
+  % The chapter's heart: a whole year come round to the month it started in,
+  % stood edge to edge in the only count that is exact, and not stood up as a
+  % line for any foot to cross. Every day is a day like every other; the joint
+  % where the year closes carries no notch and no name. The number is kept
+  % in the middle, told by nobody. No hand turns the ring over to see what it
+  % cost, and the house, counting in loaves, cannot say that a year has turned.
+
+  \node at (0,1.48) {\pgfornament[width=0.70cm,color=ornament,opacity=0.24]{6}};
+
+  % —— the year come round: a thin ring, closed, with no seam distinguished ——
+  \draw[ornament!50!ink, line width=0.55pt, opacity=0.66] (0,0.00) circle (1.04);
+  \draw[faded!34!ink, line width=0.32pt, opacity=0.48] (0,0.00) circle (0.78);
+
+  % —— the days stood edge to edge, all alike; the joining is one of them ——
+  \foreach \a in {0,4,...,356}{
+    \draw[faded!36!ink, line width=0.62pt, opacity=0.58, line cap=round]
+      ($(0,0.00)+(\a:0.82)$) -- ($(0,0.00)+(\a:0.99)$);
+  }
+
+  % —— the exact count, kept in the middle and spoken by nobody ——
+  \node[font=\CinzelFont\small, text=faded, opacity=0.44] at (0,0.00) {366};
+
+  % —— labels: nothing at the joining sets one day above another ——
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.40] (1.56,0.74) -- (0.34,1.02);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (1.62,0.76) {no notch at the joining};
+
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.40] (-1.54,-0.50) -- (-0.99,-0.40);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (-1.60,-0.52) {stood edge to edge};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {a year come round, and nobody names it};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{80}};
+\end{tikzpicture}
