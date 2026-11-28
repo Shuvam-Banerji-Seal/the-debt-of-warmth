@@ -2,7 +2,7 @@
 
 - Chapters complete: **107**
 - Words of story: **1,965,875**
-- Current chapter: 107 (step: publish, scene 7)
+- Current chapter: 108 (step: plan, scene 1)
 - Last chapter: The Empty Place Beside the Crust (Days 372–374 · Stone 13–15, Y.H. 813)
 - Author calls so far: 1153 (tokens in 209,707,155, out 26,340,198)
 - Updated: 2026-11-28 11:27
