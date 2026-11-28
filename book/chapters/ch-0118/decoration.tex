@@ -1,0 +1,68 @@
+\begin{tikzpicture}
+  % The chapter's heart: a word comes up out of the well and stops on the
+  % stone lip. No owner stands under it, no name is spoken over it; it is a
+  % fifth shaping set on a place of its own, with a finger between it and
+  % every other kept thing. The wisp ends before the marks: not a message,
+  % not a witness, not a sixth. The yard keeps what it did not ask for.
+
+  % —— the stone lip, seen from the basket's low angle ——
+  \fill[faded!18!vellum, opacity=0.42]
+    (0,0) ellipse (2.16 and 0.78);
+  \draw[faded!46!ink, line width=0.52pt, opacity=0.52]
+    (0,0) ellipse (2.16 and 0.78);
+  \draw[faded!28!ink, line width=0.24pt, opacity=0.30]
+    (0,0) ellipse (2.00 and 0.67);
+
+  % —— the dark mouth, and the far lip that holds the light ——
+  \fill[night, opacity=0.58] (0,-0.02) ellipse (1.76 and 0.52);
+  \draw[faded!42!ink, line width=0.40pt, opacity=0.44]
+    (0,-0.02) ellipse (1.76 and 0.52);
+  \draw[gold, line width=0.22pt, opacity=0.24]
+    (-1.62,0.18) .. controls (-0.86,0.50) and (0.86,0.50) .. (1.62,0.18);
+
+  % —— the joints of the stone, laid and not counted ——
+  \foreach \a in {18,62,108,152,198,242,288,334}{
+    \pgfmathsetmacro{\xo}{2.16*cos(\a)}
+    \pgfmathsetmacro{\yo}{0.78*sin(\a)}
+    \pgfmathsetmacro{\xi}{1.76*cos(\a)}
+    \pgfmathsetmacro{\yi}{-0.02+0.52*sin(\a)}
+    \draw[faded!24!ink, line width=0.20pt, opacity=0.22] (\xi,\yi) -- (\xo,\yo);
+  }
+
+  % —— the word: five marks that are no name, resting on the lip ——
+  \foreach \x/\h in {-0.56/0.12,-0.28/0.16,0.00/0.09,0.28/0.15,0.56/0.11}{
+    \draw[rubric!36!ink, line width=0.34pt, opacity=0.46, line cap=round]
+      (\x,0.55) -- (\x+0.03,{0.55+\h});
+  }
+
+  % —— the wisp that came up and stopped before the marks ——
+  \draw[faded!50!ink, line width=0.30pt, opacity=0.46, line cap=round]
+    (0.00,-0.26) .. controls (-0.10,0.02) and (0.12,0.20) .. (0.02,0.43);
+  \fill[rubric!30!ink, opacity=0.34] (0.02,0.45) circle (0.014);
+  \draw[faded!18!ink, line width=0.20pt, opacity=0.18, dash pattern=on 1.2pt off 2.6pt, line cap=round]
+    (0.00,-0.36) .. controls (0.06,-0.20) .. (0.00,-0.08);
+
+  % —— a finger's width, kept between this and every other kept thing ——
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.34, line cap=round]
+    (2.66,-0.40) -- (2.66,0.40);
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.34, line cap=round]
+    (2.82,-0.40) -- (2.82,0.40);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (2.92,0.00) {a finger between};
+
+  % —— the yard's ordinary talk, breaking off before it reaches the well ——
+  \draw[faded!16!ink, line width=0.22pt, opacity=0.18]
+    (-4.50,-0.66) -- (-2.52,-0.66);
+  \draw[faded!16!ink, line width=0.22pt, opacity=0.18]
+    (2.52,-0.66) -- (4.50,-0.66);
+  \draw[faded!14!ink, line width=0.20pt, opacity=0.16]
+    (-3.64,-0.66) -- (-3.64,-0.86);
+  \draw[faded!14!ink, line width=0.20pt, opacity=0.16]
+    (3.78,-0.66) -- (3.78,-0.86);
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.16) -- (4.6,-1.16);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.44)
+    {a word with no name under it};
+  \node at (0,-1.80) {\pgfornament[width=4.2cm,color=ornament,opacity=0.20,symmetry=v]{84}};
+\end{tikzpicture}
