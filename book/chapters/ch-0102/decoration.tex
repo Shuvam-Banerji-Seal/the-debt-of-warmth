@@ -1,0 +1,72 @@
+\begin{tikzpicture}
+  % The chapter's heart: the unsigned figure. Nine arithmetics of the year
+  % stand behind the one printed mark -- nine are nine and not one account.
+  % The figure reads one in twelve and is read; it is not paid. Beneath it
+  % the space where a payer's name should stand is ruled but empty, and the
+  % pen laid to it has no name to write. No doctrine stood up out of nine,
+  % for a doctrine is an account that has found a payer and none stood.
+
+  % —— a small fleuron above ——
+  \node at (0,1.48) {\pgfornament[width=0.70cm,color=ornament,opacity=0.26]{3}};
+
+  % —— nine arithmetics, standing each apart in a shallow arc behind ——
+  \foreach \x in {-4.3,-3.2,-2.1,-1.05,0,1.05,2.1,3.2,4.3}{
+    \pgfmathsetmacro{\by}{0.26 + 0.34*(1-(\x/4.3)*(\x/4.3))}
+    \foreach \j in {0,1,2}{
+      \pgfmathsetmacro{\ox}{-0.10 + 0.10*\j}
+      \pgfmathsetmacro{\hh}{0.30 + 0.07*\j}
+      \draw[faded!30!ink, line width=0.85pt, opacity=0.42, line cap=round]
+        (\x+\ox,\by) -- (\x+\ox+0.04,\by+\hh);
+    }
+  }
+  % —— a finger's width between every pair ——
+  \foreach \m in {-3.75,-2.65,-1.575,-0.525,0.525,1.575,2.65,3.75}{
+    \draw[faded!22!ink, line width=0.5pt, opacity=0.28] (\m,0.14) -- (\m,0.24);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (-3.05,1.04)
+    {nine, standing apart};
+
+  % —— the roundel of the one figure, occluding what stands behind ——
+  \fill[vellum, opacity=0.92] (0,-0.10) circle (0.92);
+  \draw[ornament!50!ink, line width=0.55pt, opacity=0.70] (0,-0.10) circle (0.92);
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.34] (0,-0.10) circle (0.82);
+
+  % —— the figure: one, in twelve ——
+  \draw[rubric!66!ink, line width=3.4pt, opacity=0.86, line cap=round]
+    (-0.02,0.46) -- (-0.02,-0.02);
+  \draw[rubric!60!ink, line width=1.6pt, opacity=0.80, line cap=round]
+    (-0.30,0.46) -- (-0.02,0.40);
+  \draw[rubric!60!ink, line width=2.0pt, opacity=0.80, line cap=round]
+    (-0.24,-0.02) -- (0.20,-0.02);
+  \draw[rubric!56!ink, line width=1.0pt, opacity=0.72]
+    (-0.30,-0.12) -- (0.26,-0.12);
+  \node[font=\CinzelFont\small, text=rubric!60!ink] at (-0.02,-0.36) {12};
+
+  % —— the ruled space where the signature should stand: empty ——
+  \draw[faded!34!ink, line width=0.34pt, opacity=0.52]
+    (-0.62,-0.62) -- (0.62,-0.62);
+  \draw[faded!30!ink, line width=0.28pt, opacity=0.46]
+    (-0.62,-0.68) -- (-0.62,-0.56);
+  \draw[faded!30!ink, line width=0.28pt, opacity=0.46]
+    (0.62,-0.68) -- (0.62,-0.56);
+
+  % —— the pen laid to the blank, with no name to write ——
+  \draw[faded!38!ink, line width=0.9pt, opacity=0.56, line cap=round]
+    (0.70,-0.52) .. controls (1.00,-0.20) and (1.22,0.06) .. (1.52,0.26);
+  \fill[faded!16!ink, opacity=0.34]
+    (1.10,-0.02) .. controls (1.26,0.22) and (1.44,0.34) .. (1.52,0.26)
+    .. controls (1.42,0.10) and (1.26,-0.10) .. (1.10,-0.02) -- cycle;
+  \draw[ink!46!faded, line width=0.5pt, opacity=0.52, line cap=round]
+    (0.70,-0.52) -- (0.60,-0.58);
+  \draw[faded!26!ink, line width=0.3pt, opacity=0.36] (0.55,-0.62) circle (0.02);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (1.64,-0.02) {no name on the space};
+
+  % —— a faint ground-rule, wider than the emblem ——
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.26) -- (4.6,-1.26);
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {nine are nine, and not one account};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{88}};
+\end{tikzpicture}
