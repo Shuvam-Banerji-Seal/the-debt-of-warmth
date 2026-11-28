@@ -1,0 +1,100 @@
+---
+title: The Salt That Follows, Being a Coast-Soldier's Field Notes on the Salt-Thing of the Sallow Tides and the Pans Outside Vhal
+kind: A soldier's field book on one shape, set down as the record of shore-watches kept over boats lying off the pans and not as natural philosophy; the rounds in the Vhaleni tide-words written in Grathic letters, the tally in charcoal on the backs of spoiled tide-tallies, a verse as it is said going out on the first watch, a ruling in the narrow upright Ledgerhand of a clerk of the Council room, a second line of his gone soft with the damp, a dipper's words in pale ink on salt-paper, and one line at the foot in a hand nobody will own
+provenance: Written in Stone of Y.H. 812, the Thin Year of the Long Cold, by one of the Council's men set over the shore-watch and the cure-shed at the salt pans outside Vhal, who kept the rain-barrels and counted what the boats lost between dusk and morning; written at the end of watches in the shed with a tallow end in a pot and the Sallow coming up over the stones; set down first on the backs of tide-tallies spoiled by sea-water and then on three folds of salt-paper stiffened with tar, sewn with eel-sinew and carried in a tarred wrap in a coat pocket. Copied forward in Ilmen of Y.H. 813. It survives with a white bloom of salt come up out of the paper at the head, tar at the fold, a Sallow tideline along the gutter that has taken two words off the third watch, a wet ring where a barrel-stave stood on the leaf, a grey smear at the fore-edge where a sailor with cold fingers touched it, a fish-hook nick, a pinch of cure-salt shut in the second fold, a scorch where the watch-lamp caught the lower corner of the last leaf, the charcoal rubbed thin where the wrap was carried against the thigh, one ruling in Ledgerhand standing above the words it corrects, one line of the same hand eaten down to a figure with no verb, a dipper's line in pale ink on salt-paper soft at one corner, and the one line at the foot
+relates_to: [salt-thing, the Sallow Sea, the Sallow draw, Vhal, the Quay, the salt pans, the Glaze Cliffs, the Council of Tides, the Council room, dippers, the ebb, the turn, the slack, the tide-tally house, salt-paper, charcoal, tar, eel-sinew, Grathic, Ledgerhand, bit, mark, crown, ember, cure salt, four bits the pound, brine, rain, barrel, brine-gull, silt-leach, the Warm, the cold, grey fingertips, Thin, Held, Banked, collector, cold iron, the Ash, wet wool, wet rope, the coast pass, Greybank, the Ilm, Sill, the Thin Year, the Long Cold, Stone, Ilmen]
+---
+
+I keep the shore-watch at the pans outside Vhal. My post is the cure-shed and the barrels of rain. The boats lie off the shore in Stone when the Sallow runs cold and the lead comes down in the sand out of the Glaze Cliffs, and a boat lying off a shore in that month is a boat with something aboard that somebody paid to keep warm. My work is to know what goes off it in the night. I write at the end of a watch with the tallow down to a knuckle and the salt coming up in the paper.
+
+The leaves I wrote on first were tide-tallies spoiled by sea-water. The sea took the figures off clean, which was a mercy of a kind: a figure the sea has eaten is a figure no clerk can enter. I write in charcoal now, on the backs of the same tallies and on folds of salt-paper stiffened with tar. Charcoal goes into the grain; salt-paper rots, and a contract that rots is held a virtue in this port. This book is the one thing about the shed the damp has not been asked to settle.
+
+The bloom at the head came up out of the paper. I have not brushed it off. A book that has never stood a winter over the pans was never meant to be read in one.
+
+# What follows a boat
+
+It does not steal. This is the first thing a new man gets wrong and the thing that costs him his hands. He looks for a beak or a rat's teeth, and meanwhile the pot under the mast has gone cold.
+
+It follows a boat at night and taps where the warm is kept. I have seen one come up under the lee at the turn, and there was no body to it that I could put a spear to: a lift in the water the colour of the pans, a crust at the edge of it, and a small place in the middle that was not cold when I laid the back of my hand near it with my glove on. I have set down what I felt and not what I make of it. It is a shape of salt and cold water, and something in it holds together overnight, which plain salt in plain water does not do.
+
+A man who sleeps on deck and wakes with grey fingertips has not been bitten. There is no wound to show. He has been near something that draws the way a silt-leach draws through an ankle, only with the hull between them. I have held such a hand. The cold was in the nails and did not go away below, and he kept putting the hand into his coat as though it belonged to somebody else and he was minding it for them.
+
+They carry a barrel of rain. Every captain fills one before he lies off the pans in Stone, and will not say why to a man from the clay country, because a Vhaleni tells the truth in the form of a convenience. I watched one of these come up to where a man had sluiced rain round a mooring-stone and stop as though it had met a wall it could not see the top of. It went along the wet line looking for a break, the way a man looks for a gate, and came no farther in. The Ilm runs into the Sallow and its mouth is fresh enough for a dipper to drink from, and these never go up into it. A man at Greybank may leave a coal on the quay all night and nothing will tap it. Fresh water is a wall to this thing the way a shut door is to a man who cannot lift the latch.
+
+# The tapping
+
+It taps once. Then it waits. Then it taps again, a little lower, under the waterline where the pot of coals stands in blind ash. A cooper knows a cask by the note it gives under the knuckle, full or flat; the thing taps from the outside and knows the same thing, and when the note goes flat it stops tapping and stays where it is until morning.
+
+By morning the coals are cold. The loaf is where the man set it. The stone out of the Keel has gone the colour of the shed slate. There is no hole in the hull and no water in the bilge, and a man will say the boat was robbed, but nothing has been carried away that he can put a name to except the warm. I watched a boat come in off the cliffs with its store gone and its cargo whole, and the captain angrier at his two grey hands than at his cold pot, which is a reasonable anger and not one I have ever seen entered.
+
+It keeps to boats. I have set a warmed stone on the shore under a dish and sat by it through two watches with the lamp shut, and nothing came to it. A boat is a vessel that floats with its warm in one place; a stone on the shore is a stone. I have written the two things on the same leaf and drawn no line between them. I do not put a cause in a book the Council borrows. A cause has a verb, and a verb is the thing they take out first.
+
+# The verse
+
+*Said low at the pan-edge going out on the first watch, never coming in. The second line of the last verse is the old line and every man on the shore sings it wrong on purpose, because a song that gives the thing a reason is a song a man can carry home and set by his own fire. I have set it down as it is said, with the wrong line standing and the gap kept the length the men keep it.*
+
+> One for the pan and one for the tide,
+> one for the boat that keeps its coal;
+> it taps below the waterline
+> and takes the warm and leaves the whole.
+>
+> Salt on the stone and salt on the rope,
+> salt from the pan and not from the sea;
+> it cannot cross the rain, they say,
+> and so the boat carries rain to sea.
+>
+> Count the coals and count the hands,
+> count the grey that comes on deck;
+> one tap left for the man who paid,
+> and the old line wrong where the gap should be.
+
+The gap is for a drowned sailor. The men say he could not pay the ferry and goes now under the hull of the next boat that lies off the shore, tapping for the fare. I have heard the tale with three names on it in three mouths and have not written any of them. A man on the pulled benches taps the gunwale twice at the last line and will not say why; I have asked and he has not told me, and I have let the two taps stand.
+
+# The tally
+
+These are the watches I kept a true account of. There were others I did not write because my hands were full and one I did not write because I had the flux and had lost the day. I have set down both sorts as they stand. The last column is the clerk's, not mine. I counted what the boat lost; he counted what the shed sold.
+
+| Watch | Where the boat lay | Draw | Taps heard | At morning | Salt gathered | Entered |
+|---|---|---|---|---|---|---|
+| Stone 6 | Off the pans, south board | turn | three | pot cold, no hands grey | 2 lb | 8 bits |
+| Stone 11 | Glaze Cliffs, under the lead | ebb | one | stone cold, one hand grey | none | 0 |
+| Stone 17 | Inside the mooring-stones | slack | five | pot cold, two hands grey | 3 lb | 12 bits |
+| Stone 23 | Off the coast pass, wind off the clay | turn | two | loaf gone cold, none grey | 1 lb | nil |
+| Stone 29 | North board, rain sluiced at the stone | ebb | none | all as set | none | 0 |
+| Ilmen 4 | Quay landing, before the blessing | turn | four | one hand grey to the wrist | 2 lb | 8 bits |
+
+> *In the narrow upright hand of a clerk of the Council room, written above the tally on a scrap of salt-paper folded into the leaf:* Shape not a vessel. Drawing by a shape: no deduction arises. Grey fingers: not entered. Salt gathered at the pans entered at four bits the pound. Account stands.
+
+> *Below, in the same hand, gone soft where the damp took the corner:* The — — by the —.
+
+> *Underneath, in charcoal, in mine:* Two words gone and the figure left. He has entered the salt I sold and struck out the hands that went grey getting it. I have put the hands back where his column cannot reach, and my own mark beside them.
+
+The twelve bits for Stone 17 went into the boat's account and not into mine, which is as it should be, since the salt came off a boat I watched empty. There is a jar in the shed from that watch that I have not sold and have not entered. A jar with a figure on it travels; a jar without one stays under the bench. I have never been asked to explain the difference and have never offered to.
+
+# The salt it leaves
+
+When the ebb runs far out it leaves one stranded on the pans sometimes, where it goes smaller than a man's hand and then to a crust with a hollow in it. We scrape the crust up at first light and sell it at four bits the pound in Vhal. It is the finest curing salt in Sarn and is said to keep a wound from turning. I have seen it laid in a cut that went quiet and in one that went on as it would have without it, and made no rule out of them.
+
+The dippers bless their nets against the thing at dawn and will not do it while a Council man stands on the board. One of them told me a blessing said before a clerk is a blessing with a figure on it, and a blessing with a figure on it has already been half bought. I have written his words and not his name.
+
+> *In the pale ink of a dipper, on a corner of salt-paper soft where the damp took it:* It takes the warm and leaves the salt, and we sell what it leaves. We bless the net. We do not bless the boat, because the boat has already been paid for.
+
+I have put his line above mine. He wrote it at the pans and I wrote mine on the shore, and neither of us has asked the thing anything.
+
+# What they say at the pans
+
+They say it is a drowned sailor who could not pay the ferryman and goes in a body of salt instead. There are songs for it with a woman's name in them and a crossing that was refused. I have heard them and I have no quarrel with a song. I have watched this thing come to four boats and go away from three of them with their warm gone, and what it wanted in the fourth I do not know, because the fourth had a fresh barrel and the man on watch had poured the rain wide.
+
+Here is the one strange thing I will set down and not explain. I held the back of my hand over the hollow of the crust in the jar under the bench on a Stone morning with frost on the step, and the hollow was warm. Not warm as a coal is warm. Warm the way a slept-in place is warm after a body has got up. Four mornings I held my hand there and four times it was so, and I put the jar back and said nothing to the Council clerk. He would take the verb out and leave the figure, and there is no figure for the warmth in a hollow of salt.
+
+# At the head and in the margins
+
+The bloom at the head is salt out of the paper, which is not the same as salt out of the sea, though a man would take the two for one at a glance. The tar at the fold has made two lines of the second watch slow to read. The tideline took two words off the third watch and I did not write them in again; a watch with two words gone is told slowly, and most things here are. The wet ring came off a barrel-stave set down while I counted a catch and went off without his change. The grey at the fore-edge is not mine; a sailor steadied the leaf with his hand and I let him, and have not rubbed it, because it is the only mark here that came off a boat I could not warm. The nick is a fish-hook from a man paying with the hook still in his fingers; he did not apologize. The pinch in the second fold is cure-salt from Stone 17, the watch the clerk struck. The scorch is where the lamp caught and the hand that pulled it back was mine and is not entered. His ruling I have not touched; his softened line I have answered in charcoal. The song is as the men said it, with the old line wrong and the gap open.
+
+# At the foot, in a hand nobody will own
+
+> It follows the boat because the boat is warm. It cannot follow the rain. Nobody has asked it why.
+
+I put the question to four people and got four answerings and no hand to sign them. The line has lain here through two copyings and nobody has come forward for it, which is how I know it is worth keeping.
+
+There is a reach inside the Glaze Cliffs where the boats lie close in winter and the water comes up warm in the cracks of the stone even when the wind is off the Rim. I have not taken a boat into that reach. Next Stone I will carry a fresh pot of coals, a coil of cord and a barrel of rain, and lie off there on the turn with the lamp shut, and if a thing that cannot cross fresh water comes up out of water that is warm for no reason I have seen, I will set that down too, in charcoal, with the verb standing as it happened and no figure at the end of the row.
