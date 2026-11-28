@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="parchment" data-face="garamond">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Codex of Sarn</title>
+  <meta name="description" content="In-world documents, songs, slates and ordinances, together with the Compendium of lore.">
+  <link rel="icon" href="images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/prose.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script src="js/common.js" defer></script>
+  <script src="js/codex.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the documents</a>
+
+  <header class="site-nav">
+    <div class="site-nav-inner">
+      <a class="brand" href="index.html"><img class="brand-mark" src="images/emblem.svg" alt="" aria-hidden="true"><span>The Debt of Warmth<small>A surgeon's account of Sarn</small></span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="read.html" data-page="read.html">Read</a>
+        <a href="cast.html" data-page="cast.html">Cast</a>
+        <a href="atlas.html" data-page="atlas.html">Atlas</a>
+        <a href="codex.html" data-page="codex.html">Codex</a>
+        <a href="days.html" data-page="days.html">Days</a>
+        <button type="button" class="nav-theme" data-theme-toggle title="Change paper">☾</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="section-head">
+      <span class="kicker">Letters from inside the world</span>
+      <h1>The Codex of Sarn</h1>
+      <p>Songs, slates, litanies and ordinances; copied out by hands that left their marks.</p>
+    </div>
+
+    <div id="codex-error" aria-live="polite"></div>
+    <div class="codex-layout">
+      <nav class="doc-nav" id="doc-nav" aria-label="Documents and lore">
+        <p class="loading-note">Opening the drawers…</p>
+      </nav>
+      <div class="doc-panel" id="doc-panel" aria-live="polite">
+        <p class="loading-note">Taking a leaf from the book…</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-mark" aria-hidden="true">❦</div>
+      <p class="footer-credits">Written chapter by chapter, without end, by hy4-flash-free through OpenCode. The press, book design and orchestration by Claude, which writes no word of the story. The light-novel illustrations were painted by OpenAI's GPT Image (gpt-image-2.5-sunburst) from prompts written by Claude. MIT License.</p>
+      <p class="footer-meta"><a data-repo-link href="#">the repository</a> · <span data-updated></span></p>
+      <p class="content-note">A content note: dark fiction for adult readers.</p>
+    </div>
+  </footer>
+</body>
+</html>

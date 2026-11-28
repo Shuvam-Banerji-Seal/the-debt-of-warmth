@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="parchment" data-face="garamond">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading — The Debt of Warmth</title>
+  <meta name="description" content="Read The Debt of Warmth chapter by chapter, day by day.">
+  <link rel="icon" href="images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/prose.css">
+  <link rel="stylesheet" href="css/reader.css">
+  <script src="js/common.js" defer></script>
+  <script src="js/reader.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#reader-main">Skip to the chapter</a>
+
+  <header class="site-nav">
+    <div class="site-nav-inner">
+      <a class="brand" href="index.html"><img class="brand-mark" src="images/emblem.svg" alt="" aria-hidden="true"><span>The Debt of Warmth<small>A surgeon's account of Sarn</small></span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="read.html" data-page="read.html">Read</a>
+        <a href="cast.html" data-page="cast.html">Cast</a>
+        <a href="atlas.html" data-page="atlas.html">Atlas</a>
+        <a href="codex.html" data-page="codex.html">Codex</a>
+        <a href="days.html" data-page="days.html">Days</a>
+        <button type="button" class="nav-theme" data-theme-toggle title="Change paper">☾</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+
+  <div class="reader-toolbar" role="toolbar" aria-label="Reading tools">
+    <button type="button" class="tool-btn" id="toc-toggle" aria-expanded="false" aria-controls="toc-drawer">❦ Contents</button>
+    <div class="progress-vessel" id="progress-vessel" role="img" aria-label="Reading progress" title="Reading progress"><span class="coal"></span></div>
+    <div class="toolbar-crumb" id="crumb">Opening the book…</div>
+    <div class="toolbar-right">
+      <button type="button" class="tool-btn" id="settings-toggle" aria-expanded="false" aria-controls="settings-drawer">⚙ Settings</button>
+    </div>
+  </div>
+  <span class="saved-note" id="saved-note" aria-live="polite"></span>
+
+  <div class="continue-banner" id="continue-banner" role="status" hidden>
+    <p><strong>Continue where you left off.</strong> <span id="resume-text"></span></p>
+    <button type="button" class="btn" id="resume-jump">Return there ❧</button>
+    <a class="btn btn--quiet" id="resume-start" href="read.html#ch=1">Begin at chapter one</a>
+    <button type="button" class="resume-dismiss" id="resume-dismiss" aria-label="Dismiss the reminder">×</button>
+  </div>
+
+  <div class="drawer-scrim" id="scrim" hidden></div>
+
+  <aside class="drawer drawer-left" id="toc-drawer" role="dialog" aria-modal="true" aria-label="Table of contents" aria-hidden="true">
+    <div class="drawer-head">
+      <h2>Contents</h2>
+      <button type="button" class="drawer-close" data-close aria-label="Close contents">×</button>
+    </div>
+    <div class="toc-search">
+      <input type="search" id="toc-search" autocomplete="off" placeholder="Chapter 12 · day 37 · a title" aria-label="Search chapters and days">
+    </div>
+    <p class="toc-hint">A number finds a chapter. “day 37” finds a day. Words find a title.</p>
+    <div class="toc-results" id="toc-results" hidden></div>
+    <div id="toc-list"></div>
+  </aside>
+
+  <aside class="drawer drawer-right" id="settings-drawer" role="dialog" aria-modal="true" aria-label="Reading settings" aria-hidden="true">
+    <div class="drawer-head">
+      <h2>The Reader's Desk</h2>
+      <button type="button" class="drawer-close" data-close aria-label="Close settings">×</button>
+    </div>
+    <div class="setting">
+      <label for="set-size">Letter size <output id="out-size" for="set-size">19 px</output></label>
+      <input type="range" id="set-size" min="14" max="30" step="1" value="19">
+    </div>
+    <div class="setting">
+      <label for="set-leading">Leading <output id="out-leading" for="set-leading">1.62</output></label>
+      <input type="range" id="set-leading" min="1.3" max="2.1" step="0.02" value="1.62">
+    </div>
+    <div class="setting">
+      <label for="set-width">Measure <output id="out-width" for="set-width">38 rem</output></label>
+      <input type="range" id="set-width" min="26" max="54" step="1" value="38">
+    </div>
+    <div class="setting">
+      <label for="set-face">Typeface</label>
+      <select id="set-face">
+        <option value="garamond">EB Garamond</option>
+        <option value="imfell">IM Fell English</option>
+      </select>
+    </div>
+    <div class="setting">
+      <span class="setting-label">Paper</span>
+      <div class="theme-grid" id="theme-grid">
+        <button type="button" class="theme-btn" data-theme-choice="parchment" aria-pressed="true"><span class="theme-swatch swatch-parchment" aria-hidden="true"></span>Parchment</button>
+        <button type="button" class="theme-btn" data-theme-choice="sepia" aria-pressed="false"><span class="theme-swatch swatch-sepia" aria-hidden="true"></span>Sepia</button>
+        <button type="button" class="theme-btn" data-theme-choice="night" aria-pressed="false"><span class="theme-swatch swatch-night" aria-hidden="true"></span>Night</button>
+      </div>
+    </div>
+    <div class="setting" style="border-bottom:0">
+      <button type="button" class="btn btn--quiet" id="reset-settings">Restore the press's settings</button>
+    </div>
+  </aside>
+
+  <main id="reader-main" class="reader-main" tabindex="-1">
+    <article id="chapter-flow" aria-live="polite" aria-busy="true"><p class="loading-note">Setting type…</p></article>
+
+    <nav class="chapter-nav" aria-label="Chapter navigation">
+      <a id="prev-ch" href="read.html#ch=1" hidden><span class="nav-label">← The chapter before</span><span class="nav-title"></span></a>
+      <span class="spacer"></span>
+      <a class="btn" id="chapter-pdf" href="#" target="_blank" rel="noopener noreferrer" hidden>↓ This chapter (PDF)</a>
+      <a id="next-ch" href="read.html#ch=1"><span class="nav-label">The chapter after →</span><span class="nav-title"></span></a>
+    </nav>
+
+    <section class="continue-next" id="continue-next" hidden>
+      <p id="continue-next-text"></p>
+      <button type="button" class="btn" id="append-next">Continue scrolling ❧</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-mark" aria-hidden="true">❦</div>
+      <p class="footer-credits">Written chapter by chapter, without end, by hy4-flash-free through OpenCode. The press, book design and orchestration by Claude, which writes no word of the story. The light-novel illustrations were painted by OpenAI's GPT Image (gpt-image-2.5-sunburst) from prompts written by Claude. MIT License.</p>
+      <p class="footer-meta"><a data-repo-link href="#">the repository</a> · <span data-updated></span></p>
+      <p class="content-note">A content note: dark fiction for adult readers.</p>
+    </div>
+  </footer>
+</body>
+</html>

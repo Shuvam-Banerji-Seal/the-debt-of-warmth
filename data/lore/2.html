@@ -1,0 +1,120 @@
+<h2>The reckoning of days in Sarn</h2>
+<p><em>The Court counts everything. It counts embers, deductions, returns and the years of a debt. It does not count the days a man is warm, which is the one count that matters to him. This file is the rule by which the days in the books are named.</em></p>
+<p class="break">❦</p>
+<h2>I. The year</h2>
+<p>A Sarnish year has <strong>365 days</strong>: twelve months of thirty days, followed by five days outside the months called <strong>the Five Cold Days</strong>, or simply <strong>the Five</strong>. No day is ever added to make the sky agree with the slate. The Court teaches that the Warm holds the seasons in their places, and that the thaw has come in Ilmen for eight hundred years. The Keldish surveyors, who have counted both, do not say so in front of an assessor.</p>
+<p>The months, in order, with the Grathic glosses that are used everywhere:</p>
+<p class="row">No. — Month — Gloss — Days of the year</p>
+<p class="row">1 — <strong>Ilmen</strong> — the thaw, the river rising — 1–30</p>
+<p class="row">2 — <strong>Silt</strong> — mud; the Breaking — 31–60</p>
+<p class="row">3 — <strong>Seed</strong> — planting — 61–90</p>
+<p class="row">4 — <strong>Reed</strong> — reed-cutting — 91–120</p>
+<p class="row">5 — <strong>Tallow</strong> — lambing — 121–150</p>
+<p class="row">6 — <strong>Ember</strong> — the kiln month, short fierce summer — 151–180</p>
+<p class="row">7 — <strong>Grain</strong> — harvest — 181–210</p>
+<p class="row">8 — <strong>Smoke</strong> — the second firing — 211–240</p>
+<p class="row">9 — <strong>Frost</strong> — first frosts — 241–270</p>
+<p class="row">10 — <strong>Bone</strong> — hunting and repair — 271–300</p>
+<p class="row">11 — <strong>Ash</strong> — the dark — 301–330</p>
+<p class="row">12 — <strong>Stone</strong> — deep winter, river ice — 331–360</p>
+<p>The Five follow Stone and belong to no month:</p>
+<p class="row">Ordinal — Name — Observance</p>
+<p class="row">361 — <strong>Kindling</strong> — Every hearth in Sarn is lit from the Hearth-flame. Collectors take the year’s first measure.</p>
+<p class="row">362 — <strong>Weighing</strong> — The year’s measures are read aloud. The rich learn how whole they are; Low Kiln learns its deduction.</p>
+<p class="row">363 — <strong>the Long Night</strong> — No fire after dusk. People sit in the dark and tell the stories of the Return.</p>
+<p class="row">364 — <strong>the Remembering</strong> — Names of the dead are spoken. Whole returns are announced in a clean voice.</p>
+<p class="row">365 — <strong>the Last Day</strong> — Bread is baked. The grey Ash in the corners is <strong>not</strong> swept away. It is burnt the next morning.</p>
+<p>Other named days:</p>
+<ul>
+<li><strong>Account-day</strong>, the tenth, twentieth and thirtieth of every month. In Grath these are also market-days; the slate is read at the Cross before the pigs are weighed.</li>
+<li><strong>the Opening of the Slates</strong>, Ilmen 1. The Court opens the new year’s accounts. The first thin returns of the year are announced at the Weighing, not now.</li>
+<li><strong>the Hearth Drawing</strong>, Stone 12. The first collection of the year; a collector may draw from the dying and from the newly born on the same day.</li>
+<li><strong>the Fish Blessing</strong>, Ilmen 15. The hearth-maids bless the weirs and the eel traps. In Sill this is done at the Weir, one league upriver. The date is reconciled to the day-count in §III (Day 44, Ilmen 15, Y.H. 813, the Fish Blessing at the Weir); the older Reed 15 gloss was a planting marker and is retired.</li>
+</ul>
+<h3>Weeks</h3>
+<p>A week is a <strong>tend</strong>, ten days long. Every month contains three whole tends: days 1–10, 11–20 and 21–30. The tenth day of each tend is Account-day. The tend-days are Firstday, Secondday, Thirdday, Fourthday, Fifthday, Sixthday, Seventhday, Eighthday, Ninthday and Tenthday.</p>
+<p><strong>The Five are outside the tend.</strong> They have names, not tend-days, and no market is held during them. On Ilmen 1 the count begins again at Firstday. This is why Account-days in the first weeks of a year fall on Ilmen 10, 20 and 30, and why there are three Account-days in the last ten days of Stone before the Five interrupt them.</p>
+<h3>Eras</h3>
+<p>Years are numbered from the lighting of the Hearth: <strong>Y.H. 1</strong> onward. Earlier years are <strong>B.H.</strong>, before the Hearth; the temple calls them the Broken Years and the Keldish call them the Long Want. Scholars use informal names for stretches of the past — the Quiet Centuries (Y.H. 120–300), the Glaze Ages (300–420), the Bowl Years (420–560), the Ash Times (650–700) and the Settlement (after 747). The present year, <strong>Y.H. 812</strong>, is called the Thin Year in Low Kiln, after the Long Cold.</p>
+<p class="break">❦</p>
+<h2>II. The mapping rule</h2>
+<p><strong>Day 1 is the day Corin is born in the new world. Its exact in-world date is the seventh day of Stone in the year 812 of the Hearth — Stone 7, Y.H. 812 — a Seventhday, with the Ilm under ice.</strong></p>
+<p>From that day forward, let <em>N</em> be the story’s day number. Compute:</p>
+<blockquote><p><em>t</em> = 336 + <em>N</em> − 1</p></blockquote>
+<blockquote><p></p></blockquote>
+<blockquote><p><em>y</em> = (<em>t</em> mod 365) + 1  — the Sarnish day of the year, where 1 = Ilmen 1 and 365 = the Last Day.</p></blockquote>
+<blockquote><p></p></blockquote>
+<blockquote><p><em>Y</em> = 812 + floor(<em>t</em> / 365)  — the year of the Hearth.</p></blockquote>
+<p>Then:</p>
+<ul>
+<li>If <em>y</em> ≤ 360: the month is floor((<em>y</em> − 1) / 30) + 1, and the day of the month is ((<em>y</em> − 1) mod 30) + 1. The tend-day is ((day of month − 1) mod 10) + 1.</li>
+<li>If <em>y</em> is 361 to 365: the date is Kindling, Weighing, the Long Night, the Remembering or the Last Day, in that order, in year <em>Y</em>. There is no tend-day.</li>
+</ul>
+<p><strong>Worked examples.</strong> Day 24: <em>t</em> = 359, <em>y</em> = 360, <em>Y</em> = 812 → Stone 30, Tenthday, Y.H. 812. Day 30: <em>t</em> = 365, <em>y</em> = 1, <em>Y</em> = 813 → Ilmen 1, Firstday, Y.H. 813. Day 100: <em>t</em> = 435, <em>y</em> = 70, <em>Y</em> = 813 → Seed 10, Tenthday, Y.H. 813. Day 365: <em>t</em> = 700, <em>y</em> = 336, <em>Y</em> = 813 → Stone 6, Sixthday, Y.H. 813, the day before the first birthday.</p>
+<p>For any day not in a month, write the name of the holy day and the year; do not invent a date for the Five. For all other days, write the month, the day of the month and the year, in that order, as <em>14 Ilmen, Y.H. 813</em>.</p>
+<p class="break">❦</p>
+<h2>III. The first sixty days</h2>
+<p><em>Days 1–24 are in Stone of Y.H. 812. Day 25–29 are the Five. The era turns on Day 30, which is Ilmen 1 of Y.H. 813. Days 30–59 are Ilmen; Day 60 is Silt 1.</em></p>
+<p>The second era turns on Day 395, which is Ilmen 1 of Y.H. 814, Firstday. Days 390–394 are the five holy days of Y.H. 813 — Kindling, Weighing, the Long Night, the Remembering and the Last Day — with names and no tend-day and no market. Day 396 is Ilmen 2, Secondday; Day 404 is Ilmen 10, Tenthday, the new year’s first Account-day and market. The tend restarts at Firstday on Ilmen 1; the year turned in Chapter 114 with nothing signed, and the first arithmetic of Y.H. 814 was not brought into a day that had not earned it.</p>
+<p class="row">Day — In-world date — Tend-day or holy day — Note</p>
+<p class="row">1 — Stone 7, Y.H. 812 — Seventhday — Corin born in Low Kiln; the stone at his belly is already going cold</p>
+<p class="row">2 — Stone 8, Y.H. 812 — Eighthday</p>
+<p class="row">3 — Stone 9, Y.H. 812 — Ninthday</p>
+<p class="row">4 — Stone 10, Y.H. 812 — Tenthday — Account-day and the last market before the Five</p>
+<p class="row">5 — Stone 11, Y.H. 812 — Firstday</p>
+<p class="row">6 — Stone 12, Y.H. 812 — Secondday — The Hearth Drawing</p>
+<p class="row">7 — Stone 13, Y.H. 812 — Thirdday</p>
+<p class="row">8 — Stone 14, Y.H. 812 — Fourthday</p>
+<p class="row">9 — Stone 15, Y.H. 812 — Fifthday</p>
+<p class="row">10 — Stone 16, Y.H. 812 — Sixthday</p>
+<p class="row">11 — Stone 17, Y.H. 812 — Seventhday</p>
+<p class="row">12 — Stone 18, Y.H. 812 — Eighthday</p>
+<p class="row">13 — Stone 19, Y.H. 812 — Ninthday</p>
+<p class="row">14 — Stone 20, Y.H. 812 — Tenthday — Account-day</p>
+<p class="row">15 — Stone 21, Y.H. 812 — Firstday</p>
+<p class="row">16 — Stone 22, Y.H. 812 — Secondday</p>
+<p class="row">17 — Stone 23, Y.H. 812 — Thirdday</p>
+<p class="row">18 — Stone 24, Y.H. 812 — Fourthday</p>
+<p class="row">19 — Stone 25, Y.H. 812 — Fifthday</p>
+<p class="row">20 — Stone 26, Y.H. 812 — Sixthday</p>
+<p class="row">21 — Stone 27, Y.H. 812 — Seventhday</p>
+<p class="row">22 — Stone 28, Y.H. 812 — Eighthday</p>
+<p class="row">23 — Stone 29, Y.H. 812 — Ninthday</p>
+<p class="row">24 — Stone 30, Y.H. 812 — Tenthday — Account-day; the last market of the year</p>
+<p class="row">25 — Kindling, Y.H. 812 — — — The year-fire lit from the Hearth</p>
+<p class="row">26 — Weighing, Y.H. 812 — — — The year’s measures read aloud in Slate Row</p>
+<p class="row">27 — the Long Night, Y.H. 812 — — — No fire after dusk</p>
+<p class="row">28 — the Remembering, Y.H. 812 — — — Names of the dead spoken</p>
+<p class="row">29 — the Last Day, Y.H. 812 — — — Bread baked; ash left in the corners</p>
+<p class="row">30 — Ilmen 1, Y.H. 813 — Firstday — Opening of the Slates; the ice still holds</p>
+<p class="row">31 — Ilmen 2, Y.H. 813 — Secondday</p>
+<p class="row">32 — Ilmen 3, Y.H. 813 — Thirdday</p>
+<p class="row">33 — Ilmen 4, Y.H. 813 — Fourthday</p>
+<p class="row">34 — Ilmen 5, Y.H. 813 — Fifthday</p>
+<p class="row">35 — Ilmen 6, Y.H. 813 — Sixthday</p>
+<p class="row">36 — Ilmen 7, Y.H. 813 — Seventhday</p>
+<p class="row">37 — Ilmen 8, Y.H. 813 — Eighthday</p>
+<p class="row">38 — Ilmen 9, Y.H. 813 — Ninthday</p>
+<p class="row">39 — Ilmen 10, Y.H. 813 — Tenthday — Account-day</p>
+<p class="row">40 — Ilmen 11, Y.H. 813 — Firstday</p>
+<p class="row">41 — Ilmen 12, Y.H. 813 — Secondday</p>
+<p class="row">42 — Ilmen 13, Y.H. 813 — Thirdday</p>
+<p class="row">43 — Ilmen 14, Y.H. 813 — Fourthday</p>
+<p class="row">44 — Ilmen 15, Y.H. 813 — Fifthday — The Fish Blessing at the Weir</p>
+<p class="row">45 — Ilmen 16, Y.H. 813 — Sixthday</p>
+<p class="row">46 — Ilmen 17, Y.H. 813 — Seventhday</p>
+<p class="row">47 — Ilmen 18, Y.H. 813 — Eighthday</p>
+<p class="row">48 — Ilmen 19, Y.H. 813 — Ninthday</p>
+<p class="row">49 — Ilmen 20, Y.H. 813 — Tenthday — Account-day</p>
+<p class="row">50 — Ilmen 21, Y.H. 813 — Firstday</p>
+<p class="row">51 — Ilmen 22, Y.H. 813 — Secondday</p>
+<p class="row">52 — Ilmen 23, Y.H. 813 — Thirdday</p>
+<p class="row">53 — Ilmen 24, Y.H. 813 — Fourthday</p>
+<p class="row">54 — Ilmen 25, Y.H. 813 — Fifthday</p>
+<p class="row">55 — Ilmen 26, Y.H. 813 — Sixthday</p>
+<p class="row">56 — Ilmen 27, Y.H. 813 — Seventhday</p>
+<p class="row">57 — Ilmen 28, Y.H. 813 — Eighthday</p>
+<p class="row">58 — Ilmen 29, Y.H. 813 — Ninthday</p>
+<p class="row">59 — Ilmen 30, Y.H. 813 — Tenthday — Account-day; the river begins to stir under the ice</p>
+<p class="row">60 — Silt 1, Y.H. 813 — Firstday — Mud; the Breaking may come at any time</p>
+<p>Days continue by the same rule without gap. There is no leap day, no missing day and no year without a Last Day. A passage chapter must give every day its own dated entry; a day is a small vessel and will not be poured into another.</p>

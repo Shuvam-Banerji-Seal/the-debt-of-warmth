@@ -1,0 +1,349 @@
+/* ============================================================
+   The Debt of Warmth — the shared house style.
+   Paper, ink, rubric and gold. Everything is relative to the
+   site root so the book may live under any sub-path.
+   ============================================================ */
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-Regular.otf") format("opentype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-Italic.otf") format("opentype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-SemiBold.otf") format("opentype");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Cinzel";
+  src: url("../fonts/Cinzel-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Cinzel Decorative";
+  src: url("../fonts/CinzelDecorative-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Cinzel Decorative";
+  src: url("../fonts/CinzelDecorative-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IM Fell English";
+  src: url("../fonts/IMFeENrm28P.otf") format("opentype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IM Fell English";
+  src: url("../fonts/IMFeENit28P.otf") format("opentype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+
+:root {
+  --font-text: "EB Garamond", Georgia, serif;
+  --font-head: "Cinzel Decorative", "Cinzel", Georgia, serif;
+  --font-caps: "Cinzel", Georgia, serif;
+  --font-fell: "IM Fell English", Georgia, serif;
+
+  /* Clay-yard daylight: the paper is laid once over a plain parchment colour. */
+  --paper: #efe2c2;
+  --paper-base: #e8d5ad;
+  --paper-texture: url("../images/parchment.jpg");
+  --panel: #f7eed6;
+  --panel-edge: #ddc9a1;
+  --ink: #2b1b0e;
+  --muted: #6e5b42;
+  --rubric: #7e1f14;
+  --gold: #9a7432;
+  --rule: #c8b491;
+  --shadow: rgba(43, 27, 14, .24);
+  --mark: #e9d7ac;
+  --btn-ink: #f8eed6;
+  --selection: #d9c39a;
+
+  /* The cover's oxblood leather and its gold tooling. */
+  --leather-hi: #4f2416;
+  --leather-lo: #2a0f08;
+  --gilt: #d4af5a;
+  --gilt-hi: #f3dc93;
+  --gilt-dk: #8a6a28;
+  --ash-line: #8c857b;
+
+  --read-size: 19px;
+  --read-leading: 1.62;
+  --read-width: 38rem;
+}
+
+html[data-theme="sepia"] {
+  --paper: #dfca9f;
+  --paper-base: #d8c091;
+  --paper-texture: none;
+  --panel: #ead9b2;
+  --panel-edge: #c6ae80;
+  --ink: #37240f;
+  --muted: #6d5636;
+  --rubric: #832417;
+  --gold: #8b6529;
+  --rule: #b49b70;
+  --shadow: rgba(55, 36, 15, .3);
+  --mark: #d7bd8b;
+  --selection: #c4a878;
+}
+
+/* Night is a banked hearth: deep ash, an ember low in the grate, warm text,
+   and a faint frost at the edges of the window. */
+html[data-theme="night"] {
+  --paper: #1a1511;
+  --paper-base: #1a1511;
+  --paper-texture:
+    radial-gradient(ellipse 120% 78% at 50% 116%, rgba(196, 86, 28, .26), transparent 62%),
+    radial-gradient(ellipse 105% 78% at 50% -14%, rgba(168, 190, 196, .11), transparent 60%),
+    radial-gradient(ellipse 96% 92% at 50% 50%, transparent 52%, rgba(170, 190, 196, .09) 100%);
+  --panel: #241b14;
+  --panel-edge: #463520;
+  --ink: #f0dec0;
+  --muted: #b59a76;
+  --rubric: #de8a4c;
+  --gold: #d4af5a;
+  --rule: #57432c;
+  --shadow: rgba(0, 0, 0, .65);
+  --mark: #241a12;
+  --btn-ink: #1a120b;
+  --selection: #5a3a1f;
+  --ash-line: #6c6a64;
+}
+
+html[data-face="imfell"] { --font-text: "IM Fell English", Georgia, serif; }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  /* The parchment has browned edges: laid down once, never tiled. */
+  background-color: var(--paper-base);
+  background-image: var(--paper-texture);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: var(--font-text);
+  font-size: 18px;
+  line-height: 1.55;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--selection); color: var(--ink); }
+
+a { color: var(--rubric); text-decoration-thickness: 1px; text-underline-offset: .18em; }
+a:hover { color: var(--gold); }
+
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+
+:focus-visible { outline: 2px solid var(--rubric); outline-offset: 3px; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 400; line-height: 1.18; }
+h1 { font-size: clamp(2rem, 5vw, 3.6rem); }
+h2 { font-size: clamp(1.5rem, 3.4vw, 2.3rem); }
+h3 { font-size: 1.25rem; }
+
+p { margin: 0 0 1em; }
+
+.skip-link {
+  position: absolute; left: -9999px; top: 0; z-index: 200;
+  background: var(--ink); color: var(--paper); padding: .7rem 1rem;
+  font-family: var(--font-caps); font-size: .8rem; text-decoration: none;
+}
+.skip-link:focus { left: 1rem; top: 1rem; }
+
+.smallcaps {
+  font-family: var(--font-caps); font-size: .74em;
+  letter-spacing: .16em; text-transform: uppercase;
+}
+
+.fleuron { color: var(--gold); font-size: 1.1em; letter-spacing: .2em; }
+
+.rule-ornament {
+  display: flex; align-items: center; gap: .8rem;
+  color: var(--gold); margin: 1.6rem auto; max-width: 26rem;
+  font-size: .95rem; text-align: center;
+}
+.rule-ornament::before, .rule-ornament::after {
+  content: ""; flex: 1 1 0; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--rule) 55%, transparent);
+}
+
+.double-rule {
+  border: 0; border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule); height: 4px; margin: 0;
+}
+
+/* ---------- The book's engraved corners ----------
+   Adds four spans to any positioned element; the same gold plate is
+   mirrored for the other three corners. */
+.ornate { position: relative; }
+.corner {
+  position: absolute; width: 34px; height: 34px; z-index: 2;
+  background: url("../images/ornaments/corner.svg") no-repeat center / contain;
+  pointer-events: none;
+}
+.corner.c-tl { top: 4px; left: 4px; }
+.corner.c-tr { top: 4px; right: 4px; transform: scaleX(-1); }
+.corner.c-bl { bottom: 4px; left: 4px; transform: scaleY(-1); }
+.corner.c-br { bottom: 4px; right: 4px; transform: scale(-1, -1); }
+html[data-theme="night"] .corner { filter: brightness(1.45) sepia(.15); }
+
+/* ---------- Navigation: the cover's oxblood leather band ---------- */
+.site-nav {
+  position: relative; z-index: 5;
+  color: var(--gilt);
+  background:
+    repeating-linear-gradient(94deg, rgba(255, 220, 160, .018) 0 2px, transparent 2px 5px),
+    linear-gradient(165deg, var(--leather-hi), var(--leather-lo));
+  border-bottom: 3px double var(--gilt-dk);
+  box-shadow: 0 3px 14px rgba(20, 9, 5, .42);
+}
+.site-nav::before {
+  content: ""; position: absolute; inset: 5px; z-index: 1;
+  border: 1px solid var(--gilt); opacity: .62; pointer-events: none;
+}
+.site-nav-inner {
+  position: relative; z-index: 2;
+  max-width: 78rem; margin: 0 auto; padding: 1rem 1.4rem;
+  display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap;
+}
+.brand {
+  display: inline-flex; align-items: center; gap: .6rem;
+  font-family: var(--font-head); font-size: 1.02rem;
+  color: #f2ddb0; text-decoration: none;
+  letter-spacing: .03em; margin-right: auto;
+}
+.brand .brand-mark { width: 30px; height: 30px; flex: none; filter: brightness(1.12); }
+.brand small { display: block; font-family: var(--font-caps); font-size: .6rem; letter-spacing: .18em; color: #c7a469; text-transform: uppercase; }
+
+.nav-links { display: flex; flex-wrap: wrap; gap: .25rem 1.1rem; align-items: center; }
+.nav-links a {
+  font-family: var(--font-caps); font-size: .74rem;
+  letter-spacing: .13em; text-transform: uppercase;
+  color: #d5b780; text-decoration: none; padding: .35rem 0;
+  border-bottom: 1px solid transparent;
+}
+.nav-links a:hover { color: var(--gilt-hi); border-bottom-color: var(--gilt); }
+.nav-links a[aria-current="page"] { color: var(--gilt-hi); border-bottom-color: var(--gilt); }
+.nav-theme {
+  border: 1px solid var(--gilt-dk); background: rgba(10, 4, 2, .24); color: var(--gilt);
+  width: 2rem; height: 2rem; line-height: 1; font-size: 1rem;
+}
+.nav-theme:hover { color: var(--gilt-hi); border-color: var(--gilt); }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+  border: 1px solid var(--gold); border-radius: 2px;
+  background: var(--panel); color: var(--ink);
+  font-family: var(--font-caps); font-size: .78rem;
+  letter-spacing: .12em; text-transform: uppercase;
+  text-decoration: none; padding: .72rem 1.05rem;
+  box-shadow: 1px 2px 0 var(--shadow);
+  transition: background .18s ease, color .18s ease, transform .18s ease;
+}
+.btn:hover { background: var(--gold); color: var(--btn-ink); text-decoration: none; transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+.btn--primary { background: var(--rubric); border-color: var(--rubric); color: var(--btn-ink); }
+.btn--large { font-size: .88rem; padding: .95rem 1.5rem; letter-spacing: .14em; }
+.btn--primary:hover { background: var(--gold); border-color: var(--gold); }
+.btn--quiet { border-color: transparent; background: transparent; box-shadow: none; color: var(--muted); }
+.btn--quiet:hover { background: var(--panel); color: var(--ink); }
+.btn[disabled], .btn[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+.btn-row { display: flex; flex-wrap: wrap; gap: .7rem; }
+
+/* ---------- Cards & panels ---------- */
+.panel {
+  background: var(--panel); border: 1px solid var(--panel-edge);
+  box-shadow: 2px 3px 0 var(--shadow);
+}
+.framed { position: relative; border: 1px solid var(--gold); padding: 1.4rem; }
+.framed::before {
+  content: ""; position: absolute; inset: 4px; border: 1px solid var(--rule); pointer-events: none;
+}
+
+/* ---------- Fetch errors ---------- */
+.fetch-error {
+  border: 1px solid var(--rubric); background: var(--panel);
+  padding: 1.2rem 1.4rem; margin: 2rem auto; max-width: 40rem;
+  font-family: var(--font-fell); font-style: italic; color: var(--muted);
+}
+.fetch-error strong { font-family: var(--font-caps); font-style: normal; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--rubric); }
+.fetch-error .err-mark { color: var(--rubric); font-size: 1.5rem; margin: 0 0 .3rem; }
+.fetch-error .btn { margin-top: .6rem; font-style: normal; }
+
+/* Waiting is a thin gold thread drawn through the crack. */
+.loading-note {
+  position: relative; color: var(--muted); font-family: var(--font-fell);
+  font-style: italic; text-align: center; padding: 3.6rem 1rem 3rem;
+}
+.loading-note::before {
+  content: ""; position: absolute; top: 2.5rem; left: 50%;
+  width: 60px; height: 1px; transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  animation: thread-glimmer 1.5s ease-in-out infinite;
+}
+@keyframes thread-glimmer {
+  0%, 100% { opacity: .3; width: 46px; }
+  50% { opacity: 1; width: 112px; }
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  position: relative; margin-top: 4rem; border-top: 3px double var(--rule);
+  background: linear-gradient(transparent, var(--mark));
+}
+/* The grey Ash ridge along the skirting. */
+.site-footer::after {
+  content: ""; display: block; height: 2px; max-width: 78rem;
+  margin: 0 auto; background: var(--ash-line); opacity: .42;
+}
+.footer-inner { max-width: 48rem; margin: 0 auto; padding: 2.5rem 1.4rem 3.5rem; text-align: center; }
+.footer-mark { color: var(--gold); font-size: 1.5rem; margin-bottom: .5rem; }
+.footer-credits { font-size: .95rem; color: var(--muted); line-height: 1.6; }
+.footer-meta { font-family: var(--font-caps); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 1.2rem; }
+.content-note {
+  display: inline-block; margin-top: 1.3rem; padding: .45rem .9rem;
+  border: 1px solid var(--rule); color: var(--rubric);
+  font-family: var(--font-fell); font-style: italic; font-size: .95rem;
+}
+
+/* ---------- Utility ---------- */
+.visually-hidden {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+[hidden] { display: none !important; }
+
+@media (max-width: 640px) {
+  body { font-size: 17px; }
+  .site-nav-inner { padding: .8rem 1rem .7rem; gap: .5rem; }
+  .brand { width: 100%; margin-right: 0; font-size: .96rem; }
+  .brand .brand-mark { width: 25px; height: 25px; }
+  .nav-links { gap: .15rem .7rem; width: 100%; justify-content: space-between; }
+  .nav-links a { font-size: .66rem; letter-spacing: .08em; }
+  .nav-theme { width: 1.85rem; height: 1.85rem; }
+  .corner { width: 24px; height: 24px; }
+}

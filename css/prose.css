@@ -1,0 +1,199 @@
+/* ============================================================
+   The type of the book itself. Shared by the reader and the
+   Codex so an in-world document wears the same clothes.
+   ============================================================ */
+
+.prose {
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: var(--read-size);
+  line-height: var(--read-leading);
+  max-width: var(--read-width);
+  margin-inline: auto;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  orphans: 2;
+  widows: 2;
+}
+.prose > * { max-width: 100%; }
+
+/* ---------- The chapter head, set as the book sets it ---------- */
+.chapter-head { text-align: center; margin: .4rem 0 1.9rem; }
+.chapter-headpiece {
+  display: block; width: min(74%, 320px); height: auto;
+  margin: 0 auto 1.3rem;
+}
+.chapter-head .chap-num {
+  font-family: var(--font-caps); font-size: .7rem;
+  letter-spacing: .34em; text-transform: uppercase; color: var(--muted); margin: 0;
+}
+.chapter-head .chap-n {
+  font-family: var(--font-text);
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1;
+  font-size: clamp(2.5rem, 7vw, 3.5rem);
+  color: var(--rubric); line-height: 1; margin: .25rem 0 .5rem;
+}
+.chapter-head h1 {
+  margin: .25rem 0 .7rem; font-family: var(--font-head);
+  font-size: clamp(1.7rem, 4.3vw, 2.55rem); letter-spacing: .01em; color: var(--ink);
+}
+.chapter-head .when {
+  font-family: var(--font-fell); font-style: italic; font-size: .94em;
+  color: var(--muted); line-height: 1.45; margin: 0 auto; max-width: 38rem;
+}
+/* The rule with the medallion, between the date and the epigraph. */
+.chapter-head::after {
+  content: ""; display: block; width: min(340px, 82%); height: 32px;
+  margin: 1.1rem auto .3rem;
+  background: url("../images/ornaments/rule-medallion.svg") no-repeat center / contain;
+}
+html[data-theme="night"] .chapter-headpiece,
+html[data-theme="night"] .chapter-head::after,
+html[data-theme="night"] .tailpiece,
+html[data-theme="night"] .prose .break,
+html[data-theme="night"] .arc-opening img { filter: brightness(1.45); }
+
+/* ---------- The opening of an arc ---------- */
+.arc-opening {
+  text-align: center; max-width: 42rem; margin: 3.6rem auto 3rem;
+  padding: 1.2rem 1rem;
+}
+.arc-opening img { display: block; height: auto; margin-inline: auto; }
+.arc-opening .arc-headpiece { width: min(72%, 300px); margin-bottom: 1.4rem; }
+.arc-opening .arc-kicker {
+  font-family: var(--font-caps); font-size: .7rem; letter-spacing: .32em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 .8rem;
+}
+.arc-opening h1 {
+  font-family: var(--font-head); font-size: clamp(1.65rem, 4.4vw, 2.5rem);
+  color: var(--rubric); margin: 0 0 .7rem;
+}
+.arc-opening .arc-sub {
+  font-family: var(--font-fell); font-style: italic; font-size: 1.05em;
+  color: var(--muted); margin: 0 0 1.2rem;
+}
+.arc-opening .arc-flourish { width: min(56%, 240px); }
+
+/* ---------- Epigraph ---------- */
+.epigraph {
+  margin: 1.8rem auto 2.2rem; max-width: 34rem; padding: 0 1rem;
+  text-align: center; font-family: var(--font-fell); font-style: italic;
+  font-size: 1.02em; line-height: 1.5; color: var(--muted);
+}
+.epigraph p { margin: 0 0 .5rem; }
+.epigraph .attr {
+  font-family: var(--font-caps); font-style: normal; font-size: .62rem;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-top: .7rem;
+}
+
+/* ---------- The days ---------- */
+.daymark {
+  display: flex; align-items: center; justify-content: center; gap: .9rem;
+  margin: 2.9rem 0 1.6rem; scroll-margin-top: 6rem;
+  text-align: center;
+}
+.daymark::before, .daymark::after {
+  content: ""; flex: 1 1 0; max-width: 6rem; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold));
+}
+.daymark::after { background: linear-gradient(90deg, var(--gold), transparent); }
+.daymark .day {
+  margin: 0; font-family: var(--font-caps); font-size: .76rem;
+  letter-spacing: .22em; text-transform: uppercase; color: var(--rubric); white-space: nowrap;
+}
+.daymark .daydate {
+  margin: 0; font-family: var(--font-fell); font-style: italic;
+  font-size: .86em; color: var(--muted); white-space: nowrap;
+}
+.daymark:target .day { text-decoration: underline; text-underline-offset: .3em; }
+@media (max-width: 620px) {
+  .daymark { flex-wrap: wrap; gap: .3rem .7rem; }
+  .daymark .daydate { white-space: normal; font-size: .82em; flex-basis: 100%; }
+}
+
+/* ---------- Body paragraphs ---------- */
+.prose p { margin: 0 0 1.05em; }
+.prose p.first { margin-top: 0; }
+.prose .dropcap {
+  float: left; font-family: var(--font-head); color: var(--rubric);
+  font-size: 4.05em; line-height: .74; padding: .08em .1em 0 0;
+}
+.prose .sc { font-variant: small-caps; letter-spacing: .01em; }
+/* The book's little fleuron marks a scene break. */
+.prose .break {
+  width: 82px; height: 30px; margin: 2rem auto 1.7rem;
+  font-size: 0; line-height: 0;
+  background: url("../images/ornaments/fleuron.svg") no-repeat center / contain;
+}
+/* The tailpiece comes at a chapter's end, before the Chronicle. */
+.tailpiece {
+  width: min(180px, 44%); height: 40px; margin: 2.6rem auto .2rem;
+  background: url("../images/ornaments/tailpiece.svg") no-repeat center / contain;
+}
+.prose em.memory {
+  font-family: var(--font-fell); font-style: italic;
+  color: var(--rubric);
+}
+.prose .inscr {
+  font-family: var(--font-caps); font-size: .85em;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+}
+.prose blockquote.letter {
+  margin: 1.8rem auto; padding: 1.1rem 1.5rem; max-width: 34rem;
+  border-left: 2px solid var(--gold); background: var(--panel);
+  font-family: var(--font-fell); font-style: italic; font-size: .97em;
+}
+.prose blockquote.letter p:last-child { margin-bottom: 0; }
+.prose .verse {
+  margin: 1.8rem auto; padding: 1.1rem 0; max-width: 30rem;
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  font-family: var(--font-fell); font-style: italic; text-align: center;
+  white-space: pre-line; line-height: 1.45;
+}
+.prose strong { font-weight: 600; }
+
+/* ---------- Chronicle ---------- */
+.chronicle {
+  position: relative; margin: 3.4rem auto 1rem; padding: 1.6rem 1.9rem;
+  max-width: 36rem; background: var(--panel);
+  border: 1px solid var(--gold); box-shadow: 3px 4px 0 var(--shadow);
+  font-size: .94em;
+}
+.chronicle::before {
+  content: ""; position: absolute; inset: 5px; border: 1px solid var(--rule); pointer-events: none;
+}
+.chronicle .corner { width: 22px; height: 22px; opacity: .85; }
+.chronicle .ctitle {
+  font-family: var(--font-caps); font-size: .72rem; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--rubric); text-align: center; margin: 0 0 1.1rem;
+}
+.chronicle .ctitle::before, .chronicle .ctitle::after {
+  content: " ❦ "; color: var(--gold); letter-spacing: 0;
+}
+.chronicle p:last-child { margin-bottom: 0; }
+
+/* ---------- In-world documents ---------- */
+.document-head { text-align: center; margin: 1rem auto 2.4rem; max-width: 40rem; }
+.document-head .doc-kind {
+  font-family: var(--font-caps); font-size: .68rem; letter-spacing: .17em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: .5rem;
+}
+.document-head h1 { font-size: clamp(1.5rem, 3.8vw, 2.3rem); margin: 0 0 1rem; }
+.document-head .doc-prov {
+  font-family: var(--font-fell); font-style: italic; font-size: .86em;
+  color: var(--muted); line-height: 1.5;
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  padding: .9rem 0; margin: 0;
+}
+.prose h2 {
+  font-size: 1.55rem; margin: 2.2rem 0 .9rem; color: var(--rubric);
+  border-bottom: 1px solid var(--rule); padding-bottom: .35rem;
+}
+.prose h3 { font-size: 1.14rem; margin: 1.7rem 0 .6rem; color: var(--gold); }
+.prose ul, .prose ol { padding-left: 1.5rem; margin: 0 0 1.2rem; }
+.prose li { margin-bottom: .35rem; }
+.prose blockquote:not(.epigraph):not(.letter) {
+  border-left: 2px solid var(--gold); margin: 1.4rem 0; padding: .2rem 0 .2rem 1.2rem;
+  color: var(--muted); font-style: italic;
+}
