@@ -1,0 +1,73 @@
+\begin{tikzpicture}
+  % The chapter's heart: what the road carries and never reads. Two slates go
+  % edge-on under an unseen arm, their written faces turned away, one narrower
+  % than the other, kept on separate places with a finger's width between. The
+  % road runs beneath and takes no account of them. Above, the other weather:
+  % a thaw a hair less distinct at a corner where no broom has gone, and the
+  % river softer at one edge. Both are carried; neither is read or paid.
+
+  % —— the road, running on beneath them, reading neither ——
+  \draw[faded!22!ink, line width=0.34pt, opacity=0.36, line cap=round,
+        decorate, decoration={random steps, segment length=6pt, amplitude=1.0pt}]
+    (-5.05,-0.48) -- (5.05,-0.54);
+  \draw[faded!16!ink, line width=0.28pt, opacity=0.26, line cap=round,
+        decorate, decoration={random steps, segment length=7pt, amplitude=1.2pt}]
+    (-5.05,-1.02) -- (5.05,-1.09);
+  \foreach \x/\y/\r in {-4.42/-0.74/0.011,-3.76/-0.88/0.009,-3.06/-0.66/0.012,
+                        -2.38/-0.92/0.009,-1.68/-0.72/0.010,-0.94/-0.84/0.012,
+                        0.62/-0.78/0.009,1.34/-0.92/0.011,2.06/-0.68/0.009,
+                        2.78/-0.86/0.012,3.52/-0.70/0.010,4.26/-0.94/0.011}{
+    \fill[ash, opacity=0.20] (\x,\y) circle (\r);
+  }
+
+  % —— the first slate, edge-on; the face turned from us, unread ——
+  \path[fill=faded!14!vellum, opacity=0.64]
+    (-0.58,-0.52) -- (-0.32,-0.52) -- (-0.26,1.00) -- (-0.52,1.00) -- cycle;
+  \draw[ink!44!faded, line width=0.42pt, opacity=0.46, line cap=round]
+    (-0.58,-0.52) -- (-0.52,1.00) -- (-0.26,1.00) -- (-0.32,-0.52) -- cycle;
+  \draw[faded!30!ink, line width=0.30pt, opacity=0.34, line cap=round]
+    (-0.32,-0.52) -- (-0.26,1.00);
+  \foreach \y in {0.04,0.26,0.48,0.70}{
+    \draw[rubric!55!ink, line width=0.34pt, opacity=0.32, line cap=round]
+      (-0.27,\y) -- (-0.21,\y+0.07);
+  }
+
+  % —— the second, narrower slate, carried edge-on the same way ——
+  \path[fill=faded!12!vellum, opacity=0.58]
+    (0.02,-0.52) -- (0.16,-0.52) -- (0.20,0.86) -- (0.06,0.86) -- cycle;
+  \draw[ink!40!faded, line width=0.38pt, opacity=0.42, line cap=round]
+    (0.02,-0.52) -- (0.06,0.86) -- (0.20,0.86) -- (0.16,-0.52) -- cycle;
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.28, line cap=round]
+    (0.16,-0.52) -- (0.20,0.86);
+  \foreach \y in {0.02,0.24,0.46}{
+    \draw[rubric!50!ink, line width=0.30pt, opacity=0.26, line cap=round]
+      (0.19,\y) -- (0.24,\y+0.05);
+  }
+
+  % —— a finger's width between them: two places, never joined ——
+  \draw[faded!22!ink, line width=0.20pt, opacity=0.26,
+        dash pattern=on 1pt off 2.6pt, line cap=round]
+    (-0.13,-0.18) -- (-0.13,0.56);
+
+  % —— the thaw at a corner where no broom has gone, a hair less distinct ——
+  \draw[faded!32!ink, line width=0.30pt, opacity=0.34, line cap=round]
+    (1.55,0.40) -- (2.40,0.80);
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.26, line cap=round]
+    (2.40,0.80) -- (3.10,0.58);
+  \draw[rubric!55!ink, line width=0.34pt, opacity=0.40, line cap=round]
+    (2.40,0.80) -- (2.44,0.93);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (2.42,0.98) {the thaw};
+
+  % —— the river, softer at one edge; the note running nearer under its skin ——
+  \draw[gold!45!ink, line width=0.22pt, opacity=0.20, line cap=round,
+        decorate, decoration={snake, amplitude=1.2pt, segment length=5pt}]
+    (3.45,-0.28) -- (4.95,-0.28);
+  \draw[faded!22!ink, line width=0.18pt, opacity=0.16, line cap=round,
+        decorate, decoration={snake, amplitude=1.0pt, segment length=6pt}]
+    (3.72,-0.04) -- (4.95,-0.04);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.55)
+    {carried, and read by neither};
+  \node at (0,-1.95) {\pgfornament[width=3.9cm,color=ornament,opacity=0.18,symmetry=v]{96}};
+\end{tikzpicture}
