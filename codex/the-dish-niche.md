@@ -1,7 +1,7 @@
 ---
 title: The Sermon at the Dish-Niche, Being What a Man Who Came Back Thin Said at the Shrine of the Return in Sill on the Morning After the Weighing of Y.H. 812, with the Skimming-Song, the Dish-Row, a Factor's Clerk's Correction, and a Line at the Foot Nobody Will Own
 kind: A lay sermon of the Temple of the Return preached at the shrine of the Return off the Cross in Sill, at the niche where households set a dish of water overnight for them whose measure has been banked; the sayings in the low Grathic of the town set down in the shelf-keeper's charcoal, the skimming-song with the gap left the length of a dish being wiped, the dishes in a shelf-tally, one correction in the narrow upright Ledgerhand of a factor's clerk come up from Greybank, and a line at the foot in a hand nobody will own
-provenance: Preached on the morning after the Weighing, in the five days outside the months, of Y.H. 812, the Thin Year, by a man of the shrine who had come back thin from the north two winters before and had kept the dish-shelf since, to the women who came up from Low Kiln with their dishes after the year's figures had been read; written that evening by the woman who keeps the shelf and the shrine's door, in charcoal and the dregs of a tallow lamp on the back of a spoiled levy notice gone soft at one corner, folded twice and tied with a thread of grey wool, and kept in the niche behind the shelf where the marked clay dishes stand. It survives with a tallow thumb worked into the head, a crescent of dry river silt along the gutter from a morning the leaf lay on the shrine step, a chip of pale dish-clay shut in the fold, a thread of grey wool through the tie, a ring where a dish of water stood from the first voice to the last, a bead of beeswax with a grey hair caught in it, a grey Ash print nobody will own, the clerk's correction standing above the sayings, a woman's mark crossed hard across the empty place in the row, and a line struck through and written again very small underneath in a hand that has never come forward. Copied at Greybank in Ilmen of Y.H. 813 onto the back of a voided grain-warrant, with the verbs put back and the empty place left empty.
+provenance: Preached on the morning after the Weighing, in the five days outside the months, of Y.H. 812, the Thin Year, by a man of the shrine who had come back thin from the north two winters before and had kept the dish-shelf since, to the women who came up from Low Kiln with their dishes after the year's figures had been read; written that evening by the woman who keeps the shelf and the shrine's door, in charcoal and the dregs of a tallow lamp on the back of a spoiled levy notice gone soft at one corner, folded twice and tied with a thread of grey wool, and kept in the niche behind the shelf where the marked clay dishes stand. It survives with a tallow thumb worked into the head, a crescent of dry river silt along the gutter from a morning the leaf lay on the shrine step, a chip of pale dish-clay shut in the fold, a thread of grey wool through the tie, a ring where a dish of water stood from the first voice to the last, a bead of beeswax with a grey hair caught in it, a grey Ash print nobody will own, the clerk's correction standing above the sayings, and a line struck through and written again very small underneath in a hand that has never come forward. Copied at Greybank in Ilmen of Y.H. 813 onto the back of a voided grain-warrant, with the verbs put back and the empty place left empty.
 relates_to: [Sill, the Cross, Low Kiln, the Clay Yard, Greybank, the factor at Greybank, the shrine of the Return, the dish-niche, the dish-shelf, the Temple of the Return, the Return, the Weighing, the Five, one in twelve, the deduction, the measure, the Warm, the Hearth, thin return, whole return, the Collector, cold iron, the slate, Ledgerhand, Grathic, the Ash, the Last Day, the Ilm, silt, tallow, grey wool, slip, the bell at the Cross, four-and-four-and-a-gap, the Hearthseat, the Kept, the Waste, grey Ash]
 ---
 
@@ -32,7 +32,7 @@ He said the last twice, once to the shelf and once to a woman from the kilns. I 
 
 “This is not a measure,” he said. “It holds what is put into it and gives it back when it is poured out. A measure goes up the road in a box and comes back as a figure. This goes nowhere. I have kept this shelf two winters and never carried a dish past the Cross.”
 
-He set it down with the lip to the wall, the way the women had set theirs.
+He set it down with the lip to the wall.
 
 “There is a man in a clean coat who tells us nothing is lost that we have kept. I have heard him say it at the Weighing and once over a person not in the room. I believe the first half. The keeping is here: a chip in the rim, a mark under the thumb. The other half I cannot put my hand to.”
 
@@ -40,7 +40,7 @@ He set it down with the lip to the wall, the way the women had set theirs.
 
 ## Of the water
 
- He lifted the dish a little and let the light go across the surface.
+ He lifted the dish and let the light go across the surface.
 
 “There is generally silt,” he said. “The yard is clay and the wind comes off the terrace and puts its dust in everything. I skim it with my thumb and pour it at the foot of the wall and wipe the dish and set it on its mark. That is the whole of my preaching and I have two winters to find another sentence and could not.
 
@@ -72,7 +72,7 @@ A girl asked what became of the silt. He said it had been in the ground before i
 
 ## Of them that come back
 
- He turned the dish a quarter and set it back where it had stood.
+ He turned the dish a quarter and set it back.
 
 “I came back thin,” he said. “They say it low at the Weighing and loudly in the north, where they buy it. I have heard both prices. A thin return is not a person mended; it is a person with less in him and a hankering for a table he never sat at.
 
@@ -133,7 +133,7 @@ I have put the verbs back underneath and left his hand standing above, as the sh
 
 The tallow will not come out of the grain. The silt has eaten the edge off two words at the foot, which I have not written in again, because a saying with two words gone is a saying said slowly, and most of ours are. The pale chip is clay off a rim wiped one time too many. The grey wool is mine and I tied it for the word I could not put down, and I will not untie it. The ring stood from the first voice to the last and was never drunk from. The wax and the grey hair are from the candle. The Ash came off a cuff and nobody will own it; there is no Last Day behind a shelf.
 
-After he went, the women poured their dishes out at the foot of the wall and set them back on their marks, and the empty place was left as it was found. His words went down the Clay Road in a clean coat with a correction on them. The water went into the ground and the dishes went home.
+After he went the women poured their dishes out at the wall and set them on their marks, and the empty place was left as it was found. His words went down the Clay Road in a clean coat with a correction. The water went into the ground and the dishes went home.
 
 # At the foot
 
