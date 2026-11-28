@@ -2,7 +2,7 @@
 
 - Chapters complete: **121**
 - Words of story: **2,253,315**
-- Current chapter: 121 (step: publish, scene 7)
+- Current chapter: 122 (step: plan, scene 1)
 - Last chapter: The Writing Turned to the Sleeve (Days 414–416 · Ilmen 20–22, Y.H. 814)
 - Author calls so far: 1298 (tokens in 239,020,666, out 30,235,764)
 - Updated: 2026-11-28 20:35
