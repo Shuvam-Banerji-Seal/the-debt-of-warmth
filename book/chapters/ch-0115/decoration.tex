@@ -1,0 +1,74 @@
+\begin{tikzpicture}
+  % The chapter's heart: the year turned in the night and the house took up its
+  % grammar as though nothing had turned -- the pot stands where it stood, the
+  % fire keeps its four pulls. The one change comes up the yard as word from
+  % below the bridge: a slate set at the out-of-line landing with its writing
+  % turned inward, a measure nobody called, a shape seen by nobody under the
+  % roof and no witness standing; and one small degree of a head gone toward
+  % it and back to the broom without a word. News and a hair's movement, both
+  % gathered, neither named.
+
+  \node at (0,1.78) {\pgfornament[width=0.42cm,color=ornament,opacity=0.20]{11}};
+
+  % —— the landing: a line that leads nowhere and is called no door ——
+  \draw[faded!24!ink, line width=0.30pt, opacity=0.24] (-4.40,0.00) -- (4.40,0.00);
+  \draw[faded!14!ink, line width=0.20pt, opacity=0.18, dash pattern=on 1.2pt off 3.2pt]
+    (2.92,0.00) .. controls (3.60,0.02) and (4.10,-0.02) .. (4.40,0.00);
+
+  % —— LEFT: the degree — a head at rest, and the same head gone one hair toward the landing ——
+  \draw[faded!48!ink, line width=0.54pt, opacity=0.52, line cap=round]
+    (-2.35,0.00) -- (-2.35,1.30);
+  \fill[faded!44!ink, opacity=0.46] (-2.35,1.30) circle (0.030);
+  \draw[rubric!34!ink, line width=0.40pt, opacity=0.44, line cap=round]
+    (-2.35,0.00) -- (-2.11,1.30);
+  \draw[rubric!24!ink, line width=0.28pt, opacity=0.34]
+    (-2.35,1.06) arc (90:79.5:1.06);
+  \fill[rubric!30!ink, opacity=0.40] (-2.11,1.30) circle (0.014);
+  \draw[faded!26!ink, line width=0.24pt, opacity=0.30] (-2.23,-0.08) -- (-2.23,-0.52);
+  \node[anchor=north, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.54]
+    at (-2.23,-0.58) {a degree, and back};
+
+  % —— RIGHT: the slate, turned inward — the plain back shown, the writing away ——
+  \fill[ash!14!vellum, opacity=0.60]
+    (0.85,0.16) -- (2.35,0.16) -- (2.55,1.42) -- (1.05,1.42) -- cycle;
+  \draw[faded!46!ink, line width=0.52pt, opacity=0.54, line cap=round]
+    (0.85,0.16) -- (2.35,0.16) -- (2.55,1.42) -- (1.05,1.42) -- cycle;
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.30, line cap=round]
+    (0.97,0.29) -- (2.25,0.29) -- (2.42,1.29) -- (1.14,1.29) -- cycle;
+  % the turned-away face: a dark edge with marks that are no name
+  \fill[faded!34!ink, opacity=0.40]
+    (2.35,0.16) -- (2.55,1.42) -- (2.63,1.42) -- (2.43,0.16) -- cycle;
+  \draw[faded!24!ink, line width=0.22pt, opacity=0.26, line cap=round]
+    (2.45,0.52) -- (2.48,0.66);
+  \draw[faded!24!ink, line width=0.22pt, opacity=0.26, line cap=round]
+    (2.50,0.94) -- (2.53,1.08);
+  % the soft cuff, folded back twice and gone grey, at the slate's edge
+  \draw[ash!52!faded, line width=0.34pt, opacity=0.36, line cap=round]
+    (2.30,0.16) .. controls (2.42,0.10) and (2.54,0.10) .. (2.63,0.16);
+  \draw[ash!38!faded, line width=0.22pt, opacity=0.28, line cap=round]
+    (2.33,0.13) .. controls (2.44,0.07) and (2.56,0.07) .. (2.64,0.13);
+
+  \draw[faded!26!ink, line width=0.24pt, opacity=0.32] (0.85,0.80) -- (0.34,0.80);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.54]
+    at (0.28,0.80) {turned inward};
+
+  % —— the measure nobody called: a line that rises and stops with no figure ——
+  \draw[faded!22!ink, line width=0.30pt, opacity=0.30, dash pattern=on 1.3pt off 2.6pt, line cap=round]
+    (1.80,1.44) -- (1.80,2.08);
+  \draw[faded!26!ink, line width=0.24pt, opacity=0.30] (1.80,2.12) -- (1.80,2.24);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.54]
+    at (1.80,2.30) {a measure nobody called};
+
+  % —— the reported shape: an empty ring nobody under the roof saw filled ——
+  \draw[ash!44!faded, line width=0.28pt, opacity=0.32, dash pattern=on 1.4pt off 2.6pt]
+    (3.55,0.66) circle (0.34);
+  \draw[faded!26!ink, line width=0.24pt, opacity=0.30] (3.55,1.02) -- (3.55,1.42);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.54]
+    at (3.55,1.48) {seen by nobody};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {the year turned; the grammar held};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{96}};
+\end{tikzpicture}
