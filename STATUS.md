@@ -2,7 +2,7 @@
 
 - Chapters complete: **105**
 - Words of story: **1,925,051**
-- Current chapter: 105 (step: publish, scene 7)
+- Current chapter: 106 (step: plan, scene 1)
 - Last chapter: The Year Nobody Names (Days 366–368 · Stone 7–9, Y.H. 813)
 - Author calls so far: 1133 (tokens in 205,626,485, out 25,832,906)
 - Updated: 2026-11-28 10:11
