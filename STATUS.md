@@ -2,7 +2,7 @@
 
 - Chapters complete: **114**
 - Words of story: **2,103,882**
-- Current chapter: 114 (step: publish, scene 7)
+- Current chapter: 115 (step: plan, scene 1)
 - Last chapter: The Grey Left Where It Lay (Days 393–395 · the Remembering–Ilmen 1, Y.H. 813–814)
 - Author calls so far: 1225 (tokens in 224,371,086, out 28,250,211)
 - Updated: 2026-11-28 15:54
