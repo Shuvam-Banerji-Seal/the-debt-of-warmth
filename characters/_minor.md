@@ -1158,3 +1158,21 @@
 - **The two fence-menders who argued the thaw on Ash 25, 26 and 27** — unnamed men who said the thaw would be early and late; Tarn said *Yes, house* to each and kept the late because a late thaw puts off the paying, agreeing so thoroughly that no argument could find a foot (T036/T076). Not the yard's early-and-late thaw arguers of other chapters, kept on their own days; no sheets. Ch 101.
 
 - **The woman who asked Ilva at the yard well on Ash 26** — an unnamed neighbour waiting her turn who asked what Ash's firings had taken and got *Ask the pot what it cost. I keep the count, not the account*, Ilva's hand going toward her sleeve and staying with the strip unread and her ninth hand nine; nothing was priced, refused, read or entered (T080 advanced, not paid). Not the green-mouthed woman at the pot board and not the woman who asked about the month's mending. Walk-on, no sheet. Ch 101.
+
+- **The Cold Acre hare-carrier on Ash 28, 29 and 30** — an unnamed man down from Cold Acre with a hare across his shoulders who answered the price with the weather, which had carried the snow and could carry the price, and went toward the clay road with the hare unweighed and nobody opening a slate (T077). The recurring hunter, kept on his own days; no name, no sheet. Ch 102.
+
+- **The man with the cracked jar in a rope sling on Ash 28, 29 and 30** — an unnamed neighbour who asked what the month's mending would want and was sent to the pot, and the pot, being a pot, said nothing; no figure given and no entry left (T077). Walk-on, no sheet. Ch 102.
+
+- **The woman with a basket of kindling on Ash 28, 29 and 30** — an unnamed neighbour who asked what the seventh year would want when it came; Tarn said *Yes, house* and kept the late because a late thaw puts off the paying (T036/T076). Walk-on, no sheet. Ch 102.
+
+- **The two fence-menders on Ash 28, 29 and 30** — unnamed men who said the thaw would be early and late; Tarn said *Yes, house* to each and kept the late because it puts off the paying, agreeing so thoroughly that no argument could find a foot (T036/T076). Not the yard's early-and-late thaw arguers of other chapters, kept on their own days; no sheet. Ch 102.
+
+- **The woman who asked Ilva at the yard well on Ash 28** — an unnamed neighbour waiting her turn who asked what Ash's firings had taken and got *Ask the pot what it cost. I keep the count, not the account*, Ilva's hand going toward her sleeve and staying with the strip unread and her ninth hand nine; nothing was priced, refused, read or entered (T080 advanced, not paid). Not the green-mouthed woman at the pot board and not the woman who asked about the month's mending. Walk-on, no sheet. Ch 102.
+
+- **The two hundred at the Cross on Ash 30** — the Account-day and market crowd of the dark month's third reading, who leaned in to hear *one in twelve, as the notice says* twice over the basket and went back to the pigs; the bell went four, four and a gap with nobody crossing himself and nobody looked into the basket (T015/T041/T047, T078). Walk-ons en masse, none named, none given a sheet. Ch 102.
+
+- **The soft-cuffed clerk at the out-of-line landing on Ash 30** — an unnamed officer still set below the north bridge where a fifth step should have stood, for a measure nobody called, his slate turned inward and his hand to slate before eye to stalls; the market sold over him as water over a stone and nobody took him off (T090). Not Marra, not the Drawing collector with grey fingertips and not the Court-table clerk; walk-on, no sheet. Ch 102.
+
+- **The silent green-mouthed woman at the pot board on Ash 30** — an unnamed woman across the square with the sweet green of lead glaze at one corner of her mouth, turning a cup a quarter and setting it back where it stood, the seventh green at a mouth and a colour joined to no ear, unnamed and given no dialogue and never Fenna in the narration (T050/T051 held). Walk-on, no sheet. Ch 102.
+
+- **The foundling's shape at the market's edge on Ash 30** — an unnamed small shape in cast-offs with a green sliver catching light and going dull, whose half-turn came after the knock and was a turn, not a hearing, and was not joined to the boy's own turning; the seventh shape at the market's edge, with no eighth and never Ulda in the narration (T033/T034 held). Walk-on, no sheet. Ch 102.
