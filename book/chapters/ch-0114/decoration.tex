@@ -1,0 +1,74 @@
+\begin{tikzpicture}
+  % The chapter's heart: two greys lie on the same floor and are not the same
+  % thing. Left, the ridge left where it lay, thickening where no broom has
+  % gone in two years, with its finer grey above it. Right, the grey the yard
+  % burnt in the morning and called dealt with -- cleared pale, still traced,
+  % a thin smoke going up that is not spent. Between them a finger's width,
+  % with a dashed would-be joining broken at its middle: no fourth likeness
+  % made a cause, no name given either place. The year turned with nothing
+  % signed; what is called gone is still a place on the floor.
+
+  \node at (0,1.62) {\pgfornament[width=0.48cm,color=ornament,opacity=0.22]{11}};
+
+  % —— the floor the two greys lie on ——
+  \draw[faded!22!ink, line width=0.30pt, opacity=0.20] (-4.30,0.00) -- (4.30,0.00);
+
+  % —— left: the ridge left where it lay, unswept, thickening in the dry cold ——
+  \fill[faded!52!ink, opacity=0.13]
+    (-4.18,0.00) .. controls (-3.60,0.44) and (-1.20,0.42) .. (-0.50,0.00) -- cycle;
+  \draw[faded!46!ink, line width=0.54pt, opacity=0.52, line cap=round]
+    (-4.18,0.00) .. controls (-3.60,0.44) and (-1.20,0.42) .. (-0.50,0.00);
+  \draw[faded!50!ink, line width=0.34pt, opacity=0.40, line cap=round]
+    (-3.96,0.10) .. controls (-3.14,0.46) and (-1.42,0.42) .. (-0.64,0.08);
+  % its finer grey, called the thaw, found and not made
+  \draw[faded!22!ink, line width=0.24pt, opacity=0.26, dash pattern=on 1.2pt off 2.6pt, line cap=round]
+    (-3.88,0.34) .. controls (-2.96,0.68) and (-1.44,0.66) .. (-0.72,0.30);
+  \foreach \x/\y in {-3.70/0.16,-3.28/0.26,-2.86/0.20,-2.44/0.30,-2.02/0.24,-1.62/0.31,-1.20/0.22,-0.86/0.15}{
+    \fill[faded!40!ink, opacity=0.30] (\x,\y) circle (0.014);
+  }
+
+  % —— right: the grey burnt in the morning and called dealt with ——
+  \fill[vellum!92, opacity=0.72]
+    (0.52,0.00) .. controls (1.10,0.22) and (3.90,0.22) .. (4.20,0.00) -- cycle;
+  \draw[faded!30!ink, line width=0.38pt, opacity=0.36, line cap=round]
+    (0.52,0.00) .. controls (1.10,0.22) and (3.90,0.22) .. (4.20,0.00);
+  % the trace where the thick ridge stood, thinned away but still a place
+  \draw[ash!60!faded, line width=0.26pt, opacity=0.34, dash pattern=on 1.4pt off 2.8pt, line cap=round]
+    (0.66,0.09) .. controls (1.70,0.31) and (3.00,0.30) .. (4.02,0.07);
+  \foreach \x/\y in {0.98/0.08,1.52/0.11,2.10/0.09,2.68/0.11,3.26/0.09,3.78/0.06}{
+    \fill[ash!55!faded, opacity=0.22] (\x,\y) circle (0.010);
+  }
+  % a thin smoke, going up and not spent
+  \draw[ash!48!faded, line width=0.32pt, opacity=0.34, line cap=round]
+    (1.56,0.18) .. controls (1.40,0.48) and (1.72,0.66) .. (1.58,0.94);
+  \draw[ash!30!faded, line width=0.22pt, opacity=0.22, dash pattern=on 1.2pt off 2.4pt, line cap=round]
+    (1.58,0.94) .. controls (1.50,1.12) and (1.70,1.22) .. (1.62,1.38);
+
+  % —— the finger's width between: a joining begun and broken at its middle ——
+  \draw[faded!22!ink, line width=0.22pt, opacity=0.24, dash pattern=on 1.2pt off 2.2pt, line cap=round]
+    (-0.48,0.07) .. controls (-0.30,0.12) .. (-0.10,0.09);
+  \draw[faded!22!ink, line width=0.22pt, opacity=0.24, dash pattern=on 1.2pt off 2.2pt, line cap=round]
+    (0.10,0.09) .. controls (0.30,0.12) .. (0.48,0.06);
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.34] (-0.34,-0.08) -- (-0.34,-0.34);
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.34] ( 0.34,-0.08) -- ( 0.34,-0.34);
+  \draw[faded!24!ink, line width=0.24pt, opacity=0.30] (-0.34,-0.26) -- (0.34,-0.26);
+
+  % —— leaders and labels; nobody under either name calls the two the same ——
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.32] (-2.50,0.46) -- (-2.50,0.98);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (-2.50,1.04) {left where it lay};
+
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.32] (3.30,0.16) -- (3.30,0.98);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (3.30,1.04) {called dealt with};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.24] (0.00,-0.36) -- (0.00,-0.62);
+  \node[anchor=north, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.48]
+    at (0.00,-0.68) {a finger between, and no joining};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {the grey called gone, the grey left lying};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{85}};
+\end{tikzpicture}

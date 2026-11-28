@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **113**
-- Words of story: **2,084,754**
-- Current chapter: 114 (step: plan, scene 1)
-- Last chapter: The Fire Nobody Lit (Days 390–392 · Kindling–the Long Night, Y.H. 813)
-- Author calls so far: 1215 (tokens in 222,337,289, out 28,011,940)
-- Updated: 2026-11-28 15:15
+- Chapters complete: **114**
+- Words of story: **2,103,882**
+- Current chapter: 114 (step: publish, scene 7)
+- Last chapter: The Grey Left Where It Lay (Days 393–395 · the Remembering–Ilmen 1, Y.H. 813–814)
+- Author calls so far: 1225 (tokens in 224,371,086, out 28,250,211)
+- Updated: 2026-11-28 15:54
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
