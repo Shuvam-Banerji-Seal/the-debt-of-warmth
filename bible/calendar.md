@@ -81,6 +81,8 @@ For any day not in a month, write the name of the holy day and the year; do not 
 
 *Days 1–24 are in Stone of Y.H. 812. Day 25–29 are the Five. The era turns on Day 30, which is Ilmen 1 of Y.H. 813. Days 30–59 are Ilmen; Day 60 is Silt 1.*
 
+The second era turns on Day 395, which is Ilmen 1 of Y.H. 814, Firstday. Days 390–394 are the five holy days of Y.H. 813 — Kindling, Weighing, the Long Night, the Remembering and the Last Day — with names and no tend-day and no market. Day 396 is Ilmen 2, Secondday; Day 404 is Ilmen 10, Tenthday, the new year's first Account-day and market. The tend restarts at Firstday on Ilmen 1; the year turned in Chapter 114 with nothing signed, and the first arithmetic of Y.H. 814 was not brought into a day that had not earned it.
+
 | Day | In-world date | Tend-day or holy day | Note |
 |---|---|---|---|
 | 1 | Stone 7, Y.H. 812 | Seventhday | Corin born in Low Kiln; the stone at his belly is already going cold |
