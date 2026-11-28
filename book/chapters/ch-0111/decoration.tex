@@ -1,0 +1,79 @@
+\begin{tikzpicture}
+  % The chapter's heart: a counting cord runs past nine knots into two
+  % figures. A binding at the tenth marks the turning, and two more knots
+  % follow -- yet the cord ends loose, with no hand to tie the next. Twelve
+  % are still twelve: the count grows, but no placing, no habit, no way and
+  % no payer stands under it. Even the small alarm at a double figure is
+  % filed on a place of its own, a finger's width from the rest.
+
+  \node at (0,1.52) {\pgfornament[width=0.60cm,color=ornament,opacity=0.22]{9}};
+
+  % —— the cord, held level out of the draught, and not joined into a ring ——
+  \draw[faded!52!ink, line width=0.85pt, opacity=0.52, line cap=round]
+    (-4.70,0.35) -- (3.70,0.35);
+
+  % —— nine knots found where tied, one after another ——
+  \foreach \x in {-4.40,-3.78,-3.16,-2.54,-1.92,-1.30,-0.68,-0.06,0.56}{
+    \begin{scope}[shift={(\x,0)}]
+      \draw[faded!48!ink, line width=0.42pt, opacity=0.52, line cap=round]
+        (-0.10,0.26) .. controls (-0.02,0.48) and (0.11,0.48) .. (0.03,0.31)
+        .. controls (-0.02,0.22) and (0.08,0.21) .. (0.11,0.39);
+      \draw[faded!30!ink, line width=0.26pt, opacity=0.34, line cap=round]
+        (-0.09,0.30) .. controls (0.00,0.34) .. (0.09,0.30);
+    \end{scope}
+  }
+
+  % —— the binding that turns nine into a ten: the count goes into two figures ——
+  \foreach \w in {0.00,0.08,0.16}{
+    \draw[ornament, line width=0.52pt, opacity=0.58]
+      (0.80+\w,0.21) -- (0.80+\w,0.49);
+  }
+  \draw[gold, line width=0.34pt, opacity=0.46] (0.78,0.35) -- (1.00,0.35);
+
+  % —— the tenth, eleventh and twelfth: still knots, still findings ——
+  \foreach \x in {1.18,1.80,2.42}{
+    \begin{scope}[shift={(\x,0)}]
+      \draw[faded!48!ink, line width=0.42pt, opacity=0.52, line cap=round]
+        (-0.10,0.26) .. controls (-0.02,0.48) and (0.11,0.48) .. (0.03,0.31)
+        .. controls (-0.02,0.22) and (0.08,0.21) .. (0.11,0.39);
+      \draw[faded!30!ink, line width=0.26pt, opacity=0.34, line cap=round]
+        (-0.09,0.30) .. controls (0.00,0.34) .. (0.09,0.30);
+    \end{scope}
+  }
+  \draw[faded!24!ink, line width=0.24pt, opacity=0.28]
+    (1.05,0.08) -- (1.05,0.00) -- (2.55,0.00) -- (2.55,0.08);
+
+  % —— the loose end: fibers thin and stop; no thirteenth knot, no payer ——
+  \draw[faded!46!ink, line width=0.62pt, opacity=0.42, line cap=round]
+    (3.70,0.35) .. controls (4.02,0.33) .. (4.26,0.22);
+  \foreach \dy/\op in {0.12/0.34,0.04/0.26,-0.04/0.18,-0.13/0.10}{
+    \draw[faded!44!ink, line width=0.32pt, opacity=\op, line cap=round]
+      (4.02,0.31) .. controls (4.32,0.24+\dy) .. (4.62,0.10+\dy);
+  }
+
+  % —— the small alarm at a double figure, filed on a place of its own ——
+  \draw[faded!38!ink, line width=0.52pt, opacity=0.40, line cap=round]
+    (2.05,-0.62) -- (3.05,-0.62);
+  \begin{scope}[shift={({2.55},{-0.62}), scale=0.72}]
+    \draw[faded!44!ink, line width=0.42pt, opacity=0.46, line cap=round]
+      (-0.10,0.26) .. controls (-0.02,0.48) and (0.11,0.48) .. (0.03,0.31)
+      .. controls (-0.02,0.22) and (0.08,0.21) .. (0.11,0.39);
+  \end{scope}
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.22, dash pattern=on 2pt off 3pt]
+    (2.55,-0.44) -- (2.55,-0.16);
+
+  % —— leaders and labels; nobody under the roof names the place ——
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.34] (0.88,0.52) -- (0.88,0.94);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (0.88,1.00) {into two figures};
+
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.34] (2.55,-0.72) -- (2.55,-0.86);
+  \node[anchor=north, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (2.55,-0.92) {filed as a finding};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {twelve knots and no hand at the loose end};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{83}};
+\end{tikzpicture}
