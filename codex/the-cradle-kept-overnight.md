@@ -17,7 +17,7 @@ The tallow at the head is mine. I held the sheet down in the draught that comes 
 - Warm the stone on the inside of your own wrist before it goes near a belly. A stone that is cold in your hand is a stone and no more, and every maid in this room has learned that on a child.
 - Turn the slate face down before you begin. A name said in the same room as an open slate travels, and a name that travels arrives in a house the mother will never be told of.
 - Say it to the cradle, not to the child, and not looking at the door. Said looking at a person it becomes a question, and a child who is to go up the road in the morning cannot answer a question.
-- Say the last line twice. The second saying is for the child who cannot say it yet, and the third, if there is one, is for the one who has forgotten how to ask.
+- Say the last line twice. The first is for the child still hearing it; the second is for the child who will hear it in a house up the road and will not know where it came from.
 - Stop while boots cross the passage. Begin again when the passage is quiet. A song that runs into a reading is a song with a figure in it, and there is figure enough in this room already.
 - Do not sing it at a death-house door or over a pot broken for the dead. That is a different song and belongs to the sherd.
 
@@ -120,7 +120,7 @@ The refrain, as the room keeps it after every verse:
 > > The stone is warm and the slate is turned ---
 > > the morning asks, and the morning gets.
 
-There is a space before the last refrain in the singing, the length of the time between the turning of the slate and the coming of the boots. I have left it on the sheet. A clerk put a round nought in it once, which is a thing a man can hold up and look at; a watch is not.
+There is a space before the last refrain in the singing, the length of the time between the turning of the slate and the coming of the boots. I have left it on the sheet. I do not fill it and I do not measure it, because a space held between two sounds is the only part of this room that has never been entered.
 
 # What the collector's clerk wrote above
 
