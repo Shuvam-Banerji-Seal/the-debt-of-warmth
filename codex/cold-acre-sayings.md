@@ -5,7 +5,7 @@ provenance: Gathered at the well that never freezes in Cold Acre, two leagues no
 relates_to: [Cold Acre, the well that never freezes, the well-rope, the twelfth link, the stone lip, the clay dish, the well-shrine, the bare ring, the untaken turn, the six houses, the barley strips and turnip ground of Cold Acre, the ridge road, the north gate, the Bone Orchard, the Tallow Works, Sill, Low Kiln, High Kiln, the Glaze Room, Greybank, the factor at Greybank, Slate Row, the Ilm, the Cross, the bell at the Cross, the Long Cold, ninety-four days, the Ash, the Last Day, the Five, one in twelve, the measure, the deduction, the collector, cold iron, the Return, the warmed stone, the second chill, the Afterdrop, the birth-flower, the hearth-maids, the slate-woman, Kess of Cold Acre, the Hearth, the Nine Wells, the Kept, Ledgerhand, Grathic, slate, tallow, grey wool, birch bark]
 ---
 
-I keep the curb at Cold Acre and set the dish on it for six houses, and have done it four-and-twenty winters. A child of ours was sent down the ridge road in the Thin Year to be entered and came back with a figure in her head and no word for what it counted. She asks what the ridge said before the slate came up the road. I have set the sayings on the back of a mill tally because a figure spoiled a figure and left paper enough. The well-clay at the head came up under my nails and no washing takes it out of the grain.
+I keep the curb at Cold Acre and set the dish on it for six houses, and have done it four-and-twenty winters. A child of ours was sent down the ridge road in the Thin Year to be entered and came back with a figure in her head and no word for what it counted. She asks what the ridge said before the slate came up. I have set the sayings on the back of a mill tally because a figure spoiled a figure and left paper enough. The well-clay came up under my nails and no washing takes it out of the grain.
 
 Say these low, to the pail, the curb, the dish, the rope and the bare ground, and to a person last. Said looking at a person, a saying becomes an argument, and there is argument enough down the ridge road on a market-day without carrying it home. Our speech is short and the ends of the words fall into the well; a long sentence up here sounds like a man from the town explaining a figure. There is no Last Day on this ridge and nothing gets swept, so the sayings stay where they were said.
 
@@ -45,39 +45,35 @@ Say these low, to the pail, the curb, the dish, the rope and the bare ground, an
 
 *Gloss — Of the member gone dark. There is an hour on the far side of the warming when a body spends what it was given faster than it takes in. I have no name for that hour and have left the place where the name would stand the length such a name wants. I wind the wool and set them to work, and have seen a foot go dark through a lean week, and gone on winding. This is the row I have been least honest in.*
 
-9. “A sweet answers a sweet. The lead stays.”
-
-*Gloss — A girl come down from the Glaze Room with the pale line at her gum says a sweet answers a sweet. A physician says lead. I have seen the line go off one who left that room and come back on one who stayed. I have not seen the lead, which is not the same as saying it is not there.*
-
 # Of the six houses and the road
 
-10. “Six houses draw and six have buried their dead down at the river.”
+9. “Six houses draw and six have buried their dead down at the river.”
 
 *Gloss — Feet to the water and a pot broken at the door, and the well draws for the house that is left behind. It has never asked which house. I have looked into the bucket every morning of my life and never once seen a name come up in it.*
 
-11. “Stand and let the barrow go by.”
+10. “Stand and let the barrow go by.”
 
 *Gloss — On a market-day the barrow of grey Ash goes past on the ridge road toward the north gate, heaped a finger above the sides where the load has shifted. The children stand and let it pass and say nothing, and take up the stone when the road is empty. No rule was ever taught them.*
 
-12. “Judge the hare by the carrying arm. Ask the weather what it cost.”
+11. “Judge the hare by the carrying arm. Ask the weather what it cost.”
 
-*Gloss — A man come down from here with a hare across his shoulders will not weigh it for you; he shifts it on his arm and says the weather, and goes toward the clay road. Asked what the ice would cost he said the weather laid it on and the weather will take it off. These are directions and not figures, and no slate has ever been opened for one.*
+*Gloss — A man come down from here with a hare across his shoulders will not weigh it; he shifts it on his arm and says the weather, and goes toward the clay road. Asked what the ice would cost he said the weather laid it on and will take it off. These are directions, not figures, and no slate has been opened for one.*
 
-13. “Give the man with the tube the mother and keep the child behind the pail.”
+12. “Give the man with the tube the mother and keep the child behind the pail.”
 
 *Gloss — He comes before the three days are out if the house has owed, which here is most houses. He takes the mother's attention first, and a woman being asked for her warmth will look at the man asking and not at the child. This is not refusal. It is the order of the room. We put the pot between and talk to it about the weather until he has gone back down the road.*
 
-14. “A gift on this ridge is not a thing that gets entered.”
+13. “A gift on this ridge is not a thing that gets entered.”
 
 *Gloss — In the well-game the stone stops at the eighth and the child shuts her fist on it and sets it on the curb, and is brought back only when another takes the stone from her hand, breathes on it twice and puts it back. Nobody says who gave the warmth and the child says nothing when she comes in. A clerk wrote *one restored, nil* against it. A nought can be carried away in a cuff; a breath cannot.*
 
 # Of the birth-flower and the name
 
-15. “Cross two fingers and give the mother a date.”
+14. “Cross two fingers and give the mother a date.”
 
 *Gloss — The slate-woman up the ridge crossed two fingers over nine children and never told anybody what she saw. A woman down in Sill washed a birth-flower with salt and her child went flat by evening; I have set that beside the six I did not wash and not joined them. When a girl asks what the sign is for, give her the date. A date does not spoil in the mouth and has no figure in it.*
 
-16. “Keep the stone. Do not mark it.”
+15. “Keep the stone. Do not mark it.”
 
 *Gloss — I have a tin under the bench with a stone from every birth, four-and-twenty of them and not one marked. A marked stone is a slate, and a slate can be read by anybody who can hold it. A clerk called the tin residual matter. It is a tin of stones.*
 
@@ -105,7 +101,7 @@ Say these low, to the pail, the curb, the dish, the rope and the bare ground, an
 
 # What the clerk did
 
-An assessor's clerk borrowed the leaves on the morning after, with his cuff soft at the edge from washing and ink in two fingers that would not come out. He takes the doer out as though a thing with nobody in it were truer than a thing a woman had done with her hands.
+An assessor's clerk borrowed the leaves on the morning after, with ink in two fingers of a soft cuff. He takes the doer out as though a thing with nobody in it were truer than a thing a woman had done with her hands.
 
 - At *eleven go down* he wrote *one part in twelve reserved to the Hearth* above. He did not ask to see the chain.
 - At *the well gives. It does not ask* he set *the measure is retained in the spring and lawfully drawn*, which leaves the well with no hand and the water with no giver.
@@ -116,13 +112,13 @@ I have put the sayings back under his hand. He takes the verbs out because a thi
 
 # In the margin, in the slate-woman's hand
 
-> I crossed two fingers over nine children and told nobody what I saw. If she asks, give her the date. I have kept the dates and have never once set them beside the children, which is a keeping and not an account. --- W.
+> I crossed two fingers over nine children and told nobody what I saw. Give her the date. I have kept the dates and never set them beside the children, which is a keeping and not an account. --- W.
 
-She wrote it while I was at the curb and set the leaf back with the fold changed. A woman who has kept the slates of this ridge for one-and-thirty years is allowed one sentence in a book of sayings.
+She wrote it while I was at the curb and set the leaf back with the fold changed. A woman who has kept the slates of this ridge one-and-thirty years is allowed one sentence.
 
 # At the head and in the gutter
 
-The well-clay at the head is mine and comes up under the nails in this hamlet, which is why I sign in clay and not in ink. The frost-ring took two words clean off the second leaf when I left the tally outside one night in Stone; I have not written them back, because a saying with two words gone is a saying said slowly and all of ours are said slowly. The barley awn came off a sack by the mill door and has gone stiff as a splinter. The nick at the fore-edge is a turnip knife's, from a woman who paid me with the knife still in her hand. The tideline is well-water off a pail set down while I was telling a girl to drink and she would not. The tallow is off the lamp I held low so that nobody at the table would know I was writing. The grey hair came off a hare carried past by a man who answered the price with the weather and did not stop; it has lain in the third leaf since. The grey along the outer fold came off a cuff laid where no cuff has business lying on a ridge. I have not swept it. There is a Last Day in Sill and the corners are burnt there in the morning and called dealt with; there is none here. The twist of rope fibre through the hole is mine and holds the fold, and I will not pull it out to see whether the twelfth has wetted.
+The well-clay at the head is mine and comes up under the nails in this hamlet, which is why I sign in clay and not in ink. The frost-ring took two words off the second leaf when I left the tally outside one night in Stone; I have not written them back, because a saying with two words gone is a saying said slowly and all of ours are said slowly. The barley awn came off a sack by the mill door and has gone stiff as a splinter. The nick at the fore-edge is a turnip knife's, from a woman who paid me with the knife still in her hand. The tideline is well-water off a pail set down while I was telling a girl to drink and she would not. The tallow is off the lamp I held low so nobody at the table would know I was writing. The grey hair came off a hare carried past by a man who answered the price with the weather; it has lain in the third leaf since. The grey along the outer fold came off a cuff laid where no cuff has business lying on a ridge. I have not swept it. There is a Last Day in Sill and the corners are burnt there in the morning and called dealt with; there is none here. The twist of rope fibre through the hole is mine and holds the fold, and I will not pull it out to see whether the twelfth has wetted.
 
 # At the foot, in a hand nobody will own
 
@@ -130,4 +126,4 @@ The well-clay at the head is mine and comes up under the nails in this hamlet, w
 > The barrow passes and the children stand off.
 > A figure goes down the ridge and the water comes up, and neither carries a signature.
 
-I asked the woman who winds the rope, a man come down from Greybank with a cord for the lip, and a hunter who answered the price with the weather, and had three answers and no hand. I have left the lines where they were written. The leaves go back into the sacking under the curb-stone, in the nick where the rope is coiled, which the children do not lift. Tomorrow I shall set the dish on the stone and let eleven links go down, and the twelfth will hang in my hand as it has always hung, and the man with the cord will go back down the ridge with his column standing empty, and nobody at this well will say what the figure would be if it had one.
+I asked the woman who winds the rope, a man come down from Greybank with a cord for the lip, and a hunter who answered the price with the weather, and had three answers and no hand. The leaves go back into the sacking under the curb-stone, in the nick where the rope is coiled, which the children do not lift. Tomorrow I shall let eleven links go down and the twelfth will hang in my hand as it has always hung, and the man with the cord will go back down the ridge with his column standing empty, and nobody here will say what the figure would be if it had one.
