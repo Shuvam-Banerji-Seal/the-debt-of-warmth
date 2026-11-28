@@ -1,0 +1,86 @@
+\begin{tikzpicture}
+  % The chapter's heart: a figure brought up out of a shut fist, held toward
+  % the light, and put back into the sleeve, arriving nowhere. The fist kept
+  % its shape; the stick kept its notch and learned no name. Neither paid.
+  % The offer and its return are filed on a place of their own.
+
+  % —— the ground the yard stands on, kept quiet ——
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.55,-1.52) -- (4.55,-1.52);
+
+  % —— the fist, shut; the forearm comes in from the left ——
+  \draw[ink!48!faded, line width=0.52pt, opacity=0.54, line cap=round]
+    (-4.30,0.28) .. controls (-2.60,0.30) and (-1.90,0.40) .. (-1.55,0.55)
+    .. controls (-1.25,0.92) and (-0.55,1.05) .. (0.05,0.92)
+    .. controls (0.45,0.82) and (0.56,0.42) .. (0.48,0.08)
+    .. controls (0.42,-0.30) and (-0.10,-0.52) .. (-0.70,-0.50)
+    .. controls (-1.20,-0.48) and (-1.90,-0.32) .. (-4.30,-0.28);
+
+  % —— curled fingers, three creases where the knuckles close ——
+  \draw[faded!36!ink, line width=0.30pt, opacity=0.40, line cap=round]
+    (-0.86,0.97) .. controls (-0.92,0.80) .. (-0.80,0.66);
+  \draw[faded!34!ink, line width=0.30pt, opacity=0.38, line cap=round]
+    (-0.42,1.04) .. controls (-0.48,0.86) .. (-0.36,0.70);
+  \draw[faded!32!ink, line width=0.28pt, opacity=0.34, line cap=round]
+    (0.00,1.00) .. controls (-0.06,0.84) .. (0.06,0.68);
+  % the thumb shut over the front
+  \draw[faded!42!ink, line width=0.42pt, opacity=0.48, line cap=round]
+    (-0.34,-0.40) .. controls (0.08,-0.30) and (0.40,-0.10) .. (0.46,0.14);
+
+  % —— the figure held up out of the fist, toward the light ——
+  \draw[rubric, line width=0.74pt, opacity=0.64, line cap=round]
+    (0.78,0.52) -- (0.78,0.92);
+  \draw[rubric!85!ink, line width=0.62pt, opacity=0.52, line cap=round]
+    (0.96,0.56) -- (0.96,0.86);
+  \draw[rubric!70!ink, line width=0.52pt, opacity=0.42, line cap=round]
+    (1.12,0.58) -- (1.12,0.80);
+  \fill[rubric!60!ink, opacity=0.40] (0.78,0.92) circle (0.016);
+
+  % —— the light it is held to, failing to take it ——
+  \draw[gold, line width=0.30pt, opacity=0.30, line cap=round]
+    (0.34,1.22) .. controls (0.76,1.06) and (1.06,0.94) .. (1.26,0.82);
+  \draw[gold, line width=0.22pt, opacity=0.20, line cap=round]
+    (0.62,1.30) .. controls (0.94,1.16) and (1.18,1.04) .. (1.34,0.92);
+
+  % —— the return: a dashed reaching that stops short of the sleeve ——
+  \draw[faded!22!ink, line width=0.28pt, opacity=0.32,
+        dash pattern=on 1.4pt off 3.2pt, line cap=round]
+    (1.16,0.62) .. controls (1.74,0.62) and (2.14,0.34) .. (2.42,0.04);
+  \fill[faded!30!ink, opacity=0.36] (2.42,0.04) circle (0.018);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.54]
+    at (2.50,0.48) {back into the sleeve};
+
+  % —— the sleeve: a wool fold in from the right, taking nothing ——
+  \fill[faded!20!ink, opacity=0.26]
+    (4.60,0.95)
+      .. controls (3.75,0.72) and (3.10,0.42) .. (2.82,0.06)
+      .. controls (3.12,-0.36) and (3.78,-0.68) .. (4.60,-0.95)
+    -- cycle;
+  \draw[faded!34!ink, line width=0.34pt, opacity=0.40, line cap=round]
+    (4.60,0.95) .. controls (3.75,0.72) and (3.10,0.42) .. (2.82,0.06);
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.32, line cap=round]
+    (4.60,0.55) .. controls (3.85,0.36) and (3.24,0.10) .. (3.00,-0.22);
+  \draw[faded!24!ink, line width=0.24pt, opacity=0.26, line cap=round]
+    (4.60,-0.42) .. controls (3.90,-0.52) and (3.35,-0.66) .. (3.05,-0.76);
+  \draw[faded!44!ink, line width=0.40pt, opacity=0.46, line cap=round]
+    (2.82,0.06) .. controls (2.95,-0.18) and (3.05,-0.40) .. (3.05,-0.76);
+
+  % —— the birch strip: the stick keeps its notch and learns no name ——
+  \path[fill=faded!12!vellum, opacity=0.70]
+    (-1.85,-1.00) -- (1.62,-1.03) -- (1.55,-1.24) -- (-1.80,-1.20) -- cycle;
+  \draw[faded!36!ink, line width=0.40pt, opacity=0.46, line cap=round]
+    (-1.85,-1.00) -- (1.62,-1.03) -- (1.55,-1.24) -- (-1.80,-1.20) -- cycle;
+  \draw[rubric!40!ink, line width=0.42pt, opacity=0.52, line cap=round]
+    (-0.28,-1.01) -- (-0.14,-1.15) -- (0.00,-1.02);
+  \foreach \x/\y in {-1.42/-1.04,-0.96/-1.05,0.48/-1.06,1.02/-1.07}{
+    \draw[faded!16!ink, line width=0.18pt, opacity=0.20, line cap=round]
+      (\x,\y) -- (\x+0.10,\y-0.14);
+  }
+  \draw[faded!20!ink, line width=0.20pt, opacity=0.24, line cap=round]
+    (-0.14,-1.15) -- (-0.60,-1.42);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.54]
+    at (-0.68,-1.44) {the notch kept, no name};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.76)
+    {held to the light, and taken back};
+  \node at (0,-2.08) {\pgfornament[width=3.9cm,color=ornament,opacity=0.18,symmetry=v]{89}};
+\end{tikzpicture}
