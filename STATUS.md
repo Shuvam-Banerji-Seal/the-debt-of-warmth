@@ -2,7 +2,7 @@
 
 - Chapters complete: **99**
 - Words of story: **1,795,964**
-- Current chapter: 99 (step: publish, scene 7)
+- Current chapter: 100 (step: plan, scene 1)
 - Last chapter: What the Notice Does Not Know (Days 348–350 · Ash 19–21, Y.H. 813)
 - Author calls so far: 1071 (tokens in 193,892,560, out 24,305,514)
 - Updated: 2026-11-28 06:27
