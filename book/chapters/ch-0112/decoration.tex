@@ -1,0 +1,72 @@
+\begin{tikzpicture}
+  % The chapter's heart: the year's twelve readings stand on an open ring that
+  % never closes -- the last place left as a gap, no boundary drawn. Twelve are
+  % twelve and not one account. Inside, one figure is read twice over the
+  % basket and is still not the figure paid; beneath it the line is left empty
+  % and no hand sets a signature there. The figure rides up the road in a
+  % locked box, and the year goes out through the gap with nothing joined.
+
+  \node at (-0.35,1.46) {\pgfornament[width=0.52cm,color=ornament,opacity=0.22]{12}};
+
+  % —— the ring of the year, drawn almost all the way round and left open ——
+  % the seam at the right is not a twelfth joining and calls itself no account
+  \draw[faded!30!ink, line width=0.44pt, opacity=0.38]
+    ({-0.35+2.75*cos(8)},{0.10+1.02*sin(8)}) arc (8:352:2.75 and 1.02);
+  \draw[faded!18!ink, line width=0.24pt, opacity=0.22]
+    ({-0.35+2.61*cos(14)},{0.10+0.96*sin(14)}) arc (14:346:2.61 and 0.96);
+
+  % —— twelve cuts on the ring, each on its own place, none laid together ——
+  \foreach \ang in {14,44,74,104,134,164,194,224,254,284,314,344}{
+    \pgfmathsetmacro{\xa}{-0.35+2.70*cos(\ang)}
+    \pgfmathsetmacro{\ya}{0.10+0.99*sin(\ang)}
+    \pgfmathsetmacro{\xb}{-0.35+2.90*cos(\ang)}
+    \pgfmathsetmacro{\yb}{0.10+1.12*sin(\ang)}
+    \draw[faded!48!ink, line width=0.58pt, opacity=0.48, line cap=round]
+      (\xa,\ya) -- (\xb,\yb);
+    \pgfmathsetmacro{\dx}{-0.35+2.99*cos(\ang)}
+    \pgfmathsetmacro{\dy}{0.10+1.17*sin(\ang)}
+    \fill[faded, opacity=0.11] (\dx,\dy) circle (0.011);
+  }
+
+  % —— one figure, read twice, in the pale space that is not a payment ——
+  \fill[vellum!92, opacity=0.86] (-0.35,0.10) ellipse (0.62 and 0.40);
+  \draw[faded!22!ink, line width=0.24pt, opacity=0.24] (-0.35,0.10) ellipse (0.62 and 0.40);
+  \draw[rubric!36!ink, line width=1.05pt, opacity=0.54, line cap=round]
+    (-0.48,-0.14) -- (-0.31,0.40);
+  \draw[ash!50!vellum, line width=0.42pt, opacity=0.28, line cap=round]
+    (-0.47,-0.13) .. controls (-0.40,0.10) .. (-0.31,0.41);
+
+  % —— the line beneath it, left short: no signature, no hand, no seal ——
+  \draw[faded!34!ink, line width=0.34pt, opacity=0.48, line cap=round]
+    (-1.02,-0.44) -- (-0.60,-0.44);
+  \draw[faded!20!ink, line width=0.26pt, opacity=0.28, dash pattern=on 1.5pt off 2.4pt]
+    (-0.52,-0.44) -- (0.14,-0.44);
+
+  % —— the figure goes up the road in a locked box, through the open seam ——
+  \draw[faded!40!ink, line width=0.52pt, opacity=0.46, line cap=round]
+    (2.44,0.11) .. controls (2.94,0.20) and (3.52,0.06) .. (4.58,0.24);
+  \draw[faded!24!ink, line width=0.26pt, opacity=0.26, dash pattern=on 2pt off 3pt]
+    (2.50,0.02) .. controls (3.10,0.08) and (3.70,-0.04) .. (4.52,0.10);
+  \fill[ornament!24!ink, opacity=0.42]
+    (3.18,0.02) -- (3.66,0.04) -- (3.64,0.34) -- (3.16,0.32) -- cycle;
+  \draw[faded!40!ink, line width=0.36pt, opacity=0.52]
+    (3.18,0.02) -- (3.66,0.04) -- (3.64,0.34) -- (3.16,0.32) -- cycle;
+  \draw[gold, line width=0.44pt, opacity=0.54] (3.41,0.18) circle (0.032);
+  \draw[faded!30!ink, line width=0.30pt, opacity=0.34, line cap=round]
+    (3.41,0.18) -- (3.41,0.11);
+
+  % —— leaders and labels; nobody under the roof draws the boundary ——
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.32] (2.36,0.16) -- (2.36,0.72);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (2.36,0.78) {no boundary drawn};
+
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.32] (3.41,-0.02) -- (3.41,-0.56);
+  \node[anchor=north, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (3.41,-0.62) {up the road, locked};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {the figure read is not the figure paid};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{96}};
+\end{tikzpicture}
