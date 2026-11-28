@@ -1,0 +1,49 @@
+\begin{tikzpicture}
+  % The chapter's heart: the year's fire goes up the yard in a clay dish,
+  % passed hearth to hearth before first light. Four dishes hold a flame;
+  % the source at the left is an empty place nobody names or prices, and the
+  % fifth dish at the right waits with the line thinned away before it.
+  % Every hearth says it kept the flame and none says where it began.
+
+  % —— the passing line: it starts in a gap and stops short of the fifth ——
+  \draw[faded!30!ink, line width=0.30pt, opacity=0.32, line cap=round]
+    (-3.20,0.10) .. controls (-1.60,0.04) and (1.60,0.04) .. (3.20,0.10);
+  \draw[faded!16!ink, line width=0.22pt, opacity=0.20, dash pattern=on 1.2pt off 3pt]
+    (3.20,0.10) .. controls (3.38,0.10) and (3.52,0.10) .. (3.62,0.10);
+
+  % —— the unnamed source: an empty dish and an unlit trace above it ——
+  \draw[faded!26!ink, line width=0.34pt, opacity=0.30, line cap=round]
+    (-3.94,0.10) -- (-3.30,0.10);
+  \draw[faded!24!ink, line width=0.32pt, opacity=0.26, line cap=round]
+    (-3.94,0.10) .. controls (-3.84,-0.08) and (-3.40,-0.08) .. (-3.30,0.10);
+  \draw[faded!14!ink, line width=0.20pt, opacity=0.18, dash pattern=on 1.5pt off 2.6pt, line cap=round]
+    (-3.82,0.40) .. controls (-3.74,0.60) and (-3.50,0.60) .. (-3.42,0.38);
+
+  % —— four hearths, each keeping what it did not light ——
+  \foreach \x/\h in {-2.55/0.54,-0.85/0.72,0.85/0.66,2.55/0.50}{
+    % the clay dish
+    \draw[faded!42!ink, line width=0.44pt, opacity=0.50, line cap=round]
+      (\x-0.30,0.10) -- (\x+0.30,0.10);
+    \draw[faded!30!ink, line width=0.36pt, opacity=0.38, line cap=round]
+      (\x-0.30,0.10) .. controls (\x-0.21,-0.07) and (\x+0.21,-0.07) .. (\x+0.30,0.10);
+    % the flame, leaning the way it is passed on
+    \draw[rubric!68!gold, line width=0.42pt, opacity=0.64, fill=rubric!9, line cap=round]
+      (\x,0.12)
+      .. controls (\x-0.13,{0.12+\h*0.42}) and (\x-0.10,{0.12+\h*0.74}) .. (\x+0.06,{0.12+\h})
+      .. controls (\x+0.02,{0.12+\h*0.62}) and (\x+0.15,{0.12+\h*0.36}) .. (\x,0.12);
+    \fill[gold!34!vellum, opacity=0.44]
+      (\x+0.01,0.20) .. controls (\x-0.05,{0.12+\h*0.48}) .. (\x+0.04,{0.12+\h*0.70})
+      .. controls (\x+0.08,{0.12+\h*0.40}) .. (\x+0.01,0.20);
+  }
+
+  % —— the fifth dish: empty, unpaid, with nothing standing under it ——
+  \draw[faded!34!ink, line width=0.40pt, opacity=0.36, line cap=round]
+    (3.34,0.10) -- (3.94,0.10);
+  \draw[faded!24!ink, line width=0.32pt, opacity=0.26, line cap=round]
+    (3.34,0.10) .. controls (3.44,-0.08) and (3.84,-0.08) .. (3.94,0.10);
+  \draw[faded!14!ink, line width=0.20pt, opacity=0.18, dash pattern=on 1.5pt off 2.6pt, line cap=round]
+    (3.48,0.38) .. controls (3.56,0.60) and (3.80,0.60) .. (3.86,0.40);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.40)
+    {every hearth kept it; none began it};
+\end{tikzpicture}
