@@ -118,7 +118,7 @@ There is a space before the seventh verse, the width of a hand laid flat on the 
 > which was the same fire and the same jar going round.
 > Pass it to the water. The water has no clerk.
 
-There is no verse after it. The next thing is the damp taking the leaf, which is not a verse and has never wanted one.
+There is no verse after it; the next thing is the damp taking the leaf, which has never wanted one.
 
 # The jar, as it goes round
 
@@ -155,13 +155,13 @@ I have put my verbs back underneath and left his standing above. He takes the do
 
 The charcoal belongs to a woman who glazes the small bowls and has had the pale line at the gum these six years. She writes on the backs of spoiled tallies, pressing hard at the ends of words. I have copied it underneath as she set it.
 
-- At *sweet at the lip*: The sweetness is not the wine. I have tasted both and they are different, and I have not told the clerk which is which. He would write it down and go away with it.
+- At *sweet at the lip*: The sweetness is not the wine. I have tasted both and they are different, and I have not told the clerk which is which. He would write it down and carry it away.
 - At the kept verse: My mother was at the third in the year the men stood. She never said what they wanted, only what they were given, which was the same fire and the same jar going round. I have kept her one sentence and not made a second out of it.
 - At the space before the seventh: I put my hand there when you wrote it. It was the width of my hand then and it is the width of my hand now, which is more than can be said for the clerk's word.
 
 # At the head and in the gutter
 
-The salt at the head came off the barrow sand and has gone into the grain and will not come out, which is why the yard signs in charcoal and not in ink. The pale streak beside it is lead, worked in by the hand I held the leaf down with. The tar is off the rope I tie the barrow with; the strand in the second leaf goes slack when the weather goes slack, and I shut the pot when it does, which has told me truer than the sky. The blue-green chip came off a piece of Cliffs glass a girl set on my tally while she licked her thumb, which is a thing children are told not to do. The scorch is where the leaf lay too near the mouth of the third. The grain of sand has cut a line through one word of the fourth verse and I have not written it back, because a song with a word gone is a song said slowly. The ring is sour wine, set down at the first verse and taken up at the last, by which time it had gone the colour of the trough. The grey along the outer fold came off a cuff laid where no cuff has business lying in a sand-shed. I have not swept it. There is no Last Day at a furnace and nothing here is burnt in the morning and called dealt with; the fire goes on and the damp goes on eating the clerk's words and leaving his figures.
+The salt at the head came off the barrow sand and has gone into the grain and will not come out, which is why the yard signs in charcoal and not in ink. The pale streak beside it is lead, worked in by the hand I held the leaf down with. The tar is off the barrow rope; the strand in the second leaf goes slack in wet weather, and I shut the pot when it does. The blue-green chip came off Cliffs glass a girl set on my tally while she licked her thumb, which children are told not to do. The scorch is where the leaf lay too near the mouth of the third. The grain of sand has cut a line through one word of the fourth verse and I have not written it back, because a song with a word gone is a song said slowly. The ring is sour wine, set down at the first verse and taken up at the last, by which time it had gone the colour of the trough. The grey along the outer fold came off a cuff laid where no cuff has business lying in a sand-shed. I have not swept it. There is no Last Day at a furnace and nothing here is burnt in the morning and called dealt with; the fire goes on and the damp goes on eating the clerk's words and leaving his figures.
 
 # At the foot, in a hand nobody will own
 
@@ -170,6 +170,6 @@ The salt at the head came off the barrow sand and has gone into the grain and wi
 > The Council keeps a word that rots and a figure that does not.
 > The sixth hand holds the jar and is not entered.
 
-I asked the glazer, a man who draws the pots at the third, and a clerk of the tide-tally house, and had three answers and no hand. I have left the lines where they were written.
+I asked the glazer, a pot-drawer and a tide-clerk, and had three answers and no hand. I have left the lines where they were written.
 
 The leaf goes back into the sailcloth and the sailcloth into the pot. Tomorrow the jar goes round to five and the sixth holds it level, and if a man from the Council room stands in the yard we shall sing the kept verse to the trough instead of to him, and the damp will go on eating his verbs and leaving his figures, which is the only counting here anybody has ever wanted to keep.
