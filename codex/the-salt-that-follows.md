@@ -5,7 +5,7 @@ provenance: Written in Stone of Y.H. 812, the Thin Year of the Long Cold, by one
 relates_to: [salt-thing, the Sallow Sea, the Sallow draw, Vhal, the Quay, the salt pans, the Glaze Cliffs, the Council of Tides, the Council room, dippers, the ebb, the turn, the slack, the tide-tally house, salt-paper, charcoal, tar, eel-sinew, Grathic, Ledgerhand, bit, mark, crown, ember, cure salt, four bits the pound, brine, rain, barrel, brine-gull, silt-leach, the Warm, the cold, grey fingertips, Thin, Held, Banked, collector, cold iron, the Ash, wet wool, wet rope, the coast pass, Greybank, the Ilm, Sill, the Thin Year, the Long Cold, Stone, Ilmen]
 ---
 
-I keep the shore-watch at the pans outside Vhal. My post is the cure-shed and the barrels of rain. The boats lie off the shore in Stone when the Sallow runs cold and the lead comes down in the sand out of the Glaze Cliffs, and a boat lying off a shore in that month is a boat with something aboard that somebody paid to keep warm. My work is to know what goes off it in the night. I write at the end of a watch with the tallow down to a knuckle and the salt coming up in the paper.
+I keep the shore-watch at the pans outside Vhal. My post is the cure-shed and the barrels of rain. The boats lie off in Stone when the Sallow runs cold and the lead comes down in the sand out of the Glaze Cliffs, and a boat lying off a shore in that month is a boat with something aboard somebody paid to keep warm. My work is to know what goes off it in the night. I write at the end of a watch with the tallow down to a knuckle and the salt coming up in the paper.
 
 The leaves I wrote on first were tide-tallies spoiled by sea-water. The sea took the figures off clean, which was a mercy of a kind: a figure the sea has eaten is a figure no clerk can enter. I write in charcoal now, on the backs of the same tallies and on folds of salt-paper stiffened with tar. Charcoal goes into the grain; salt-paper rots, and a contract that rots is held a virtue in this port. This book is the one thing about the shed the damp has not been asked to settle.
 
@@ -15,7 +15,7 @@ The bloom at the head came up out of the paper. I have not brushed it off. A boo
 
 It does not steal. This is the first thing a new man gets wrong and the thing that costs him his hands. He looks for a beak or a rat's teeth, and meanwhile the pot under the mast has gone cold.
 
-It follows a boat at night and taps where the warm is kept. I have seen one come up under the lee at the turn, and there was no body to it that I could put a spear to: a lift in the water the colour of the pans, a crust at the edge of it, and a small place in the middle that was not cold when I laid the back of my hand near it with my glove on. I have set down what I felt and not what I make of it. It is a shape of salt and cold water, and something in it holds together overnight, which plain salt in plain water does not do.
+It follows a boat at night and taps where the warm is kept. I have seen one come up under the lee at the turn, and there was no body to put a spear to: a lift in the water the colour of the pans, a crust at the edge of it, and a small place in the middle that was not cold when I laid the back of my hand near it with my glove on. I have set down what I felt and not what I make of it. It is a shape of salt and cold water, and something in it holds together overnight, which plain salt does not.
 
 A man who sleeps on deck and wakes with grey fingertips has not been bitten. There is no wound to show. He has been near something that draws the way a silt-leach draws through an ankle, only with the hull between them. I have held such a hand. The cold was in the nails and did not go away below, and he kept putting the hand into his coat as though it belonged to somebody else and he was minding it for them.
 
@@ -23,15 +23,15 @@ They carry a barrel of rain. Every captain fills one before he lies off the pans
 
 # The tapping
 
-It taps once. Then it waits. Then it taps again, a little lower, under the waterline where the pot of coals stands in blind ash. A cooper knows a cask by the note it gives under the knuckle, full or flat; the thing taps from the outside and knows the same thing, and when the note goes flat it stops tapping and stays where it is until morning.
+It taps once. Then it waits. Then again, a little lower, under the waterline where the pot of coals stands in blind ash. A cooper knows a cask by the note it gives under the knuckle, full or flat; the thing taps from outside and knows the same, and when the note goes flat it stays where it is until morning.
 
-By morning the coals are cold. The loaf is where the man set it. The stone out of the Keel has gone the colour of the shed slate. There is no hole in the hull and no water in the bilge, and a man will say the boat was robbed, but nothing has been carried away that he can put a name to except the warm. I watched a boat come in off the cliffs with its store gone and its cargo whole, and the captain angrier at his two grey hands than at his cold pot, which is a reasonable anger and not one I have ever seen entered.
+By morning the coals are cold. The loaf is where the man set it. The stone out of the Keel has gone the colour of the shed slate. There is no hole in the hull and no water in the bilge, and a man will say the boat was robbed, but nothing has been carried away that he can name except the warm. I watched a boat come in off the cliffs with its store gone and its cargo whole, and the captain angrier at his two grey hands than at his cold pot, which is reasonable and not entered.
 
-It keeps to boats. I have set a warmed stone on the shore under a dish and sat by it through two watches with the lamp shut, and nothing came to it. A boat is a vessel that floats with its warm in one place; a stone on the shore is a stone. I have written the two things on the same leaf and drawn no line between them. I do not put a cause in a book the Council borrows. A cause has a verb, and a verb is the thing they take out first.
+It keeps to boats. I set a warmed stone on the shore under a dish and sat by it through two watches with the lamp shut, and nothing came. A boat is a vessel that floats with its warm in one place; a stone on the shore is a stone. I have set the two things on one leaf and drawn no line between them. I do not put a cause in a book the Council borrows. A cause has a verb, and a verb is the thing they take out first.
 
 # The verse
 
-*Said low at the pan-edge going out on the first watch, never coming in. The second line of the last verse is the old line and every man on the shore sings it wrong on purpose, because a song that gives the thing a reason is a song a man can carry home and set by his own fire. I have set it down as it is said, with the wrong line standing and the gap kept the length the men keep it.*
+*Said low at the pan-edge going out on the first watch, never coming in. The fourth line of the last verse is the old line and every man on the shore sings it wrong on purpose, because a song that gives the thing a reason is a song a man can carry home and set by his own fire. I have set it down as it is said, with the wrong line standing and the gap kept the length the men keep it.*
 
 > One for the pan and one for the tide,
 > one for the boat that keeps its coal;
@@ -45,7 +45,7 @@ It keeps to boats. I have set a warmed stone on the shore under a dish and sat b
 >
 > Count the coals and count the hands,
 > count the grey that comes on deck;
-> one tap left for the man who paid,
+> one tap left for the fare unpaid ---
 > and the old line wrong where the gap should be.
 
 The gap is for a drowned sailor. The men say he could not pay the ferry and goes now under the hull of the next boat that lies off the shore, tapping for the fare. I have heard the tale with three names on it in three mouths and have not written any of them. A man on the pulled benches taps the gunwale twice at the last line and will not say why; I have asked and he has not told me, and I have let the two taps stand.
@@ -69,13 +69,13 @@ These are the watches I kept a true account of. There were others I did not writ
 
 > *Underneath, in charcoal, in mine:* Two words gone and the figure left. He has entered the salt I sold and struck out the hands that went grey getting it. I have put the hands back where his column cannot reach, and my own mark beside them.
 
-The twelve bits for Stone 17 went into the boat's account and not into mine, which is as it should be, since the salt came off a boat I watched empty. There is a jar in the shed from that watch that I have not sold and have not entered. A jar with a figure on it travels; a jar without one stays under the bench. I have never been asked to explain the difference and have never offered to.
+The twelve bits for Stone 17 went into the boat's account and not into mine, which is as it should be, since the salt came off a boat I watched empty. The jar from that watch I have not sold and have not entered. A jar with a figure on it travels; one without stays under the bench. I have never been asked to explain the difference and have never offered to.
 
 # The salt it leaves
 
 When the ebb runs far out it leaves one stranded on the pans sometimes, where it goes smaller than a man's hand and then to a crust with a hollow in it. We scrape the crust up at first light and sell it at four bits the pound in Vhal. It is the finest curing salt in Sarn and is said to keep a wound from turning. I have seen it laid in a cut that went quiet and in one that went on as it would have without it, and made no rule out of them.
 
-The dippers bless their nets against the thing at dawn and will not do it while a Council man stands on the board. One of them told me a blessing said before a clerk is a blessing with a figure on it, and a blessing with a figure on it has already been half bought. I have written his words and not his name.
+The dippers bless their nets against the thing at dawn and will not do it while a Council man stands on the board. One told me a blessing said before a clerk is a blessing with a figure on it, and a blessing with a figure on it has been half bought. I have written his words and not his name.
 
 > *In the pale ink of a dipper, on a corner of salt-paper soft where the damp took it:* It takes the warm and leaves the salt, and we sell what it leaves. We bless the net. We do not bless the boat, because the boat has already been paid for.
 
@@ -95,6 +95,6 @@ The bloom at the head is salt out of the paper, which is not the same as salt ou
 
 > It follows the boat because the boat is warm. It cannot follow the rain. Nobody has asked it why.
 
-I put the question to four people and got four answerings and no hand to sign them. The line has lain here through two copyings and nobody has come forward for it, which is how I know it is worth keeping.
+I put the question to four people and got four answerings and no hand to sign them. The line has lain here through two copyings and nobody has claimed it, which is how I know it is worth keeping.
 
-There is a reach inside the Glaze Cliffs where the boats lie close in winter and the water comes up warm in the cracks of the stone even when the wind is off the Rim. I have not taken a boat into that reach. Next Stone I will carry a fresh pot of coals, a coil of cord and a barrel of rain, and lie off there on the turn with the lamp shut, and if a thing that cannot cross fresh water comes up out of water that is warm for no reason I have seen, I will set that down too, in charcoal, with the verb standing as it happened and no figure at the end of the row.
+There is a reach inside the Glaze Cliffs where boats lie close in winter and the water comes up warm in the cracks of the stone even when the wind is off the Rim. I have not taken a boat in there. Next Stone I will carry a fresh pot of coals, a coil of cord and a barrel of rain, and lie off on the turn with the lamp shut, and if a thing that cannot cross fresh water comes up out of water warm for no reason I have seen, I will set that down too, in charcoal, with the verb standing as it happened and no figure at the end of the row.
