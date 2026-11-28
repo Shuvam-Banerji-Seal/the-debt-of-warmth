@@ -1,0 +1,63 @@
+\begin{tikzpicture}
+  % The chapter's heart: the order of a hand and an eye. The hand goes to the
+  % slate first and the figure is entered; the eye comes after, to the man who
+  % gave it, with a half-beat broken in the gap. Nobody saw the hand; no man
+  % stood under the figure. An order, and not an answer.
+
+  % —— quiet flourishes holding the width, one to either hand ——
+  \node at (-3.55,0.34) {\pgfornament[width=2.4cm,color=ornament,opacity=0.15,symmetry=v]{73}};
+  \node at ( 3.55,0.34) {\pgfornament[width=2.4cm,color=ornament,opacity=0.15,symmetry=v]{73}};
+
+  % —— the inward slate, in its wooden frame ——
+  \fill[night, opacity=0.74, rounded corners=2pt]
+    (-1.32,-0.74) rectangle (1.32,1.04);
+  \draw[faded!44!ink, line width=0.52pt, opacity=0.52, rounded corners=2pt]
+    (-1.32,-0.74) rectangle (1.32,1.04);
+  \draw[faded!26!ink, line width=0.24pt, opacity=0.30, rounded corners=2pt]
+    (-1.19,-0.61) rectangle (1.19,0.91);
+  % one rag-wipe left on the slate, not a sign
+  \draw[faded!30!vellum, line width=0.30pt, opacity=0.13, line cap=round]
+    (-0.94,0.66) .. controls (-0.30,0.80) and (0.40,0.72) .. (0.88,0.54);
+
+  % —— the figure, entered in the hand's own order: a mark, and not a man ——
+  \draw[rubric, line width=1.05pt, opacity=0.80, line cap=round]
+    (-0.22,-0.04) -- (0.12,0.54);
+  \draw[rubric!74!ink, line width=0.86pt, opacity=0.66, line cap=round]
+    (-0.29,0.20) -- (0.17,0.02);
+
+  % —— the stylus coming from a hand nobody watched ——
+  \draw[ornament, line width=0.92pt, opacity=0.50, line cap=round]
+    (-2.98,1.44) -- (-0.20,0.28);
+  \fill[rubric!40!ink, opacity=0.60] (-0.18,0.30) circle (0.030);
+  % three finger-strokes gripping the upper end of it
+  \draw[faded!38!ink, line width=0.38pt, opacity=0.42, line cap=round]
+    (-2.72,1.30) .. controls (-2.54,1.50) and (-2.30,1.52) .. (-2.18,1.36);
+  \draw[faded!38!ink, line width=0.38pt, opacity=0.38, line cap=round]
+    (-2.58,1.14) .. controls (-2.40,1.34) and (-2.16,1.34) .. (-2.02,1.20);
+  \draw[faded!34!ink, line width=0.32pt, opacity=0.32, line cap=round]
+    (-2.46,0.98) .. controls (-2.28,1.16) and (-2.06,1.14) .. (-1.94,1.02);
+
+  % —— the eye, arriving after; the line broken in its half-beat ——
+  \draw[faded!20!ink, line width=0.24pt, opacity=0.24,
+        dash pattern=on 1.4pt off 3pt, line cap=round]
+    (1.34,0.62) .. controls (2.02,0.92) and (2.44,0.98) .. (2.74,1.02);
+  \draw[faded!16!ink, line width=0.22pt, opacity=0.16,
+        dash pattern=on 1.2pt off 2.8pt, line cap=round]
+    (3.04,1.05) .. controls (3.14,1.06) .. (3.20,1.06);
+  \node at (3.62,1.04) {\pgfornament[width=1.05cm,color=rubric!45!ink,opacity=0.48]{95}};
+
+  % —— the empty place where the giver should stand: no man under the figure ——
+  \draw[faded!16!ink, line width=0.22pt, opacity=0.20,
+        dash pattern=on 1.2pt off 2.8pt, line cap=round]
+    (0,-0.76) -- (0,-1.04);
+  \draw[faded!20!ink, line width=0.24pt, opacity=0.18, line cap=round]
+    (0,-1.34) ellipse (0.38 and 0.27);
+
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (0.66,-1.30) {no man under it};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.55,-1.66) -- (4.55,-1.66);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.92)
+    {the hand before the eye; an order, not an answer};
+\end{tikzpicture}
