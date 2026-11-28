@@ -2,7 +2,7 @@
 
 - Chapters complete: **119**
 - Words of story: **2,208,285**
-- Current chapter: 119 (step: publish, scene 7)
+- Current chapter: 120 (step: plan, scene 1)
 - Last chapter: A Hand to the Slate (Days 408–410 · Ilmen 14–16, Y.H. 814)
 - Author calls so far: 1276 (tokens in 234,061,445, out 29,487,828)
 - Updated: 2026-11-28 18:52
