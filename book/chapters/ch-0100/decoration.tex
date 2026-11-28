@@ -1,0 +1,86 @@
+\begin{tikzpicture}
+  % The chapter's heart: the vessel a house keeps and cannot pay for. The
+  % twice-mended pot stands on its board with the hairline showing between the
+  % old-brass staple and the tighter wire -- kept, mended, not made whole, and
+  % with nobody standing under it to be asked what it cost. Above it the small
+  % tend repeats: the hand rises an inch, takes its intake, holds it whole on
+  % the note's finishing and comes straight down, an object and not a power.
+  % The number kept beside it is not spoken, and nothing was spent to pay it.
+
+  % —— a small fleuron above ——
+  \node at (0,1.44) {\pgfornament[width=0.70cm,color=ornament,opacity=0.22]{2}};
+
+  % —— the faint ground-rule, wider than the emblem ——
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.55,-1.06) -- (4.55,-1.06);
+
+  % —— the pot board ——
+  \fill[ash!24!ink, opacity=0.28] (-1.52,-1.12) rectangle (1.52,-1.00);
+  \draw[ornament!42!ink, line width=0.42pt, opacity=0.48, line cap=round]
+    (-1.52,-1.00) -- (1.52,-1.00);
+  \draw[faded!26!ink, line width=0.24pt, opacity=0.26, line cap=round]
+    (-1.52,-1.12) -- (1.52,-1.12);
+
+  % —— the vessel, kept and mended ——
+  \fill[vellum, opacity=0.50]
+    (-0.78,0.42)
+    .. controls (-1.30,0.12) and (-1.22,-0.72) .. (-0.56,-1.02)
+    -- (0.56,-1.02)
+    .. controls (1.22,-0.72) and (1.30,0.12) .. (0.78,0.42)
+    -- cycle;
+  \draw[ornament!44!ink, line width=0.52pt, opacity=0.56, line cap=round]
+    (-0.78,0.42)
+    .. controls (-1.30,0.12) and (-1.22,-0.72) .. (-0.56,-1.02)
+    -- (0.56,-1.02)
+    .. controls (1.22,-0.72) and (1.30,0.12) .. (0.78,0.42)
+    -- cycle;
+  \draw[ornament!40!ink, line width=0.46pt, opacity=0.54]
+    (0,0.42) ellipse (0.78 and 0.13);
+  \draw[faded!24!ink, line width=0.24pt, opacity=0.30]
+    (0,0.45) ellipse (0.60 and 0.08);
+
+  % —— the hairline, still showing between the two mends ——
+  \draw[rubric!48!ink, line width=0.36pt, opacity=0.64, line cap=round]
+    (0.50,0.38) .. controls (0.62,0.12) and (0.44,-0.10) .. (0.58,-0.38)
+    .. controls (0.71,-0.62) and (0.60,-0.78) .. (0.74,-0.92);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (-0.92,-0.46) {the hairline showing};
+
+  % —— the old-brass staple, upper mend ——
+  \draw[gold!70!ornament, line width=1.4pt, opacity=0.70, line cap=round]
+    (0.46,0.04) -- (0.68,0.04);
+  \foreach \sx in {0.46,0.68}{
+    \draw[gold!58!ornament, line width=0.9pt, opacity=0.64, line cap=round]
+      (\sx,0.04) -- (\sx,-0.10);
+  }
+
+  % —— the tighter wire, lower mend, with its small knot at the crack ——
+  \draw[ink!64!night, line width=0.85pt, opacity=0.74, line cap=round]
+    (-0.94,-0.64) .. controls (-0.30,-0.72) and (0.34,-0.72) .. (0.94,-0.62);
+  \draw[ink!58!night, line width=0.70pt, opacity=0.70, line cap=round]
+    (0.58,-0.70) -- (0.70,-0.60) -- (0.62,-0.56);
+
+  % —— the last tend: up an inch, held whole, straight down ——
+  \draw[faded!36!ink, line width=0.42pt, opacity=0.54, line cap=round]
+    (0,0.57) .. controls (0.20,0.70) and (0.22,0.90) .. (0.07,1.03);
+  \draw[faded!36!ink, line width=0.42pt, opacity=0.54, line cap=round]
+    (0.07,1.03) -- (0.05,0.58);
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.30,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (-0.34,0.57) -- (-0.34,1.03);
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.30] (-0.42,0.57) -- (-0.26,0.57);
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.30] (-0.42,1.03) -- (-0.26,1.03);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (0.32,0.84) {an inch, held whole};
+
+  % —— the kept number, standing in an empty cartouche, unspoken ——
+  \draw[faded!24!ink, line width=0.26pt, opacity=0.32,
+        dash pattern=on 1pt off 2.2pt]
+    (2.45,-0.28) ellipse (0.74 and 0.32);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.44] at (2.45,-0.80)
+    {a number nobody speaks};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.44)
+    {what the days cost was attention};
+  \node at (0,-1.76) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{76}};
+\end{tikzpicture}
