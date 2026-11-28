@@ -9,13 +9,13 @@ I keep the meal-book at the mill and the toll-bag hangs on a nail behind the doo
 
 Twelve copper bits to the silver mark; twenty marks to a Sere crown, which comes north because it must and cannot always be spent here. The Court books in embers and will tell a man an ember is worth five marks. I have ground nine winters and never found one in the hopper, so I keep no column for it. A figure that will not move with the weather is one somebody has taught to stand still.
 
-> *In the narrow upright hand of a factor's clerk come up from Greybank, written above my first line:* Coin and reckoning entered. Ember: five marks. *Underneath, in mine:* He has written *is worth* where I should have written *the Court calls it worth*. I have put the verb back. A thing called five marks and a thing changing hands at five marks are two things, and only one of them comes through this door.
+> *In the narrow upright hand of a factor's clerk come up from Greybank:* Coin and reckoning entered. Ember: five marks. *Underneath, in mine:* He wrote *is worth* where I should have written *the Court calls it worth*. I put the verb back. A thing called five marks and a thing changing hands at five marks are two things, and only one comes through this door.
 
-Say the figures to the hopper and not to the man asking. Said looking at a man, a price becomes an argument, and an argument held level across a mill floor gets carried out with the meal and comes back with a second figure on it.
+Say the figures to the hopper and not to the man asking. Said looking at a man, a price becomes an argument, and an argument gets carried out with the meal and comes back with a second figure on it.
 
 # What the mill gives and what the Cross cries
 
-*The left column is what was called under the moot-post on the Account-days of Stone. The right is what passed over this bench between the last market of Bone and the frost on the hopper board. The wheel does not stop for a figure, and what goes in at the top comes out whether the board has agreed to it or not.*
+*The left column is what was called under the moot-post on the Account-days of Stone; the right, what passed over this bench between the last market of Bone and the frost on the hopper board. The wheel does not stop for a figure.*
 
 | Article | Cried at the Cross | Given at the mill |
 |---|---|---|
@@ -33,7 +33,7 @@ Say the figures to the hopper and not to the man asking. Said looking at a man, 
 
 # What the stone takes
 
-*These are not cried anywhere. A man learns them when the meal comes out lighter than the barley went in, which is the first arithmetic most children in this town learn.*
+*These are not cried anywhere. A man learns them when the meal comes out lighter than the barley went in.*
 
 | | Charge |
 |---|---|
@@ -46,7 +46,7 @@ Say the figures to the hopper and not to the man asking. Said looking at a man, 
 
 # The dues of the roads that bring a sack
 
-Four ways carry grain to this door and five carry it away. What is below is what I am told at this end, before the sack is set down and the dust comes off it. The tally-men at the far ends keep their own figures, and the two do not agree, which is the whole order of travelling.
+Four ways carry grain to this door and five carry it away. What is below is what I am told at this end, before the sack is set down. The tally-men at the far ends keep their own figures, and the two do not agree.
 
 ## The ridge road, from Cold Acre
 
@@ -97,11 +97,11 @@ Eighteen leagues of packed clay over corduroy, a Court road since the treaty of 
 
 ## The roads that do not bring a sack here
 
-Two roads go out of this country which have nothing to do with the mill. The Salt Road takes a mark at the coast pass and calls it a freely entered contribution; the Rim takes a mark or iron and promises no man back; the Hearth takes nothing at any gate, having taken it at home. A man asked which was dearest and I showed him the empty column. He said the Hearth, because a man pays it without seeing the hand.
+Three roads go out of this country which have nothing to do with the mill. The Salt Road takes a mark at the coast pass and calls it a freely entered contribution; the Rim takes a mark or iron and promises no man back; the Hearth takes nothing at any gate, having taken it at home. A man asked which was dearest and I showed him the empty column. He said the Hearth, because a man pays it without seeing the hand.
 
 # The song said into the hopper
 
-*Said low while the sacks go over, to the hopper and not to the company, and never while a man from Slate Row stands in the door. The last line is said to the bag behind the nail.*
+*Said low while the sacks go over, to the hopper and not to the company, and never while a man from Slate Row stands in the door.*
 
 > Twelve to the mark and twenty to the crown,
 > the Court books five and never sends them down;
@@ -119,13 +119,13 @@ The dust of this mill gets into a man and he coughs up a colour he will not disc
 
 # The hands that are not mine
 
-The factor's clerk takes the doer out of every sentence, as though a sack could set itself down and a stone take its own handful. Where I wrote *I lifted*, he wrote *was charged*; where I wrote *the road took*, he wrote *was taken*. I have put my words back beneath his, as the old grinding shows under the new on a dressed stone. He set the printed figure in the margin where I had left a space beside the one spoken in the yards, and did not ask why.
+The factor's clerk takes the doer out, as though a sack could set itself down and a stone take its own handful. Where I wrote *I lifted*, he wrote *was charged*; where I wrote *the road took*, he wrote *was taken*. I put my words back beneath his, as old grinding shows under new on a dressed stone. He set the printed figure in the margin beside the one spoken in the yards, and did not ask why.
 
-The carter wrote at the bridge. A girl of the Cross set her sums in the bottom corner, two bits going into a mark where four should have stood. I have not rubbed them out. They are the only figures here nobody will be asked to pay.
+The carter wrote at the bridge. A girl of the Cross set her sums in the corner, two bits going into a mark where four should have stood. I have not rubbed them out. They are the only figures here nobody will be asked to pay.
 
 # At the head and in the gutter
 
-The white at the head is mill-dust, not salt; my father's hands were white to the wrist and never noticed he had marked a leaf. The brown tideline came up from the Fishstairs in an apron, and I carried the leaf dry against my chest though there was no figure in it to keep dry. The barley awn in the second fold is stiff where the crease kept it from the damp. The ring is not ale and I did not see the cup go down. The nick came from the dressing-pick I use when my hands are wet. The grey along the fold came off a cuff laid where no cuff has business lying, and I have not swept it. There is no Last Day at a mill. The dust goes out with the meal and nobody calls it dealt with.
+The white at the head is mill-dust, not salt; my father's hands were white to the wrist and never noticed he had marked a leaf. The brown tideline came up from the Fishstairs in an apron, and I carried the leaf dry though there was no figure in it. The barley awn in the second fold is stiff where the crease kept it from the damp. The ring is not ale and I did not see the cup go down. The nick came from the dressing-pick I use when my hands are wet. The grey along the fold came off a cuff laid where no cuff has business lying, and I have not swept it. There is no Last Day at a mill. The dust goes out with the meal and nobody calls it dealt with.
 
 # At the foot, in a hand nobody will own
 
@@ -135,4 +135,4 @@ The white at the head is mill-dust, not salt; my father's hands were white to th
 > and goes out as meal with the name ground off,
 > and no figure stands in the space between.
 
-I asked the miller, a carter off the ridge, and a clerk up from the Greybank beam, and had three answers and no hand. I have left the line where it was written. The leaf goes back into the toll-bag and the barleycorn into the crease. Tomorrow the sacks come down the ridge road frozen hard, and a man will ask what his grain will fetch, and I shall give him today's figure; by the time the wheel has turned it will be a thing that was true.
+I asked the miller, a carter off the ridge, and a clerk up from the Greybank beam, and had three answers and no hand. I have left the line where it was written. The leaf goes back into the toll-bag and the barleycorn into the crease. Tomorrow the sacks come down frozen hard, and I shall give the figure I gave today; by the time the wheel has turned it will be a thing that was true.
