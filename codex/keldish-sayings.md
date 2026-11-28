@@ -25,87 +25,80 @@ Say these low, to the rope, the stone, the iron and the count, and to a person l
 
 3. “A thin man carries two counts. Only one of them is in the skin.”
 
-*Gloss — When a boy comes up with a number the mountain gave him, the old numerals are cut out and new ones cut in, and the earlier ones stand in the pale pucker round about. Nobody asks a returned man which count is his. The reeve enters the later. My father's arm read like a slate with a correction nobody had agreed to, and the keys went into my hand the next morning.*
+*Gloss — When a boy comes up with a number the mountain gave him, the old numerals are cut out and new ones cut in, and the earlier ones stand in the pale pucker round about. Nobody asks which count is his. The reeve enters the later. My father's arm read like a slate with a correction nobody had agreed to, and the keys went into my hand the next morning.*
 
 # Of the stone and what it keeps
 
-5. “Warm-stone keeps what was put into it and tells nobody who paid.”
+4. “Warm-stone keeps what was put into it and tells nobody who paid.”
 
-*Gloss — A block out of the Ninth holds its heat longer than anything else in Sarn and goes south for ten marks, and no man at the shaft asks what the gallery gave for it. A boy is given a shaving of it after the knife, and it is set against a newborn's back in the houses up the terrace. Neither has a figure. I have kept the shaving in this fold thirteen years and have never lent it, though I have been asked twice.*
+*Gloss — A block out of the Ninth holds its heat longer than anything else in Sarn and goes south for ten marks, and no man at the shaft asks what the gallery gave for it. A boy is given a shaving after the knife, and it is set against a newborn's back in the houses up the terrace. Neither has a figure. I have kept the shaving in this fold thirteen years and have never lent it.*
 
-6. “The mountain sweats before it gives. Smell the lead and come up.”
+5. “The mountain sweats before it gives. Smell the lead and come up.”
 
-*Gloss — In the deep shafts the Warm comes up through the stone in a lethal flood, and the only warning is the smell of hot lead. It comes ahead of the heat. A block nearly out is a wage not yet paid, which is why a man goes on cutting after he has smelled it. The reeve stops the shift anyway, and counts the lives going up against the iron coming down; the two figures have never agreed and were never meant to.*
+*Gloss — In the deep shafts the Warm comes up through the stone in a lethal flood, and the only warning is the smell of hot lead, ahead of the heat. A block nearly out is a wage not yet paid, which is why a man goes on cutting after he has smelled it. The reeve stops the shift anyway, and counts the lives going up against the iron coming down; the two never agree.*
 
-7. “The Court's fire is a candle lit from ours.”
+6. “The Court's fire is a candle lit from ours.”
 
 *Gloss — We say the true Hearth lies beneath this mountain and the flame behind the grating in the Hearthseat is a candle lit from it. The Court has never accepted the claim and has never bothered to argue it, which is a kind of answer too. A man from Greybank wrote *unverified* above this line. I have put the candle back underneath.*
 
-> *In the narrow upright hand:* True-Hearth claim unverified; no deduction arising. *In mine, below:* He has taken the lighting out of it. A candle is a thing somebody lit. I have put the hand back, because a man at the mouth wants to know whose fire he is warming himself at.*
+7. “The mountain keeps its own. We do not go in after them.”
 
-8. “The mountain keeps its own. We do not go in after them.”
-
-*Gloss — The dead are walled into the mine facing the deep seam. The surveyors add a number to a slate that nobody reads aloud, and the family is paid in iron. The mountain keeps its own, we say, and do not say which part of them it keeps. There is no breaking of a pot at a Keldish door and no Last Day under the Keep; there is a wall, and a number, and a payment in iron.*
+*Gloss — The dead are walled into the mine facing the deep seam. The surveyors add a number to a slate nobody reads aloud, and the family is paid in iron. We do not say which part of them the mountain keeps. There is no broken pot at a Keldish door and no Last Day under the Keep; there is a wall, and a number, and a payment in iron.*
 
 # Of the iron and the hand
 
-10. “One bite holds the vessel whole. One bite takes the hand. It is the same iron.”
+8. “One bite holds the vessel whole. One bite takes the hand. It is the same iron.”
 
-*Gloss — The clamp is mercy and mutilation in one cold bite. Held short, it stops the Warm from taking a man; held past the turning of the watch, it leaves the arm below the colour of old rope and it does not come back. The iron has never asked anybody which mercy was meant. A cutter at the Floor told me this in four words and went back to cleaning his clamp.*
+*Gloss — The clamp is mercy and mutilation in one cold bite. Held short, it stops the Warm from taking a man; held past the turning of the watch, it leaves the arm below the colour of old rope and it does not come back. The iron has never asked which mercy was meant. A cutter at the Floor told me this in four words and went back to cleaning his clamp.*
 
-11. “Tap before you cut. A flaw answers dry.”
+9. “Tap before you cut. A flaw answers dry.”
 
 *Gloss — A sound block answers full under the knuckle; one with a hair in it gives back a small dry sound. The same goes for an arm. A boy who cuts across a flaw he did not tap is sent to the wall to learn the note, and the wall does not answer him.*
 
-12. “A way is a door cut in the wall of a man. It does not shut again.”
+10. “A way is a door cut in the wall of a man. It does not shut again.”
 
-*Gloss — The first way is cut across a surface way in the forearm and held open while it scars. It aches before the thaw and after, and a man answers to whichever number the room has given him. A fortnight is given to the arm, and a useless arm is not sent to the rack to hurry the scar. I have known a master to do it anyway and pay for the hand with the whole life.*
+*Gloss — The first way is cut across a surface way in the forearm and held open while it scars. It aches before the thaw and after. A fortnight is given to the arm, and a useless arm is not sent to the rack to hurry the scar. I have known a master to do it anyway and pay for the hand with the whole life.*
 
-13. “The slate keeps the honest answer. The palm keeps the burn.”
+11. “The slate keeps the honest answer. The palm keeps the burn.”
 
-*Gloss — Trial of hot iron is put to the palm when a man is to be trusted with the racks. He holds it and says whether he owes, and the honest answer leaves the hand dead. There have been a great many honest men at this Floor with dead hands. We have a column for the answer and no column for the hand, and the Order has lived on that omission for a hundred years.*
+*Gloss — Trial of hot iron is put to the palm when a man is to be trusted with the racks. He holds it and says whether he owes, and the honest answer leaves the hand dead. There have been a great many honest men at this Floor with dead hands. We have a column for the answer and none for the hand, and the Order has lived on that for a hundred years.*
 
 > *Struck hard in charcoal against this saying, by a cutter who would not sign it:* Mine is dead and I answered true. They entered the honesty and never asked about the hand. *In mine, underneath:* I have left his line struck above mine and mine standing below, so a boy can see what was said and what was done to it. The charcoal has come off on the fold and I have not brushed it away.*
 
 # Of the going down and the keys
 
-14. “Go down with the number you brought. Come up with what the mountain gives.”
+12. “Go down with the number you brought. Come up with what the mountain gives.”
 
-*Gloss — At thirteen every Keldish child goes down the First Seam for one day. Some come back with the number changed, and a few do not come back, and the family is paid in iron. The Descent is not a feast and there is no clapping. A mother at the mouth counts her child going down and counts him coming up, and if the second count is not the first she says nothing, because she has been told what to say and it is not that.*
+*Gloss — At thirteen every Keldish child goes down the First Seam for one day. Some come back with the number changed, and a few do not come back, and the family is paid in iron. The Descent is not a feast and there is no clapping. A mother counts her child going down and counts him coming up, and if the second count is not the first she says nothing, because she has been told what to say and it is not that.*
 
-15. “A man who comes up thin is given the keys. Keep your hand on them.”
+13. “A man who comes up thin is given the keys. Keep your hand on them.”
 
 *Gloss — He cannot descend again, and the keys are put into his hand instead, which is called a kindness. My father held them until the morning he put them in mine. He never went down after and never said why he had come up different, and I have not asked the reeve's slate, which has the later figure and nothing else.*
 
-16. “The deep counts a life at eleven months. The twelfth is the mountain's.”
+14. “The deep counts a life at eleven months. The twelfth is the mountain's.”
 
-*Gloss — Condemned men and bought breath worked under-vessed in the deep seams are reckoned at eleven months. Nobody enters the twelfth and nobody has ever found it. A new man asks what happens at the end of the eleventh and is told to finish his cut, which is the whole answer the deep has ever given.*
+*Gloss — Condemned men and bought breath worked under-vessed in the deep seams are reckoned at eleven months. Nobody enters the twelfth and nobody has found it. A new man asks what happens at the end of the eleventh and is told to finish his cut, which is the whole answer the deep has ever given.*
 
 # Of the road and the people above it
 
-17. “A Warden who cannot hold a pass is removed by his own captains. The pass stays.”
+15. “A Warden who cannot hold a pass is removed by his own captains. The pass stays.”
 
-*Gloss — Karric VII shut the Cold Pass in Y.H. 741 and the border was fixed in 747. There is a survey post at the pass and no gate, and our surveyors do not promise to bring a man back from it. The Warden changes. The pass does not. A man who goes past the post with a warm-stone and a figure in his head comes back with one of the two, and sometimes neither.*
+*Gloss — Karric VII shut the Cold Pass in Y.H. 741 and the border was fixed in 747. There is a survey post and no gate, and our surveyors do not promise to bring a man back from it. The Warden changes. The pass does not. A man who goes past the post with a warm-stone and a figure in his head comes back with one of the two, and sometimes neither.*
 
-18. “The Vorr sell numbers and nothing else. We buy the numbers and ask no other question.”
+16. “We clipped the ends off our words the way we clip the days off a winter. What is left is what was meant.”
 
-*Gloss — They keep the Listening Stones five leagues above the Keep and sit against them for days and come down with numbers, and they do not undergo the Return. When one dies the others seat the body facing the way it came and leave it uncovered. We do not cover it and do not say what we think of that. We buy their counts for the survey and never ask what the stones told them, because a man who asks has begun to want an answer, and the Vorr have one answer for everything.*
-
-19. “We clipped the ends off our words the way we clip the days off a winter. What is left is what was meant.”
-
-*Gloss — Keldish is a clipped speech with the number before the noun: forty of head, not capacity; two fingers, gone; one way, open. A lowlander hears rudeness in it and calls it brevity, which is the same mistake made by a man who calls a clamp an ornament. I have set the words here in the lowland letters and struck the endings off, so that something of the hard edge travels down the road.*
+*Gloss — Keldish is a clipped speech with the number before the noun: forty of head, not capacity; two fingers, gone; one way, open. A lowlander hears rudeness in it and calls it brevity, which is the mistake of a man who calls a clamp an ornament. I have set the words in lowland letters and struck the endings off, so something of the hard edge travels down the road.*
 
 # The mouth-song
 
-*Said at the mouth while the rope goes down and the boy after it, to the rope and not to the boy. The fifth line is held: it is the number the mountain may give, and no singer has ever put a figure in it. Coming up, the song is said backward and the held line held again. A survey-clerk put a round nought in that place once and wrote *vacancy* beneath it. A nought is a number. The place is not.*
+*Said at the mouth while the rope goes down and the boy after it, to the rope and not to the boy. One line is held: it is the number the mountain may give, and no singer has ever put a figure in it. Coming up, the song is said backward and the held line held again. A survey-clerk put a round nought in that place once and wrote *vacancy* beneath it. A nought is a number. The place is not.*
 
 > One for the rope and one for the stone,
 > one for the count that the boy brought down;
 > tap it and cut it and hold it true,
 > and what comes up is the mountain's own.
 >
-> Two for the shaving kept in the fold,
-> two for the smell that comes before the heat;
+> One for the shaving, one for the heat,
 > the pass stands open, the post stands bare,
 > and the Warden's name is a thing that changes.
 >
@@ -123,7 +116,7 @@ Say these low, to the rope, the stone, the iron and the count, and to a person l
 
 # What the borrowed hands did
 
-A survey-clerk of the Court's factor borrowed the leaf at Greybank, ink settled in two fingers of a soft cuff, and struck the verbs out as though a verb were a thing a man could carry down a shaft and sell.
+A survey-clerk of the Court's factor borrowed the leaf at Greybank, ink in two fingers of a soft cuff, and struck the verbs out as though a verb were a thing a man could carry down a shaft and sell.
 
 - At *the mountain keeps its own*, he wrote *interment recorded; no return arising*, true of a slate and silent about the wall.
 - At *the slate keeps the honest answer*, he set *trial by ordeal; evidentiary value nil*, and the hand that held the iron has dropped out of the sentence altogether.
