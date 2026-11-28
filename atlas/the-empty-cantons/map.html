@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Empty Cantons — the Quiet Acre</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 48% 46%, rgba(255,249,228,.42), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', SEAWASH='#a9bfb2',
+      GOLD='#a9833c', GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', ASH='#9a9080',
+      EARTH='#d8c8a4', CLAY='#cbb58f', BONE='#f2ecd9', TURF='#6d5a3e';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(8140417);
+  function rr(a,b){return a+(b-a)*rnd();}
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  /* ---------- layers, inked in order; every lettering goes on last ---------- */
+  var defs=E('defs',{});
+  E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.52});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gStruct=E('g',{}),
+      gRoad=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+  var i,k,q;
+
+  /* foxing, the fold and the old damp of the paper */
+  for(i=0;i<32;i++){
+    E('ellipse',{cx:rr(80,2320),cy:rr(80,1520),rx:rr(16,88),ry:rr(10,54),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gWash);
+  }
+  [700,1420,2060].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:60,y1:806,x2:2340,y2:806,stroke:'#7a5a30','stroke-width':1,opacity:0.05},gWash);
+
+  /* the clay body: a dry, over-fired country with bays and tongues of bare ground */
+  E('path',{d:D(jit([[60,320],[340,304],[640,330],[920,306],[1220,332],[1540,308],[1840,334],[2120,310],[2340,332],
+                       [2340,1288],[2060,1266],[1780,1300],[1500,1272],[1220,1304],[940,1276],[660,1308],[360,1284],[60,1304]],4.2,30),true),
+    fill:CLAY,opacity:0.24},gWash);
+  /* the low ground that holds no damp, drawn cool and left empty */
+  E('path',{d:D(jit([[60,700],[300,672],[560,714],[820,690],[1040,726],[1300,700],[1540,732],[1800,704],[2060,738],[2340,712],
+                       [2340,980],[2060,1004],[1800,972],[1540,1008],[1280,978],[1020,1016],[760,984],[500,1018],[260,988],[60,1012]],3.8,28),true),
+    fill:ASH,opacity:0.14},gWash);
+  /* scrub rises, over-fired and pale, in the east and south */
+  E('path',{d:D(jit([[1660,470],[1900,448],[2110,472],[2320,452],[2340,700],[2120,724],[1900,696],[1700,720],[1600,610]],3.6,26),true),
+    fill:TURF,opacity:0.12},gWash);
+  E('path',{d:D(jit([[380,1090],[700,1068],[980,1096],[1240,1070],[1460,1100],[1500,1260],[1160,1290],[800,1264],[440,1288],[340,1180]],3.6,26),true),
+    fill:GOLD,opacity:0.11},gWash);
+  /* Grath, faint along the north edge, for neighbourhood only */
+  E('path',{d:D(jit([[60,250],[520,238],[980,258],[1460,240],[1920,260],[2340,244],[2340,320],[1920,334],[1460,314],[980,336],[520,314],[60,326]],3,24),true),
+    fill:EARTH,opacity:0.20},gWash);
+  /* the warm south beyond the Line */
+  E('path',{d:D(jit([[60,1300],[420,1282],[800,1310],[1180,1288],[1560,1314],[1940,1290],[2340,1316],
+                       [2340,1560],[60,1560]],3.8,28),true),
+    fill:GOLD,opacity:0.13},gWash);
+
+  /* ---------- terrain: a bare country kept in little broken pieces ---------- */
+  function tuft(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-7 2 q-2 -8 -6 -12 M0 2 L0 -15 M7 2 q2 -7 6 -11',fill:'none',stroke:MG,'stroke-width':1.0,opacity:0.66},g);
+    E('path',{d:'M-4 2 q4 -3 8 0',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.45},g);
+  }
+  function barrenStone(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-11 4 L-8 -6 L2 -10 L10 -3 L9 5 Z',fill:'#b9a17c',stroke:INK,'stroke-width':1.1,opacity:0.9},g);
+    E('path',{d:'M-8 -6 L0 0 L10 -3 M2 -10 L0 0',fill:'none',stroke:FADE,'stroke-width':0.7,opacity:0.5},g);
+  }
+  function brokenWall(x,y,rot,len,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') rotate('+rot+')'},p);
+    for(var a=0;a<len;a+=26){
+      E('path',{d:'M'+a+' 0 l22 -1 l1 7 l-23 1 z',fill:'#c9b58f',stroke:FADE,'stroke-width':0.9,opacity:0.6},g);
+      E('path',{d:'M'+(a+7)+' 0 l0 7 M'+(a+16)+' 0 l0 7',stroke:FADE,'stroke-width':0.6,opacity:0.4},g);
+    }
+  }
+  function hill(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-34 4 q14 -20 30 -5 q10 -14 22 -2 q8 -10 16 6',fill:'none',stroke:FADE,'stroke-width':1.3,opacity:0.6},g);
+    E('path',{d:'M-22 2 q10 -11 20 -2 M4 2 q8 -8 15 -1',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.4},g);
+    for(var b=0;b<4;b++){ E('line',{x1:-26+b*17,y1:1,x2:-32+b*17,y2:-6,stroke:MG,'stroke-width':0.7,opacity:0.4},g); }
+  }
+  for(i=0;i<118;i++){ tuft(rr(110,2310),rr(320,1280),rr(0.45,0.95),gTerr); }
+  for(i=0;i<54;i++){ barrenStone(rr(120,2300),rr(330,1270),rr(0.55,1.05),gTerr); }
+  for(i=0;i<16;i++){ hill(rr(180,2260),rr(420,1240),rr(0.65,1.2),gTerr); }
+  brokenWall(760,724,-8,104,gTerr);
+  brokenWall(1510,690,12,78,gTerr);
+  brokenWall(1310,1010,-16,130,gTerr);
+  brokenWall(1960,900,6,92,gTerr);
+
+  /* ---------- water that is not there: dry cuts and the low, damp-less ground ---------- */
+  function dryCut(center,p){
+    var band=[]; var a,b,dx,dy,le,nx,ny;
+    for(k=0;k<center.length;k++){
+      a=center[Math.max(0,k-1)]; b=center[Math.min(center.length-1,k+1)];
+      dx=b[0]-a[0]; dy=b[1]-a[1]; le=Math.sqrt(dx*dx+dy*dy)||1; nx=-dy/le; ny=dx/le;
+      band.push([center[k][0]+nx*rr(4,9),center[k][1]+ny*rr(4,9)]);
+    }
+    E('path',{d:D(band),fill:'none',stroke:ASH,'stroke-width':3.4,opacity:0.22,'stroke-linecap':'round'},p);
+    E('path',{d:D(center),fill:'none',stroke:FADE,'stroke-width':1.5,opacity:0.52,'stroke-linecap':'round'},p);
+    for(var m=3;m<center.length-1;m+=4){
+      var c=center[m],d=center[m+1],ddx=d[0]-c[0],ddy=d[1]-c[1],ll=Math.sqrt(ddx*ddx+ddy*ddy)||1;
+      E('line',{x1:c[0],y1:c[1],x2:c[0]-ddy/ll*8+ddx/ll*3,y2:c[1]+ddx/ll*8+ddy/ll*3,
+        stroke:FADE,'stroke-width':0.8,opacity:0.34},p);
+    }
+  }
+  dryCut(jit([[70,742],[340,726],[610,752],[880,738],[1140,764]],2.8,20),gWater);
+  dryCut(jit([[1360,700],[1520,772],[1650,858],[1760,950],[1840,1046]],2.8,20),gWater);
+  dryCut(jit([[300,930],[430,972],[560,1014],[700,1050]],2.4,18),gWater);
+  dryCut(jit([[1900,560],[1960,654],[2000,756],[2030,860]],2.2,18),gWater);
+  dryCut(jit([[940,1120],[1030,1160],[1130,1196]],2.2,16),gWater);
+
+  /* ---------- structures of a country with nobody in it ---------- */
+  function dryWell(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s.toFixed(2)+')'},p);
+    E('ellipse',{cx:0,cy:1,rx:16,ry:9,fill:'#a89977',stroke:INK,'stroke-width':1.3},g);
+    E('ellipse',{cx:0,cy:0,rx:10,ry:5.2,fill:'#463627',stroke:INK,'stroke-width':1},g);
+    for(var a2=0;a2<10;a2++){
+      var an=a2/10*Math.PI*2;
+      E('ellipse',{cx:Math.cos(an)*15,cy:Math.sin(an)*8,rx:3.3,ry:2.1,fill:CLAY,stroke:INK,'stroke-width':0.65,opacity:0.95},g);
+    }
+    E('line',{x1:-13,y1:-5,x2:-15,y2:-23,stroke:INK,'stroke-width':1.5},g);
+    E('line',{x1:13,y1:-5,x2:15,y2:-23,stroke:INK,'stroke-width':1.5},g);
+    E('line',{x1:-18,y1:-21,x2:18,y2:-21,stroke:INK,'stroke-width':1.5},g);
+    E('path',{d:'M0 -21 q3 11 0 20',fill:'none',stroke:FADE,'stroke-width':1.1},g);
+    E('path',{d:'M-6 -22 q6 -4 12 0',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.7},g);
+    return g;
+  }
+  function doorway(x,y,s,p,bare,slateIn){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-13 15 L-12 -24 L-7 -24 L-8 15 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.2},g);
+    E('path',{d:'M8 15 L7 -24 L12 -24 L13 15 Z',fill:'#cbb58f',stroke:INK,'stroke-width':1.2},g);
+    E('path',{d:'M-16 -25 L16 -25 L16 -20 L-16 -20 Z',fill:'#b9a17c',stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M-19 15 l9 -2 M12 14 l10 2 M-16 17 l8 -3',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.6},g);
+    if(bare){
+      E('rect',{x:-9,y:-37,width:18,height:11,fill:'#efe3c6',stroke:INK,'stroke-width':1.1},g);
+      E('path',{d:'M-7 -35 q7 -2 14 0',fill:'none',stroke:FADE,'stroke-width':0.7,opacity:0.6},g);
+    }
+    if(slateIn){
+      E('rect',{x:6,y:-18,width:8,height:22,fill:'#6a6355',stroke:INK,'stroke-width':1.1},g);
+      E('path',{d:'M8 -14 l4 2 M8 -9 l4 2 M8 -4 l4 1 M8 0 l4 2',fill:'none',stroke:BONE,'stroke-width':0.8,opacity:0.8},g);
+    }
+    return g;
+  }
+  function hearth(cx,cy,s,p){
+    var g=E('g',{transform:'translate('+cx+' '+cy+') scale('+s.toFixed(2)+')'},p);
+    E('ellipse',{cx:0,cy:0,rx:17,ry:10,fill:'#b9a17c',stroke:INK,'stroke-width':1.2},g);
+    E('ellipse',{cx:0,cy:0,rx:12,ry:6.6,fill:BONE,stroke:'none',opacity:0.92},g);
+    for(var b=0;b<9;b++){
+      E('circle',{cx:rr(-10,10),cy:rr(-5,5),r:rr(0.6,1.4),fill:FADE,opacity:0.45},g);
+    }
+    E('path',{d:'M-21 4 q20 8 40 0',fill:'none',stroke:FADE,'stroke-width':0.7,opacity:0.5},g);
+    return g;
+  }
+  function windlassCoil(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s.toFixed(2)+')'},p);
+    for(var b=0;b<3;b++){
+      E('ellipse',{cx:0,cy:0,rx:20-b*4,ry:13-b*3,fill:'none',stroke:FADE,'stroke-width':2,opacity:0.75},g);
+    }
+    E('path',{d:'M-18 -2 q18 -12 36 0',fill:'none',stroke:FADE,'stroke-width':1.3,opacity:0.6},g);
+    return g;
+  }
+
+  /* the well-sinker's six, walked in order from the road */
+  dryWell(566,566,1.05,gStruct);        /* first, by the road */
+  dryWell(1010,700,1.0,gStruct);        /* second, in the doorway-yard */
+  dryWell(1306,628,0.95,gStruct);       /* third, under the fallen wall */
+  dryWell(964,930,1.0,gStruct);         /* fourth, by the last standing hearth */
+  dryWell(1428,968,0.98,gStruct);       /* fifth, with the bare square above */
+  dryWell(1832,1096,0.95,gStruct);      /* sixth, beyond the doorways */
+
+  /* the nine doorways standing where the walls have gone */
+  [[1180,642,false,false],[1250,646,false,false],[1320,650,true,false],
+   [1390,654,false,false],[1460,658,true,false],[1530,662,false,true],
+   [1600,666,false,false],[1670,670,true,false],[1740,674,false,false]
+  ].forEach(function(d){ doorway(d[0],d[1],1.12,gStruct,d[2],d[3]); });
+  /* a twelfth, kept out of the count and drawn faint at the far edge */
+  doorway(2142,1180,0.9,gStruct,false,false).setAttribute('opacity',0.28);
+
+  /* the cold hearths, their ash white and never swept */
+  [[860,846,1.05],[1088,866,0.95],[1290,912,1.1],[1530,876,0.98],[1770,1000,1.05],[1950,1140,0.92]
+  ].forEach(function(h){ hearth(h[0],h[1],h[2],gStruct); });
+
+  /* old ropes, laid where the lines came up empty */
+  windlassCoil(700,618,0.68,gStruct);
+  windlassCoil(1140,980,0.6,gStruct);
+
+  /* ---------- roads: ruts kept under the turf, empty eight hundred years ---------- */
+  function rutRoad(center,p){
+    var a=[],b=[],bb=[],k2,dx,dy,le,nx,ny;
+    for(k2=0;k2<center.length;k2++){
+      var prev=center[Math.max(0,k2-1)],next=center[Math.min(center.length-1,k2+1)];
+      dx=next[0]-prev[0]; dy=next[1]-prev[1]; le=Math.sqrt(dx*dx+dy*dy)||1; nx=-dy/le; ny=dx/le;
+      a.push([center[k2][0]+nx*13,center[k2][1]+ny*13]);
+      b.push([center[k2][0]-nx*13,center[k2][1]-ny*13]);
+      bb.push([center[k2][0]+nx*2,center[k2][1]+ny*2]);
+    }
+    E('path',{d:D(bb),fill:'none',stroke:CLAY,'stroke-width':30,opacity:0.16,'stroke-linecap':'round'},p);
+    [a,b].forEach(function(side){
+      E('path',{d:D(jit(side,1.6,16)),fill:'none',stroke:INK,'stroke-width':2.2,
+        'stroke-dasharray':'13 9','stroke-linecap':'round',opacity:0.78},p);
+    });
+  }
+  var southRoad=jit([[1200,270],[1140,400],[1070,520],[1010,660],[960,800],[880,940],[820,1080],[740,1220],[690,1330]],2.8,24);
+  rutRoad(southRoad,gRoad);
+  rutRoad(jit([[2340,470],[2120,500],[1900,548],[1690,610],[1480,660],[1300,690]],2.8,24),gRoad);
+  rutRoad(jit([[1480,660],[1580,800],[1650,940],[1780,1080],[1900,1210],[2020,1330]],2.8,24),gRoad);
+  /* the marsh road, faint, going out west toward Reedholt and the Post */
+  rutRoad(jit([[60,1130],[260,1108],[470,1086],[680,1070],[860,1052]],2.6,24),gRoad);
+  function edgeArrow(x,y,dir,p){
+    E('path',{d:'M'+x+' '+y+' L'+(x+dir*52)+' '+y+' M'+(x+dir*52)+' '+y+' l'+(dir*-11)+' -6 M'+(x+dir*52)+' '+y+' l'+(dir*-11)+' 6',
+      fill:'none',stroke:INK,'stroke-width':1.7},p);
+  }
+  edgeArrow(1200,270,0,gRoad);         /* north, up */
+  E('path',{d:'M1200 270 l-6 -12 l12 0 z',fill:INK},gRoad);
+  edgeArrow(2340,470,1,gRoad);
+  edgeArrow(60,1130,-1,gRoad);
+  edgeArrow(2020,1330,1,gRoad);
+
+  /* the Peat Line across the south, with tally-sticks set along it */
+  E('path',{d:D(jit([[60,1318],[380,1300],[700,1324],[1020,1302],[1340,1328],[1660,1306],[1980,1330],[2340,1310]],3,28)),
+    fill:'none',stroke:RED,'stroke-width':1.6,'stroke-dasharray':'9 7',opacity:0.8},gRoad);
+  function tally(x,y,rot,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') rotate('+rot+')'},p);
+    E('rect',{x:-30,y:-3,width:60,height:6,fill:CLAY,stroke:INK,'stroke-width':1.1},g);
+    for(var t=0;t<5;t++){ E('line',{x1:-22+t*11,y1:-3,x2:-22+t*11,y2:3,stroke:INK,'stroke-width':1},g); }
+    return g;
+  }
+  [[300,1308],[660,1322],[1020,1306],[1360,1326],[1700,1310],[2060,1328]].forEach(function(t){ tally(t[0],t[1],rr(-9,9),gStruct); });
+
+  /* ---------- lettering, inked last above everything ---------- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      'stroke':(o&&o.halo)?PALE:null,'stroke-width':(o&&o.halo)?3.2:null,'paint-order':(o&&o.halo)?'stroke':null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||22;
+    lines.forEach(function(ln,j){T(x,y+j*lh,ln,{font:'FellIt',size:o.size||16,fill:o.fill||'#574226',opacity:o.opacity||0.92});});
+  }
+
+  /* the country, named in place */
+  T(1200,454,'THE EMPTY CANTONS',{font:'FellSC',size:36,ls:6,fill:FADE,anchor:'middle',halo:true});
+  T(1200,486,'which the Fen call the Quiet Acre',{font:'FellIt',size:19,fill:FADE,anchor:'middle',halo:true});
+  T(1200,516,'sixty leagues south of Sill — roads, wells and doorways, and no people',{font:'FellIt',size:15,fill:FADE,anchor:'middle',halo:true});
+
+  T(566,524,'the first well — by the road',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1010,660,'the second — in the doorway-yard',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1306,586,'the third — under the fallen wall',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(964,888,'the fourth — by the last hearth',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1428,926,'the fifth — bare clay above',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1832,1054,'the sixth — beyond the doorways',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1460,588,'THE NINE DOORWAYS',{font:'FellSC',size:19,ls:2,fill:INK,anchor:'middle',halo:true});
+  T(1600,616,'one keeps a slate in its notch',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1330,614,'bare squares where the rolls hung',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
+  T(1290,962,'cold hearths — the ash is white',{font:'FellIt',size:16,fill:FADE,anchor:'middle',halo:true});
+  T(1810,864,'the low ground holds no damp',{font:'FellIt',size:15,fill:SEA,anchor:'middle',halo:true});
+  T(660,802,'a dry cut, dug to drain',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
+  T(1740,744,'an over-fired rise',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
+  T(1030,820,'rutted under the turf',{font:'FellIt',size:15,fill:FADE,rot:73,halo:true});
+  T(1820,580,'from Greybank',{font:'FellIt',size:15,fill:FADE,rot:12,halo:true});
+  T(1200,344,'north to Sill and Cold Acre',{font:'FellIt',size:15,fill:FADE,anchor:'middle',halo:true});
+  T(120,1112,'west by the marsh road to Reedholt',{font:'FellIt',size:14,fill:FADE,halo:true});
+  T(2160,1196,'the twelfth — not counted',{font:'FellIt',size:13,fill:RED,anchor:'end',opacity:0.85,halo:true});
+  T(1200,1370,'THE PEAT LINE',{font:'FellSC',size:21,ls:4,fill:RED,anchor:'middle',halo:true});
+  T(1200,1396,'Sere beyond, with its burning winds',{font:'FellIt',size:14,fill:GOLD,anchor:'middle',halo:true});
+  T(1200,1076,'no smoke, and no hour told by a roof',{font:'FellIt',size:16,fill:FADE,anchor:'middle',halo:true});
+
+  /* ---------- marginal notes in the surveyor's voice ---------- */
+  note(112,566,[
+    'There is no smoke. In Grath a man can tell the hour',
+    'by what a roof gives up. Here the sky goes on being',
+    'a sky with nothing said in it. The surveyor and I',
+    'ate our bread standing up, having nowhere to sit.'
+  ],{size:15,lh:21,fill:'#574226'});
+  note(112,920,[
+    'The wells are dry but not fallen in, and the stones',
+    'lie round their mouths in the old order, which a man',
+    'does not do when he is leaving in a hurry. The water',
+    'is down out of sight. I have no trade in answering it.'
+  ],{size:15,lh:21,fill:'#574226'});
+  note(1620,470,[
+    'The ash in the hearths is not grey. It is a white',
+    'dust like bone meal. A Fen man said it is what is',
+    'left when a promise has been kept too long. I set',
+    'it down as said and have joined nothing to it.'
+  ],{size:15,lh:21,fill:'#574226'});
+  note(1820,930,[
+    'In one doorway a slate stands in its notch. The',
+    'figures on it are shapes and not numbers. A Vorr',
+    'said the numbers were correct and would not say',
+    'what they counted, and went north with his stick.'
+  ],{size:15,lh:21,fill:'#574226'});
+  note(112,1360,[
+    'A square is where a figure stood and was taken;',
+    'a nought is a figure put in its place. The clerk',
+    'put noughts in the squares and the column balances.',
+    'That is how I know it does not.'
+  ],{size:15,lh:21,fill:RED});
+  note(1620,1240,[
+    'Orra counted eleven doorways and did not count the',
+    'twelfth, for a thing with no figure in it is what',
+    'this country keeps. It stands unnumbered at the edge.'
+  ],{size:15,lh:21,fill:'#574226'});
+  note(112,360,[
+    'The Fen say the spring the Court sealed in Y.H. 618',
+    'lies under this ground and not under the Keel; the',
+    'survey sets it twenty leagues from the Hearthseat.',
+    'One is a place and one is a number. I join neither.'
+  ],{size:15,lh:21,fill:'#574226'});
+
+  /* ---------- title cartouche ---------- */
+  E('path',{d:'M596 54 L1804 54 L1824 74 L1824 190 L1804 210 L596 210 L576 190 L576 74 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.94},gFrame);
+  E('path',{d:'M602 64 L1798 64 L1814 80 L1814 184 L1798 200 L602 200 L586 184 L586 80 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M540 132 q30 -22 54 0 q-24 22 -54 0 z M1860 132 q-30 -22 -54 0 q24 22 54 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(1200,106,'THE EMPTY CANTONS',{font:'CinzelDec',size:35,ls:2.4,anchor:'middle',fill:INK});
+  T(1200,144,'the Quiet Acre — a country of roads, wells and doorways',{font:'FellIt',size:18,anchor:'middle',fill:FADE});
+  T(1200,180,'surveyed and inked in Y.H. 814 — the month of Ilmen',{font:'FellSC',size:13,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<30;i++){
+    var sx=606+i*39.9;
+    E('path',{d:'M'+sx+' 70 l0 -9 M'+sx+' 70 l-4 -6 M'+sx+' 70 l4 -6',fill:'none',stroke:MG,'stroke-width':1,opacity:0.7},gFrame);
+    E('path',{d:'M'+sx+' 194 l0 8 M'+sx+' 194 l-4 5 M'+sx+' 194 l4 5',fill:'none',stroke:MG,'stroke-width':1,opacity:0.7},gFrame);
+  }
+
+  /* ---------- compass rose ---------- */
+  var rx=2186,ry=218;
+  E('circle',{cx:rx,cy:ry,r:44,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:rx,cy:ry,r:35,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?38:22;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-38)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+38)+' L'+(rx+9)+' '+ry+' Z',fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-38)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-50,'N',{size:20,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,j){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][j];
+    T(rx+Math.sin(ca)*56+3,ry-Math.cos(ca)*56+6,cdir,{font:'FellSC',size:15,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- convention of signs ---------- */
+  E('rect',{x:110,y:1146,width:528,height:364,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1154,width:512,height:348,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(374,1186,'CONVENTION OF SIGNS',{font:'FellSC',size:21,ls:3,anchor:'middle'});
+  E('line',{x1:140,y1:1198,x2:608,y2:1198,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  dryWell(160,1230,0.72,gFrame);
+  T(204,1236,'a well: dry, stones in the old order',{font:'Fell',size:14});
+  doorway(160,1282,0.72,gFrame,true,false);
+  T(204,1292,'a doorway, wall gone, clay square bare',{font:'Fell',size:14});
+  hearth(160,1330,0.9,gFrame);
+  T(204,1336,'a cold hearth, white ash unswept',{font:'Fell',size:14});
+  var cSlate=E('g',{transform:'translate(160 1378) scale(1.4)'},gFrame); doorway(0,0,0.72,cSlate,false,true);
+  T(204,1384,'the slate in the notch, unread',{font:'Fell',size:14});
+  E('line',{x1:140,y1:1424,x2:180,y2:1424,stroke:INK,'stroke-width':2,'stroke-dasharray':'13 9'},gFrame);
+  T(204,1430,'a road rutted under turf, no wheel',{font:'Fell',size:14});
+  E('line',{x1:140,y1:1464,x2:180,y2:1464,stroke:FADE,'stroke-width':1.6,opacity:0.6},gFrame);
+  T(204,1470,'a cut dug to drain, dry',{font:'Fell',size:14});
+
+  /* ---------- scale bar ---------- */
+  T(1540,1426,'A LEAGUE IS THREE THOUSAND PACES',{font:'FellSC',size:13,ls:1.4,fill:FADE});
+  E('rect',{x:1540,y:1436,width:440,height:13,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1540+i*110,y:1436,width:110,height:13,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1540+i*110,1470,['0','1','2','3'][i]+'',{font:'Fell',size:15,anchor:'middle',fill:INK});
+  }
+  T(1988,1450,'4 leagues',{font:'FellIt',size:16,fill:FADE});
+  T(1540,1500,'Sixty leagues south of Sill. No cart makes the road in a day.',{font:'FellIt',size:13,fill:FADE});
+
+  /* ---------- engravings in the margin ---------- */
+  function emptySquare(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s.toFixed(2)+')'},p);
+    E('rect',{x:-18,y:-12,width:36,height:24,fill:'#efe3c6',stroke:INK,'stroke-width':1.5},g);
+    E('path',{d:'M-14 -8 q14 -3 28 0',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.5},g);
+    return g;
+  }
+  function fox(x,y,s,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-46 6 q-6 -12 6 -16 q10 -4 18 -16 l4 -16 l10 14 l12 -12 l-2 18 q14 6 16 20 q2 12 -12 16 q-20 6 -38 -2 z',
+      fill:'#cbb58f',stroke:INK,'stroke-width':1.4},g);
+    E('path',{d:'M-40 2 q-10 4 -18 -2 q8 -2 14 -8',fill:'#cbb58f',stroke:INK,'stroke-width':1.2},g);
+    E('circle',{cx:20,cy:-10,r:1.7,fill:INK},g);
+    E('path',{d:'M30 -4 l6 3 M30 -2 l6 -2',fill:'none',stroke:FADE,'stroke-width':0.8},g);
+    for(var b=0;b<9;b++){ E('line',{x1:-34+b*8,y1:2,x2:-30+b*8,y2:9,stroke:INK,'stroke-width':0.55,opacity:0.45},g); }
+    return g;
+  }
+  dryWell(792,1486,0.85,gFrame);
+  T(792,1532,'a well that gives nothing',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+  emptySquare(1290,1486,1.0,gFrame);
+  T(1290,1532,'a square, not a nought',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+  fox(1740,1488,0.82,gFrame);
+  T(1740,1532,'the fox has the hearth',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+  windlassCoil(420,1492,0.72,gFrame);
+  T(420,1532,'the rope keeps its shape',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+
+  /* ---------- the ruled border and its hatch ---------- */
+  E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:2296,height:1496,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<116;i++){
+    var px=56+i*19.7;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:1548,x2:px,y2:1566,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<76;i++){
+    var py=56+i*19.6;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:2348,y1:py,x2:2366,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[2348,52,-1,1],[52,1548,1,-1],[2348,1548,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>
