@@ -2,7 +2,7 @@
 title: The Ordinance of the Waiting Room, Being an Extract from the Court's Ordinances for the Keeping Overnight of Vessels Before the Banking in Slate Row at Sill, with the Table of Nights, the Form of a Waiting-Entry, the Pallet-Song Pasted Inside the Tin, Two Corrections in Borrowed Hands, and a Line at the Foot Nobody Will Own
 kind: An extract from the Court's ordinances, written out for the under-clerk who keeps the waiting-book beside the collector's table in Slate Row at Sill; the articles in Ledgerhand with the people restored beneath them, the nights and the faults in tables, the form of a waiting-entry left blank, the pallet-song pasted inside the tin, a scorch off the lamp, two corrections in borrowed hands, and a line at the foot nobody has claimed
 provenance: Copied at Sill in Slate Row in Bone of Y.H. 813, the year after the Thin Year and the Long Cold, by the under-clerk who keeps the waiting-book and carries the night's figures up the Clay Road to the bank at Greybank; the ordinance first gathered at the Hearthseat in Y.H. 669, the year after the Ash Rising that Pell Varr put down, and copied forward at each Opening of the Slates from the College book and not from the tin; carried through the Opening of the Slates into Y.H. 814. It survives as four leaves of foolscap sewn with wire and kept in the tin beside the waiting-book, soft at the fold, with a damp tideline along the foot from the wall of the room, grey Ash off a cuff worked into the gutter, a pale round ring where a tube was set down and which is not a wound, a tallow thumb at the head, iron filings ground in from the wool sleeve, a curl of grey wool from a cradle blanket caught in the sewing, the sweet green of lead glaze pressed in by a girl come up from High Kiln with the sweetness still at her mouth, a scorch in the second leaf where the lamp was held too near while a woman was speaking, a small square of bare paper where a word was scraped away, two corrections in borrowed hands, and a line at the foot that has never been claimed
-relates_to: [the Waiting Room, Slate Row, Sill, the collector's table, the collector, cold iron, the tube, the wool sleeve, the pale ring, clip-holding, consent, the draw, the measure, embers, one in twelve, the deduction, the notice, Ledgerhand, the passive voice, the College of Assessors, Provost Wessen, the Warm Court, the Hearthseat, Steward Derren, Pell Varr, the Ash Rising, the bank at Greybank, Greybank, the factor at Greybank, the Steward's room, Slate Row of the Hearthseat, the Hearth Drawing, Kindling, Weighing, the Opening of the Slates, Account-day, the Five, whole return, thin return, the Return, the Kept, hearth-maids, the warmed stone, slate-name, birth-name, Grathic, bit, mark, crown, quiet ash, the Ash, Low Kiln, High Kiln, lead glaze, grey wool, tallow, the Long Cold, the Thin Year, the Last Day, the Vorr, the survey table]
+relates_to: [the Waiting Room, Slate Row, Sill, the collector's table, the collector, cold iron, the tube, the wool sleeve, the pale ring, clip-holding, consent, the draw, the measure, embers, one in twelve, the deduction, the notice, Ledgerhand, the passive voice, the College of Assessors, Provost Wessen, the Warm Court, the Hearthseat, Steward Derren, Pell Varr, the Ash Rising, the bank at Greybank, Greybank, the factor at Greybank, the Steward's room, Slate Row of the Hearthseat, the Hearth Drawing, Kindling, Weighing, the Opening of the Slates, Account-day, the Five, whole return, thin return, the Return, the Kept, hearth-maids, the warmed stone, slate-name, birth-name, Grathic, bit, mark, crown, quiet ash, the Ash, Low Kiln, High Kiln, lead glaze, grey wool, tallow, the Long Cold, the Thin Year, the Last Day]
 ---
 
 I keep the waiting-book beside the collector's table. A vessel is drawn at a door, brought in at dusk and banked at first grey; between the two there is a night, and the ordinance has no word for a night. I have copied the articles as they stand in the College book and put the people back underneath, because an ordinance read with nobody in it is one no person in this room has to answer for. Where a hand has corrected me I have left both readings, the way the damp leaves its line and the line stays when the wall is dry.
@@ -33,7 +33,7 @@ They were gathered at the Hearthseat in Y.H. 669, the year after Pell Varr put d
 
 6. The officer visits once in the night and does not wake a vessel that is sleeping. Where a vessel speaks, no matter arises and nothing is entered. What is said to the wall is not a bargain and does not bind the Keeping to anything.
 
-> *Margin:* Three sentences were said here in the night I wrote this leaf: one to the wall, one to the dish of water, and one said to me while I held the lamp up so I need not ask her to say it again. I entered none of them. I set them at the edge, the length of each, which is the only place in this book where a sentence can stand without a person being made to answer for it.
+> *Margin:* Three sentences were said here in the night I wrote this leaf: one to the wall, one to the dish of water, and one said to me while I held the lamp up. I entered none. I set them at the edge, the length of each, the only place where a sentence can stand without a person being made to answer for it.
 
 7. Nothing is owed to a vessel that is waiting. What it gives, refuses or promises between dusk and morning is not a payment and is not received. The account is not opened in this room; it is opened at the bank.
 
@@ -51,7 +51,7 @@ They were gathered at the Hearthseat in Y.H. 669, the year after Pell Varr put d
 
 10. Where consent is withheld, the wrist is held until consent is entered. No figure is entered for the holding and no deduction arises upon it. The holding is not a punishment, being provided for in the ordinance.
 
-> *Margin:* There is a pale round place on the left wrist of a man who came through this room, the shape of the clip and not the shape of the tube. I have seen it twice and do not know which visit left it. It is not a wound and has no column. Both rings stay at the edge, where a clerk can see them and choose not to read them.
+> *Margin:* There is a pale round place on the left wrist of a man who came through this room, the shape of the clip and not the tube. I have seen it twice and do not know which visit left it. Both rings stay at the edge, where a clerk can see them and choose not to read them.
 
 11. A vessel that has gone worse before morning has had a settling of the measure. It is not a worsening and is not an entry. The watch is kept to first grey and the banker is told the hour and nothing beside it.
 
@@ -59,7 +59,7 @@ They were gathered at the Hearthseat in Y.H. 669, the year after Pell Varr put d
 
 # The table of nights
 
-*Kept by the under-clerk. The figure is the banker's and is set first. What stands beneath it is mine and is not a figure.*
+*The figure is the banker's and is set first. What stands beneath is mine and is not a figure.*
 
 | Condition | As entered at the bank | What stands beneath |
 |---|---|---|
@@ -87,7 +87,7 @@ They were gathered at the Hearthseat in Y.H. 669, the year after Pell Varr put d
 
 # The form of a waiting-entry
 
-*Set out at the end. I have copied it with the blanks as they stand. In nine nights no officer has filled the last line with his own name.*
+*Copied with the blanks as they stand. In nine nights no officer has filled the last line with his own name.*
 
 > Received this day, being ----day of -------, in the year of the Hearth ----, one vessel, slate-name ----------------------, drawn at the ------- hour, set on the pallet before the ------- hour, the night passed with no matter arising, consent entered at first grey, banked to ----------------------, one in twelve as the notice says; written by ----------------------, whose hand went to the slate before his eyes went to the pallet and whose mouth came last.
 
@@ -114,7 +114,7 @@ The scorch across the third verse came from holding the leaf too near the lamp w
 
 # What the borrowed hands did
 
-A clerk of the College came down from the Hearthseat with ink in two fingers of a cuff gone soft from washing. Against *a person is brought in and set on a pallet* he set *the vessel is received*, true of the figure and false of the looking at the door; I have put mine back underneath. Against the three sentences at the edge he drew a line and wrote *No such place*, so the edge would read as though it had never held anything; he had to look at every line before he could write that none was worth keeping, and I watched him do it. Against *consent entered at first grey* he set *consent recorded*, a hand further from the wrist.
+A clerk of the College came down from the Hearthseat with ink in two fingers of a cuff gone soft from washing. Against *a person is brought in and set on a pallet* he set *the vessel is received*, true of the figure and false of the looking at the door; I have put mine back underneath. Against the three sentences at the edge he drew a line and wrote *No such place*; he had to read every one before he could write that none was worth keeping, and I watched him do it. Against *consent entered at first grey* he set *consent recorded*, a hand further from the wrist.
 
 The other hand is tall and leaning, from the Steward's room. Against *one in twelve* it wrote *the lawful deduction*, and against the pale round place on the bench, *an article of value, not entered to a person*. I have struck neither out. A hand that writes articles of value for persons not standing in the room has made a trade of not saying which.
 
