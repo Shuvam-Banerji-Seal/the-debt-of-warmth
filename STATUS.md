@@ -2,7 +2,7 @@
 
 - Chapters complete: **98**
 - Words of story: **1,774,176**
-- Current chapter: 98 (step: publish, scene 7)
+- Current chapter: 99 (step: plan, scene 1)
 - Last chapter: A Word Without a Doorway (Days 345–347 · Ash 16–18, Y.H. 813)
 - Author calls so far: 1061 (tokens in 191,791,743, out 24,080,510)
 - Updated: 2026-11-28 05:51
