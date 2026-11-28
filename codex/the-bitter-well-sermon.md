@@ -16,7 +16,7 @@ The lime at the head is off my cuff and no wet cloth takes it out of the grain. 
 - Come before the sun is on the lip. A man who comes at noon sees his own shadow in the water and calls it the well's answer.
 - Do not drink. A man who drinks the Ferr and calls it thin has taken a giving for a taking, and the habit is hard to unlearn in a household that has no other water.
 - Set a dish of barley-water on the shelf with a stone in it to keep the wind from dragging it off. The stone is not a payment and has never been entered.
-- Tap the cup in the niche with the knuckle. It answers flat. Do not tap the well; a well answers with its surface and tells you nothing you can carry.
+- Tap the cup in the niche with the knuckle. It answers flat. Do not tap the well; a well answers with its surface and tells you nothing.
 - If you come up from the glaze room, leave the green bead on the shelf and say whose it was to the dish and not to a person. A bead said to a person becomes a question about the colour, and the colour has a price in High Kiln.
 - Do not say the count of the twenty-one aloud at this well. A number said here goes up the road in a clean hand and comes back with the drinkers taken out.
 - When a man in a clean coat comes up from Greybank to weigh the winter lead, stop. Begin again when he has gone back down it. We have kept this habit thirty years and never said why, and he has never asked.
@@ -29,15 +29,15 @@ She put her palm on the stone lip and left it there while the Ferr went by under
 
 “The well gives as it gave,” she said. “It has never given anything else and it has never stopped. What it takes it does not say, and a well that will not say what it takes is called a mercy in a room three leagues east where nobody has drawn from it.
 
-“There is a clause on a slate at Sill,” she said, “and the factor pasted a strip of salt-paper over it, and the strip has lifted at one corner so that six words show and the rest do not. We have leaned over it and put a thumb on it, and the six words are *the wells of the Ferr are to be sweetened at the charge of the workings*. The clause is on a slate. The water is in this hole. They have never met, and the well has kept the larger part.”
+“There is a clause on a slate at Sill,” she said, “and the factor pasted salt-paper over it, and the strip has lifted at one corner so that six words show and the rest do not. We have leaned over it and put a thumb on it, and the six words are *the wells of the Ferr are to be sweetened at the charge of the workings*. The clause is on a slate. The water is in this hole. They have never met, and the well has kept the larger part.”
 
-> *Margin, in my hand:* She said *never sweetened* twice, once to the well and once to a woman come up from the washing for a cup of barley-water. I have left both sayings where they stood. A date would have been safer, but there is no date on this niche.
+> *Margin, in my hand:* She said *never sweetened* twice, once to the well and once to a woman come up from the washing for barley-water. I have left both sayings where they stood. A date would have been safer, but there is no date on this niche.
 
 ## Of the cup
 
-She took the cup from the niche and tapped it with her knuckle. It gave the small flat sound a pot gives when the crack has gone all the way through, and stopped at the skin of it.
+She took the cup from the niche and tapped it with her knuckle. It gave the small flat sound a pot gives when the crack has gone all the way through.
 
-“A pot tells the truth for nothing,” she said. “This one came down from High Kiln in the year of the water and would not hold a pouring. The physician wrote *a reduction in the measure was recorded* above it and the road-book wrote *a visitation of the water*, and the cup has answered flat every morning since without once asking who would write it down. A physician's sentence is true in a language nobody at this bench speaks. The cup has not learned it and is the better for it.”
+“A pot tells the truth for nothing,” she said. “This one came down from High Kiln in the year of the water and would not hold a pouring. The physician wrote *a reduction in the measure was recorded* above it and the road-book wrote *a visitation of the water*, and the cup has answered flat every morning since without asking who would write it down. A physician's sentence is true in a language nobody at this bench speaks. The cup has not learned it and is the better for it.”
 
 A girl asked where the pale line was, that the well-song speaks of. She turned the cup so the light went along the empty rim.
 
@@ -47,21 +47,21 @@ A girl asked where the pale line was, that the well-song speaks of. She turned t
 
 She set a dish of barley-water on the shelf and put the stone in it, the way a household sets one at Sill, but with this difference: at Sill they set it for them whose measure has been banked.
 
-“We set a dish for the twenty-one who went downriver and were not entered again,” she said. “In the morning the water is gone and the stone is where it was. Nobody says who drank, because a household here can carry a name that a slate has no room for. In Sill they call the water a keeping. Here we call it gone. It is the same dish and it is not the same saying, and I will not have one put over the other.”
+“We set a dish for the twenty-one who went downriver and were not entered again,” she said. “In the morning the water is gone and the stone is where it was. Nobody says who drank, because a household here can carry a name a slate has no room for. In Sill they call the water a keeping. Here we call it gone. It is the same dish and not the same saying, and I will not have one put over the other.”
 
-She put the dish where it had stood and did not look into it. I have written the order of the placing and not what it means.
+She put the dish where it had stood and did not look into it.
 
 ## Of the figure
 
 A man at the bench asked what the shrine kept, since the factor's man would want a figure.
 
-“Three hundred,” she said. “A round sum. Ninety-six and a hundred and twelve and seventy-one. The seventy-one are us, by this well. The twenty-one went downriver and the round sum has no room for them, so a small hard hand put them in the gutter where a clerk carrying a total will not look. I have kept the gutter. Three hundred is a visitation; seventy-one is a row of houses; twenty-one is a thing that happened to people we can still name. A round sum is a kindness to the man who copies it and a cruelty to the woman who has to remember which house it was. The road-book balances, and I have never seen a house balance.”
+“Three hundred,” she said. “A round sum. Ninety-six and a hundred and twelve and seventy-one. The seventy-one are us, by this well. The twenty-one went downriver and the round sum has no room for them, so a small hard hand put them in the gutter where a clerk carrying a total will not look. I have kept the gutter. Three hundred is a visitation; seventy-one is a row of houses; twenty-one is a thing that happened to people we can still name. The road-book balances, and I have never seen a house balance.”
 
 ## Of them that went downriver
 
 She turned from the shelf to the company then, which she had not done until that hour.
 
-“Do not say they were returned,” she said. “They went downriver. There is a difference and it is the whole of what this shrine knows. A thin return is a thing done in a room with a slate and a tube and an infant at the end of it. These were not returned. They walked or were carried downriver and were not entered again. If the Keeping wants them, let the Keeping say where they went. It has not said.”
+“Do not say they were returned,” she said. “They went downriver. A thin return is a thing done in a room with a slate and a tube and an infant at the end of it. These were not returned. They walked or were carried downriver and were not entered again. If the Keeping wants them, let the Keeping say where they went. It has not said.”
 
 A man asked whether that was a mercy or a refusal. There is no Grathic word that holds the two together and she would not choose one.
 
@@ -75,7 +75,7 @@ There is a well-song taken down at the washing from a woman who learned it from 
 
 # The drawing-song
 
-*Sung low, standing, with the dish on the shelf and the palm on the lip. The women say the fourth line with her. The sixth is not sung and I have left the space its length.*
+*Sung low, standing, with the palm on the lip. The women say the fourth line with her. The sixth is not sung and I have left the space its length.*
 
 > The Ferr came down with a blue on its skin,
 > and the cup at the lip would not hold;
@@ -118,7 +118,7 @@ There were beads and dishes before these and the keeper can set a season to most
 He came up from Greybank on the tenth with a book that had the word *lead* in it, borrowed the leaf while I was at the bench, and gave it back with the verbs taken out.
 
 - At *the well gives as it gave* he set *the source continues in yield* above and underlined it twice.
-- At *the well was never sweetened* he wrote *the obligation remains outstanding*, which is the same line he set in the stone-dresser's yard-book last year and has now copied here, as though a sentence written twice were twice true.
+- At *the well was never sweetened* he wrote *the obligation remains outstanding*, the same line he set in the stone-dresser's yard-book last year, as though a sentence written twice were twice true.
 - At *the twenty-one went downriver* he wrote *third parties not resident; no account arises*.
 - At *the cup answered flat* he wrote *a vessel of defective retention*, which leaves the cup standing where nobody has to hear it.
 - At the gap in the song a round nought and *vacancy*. When I asked what a space was worth that held twenty-one people, he said nothing a clerk could enter, the first true thing he has said at this bench.
@@ -127,7 +127,7 @@ I have put the verbs back underneath and left his hand above, as the well keeps 
 
 # At the head and in the gutter
 
-The lime is mine and will not wash out of the fold; I wipe the bench with my cuff and the cuff goes into the grain. The blue is the Ferr, carried up on a wet sleeve and set down while a man told me something about the upstream water; the tell dried and the blue stayed. The two words it ate I have left out, for a leaf that has lost two words to the water must be read slowly, which is no great loss where nothing is said quickly. The ring is barley-water from the dish, and the grey came off a cuff and I have not swept it. The bead in the fold came off a girl with the sweetness still at her mouth who leaned over to see what I was writing. The flake of crust is from the lip and is sweet in dry weather. The pale line in the corner came off the cup's rim when she set it down to tap it. The salt-paper has lifted at one corner, so a correction shows through that was meant to be covered, the only honest thing that paper has done.
+The lime is mine and will not wash out of the fold; I wipe the bench with my cuff and the cuff goes into the grain. The blue is the Ferr, carried up on a wet sleeve and set down while a man told me something about the upstream water; the tell dried and the blue stayed. The two words it ate I have left out, for a leaf that has lost two words to the water must be read slowly. The ring is barley-water from the dish, and the grey came off a cuff and I have not swept it. The bead in the fold came off a girl with the sweetness still at her mouth who leaned over to see what I was writing. The flake of crust is from the lip and is sweet in dry weather. The pale line in the corner came off the cup's rim when she set it down to tap it. The salt-paper has lifted at one corner, so a correction shows through that was meant to be covered, the only honest thing that paper has done.
 
 # At the foot, in a hand nobody will own
 
@@ -141,6 +141,6 @@ Struck through once and written again underneath, very small:
 >
 > Ask the cup at the lip what it held, and why it will not hold now.
 
-I asked the keeper of the shelf, the woman at the washing, the weigh-clerk and the clerk from Greybank, and had four answerings and no hand. I have left the line struck through and standing, the only honest way to keep a sentence you cannot sign.
+I asked the keeper of the shelf, the woman at the washing, the weigh-clerk and the clerk from Greybank, and had four answerings and no hand.
 
-The leaf goes back into the niche behind the dish-shelf with the bead in its fold. Next Ash the women will set a dish for the ones that went and the clerk will take the verbs out, and I shall put them back and leave the nought where he set it and the sixth line unsung the length it is not sung. The Ferr will come down with the blue on it and the cup will answer flat and the well will give as it gives.
+The leaf goes back into the niche behind the dish-shelf with the bead in its fold. Next Ash the women will set a dish and the clerk will take the verbs out, and I shall put them back. The Ferr will come down with the blue on it and the cup will answer flat and the well will give as it gives.
