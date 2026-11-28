@@ -16,8 +16,8 @@ They were first gathered in Y.H. 601, when the marsh road was made a cart way to
 ## Of the taking
 
 1. The Cut takes a child, not a house. A house may give him up for the years and take him back with a trade in his arms; the Cut answers for his bread, his bed and the state of his hands. A house that will not give a child up for the years has given nothing. We have had such houses; the child stayed and the house called him its own, which costs nothing and is entered nowhere.
-2. A child is taken at nine, or at ten if a winter of sickness has kept him. Not before he can lift an armful of green reed and let the arm tell him what is in it. A child taken for a peat-debt goes where the debt sends him; his years count from the day it was entered. A term is not a kindness.
-3. He is kept, not hired. He eats from the cutter's dish, sleeps under the cutter's roof, and what he brings back goes into the house and comes out as bread. The only coin here is a knot tied in grey wool, which is no use to a man who wants change for it.
+2. A child is taken at nine, or at ten if a winter of sickness kept him. Not before he can lift an armful of green reed and let the arm tell him what is in it. A child taken for a peat-debt goes where the debt sends him; his years count from entry. A term is not a kindness.
+3. He is kept, not hired. He eats from the cutter's dish, sleeps under his roof, and what he brings back goes into the house and comes out as bread. The only coin here is a knot in grey wool, no use to a man who wants change for it.
 4. His reed-name is said three times: once to the child, once to the pot, once into the ground beside the hut. The third saying is for the child who cannot yet say it. It is not cut, not written and not entered. A name said into the ground is a door; a name on a slate is a hole in a wall that belongs to somebody else.
 5. Say the rules to the ground, the board, the water and the bundle, and to a person last. Said looking at a person, a rule becomes an argument, and there is enough arguing at the Cross.
 
@@ -25,18 +25,18 @@ They were first gathered in Y.H. 601, when the marsh road was made a cart way to
 
 6. A bundle is counted in the arm that carries it. The hands that cut it are counted in nothing at all. The arm knows weight and not cost, which is the whole of what it knows. When a woman at the racks asked what a bundle stood her, a cutter wiped his palms, lifted the next armful and let the question lie where it fell: not refused, never put into words that would stay put long enough to be entered.
 7. Ask the arm that carried it. It will tell you what went into the bundle, not what it cost. A cutter who gives a figure where a direction was asked has mistaken the Cut for the Cross; let him go up the road and ask the factor.
-8. A going-downriver and a coming-back is a day's work. The bundles go out in the morning and come back at dusk, and the day is measured by how far a man walked to fetch them and how far he walked home. A day is a direction with two ends, not a figure.
+8. A going-downriver and a coming-back is a day's work. The bundles go out in the morning and come back at dusk; the day is measured by how far a man walked to fetch them and how far he walked home. A day is a direction, not a figure.
 9. A child's first bundle is cut in the dark at the Cut, before the hands have learned to look. If it comes back wet, the child is not yet of the bog and goes again, with no shame and no entry. The hands go in by the look; a boy who has not learned what dry reed feels like under water brings back a wet one and is sent a second time.
-10. Go in pairs. The reed-wolf will pull down a grown man in mud, and the bog-cow does not care whose measure she breaks. If one does not come back, the other does not say what happened at the place in the returning line; he goes around it with a look. A name given to an absence is a figure with nobody behind it.
-11. Dry ground is borrowed. We set our houses on posts so the water can call the loan in without taking the house with it. A cutter who builds on dry ground has mistaken a loan for a gift. Keep the board lifted and the sacking oiled; a tally cut in wood stays when paper has gone soft.
+10. Go in pairs. The reed-wolf will pull down a grown man in mud, and the bog-cow does not care whose measure she breaks. If one does not come back, the other goes around the place in the returning line with a look and says nothing. A name given to an absence is a figure with nobody behind it.
+11. Dry ground is borrowed. We set our houses on posts so the water can call the loan in without taking the house with it. A cutter who builds on dry ground has mistaken a loan for a gift. Keep the board lifted and the sacking oiled; wood stays when paper has gone soft.
 
 ## Of the cord and the count
 
 12. Keep the tally in grey wool, a short cord with knots at the length of a man's arm, and one tied low with the teeth where the hand that made it cannot see. Set it on the flat blessing stone at the Weir, turn it once so the knots stand, bite the end off and put it back inside the coat. Do it the same way each time. No clerk at Greybank has ever read one, which we did not think of first and have since come to value.
-13. The cord knows what the mouth will not say, and the mouth knows what the cord will not count. Keep the two apart; laying them together is a trade no honest house makes. A woman who could not read a cord was told to ask the cord; asked further, she said *No more can the Court*, and went back to her water. Neither answer was a refusal or an entry.
+13. The cord knows what the mouth will not say, and the mouth knows what the cord will not count. Keep the two apart. A woman who could not read a cord was told to ask the cord; asked further, she said *No more can the Court*, and went back to her water. Neither answer was a refusal or an entry.
 14. Do not read another man's cord. Ask the hand that tied it. A collector's cuff was laid on this leaf while a girl was told to eat and would not; it left a pale round place at the head, not a wound, not a figure and nobody's to enter. I have not rubbed it and have not covered it.
-15. Four for the boards and a place where the fifth should be. The fifth is a place and not a number; do not score it and do not step on it. A factor's clerk put a nought in the space and wrote *vacancy* beneath it. A nought is a number. The fifth is a place, and that difference is what he is paid to miss.
-16. One in twelve is printed on the notice and read twice at the Cross, once for the moot and once for those who came late. What goes up the road in the thane's locked box is a different figure, and the two have never agreed. We say this to the ground, not at a market, where a saying becomes an argument and an argument ends with a household entered for warmth it did not spend.
+15. Four for the boards and a place where the fifth should be. The fifth is a place, not a number; do not score it and do not step on it. A factor's clerk put a nought in the space and wrote *vacancy* beneath it. A nought is a number; the fifth is a place, and that difference is what he is paid to miss.
+16. One in twelve is printed on the notice and read twice at the Cross, once for the moot and once for those who came late. What goes up the road in the thane's locked box is a different figure, and the two have never agreed. We say this to the ground, not at a market, where a saying becomes an argument and ends with a household entered for warmth it did not spend.
 
 # The table of years
 
@@ -51,7 +51,7 @@ They were first gathered in Y.H. 601, when the marsh road was made a cart way to
 | Thirteen | Read a strip of dry reed; go downriver and come back at dusk alone | The last of the child's account with any house |
 | Fourteen | Set a bundle down where another hand will find it without looking | The common end of a keeping, which is not a short one |
 
-17. Fourteen is the common end and not a short one. A child who has been through the years is not paid out and sent away. He stays where the Cut needs him; the trade does not choose for him, the reed does, and the water after it.
+17. Fourteen is the common end and not a short one. A child who has been through the years is not paid out and sent away. He stays where the Cut needs him; the reed chooses, and the water after it.
 
 # The table of faults
 
@@ -65,7 +65,7 @@ They were first gathered in Y.H. 601, when the marsh road was made a cart way to
 | A cutter gone into the bog alone | The board gone around with a look; no name given to the place |
 | Dry ground built on and called a gift | The house left on its posts; the loan not thanked |
 
-18. A fault copied twice in a cutting is a fault the child has not understood, and the older cutter sits with him until he has. The board is not a rod, though men who have never stood in mud have called it both.
+18. A fault copied twice in a cutting is a fault the child has not understood, and the older cutter sits with him until he has. The board is not a rod, though men who never stood in mud have called it both.
 
 # The counting-song, pasted to the back
 
@@ -87,7 +87,7 @@ They were first gathered in Y.H. 601, when the marsh road was made a cart way to
 > The river reads both and says neither,
 > and the water keeps what the water took.
 
-The held line is not a fifth bundle or a fifth knot; the space after it is the length of a word that has no word, and nobody fills it. The sedge across the second part came from the board standing under water in Silt.
+The held line is not a fifth bundle or a fifth knot; the space after it is the length of a word that has no word, and nobody fills it.
 
 # What the borrowed hands did
 
@@ -102,11 +102,11 @@ The other hand is a reeve's, come up from the Standing Post with peat in the thu
 
 # At the head and in the gutter
 
-The peat at the head is mine; I held the leaf down in a wind off the bog and did not know I had marked it. Peat goes into the grain and will not come out, which is why I use it to sign. The tideline took two words clean off the second leaf and I have not written them back, because a rule with two words gone is a rule said slowly, which is how all of ours are said. The knot through the hole holds a word that will not go into the south's letters; I will not untie it. The low knot was tied with teeth; I did not tie it, it came off a cutter's cord and stayed in the fold. The grey along the outer fold came off a cuff laid where no cuff has business lying; I have not swept it. There is no Last Day at a dry.
+The peat at the head is mine; I held the leaf down in a wind off the bog and did not know I had marked it. Peat goes into the grain and will not come out, which is why I use it to sign. The tideline took two words clean off the second leaf and I have not written them back, because a rule with two words gone is a rule said slowly, which is how all of ours are said. The knot through the hole holds a word that will not go into the south's letters; I will not untie it. The low knot came off a cutter's cord and stayed in the fold. The grey along the outer fold came off a cuff laid where no cuff has business lying; I have not swept it. There is no Last Day at a dry.
 
 # At the foot, in a hand nobody will own
 
 > The cord keeps what the arm carried. The ground keeps what was said into it.
 > Between the two a child learns a trade with no column, and the fifth place stands where it stood.
 
-I asked a cutter from the Weir, a reeve off the marsh road, and a woman whose term is not out, and had three answers and no hand. I have left the lines where they were written. The leaf goes back into the sacking under the board. Tomorrow the bundles go downriver in the dark with a child among them, and I shall say the rules to the ground, tie one knot low, and say nothing about the name.
+I asked a cutter from the Weir, a reeve off the marsh road, and a woman whose term is not out, and had three answers and no hand. I have left the lines where they were written. The leaf goes back into the sacking under the board. Tomorrow the bundles go downriver in the dark with a child among them, and I shall say the rules to the ground and tie one knot low.
