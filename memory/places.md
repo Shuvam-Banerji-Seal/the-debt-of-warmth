@@ -273,6 +273,8 @@ The mills south of the capital on the cut fed from the city, where the grain of 
 Peat and boardwalk villages governed by reeves chosen for standing longest in a bog; the market for cheap thin returns.
 **Relations:** 90 leagues south-west of Sill; the Standing Post is its meeting place; the Empty Cantons lie between it and Grath; the Peat Line is its southern limit.
 
+*The ground about the Post drawn on `atlas/the-standing-post`: the dry boards, the reeve's stone, the meres and black peat, and the ways out to the Line, east by the mud road and north-west toward the Quiet Acre. Surveyed and inked in Y.H. 813, the month of Bone.*
+
 ### The Standing Post
 **Kind:** meeting place, village. **Region:** the Fenmarch.
 A raised boardwalk and a post carved with reeves' marks where the Fen reeves settle fines and feuds; the only Fen place outsiders are shown. Fines stand here until the mud is held to have paid them, and a reeve is chosen by standing in the bog rather than by any block or figure.
@@ -313,7 +315,7 @@ The crossing over the bog when it bears ice; nothing is charged and no reeve wil
 ### The Peat Line
 **Kind:** border, wetland. **Region:** between the Fenmarch and Sere.
 The wet frontier where Sere's northern advance stopped in Y.H. 634 and where the two powers trade, raid and buy measures.
-**Relations:** Roughly 100 leagues south-west of Sill; about 200 leagues north of the Bowl of Sere.
+**Relations:** Roughly 100 leagues south-west of Sill; about 200 leagues north of the Bowl of Sere; drawn along the south edge of `atlas/the-standing-post` with tally-sticks set along it and the eel tribute going south.
 
 ---
 
@@ -1591,7 +1593,7 @@ Roads, wells and doorways with no people; the ledger's empty squares after Y.H. 
 ### The Quiet Acre
 **Kind:** empty country, fen name. **Region:** beyond Reedholt.
 What the Fenfolk call the Empty Cantons: wells and doorways and no people. A doorway is built for coming back through, and a square of bare clay above a lintel is where a house-roll once hung. Orra counted eleven doorways and did not count the twelfth, because a thing with no figure in it is what that country keeps. No honest survey goes past it.
-**Relations:** Beyond Reedholt on the marsh road; marked by an edge note on `atlas/reedholt`, drawn nowhere.
+**Relations:** Beyond Reedholt on the marsh road; marked by an edge note on `atlas/reedholt` and a surveyor's note on `atlas/the-standing-post`, drawn nowhere.
 
 ### The Singing Sill
 **Kind:** river ledge, wonder. **Region:** Sill, the Ilm.
