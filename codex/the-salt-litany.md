@@ -100,7 +100,7 @@ He came down to the pans with ink in two fingers of a cuff gone soft from washin
 - Against the refrain he wrote *evaporation and precipitation are not the same mass*, and underlined it twice. The rain has left the underline and taken the words. A line with nothing under it is the honest part of this leaf.
 - In the space after the fifth drawing, where there is no sixth, he put a round nought and wrote *vacancy*. A nought is a figure and can go soft in the rain and be copied again in a dry hand. The space is not a figure. It is the time the net is out of the water.
 
-He asked what a dipper learned by the prayer. I told him the order of the drawings and the counting of the knots. He entered both and went back up the Salt Road with a tally in his cuff. The ink came off on the leaf. A man who cannot help writing on a thing has let it be seen that he wrote.
+He asked what a dipper learned by the prayer. I told him the order and the knots. He entered both and went up the Salt Road. A man who cannot help writing on a thing has let it be seen that he wrote.
 
 # What the boat-woman put in the margin
 
@@ -112,11 +112,11 @@ At *a man with no account costs less*: *My mother held the share and I hold it. 
 
 At the space after the fifth: *This is the time the net is down. I have sat it out on the gunwale. Nobody enters the sitting.*
 
-She would not say which child, and I have not asked twice. There is always somebody at a quay with a name in her mouth and no use for a slate.
+She would not say which child, and I have not asked twice.
 
 # At the head and in the folds
 
-The white at the head is salt out of the paper itself and not salt off the sea, which is a thing only a person who has kept salt-paper knows the difference of. The tar is off the oar I held down while I wrote, and went into the grain and will not wash out. The brine ring stood from the first drawing to the fifth and went dark in the time it takes a net to come up. The nick at the corner came off a fish-hook set down where no hook has business lying, and the man did not apologize. The green bead was pressed in by a girl of the furnaces with the sweetness still at her mouth; she said nothing and I did not ask, for a bead from the Glaze Cliffs is a thing a dipper can carry and a thing a glass woman must account for. The third word I have not written back, because a drawing with a word gone is a drawing said slowly, and all of ours are said slowly. The three knots are mine and I will not untie them; they hold what will not go into Grathic. The grey print along the foot is not mine and not the Council's. There is no Last Day in a tin, and nothing here is swept up and burnt in the morning and called dealt with.
+The white at the head is salt out of the paper itself and not salt off the sea, which is a thing only a person who has kept salt-paper knows the difference of. The tar is off the oar I held down while I wrote, and went into the grain and will not wash out. The brine ring stood from the first drawing to the fifth. The nick at the corner came off a fish-hook set down where no hook has business lying, and the man did not apologize. The green bead was pressed in by a girl of the furnaces with the sweetness still at her mouth; she said nothing and I did not ask, for a bead from the Glaze Cliffs is a thing a dipper can carry and a thing a glass woman must account for. The third word I have not written back, because a drawing with a word gone is a drawing said slowly, and all of ours are said slowly. The three knots are mine and I will not untie them; they hold what will not go into Grathic. The grey print along the foot is not mine and not the Council's. There is no Last Day in a tin, and nothing here is swept up and burnt in the morning and called dealt with.
 
 # At the foot, in a hand nobody will own
 
