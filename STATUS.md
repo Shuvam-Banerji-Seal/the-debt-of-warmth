@@ -2,7 +2,7 @@
 
 - Chapters complete: **113**
 - Words of story: **2,084,754**
-- Current chapter: 113 (step: publish, scene 7)
+- Current chapter: 114 (step: plan, scene 1)
 - Last chapter: The Fire Nobody Lit (Days 390–392 · Kindling–the Long Night, Y.H. 813)
 - Author calls so far: 1215 (tokens in 222,337,289, out 28,011,940)
 - Updated: 2026-11-28 15:15
