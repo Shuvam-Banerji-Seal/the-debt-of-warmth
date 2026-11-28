@@ -1,7 +1,7 @@
 ---
 title: "Of the Overnight Keeping, the Two Benches and the Cup Left Standing, Being Title the Twelfth of the Ordinances of the Keeping, Copied for the Room-Slate in Slate Row at Sill, with the Room-Clerk's Margin, the Cup-Ring, a Cold-Iron Score, Two Corrections in Borrowed Hands, and a Line at the Foot Nobody Will Own"
-kind: "An extract from the Court's ordinances, written out for the room-slate in the Waiting Room off Slate Row at Sill, with the marginal hand of the clerk who sets the verbs back after a day's drawing; the articles in Ledgerhand and the verbs restored beneath them, the nights and the things not entered in tables, the form of an overnight left blank, the bench-song pasted inside the cover, a ring where a cup stood, a score made with the edge of a cold-iron clip, two corrections in borrowed hands, and a line at the foot nobody has claimed"
-provenance: "Copied at Sill in Slate Row in the Thin Year, Y.H. 812, and carried forward at the Opening of the Slates, Ilmen 1, Y.H. 813, from Title the Twelfth of the Ordinances of the Keeping as set down in the first years after the Rising of Y.H. 668, confirmed to the factor at Greybank by the treaty of Y.H. 418, and added to in Y.H. 782 and in the Thin Year; it survives as three leaves of foolscap sewn with wire, kept under the room-slate on the shelf beside the door and taken down when the evening figure has been read: a grey Ash thumb at the head, cold-iron filings worked into the gutter off a tube-wrap set down while a clerk went for water, a pale round ring where a cup stood from the first watch to the morning, a brown crust-print at the second fold, a curl of grey wool through the tie-hole that nobody will untie, a tallow thumb, a green bead of lead glaze pressed into the lower corner by a girl with the sweetness still at her mouth, a damp tide-line along the foot out of the boards, a bare square where a name was scraped away and no other put in its place, one line scored with the edge of a clip, two corrections in borrowed hands, and a line at the foot that has never been owned"
+kind: "An extract from the Court's ordinances, written out for the room-slate in the Waiting Room off Slate Row at Sill, with the marginal hand of the clerk who sets the verbs back after a day's drawing; the articles in Ledgerhand and the verbs restored beneath them, the nights and the things not entered in tables, the form of an overnight left blank, the bench-song pasted inside the cover, a ring where a cup stood, a bare square where a name was scraped away with a clip's edge, two corrections in borrowed hands, and a line at the foot nobody has claimed"
+provenance: "Copied at Sill in Slate Row in the Thin Year, Y.H. 812, and carried forward at the Opening of the Slates, Ilmen 1, Y.H. 813, from Title the Twelfth of the Ordinances of the Keeping as set down in the first years after the Rising of Y.H. 668, confirmed to the factor at Greybank by the treaty of Y.H. 418, and added to in Y.H. 782 and in the Thin Year; it survives as three leaves of foolscap sewn with wire, kept under the room-slate on the shelf beside the door and taken down when the evening figure has been read: a grey Ash thumb at the head, cold-iron filings worked into the gutter off a tube-wrap set down while a clerk went for water, a pale round ring where a cup stood from the first watch to the morning, a brown crust-print at the second fold, a curl of grey wool through the tie-hole that nobody will untie, a tallow thumb, a green bead of lead glaze pressed into the lower corner by a girl with the sweetness still at her mouth, a damp tide-line along the foot out of the boards, a bare square where a name was scraped away with a clip's edge and no other put in its place, two corrections in borrowed hands, and a line at the foot that has never been owned"
 relates_to: [the Warm Court, the Keeping, the Ordinances of the Keeping, Slate Row, Sill, the Waiting Room, the room nobody goes in, the room-slate, the collector's table, the Court's room, Low Kiln, High Kiln, Greybank, the factor at Greybank, the Hearthseat, Ledgerhand, the passive voice, the College of Assessors, the measure, embers, one in twelve, the deduction, the Return, banking, whole return, thin return, slate-name, birth-name, the collector, the tube, cold iron, the clip, consent, the refusal not entered, hearth-maids, the cradle, the warmed stone, grey wool, grey Ash, tallow, lead glaze, the full note, the flat note, Account-day, the Opening of the Slates, the Thin Year, the Forty of Low Kiln, the north gate, the Last Day, Grathic]
 ---
 
@@ -9,7 +9,7 @@ I keep the room-slate in the Waiting Room off Slate Row. It is the room nobody g
 
 > *At the head of the first leaf, in mine, written small:* Copied by the room and for it. The verbs are mine. The absence of them is not. Let both stand.
 
-The ordinance was set down in the first years after the Rising and confirmed to the factor at Greybank in Y.H. 418, when it was found that a night could be made to pass without anybody being in it. It has been added to twice since, and the additions are in the same hand as the first, so that no man can tell by the writing which rule was made before the winter and which after it. A rule with no night on it is a rule nobody has had to sit. These have been sat.
+It was set down in the first years after the Rising and confirmed to the factor at Greybank in Y.H. 418, when it was found that a night could pass without anybody in it. It has been added to twice since, in the same hand as the first, so that no man can tell by the writing which rule was made before the winter and which after. A rule with no night on it is a rule nobody has had to sit. These have been sat.
 
 # Title the Twelfth, as it stands in the room
 
@@ -22,9 +22,9 @@ The ordinance was set down in the first years after the Rising and confirmed to 
 3. A slate is set face down at the head of each bench. The hand goes to the slate before it goes to the vessel, and what is written is not corrected by what the vessel says afterward.
 4. Where more are brought than the benches will hold, boards are laid upon the floor and no figure is taken for the boards.
 
-> *Margin:* A man came to this door in the Thin Year with his coat still on his arm and asked whether he might go home for it before the dark. He was told the morning came first. I have entered the hour and the bench, and not the coat. The room is cold enough that a man asks for his coat as other men ask for water. Both are things the ordinance has no column for.
+> *Margin:* A man came to this door in the Thin Year with his coat on his arm and asked to go home for it before the dark. He was told the morning came first. I entered the hour and the bench, and not the coat. The room is cold enough that a man asks for his coat as other men ask for water. Neither has a column.
 
-> *Margin:* In the last tend of Stone more were brought than the benches would hold, and the boards were laid. I have entered *boards*, which is what the ordinance provides, and not the forty who lay on them. In the morning a barrow of grey went out through the north gate. I have set the barrow at the edge, where a barrow has no column.
+> *Margin:* In the last tend of Stone more were brought than the benches would hold, and boards were laid. I entered *boards*, as the ordinance provides, and not the forty who lay on them. In the morning a barrow of grey went out through the north gate, and I set the barrow at the edge, where it has no column.
 
 ## II. Of the night
 
@@ -34,11 +34,7 @@ The ordinance was set down in the first years after the Rising and confirmed to 
 8. No officer sits in the room. The room-clerk sits with the slate face down and reads nothing aloud after the bringing.
 9. The collected are kept until the banking and are not called by any name the room has given them.
 
-> *Margin:* A woman asked me whether the cup was for her. I told her it stood where it was set. She took that for yes and drank, and I did not correct her, which is the only true answer I have given in this room in nine years. I have entered neither the asking nor the drinking, and the ring the cup left is on this leaf where nobody can add it.
-
-> *Margin:* Against rule 6, in the hand of a physician come up from Greybank: *a common settling; no remedy applied.* Beneath it, in mine: She asked for the stone at her middle and I gave it, and that is not nothing. Both stand. He had to lean over the whole rule before he could write that no remedy was applied, and I watched him do it.
-
-> *Margin:* A woman told me her name in the night and asked me to write it where the thumb's length stood. I have left the place the length it was and put the name at the edge, where a name has no standing. She asked me in the morning whether it had gone up the road. I told her no. That was true, and was not what she asked.
+> *Margin:* A woman asked me whether the cup was for her. I told her it stood where it was set. She took that for yes and drank, and I did not correct her, which is the only true answer I have given here in nine years. Neither the asking nor the drinking is entered; the ring the cup left is on this leaf, where nobody can add it.
 
 ## III. Of the morning and the going up
 
@@ -47,9 +43,9 @@ The ordinance was set down in the first years after the Rising and confirmed to 
 12. The cradle is wiped and the cup is set back where it stood. A cup set back is not a cup washed, and the ordinance asks after neither.
 13. No roll is closed in this room. What was entered overnight is carried forward with the other figures and is not called an overnight in the roll.
 
-> *Margin:* I have put *the figure is read before the vessel is looked at* back under rule ten, where a clerk from the College set *the reading precedes attendance.* They are the same order said to a slate and said to a person. A person can be looked at; the order provides that he is not.
+> *Margin:* I put *the figure is read before the vessel is looked at* back under rule ten, where a College clerk set *the reading precedes attendance.* The same order said to a slate and said to a person. A person can be looked at; the order provides that he is not.
 
-> *Margin:* The grey in the corners is the colour of skimmed milk gone off, and it comes away on a sleeve and will not wash out. The houses sweep their corners on the Last Day and burn what they find and call it dealt with. There is no Last Day in a Waiting Room. The barrow goes out every morning and comes back the next, and nobody has ever called it dealt with.
+> *Margin:* The grey in the corners is the colour of skimmed milk gone off, and it will not wash out. Houses sweep their corners on the Last Day and burn what they find and call it dealt with. There is no Last Day in a Waiting Room; the barrow goes out every morning and comes back the next, and nobody has called it dealt with.
 
 ## IV. Of faults and their correcting
 
@@ -59,32 +55,28 @@ The ordinance was set down in the first years after the Rising and confirmed to 
 | A hand to the vessel before the slate | The slate turned and written again in the same hand | The woman who was looked at first |
 | A fire carried in | No fire entered | The cold that came up through the boards |
 | A name spoken in the night | No entry | The length of the speaking |
-| A figure read with feeling | The reader set back one tend | The person the figure was read over |
-| The cup washed | Nothing entered | The ring the cup left, which water will not take off |
 | The boards counted | No figure taken | Forty, who lay there, and the barrow that followed |
 
 14. A fault copied twice in one tend is a fault the clerk has not understood, and the senior clerk sits with him at the bench until he has. The slate is not a rod. It is a piece of stone with a place where a person sat.
 
 # The table of nights
 
-*Copied from the room-slate. The figure and the hours stand as the ordinance has them. The last column is mine and has no standing at any bank.*
+*Copied from the room-slate. The last column is mine and has no standing at any bank.*
 
 | Night | Who was set | On the slate | What the night kept | What stands beneath |
 |---|---|---|---|---|
 | Stone 30 | Forty of Low Kiln, by lot | One slate for the batch | Boards on the floor; a barrow out at noon | Birth-names not taken; no figure for the boards |
 | Kindling 2 | A widow of the lower town | *Loaf* | Asked after her daughter, twice | The daughter, at the edge, the length of a name |
 | Weighing 3 | A kiln-hand, terraces | *Seven* | A stone at the middle; hands left wrapped | The asking for the stone, not entered |
-| the Long Night | A clay-bound hand | — | No fire after dusk; the cup not drunk | The hour the room took to get cold |
 | Ash 12 | A girl out of the glaze room | *Sweet* | Green at one corner of the mouth | The girl asked whether it showed; no answer entered |
-| Ilmen 1 | A thrower of the low yard | *Nineteen* | Name said in the night, once | The name, at the edge, wiped next morning |
 
-Draws on this leaf: six nights and one batch. Names taken: none. Figures struck: one. The cup-ring is not a figure and has not been added.
+Draws on this leaf: four nights and one batch. Names taken: none. Figures struck: one. The cup-ring is not a figure and has not been added.
 
 # The form of the overnight
 
 *Set out at the end of Title the Twelfth. I have copied it with the blanks as they stand. In nine years nobody has filled the last line with the hand the room requires.*
 
-> Entered this day, being ---day of -------, in the year of the Hearth ------, the bringing of ----------------------, entered by slate-name and not by birth-name, set upon the first bench / the second bench / boards laid upon the floor, the slate face down from the bringing, the stone at the middle and not at the ends, the cup standing where it was set, no fire carried in, nothing entered between the bringing and the morning; read in the morning before the vessel was looked at, the figure one in twelve as the notice says, the corners swept and the grey carried out; carried forward and not closed. Written by ----------------------, whose hand went to the slate before it went to the person. What the vessel said in the night was ----------------------, which is not entered.
+> Entered this day, being ---day of -------, in the year of the Hearth ------, the bringing of ----------------------, by slate-name and not by birth-name, set on the first bench / the second / boards on the floor, the slate face down, the stone at the middle and not at the ends, the cup standing where it was set, no fire carried in, nothing entered between the bringing and the morning; read in the morning before the vessel was looked at, the figure one in twelve as the notice says, the corners swept and the grey carried out; carried forward and not closed. Written by ----------------------, whose hand went to the slate first. What the vessel said in the night was ----------------------, which is not entered.
 
 # The bench-song, pasted inside the cover
 
@@ -110,17 +102,17 @@ Draws on this leaf: six nights and one batch. Names taken: none. Figures struck:
 > what was said in the night goes up with the grey
 > and the room keeps the shape and never the word.
 
-The wet reed across the last verse came in on a coat from the Weir. I have flattened it and put no gloss on it. A clerk who explains a song has begun to write a sermon, and sermons get copied.
+The wet reed across the last verse came in on a coat from the Weir. I have flattened it. A clerk who explains a song has begun to write a sermon, and sermons get copied.
 
 # What the borrowed hands did
 
-A clerk of the College came down from Slate Row with ink in two fingers of a cuff gone soft from washing, and borrowed the leaf while I was at the benches. Against rule nine he struck *the collected are kept until the banking* and set *the vessels remain in custody* above it, which is true of a room and false of a woman who asked me for water. Against rule five he wrote *no matter arising*, and had to look at every night on the table before he could write that none of them had matter in them. I have put both of mine back underneath and left his standing where a man must lean to read them.
+A clerk of the College came down with ink in two fingers of a cuff gone soft from washing, and borrowed the leaf while I was at the benches. Against rule nine he struck *the collected are kept until the banking* and set *the vessels remain in custody* above it, true of a room and false of a woman who asked me for water. Against rule five he wrote *no matter arising*, and had to look at every night on the table before he could write that none had matter in them. I have put both of mine back underneath and left his standing where a man must lean to read them.
 
-The other hand is a physician's, come up from Greybank, tall and leaning and kinder than the first. Against the stone at the middle he set *a common settling; no remedy applied*, which is the phrase that took the second chill out of the record in Y.H. 651 and has done the same service here. I have not struck it through. A kinder phrase costs less to enter, and a clerk who has sat one night in this room knows which of the two hands has been nearer the bench. Both stand.
+The other hand is a physician's, come up from Greybank, taller and kinder than the first. Against the stone at the middle he set *a common settling; no remedy applied*, the phrase that took the second chill out of the record in Y.H. 651. I have not struck it through. A kinder phrase costs less to enter, and a clerk who has sat one night here knows which hand has been nearer the bench. Both stand.
 
 # At the head and in the gutter
 
-The grey at the head is Ash off my own thumb, turning the leaf toward the lamp while a figure was read from the other room; it will not come out of the creases. The filings in the gutter came off a tube-wrap set down here while the officer went for water; there is always a little iron in the fold, and it has never once drawn the warmth out of the paper, which is the only mercy this room holds. The pale ring is where the cup stood from the first watch to the morning; it is the thinnest place on the leaf and no figure can be read into it. The brown at the second fold is crust-grease, set down by a woman who would not eat and held the crust for a child who was not in the room. The curl of grey wool through the tie-hole is off a sleeve that brushed the slate on the way out; it is mine and I have not untied it. The tallow is from the lamp I keep low, so that a woman will not change what she was saying when she hears the pen. The green bead is lead glaze, pressed in by a girl come up from High Kiln with the sweetness still at her mouth, who leaned to see the form of the overnight and asked nobody anything. The tide-line along the foot came up out of the boards after a wet Silt, and it takes the corners off figures and leaves the figures. The bare square is where I scraped a name away with the edge of a clip and put no other in its place. I have not written it back, and I have not forgotten it.
+The grey at the head is Ash off my own thumb, turning the leaf toward the lamp while a figure was read from the other room; it will not come out of the creases. The filings in the gutter came off a tube-wrap set down while the officer went for water; there is always iron in the fold, and it has never once drawn the warmth out of the paper, which is the only mercy this room holds. The pale ring is where the cup stood from the first watch to morning; it is the thinnest place on the leaf and no figure can be read into it. The brown at the second fold is crust-grease, left by a woman who held her crust for a child not in the room. The curl of grey wool through the tie-hole is mine and I have not untied it. The tallow is from the lamp I keep low, so a woman will not change her tale when she hears the pen. The green bead is lead glaze, pressed in by a girl come up from High Kiln with the sweetness still at her mouth. The tide-line along the foot came up out of the boards in a wet Silt; it takes the corners off figures and leaves the figures. The bare square is where I scraped a name away with a clip's edge and put no other in its place. I have not written it back, and I have not forgotten it.
 
 # At the foot, in a hand nobody will own
 
@@ -129,4 +121,4 @@ The grey at the head is Ash off my own thumb, turning the leaf toward the lamp w
 
 I asked a collector's man, a woman who had sat overnight on the second bench, and a clerk come down from the College, and had three answers and no hand, as I have had before. I have left the lines where they were written.
 
-The leaf goes back under the slate and the slate goes face down on the shelf. Tomorrow the evening figure will be read and brought, and I shall set the verbs back where another hand has taken them out, and turn the slate before I look at the person. A woman will ask me for her name and I shall give her a date, because a date is safe and the Court likes a date. The cup will stand where it was set. In the morning the grey will go out through the north gate, and nobody in this building will call it dealt with.
+The leaf goes back under the slate and the slate face down on the shelf. Tomorrow the evening figure will be read and brought, and I shall set the verbs back where another hand took them out, and turn the slate before I look at the person. A woman will ask for her name and I shall give her a date, because a date is safe and the Court likes a date. The cup will stand where it was set, and in the morning the grey will go out through the north gate, and nobody here will call it dealt with.
