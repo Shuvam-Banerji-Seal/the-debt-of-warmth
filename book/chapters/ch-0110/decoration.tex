@@ -1,0 +1,76 @@
+\begin{tikzpicture}
+  % The chapter's heart: a fourth direction comes over the boards with nobody
+  % standing under it -- a room shut against the cold and a slate burned so a
+  % count would not go up, the cold and the count going out through one gap.
+  % The boy files it on a place of its own beside the older joinings, a finger
+  % between every pair. Not a sixth telling, not a witness, not a rule: there
+  % is no payer standing anywhere, and nothing calls itself an account.
+
+  \node at (0,1.52) {\pgfornament[width=0.62cm,color=ornament,opacity=0.22]{6}};
+
+  % —— the surface on which keepings are laid, each on a place of its own ——
+  \draw[faded!20!ink, line width=0.30pt, opacity=0.28] (-4.25,-0.52) -- (4.25,-0.52);
+
+  % —— three older joinings, found where put, all alike, none placing ——
+  \foreach \xx in {-2.70,-0.90,0.90}{
+    \draw[faded!26!ink, line width=0.30pt, opacity=0.40] (\xx,-0.06) ellipse (0.40 and 0.19);
+    \draw[faded!38!ink, line width=0.34pt, opacity=0.44, line cap=round]
+      (\xx-0.22,-0.10) .. controls (\xx,-0.03) .. (\xx+0.22,-0.10);
+    \fill[faded, opacity=0.30] (\xx,0.01) circle (0.016);
+  }
+
+  % —— a finger between every pair: the gaps are kept and not crossed ——
+  \foreach \gx in {-1.80,0.00,1.80}{
+    \draw[faded!24!ink, line width=0.26pt, opacity=0.30] (\gx-0.055,-0.66) -- (\gx-0.055,-0.52);
+    \draw[faded!24!ink, line width=0.26pt, opacity=0.30] (\gx+0.055,-0.66) -- (\gx+0.055,-0.52);
+    \draw[faded!18!ink, line width=0.22pt, opacity=0.22] (\gx-0.055,-0.62) -- (\gx+0.055,-0.62);
+  }
+
+  % —— the fourth, a burned slate filed where no hand has placed it twice ——
+  \fill[night!86, opacity=0.80]
+    (2.26,0.12) -- (3.10,0.14) -- (3.16,-0.02) -- (3.06,-0.24)
+    -- (2.30,-0.26) -- (2.22,-0.04) -- cycle;
+  \draw[rubric!46!ink, line width=0.34pt, opacity=0.46, line cap=round]
+    (2.28,0.10) -- (3.08,0.12) -- (3.02,-0.06);
+  % cuts half consumed, so the count does not go up
+  \draw[ash!52!vellum, line width=0.60pt, opacity=0.48, line cap=round]
+    (2.52,0.02) -- (2.52,-0.10);
+  \draw[rubric!60!ink, line width=0.50pt, opacity=0.40, line cap=round]
+    (2.74,0.03) -- (2.74,-0.08);
+  % the finger-width gap, and both going out through the same one
+  \draw[vellum!80, line width=0.62pt, opacity=0.66, line cap=round]
+    (2.34,-0.20) -- (3.02,-0.20);
+  % the cold, pale and wavering
+  \draw[ash!60!vellum, line width=0.44pt, opacity=0.52, line cap=round]
+    (3.02,-0.17) .. controls (3.32,-0.06) and (3.44,-0.22) .. (3.74,-0.10);
+  \draw[faded!30!ink, line width=0.32pt, opacity=0.26, line cap=round]
+    (3.74,-0.10) .. controls (3.96,-0.02) and (4.06,-0.12) .. (4.22,-0.06);
+  % the count, going out in cuts that thin and stop
+  \foreach \xx/\op in {3.16/0.46,3.38/0.36,3.60/0.27,3.82/0.18,4.04/0.10}{
+    \draw[ash!55!vellum, line width=0.56pt, opacity=\op, line cap=round]
+      (\xx,-0.26) -- (\xx,-0.36);
+  }
+
+  % —— an ownerless voice over the boards, with no one standing under it ——
+  \draw[rubric!34!ink, line width=0.34pt, opacity=0.42, line cap=round]
+    (2.45,0.36) .. controls (2.70,0.56) .. (2.95,0.36);
+  \draw[rubric!28!ink, line width=0.30pt, opacity=0.32, line cap=round]
+    (2.33,0.56) .. controls (2.70,0.84) .. (3.07,0.56);
+  \draw[faded!22!ink, line width=0.24pt, opacity=0.24, dash pattern=on 2pt off 3pt]
+    (2.70,0.24) ellipse (0.14 and 0.10);
+
+  % —— leaders and labels; nobody under the roof names the place ——
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.34] (-1.80,0.16) -- (-1.80,0.62);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (-1.80,0.68) {three older joinings};
+
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.34] (2.70,0.88) -- (2.70,1.06);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (2.70,1.12) {nobody stood under it};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {a finger between every pair};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{86}};
+\end{tikzpicture}
