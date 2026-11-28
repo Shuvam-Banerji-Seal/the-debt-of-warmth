@@ -7,7 +7,7 @@ relates_to: [the Fenmarch, Fenfolk, Fen Cant, Reedholt, the Reed Cut, the reedbe
 
 I keep the reed-cut outside Reedholt and I have set this down because the row at the cut asked for a sentence they could say with their hands full of wet reed. The Court has an order for the draw and an order for the pressing and a verse for the pot broken at the door of a death-house. It has nothing for a raft going out into the reeds, where there is no table, no slate that will stay dry, and no person who has asked to be entered. I have said this seven years and have never once said it over a person. It is said to the water, which does not answer and does not owe an answer. Where the collector has been first there is a pale round place on the arm, and the raft carries what he left. Where he has not been, the raft carries the whole of it. I have laid the two down side by side and have not made them one.
 
-The brown at the head is peat and will not wash out of the grain, which is why the cut signs in peat and not in ink. The tideline took two words clean off the fourth station and I have not written them back; a station with two words gone is a station said slowly, and all of ours are said slowly. The wet sedge across the second leaf came off a bundle set down while a woman tied the knot. The knot through the margin hole is mine. It is tied for a word that will not go into Grathic, and I will not untie it, because a knot untied is a debt paid and this one was never owed to the south.
+The brown at the head is peat and will not wash out of the grain, which is why the cut signs in peat and not in ink. The tideline took two words clean off the fourth station and I have not written them back; a station with two words gone is a station said slowly, and all of ours are said slowly. The knot through the margin hole is mine. It is tied for a word that will not go into Grathic, and I will not untie it, because a knot untied is a debt paid and this one was never owed to the south.
 
 # The manner of it, written small at the head
 
@@ -115,18 +115,18 @@ Here the leaf leaves a space the width of a board. It is not a board forgotten. 
 
 # What the clerk did
 
-A clerk of the factor came up from Greybank to settle a feud about a board that had been moved on the Post. He writes narrow and upright, with the ink settled in two fingers of a cuff gone soft from washing. He borrowed the leaf while the raft was being made and gave it back with the verbs taken out, which is what they teach in the counting house when a thing has hands in it.
+A clerk of the factor came up from Greybank about a board moved on the Post. He writes narrow and upright, with the ink settled in two fingers of a cuff gone soft from washing. He borrowed the leaf while the raft was being made and gave it back with the verbs taken out, which is what they teach in the counting house.
 
 - At *dry ground is a loan called in*, he wrote *tenure at will; no freehold entered*. He has entered the loan and left the lender out, which is the whole art of that hand.
 - At *the country that keeps without asking*, he wrote *name of the sink not admitted; observation struck*. He has not argued with the water. He has struck the word and gone away. Both stand.
 - At *a pale round place on the arm*, he wrote *draw completed; account current*. He has entered the draw and not the pale round place. The pale place is what the family sees all winter and the figure does not.
-- At *a knot keeps what a mouth lets go*, he wrote *no documentary standing*. He is right. That is why the knot stays under the board and the leaf is not sent to Greybank with a tally.
+- At *a knot keeps what a mouth lets go*, he wrote *no documentary standing*. He is right. That is why the knot stays under the board and the leaf is not sent to Greybank.
 - At *we have bought neither*, he wrote *no return entered in this jurisdiction*. True in his room. The mud has taken both and has never sent anybody a figure.
 - At the space where the reader stood he put a round nought and wrote *vacancy* beside it. A nought is a number. The place was the width of a board.
 
 # What the two hands put in the margin
 
-The first is thick charcoal, made with a stick and not a pen, by the woman who tied the knot and has set two people down on rafts. The second presses hard at the ends of words and belongs to a man who served a term of bought breath and was let go at the end of it. I have copied both as they stand.
+The first is thick charcoal, made with a stick and not a pen, by the woman who tied the knot and has set two people down on rafts. The second presses hard at the ends of words and belongs to a man who served a term of bought breath and was let go. I have copied both as they stand.
 
 At the fourth station, in charcoal: “He came up from Greybank in Silt and drew from my brother while he slept. The pale place showed through the winter and went out in the thaw. The raft went out in Reed. I have kept both dates and joined neither.”
 
@@ -142,7 +142,7 @@ She would not give a name and he would not say whose stone it was, and I have no
 
 # At the head and in the gutter
 
-The peat at the head is mine and has gone into the grain, which is how the cut signs anything it has touched. The sedge came off the bundle laid down while the knot was tied. The fish-hook nick is not mine; a man paying me for eels set his hook on the leaf and went off without apologising, which is the ordinary order of payments here. The horn-shaving came off a count-stick a reeve laid on the leaf and left there, having no cause to take it away. The brine ring stood from the first station to the seventh and nobody ate the eels, which is how a dish goes at a cut in Reed. The tallow is my lamp, set too near the fold. The grey along the outer fold came off a cuff that had no business lying where the reed is kept, and I have not swept it.
+The peat at the head is mine and has gone into the grain, which is how the cut signs anything it has touched. The sedge came off the bundle laid down while the knot was tied. The fish-hook nick is not mine; a man paying me for eels set his hook on the leaf and went off without apologising. The horn-shaving came off a count-stick a reeve laid on the leaf and left there. The brine ring stood from the first station to the seventh and nobody ate the eels, which is how a dish goes at a cut in Reed. The tallow is my lamp, set too near the fold. The grey along the outer fold came off a cuff that had no business lying where the reed is kept, and I have not swept it.
 
 There is no Last Day in the Fen and nothing is gathered up in the morning and burnt and called dealt with. We gather the grey, bottle it and sell it to people who want their own dreams to stop arriving, which is a different way of keeping the same thing. I have kept the print where it fell.
 
@@ -157,4 +157,4 @@ Struck again below that, and not written larger:
 
 > We do not ask him back. We ask the water where to stand.
 
-I asked a reeve of the Post, the woman who tied the knot, and the man who served a term and was let go, and had three answers and no hand. I have left the struck lines where they were struck. The leaf goes back under the loose board with the knot still tied and the horn-shaving where it fell. Next Reed the young will cut their first bundles in the dark and bring them back wet or dry, and I shall say seven stations to the water and tie the wool after the fourth, and the clerk will come up the marsh road with a soft cuff and put a nought in the space where I stood, and the man with the hook in his mouth will say the answer wrong, and we shall not correct him.
+I asked a reeve of the Post, the woman who tied the knot and the man let go of his term, and had three answers and no hand. I have left the struck lines where they were struck. The leaf goes back under the loose board with the knot still tied and the horn-shaving where it fell. Next Reed the young will cut their first bundles in the dark and bring them back wet or dry, and I shall say seven stations to the water and tie the wool after the fourth, and the clerk will come up the marsh road with a soft cuff and put a nought in the space where I stood, and the man with the hook in his mouth will say the answer wrong, and we shall not correct him.
