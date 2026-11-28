@@ -1,0 +1,59 @@
+\begin{tikzpicture}
+  % The chapter's heart: eleven arithmetic cuts stand around a single figure
+  % and never close into an account. The figure is read and not paid; the space
+  % beneath it carries no signature and no hand that would set one there. The
+  % slate does not know it has been read; the house keeps the count in loaves.
+
+  % —— two small flourons, far apart, the only ornament above the slab ——
+  \node at (-4.55,0.72) {\pgfornament[width=0.46cm,color=ornament,opacity=0.24]{30}};
+  \node at ( 4.55,0.72) {\pgfornament[width=0.46cm,color=ornament,opacity=0.24,symmetry=v]{30}};
+
+  % —— the slate: a wide cold slab with one chipped corner ——
+  \fill[night!86, opacity=0.82]
+    (-3.78,1.00) -- (3.54,1.00) -- (3.68,0.80) -- (3.72,-0.98)
+    -- (-3.70,-1.02) -- (-3.84,0.78) -- cycle;
+  % the cold light along the top, the dark along the left
+  \draw[ash!52!vellum, line width=0.55pt, opacity=0.42, line cap=round]
+    (-3.74,0.96) -- (3.50,0.96);
+  \draw[night!60!ash, line width=0.40pt, opacity=0.40, line cap=round]
+    (-3.80,-0.96) -- (-3.80,0.74);
+
+  % —— eleven cuts in the slate, grouped five and five and one ——
+  % each leans toward the figure and stops short of it; none signs, none joins
+  \foreach \xx in {-2.95,-2.40,-1.85,-1.30,-0.75,-0.02,0.53,1.08,1.63,2.18,2.95}{
+    \pgfmathsetmacro{\yy}{0.26 + 0.36*(1-(\xx/2.95)^2)}
+    \begin{scope}[shift={(\xx,\yy)}, rotate={-\xx*3}]
+      \draw[faded!26!ink, line width=0.18pt, opacity=0.26] (-0.035,0.19) -- (0.035,0.19);
+      \draw[ash!50!vellum, line width=0.72pt, opacity=0.58, line cap=round]
+        (0,0.16) -- (0,-0.16);
+      \draw[night!80, line width=0.40pt, opacity=0.50, line cap=round]
+        (0.035,0.14) -- (0.035,-0.14);
+    \end{scope}
+  }
+
+  % —— the one figure-space: pale, hollow, read and not paid ——
+  \fill[vellum!88, opacity=0.86] (0,-0.30) ellipse (0.78 and 0.29);
+  \draw[faded!42!ink, line width=0.34pt, opacity=0.52] (0,-0.30) ellipse (0.78 and 0.29);
+  \draw[faded!22!ink, line width=0.24pt, opacity=0.32] (0,-0.30) ellipse (0.70 and 0.23);
+  % a shallow scratch that can be read, and is no doctrine
+  \draw[ash!48!ink, line width=0.50pt, opacity=0.34, line cap=round]
+    (-0.16,-0.22) -- (-0.04,-0.38) -- (0.12,-0.22);
+
+  % —— the empty line beneath it, and the hollow place where a seal would sit ——
+  \draw[faded!30!ink, line width=0.30pt, opacity=0.46, line cap=round]
+    (-0.92,-0.76) -- (0.24,-0.76);
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.26, dash pattern=on 1.6pt off 2.6pt]
+    (0.34,-0.76) -- (1.06,-0.76);
+  \draw[faded!22!ink, line width=0.24pt, opacity=0.30] (0.70,-0.62) circle (0.075);
+
+  % —— the slate dust of eleven readings, gathered and entered nowhere ——
+  \foreach \xx in {-3.2,-2.6,-2.0,-1.4,-0.8,-0.2,0.4,1.0,1.6,2.2,2.8}{
+    \fill[faded, opacity=0.10] (\xx,-0.92) circle (0.013);
+  }
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {eleven are eleven, and not one account};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{81}};
+\end{tikzpicture}
