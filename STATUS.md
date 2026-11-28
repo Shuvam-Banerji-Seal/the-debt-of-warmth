@@ -2,10 +2,10 @@
 
 - Chapters complete: **100**
 - Words of story: **1,819,017**
-- Current chapter: 100 (step: publish, scene 7)
+- Current chapter: 101 (step: plan, scene 1)
 - Last chapter: The Long Last Tend (Days 351–353 · Ash 22–24, Y.H. 813)
-- Author calls so far: 1081 (tokens in 195,811,992, out 24,537,751)
-- Updated: 2026-11-28 07:05
+- Author calls so far: 1083 (tokens in 196,574,753, out 24,688,734)
+- Updated: 2026-11-28 07:32
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
