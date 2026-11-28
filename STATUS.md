@@ -2,7 +2,7 @@
 
 - Chapters complete: **115**
 - Words of story: **2,123,730**
-- Current chapter: 115 (step: publish, scene 7)
+- Current chapter: 116 (step: plan, scene 1)
 - Last chapter: The New Year Took Up Its Grammar (Days 396–398 · Ilmen 2–4, Y.H. 814)
 - Author calls so far: 1235 (tokens in 226,232,975, out 28,509,908)
 - Updated: 2026-11-28 16:30
