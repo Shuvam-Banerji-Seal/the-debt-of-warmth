@@ -2,7 +2,7 @@
 
 - Chapters complete: **104**
 - Words of story: **1,904,445**
-- Current chapter: 104 (step: publish, scene 7)
+- Current chapter: 105 (step: plan, scene 1)
 - Last chapter: The Fire Takes in Fours (Days 363–365 · Stone 4–6, Y.H. 813)
 - Author calls so far: 1123 (tokens in 203,971,311, out 25,617,007)
 - Updated: 2026-11-28 09:43
