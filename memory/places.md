@@ -21,6 +21,8 @@ The great source of the Warm, said to hold what the world had when it was made; 
 The great sink where everything unheld goes; travellers who go far into it come back older and thinner.
 **Relations:** Begins beyond the Rim, roughly 200 leagues west of Sill; no Court collectors go there.
 
+*The cold past the last pass drawn on `atlas/the-waste`: the Rim and the Cold Pass with the survey post at the east edge, Keld Keep and the Listening Stones behind, the reported coasts and seams of cold, the uncollected sitting upright facing the way they came, and distances struck through past the post. Surveyed and inked in Y.H. 813. Direction is from the survey post; no figure on that chart is honest.*
+
 ### The Rim
 **Kind:** mountain chain. **Region:** west and north of the bowl.
 The cold mountains that ring Sarn, broken by a few passes; the Listening Stones stand in its high places.
