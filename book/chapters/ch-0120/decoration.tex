@@ -1,0 +1,59 @@
+\begin{tikzpicture}
+  % The chapter's heart: a low note kept under the river's own winter skin.
+  % At one edge the skin softened and the note ran nearer under it; the yard
+  % called it weather, and nobody owned the day. No hand under it, no payer,
+  % not a sign and not made again -- filed on a place of its own.
+  % The clean dark line and the finer grey stay where they were put.
+
+  % —— the skin of the river: a long shallow band, opening at one edge ——
+  \fill[faded!12!vellum, opacity=0.50]
+    (-4.25,0.34) .. controls (-2.20,0.58) and (-0.10,0.50) .. (2.10,0.34)
+    .. controls (3.10,0.26) and (3.70,0.22) .. (4.22,0.30)
+    -- (4.22,-0.42)
+    .. controls (3.55,-0.16) and (2.90,-0.06) .. (2.00,0.02)
+    .. controls (-0.10,0.14) and (-2.30,0.20) .. (-4.25,-0.02) -- cycle;
+
+  \draw[ink!42!faded, line width=0.48pt, opacity=0.44, line cap=round]
+    (-4.25,0.34) .. controls (-2.20,0.58) and (-0.10,0.50) .. (2.10,0.34)
+    .. controls (3.10,0.26) and (3.70,0.22) .. (4.22,0.30);
+  \draw[ink!34!faded, line width=0.32pt, opacity=0.30, line cap=round]
+    (-4.25,-0.02) .. controls (-2.30,0.20) and (-0.10,0.14) .. (2.00,0.02)
+    .. controls (2.90,-0.06) and (3.55,-0.16) .. (4.22,-0.42);
+
+  % —— the light that rides the skin, failing short of the softened edge ——
+  \draw[gold, line width=0.26pt, opacity=0.26, line cap=round]
+    (-3.60,0.42) .. controls (-1.80,0.57) and (0.40,0.50) .. (2.28,0.36);
+
+  % —— the grain of the cold skin, laid and not counted ——
+  \foreach \x/\y in {-3.42/0.16,-2.64/0.27,-1.74/0.32,-0.86/0.30,0.06/0.26,0.96/0.21,1.86/0.14}{
+    \draw[faded!20!vellum, line width=0.20pt, opacity=0.20, line cap=round]
+      (\x,\y) -- (\x+0.12,\y+0.13);
+  }
+
+  % —— the low note of water over water, running under the skin ——
+  \draw[ink!48!faded, line width=0.30pt, opacity=0.34, line cap=round]
+    (-3.95,-0.52) .. controls (-3.10,-0.34) and (-2.50,-0.72) .. (-1.65,-0.56)
+    .. controls (-0.80,-0.40) and (-0.20,-0.70) .. (0.65,-0.50)
+    .. controls (1.40,-0.32) and (2.10,-0.30) .. (2.75,-0.10)
+    .. controls (3.15,0.02) and (3.42,0.10) .. (3.62,0.12);
+
+  % —— nearer at one edge, and stopping there: not a sign, not a sixth ——
+  \draw[rubric!32!ink, line width=0.26pt, opacity=0.30, line cap=round]
+    (3.62,0.12) .. controls (3.80,0.20) and (3.94,0.22) .. (4.05,0.20);
+  \draw[rubric!22!ink, line width=0.22pt, opacity=0.20, line cap=round]
+    (3.62,0.12) .. controls (3.78,0.06) and (3.94,0.02) .. (4.06,-0.04);
+  \fill[rubric!45!ink, opacity=0.38] (3.62,0.12) circle (0.018);
+
+  % —— a leader to the place of its own, with nobody standing under it ——
+  \draw[faded!20!ink, line width=0.20pt, opacity=0.22, line cap=round]
+    (3.66,0.22) -- (3.88,0.92);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (4.20,1.00) {one edge softened};
+
+  % —— the fold put down clean, and the keeping that cost nothing ——
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.55,-1.32) -- (4.55,-1.32);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.62)
+    {a note under its own skin};
+  \node at (0,-1.94) {\pgfornament[width=3.8cm,color=ornament,opacity=0.18,symmetry=v]{72}};
+\end{tikzpicture}
