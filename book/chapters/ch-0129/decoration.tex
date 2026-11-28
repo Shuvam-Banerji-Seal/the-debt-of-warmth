@@ -1,0 +1,99 @@
+\begin{tikzpicture}
+  % The chapter's heart: the split kindling billet, lying lengthwise. Wood
+  % keeps the word it was told and the word it was not. On the upper face
+  % three separate cuts stand, each on its own place and no line joining
+  % them, three being three and not one rule. On the lower face a smooth
+  % stretch is left uncut, found where put and not made a habit: the word
+  % withheld on a day that had earned only its own fifteenth. The end-grain
+  % holds ring inside ring, the kept days nobody numbered. The knife sits
+  % at the lip and the hand has come away.
+
+  % —— the shadow under the billet, kept quiet ——
+  \fill[faded!12!ink, opacity=0.10] (0.05,-0.70) ellipse (4.05 and 0.11);
+
+  % —— the billet: pale split face, long, a hair wider at the far end ——
+  \path[fill=faded!7!vellum, opacity=0.74]
+    (-3.50,-0.50)
+      .. controls (-1.00,-0.56) and (1.60,-0.52) .. (3.14,-0.44)
+      .. controls (3.34,-0.40) and (3.36,0.32) .. (3.12,0.46)
+      .. controls (1.40,0.54) and (-1.10,0.56) .. (-3.46,0.54)
+      .. controls (-3.62,0.30) and (-3.64,-0.26) .. (-3.50,-0.50)
+    -- cycle;
+  \draw[ink!40!faded, line width=0.44pt, opacity=0.46, line cap=round]
+    (-3.50,-0.50)
+      .. controls (-1.00,-0.56) and (1.60,-0.52) .. (3.14,-0.44)
+      .. controls (3.34,-0.40) and (3.36,0.32) .. (3.12,0.46)
+      .. controls (1.40,0.54) and (-1.10,0.56) .. (-3.46,0.54);
+  \draw[ink!34!faded, line width=0.34pt, opacity=0.36, line cap=round]
+    (-3.50,-0.50)
+      .. controls (-1.00,-0.56) and (1.60,-0.52) .. (3.14,-0.44);
+
+  % —— the bark seam just inside the top edge ——
+  \draw[faded!30!ink, line width=0.22pt, opacity=0.28, line cap=round,
+        decorate, decoration={random steps, segment length=8pt, amplitude=0.8pt}]
+    (-3.38,0.46) .. controls (0.00,0.50) .. (3.02,0.39);
+
+  % —— the end-grain: what the tree kept, ring inside ring ——
+  \path[fill=faded!10!vellum, opacity=0.80]
+    (-3.52,0.02) ellipse (0.17 and 0.49);
+  \draw[ink!42!faded, line width=0.40pt, opacity=0.48, line cap=round]
+    (-3.52,0.02) ellipse (0.17 and 0.49);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.30, line cap=round] (-3.52,0.02) ellipse (0.140 and 0.400);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.30, line cap=round] (-3.52,0.02) ellipse (0.105 and 0.300);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.30, line cap=round] (-3.52,0.02) ellipse (0.072 and 0.205);
+  \draw[faded!28!ink, line width=0.22pt, opacity=0.30, line cap=round] (-3.52,0.02) ellipse (0.038 and 0.105);
+  \draw[ink!36!faded, line width=0.20pt, opacity=0.28, line cap=round]
+    (-3.52,0.02) -- (-3.44,0.30)
+    (-3.52,0.02) -- (-3.61,0.12)
+    (-3.52,0.02) -- (-3.45,-0.26)
+    (-3.52,0.02) -- (-3.58,-0.34);
+
+  % —— grain running lengthwise, reading as nothing ——
+  \foreach \y in {-0.38,-0.24,-0.10,0.24,0.38}{
+    \draw[faded!26!ink, line width=0.16pt, opacity=0.22, line cap=round,
+          decorate, decoration={random steps, segment length=16pt, amplitude=0.9pt}]
+      (-3.18,\y) -- (2.88,\y+0.01);
+  }
+
+  % —— the cleft between the told word and the word not told ——
+  \draw[ink!40!faded, line width=0.38pt, opacity=0.42, line cap=round,
+        decorate, decoration={random steps, segment length=9pt, amplitude=1.4pt}]
+    (-3.20,0.06) -- (2.95,0.02);
+  \draw[faded!6!vellum, line width=0.20pt, opacity=0.42, line cap=round,
+        decorate, decoration={random steps, segment length=9pt, amplitude=1.2pt}]
+    (-3.20,0.09) -- (2.95,0.05);
+
+  % —— the word told: three cuts, each on its own place, none joined ——
+  \foreach \x in {-2.30,-1.55,-0.80}{
+    \draw[rubric!45!ink, line width=0.66pt, opacity=0.52, line cap=round]
+      (\x,0.30) -- (\x+0.06,0.14);
+    \draw[faded!8!vellum, line width=0.26pt, opacity=0.40, line cap=round]
+      (\x+0.02,0.31) -- (\x+0.08,0.15);
+  }
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (-1.55,0.62) {told to the wood};
+
+  % —— the word withheld: a smooth place left whole where no cut was made ——
+  \path[fill=faded!6!vellum, opacity=0.58]
+    (0.90,-0.20)
+      .. controls (1.30,-0.28) and (1.85,-0.28) .. (2.25,-0.18)
+      .. controls (1.85,-0.10) and (1.30,-0.10) .. (0.90,-0.20)
+    -- cycle;
+  \draw[faded!24!ink, line width=0.20pt, opacity=0.24, line cap=round,
+        dash pattern=on 1pt off 2.5pt]
+    (0.90,-0.20) .. controls (1.30,-0.28) and (1.85,-0.28) .. (2.25,-0.18);
+  \node[anchor=north, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.48]
+    at (1.55,-0.40) {left a space};
+
+  % —— the small knife at the lip; the hand has come away ——
+  \path[fill=faded!12!ink, opacity=0.28]
+    (3.10,-0.28) -- (3.82,-0.10) -- (3.80,-0.02) -- (3.14,-0.22) -- cycle;
+  \draw[ink!44!faded, line width=0.34pt, opacity=0.44, line cap=round]
+    (3.10,-0.28) -- (3.82,-0.10) -- (3.80,-0.02) -- (3.14,-0.22) -- cycle;
+  \draw[ink!40!faded, line width=1.6pt, opacity=0.34, line cap=round]
+    (3.80,-0.06) -- (4.18,0.02);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.30)
+    {the word it was told, and the word it was not};
+  \node at (0,-1.72) {\pgfornament[width=4.1cm,color=ornament,opacity=0.18,symmetry=c]{99}};
+\end{tikzpicture}
