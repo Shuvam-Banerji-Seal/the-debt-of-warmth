@@ -6,7 +6,7 @@ relates_to: [Vhal, Vhalen, the Quay, the Council of Tides, the Council room, the
 
 ---
 
-I keep the glass-book of the furnaces below the Cliffs. It lies in a tin lined with sand in the tally shed, and the sand comes in through the seams in the wet season and stays, so that the leaves are gritty where a thumb has gone and gritty where no thumb has gone. The Council keeps its own register in the tar-smelling room up at the Quay, and the two books are not the same book. The Council's register holds what was allowed. Mine holds what was fired. Between the allowance and the firing there is a space the width of a crucible, and it is in that space that the year 626 is written.
+I keep the glass-book of the furnaces below the Cliffs. It lies in a tin lined with sand in the tally shed, and the sand comes in through the seams in the wet season and stays, so that the leaves are gritty where a thumb has gone and where none has. The Council keeps its own register in the tar-smelling room up at the Quay, and the two books are not the same book. The Council's register holds what was allowed. Mine holds what was fired. Between the allowance and the firing there is a space the width of a crucible, and it is in that space that the year 626 is written.
 
 Everything in Vhal is written on paper made to rot, and the Council calls it a virtue that a contract left in the damp is a debt made nothing. In the shed the paper goes soft in a season and the figures come up in pale islands, and we copy the book again before the next firing. No two copies agree, which is the only honest thing about them. Where the Council has taken the doers out of a year I have put them back, the way a man puts his hand back on the tongs before he lifts anything hot.
 
@@ -45,7 +45,7 @@ The nine hundred of Y.H. 626 were entered as received. They were not received. T
 
 > *In the narrow upright hand of the Council:* Deficit not entered. Contract discharged at the Quay. Account stands.
 
-The hand is careful and it has never once in this book changed a figure. It has made nine hundred pots that never existed into nine hundred pots that did, which is a cleaner thing to carry into a counting room. There are eleven words for a lapsed contract taught in that room and not one for a furnace gone cold in Seed, which is the whole of the difficulty between us.
+The hand is careful and has never once changed a figure. It has made nine hundred pots that never existed into nine hundred pots that did, which is a cleaner thing to carry into a counting room. There are eleven words for a lapsed contract taught in that room and not one for a furnace gone cold in Seed, which is the whole of the difficulty between us.
 
 # The song of the shut furnaces
 
@@ -71,7 +71,7 @@ The hand is careful and it has never once in this book changed a figure. It has 
 > no fire had touched them, no hand had set them,
 > and the Quay received them, and the account stood.
 
-I have copied the verses as they came and put no gloss on them. When I asked him who made the song he said the furnaces made it, and when I asked him how a furnace makes a song he said a furnace makes one every time it is lit and nobody writes it down until it is shut, which is the only answer the shed has ever given me and the one I have carried longest.
+I have copied the verses as they came and put no gloss on them. When I asked him who made the song he said the furnaces made it, and when I asked him how a furnace makes a song he said a furnace makes one every time it is lit and nobody writes it down until it is shut, which is the only answer the shed has ever given me.
 
 # What the two hands did
 
