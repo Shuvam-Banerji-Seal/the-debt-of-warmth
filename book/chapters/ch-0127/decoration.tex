@@ -1,0 +1,60 @@
+\begin{tikzpicture}
+  % The chapter's heart: the reading slate after the fourth telling. Four
+  % figures stand on it, each on its own place, four being four and not one
+  % account; no total is drawn to join them and none of them has been paid.
+  % Below them lies the cleanest part of the slate --- the space where the
+  % signature would stand, left empty. The basket has heard four figures and
+  % holds none of them.
+
+  % —— the reading slate, face-on, propped a hair askew ——
+  \fill[faded!12!ink, opacity=0.12] (-0.06,-0.94) ellipse (2.66 and 0.10);
+  \path[fill=faded!12!vellum, opacity=0.66]
+    (-2.72,-0.68) -- (2.44,-0.82) -- (2.62,1.02) -- (-2.56,1.16) -- cycle;
+  \draw[ink!42!faded, line width=0.46pt, opacity=0.46, line cap=round]
+    (-2.72,-0.68) -- (-2.56,1.16) -- (2.62,1.02) -- (2.44,-0.82) -- cycle;
+  \draw[faded!24!ink, line width=0.24pt, opacity=0.28]
+    (-2.72,-0.68) -- (2.44,-0.82);
+  \draw[faded!18!ink, line width=0.18pt, opacity=0.22]
+    (-2.60,1.04) -- (2.54,0.90);
+
+  % —— read twice over the basket: two passes, neither staying ——
+  \draw[faded!20!ink, line width=0.18pt, opacity=0.20,
+        dash pattern=on 1pt off 4pt, line cap=round]
+    (-2.40,0.94) .. controls (0.00,0.84) .. (2.38,0.92);
+  \draw[faded!20!ink, line width=0.18pt, opacity=0.18,
+        dash pattern=on 1pt off 5pt, line cap=round]
+    (-2.38,1.02) .. controls (0.02,0.92) .. (2.40,1.00);
+  \node[anchor=south west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (-2.54,1.24) {one in twelve, twice};
+
+  % —— four figures, each cut on its own place; no sum drawn across them ——
+  \foreach \cx in {-1.95,-0.65,0.65,1.95}{
+    \draw[rubric, line width=0.66pt, opacity=0.56, line cap=round]
+      (\cx,0.32) -- (\cx,0.76);
+    \draw[rubric!55!ink, line width=0.42pt, opacity=0.44, line cap=round]
+      (\cx-0.08,0.52) -- (\cx+0.08,0.52);
+    \draw[faded!26!ink, line width=0.18pt, opacity=0.22,
+          dash pattern=on 1pt off 3pt, line cap=round]
+      (\cx-0.24,0.26) .. controls (\cx,0.16) .. (\cx+0.24,0.26);
+  }
+
+  % —— the cleanest part of the slate: the place where the name would stand ——
+  \draw[ink!38!faded, line width=0.40pt, opacity=0.40, line cap=round]
+    (-2.34,-0.18) -- (-0.06,-0.22);
+  \draw[faded!16!ink, line width=0.16pt, opacity=0.16,
+        dash pattern=on 1pt off 3pt, line cap=round]
+    (-0.06,-0.22) -- (2.36,-0.28);
+  \node[anchor=north, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (1.16,-0.38) {the cleanest part of the slate};
+
+  % —— what the slate does not hold: the figure read, the figure paid ——
+  \draw[faded!20!ink, line width=0.18pt, opacity=0.22,
+        dash pattern=on 1pt off 3pt, line cap=round]
+    (-2.50,0.50) .. controls (-2.90,0.62) .. (-3.22,0.82);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (-3.30,0.84) {holds none of them};
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.42)
+    {four were four, and not one account};
+  \node at (0,-1.82) {\pgfornament[width=4.1cm,color=ornament,opacity=0.18,symmetry=c]{82}};
+\end{tikzpicture}
