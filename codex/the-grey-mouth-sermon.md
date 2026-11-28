@@ -146,7 +146,7 @@ The soot at the head is mine and will not wash out of the fold; I rest the docke
 
 # At the foot
 
-Struck through once and written again underneath, very small, in a hand that is not mine, hers or the clerk's:
+Struck through once and written again underneath, very small, in a hand that is not mine, the old woman's or the clerk's:
 
 > What the glaze would not take, the grey kept.
 >
