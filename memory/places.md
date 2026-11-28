@@ -333,6 +333,21 @@ The wet frontier where Sere's northern advance stopped in Y.H. 634 and where the
 A soft country of clay towns, peat bog and river valleys, under a Thane of Clay confirmed by the Court's factor at Greybank.
 **Relations:** The Rim lies to the west and north-west; the Sallow Sea to the north-east; Sill is its principal town; Greybank its eastern gate.
 
+### the burned kilns
+**Kind:** burned ruins, war-sign. **Region:** High Kiln and Nine Pots, Grath.
+Kilns fired and then broken in the measure-wars, blackened in the chart with a red cross and a smoke-wisp gone grey; the ground of burned kilns and poisoned wells that the Glaze Wars left along the eastern border, where there were no great battles. Drawn on `atlas/war-of-measures`.
+**Relations:** At High Kiln above Sill and at Nine Pots eight leagues west; the chart sets a third at the Clay Road toward Greybank.
+
+### the poisoned well on the Ferr
+**Kind:** well, poisoned war-sign. **Region:** beside the Ferr at Stonemouth, Grath.
+A well left poisoned by the measure-wars, marked on the chart with a red stain and a cross; the Ferr's water carries lead dust from the old working and is said to make a man thin if he drinks it through a season. In the Glaze Wars three hundred households of High Kiln were made thin by drinking from the Ferr. Drawn on `atlas/war-of-measures`.
+**Relations:** Beside the Ferr near Stonemouth, where the Ferr joins the Ilm; the Lead Run comes down into the Ferr from the south-west.
+
+### the district left cold for a season
+**Kind:** district, war-sign. **Region:** east of Sill along the Clay Road, Grath.
+A district charted with its houses standing and its measures gone, entered nowhere, as the ash in the corner is entered nowhere; the cold drawn as an army that advances from the Rim and down the Ferr, its older front laid under the newer. Drawn on `atlas/war-of-measures`.
+**Relations:** Between Sill and Greybank along the Clay Road, about east of High Kiln; a levy was raised across every Low Kiln household in the Long Cold of Y.H. 811 while the notices stood at one in twelve.
+
 ### Sill
 **Kind:** town. **Region:** Grath, on the Ilm.
 A town of just over four thousand souls where the Ilm drops four feet over a ledge of hard stone; the birthplace of Corin.
@@ -1118,6 +1133,8 @@ On Seed 2, Y.H. 813 a neighbour with wet sleeves asked what the planting would c
 On Seed 5, Y.H. 813 a woman with wet sleeves asked what the planting would cost now that seed was in the ground; Sella moved her lips along the loaf shelf in the kiln-house doorway, glanced at the clay jar on the wall, left the space at the end of the loaf row with no figure and told her to ask the pot what a wet thing costs set down there, because *the house has said it*. The bucket was given its instruction before the women were. On Seed 9 below the sill the woman who wrapped a child's dark foot in wool called it the cold and a neighbour at the tubs called the water weather, so the two facts went past each other and never met. Ch 20.
 
 **Relations:** In Low Kiln, east of the Clay Yard.
+
+*The close ground of the well drawn on `atlas/yard-well`: the little roof and crossbeam, the uneven curb and stone lip with the frost-bloom gone off one edge, eleven links to the water and a twelfth hung dry in the hand, the bucket-round, the skinned trough, the flat stone by the well with its silt-clouded plate out of the path of feet, the slate lying open on the lip with its writing turned toward its owner, the number that comes up out of a shut fist and arrives nowhere, and the well-roof under which the words are spoken. Drawn in Y.H. 814, the month of Ilmen. Direction is from the well itself; the stone is shown where no foot goes.*
  On Seed 13, Y.H. 813 Berr Clay came up the clay road from the Cross with the red wool cord of his office folded under his coat and the green of tasted glaze at one corner of his mouth, wiped his thumb twice on his apron before touching nothing, read one in twelve, called the levy and took himself out of his own sentence with *There'll be a slate at the watch*, going off toward High Kiln with the box locked and the true deduction inside. A neighbour at the bucket-round only mentioned a room shut in the war with the men inside dead of the breath — a mention, not a telling — and no third telling came, while the yard argued the thaw early against late and Tarn agreed with both but wanted the late because it puts off the paying. Ch 21.
 
  On Seed 29, Y.H. 813 a neighbour come up from the strips asked what the planting cost now that the hands were out of it; Sella glanced once at the clay jar cold under its glaze and sent her to the pot with *Ask the pot what a wet thing costs set down there. The house has said it*, and the neighbour carried the answer off unanswered. Ch 26.
@@ -1131,6 +1148,11 @@ On Frost 13–15, Y.H. 813 the stayed frost-bloom still lay white on the north l
   On Frost 25–27, Y.H. 813 the stayed white on the north lip, the skin on the water in the trough and the plate of ice clouded with silt on its flat stone out of the path of feet were still called weather and entered nowhere; the rope gave its dry note and the yard went around the seven places with a look and no number (T083/T085 held, T009/T013/T092 carried). On the afternoon of Frost 26 \person[Ilva]{Ilva} drew here with the pail against her knee while an open slate lay on the stone lip with the writing turned toward its owner and nobody reading it aloud; her hand went toward her sleeve and stayed there, the notched strip unread and not joined to the slate, and she answered *Ask the pot what it cost. I keep the count, not the account*. The boy filed the order of her reaching as the ninth record-first hand with no tenth and kept the slate's nearness as an absence; on Frost 25 and 27 she was offstage and no figure came to her well (T080 advanced, not paid). Ch 81.
 
   On Bone 23, Y.H. 813 (Day 322) \person[Ilva]{Ilva} drew here with the pail against her knee in the stiff dry cold, clay dried pale in the crescents of her nails and the finer grey rack dust worked into the seam of one thumb she did not scrub out. A woman with a pot asked what the firings of Bone had taken; Ilva's hand went toward her sleeve and stayed there with the notched strip of birch unread and no figure coming off the wood, her eyes going to the asker and her mouth opening after both with a half-beat, and she answered the question put and not the one behind it with *Ask the pot what it cost. I keep the count, not the account*. The boy filed the order of reaching as the ninth record-first hand with no tenth and did not join her strip to Sella's handful at the rack end or to the charcoal under the loaf shelf (T080 advanced, not paid). The stayed frost gone off the north lip, the skin on the trough and the silt-clouded plate on its flat stone out of the path of feet stayed weather entered nowhere; on Bone 22 and 24 she was offstage and no figure came to her well. Ch 90.
+
+### The flat stone by the well
+**Kind:** stone, keeping place. **Region:** Low Kiln, Sill, beside the trough at the yard well.
+The flat stone beside the trough, out of the path of feet, on which a plate of ice clouded with silt was set on Frost 9, Y.H. 813 after the skin on the trough was broken with the back of a broken pot. The plate is an object set upon the stone and not a place of its own; the stone is the one already charted beside the trough, and the yard goes around it with a look and a wide step and no number. The stayed frost on the well's north lip, the skin on the trough's water and the clouded plate on its flat stone are three coverings called weather and entered nowhere, with a finger between every pair (T083/T085 held, not paid). Drawn on `atlas/yard-well`.
+**Relations:** Beside the yard well and the trough, east of the Clay Yard in Low Kiln; the drying racks lie beyond it to the east.
 
 ### The barley fields
 **Kind:** fields. **Region:** Sill.
