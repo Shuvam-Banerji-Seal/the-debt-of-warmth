@@ -2,7 +2,7 @@
 
 - Chapters complete: **124**
 - Words of story: **2,318,230**
-- Current chapter: 124 (step: publish, scene 7)
+- Current chapter: 125 (step: plan, scene 1)
 - Last chapter: Three Times Over the Basket (Days 423–425 · Ilmen 29–30, Silt 1, Y.H. 814)
 - Author calls so far: 1328 (tokens in 244,296,983, out 31,009,670)
 - Updated: 2026-11-28 22:30
