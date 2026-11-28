@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **100**
-- Words of story: **1,819,017**
-- Current chapter: 101 (step: plan, scene 1)
-- Last chapter: The Long Last Tend (Days 351–353 · Ash 22–24, Y.H. 813)
-- Author calls so far: 1083 (tokens in 196,574,753, out 24,688,734)
-- Updated: 2026-11-28 07:32
+- Chapters complete: **101**
+- Words of story: **1,839,818**
+- Current chapter: 101 (step: publish, scene 7)
+- Last chapter: The Grain Under Wool (Days 354–356 · Ash 25–27, Y.H. 813)
+- Author calls so far: 1093 (tokens in 198,271,364, out 24,915,936)
+- Updated: 2026-11-28 08:01
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also
