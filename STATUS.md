@@ -2,7 +2,7 @@
 
 - Chapters complete: **112**
 - Words of story: **2,063,571**
-- Current chapter: 112 (step: publish, scene 7)
+- Current chapter: 113 (step: plan, scene 1)
 - Last chapter: The Twelfth Arithmetic (Days 387–389 · Stone 28–30, Y.H. 813)
 - Author calls so far: 1205 (tokens in 220,590,084, out 27,736,397)
 - Updated: 2026-11-28 14:35
