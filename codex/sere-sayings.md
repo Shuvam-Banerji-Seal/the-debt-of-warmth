@@ -15,7 +15,7 @@ Say these with the vowels opened and the last of the thought thrown away, so tha
 
 1. “Empty the bowl and name what you will carry. The clapping is for the carrying, not the drinking.”
 
-*Gloss — At sixteen. The cup is emptied in the open court and the debt is named, and the court applauds the debt. A child who names a small debt is praised for modesty and given a larger one before the year turns. I have stood at the foot of the steps nineteen years and have never once seen a cup refused.*
+*Gloss — At sixteen. The cup is emptied in the open court and the debt is named, and the court applauds the debt. A child who names a small debt is praised for modesty and given a larger one before the year turns. I have stood at the foot of the steps nineteen years and never seen a cup refused.*
 
 2. “The wine comes warm to the hand and cold to the account. Both are true and neither is entered at the same table.”
 
@@ -29,11 +29,11 @@ Say these with the vowels opened and the last of the thought thrown away, so tha
 
 4. “Give the child seven names. Keep the one that costs the house least.”
 
-*Gloss — A child of a great house may gather seven names by adolescence and keep whichever the household prefers. The six are not thrown away. They are spent on the child, which is how a house speaks of having used them. I say this to the fire and not to the child.*
+*Gloss — A child of a great house may gather seven names by adolescence and keep whichever the household prefers. The six are not thrown away; they are spent on the child, which is how a house speaks of having used them. I say this to the fire.*
 
 5. “A bought woman is given one name. The one she brought is put under the glaze.”
 
-*Gloss — In some houses the forbidden name is cut into the inside of a bowl before the lead goes on, and the bowl goes into the rack with its rim turned outward. She is never permitted to look into it. The fire shuts the word in more carefully than this house shuts anything else.*
+*Gloss — In some houses the forbidden name is cut into the inside of a bowl before the lead goes on, and the bowl goes into the rack with its rim turned outward. She is never permitted to look into it. The fire shuts the word in more carefully than the house shuts anything else.*
 
 6. “A name under the glaze keeps longer than a promise written in gold.”
 
@@ -47,17 +47,17 @@ Say these with the vowels opened and the last of the thought thrown away, so tha
 
 8. “Buy the ash back. A house that cannot afford quiet ash has no business burning slates.”
 
-*Gloss — The Court taxes the ash of a burning and the family buys it back at the price of quiet ash. That is how a feast can ruin a house. The smoke goes up for nothing and what is left of it does not.*
+*Gloss — The Court taxes the ash and the family buys it back at the price of quiet ash. That is how a feast can ruin a house. The smoke goes up for nothing and what is left of it does not.*
 
 9. “Burn the slate before company and the whole room has agreed to forget it. Ask the room, not the slate.”
 
-*Gloss — The burning and the forgetting are both public acts and are done in the same hour with the same wine. Nobody is forced to remember. That is the mercy the priests speak of, and the reason the north calls our generosity by another name.*
+*Gloss — The burning and the forgetting are public acts done in the same hour with the same wine. Nobody is forced to remember. That is the mercy the priests speak of, and the reason the north calls our generosity by another name.*
 
 # Of the house and the door
 
 10. “A woman may own the bowls, the slaves and her husband's debt. She may not own the door.”
 
-*Gloss — The counting room is a barred room and no woman of the house goes through it; her numbers are read there by a man. I have stood outside with a wine-list in my hand and heard figures read in a low patient voice. The wood is ordinary wood and the latch is on the inside.*
+*Gloss — The counting room is barred and no woman of the house goes through it; her numbers are read there by a man. I have stood outside with a wine-list and heard figures read in a low patient voice. The wood is ordinary wood and the latch is on the inside.*
 
 11. “Gold ink keeps a threat as long as a promise. Choose which you are writing.”
 
@@ -65,17 +65,17 @@ Say these with the vowels opened and the last of the thought thrown away, so tha
 
 12. “The tally-clerk writes above and the factor's clerk writes above him. The woman at the press writes underneath and nobody reads her.”
 
-*Gloss — This is the order of hands in this house and in the copy that went north. I have let every borrowed correction stand where it was set down and put my words beneath it, the way a repair lies over an older repair in a bowl still used at table.*
+*Gloss — This is the order of hands in this house and in the copy that went north. I have let every borrowed correction stand and put my words beneath it, the way a repair lies over an older repair in a bowl still used at table.*
 
 # Of the north and what is bought
 
 13. “The north buys what we pour out and calls it a return. We sell it and call it a province.”
 
-*Gloss — Some houses buy poor northern measures cheaply and make of them one beautiful return to be displayed at a feast. The distance between the buying and the displaying is the profit, and nobody walks it. A northerner at the lower table with three copper bits under his palm is not there to be pitied, though he often is, which costs him more.*
+*Gloss — Some houses buy poor northern measures cheaply and make of them one beautiful return to display at a feast. The distance between the buying and the displaying is the profit, and nobody walks it. A northerner at the lower table with three copper bits under his palm is not there to be pitied, though he often is.*
 
 14. “A crown that will not change beyond the Peat Line has been spent twice already.”
 
-*Gloss — Southern crowns will not change at Greybank. The northern traders who come south with wool and go back with a figure in their heads complain of this, and are sold to anyway. A coin a man cannot spend is a coin somebody has already counted for him.*
+*Gloss — Southern crowns will not change at Greybank. The northern traders who come south with wool and go back with a figure in their heads complain of this, and are sold to anyway. A coin a man cannot spend has already been counted for him.*
 
 # Of the dead and what is kept
 
@@ -85,7 +85,7 @@ Say these with the vowels opened and the last of the thought thrown away, so tha
 
 16. “A cup that keeps is called generous here and a cup that pours is called spent. Ask the cup which it would rather be.”
 
-*Gloss — The priest says a vessel was made to pour and the cup that keeps is the cup that sours. He says it over the wine and not over the accounts, where it would be a different sentence. I have set it where I heard it and asked the cup nothing.*
+*Gloss — The priest says a vessel was made to pour and the cup that keeps is the cup that sours. He says it over the wine and not over the accounts. I have set it where I heard it and asked the cup nothing.*
 
 # The song of the carrying
 
@@ -124,11 +124,11 @@ A tally-clerk of this house borrowed the leaf in the scullery while I was still 
 - At *a woman may own the bowls*, he wrote *property enumerated; access restricted*, true of the inventory and silent about the latch.
 - At the silence he put the round mark and *not named*. I have left it where he set it and put the name back underneath, which is where it was before.
 
-I have put my words back beneath his everywhere, as the word under the glaze lies under the glaze. He takes the doer out because a thing always true can be carried into a counting room. I put the doer back because a child at the foot of the steps wants to know whose hand will pour and whose hand will be paid.
+I have put my words back beneath his everywhere, as the word under the glaze lies under the glaze. He takes the doer out because a thing always true can be carried into a counting room. I put the doer back because a child at the foot of the steps wants to know whose hand will pour.
 
 # What the northern hand did
 
-A factor's clerk at Greybank wrote above the gold on the copy. He has never been south, and writes in the narrow upright hand they teach at the College.
+A factor's clerk at Greybank wrote above the gold on the copy. He has never been south, and writes in the narrow upright hand of the College.
 
 - At *seven names*, he set *six designations struck; one current*, which is the whole of his trade with a person.
 - At *the north buys what we pour out*, he wrote *pooled measures exported; no deduction at point of sale*, and did not ask who had been pooled.
@@ -141,7 +141,7 @@ I have left his hand above both. There is no Last Day in a scullery and nothing 
 
 > My mother burned her slate at the feast and wept, and the room clapped. I have learned to clap at the burning and to keep the date of it in my head. A date has no figure and does not go up in smoke.
 
-She would not sign it. I have set it where she wrote it.
+She would not sign it. I have left it where she wrote it.
 
 # At the head and in the gutter
 
