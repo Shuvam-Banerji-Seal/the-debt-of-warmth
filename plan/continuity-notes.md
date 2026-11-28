@@ -1,4 +1,4 @@
-# Continuity notes — audits after Chapters 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 and 120 (private)
+# Continuity notes — audits after Chapters 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120 and 130 (private)
 
 *Chapter 10 audit sources: the Chronicles and Continuity sections of `book/chapters/ch-0001`–`ch-0010/summary.md`, all character sheets, `characters/_minor.md`, `memory/state.md`, `memory/timeline.md`, `memory/places.md`, `plan/threads.md`, `bible/calendar.md`, `bible/premise.md` and `plan/arcs.md`. The state snapshot and day-by-day reckoning were sound. No scene file was touched.*
 
@@ -364,3 +364,38 @@ Items 1–37 remain as written above, with counts advanced where this pass requi
 - The clerk's entered figure stays a report brought up the yard, never a sighting, a witness, a reader or a calling of the loan; it sits on its own place between Tarn's degree and the Slate Row face, and the degree was not repeated.
 - No seventh hearing, tenth hand, tenth stopping, eighth opening, sixth burned-slate telling, third shut-room telling, sixth asking of the row, sixth shaping, thirteenth arithmetic, second fold, third crust, sign or ending; preserve through Ch 121.
 - Every day from Day 1 to Day 413 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 414 onward.
+
+---
+
+## Chapter 130 consolidation pass
+
+*Sources: the Chronicles and Continuity sections of `book/chapters/ch-0121`–`ch-0130/summary.md` (read in full), `memory/story-so-far.md`, `memory/state.md`, `plan/threads.md` (current through Ch 130), `memory/timeline.md` (through Day 443), `memory/places.md`, `characters/_minor.md`, `plan/next.md` and the sheets of everyone on or near stage (`sella-vail`, `tarn`, `jorra-vail`, `garl-vail`, `berr-clay`, `hessa-rale`, `ilva`, `alda-reed`, `dessa-silt`, `mira-silt`, `orra-weir`, `dan-marchetti`). No scene file was touched.*
+
+### Drifts fixed in this pass
+
+1. **`memory/story-so-far.md`** — was still the Chapter 120 consolidation (Day 413, 402 answers, twelve plus one arithmetics, 101 IDs, the Five still ahead). Rewritten through Chapter 130 and organised by arc: B1–B12 compressed harder, a new B13 carries Chapters 121–130 — the second, third and fourth readings of Y.H. 814, T102 opened, the well-asking, Ilva's offered figure and its return, the two market sightings, the neighbour's near-reaching, the reported second slate, the second asking, the Slate Row face of Silt 13, Tarn's withheld sentence of Silt 15, Silt 16's thaw, Silt 18's well-direction and Silt 19's second stretch — and sections C–J updated to the Day 443 close with 462 answers. 6,920 words, inside the 7,000-word cap.
+2. **`memory/digests/ch-0121-0130.md`** — created: a 1,951-word digest of Chapters 121–130 with chapter numbers, the one new thread and the eight advances, no deaths, no payoffs, no power or relationship change, and the ledger at 102.
+3. **`memory/places.md`** — four gazetteer entries (Silt 8–10, 11–13, 14–16, 17–19) described the kindling as having "the sixth piece where the house could check and the seventh at the lip." Canon is **six pieces where the house can check and the seventh at the lip** (the sixth piece is the one at the lip). Corrected all four to "six pieces where the house could check and the seventh at the lip." No story change.
+
+### Contradictions not fixed, with a plan to reconcile in the story
+
+39. **`book/chapters/ch-0126/summary.md`, Continuity, "Threads advanced":** the running tallies inside scenes 1–5 are said to count "cumulatively from 432, seven through twelve," which would be answers 439–444, while the same summary and all canon files give Chapter 126's answers as **433–438** (count 428 → 431, final answer 438). *Plan:* treat the cumulative range as a scribe's slip in a finished summary; answers 433–438 are canon, and the count is computed from the dated answer ledger, never from that phrase. Do not propagate 439–444 backward into Chapter 126 or forward into Chapter 127, which correctly opens on answer 438.
+40. **`book/chapters/ch-0121/summary.md`, Continuity, "Day and time at the end":** the count is said to go "six months and two hundred and thirty-three to two hundred and thirty-six days" across Days 414–416. Day 414 is six months and 234 days (Day 413 is 233), so the true span is 234–236. *Plan:* treat 233 as the previous day's number carried into the phrase; the count itself, 413 → 416, and the answer ledger 403–408 are sound. Do not date a day at 233 in any forward note.
+
+### Confirmed sound in this pass
+
+- `plan/threads.md` carries the full 102-ID ledger (67 planted, 34 open, 1 paid — T087) with Ch 121–130 additions tables; T102 is the only new thread, no thread has been paid or closed since T087, and every advance in these chapters is marked NOT paid.
+- `memory/timeline.md` has one dated entry for every day from 414 to 443 with no gaps, ending on answer 462 and the count at 443; `memory/state.md` closes on the same small hours of Silt 19 with six answers 457–462 and four readings behind one unsigned figure.
+- Every on-stage sheet has Chapter 121–130 logs; offstage characters end at their last appearance (Berr and Hessa at Silt 10 / Ilmen 30 carries, Ilva at Silt 18, Alda at Day 146, Mira and Orra at Day 167, Dessa at Day 38). `characters/_minor.md` logs the second man of Ilmen 21, the well-asker of Ilmen 23, the two market sightings of Ilmen 30, the near-reaching neighbour of Silt 3, the reported second slate of Silt 6, the second asker of Silt 12, the Slate Row face of Silt 13, the fist-toward-the-road of Silt 18 and the walk-ons of all ten chapters.
+- Count, answers and holdings agree across state, digest, timeline and the rewrite: 443 exact, 462 honest answers, twelve arithmetics of Y.H. 813 plus four readings of Y.H. 814 behind one unsigned figure (sixteen true subtractions locked in Berr's box, no key), seven openings in seven months with no eighth, burned slate five, shut-room tellings two, well-saying five shapings, row five askings with one shaping and no witness, nine record-first hands with Ilva's strip unread, nine stoppings with no tenth, six hearings with the seventh place empty, keeping at the fold found where put and never placed, river under its skin with three softenings filed and unspent, fire's fifth unpaid and Garl's name unspoken 443 days.
+
+### Carried forward, still unresolved
+
+Items 1–38 remain as written above, with counts advanced where this pass requires: openings seven, arithmetics twelve plus four, burned slate five, shut-room tellings two, well-saying five shapings, row five askings with one shaping, record-first hands nine with Ilva's ninth unread, stoppings nine with no tenth before a term already ended, answers 462, the ledger 102 IDs. None may be settled on the page before its planned chapter. T102 joins the held shapes: no name, owner, errand, interior, witness, reader or sale stands under the second man's slate and direction or the well-asking, and neither is the calling of the loan.
+
+### Minor watch items after Chapter 130
+
+- Silt 20 (Day 444), the month's second Account-day and market and the year's fifth reading, stands one morning beyond the close. When Berr reads, five readings must stand behind one unsigned figure, five being five and not one account, the four behind not laid across the fifth, the figure read still not the figure paid, no signature and no doctrine out of five. Do not bring it early or make the Silt 18 well-direction, the Silt 19 second stretch or the Silt 15 withheld sentence answer it.
+- Every kept object stays on its own place with a finger between every pair: the offered figure and its return, the well-asking, the second man's slate and direction, the two market sightings, the neighbour's near-reaching, the reported second slate, the second asking, the Silt 13 face, Tarn's withheld word, the three softenings and the well-direction. None may be repeated on an unearned day, made a custom, a sixth shaping, a tenth hand, a witness, a reader, a sign or a payment.
+- No seventh hearing, tenth hand, tenth stopping, eighth opening, sixth burned-slate telling, third shut-room telling, sixth asking of the row, sixth shaping, fifth arithmetic standing as a doctrine, second fold, third crust, calling of the loan, sign or ending; preserve through Ch 131.
+- Every day from Day 1 to Day 443 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 444 onward.

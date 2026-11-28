@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Third Thing — a repair that leaves the crack visible</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:1600px;height:2200px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 48% 44%, rgba(255,249,228,.40), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:1600px;height:2200px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 1600 2200" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', COLD='#8fa7a4',
+      GOLD='#a9833c', PALE='#efe3c6', ASH='#9a9080', EARTH='#d8c8a4', STONE='#cbb68d',
+      WARM='#b05b38', WARM2='#8f4126', STEAM='#d9d6c8', IRON='#4a4a45';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(814301);
+  function rr(a,b){return a+(b-a)*rnd();}
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+  function arrow(x1,y1,x2,y2,col,w,p){
+    var a=Math.atan2(y2-y1,x2-x1),h=(col===RED)?11:9;
+    E('path',{d:'M'+x1.toFixed(1)+' '+y1.toFixed(1)+' L'+x2.toFixed(1)+' '+y2.toFixed(1),
+      fill:'none',stroke:col,'stroke-width':w||1.6,'stroke-linecap':'round',opacity:0.88},p);
+    E('path',{d:'M'+x2.toFixed(1)+' '+y2.toFixed(1)+
+      ' L'+(x2-h*Math.cos(a-0.42)).toFixed(1)+' '+(y2-h*Math.sin(a-0.42)).toFixed(1)+
+      ' M'+x2.toFixed(1)+' '+y2.toFixed(1)+
+      ' L'+(x2-h*Math.cos(a+0.42)).toFixed(1)+' '+(y2-h*Math.sin(a+0.42)).toFixed(1),
+      fill:'none',stroke:col,'stroke-width':w||1.6,'stroke-linecap':'round',opacity:0.88},p);
+  }
+
+  E('defs',{});
+  E('image',{x:0,y:0,width:1600,height:2200,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.50});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gStruct=E('g',{}),
+      gFlow=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+  var i,j,k;
+
+  /* foxing, folds and the old damp of the paper */
+  for(i=0;i<38;i++){
+    E('ellipse',{cx:rr(80,1520),cy:rr(80,2120),rx:rr(14,78),ry:rr(9,46),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,1400)+' '+rr(200,2000)+')'},gWash);
+  }
+  [520,1060].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:2140,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:60,y1:1130,x2:1540,y2:1130,stroke:'#7a5a30','stroke-width':1,opacity:0.05},gWash);
+
+  /* ---------- the cold beyond: the Waste, upper right, by report ---------- */
+  E('path',{d:D(jit([[1120,330],[1240,300],[1400,318],[1500,400],[1510,520],[1450,610],
+                      [1300,652],[1160,620],[1080,540],[1080,420]],4,26),true),
+    fill:COLD,opacity:0.18},gWash);
+  for(i=0;i<7;i++){
+    E('path',{d:'M'+rr(1100,1490).toFixed(0)+' '+rr(360,620).toFixed(0)+' q60 -14 134 -2',
+      fill:'none',stroke:SEA,'stroke-width':1,opacity:rr(0.16,0.34)},gTerr);
+  }
+  for(i=0;i<12;i++){
+    var wx=rr(1110,1490),wy=rr(350,620);
+    E('path',{d:'M'+wx.toFixed(0)+' '+wy.toFixed(0)+' q12 -6 24 0 q-12 6 -24 0',
+      fill:'none',stroke:SEA,'stroke-width':1,opacity:0.5},gTerr);
+  }
+
+  /* ---------- the vessel: an irregular hand-drawn jar in section ---------- */
+  var outer=[[400,382],[430,372],[570,372],[600,382],[586,424],[636,500],[694,700],
+             [660,960],[620,1090],[610,1110],[390,1110],[380,1090],[340,960],[306,700],[364,500],[414,424]];
+  var inner=[[424,396],[452,390],[548,390],[576,396],[562,430],[606,510],[664,700],
+             [632,958],[600,1082],[596,1094],[404,1094],[400,1082],[368,958],[336,700],[394,510],[438,430]];
+  E('path',{d:D(jit(outer,2.6,12),true),fill:EARTH,stroke:INK,'stroke-width':3.2,'stroke-linejoin':'round'},gStruct);
+  E('path',{d:D(jit(inner,2.2,12),true),fill:PALE,stroke:INK,'stroke-width':2,'stroke-linejoin':'round'},gStruct);
+
+  /* hatching across the cut wall, left and right */
+  function wallHatch(y){
+    var ls=[[382,382],[414,424],[364,500],[306,700],[340,960],[380,1090]];
+    var li=[[424,396],[438,430],[394,510],[336,700],[368,958],[400,1092]];
+    var rs=[[600,382],[586,424],[636,500],[694,700],[660,960],[620,1090]];
+    var ri=[[576,396],[562,430],[606,510],[664,700],[632,958],[600,1092]];
+    function interp(arr,yy){
+      if(yy<=arr[0][1]) return arr[0][0];
+      if(yy>=arr[arr.length-1][1]) return arr[arr.length-1][0];
+      for(var q=0;q<arr.length-1;q++){
+        if(yy>=arr[q][1]&&yy<=arr[q+1][1]){
+          var t=(yy-arr[q][1])/(arr[q+1][1]-arr[q][1]);
+          return arr[q][0]+(arr[q+1][0]-arr[q][0])*t;
+        }
+      }
+      return null;
+    }
+    var l1=interp(ls,y),l2=interp(li,y),r1=interp(rs,y),r2=interp(ri,y);
+    if(l1!==null) E('line',{x1:l1.toFixed(1),y1:y,x2:l2.toFixed(1),y2:y-9,stroke:FADE,'stroke-width':0.8,opacity:0.55},gTerr);
+    if(r1!==null) E('line',{x1:r1.toFixed(1),y1:y,x2:r2.toFixed(1),y2:y-9,stroke:FADE,'stroke-width':0.8,opacity:0.55},gTerr);
+  }
+  for(i=420;i<1090;i+=13) wallHatch(i);
+
+  /* the rim, in perspective */
+  E('ellipse',{cx:500,cy:382,rx:100,ry:15,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4},gStruct);
+  E('ellipse',{cx:500,cy:382,rx:76,ry:9,fill:'#b79c72',stroke:FADE,'stroke-width':1.2},gStruct);
+
+  /* ---------- the Warm within: nearly full and never quite ---------- */
+  var warmFill=[[394,510],[606,510],[664,700],[632,958],[600,1082],[404,1082],[368,958],[336,700]];
+  E('path',{d:D(jit(warmFill,2.2,14),true),fill:WARM,opacity:0.26},gWater);
+  E('path',{d:D(jit(warmFill,2.2,14),true),fill:'none',stroke:WARM2,'stroke-width':0.8,opacity:0.45},gWater);
+  /* the wavy level, just under the neck */
+  E('path',{d:'M396 500 q22 -13 44 -1 q22 12 44 -2 q22 -12 44 1 q24 13 46 -2 q22 -12 44 2 q22 12 44 -2',
+    fill:'none',stroke:WARM2,'stroke-width':2.1,opacity:0.85},gWater);
+  /* currents and pressure within, rising toward the break */
+  for(i=0;i<9;i++){
+    var cx=rr(400,600),cy=rr(560,1020);
+    E('path',{d:'M'+cx.toFixed(0)+' '+cy.toFixed(0)+' q'+rr(-40,40).toFixed(0)+' '+rr(-60,-20).toFixed(0)+
+      ' '+rr(-16,16).toFixed(0)+' '+rr(-110,-60).toFixed(0),fill:'none',stroke:WARM2,
+      'stroke-width':rr(1,1.8).toFixed(1),opacity:rr(0.3,0.6),'stroke-linecap':'round'},gWater);
+  }
+  /* the Ash in the foot: what is left when the Warm has been taken */
+  for(i=0;i<48;i++){
+    E('circle',{cx:rr(412,588),cy:rr(1030,1076),r:rr(0.8,2.4),fill:ASH,opacity:rr(0.3,0.7)},gTerr);
+  }
+  /* ways in the wall, fine double channels */
+  function way(x,y,p){
+    E('path',{d:'M'+x+' '+y+' q8 26 2 54',fill:'none',stroke:FADE,'stroke-width':1,opacity:0.6},p);
+    E('path',{d:'M'+(x+6)+' '+y+' q8 26 2 54',fill:'none',stroke:FADE,'stroke-width':0.7,opacity:0.5},p);
+  }
+  way(372,742,gStruct); way(628,742,gStruct);
+
+  /* ---------- the crack, left showing, mended twice ---------- */
+  var crack=[[556,384],[572,452],[560,508],[592,566],[582,626],[618,690],[606,752],
+             [640,820],[628,892],[650,950],[636,1004]];
+  E('path',{d:D(jit(crack,1.6,10),false),fill:'none',stroke:INK,'stroke-width':3.4,
+    'stroke-linejoin':'round',opacity:0.92},gStruct);
+  E('path',{d:D(jit(crack,1.6,10),false),fill:'none',stroke:RED,'stroke-width':1.1,
+    'stroke-linejoin':'round',opacity:0.75},gStruct);
+  /* an older brass staple across the break */
+  function staple(x,y,p){
+    E('path',{d:'M'+(x-30)+' '+(y-16)+' L'+(x-30)+' '+(y+16)+' M'+(x+30)+' '+(y-16)+' L'+(x+30)+' '+(y+16)+
+      ' M'+(x-30)+' '+(y+16)+' Q'+x+' '+(y+30)+' '+(x+30)+' '+(y+16),
+      fill:'none',stroke:GOLD,'stroke-width':4,'stroke-linecap':'round'},p);
+    E('circle',{cx:x-30,cy:y-16,r:3.2,fill:INK},p);
+    E('circle',{cx:x+30,cy:y-16,r:3.2,fill:INK},p);
+  }
+  staple(586,566,gStruct);
+  /* the second, tighter wire, crossing over the hairline */
+  E('path',{d:'M552 640 Q596 618 646 646',fill:'none',stroke:IRON,'stroke-width':2.6,'stroke-linecap':'round'},gStruct);
+  E('path',{d:'M548 654 Q598 632 650 660',fill:'none',stroke:'#6b6b63','stroke-width':1,'stroke-linecap':'round',opacity:0.8},gStruct);
+  /* the hairline of the original break, still dark between them */
+  E('path',{d:'M578 604 L582 664',fill:'none',stroke:RED,'stroke-width':1.8,opacity:0.95},gStruct);
+
+  /* engraved sound-arcs above the rim — a note nearly full and never quite */
+  for(i=0;i<3;i++){
+    E('path',{d:'M'+(452-i*10)+' '+(344-i*20)+' q48 -30 96 0',fill:'none',stroke:FADE,
+      'stroke-width':1.4-i*0.2,opacity:0.5-i*0.11},gStruct);
+  }
+  /* a knuckle at the rim: the ear before the eye */
+  function hand(x,y,p){
+    var g=E('g',{transform:'translate('+x+' '+y+') scale(0.86)'},p);
+    E('path',{d:'M-14 34 q-8 -18 -2 -30 q4 -8 9 -2 l2 8 l0 -22 q0 -6 5 -6 q5 0 5 6 l0 18 l1 -24 q0 -6 5 -6 q5 0 5 6 l0 22 l2 -18 q1 -6 6 -5 q5 1 4 6 l-3 24 q-2 16 -16 18 z',
+      fill:'#e0d1ae',stroke:INK,'stroke-width':1.2},g);
+    E('path',{d:'M-16 34 q18 8 40 0',fill:'none',stroke:INK,'stroke-width':1},g);
+  }
+  hand(410,336,gStruct);
+
+  /* ---------- the flow: the Warm free to move, in and out of the break ---------- */
+  for(i=0;i<4;i++){
+    arrow(672,690+i*34, 902-i*10, 600+i*36, RED, 2.0, gFlow);
+  }
+  /* from the Hearth, up into the foot */
+  for(i=0;i<5;i++){
+    arrow(500+(i-2)*46,1276, 500+(i-2)*40,1118, WARM2, 1.6, gFlow);
+  }
+  /* a little of what is given, carried away toward the cold */
+  arrow(930,742, 1120,600, FADE, 1.4, gFlow);
+
+  /* ---------- the Hearth below, a wound not a reservoir ---------- */
+  E('path',{d:D(jit([[400,1272],[430,1248],[570,1248],[600,1272],[614,1320],[586,1352],
+                      [414,1352],[386,1320]],3,14),true),fill:STONE,stroke:INK,'stroke-width':2.4},gStruct);
+  for(i=0;i<22;i++){
+    E('line',{x1:rr(400,600),y1:1320,x2:rr(400,600),y2:1348,stroke:FADE,'stroke-width':0.8,opacity:0.5},gTerr);
+  }
+  /* the never-out fire, engraved in fine line */
+  for(i=0;i<5;i++){
+    var fx=500+(i-2)*26;
+    E('path',{d:'M'+fx+' 1310 q-16 -22 2 -42 q16 -18 0 -38 q22 18 12 40 q10 22 -14 40 z',
+      fill:WARM,stroke:RED,'stroke-width':1,opacity:0.8},gStruct);
+    E('path',{d:'M'+fx+' 1310 q-6 -16 4 -30 q8 -12 2 -24',fill:'none',stroke:GOLD,'stroke-width':1,opacity:0.8},gStruct);
+  }
+
+  /* ---------- text helpers: every label inked last, above everything ---------- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      'stroke':(o&&o.halo)?PALE:null,'stroke-width':(o&&o.halo)?3.2:null,'paint-order':(o&&o.halo)?'stroke':null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||23;
+    lines.forEach(function(ln,k){T(x,y+k*lh,ln,{font:'FellIt',size:o.size||16,fill:o.fill||'#5a4127',opacity:o.opacity||0.92});});
+  }
+  function leader(x1,y1,x2,y2,p){
+    E('path',{d:'M'+x1+' '+y1+' L'+x2+' '+y2,fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.6},p||gText);
+  }
+
+  /* labels on the vessel */
+  T(500,288,'A VESSEL IN SECTION',{font:'FellSC',size:22,ls:4,fill:FADE,anchor:'middle',halo:true});
+  leader(690,470,760,452,gText);
+  T(772,458,'the level: nearly full,',{font:'FellIt',size:14,fill:RED,anchor:'start',halo:true});
+  T(772,478,'and never quite',{font:'FellIt',size:14,fill:RED,anchor:'start',halo:true});
+  leader(404,352,300,414,gText);
+  T(294,418,'a knuckle at the rim,',{font:'FellIt',size:13,fill:FADE,anchor:'end',halo:true});
+  T(294,438,'the ear before the eye',{font:'FellIt',size:13,fill:FADE,anchor:'end',halo:true});
+  leader(524,302,856,316,gText);
+  T(990,320,'the note nearly full and never quite',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  leader(620,690,760,690,gText);
+  T(772,694,'the crack, left showing',{font:'FellIt',size:15,fill:RED,anchor:'start',halo:true});
+  leader(592,566,756,550,gText);
+  T(768,546,'the earlier staple, brass',{font:'FellIt',size:13,fill:INK,anchor:'start',halo:true});
+  leader(648,646,760,626,gText);
+  T(772,622,'the second wire, drawn tighter',{font:'FellIt',size:13,fill:INK,anchor:'start',halo:true});
+  T(772,644,'and left longer than it needed',{font:'FellIt',size:13,fill:FADE,anchor:'start',halo:true});
+  leader(636,1048,758,1026,gText);
+  T(770,1022,'the Ash in the foot — what is left',{font:'FellIt',size:13,fill:FADE,anchor:'start',halo:true});
+  T(770,1042,'when the Warm has been taken',{font:'FellIt',size:13,fill:FADE,anchor:'start',halo:true});
+  leader(372,742,250,762,gText);
+  T(242,766,'a way in the wall',{font:'FellIt',size:13,fill:FADE,anchor:'end',halo:true});
+  T(500,1146,'the foot — walls, ways, a capacity, flaws, old patches',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  T(500,1170,'and a rate of loss',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  T(960,606,'the Warm free to move',{font:'FellIt',size:15,fill:RED,anchor:'start',halo:true});
+  T(960,628,'out through the visible seam',{font:'FellIt',size:13,fill:FADE,anchor:'start',halo:true});
+  T(700,1240,'the Hearth — a wound, not a reservoir',{font:'FellIt',size:13,fill:INK,anchor:'start',halo:true});
+  T(700,1262,'the source beneath the Keel',{font:'FellIt',size:12,fill:FADE,anchor:'start',halo:true});
+  T(1290,456,'the Waste',{font:'FellSC',size:19,ls:2,fill:SEA,anchor:'middle',halo:true});
+  T(1290,480,'the sink beyond the Rim',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  T(1290,502,'no map is honest past the last pass',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+
+  /* ---------- three failed mendings, crossed out ---------- */
+  E('line',{x1:110,y1:1300,x2:1490,y2:1300,stroke:INK,'stroke-width':1.2,opacity:0.5},gStruct);
+  T(800,1332,'THREE WHO WERE RECALLED BEFORE HIM',{font:'FellSC',size:18,ls:3,fill:FADE,anchor:'middle',halo:true});
+  function smallPot(cx,cy,fillKind,p){
+    var g=E('g',{},p);
+    E('path',{d:D(jit([[cx-26,cy-30],[cx-16,cy-36],[cx+16,cy-36],[cx+26,cy-30],
+      [cx+22,cy-4],[cx+30,cy+26],[cx-30,cy+26],[cx-22,cy-4]],1.6,8),true),
+      fill:'#e7d9b7',stroke:INK,'stroke-width':2},g);
+    if(fillKind===1){E('path',{d:'M'+(cx-22)+' '+(cy+2)+' q22 -8 44 0 l2 22 l-48 0 z',fill:WARM,opacity:0.3},g);}
+    if(fillKind===2){E('path',{d:'M'+(cx-8)+' '+(cy-30)+' L'+(cx+6)+' '+(cy-2)+' L'+(cx-6)+' '+(cy+24),
+      fill:'none',stroke:RED,'stroke-width':2},g);}
+    if(fillKind===3){E('path',{d:'M'+(cx-28)+' '+(cy+8)+' q28 -10 56 0',fill:'none',stroke:IRON,'stroke-width':4},g);}
+    return g;
+  }
+  smallPot(250,1400,1,gStruct);
+  smallPot(560,1400,2,gStruct);
+  smallPot(870,1400,3,gStruct);
+  smallPot(1180,1400,0,gStruct);
+  [250,560,870].forEach(function(cx){
+    E('path',{d:'M'+(cx-38)+' 1360 L'+(cx+38)+' 1440 M'+(cx+38)+' 1360 L'+(cx-38)+' 1440',
+      stroke:RED,'stroke-width':2.2,opacity:0.85},gStruct);
+  });
+  /* the fourth, set apart by a rule */
+  E('line',{x1:1030,y1:1350,x2:1030,y2:1450,stroke:INK,'stroke-width':1.4,'stroke-dasharray':'4 5',opacity:0.7},gStruct);
+  E('path',{d:'M1154 1370 L1160 1400 L1152 1430',fill:'none',stroke:RED,'stroke-width':1.6},gStruct);
+  staple(1180,1400,gStruct);
+  T(250,1472,'made the repair beautiful and lied',{font:'FellIt',size:13,fill:RED,anchor:'middle',halo:true});
+  T(560,1472,'made it honest and let the world break',{font:'FellIt',size:13,fill:RED,anchor:'middle',halo:true});
+  T(870,1472,'became the Court',{font:'FellIt',size:13,fill:RED,anchor:'middle',halo:true});
+  T(1180,1472,'the third thing',{font:'Fell',size:14,fill:INK,anchor:'middle',halo:true});
+
+  /* ---------- the ranks of vessels, drawn as small pots ---------- */
+  E('line',{x1:110,y1:1504,x2:1490,y2:1504,stroke:INK,'stroke-width':1.2,opacity:0.5},gStruct);
+  T(800,1536,'THE RANKS — TRADES, NOT PRIZES',{font:'FellSC',size:18,ls:3,fill:FADE,anchor:'middle',halo:true});
+  var ranks=['Whole','Held','Drawn','Banked','Hearthward','Kept'];
+  for(i=0;i<6;i++){
+    var rx=232+i*228;
+    smallPot(rx,1630,(i<2)?1:0,gStruct);
+    if(i===2) arrow(rx+30,1624,rx+78,1608,RED,1.6,gStruct);
+    if(i===3){E('path',{d:'M'+(rx+30)+' 1610 q20 -20 44 0 l0 34 l-44 0 z',fill:'#e7d9b7',stroke:INK,'stroke-width':1.2},gStruct);
+      E('path',{d:'M'+(rx+38)+' 1632 q14 -6 28 0',fill:'none',stroke:WARM,'stroke-width':3,opacity:0.7},gStruct);}
+    if(i===4){E('path',{d:'M'+rx+' 1630 q-10 -18 2 -32 q12 -14 2 -26',fill:'none',stroke:WARM,'stroke-width':1.6,opacity:0.8},gStruct);}
+    if(i===5){E('path',{d:'M'+(rx-28)+' 1626 q28 -10 56 0',fill:'none',stroke:IRON,'stroke-width':4},gStruct);
+      E('path',{d:'M'+(rx-26)+' 1636 q26 -8 52 0',fill:'none',stroke:ASH,'stroke-width':2,opacity:0.8},gStruct);}
+    T(rx,1680,ranks[i],{font:'FellSC',size:14,ls:1.5,fill:(i===5)?RED:INK,anchor:'middle',halo:true});
+  }
+  T(800,1712,'he stops short of Kept, for a Kept vessel holds three hundred measures and feels nothing at all',
+    {font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+
+  /* ---------- marginal notes in the surveyor's voice ---------- */
+  note(1000,700,[
+    'A working sheet, not an account. No year is entered on it, for a date',
+    'would want a payer under it, and none stands. Six hearings of the',
+    'full note stay six; the nearly-full are neither hearings nor a rule.'
+  ],{size:14,fill:'#574226',lh:22});
+  note(1000,790,[
+    'Tap a sound vessel and it answers full; a cracked one answers flat.',
+    'This one answers nearly full and never quite — a third sound, and',
+    'not the first two. A repair that will not sing is a lie in clay.'
+  ],{size:14,fill:'#574226',lh:22});
+  note(1000,880,[
+    'A restored thing hides the hand that handled it. A mended thing',
+    'leaves that hand showing. The hairline between brass and wire is',
+    'the record, and no glaze is drawn over it.'
+  ],{size:14,fill:'#574226',lh:22});
+  note(1000,970,[
+    'Every gain costs heat taken from somewhere: a chill in the vessel,',
+    'grey fingers, a memory burned thin, a district left cold a season.',
+    'The old repairs lie one over another, and some look like language.'
+  ],{size:14,fill:'#574226',lh:22});
+  note(1000,1060,[
+    'The Court and the Unbanked want the same ending by different',
+    'methods: a world in which nothing can ever be given away. The quiet',
+    'seal is forbidden here; a world of unbreakable vessels is a still one.'
+  ],{size:14,fill:'#574226',lh:22});
+
+  /* ---------- title cartouche ---------- */
+  E('path',{d:'M310 58 L1290 58 L1310 78 L1310 232 L1290 252 L310 252 L290 232 L290 78 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.95},gFrame);
+  E('path',{d:'M316 68 L1284 68 L1300 84 L1300 226 L1284 242 L316 242 L300 226 L300 84 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  T(800,122,'THE THIRD THING',{font:'CinzelDec',size:38,ls:3,anchor:'middle',fill:INK});
+  T(800,166,'a repair that leaves the crack visible',{font:'FellIt',size:20,anchor:'middle',fill:FADE});
+  T(800,206,'and the Warm free to move — not a better clamp',{font:'FellSC',size:14,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<25;i++){
+    var sx=322+i*39;
+    E('path',{d:'M'+sx+' 78 l2.5 5 l5 0 l-4 3.5 l1.5 5 l-5 -3 l-5 3 l1.5 -5 l-4 -3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 232 l2.5 -5 l5 0 l-4 -3.5 l1.5 -5 l-5 3 l-5 -3 l1.5 5 l-4 3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---------- compass rose ---------- */
+  var cx=1400,cy=185;
+  E('circle',{cx:cx,cy:cy,r:50,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:cx,cy:cy,r:39,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?44:25;
+    E('path',{d:'M'+cx+' '+cy+' L'+(cx+Math.sin(a)*len).toFixed(1)+' '+(cy-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+cx+' '+(cy-44)+' L'+(cx-9)+' '+cy+' L'+cx+' '+(cy+44)+' L'+(cx+9)+' '+cy+' Z',
+    fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+cx+' '+(cy-44)+' L'+cx+' '+cy+' L'+(cx+9)+' '+cy+' Z',fill:RED,opacity:0.8},gFrame);
+  T(cx,cy-60,'N',{size:20,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,q){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][q];
+    T(cx+Math.sin(ca)*64+3,cy-Math.cos(ca)*64+7,cdir,{font:'FellSC',size:15,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- Garl's sayings, in a decorated box ---------- */
+  E('rect',{x:110,y:1752,width:1380,height:212,fill:'#e7d9b7',stroke:INK,'stroke-width':2.6,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1760,width:1364,height:196,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(800,1794,'THE TWO SAYINGS OF GARL VAIL',{font:'FellSC',size:18,ls:3,anchor:'middle'});
+  E('line',{x1:180,y1:1806,x2:1420,y2:1806,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  T(800,1840,'“Leave the crack showing. People trust a thing they can see has been handled.”',
+    {font:'FellIt',size:19,anchor:'middle',fill:INK});
+  T(800,1876,'“If it’s worth mending it’s worth mending twice. The second time is the real one.”',
+    {font:'FellIt',size:19,anchor:'middle',fill:INK});
+  T(800,1914,'said to the pot and to the fire, and never to a person — repair is not restoration',
+    {font:'FellIt',size:14,anchor:'middle',fill:FADE});
+  T(800,1942,'attention is the one thing no institution can tax; the last account cannot be paid, only carried',
+    {font:'FellIt',size:13,anchor:'middle',fill:RED});
+
+  /* ---------- convention of signs ---------- */
+  E('rect',{x:110,y:1984,width:840,height:140,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  T(530,2016,'CONVENTION OF SIGNS',{font:'FellSC',size:17,ls:2.5,anchor:'middle'});
+  E('line',{x1:130,y1:2026,x2:930,y2:2026,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  E('path',{d:'M156 2064 l0 -18 l18 0',fill:'none',stroke:FADE,'stroke-width':2},gFrame);
+  T(190,2068,'the wall, hatched',{font:'Fell',size:14});
+  E('path',{d:'M320 2048 L330 2066',fill:'none',stroke:RED,'stroke-width':2.2},gFrame);
+  T(346,2068,'the crack, left showing',{font:'Fell',size:14});
+  E('path',{d:'M520 2064 q12 -14 26 0',fill:'none',stroke:GOLD,'stroke-width':3},gFrame);
+  T(560,2068,'mended twice',{font:'Fell',size:14});
+  arrow(690,2066,736,2060,RED,1.6,gFrame);
+  T(750,2068,'the Warm, moving',{font:'Fell',size:14});
+
+  /* ---------- scale bar ---------- */
+  T(1150,2016,'A SPAN OF THE WALL',{font:'FellSC',size:14,ls:1.5,fill:FADE});
+  E('rect',{x:1150,y:2030,width:340,height:12,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1150+i*85,y:2030,width:85,height:12,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1150+i*85,2064,[0,1,2,3][i]+'',{font:'Fell',size:14,anchor:'middle',fill:INK});
+  }
+  T(1320,2090,'a vessel is read by the thumb, not in leagues — its measure is booked in embers',
+    {font:'FellIt',size:12,fill:FADE,anchor:'middle'});
+
+  /* ---------- the ruled border and its hatch ---------- */
+  E('rect',{x:34,y:34,width:1532,height:2132,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:1496,height:2096,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<78;i++){
+    var px=56+i*19.1;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:2148,x2:px,y2:2166,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<108;i++){
+    var py=56+i*19.3;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:1548,y1:py,x2:1566,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[1548,52,-1,1],[52,2148,1,-1],[1548,2148,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>
