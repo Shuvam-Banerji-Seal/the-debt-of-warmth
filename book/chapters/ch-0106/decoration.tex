@@ -1,0 +1,56 @@
+\begin{tikzpicture}
+  % The chapter's heart: the cold iron that takes the measure and leaves a
+  % pale round place which is not a wound and has no blood in it. The surface
+  % sends up its pink and the core stays cold. Ten figures are cut into the
+  % instrument and none is signed; the figure read is still not the figure
+  % paid, and no doctrine comes out of ten.
+
+  \node at (0,1.52) {\pgfornament[width=0.70cm,color=ornament,opacity=0.24]{16}};
+
+  % —— the pale round place, beneath the iron: no wound, no blood ——
+  \fill[vellum!92, opacity=0.90] (0.35,-0.48) circle (0.40);
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.42] (0.35,-0.48) circle (0.40);
+  % the pink that returns is only the rim
+  \draw[rubric!56!faded, line width=0.85pt, opacity=0.48, line cap=round]
+    (162:0.40) ++(0.35,-0.48) arc (162:18:0.40);
+  % the core that stays cold
+  \fill[ash!55!night, opacity=0.44] (0.35,-0.54) circle (0.17);
+  \fill[night!40!ash, opacity=0.34] (0.35,-0.54) circle (0.08);
+
+  % —— the cold iron tube, laid across the place and taking the measure ——
+  \fill[night!88, opacity=0.86]
+    (-3.00,0.58) -- (2.40,-0.02) -- (2.40,-0.34) -- (-3.00,0.26)
+    .. controls (-3.16,0.26) and (-3.16,0.58) .. (-3.00,0.58) -- cycle;
+  % the cold light along the upper edge, and the dark underside
+  \draw[ash!55!vellum, line width=0.55pt, opacity=0.50, line cap=round]
+    (-2.92,0.55) -- (2.34,-0.04);
+  \draw[night, line width=0.45pt, opacity=0.40, line cap=round]
+    (-2.92,0.29) -- (2.34,-0.31);
+  % the open mouth of the tube, hollow, the cold going in
+  \draw[night, line width=0.40pt, opacity=0.80] (2.40,-0.18) ellipse (0.078 and 0.16);
+  \fill[night!96, opacity=0.92] (2.40,-0.18) ellipse (0.070 and 0.152);
+  \draw[ash!45!night, line width=0.28pt, opacity=0.42] (2.40,-0.18) ellipse (0.038 and 0.10);
+
+  % —— ten figures cut into the iron, none of them signed ——
+  \foreach \i in {0,1,...,9}{
+    \pgfmathsetmacro{\tx}{-3.0 + (\i+0.5)*0.54}
+    \pgfmathsetmacro{\ty}{0.42 - (\i+0.5)*0.06}
+    \draw[ash!62!vellum, line width=0.72pt, opacity=0.54, line cap=round]
+      (\tx,\ty+0.01) -- (\tx,\ty+0.15);
+  }
+
+  % —— two labels, each with a fine leader ——
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.40] (-3.00,0.80) -- (-2.72,0.52);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (-3.08,0.84) {ten figures, none signed};
+
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.40] (-0.92,-1.00) -- (0.02,-0.78);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (-1.00,-1.02) {not a wound, and no blood};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {the figure read is not the figure paid};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{96}};
+\end{tikzpicture}
