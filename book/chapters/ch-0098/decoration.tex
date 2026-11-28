@@ -1,0 +1,57 @@
+\begin{tikzpicture}
+  % The chapter's heart: a word came over the boards and stood in no doorway
+  % to be asked. The voice had no owner, no room named, no hand at a flame, no
+  % figure, no date; it went off up the terrace after the weather and the price
+  % of barley. So the doorway stands empty, and the word rises past it without
+  % entering -- a few marks with no mouth behind them, dissolving into the air.
+  % No one stands under it to pay, and nothing under the roof was opened.
+
+  % —— the word gone off up the terrace, a faint dove with no body behind it ——
+  \node at (3.95,1.48) {\pgfornament[width=1.06cm,color=faded,opacity=0.26]{113}};
+
+  % —— the boards: a low run of slats, over which the word came ——
+  \fill[ash!16!ink, opacity=0.26] (-4.70,-0.52) rectangle (4.70,0.06);
+  \draw[ornament!38!ink, line width=0.42pt, opacity=0.48, line cap=round]
+    (-4.70,0.06) -- (4.70,0.06);
+  \draw[faded!28!ink, line width=0.26pt, opacity=0.26, line cap=round]
+    (-4.70,-0.52) -- (4.70,-0.52);
+  \foreach \sx in {-4.2,-3.5,-2.8,-2.1,-1.4,-0.7,0,0.7,1.4,2.1,2.8,3.5,4.2}{
+    \draw[faded!30!ink, line width=0.22pt, opacity=0.28] (\sx,-0.52) -- (\sx,0.06);
+  }
+  \foreach \nx in {-4.2,-2.8,-1.4,0,1.4,2.8,4.2}{
+    \fill[ink!44!faded, opacity=0.42] (\nx,-0.30) circle (0.026);
+  }
+
+  % —— the empty doorway: nobody standing in it to be asked ——
+  \fill[vellum, opacity=0.42]
+    (-3.40,0.06) -- (-3.40,1.00) arc (180:0:0.50) -- (-2.40,0.06) -- cycle;
+  \draw[ornament!44!ink, line width=0.50pt, opacity=0.54, line cap=round]
+    (-3.40,0.06) -- (-3.40,1.00) arc (180:0:0.50) -- (-2.40,0.06);
+  \draw[faded!26!ink, line width=0.20pt, opacity=0.24,
+        dash pattern=on 1pt off 2.2pt, line cap=round]
+    (-3.52,0.06) -- (-2.28,0.06);
+
+  % —— the word: marks with no mouth, rising over the boards and past the door ——
+  \draw[faded!34!ink, line width=0.44pt, opacity=0.56,
+        dash pattern=on 2pt off 3pt, line cap=round]
+    (0.10,0.18) .. controls (0.90,0.62) and (1.60,0.30) .. (2.30,0.86)
+    .. controls (2.95,1.34) and (3.60,1.18) .. (4.30,1.52);
+  \foreach \wx in {0.20,0.36,0.52,0.68}{
+    \draw[rubric!40!ink, line width=0.90pt, opacity=0.54, line cap=round]
+      (\wx,0.18) -- (\wx+0.06,0.42);
+  }
+  \foreach \dx/\dy in {4.30/1.52,4.48/1.60,4.66/1.70}{
+    \fill[faded!30!ink, opacity=0.30] (\dx,\dy) circle (0.024);
+  }
+
+  % —— the two small readings, set apart and not joined into one account ——
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.44, anchor=north]
+    at (-2.90,-0.66) {no one to ask};
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46, anchor=north west]
+    at (0.20,-0.66) {a word over the boards};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.10)
+    {the word stood in no doorway};
+  \node at (0,-1.48) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{84}};
+\end{tikzpicture}
