@@ -5,7 +5,7 @@ provenance: Written at the tide-tally house on the Quay at Vhal in Ilmen of Y.H.
 relates_to: [Vhal, Vhalen, the Quay, the tide-tally house, the Council of Tides, the Council room, Kett of the Quay, the Salt Pans, the dippers, the Glaze Cliffs, the glass furnaces, the shore road, the coast pass, the Salt Road, Greybank, the factor at Greybank, the Greybank quay, the beam, Sill, the Clay Road, the Ilm, the Sallow Sea, the Sallow draw, the ebb, the flood, the turn, the pulled benches, salt, glass, rope, dried fish, salt-paper, boat-share, come aboard, brine-gull, tar, hemp, tallow, quiet ash, brine, bit, mark, crown, ember, one in twelve, the measure, Ledgerhand, Grathic, Grath, Sere, the Warm Court, the Ash, the Long Cold, the Thin Year, the Opening of the Slates]
 ---
 
-I keep the draws at the tide-tally house on the Quay. A captain comes in off the ebb with salt in his hold and a paper in his cuff, and asks what his salt will fetch and what the road will take out of him on the way up. The first I can tell him. The second I know only at the far end, and the far end writes to me on paper that has already begun to go soft in a coast pocket. A carter from Greybank sends his figures on good paper and complains when mine will not last the week. We make our contracts on salt-paper here, and we account it a virtue that the damp gets into them. A debt left out in the rain is a debt made nothing, and half the fortunes of this port have turned on that.
+I keep the draws at the tide-tally house on the Quay. A captain comes in off the ebb with salt in his hold and a paper in his cuff, and asks what his salt will fetch and what the road will take out of him. The first I can tell him. The second I know only at the far end, and the far end writes on paper already gone soft in a coast pocket. We make our contracts here on salt-paper and account it a virtue that the damp gets into them. A debt left out in the rain is a debt made nothing, and half the fortunes of this port have turned on that.
 
 This leaf I keep dry on purpose. It is the only dishonest thing I do.
 
@@ -15,7 +15,7 @@ Twelve copper bits to the silver mark; twenty marks to a Sere crown, which comes
 
 # What the Quay gives
 
-*The first column is the figure at the pans or the furnaces, before a load is moved. The second is what is cried at the Quay on an Account-day, which is the figure a captain carries in his head. The wheel of the tide turns between them and takes its share without writing.*
+*The first column is the figure at the pans or furnace, before a load is moved; the second is what is cried on an Account-day, which is the figure a captain carries in his head. The tide turns between them and takes its share without writing.*
 
 | Article | At the pans or the furnace | Cried at the Quay |
 |---|---|---|
@@ -39,7 +39,7 @@ Twelve copper bits to the silver mark; twenty marks to a Sere crown, which comes
 
 # Articles a man asks for after he has paid
 
-*Not cried on the Quay. I keep the list behind the tally bench, in the drawer that will not close in damp.*
+*Not cried on the Quay; I keep the list in the drawer that will not close in damp.*
 
 | Article | Price |
 |---|---|
@@ -52,11 +52,11 @@ Twelve copper bits to the silver mark; twenty marks to a Sere crown, which comes
 
 # The dues of the roads
 
-Four ways leave this Quay and one leaves the world. What is below is what is asked of a man before he loads, and what is written on his paper when he comes back. The two do not agree, and the difference is the whole art of travelling.
+Four ways leave this Quay and one leaves the world. What is below is what is asked before a man loads, and what is on his paper when he comes back. The two do not agree, and the difference is the art of travelling.
 
 ## The Salt Road, up to Greybank and Sill
 
-Eighty leagues by the coast pass, sixty-two beyond the eighteen of the Clay Road. Twenty days on foot at four leagues a day, more in a thaw, and a cart makes it in six days in Silt if the driver is cruel and the horse is fresh. Salt, glass, rope and dried fish go up; coin and contracts come back, and the damp gets into both.
+Eighty leagues by the coast pass, twenty days on foot at four leagues a day, more in a thaw. Salt, glass, rope and dried fish go up; coin and contracts come back, and the damp gets into both.
 
 | | Due |
 |---|---|
@@ -72,7 +72,7 @@ Eighty leagues by the coast pass, sixty-two beyond the eighteen of the Clay Road
 
 ## The shore road to the Glaze Cliffs
 
-Five leagues along the coast from the glass furnaces. The cliffs are stained blue-green by old lead working and smell faintly sweet in the heat. Children are warned not to lick them, which is a warning the sea does not give to cargo.
+Five leagues along the coast from the glass furnaces. The cliffs are stained blue-green by old lead working and smell faintly sweet in the heat; children are warned not to lick them.
 
 | | Due |
 |---|---|
