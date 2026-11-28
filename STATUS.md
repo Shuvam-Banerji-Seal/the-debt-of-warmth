@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **106**
-- Words of story: **1,946,026**
-- Current chapter: 107 (step: plan, scene 1)
-- Last chapter: The Tenth Figure and the Cold Iron (Days 369–371 · Stone 10–12, Y.H. 813)
-- Author calls so far: 1143 (tokens in 207,536,842, out 26,086,413)
-- Updated: 2026-11-28 10:50
+- Chapters complete: **107**
+- Words of story: **1,965,875**
+- Current chapter: 107 (step: publish, scene 7)
+- Last chapter: The Empty Place Beside the Crust (Days 372–374 · Stone 13–15, Y.H. 813)
+- Author calls so far: 1153 (tokens in 209,707,155, out 26,340,198)
+- Updated: 2026-11-28 11:27
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

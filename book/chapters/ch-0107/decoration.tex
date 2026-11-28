@@ -1,0 +1,58 @@
+\begin{tikzpicture}
+  % The chapter's heart: the crust keeps its hair-lifted corner, and the empty
+  % place beside it has taken a fold of wool -- no third crust, no name, no word,
+  % no look toward the face. The hand rested the half-beat longer than the
+  % setting needed and went away. A keeping laid down once and not made again,
+  % filed beside the shelf's two gaps and the pan's gone ring, gathering
+  % interest toward a hand that has not come.
+
+  \node at (0,1.50) {\pgfornament[width=0.70cm,color=ornament,opacity=0.24]{21}};
+
+  % —— the fold of wool under both places, soft and unfigured ——
+  \fill[faded!24!vellum, opacity=0.52]
+    (-3.05,-0.34) .. controls (-2.10,-0.06) and (-0.80,-0.46) .. (0.35,-0.22)
+    .. controls (1.55,0.00) and (2.35,-0.40) .. (3.05,-0.20)
+    .. controls (2.30,0.02) and (1.50,0.34) .. (0.35,0.10)
+    .. controls (-0.80,-0.14) and (-2.10,0.18) .. (-3.05,-0.34) -- cycle;
+  \draw[faded!38!ink, line width=0.32pt, opacity=0.46, line cap=round]
+    (-3.02,-0.32) .. controls (-2.08,-0.04) and (-0.78,-0.44) .. (0.35,-0.20)
+    .. controls (1.55,0.02) and (2.34,-0.38) .. (3.02,-0.18);
+
+  % —— the crust, leathery and brown-edged, lying two inches off ——
+  \fill[ornament!50!ink, opacity=0.60]
+    (-2.18,-0.12) .. controls (-2.02,-0.26) and (-1.62,-0.24) .. (-1.48,-0.08)
+    .. controls (-1.52,0.10) and (-1.90,0.16) .. (-2.14,0.10)
+    .. controls (-2.24,0.04) and (-2.24,-0.04) .. (-2.18,-0.12) -- cycle;
+  \draw[rubric!46!ink, line width=0.42pt, opacity=0.48, line cap=round]
+    (-2.16,-0.11) .. controls (-2.00,-0.24) and (-1.64,-0.22) .. (-1.49,-0.07);
+  % the corner that stands a hair off the wool
+  \draw[faded!30!ink, line width=0.30pt, opacity=0.44, line cap=round]
+    (-1.48,-0.08) -- (-1.39,0.00);
+
+  % —— the empty place beside it: wool tucked in, and no third ——
+  \draw[faded!26!ink, line width=0.30pt, opacity=0.38, dash pattern=on 2pt off 3pt]
+    (0.30,0.08) .. controls (0.62,0.30) and (1.18,0.28) .. (1.52,0.04);
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.50, line cap=round]
+    (0.36,-0.06) .. controls (0.72,0.14) and (1.16,0.12) .. (1.46,-0.06);
+
+  % —— the half-beat the hand rested: a measured interval, nothing said ——
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.36] (-1.05,-0.50) -- (-0.35,-0.50);
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.36] (-1.05,-0.56) -- (-1.05,-0.44);
+  \node[anchor=north, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.44]
+    at (-0.70,-0.60) {the half-beat, and gone};
+
+  % —— labels, each with a fine leader; no one names the place ——
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.38] (-1.84,0.16) -- (-1.60,0.62);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (-1.54,0.64) {its corner a hair off the wool};
+
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.38] (0.95,0.14) -- (1.20,0.66);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (1.26,0.68) {no third, and no name};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {the wool lies in the empty place without a name};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{85}};
+\end{tikzpicture}
