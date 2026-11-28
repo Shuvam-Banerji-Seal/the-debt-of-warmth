@@ -61,7 +61,7 @@ Say these with the vowels opened and the last of the thought thrown away, so tha
 
 11. “Gold ink keeps a threat as long as a promise. Choose which you are writing.”
 
-*Gloss — The house writes in thin gold and the corrections are written above in the same hand, so that what a man meant and what he was told to mean lie in the same ink and last equally long. Charcoal is safer. It rubs off on the sleeve and nobody has thought to enter a sleeve.*
+*Gloss — The house writes in thin gold and the corrections stand above in the same hand, so that what a man meant and what he was told to mean lie in the same ink and last equally long. Charcoal is safer. It rubs off on the sleeve and nobody has thought to enter a sleeve.*
 
 12. “The tally-clerk writes above and the factor's clerk writes above him. The woman at the press writes underneath and nobody reads her.”
 
@@ -154,4 +154,4 @@ The gold at the head came off the tally-clerk's cuff and will not wash out of th
 > The house keeps the name it chose and the debt it did not choose.
 > Nobody keeps the person who carried either.
 
-I asked the woman who carries the bowls, a girl of the mills, the tally-clerk and a factor come down from Greybank, and had four answerings and no hand. The leaf goes back into the silk and the silk into my sleeve. Tomorrow is a name-day in a house I will not name; three bowls will go round and one will stand, and a child will be told what she is to carry, and I shall say these sayings to the bowl and not to the child, and put the verbs back where the gold hand took them out.
+I asked the woman who carries the bowls, a girl of the mills, the tally-clerk and a factor come down from Greybank, and had four answerings and no hand. The leaf goes into the silk and the silk into my sleeve. Tomorrow is a name-day in a house I will not name; three bowls will go round and one will stand, and a child will be told what she is to carry, and I shall say these sayings to the bowl and not to the child, and put the verbs back where the gold hand took them out.
