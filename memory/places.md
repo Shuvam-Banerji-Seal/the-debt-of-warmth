@@ -230,6 +230,44 @@ The capital, a city of open courts and public fires where debt-slates are burnt 
 A house of the Ten Bowls that buys poor northern measures to make one beautiful whole return for display at feasts; Solene Ember was returned whole here in Y.H. 799, Y.H. 804 and Y.H. 809.
 **Relations:** Inside the Bowl of Sere, about 300 leagues south of Sill; its northern interests are represented by the factor at Greybank.
 
+*The close ground of the capital, as a factor's clerk at Greybank would copy it, drawn on `atlas/sere`: the Peat Line and the road north, the open courts and the bowls of the announcements, the ten bowl-houses, the Ember house with its shrine, press and counting room, the grain mills, the bond-quarters and the burning winds. Direction is from the Open Court.*
+
+### The Ten Bowls
+**Kind:** the ten great houses, council. **Region:** the Bowl of Sere.
+The ten bowl-houses whose heads make the Council of Bowls and whose provinces send grain, slaves and warmth to the capital; each bowl is a province, and an act of the Sun-Emperor is announced by the emptying of a public bowl of wine. The Ember bowl-house is one of them.
+**Relations:** In the Bowl of Sere, about 300 leagues south of Sill; drawn as nine houses about the courts and the Ember house on `atlas/sere`.
+
+### The Open Court
+**Kind:** open court, public square. **Region:** the Bowl of Sere.
+The great unwalled court of the capital with a fire burning in its middle, where the public bowl of wine is emptied at the third hour and the acts of the Sun-Emperor are announced, and where debt-slates are burnt by lot at the end of a feast. The Bowl-Priest Valen Openhand preached the Spending here.
+**Relations:** In the Bowl of Sere; the public bowl and the fourth bowl stand on its south side. Drawn on `atlas/sere`.
+
+### The public bowl
+**Kind:** bowl, public vessel. **Region:** the Open Court, the Bowl of Sere.
+The bowl of wine emptied on the stones at the third hour; whether a debt was forgiven or a province ruined, it is emptied in the same manner. The court leans in to hear the act announced.
+**Relations:** In the Open Court of the Bowl of Sere. Drawn on `atlas/sere`.
+
+### The fourth bowl
+**Kind:** bowl, kept absence. **Region:** the Open Court, the Bowl of Sere.
+The fourth bowl set out at every feast and carried away full; nobody pours it and nobody says whose debt it holds. The house not knowing is called a mercy of the Spending and not a failure of the house.
+**Relations:** Beside the public bowl in the Open Court of the Bowl of Sere. Drawn on `atlas/sere`.
+
+### The fire-shrine
+**Kind:** shrine, niche. **Region:** the Ember bowl-house, the Bowl of Sere.
+The small fire within the Ember bowl-house, fed with bought oil and myrrh, to which the Bowl-Priest Valen Openhand came down from the open court to preach the Spending on a name-day in Smoke of Y.H. 812. The fire is out before the wine is cold.
+**Relations:** Inside the Ember bowl-house, in the Bowl of Sere. Drawn on `atlas/sere`.
+
+### The counting room of the Ember bowl-house
+**Kind:** counting room. **Region:** the Ember bowl-house, the Bowl of Sere.
+The barred room of the house where the figures are kept and which no woman enters; the wine-list is kept by a northern bond-woman outside it, writing in charcoal on the backs of spoiled tallies, with the endings put back in that a Sere clerk would throw away. The room's correction stands above hers and a factor's clerk's above both.
+On a chart it is lettered simply *the counting room*, the house being named at the door beside it.
+**Relations:** Inside the Ember bowl-house, in the Bowl of Sere; distinct from the Counting House at Greybank and from the shut counting room of the Greybank saying. Drawn on `atlas/sere`.
+
+### The grain mills
+**Kind:** mills, works. **Region:** the Bowl of Sere.
+The mills south of the capital on the cut fed from the city, where the grain of the southern bowls is dressed; a woman of the mills set her charcoal correction under the gold hand in the house-physician's book and would not give her name.
+**Relations:** South of the Bowl of Sere, below the Ember bowl-house. Drawn on `atlas/sere`.
+
 ### The Fenmarch
 **Kind:** realm, reed confederacy. **Region:** south-west.
 Peat and boardwalk villages governed by reeves chosen for standing longest in a bog; the market for cheap thin returns.
@@ -971,8 +1009,10 @@ The trough outside the smithy door in which hot iron is cooled. It is not the tr
 
 ### The meal mill
 **Kind:** mill, works. **Region:** Sill, on the Ilm below the south bridge.
-A small water-mill grinding the barley baked into the brown-edged loaf of Low Kiln.
+A small water-mill grinding the barley baked into the brown-edged loaf of Low Kiln. The miller keeps the meal-book; his daughter writes in it on the back of a quire spoiled by a wet figure out of the Glaze Room, with a barleycorn shut in the fold. A foundling left at the mill has a stone under him and no name until a hearth claims him.
 **Relations:** On the south bank just below the south bridge, downriver of the Cross.
+
+*The close ground of the mill drawn on `atlas/meal-mill`: the Ilm coming down from the Cross, the south bridge, the race and the tail about the great wheel, the two dressed millstones, the hopper, the meal-book with its barleycorn, the toll-bag and the dust-white sacks, the brown silt tideline and the dotted high water of the Breaking; the Cross and Slate Row faint on the far bank, High Kiln above them and Low Kiln with the Vail kiln-house across the water. Direction is from the mill door.*
 
 ### The birth-flower shrine
 **Kind:** shrine, niche. **Region:** Low Kiln, Sill.

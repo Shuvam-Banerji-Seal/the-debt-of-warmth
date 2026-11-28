@@ -244,7 +244,7 @@ Items 1–26 remain as written above: Dan's and Nina's birth years, Orra's prese
 
 ### Carried forward, still unresolved
 
-Items 1–30 remain as written above, with counts advanced where this pass requires: the openings are now five, the burned slate five, the arithmetics five, the held changes four, the record-first hands nine with Ilva's ninth unread, the well-saying at three shapings, the row at five askings with one shaping, the two small objects of the hand and the handful each on a place of its own. None may be settled on the page before its planned chapter.
+Items 1–30 remain as written above, with counts advanced where this pass requires: the openings are now five, the burned slate five, the arithmetics five, the held changes four, the record-first hands nine with Ilva's ninth unread, the well-saying at three shapings, the row at five askings with one shaping, the two small objects of the hand and the handful each on a place of its own. None may be settled on the page before its planned chapter. **Superseded by the Chapter 100 pass below where these counts are advanced again (six openings, eight arithmetics, four well-saying shapings, three Ash directions).**
 
 ### Minor watch items after Chapter 90
 
@@ -255,3 +255,41 @@ Items 1–30 remain as written above, with counts advanced where this pass requi
 - The nine stoppings are still nine and the seventh year stands at its very end and has not given; the Seed 16 breath is unspent and the loan uncalled; no tenth before the giving is earned by a lived day.
 - No seventh hearing, no sixth sighting of the neat dark hand, no eighth green or shape, no sixth burned-slate telling, no fourth well-saying shaping, no third telling of the shut room, no seventh Alda note, no word *forty* spoken after Day 44, no knot counted, no tin, box, slate, strip or drawer opened, no silt-leach named, no collector for Dessa, no name for the carried man, no Marra in Sill, no witness for the row question and no ending.
 - Every day from Day 1 to Day 323 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 324 onward.
+
+---
+
+## Chapter 100 consolidation pass
+
+*Sources: the Chronicles and Continuity sections of `book/chapters/ch-0091`–`ch-0100/summary.md` (read in full), `memory/story-so-far.md`, `memory/state.md`, `plan/threads.md` (current through Ch 100), `memory/timeline.md` (through Day 353), `characters/_minor.md` and the sheets of everyone on or near stage (`sella-vail`, `tarn`, `jorra-vail`, `garl-vail`, `berr-clay`, `hessa-rale`, `ilva`, `mira-silt`, `orra-weir`, `alda-reed`, `dessa-silt`, `ulda`, `fenna-clay`, `rusk`, `marra`, `dan-marchetti`). No scene file was touched.*
+
+### Drifts fixed in this pass
+
+1. **`memory/story-so-far.md`** — was still the Chapter 90 consolidation (Day 323, 222 answers, five arithmetics, five openings, five burned-slate tellings, three well-saying shapings). Rewritten through Chapter 100 and organised by arc: B1–B8 compressed harder than before (the digests hold their texture), B9 carries Chapters 81–90, and a new B10 carries Chapters 91–100 — the sixth opening on Ash 2, Bone's third and Ash's first and second arithmetics, Tarn's thumb's resting on Bone 26, the Ash 9 pot-crack resting, the Ash 14 held breath at the knife-sill, the Ash 5 joining and the Ash 17 and Ash 23 directions, the fourth shaping of the well-saying, the Ash 6 turning of Hessa's writing, and the count at 353 with 282 answers. Sections C–J updated to the Day 353 close. 6,998 words, inside the 7,000-word cap.
+2. **`memory/digests/ch-0091-0100.md`** — created: a 1,999-word digest of Chapters 91–100 with chapter numbers, the ten chapters' events and turns, no deaths, no revelations given a figure, no power or relationship change, the new held objects, and the ledger at 101 unchanged.
+3. **`plan/continuity-notes.md`** — the Chapter 90 "Carried forward" line still said the openings were five, the arithmetics five and the well-saying at three shapings; marked as superseded by this pass. No other memory file had drifted.
+
+### Contradictions not fixed, with a plan to reconcile in the story
+
+32. **`book/chapters/ch-0091/summary.md`, Continuity, "Private continuity flag":** Scene 5's mid-morning tally reads *Two hundred and twenty-five honest answers stood on the sixth when the light came* on Bone 27, where 226 would follow from Scene 4 and the answer ledger. The canonical ledger is 223/224/225/226/227/228 = **228**, as the chapter's plan, Scenes 4 and 6, the digest, `memory/state.md` and `memory/timeline.md` all require. *Plan:* treat "225" as a scribe's slip in a finished summary, which is not a memory file and was not edited. Do not propagate 225 into Chapter 92 or any forward note; compute answer counts from the dated ledger, never from that line.
+33. **"Five held objects" against seven single objects on the sixth place.** Recent summaries call staying-at-the-inch, early letting-go, handful, thumb's resting and the sixth opening "the five held objects" (the first two also "the two small objects of the hand"), while `memory/state.md` and the rewrite hold seven single objects on places of their own: those five plus the Ash 9 pot-crack resting and the Ash 14 hand-at-the-sill breath, each described as beside the five and "expressly not a sixth." This is a classification hazard, not two different sets of events. *Plan:* keep both conventions but never promote the pot-crack resting or the sill-breath into "the five," and never let either become a sixth held object, a habit, a way or a rule; a finger stays between every pair. If a future chapter needs a total, say "seven single objects" and list them.
+34. **`book/chapters/ch-0096/summary.md`, Chronicle**, opens "On the tenth day of Ash," while the same chapter's Continuity note corrects Day 339 to **Ash 10, Tenthday (not Firstday)**, and `memory/timeline.md` agrees. *Plan:* canon is Tenthday; treat the Chronicle's phrase as a naming slip, never call Ash 10 Firstday in a forward note, and do not rewrite the finished summary.
+
+### Confirmed sound in this pass
+
+- `plan/threads.md` carries the full 101-ID ledger (66 planted, 34 open, 1 paid — T087) with Ch 91–100 additions tables; no thread opened, paid or closed, no new thread since T101 and no payoff since T087.
+- `memory/timeline.md` has one dated entry for every day from 324 to 353 with no gaps, ending on answer 282 and the count at 353; `memory/state.md` closes on the same small hours of Ash 24.
+- Every on-stage sheet has Chapter 91–100 logs; offstage characters correctly end at their last appearance (Berr and Hessa at Ash 20, Ilva at Ash 22, Mira and Orra at Day 167, Alda at Day 146). `characters/_minor.md` logs the Cold Acre hare-carriers, cracked-jar men, well women, kindling women, fence-menders, Cross crowds and the three ownerless voices of Ash 5, 17 and 23.
+- Count, answers, holdings and ledger agree across state, digest, timeline and the rewrite: 353 exact, 282 honest answers, eight arithmetics behind one unsigned figure, six openings in six months, five burned-slate tellings, four held changes on four places, seven single objects on the sixth place, nine hands with Ilva's strip unread, nine stoppings, six hearings with the seventh place empty, five askings with one shaping, four well-saying shapings, two shut-room tellings, three Ash arrivals held apart, seven greens and seven shapes, the fire's fifth unpaid and the loan uncalled.
+
+### Carried forward, still unresolved
+
+Items 1–31 remain as written above, with counts advanced where this pass requires: openings now six, arithmetics eight, burned slate five, shut-room tellings two, well-saying four shapings, row five askings with one shaping, record-first hands nine with Ilva's ninth unread, stoppings nine with no tenth before the seventh year at its very end, held changes four, answers 282. None may be settled on the page before its planned chapter.
+
+### Minor watch items after Chapter 100
+
+- Ash 30 (Day 359), the month's third and last Account-day, stands six mornings ahead and is named only as a date: when earned it will put a ninth arithmetic behind the same figure, and nine must be nine and not one account. Do not supply it early or make a doctrine out of eight.
+- The Ash 5 joining and the Ash 17 and Ash 23 directions go on gathering interest against Jorra's ungiven promise, each on its own place with a finger between every pair; the Ash 6 turning is a sighting beside the fourth shaping, not the payment of a saying, a reader or a fifth shaping.
+- The sixth opening at Ash 2 is held behind the household with no seventh made due; the mark goes to the kiln and at no other hour.
+- The seven single objects on the sixth place stay seven, none made again, none a sixth, habit, way, sign, cause, payment or rule; the handful, the staying, the early letting-go, the thumb's resting, the pot-crack resting and the sill-breath stay apart from the four held changes and from the boy's gaps.
+- No seventh hearing, no tenth hand, no eighth green or shape, no sixth burned-slate telling, no third shut-room telling, no sixth asking of the row, no fifth well-saying shaping, no collector on the clay road, no Marra in Sill, no witness standing anywhere, no word *forty* after Day 44, no tin, box, slate, strip or drawer opened, no silt-leach named, no Dessa name or number spoken to the boy and no ending.
+- Every day from Day 1 to Day 353 has one dated entry in `memory/timeline.md` with no gaps; preserve that from Day 354 onward.

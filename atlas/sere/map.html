@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Bowl of Sere and the Ten Bowls</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c8bda4;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 50% 46%, rgba(253,247,226,.44), rgba(150,116,64,.12) 62%, rgba(60,47,30,.30) 100%),
+  linear-gradient(104deg, rgba(140,110,60,.10), rgba(255,250,232,.04) 45%, rgba(96,72,44,.11));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+'use strict';
+var NS='http://www.w3.org/2000/svg';
+var svg=document.getElementById('m');
+var INK='#2b1b0e', FADE='#6b5b45', RED='#7e1f14', GOLD='#a9833c',
+    WARM='#bc8743', DUST='#b39a5d', OLIVE='#78814f', WATER='#5c8078',
+    PAPER='#f3e9d1';
+
+function E(tag,attrs,parent){
+  var n=document.createElementNS(NS,tag),k;
+  for(k in attrs){ if(attrs[k]!==null&&attrs[k]!==undefined&&attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+  (parent||svg).appendChild(n);
+  return n;
+}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+var rnd=mulberry32(8120634);
+function rr(a,b){return a+(b-a)*rnd();}
+function jit(pts,amp,seg){
+  seg=seg||10; var out=[],i,s;
+  for(i=0;i<pts.length-1;i++){
+    var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+    var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+    var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+    for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+  }
+  out.push(pts[pts.length-1]); return out;
+}
+function D(pts,close){
+  var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+  for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+  return close?s+' Z':s;
+}
+function ring(cx,cy,rx,ry,amp,n){
+  var pts=[],i,a; n=n||40;
+  for(i=0;i<n;i++){ a=(i/n)*Math.PI*2;
+    var o=(rnd()-0.5)*2*amp;
+    pts.push([cx+Math.cos(a)*(rx+o),cy+Math.sin(a)*(ry+o*0.62)]); }
+  return pts;
+}
+function wash(pts,color,op,p){E('path',{d:D(jit(pts,6,24),true),fill:color,opacity:op},p);}
+
+/* layer order: ground and washes, terrain, water, roads, buildings, frames, all lettering last */
+var defs=E('defs',{});
+var gGround=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gRoad=E('g',{}),
+    gBuild=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+
+function T(x,y,text,o,p){
+  o=o||{};
+  var t=E('text',{x:x,y:y,'font-family':o.font||'Cinzel','font-size':o.size||16,
+    fill:o.fill||INK,'letter-spacing':o.ls||0,'text-anchor':o.anchor||'start',
+    opacity:(o.opacity==null?1:o.opacity),
+    stroke:o.halo===false?null:PAPER,'stroke-width':o.halo===false?null:3.2,
+    'stroke-linejoin':'round','paint-order':'stroke',
+    transform:o.rot?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+  t.textContent=text; return t;
+}
+function note(x,y,lines,o){
+  o=o||{};var lh=o.lh||18;
+  lines.forEach(function(ln,k){T(x,y+k*lh,ln,{font:'FellIt',size:o.size||12.5,
+    fill:o.fill||'#594b36',opacity:o.opacity||0.95,halo:true});});
+}
+function leader(x1,y1,x2,y2,c){
+  E('path',{d:'M'+x1+' '+y1+' L'+x2+' '+y2,fill:'none',stroke:c||FADE,
+    'stroke-width':0.85,opacity:0.66},gText);
+}
+
+/* ---------- the paper: an ochre country, hot and dusty ---------- */
+E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',
+  preserveAspectRatio:'xMidYMid slice',opacity:0.47},gGround);
+wash([[60,300],[700,270],[1320,320],[1900,290],[2340,330],[2340,1540],[60,1540]],'#c99a54',0.075,gGround);
+wash([[1300,660],[1800,600],[2340,700],[2340,1320],[1780,1240],[1340,1200]],'#c89650',0.075,gGround);
+wash([[60,60],[600,60],[700,380],[60,400]],'#93a089',0.075,gGround);
+for(var fi=0;fi<30;fi++){
+  E('ellipse',{cx:rr(70,2330),cy:rr(70,1530),rx:rr(16,72),ry:rr(10,42),fill:'#8a6137',
+    opacity:rr(0.012,0.045),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gGround);
+}
+[780,1580].forEach(function(x){E('line',{x1:x,y1:60,x2:x+3,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.06},gGround);});
+E('line',{x1:60,y1:820,x2:2340,y2:820,stroke:'#7a5a30','stroke-width':1,opacity:0.045},gGround);
+
+/* ---------- terrain: the Peat Line, scrub, grain, olive ground, dust ---------- */
+var peatAnchors=[[60,372],[220,356],[380,388],[540,362],[700,402],[860,372],
+  [1020,410],[1180,378],[1340,414],[1500,384],[1660,418],[1820,386],
+  [1980,422],[2140,390],[2340,416]];
+var peat=jit(peatAnchors,6,12);
+peat[0]=[60,372]; peat[peat.length-1]=[2340,416];
+E('path',{d:D(peat.concat([[2340,60],[60,60]]),true),fill:'#9aa78e',opacity:0.20},gTerr);
+E('path',{d:D(peat),fill:'none',stroke:INK,'stroke-width':2.3,opacity:0.58},gTerr);
+E('path',{d:D(jit(peatAnchors,12,12)),fill:'none',stroke:RED,'stroke-width':1.2,
+  'stroke-dasharray':'8 7',opacity:0.58},gTerr);
+function reed(x,y,s,p){
+  var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+  E('path',{d:'M-5 2 q-3 -9 -8 -14 M0 2 L0 -17 M5 2 q4 -8 9 -13 M-2 2 q-2 -7 -4 -11',
+    fill:'none',stroke:'#63724b','stroke-width':1.1,opacity:0.8},g);
+}
+for(var pi=0;pi<82;pi++){reed(rr(70,2330),rr(80,352),rr(0.6,1.15),gTerr);}
+for(var ps=0;ps<26;ps++){
+  var px=rr(140,2280), py=rr(374,414);
+  E('path',{d:'M'+(px-6)+' '+(py-5)+' L'+(px+6)+' '+(py+5)+' M'+(px+6)+' '+(py-5)+' L'+(px-6)+' '+(py+5),
+    stroke:INK,'stroke-width':0.8,opacity:0.34},gTerr);
+}
+function hill(x,y,s,p){
+  E('path',{d:'M'+(x-14*s)+' '+y+' q'+(14*s)+' '+(-13*s)+' '+(28*s)+' 0',
+    fill:'none',stroke:FADE,'stroke-width':1.1,opacity:0.45},p);
+}
+for(var hi=0;hi<76;hi++){hill(rr(100,2320),rr(440,1320),rr(0.5,1.15),gTerr);}
+function olive(x,y,s,p){
+  var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+  E('path',{d:'M0 0 q-2 -10 -8 -15 M0 -8 q6 -8 12 -10',fill:'none',stroke:INK,'stroke-width':1.1},g);
+  E('path',{d:'M-18 -18 q10 -11 20 -4 q9 -7 18 3 q-11 9 -21 5 q-9 6 -17 -4 z',
+    fill:OLIVE,stroke:INK,'stroke-width':0.8,opacity:0.70},g);
+}
+for(var oi=0;oi<40;oi++){olive(rr(1900,2290),rr(1160,1330),rr(0.55,0.95),gTerr);}
+for(var oj=0;oj<24;oj++){olive(rr(360,820),rr(1250,1340),rr(0.55,0.9),gTerr);}
+/* the grain grounds: long rutted strips with little ears */
+function ear(x,y,s,p){
+  E('path',{d:'M'+x+' '+y+' L'+x+' '+(y-9*s),stroke:GOLD,'stroke-width':0.9,opacity:0.66},p);
+  E('path',{d:'M'+x+' '+(y-4*s)+' l-3 -3 M'+x+' '+(y-6*s)+' l3 -3 M'+x+' '+(y-8*s)+' l-3 -3',
+    stroke:GOLD,'stroke-width':0.8,opacity:0.58},p);
+}
+for(var gi=0;gi<7;gi++){
+  var gx=1900+gi*62, gy=1210+rr(-12,12);
+  E('path',{d:D(jit([[gx,gy],[gx+36,gy-6],[gx+54,gy+60],[gx+8,gy+66]],1.8,8),true),
+    fill:'#d7bb72',stroke:FADE,'stroke-width':0.9,opacity:0.34},gTerr);
+  for(var ge=0;ge<8;ge++){ear(gx+rr(6,44),gy+rr(6,56),rr(0.7,1.1),gTerr);}
+}
+for(var gj=0;gj<5;gj++){
+  var fx=400+gj*86, fy=1264+rr(-8,8);
+  E('path',{d:D(jit([[fx,fy],[fx+58,fy-5],[fx+70,fy+52],[fx+6,fy+58]],1.8,8),true),
+    fill:'#d7bb72',stroke:FADE,'stroke-width':0.9,opacity:0.30},gTerr);
+  for(var fe=0;fe<7;fe++){ear(fx+rr(8,54),fy+rr(6,48),rr(0.7,1.1),gTerr);}
+}
+/* the burning winds: drawn as an engraver's arrows with dust, never as a creature */
+for(var wi=0;wi<4;wi++){
+  var wy=520+wi*58;
+  E('path',{d:'M2340 '+(wy+40)+' q-180 -30 -420 -6 q-200 20 -370 -18',fill:'none',
+    stroke:RED,'stroke-width':1.3,'stroke-dasharray':'10 9',opacity:0.26+wi*0.03},gTerr);
+  E('path',{d:'M1554 '+(wy+16)+' l14 -9 l-3 17 z',fill:RED,opacity:0.38},gTerr);
+}
+for(var di=0;di<150;di++){
+  E('circle',{cx:rr(1250,2330),cy:rr(470,1340),r:rr(0.5,1.4),fill:DUST,opacity:rr(0.18,0.5)},gTerr);
+}
+
+/* ---------- water: the mill cut coming down from the city ---------- */
+function channel(pts,w0,w1,p){
+  var jp=jit(pts,2.2,11),left=[],right=[],k;
+  for(k=0;k<jp.length;k++){
+    var a=jp[Math.max(0,k-1)],b=jp[Math.min(jp.length-1,k+1)];
+    var dx=b[0]-a[0],dy=b[1]-a[1],le=Math.sqrt(dx*dx+dy*dy)||1;
+    var nx=-dy/le,ny=dx/le,t=k/(jp.length-1),w=w0+(w1-w0)*t;
+    left.push([jp[k][0]+nx*w,jp[k][1]+ny*w]);
+    right.push([jp[k][0]-nx*w,jp[k][1]-ny*w]);
+  }
+  E('path',{d:D(left.concat(right.reverse()),true),fill:'#a9beb1',opacity:0.7},p);
+  E('path',{d:D(jp),fill:'none',stroke:WATER,'stroke-width':Math.max(1.4,w1*0.6),'stroke-linecap':'round'},p);
+  E('path',{d:D(jp),fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.55},p);
+}
+channel([[1300,1010],[1340,1120],[1400,1220],[1460,1300],[1520,1380],[1620,1460]],2,8,gWater);
+channel([[1420,1250],[1520,1270],[1640,1276],[1740,1300]],1.5,5,gWater);
+for(var ri=0;ri<44;ri++){
+  var wx=rr(1330,1640), wy=rr(1080,1450), wl=rr(8,20);
+  E('path',{d:'M'+wx.toFixed(1)+' '+wy.toFixed(1)+' q'+(wl/2).toFixed(1)+' -2.5 '+wl.toFixed(1)+' 0',
+    fill:'none',stroke:WATER,'stroke-width':0.9,opacity:rr(0.12,0.3)},gWater);
+}
+
+/* ---------- roads: no wall worth the name, but many ways between courts ---------- */
+function road(pts,p,col,dash,w){
+  E('path',{d:D(jit(pts,2,14)),fill:'none',stroke:col||INK,'stroke-width':w||2,
+    'stroke-dasharray':dash||'8 6','stroke-linecap':'round',opacity:0.68},p||gRoad);
+}
+road([[900,416],[920,500],[944,566],[968,600]],gRoad,INK,'8 6',2.4);   /* north road */
+road([[700,660],[800,620],[900,600],[1020,612],[1140,660]],gRoad,FADE,'5 6',1.6);
+road([[960,860],[1040,940],[1180,980],[1340,1010],[1520,1040]],gRoad,FADE,'5 6',1.6);
+road([[760,860],[700,950],[640,1030],[580,1100]],gRoad,FADE,'5 6',1.5);
+road([[1620,960],[1700,1030],[1720,1100]],gRoad,FADE,'5 6',1.5);
+road([[1380,1160],[1400,1240],[1430,1290]],gRoad,FADE,'5 6',1.5);
+road([[1120,1140],[1240,1220],[1360,1280],[1460,1300]],gRoad,FADE,'5 6',1.5);
+/* the trace of a wall, broken in many places */
+var wallTrace=ring(1200,830,840,490,26,64);
+E('path',{d:D(wallTrace,true),fill:'none',stroke:FADE,'stroke-width':1.5,
+  'stroke-dasharray':'22 34 9 46 30 22',opacity:0.30},gRoad);
+
+/* ---------- buildings and the open courts ---------- */
+function flame(x,y,s,p,col){
+  var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+  E('path',{d:'M-9 4 q3 -13 9 -19 q-1 8 4 11 q1 -6 5 -10 q4 12 1 18 z',
+    fill:col||WARM,stroke:INK,'stroke-width':0.9,opacity:0.86},g);
+  E('path',{d:'M-4 4 q2 -7 5 -10 q0 6 3 7 q2 -3 2 -6 q3 6 1 9 z',
+    fill:RED,opacity:0.78},g);
+  for(var sk=0;sk<3;sk++){
+    E('path',{d:'M'+(sk*5-5)+' -22 q4 -8 '+(sk%2?2:-2)+' -15',fill:'none',stroke:FADE,
+      'stroke-width':0.7,opacity:0.4},g);
+  }
+  return g;
+}
+function bowl(x,y,s,p,full){
+  var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+  E('path',{d:'M-24 -6 q2 26 24 26 q22 0 24 -26 z',fill:full?'#cf9a55':'#e2d3ad',
+    stroke:INK,'stroke-width':1.5},g);
+  E('path',{d:'M-27 -8 q27 8 54 0',fill:'none',stroke:INK,'stroke-width':1.6},g);
+  E('path',{d:'M-13 16 q13 7 26 0',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.7},g);
+  E('path',{d:'M-8 20 L8 20',stroke:INK,'stroke-width':1.2},g);
+  if(full){E('path',{d:'M-20 -7 q20 -7 40 0',fill:'none',stroke:RED,'stroke-width':1.2,opacity:0.8},g);}
+  return g;
+}
+function court(cx,cy,rx,ry,p){
+  E('path',{d:D(jit(ring(cx,cy,rx,ry,12,44),2.2,16),true),fill:'#e7dab7',
+    stroke:FADE,'stroke-width':1.2,opacity:0.78},p);
+  E('path',{d:D(jit(ring(cx,cy,rx-16,ry-12,9,40),1.8,16),true),fill:'none',
+    stroke:FADE,'stroke-width':0.8,'stroke-dasharray':'5 6',opacity:0.55},p);
+  for(var bi=0;bi<9;bi++){
+    var ba=(bi/9)*Math.PI*2, bx=cx+Math.cos(ba)*rx*0.66, by=cy+Math.sin(ba)*ry*0.62;
+    E('path',{d:'M'+(bx-12)+' '+by+' L'+(bx+12)+' '+by,fill:'none',stroke:INK,
+      'stroke-width':1.6,opacity:0.48},p);
+    E('path',{d:'M'+(bx-9)+' '+(by+5)+' L'+(bx-9)+' '+by+' M'+(bx+9)+' '+(by+5)+' L'+(bx+9)+' '+by,
+      stroke:FADE,'stroke-width':0.8,opacity:0.45},p);
+  }
+  E('circle',{cx:cx,cy:cy,r:rr(24,30),fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.6},p);
+  for(var st=0;st<11;st++){
+    var sa=(st/11)*Math.PI*2;
+    E('circle',{cx:cx+Math.cos(sa)*31,cy:cy+Math.sin(sa)*23,r:rr(2.5,4.5),
+      fill:'#c9bda0',stroke:INK,'stroke-width':0.6,opacity:0.85},p);
+  }
+  flame(cx,cy+2,1.25,p);
+  return [cx,cy];
+}
+function hall(x,y,w,h,p,tint,door){
+  var g=E('g',{},p),l=x-w/2,r=x+w/2,t=y-h/2,b=y+h/2;
+  E('path',{d:'M'+(l-4)+' '+b+' L'+(l+2)+' '+(t+7)+' L'+x+' '+(t-9)+' L'+(r-2)+' '+(t+7)+' L'+(r+4)+' '+b+' Z',
+    fill:tint||'#e8dcbc',stroke:INK,'stroke-width':1.7,'stroke-linejoin':'round'},g);
+  E('path',{d:'M'+(l-8)+' '+(t+8)+' L'+x+' '+(t-17)+' L'+(r+8)+' '+(t+8),
+    fill:'none',stroke:INK,'stroke-width':1.3},g);
+  for(var ci=0;ci<6;ci++){
+    var gx=l+14+ci*(w-28)/5;
+    E('line',{x1:gx,y1:t+16,x2:gx,y2:b-8,stroke:FADE,'stroke-width':0.8,opacity:0.48},g);
+  }
+  E('rect',{x:x-(door||10),y:b-20,width:(door||10)*2,height:20,fill:'#cabf9f',stroke:INK,'stroke-width':1},g);
+  return g;
+}
+court(980,720,232,146,gBuild);
+court(1500,900,150,104,gBuild);
+court(690,1090,128,92,gBuild);
+bowl(900,792,1.05,gBuild,false);
+bowl(1096,790,0.98,gBuild,true);
+/* the nine other houses of the Ten Bowls; the Ember house makes ten */
+[[600,500],[900,478],[1500,486],[1720,520],[1836,726],[1806,962],
+ [1366,1162],[1064,1140],[442,902]].forEach(function(c){
+  hall(c[0],c[1],104,66,gBuild,'#e6d9b6',9);
+  bowl(c[0],c[1]+16,0.42,gBuild,false);
+});
+/* the Ember bowl-house: a hall, a shrine, a press, a counting room, a lit room */
+var ex=1640,ey=1144;
+hall(ex,ey,320,182,gBuild,'#e5d4ae',12);
+E('path',{d:D(jit([[1490,1050],[1560,1020],[1760,1024],[1794,1054]],2,12),false),
+  fill:'none',stroke:FADE,'stroke-width':1,'stroke-dasharray':'5 6',opacity:0.5},gBuild);
+/* the fire-shrine within, fed with bought oil */
+E('path',{d:'M1548 1148 L1548 1096 L1580 1076 L1612 1096 L1612 1148 Z',
+  fill:'#d8c6a0',stroke:INK,'stroke-width':1.4},gBuild);
+E('rect',{x:1562,y:1110,width:26,height:24,fill:'#4a3826',stroke:INK,'stroke-width':1},gBuild);
+flame(1575,1130,0.52,gBuild,RED);
+/* the wine-press and its jars */
+E('circle',{cx:1730,cy:1150,r:34,fill:'#d6c39b',stroke:INK,'stroke-width':1.3},gBuild);
+E('circle',{cx:1730,cy:1150,r:20,fill:'none',stroke:INK,'stroke-width':0.8,opacity:0.55},gBuild);
+E('path',{d:'M1692 1114 L1768 1186 M1694 1186 L1766 1114',stroke:INK,'stroke-width':1.2,opacity:0.7},gBuild);
+E('path',{d:'M1730 1110 L1730 1190',stroke:INK,'stroke-width':1.4},gBuild);
+for(var jr=0;jr<3;jr++){
+  E('path',{d:'M'+(1680+jr*22)+' 1210 q8 -13 16 0 l-2 14 l-12 0 z',fill:'#d8c6a0',
+    stroke:INK,'stroke-width':0.9,opacity:0.9},gBuild);
+}
+/* the counting room: barred door, no woman's step over the sill */
+E('rect',{x:1770,y:1078,width:70,height:54,fill:'#dcd0b0',stroke:INK,'stroke-width':1.3},gBuild);
+for(var br=1;br<5;br++){
+  E('line',{x1:1770+br*14,y1:1080,x2:1770+br*14,y2:1130,stroke:INK,'stroke-width':0.8,opacity:0.6},gBuild);
+}
+E('path',{d:'M1766 1134 L1804 1134',stroke:RED,'stroke-width':1.2,opacity:0.8},gBuild);
+/* a room with good light, high windows */
+E('path',{d:'M1666 1088 L1666 1068 L1706 1068 L1706 1088',fill:'none',stroke:INK,'stroke-width':1},gBuild);
+for(var wr=0;wr<4;wr++){
+  E('line',{x1:1670+wr*10,y1:1069,x2:1670+wr*10,y2:1087,stroke:GOLD,'stroke-width':0.8,opacity:0.7},gBuild);
+}
+/* the grain mills on the cut: two dressed wheels and their sacks */
+function wheel(x,y,r,p){
+  E('circle',{cx:x,cy:y,r:r,fill:'none',stroke:INK,'stroke-width':1.6},p);
+  E('circle',{cx:x,cy:y,r:r*0.22,fill:'#d7c7a2',stroke:INK,'stroke-width':1},p);
+  for(var wk=0;wk<12;wk++){
+    var wa=(wk/12)*Math.PI*2;
+    E('line',{x1:x+Math.cos(wa)*r*0.24,y1:y+Math.sin(wa)*r*0.24,
+      x2:x+Math.cos(wa)*r,y2:y+Math.sin(wa)*r,stroke:INK,'stroke-width':0.9,opacity:0.72},p);
+    E('path',{d:'M'+(x+Math.cos(wa)*r)+' '+(y+Math.sin(wa)*r)+' l'+(Math.cos(wa)*7)+' '+(Math.sin(wa)*7),
+      stroke:INK,'stroke-width':1.2,opacity:0.6},p);
+  }
+}
+wheel(1436,1288,40,gBuild);
+wheel(1582,1284,34,gBuild);
+E('path',{d:'M1436 1248 L1436 1226 L1582 1226 L1582 1250',fill:'none',stroke:INK,'stroke-width':1.2},gBuild);
+for(var sk=0;sk<6;sk++){
+  E('path',{d:'M'+(1480+sk*18)+' 1340 q7 -14 14 0 l-2 14 l-10 0 z',fill:'#e3d6b3',
+    stroke:INK,'stroke-width':0.8,opacity:0.9},gBuild);
+}
+/* the bond-quarters: low barred rooms, drawn without a name on any door */
+for(var bq=0;bq<6;bq++){
+  var bx=1160+bq*34, by=1220+(bq%2)*10;
+  E('rect',{x:bx,y:by,width:30,height:24,fill:'#d8cbb0',stroke:INK,'stroke-width':1,opacity:0.92},gBuild);
+  for(var bb=1;bb<4;bb++){
+    E('line',{x1:bx+bb*7,y1:by+2,x2:bx+bb*7,y2:by+22,stroke:FADE,'stroke-width':0.6,opacity:0.55},gBuild);
+  }
+}
+
+/* ---------- frames: cartouche, sun-compass, legend, scale, ruled border ---------- */
+E('path',{d:'M690 60 L1710 60 L1748 92 L1748 224 L1710 252 L690 252 L652 224 L652 92 Z',
+  fill:'#ece0c2',stroke:INK,'stroke-width':2.8,opacity:0.97},gFrame);
+E('path',{d:'M700 70 L1700 70 L1738 98 L1738 218 L1700 242 L700 242 L662 218 L662 98 Z',
+  fill:'none',stroke:INK,'stroke-width':1,opacity:0.7},gFrame);
+for(var ct=0;ct<19;ct++){
+  var cx=694+ct*56;
+  E('path',{d:'M'+cx+' 78 l5 6 l-5 6 l-5 -6 z',fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.65},gFrame);
+  E('path',{d:'M'+cx+' 234 l5 -6 l-5 -6 l-5 6 z',fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.65},gFrame);
+}
+/* the sun over the cartouche, an engraved face without a cartoon */
+var sx=1180,sy=56;
+for(var sr=0;sr<18;sr++){
+  var sa=(sr/18)*Math.PI*2;
+  E('line',{x1:sx+Math.cos(sa)*19,y1:sy+Math.sin(sa)*16,
+    x2:sx+Math.cos(sa)*32,y2:sy+Math.sin(sa)*27,stroke:GOLD,'stroke-width':1.1,opacity:0.8},gFrame);
+}
+E('circle',{cx:sx,cy:sy,r:15,fill:GOLD,stroke:INK,'stroke-width':1.2,opacity:0.9},gFrame);
+E('path',{d:'M1173 55 q7 -7 14 0 M1174 61 q6 5 12 0',fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.8},gFrame);
+
+/* compass in the north-east, cut as the Court would cut an instrument */
+var rx=2190,ry=300;
+E('circle',{cx:rx,cy:ry,r:46,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.65},gFrame);
+E('circle',{cx:rx,cy:ry,r:35,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.45},gFrame);
+for(var ci=0;ci<16;ci++){
+  var ca=ci*Math.PI/8,len=(ci%2===0)?40:22;
+  E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(ca)*len).toFixed(1)+' '+(ry-Math.cos(ca)*len).toFixed(1),
+    stroke:INK,'stroke-width':ci%2===0?1.3:0.7,opacity:ci%2===0?0.85:0.5},gFrame);
+}
+E('path',{d:'M'+rx+' '+(ry-40)+' L'+(rx-8)+' '+ry+' L'+rx+' '+(ry+40)+' L'+(rx+8)+' '+ry+' Z',
+  fill:'#eae1cb',stroke:INK,'stroke-width':1.2},gFrame);
+E('path',{d:'M'+rx+' '+(ry-40)+' L'+rx+' '+ry+' L'+(rx+8)+' '+ry+' Z',fill:RED,opacity:0.78},gFrame);
+
+/* convention of signs */
+E('rect',{x:78,y:1350,width:868,height:166,fill:'#ece0c2',stroke:INK,'stroke-width':2.2,opacity:0.96},gFrame);
+E('rect',{x:86,y:1358,width:852,height:150,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+E('line',{x1:100,y1:1390,x2:924,y2:1390,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+court(146,1456,30,20,gFrame);
+bowl(238,1450,0.55,gFrame,false);
+bowl(320,1450,0.55,gFrame,true);
+hall(402,1450,56,36,gFrame,'#e8dcbc',8);
+wheel(492,1448,17,gFrame);
+flame(560,1452,0.6,gFrame,RED);
+E('line',{x1:614,y1:1450,x2:654,y2:1450,stroke:INK,'stroke-width':2,'stroke-dasharray':'7 6'},gFrame);
+E('path',{d:'M712 1442 L712 1464 M706 1450 L712 1444 L718 1450',fill:'none',stroke:RED,'stroke-width':1.2},gFrame);
+
+/* scale in leagues */
+E('rect',{x:1620,y:1382,width:708,height:12,fill:'#ece0c2',stroke:INK,'stroke-width':1.6},gFrame);
+for(var sc=0;sc<6;sc++){
+  E('rect',{x:1620+sc*118,y:1382,width:118,height:12,fill:(sc%2===0)?INK:'#ece0c2',stroke:INK,'stroke-width':1.1},gFrame);
+}
+
+/* the ruled border with tick-marks and bowl-corner flourishes */
+E('rect',{x:32,y:32,width:2336,height:1536,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+E('rect',{x:50,y:50,width:2300,height:1500,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+for(var bx=0;bx<126;bx++){
+  var px=56+bx*18.2;
+  E('line',{x1:px,y1:32,x2:px,y2:50,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  E('line',{x1:px,y1:1550,x2:px,y2:1568,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+}
+for(var by=0;by<82;by++){
+  var py=56+by*18.2;
+  E('line',{x1:32,y1:py,x2:50,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  E('line',{x1:2350,y1:py,x2:2368,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+}
+[[50,50,1,1],[2350,50,-1,1],[50,1550,1,-1],[2350,1550,-1,-1]].forEach(function(c){
+  E('path',{d:'M'+(c[0]+c[2]*10)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*32)
+    +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*10)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*32)+' '+(c[3]*44),
+    fill:'none',stroke:INK,'stroke-width':1.5,opacity:0.8},gFrame);
+});
+
+/* ---------- all lettering, last, above every wash and box ---------- */
+T(1180,132,'THE BOWL OF SERE',{font:'CinzelDec',size:38,ls:3,anchor:'middle'});
+T(1180,180,'the open courts of the Ten Bowls',{font:'FellIt',size:19,anchor:'middle',fill:FADE});
+T(1180,220,'surveyed in Y.H. 812 — the Thin Year; copied at Greybank',
+  {font:'FellSC',size:12.5,ls:1.6,anchor:'middle',fill:RED});
+T(rx,ry-56,'N',{size:19,anchor:'middle',fill:RED});
+['E','S','W'].forEach(function(cdir,k){
+  var ca=[Math.PI/2,Math.PI,3*Math.PI/2][k];
+  T(rx+Math.sin(ca)*60+3,ry-Math.cos(ca)*60+6,cdir,{font:'FellSC',size:14,anchor:'middle',fill:FADE});
+});
+T(1200,340,'SERE',{font:'FellSC',size:28,ls:12,fill:FADE,anchor:'middle',opacity:0.48});
+T(1180,992,'THE BOWL OF SERE',{font:'FellSC',size:18,ls:5,fill:FADE,anchor:'middle',opacity:0.72});
+T(1300,626,'THE TEN BOWLS',{font:'FellSC',size:13,ls:4,fill:FADE,anchor:'middle',opacity:0.7});
+T(980,556,'the Open Court',{size:19,ls:1,anchor:'middle'});
+leader(980,564,980,684);
+T(980,578,'a court with a fire in the middle',{font:'FellIt',size:11.5,fill:FADE,anchor:'middle'});
+T(878,846,'the public bowl',{size:14,anchor:'end'});
+leader(884,842,898,800);
+T(1112,850,'the fourth bowl',{size:14,fill:RED});
+leader(1110,846,1100,800);
+T(1500,780,'a court of the Ten Bowls',{font:'FellIt',size:12,fill:FADE,anchor:'middle'});
+T(690,1212,'a court of the Ten Bowls',{font:'FellIt',size:11.5,fill:FADE,anchor:'middle'});
+T(1640,1010,'the Ember bowl-house',{size:17,anchor:'middle'});
+leader(1640,1018,1640,1052);
+T(1528,1162,'the fire-shrine',{font:'FellIt',size:12,fill:RED,anchor:'end'});
+leader(1534,1158,1560,1126);
+T(1852,1066,'the counting room',{font:'FellIt',size:12,fill:RED,anchor:'end'});
+leader(1856,1064,1800,1090);
+T(1518,1338,'the grain mills',{font:'Fell',size:14,anchor:'end'});
+leader(1524,1334,1554,1312);
+T(2050,1290,'grain and olive ground',{font:'FellIt',size:12,fill:FADE,anchor:'middle'});
+T(2100,820,'the burning winds',{font:'FellIt',size:15,fill:RED,anchor:'middle',rot:-6});
+T(2020,858,'yellow dust in the hair and in the fold of a coat',
+  {font:'FellIt',size:11,fill:FADE,anchor:'middle',rot:-6});
+T(448,340,'THE PEAT LINE',{font:'FellSC',size:14,ls:3,fill:RED});
+T(448,362,'the advance stopped here in Y.H. 634',{font:'FellIt',size:11,fill:FADE});
+T(1160,462,'the road north — Greybank and Sill',
+  {font:'FellIt',size:11.5,fill:FADE,anchor:'middle'});
+T(1160,480,'three hundred leagues beyond the Peat Line',
+  {font:'FellIt',size:10.5,fill:FADE,anchor:'middle'});
+T(512,742,'no wall worth the name',{font:'FellIt',size:12,fill:FADE,rot:-12});
+T(1200,1400,'THE SOUTH — two harvests, no Last Day',
+  {font:'FellSC',size:13,ls:2.5,fill:FADE,anchor:'middle',opacity:0.7});
+
+note(100,336,[
+  'Three hundred leagues south of Sill, and the warmest',
+  'country in Sarn. There is no wall worth the name:',
+  'a man walks out of one court and into another and',
+  'pays nothing at a gate.'
+]);
+note(100,516,[
+  'At the third hour a public bowl of wine is emptied in',
+  'the Open Court and an act of the Sun-Emperor announced.',
+  'Whether a debt was forgiven or a province ruined,',
+  'the bowl goes over in the same manner.'
+]);
+note(100,716,[
+  'The fourth bowl is set out at every feast and carried',
+  'away full. Nobody pours it and nobody says whose debt',
+  'it holds. The house does not know, which is called a',
+  'mercy of the Spending and not a failure of the house.'
+]);
+note(100,916,[
+  'At the end of a feast the debt-slates of one household',
+  'are burnt by lot in the open court, and new ones',
+  'written before the wine is cold. A generosity the',
+  'whole court has seen die.'
+]);
+note(1996,520,[
+  'A beautiful house-slave is given a whole return and',
+  'shown at a feast. A northerner returned thin is shown',
+  'for small coins. The surveyor sets down what he saw',
+  'and does not call it kindness.'
+]);
+note(1996,720,[
+  'Solene Ember was returned whole in 799, 804 and 809.',
+  'The southern figures do not come north; a factor\'s',
+  'clerk wrote three times above the space, and left the',
+  'space standing.'
+]);
+note(1996,920,[
+  'No woman enters the counting room of the Ember house.',
+  'The wine-list is kept by a northern bond-woman who',
+  'writes the endings in, which a Sere clerk would',
+  'throw away.'
+]);
+note(1996,1140,[
+  'There is a place in every Sere account where a bowl',
+  'should be emptied and is not. The clerks go around',
+  'it as the yards of Grath go around the space under',
+  'the lowest rack.'
+]);
+
+T(512,1378,'CONVENTION OF SIGNS',{font:'FellSC',size:17,ls:3,anchor:'middle'});
+T(190,1478,'an open court',{font:'Fell',size:11});
+T(282,1478,'the public bowl',{font:'Fell',size:11});
+T(366,1478,'the fourth bowl',{font:'Fell',size:11});
+T(450,1478,'a bowl-house',{font:'Fell',size:11});
+T(534,1478,'a mill-wheel',{font:'Fell',size:11});
+T(612,1478,'a court fire',{font:'Fell',size:11});
+T(680,1478,'a travelled road',{font:'Fell',size:11});
+T(736,1432,'the Peat Line',{font:'FellIt',size:11,fill:RED});
+T(1620,1370,'A LEAGUE IS THREE THOUSAND PACES',{font:'FellSC',size:11.5,ls:1,fill:FADE});
+for(var sl=0;sl<7;sl++){T(1620+sl*118,1414,sl+'',{font:'Fell',size:12,anchor:'middle'});}
+T(2330,1400,'leagues',{font:'FellIt',size:13,fill:FADE,anchor:'end'});
+T(1620,1466,'The road north makes three leagues a day by cart in the dust; the grain goes down it all the same.',
+  {font:'FellIt',size:11.5,fill:FADE});
+T(1620,1494,'Measure for measure is whatever the speaker has already decided. The surveyor has entered both readings.',
+  {font:'FellIt',size:11.5,fill:FADE});
+})();
+</script>
+</body>
+</html>
