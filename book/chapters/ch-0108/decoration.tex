@@ -1,0 +1,63 @@
+\begin{tikzpicture}
+  % The chapter's heart: the keeping is found where it was put on three
+  % mornings and not made again. Three comings stand beside it, all alike,
+  % and a fourth place stands empty -- the hand that would place a second
+  % fold, or walk the way into a habit, and does not come. Finding is not
+  % placing. A thing set down once is a keeping; twice would be a way,
+  % and a way wants a hand to walk it. There is no payer under this roof.
+
+  \node at (0,1.50) {\pgfornament[width=0.70cm,color=ornament,opacity=0.24]{12}};
+
+  % —— the surface on which a thing may be set down, and left ——
+  \draw[faded!20!ink, line width=0.30pt, opacity=0.30] (-3.9,-0.12) -- (3.9,-0.12);
+
+  % —— the keeping: one fold, set down once, changed by nobody ——
+  \fill[faded!26!vellum, opacity=0.55]
+    (-3.18,0.04) .. controls (-2.86,0.40) and (-2.14,0.40) .. (-1.82,0.04)
+    .. controls (-2.14,-0.20) and (-2.86,-0.20) .. (-3.18,0.04) -- cycle;
+  \draw[faded!40!ink, line width=0.34pt, opacity=0.48, line cap=round]
+    (-3.18,0.04) .. controls (-2.86,0.40) and (-2.14,0.40) .. (-1.82,0.04);
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.34, line cap=round]
+    (-3.18,0.04) .. controls (-2.14,-0.20) and (-2.86,-0.20) .. (-1.82,0.04);
+  % the single crease -- no second
+  \draw[faded!40!ink, line width=0.30pt, opacity=0.44, line cap=round]
+    (-3.02,0.17) .. controls (-2.72,0.33) and (-2.30,0.33) .. (-1.98,0.17);
+
+  % —— three mornings that found it where put, all alike, none placing ——
+  \foreach \xx in {-0.40,0.45,1.30}{
+    \draw[faded!44!ink, line width=0.66pt, opacity=0.52, line cap=round]
+      (\xx,-0.10) -- (\xx,0.44);
+    \draw[faded!30!ink, line width=0.40pt, opacity=0.38, line cap=round]
+      (\xx-0.09,-0.10) -- (\xx+0.09,-0.10);
+  }
+
+  % —— the fourth place: the shape of the hand that does not come ——
+  \draw[faded!26!ink, line width=0.28pt, opacity=0.34, dash pattern=on 2pt off 3pt]
+    (2.15,-0.10) -- (2.15,0.44);
+  \draw[faded!22!ink, line width=0.24pt, opacity=0.26, dash pattern=on 2pt off 3pt]
+    (2.06,-0.10) -- (2.24,-0.10);
+
+  % —— the way that is never walked, going out in dots that stop ——
+  \foreach \xx/\op in {2.55/0.30,2.95/0.22,3.35/0.14,3.75/0.07}{
+    \fill[faded, opacity=\op] (\xx,-0.02) circle (0.014);
+  }
+
+  % —— leaders and labels; nobody under the roof names the place ——
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.38] (-2.52,0.36) -- (-2.86,0.78);
+  \node[anchor=east, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (-2.92,0.80) {set down once};
+
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.38] (0.45,0.50) -- (0.55,0.80);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (0.60,0.82) {three found it where put};
+
+  \draw[faded!28!ink, line width=0.28pt, opacity=0.38] (2.15,-0.12) -- (2.34,-0.56);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (2.40,-0.60) {no second hand, no payer};
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.24) -- (4.6,-1.24);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.50)
+    {a hand that finds is not a hand that places};
+  \node at (0,-1.84) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{84}};
+\end{tikzpicture}
