@@ -1,0 +1,104 @@
+\begin{tikzpicture}
+  % The chapter's heart: the finger that goes along the shelf and toward the
+  % ear, and stops a finger's width short. Two gaps are held on separate
+  % places and never joined: the shelf's old charcoal gap, years before the
+  % boy, and the empty place at the ear where the keeping lies. A hand went
+  % to board before eye to basket and mouth after both; between finger and
+  % hollow the half-beat stands where a joining would have stood, and no
+  % payer stands under it. The gap keeps its own name.
+
+  % —— shadow under the shelf, kept quiet ——
+  \fill[faded!12!ink, opacity=0.10] (-2.68,-0.70) ellipse (1.98 and 0.09);
+
+  % —— the loaf shelf: a plank in slight perspective, its front edge ——
+  \path[fill=faded!10!vellum, opacity=0.58]
+    (-4.55,-0.18) -- (-0.62,-0.18) -- (-0.80,-0.42) -- (-4.73,-0.42) -- cycle;
+  \draw[ink!40!faded, line width=0.42pt, opacity=0.42]
+    (-4.55,-0.18) -- (-0.62,-0.18) -- (-0.80,-0.42) -- (-4.73,-0.42);
+  \draw[faded!26!ink, line width=0.24pt, opacity=0.28]
+    (-4.55,-0.18) -- (-4.73,-0.42);
+  \draw[faded!18!ink, line width=0.20pt, opacity=0.22]
+    (-3.05,-0.18) -- (-3.18,-0.42);
+  \draw[faded!18!ink, line width=0.20pt, opacity=0.22]
+    (-1.72,-0.18) -- (-1.84,-0.42);
+
+  % —— the charcoal tally beneath the front edge, with the old gap in it ——
+  \foreach \x in {-3.90,-3.35,-2.80,-1.70,-1.15}{
+    \draw[rubric!45!ink, line width=0.46pt, opacity=0.34, line cap=round]
+      (\x,-0.48) -- (\x+0.10,-0.62);
+  }
+  \draw[faded!20!ink, line width=0.18pt, opacity=0.24]
+    (-2.25,-0.64) -- (-2.25,-0.80);
+  \node[anchor=north, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (-2.25,-0.82) {the shelf's old gap};
+
+  % —— the finger: hand to board first, laid along the shelf's top ——
+  \path[fill=faded!14!vellum, opacity=0.72]
+    (-4.60,-0.10)
+      .. controls (-3.20,-0.10) and (-1.80,-0.08) .. (-0.72,-0.04)
+      .. controls (0.05,0.00) and (0.85,0.10) .. (1.28,0.20)
+      .. controls (1.38,0.22) and (1.38,0.30) .. (1.26,0.30)
+      .. controls (0.82,0.20) and (0.02,0.10) .. (-0.74,0.08)
+      .. controls (-1.82,0.04) and (-3.20,0.02) .. (-4.60,0.02)
+    -- cycle;
+  \draw[ink!42!faded, line width=0.42pt, opacity=0.46, line cap=round]
+    (-4.60,-0.10)
+      .. controls (-3.20,-0.10) and (-1.80,-0.08) .. (-0.72,-0.04)
+      .. controls (0.05,0.00) and (0.85,0.10) .. (1.28,0.20)
+      .. controls (1.38,0.22) and (1.38,0.30) .. (1.26,0.30);
+  \draw[faded!32!ink, line width=0.26pt, opacity=0.32, line cap=round]
+    (-4.60,0.02)
+      .. controls (-3.20,0.02) and (-1.82,0.04) .. (-0.74,0.08)
+      .. controls (0.02,0.10) and (0.82,0.20) .. (1.26,0.30);
+  \foreach \x/\y in {-2.00/-0.06,-1.45/-0.04,-0.90/-0.01}{
+    \draw[faded!26!ink, line width=0.18pt, opacity=0.28, line cap=round]
+      (\x,\y-0.10) .. controls (\x+0.05,\y) .. (\x+0.01,\y+0.10);
+  }
+
+  % —— the ear, turned toward the shelf: helix, antihelix, lobule ——
+  \draw[ink!42!faded, line width=0.46pt, opacity=0.50, line cap=round]
+    (2.35,0.92)
+      .. controls (1.88,0.70) and (1.85,0.10) .. (2.20,-0.20)
+      .. controls (2.50,-0.48) and (3.15,-0.42) .. (3.28,0.06)
+      .. controls (3.40,0.52) and (3.00,0.95) .. (2.65,0.92);
+  \draw[faded!34!ink, line width=0.28pt, opacity=0.38, line cap=round]
+    (2.48,0.60)
+      .. controls (2.22,0.42) and (2.28,0.02) .. (2.58,0.02)
+      .. controls (2.82,0.02) and (2.88,0.30) .. (2.72,0.46);
+  \draw[faded!24!ink, line width=0.24pt, opacity=0.30, line cap=round]
+    (2.50,-0.34) .. controls (2.65,-0.54) and (2.92,-0.50) .. (3.02,-0.30);
+
+  % —— the empty place at the ear: a hollow, faint and unfilled ——
+  \path[fill=faded!12!vellum, opacity=0.58]
+    (2.23,0.44)
+      .. controls (2.05,0.32) and (2.11,0.14) .. (2.33,0.16)
+      .. controls (2.49,0.18) and (2.47,0.40) .. (2.23,0.44) -- cycle;
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.30,
+        dash pattern=on 1pt off 2pt, line cap=round]
+    (2.23,0.44)
+      .. controls (2.05,0.32) and (2.11,0.14) .. (2.33,0.16)
+      .. controls (2.49,0.18) and (2.47,0.40) .. (2.23,0.44);
+  \draw[faded!20!ink, line width=0.18pt, opacity=0.24]
+    (2.29,0.42) -- (2.55,0.98);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.50]
+    at (2.55,1.00) {the empty place};
+
+  % —— the stopping: a finger's width of air between fingertip and hollow ——
+  \draw[rubric, line width=0.60pt, opacity=0.58, line cap=round]
+    (1.50,0.12) -- (1.50,0.38);
+  \draw[rubric, line width=0.60pt, opacity=0.58, line cap=round]
+    (1.82,0.12) -- (1.82,0.38);
+  \draw[rubric!55!ink, line width=0.40pt, opacity=0.50]
+    (1.50,0.36) -- (1.82,0.36);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.52]
+    at (1.66,0.54) {a finger's width short};
+
+  % —— half-beat in the gap: no joining, no payer standing ——
+  \draw[faded!20!ink, line width=0.18pt, opacity=0.22,
+        dash pattern=on 1pt off 3pt, line cap=round]
+    (1.34,0.26) .. controls (1.58,0.30) .. (1.90,0.28);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.30)
+    {the gap keeps its own name};
+  \node at (0,-1.66) {\pgfornament[width=3.9cm,color=ornament,opacity=0.18,symmetry=v]{81}};
+\end{tikzpicture}
