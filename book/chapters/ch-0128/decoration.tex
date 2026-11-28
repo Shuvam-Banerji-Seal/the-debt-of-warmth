@@ -1,0 +1,100 @@
+\begin{tikzpicture}
+  % The chapter's heart: the strip of notched birch kept in the sleeve-fold.
+  % The count stays in wood; no figure comes off it and no account joins it.
+  % The hand goes flat over the fold before eye or mouth goes to the asker.
+  % Pale where the thumb has rubbed the notches, dark in the uncut grain
+  % between, the strip lies under the palm and peeks out past the fingers.
+  % Far off, the account stands edge-on and turned away, kept apart.
+
+  % —— shadow under fold and strip, kept quiet ——
+  \fill[faded!12!ink, opacity=0.10] (-0.90,-0.42) ellipse (3.60 and 0.10);
+
+  % —— the sleeve-fold: two flaps, the slit where the strip goes in ——
+  \path[fill=faded!14!vellum, opacity=0.64]
+    (-4.70,0.16) -- (0.10,0.10) -- (0.00,-0.26) -- (-4.62,-0.32) -- cycle;
+  \draw[ink!40!faded, line width=0.40pt, opacity=0.42, line cap=round]
+    (-4.70,0.16) -- (0.10,0.10) -- (0.00,-0.26) -- (-4.62,-0.32) -- cycle;
+  \draw[faded!30!ink, line width=0.26pt, opacity=0.30, line cap=round]
+    (-4.66,0.06) .. controls (-2.30,0.12) .. (0.05,0.02);
+  \draw[ink!35!faded, line width=0.30pt, opacity=0.36, line cap=round]
+    (-0.12,0.14) .. controls (0.04,0.06) .. (0.02,-0.24);
+
+  % —— the birch strip, emerging from the fold, curling at its far tip ——
+  \path[fill=faded!8!vellum, opacity=0.72]
+    (-1.40,0.02)
+      .. controls (0.10,0.08) and (1.50,0.10) .. (2.65,0.10)
+      .. controls (2.95,0.10) and (3.05,0.26) .. (2.82,0.33)
+      .. controls (2.68,0.36) and (2.58,0.24) .. (2.68,0.14)
+      .. controls (1.50,0.00) and (0.10,-0.04) .. (-1.40,-0.14)
+    -- cycle;
+  \draw[ink!44!faded, line width=0.42pt, opacity=0.48, line cap=round]
+    (-1.40,0.02)
+      .. controls (0.10,0.08) and (1.50,0.10) .. (2.65,0.10)
+      .. controls (2.95,0.10) and (3.05,0.26) .. (2.82,0.33);
+  \draw[faded!28!ink, line width=0.26pt, opacity=0.32, line cap=round]
+    (-1.40,-0.14) .. controls (0.10,-0.04) and (1.50,0.00) .. (2.68,0.14);
+
+  % —— lenticels in the bark: thin, horizontal, reading as nothing ——
+  \foreach \x/\y in {-0.80/-0.04,-0.20/-0.06,0.35/-0.09,0.90/-0.10,
+                     1.45/-0.07,2.00/-0.03,2.50/0.02,-0.50/-0.11,
+                     0.70/-0.12,1.80/-0.11}{
+    \draw[faded!24!ink, line width=0.16pt, opacity=0.24, line cap=round]
+      (\x,\y) -- (\x+0.13,\y+0.005);
+  }
+
+  % —— notches cut along the edge: pale where the thumb has rubbed them ——
+  % —— dark in the uncut grain between; no sum drawn across them ——
+  \foreach \x/\y in {0.50/0.058,0.90/0.066,1.30/0.074,
+                     1.70/0.082,2.10/0.090,2.50/0.098}{
+    \fill[faded!6!vellum, opacity=0.62] (\x-0.02,\y-0.055) circle (0.052);
+    \draw[rubric!55!ink, line width=0.68pt, opacity=0.55, line cap=round]
+      (\x,\y) -- (\x-0.03,\y-0.14);
+    \draw[faded!28!ink, line width=0.20pt, opacity=0.26, line cap=round]
+      (\x+0.16,\y-0.05) -- (\x+0.34,\y-0.06);
+  }
+
+  % —— the flat hand laid over the fold: hand first, eye and mouth after ——
+  \path[fill=faded!12!vellum, opacity=0.66]
+    (-3.05,-0.02)
+      .. controls (-2.70,-0.10) and (-2.10,-0.14) .. (-1.30,-0.12)
+      .. controls (-0.70,-0.10) and (-0.10,-0.06) .. (0.18,-0.02)
+      .. controls (0.30,-0.01) and (0.30,0.05) .. (0.16,0.06)
+      .. controls (-0.20,0.10) and (-0.90,0.12) .. (-1.50,0.10)
+      .. controls (-2.10,0.08) and (-2.70,0.08) .. (-3.05,0.06)
+    -- cycle;
+  \draw[ink!42!faded, line width=0.42pt, opacity=0.46, line cap=round]
+    (-3.05,-0.02)
+      .. controls (-2.70,-0.10) and (-2.10,-0.14) .. (-1.30,-0.12)
+      .. controls (-0.70,-0.10) and (-0.10,-0.06) .. (0.18,-0.02)
+      .. controls (0.30,-0.01) and (0.30,0.05) .. (0.16,0.06);
+  \foreach \y in {-0.06,-0.02,0.02}{
+    \draw[faded!26!ink, line width=0.18pt, opacity=0.28, line cap=round]
+      (-0.95,\y) .. controls (-0.50,\y+0.01) .. (0.12,\y+0.02);
+  }
+  \draw[ink!38!faded, line width=0.34pt, opacity=0.38, line cap=round]
+    (-2.30,-0.10) .. controls (-2.10,-0.28) and (-1.70,-0.30) .. (-1.45,-0.18);
+
+  % —— the account, far off, edge-on and turned away; kept apart ——
+  \path[fill=faded!10!vellum, opacity=0.42]
+    (3.55,0.55) -- (3.78,0.52) -- (3.86,1.22) -- (3.62,1.26) -- cycle;
+  \draw[faded!26!ink, line width=0.30pt, opacity=0.30, line cap=round]
+    (3.55,0.55) -- (3.62,1.26) -- (3.86,1.22) -- (3.78,0.52) -- cycle;
+  \foreach \y in {0.72,0.92,1.12}{
+    \draw[rubric!50!ink, line width=0.28pt, opacity=0.22, line cap=round]
+      (3.84,\y) -- (3.90,\y+0.05);
+  }
+  \draw[faded!20!ink, line width=0.18pt, opacity=0.22,
+        dash pattern=on 1pt off 3pt, line cap=round]
+    (2.96,0.40) .. controls (3.20,0.44) .. (3.46,0.48);
+  \node[anchor=south, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.48]
+    at (3.20,0.56) {kept apart};
+
+  % —— the river's low note under its winter skin, running and unread ——
+  \draw[gold!45!ink, line width=0.20pt, opacity=0.16, line cap=round,
+        decorate, decoration={snake, amplitude=1.0pt, segment length=6pt}]
+    (1.20,-0.62) -- (5.00,-0.62);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.30)
+    {I keep the count, not the account};
+  \node at (0,-1.72) {\pgfornament[width=4.1cm,color=ornament,opacity=0.18,symmetry=c]{88}};
+\end{tikzpicture}
