@@ -275,8 +275,40 @@ Peat and boardwalk villages governed by reeves chosen for standing longest in a 
 
 ### The Standing Post
 **Kind:** meeting place, village. **Region:** the Fenmarch.
-A raised boardwalk and a post carved with reeves' marks where the Fen reeves settle fines and feuds.
-**Relations:** About 90 leagues south-west of Sill; the only Fen place outsiders are shown.
+A raised boardwalk and a post carved with reeves' marks where the Fen reeves settle fines and feuds; the only Fen place outsiders are shown. Fines stand here until the mud is held to have paid them, and a reeve is chosen by standing in the bog rather than by any block or figure.
+**Relations:** About 90 leagues south-west of Sill; the Peat Line lies to the south, the Quiet Acre toward Grath; the mud road goes east toward Mud End and the south bridge into Sill.
+
+*The close ground of the Post drawn on `atlas/the-standing-post`: the carved post and the dry boards about it, the reeve's stone at its foot with the peat-block niche, the loose board under which the dry stick and the sayings are kept, the fen huts on posts, the ways out to the Line and east by the mud road. Direction is from the carved post. Surveyed and inked in Y.H. 813, the month of Bone.*
+
+### The dry boards
+**Kind:** boardwalk, meeting ground. **Region:** the Standing Post, the Fenmarch.
+The raised boards at the Post where reeves settle fines and feuds standing up. A man is put up on them and is not told which boards are safe; the boards are shown by stepping first, and whoever steps first does not say which board he chose. The boards move after rain and a mark would not move with them.
+**Relations:** At the Standing Post, about 90 leagues south-west of Sill. Drawn on `atlas/the-standing-post`; the safe boards are set down in the surveyor's note and marked nowhere on the way.
+
+### The loose board
+**Kind:** board, keeping place. **Region:** the Standing Post, the Fenmarch.
+The board at the Post under which the dry stick of market rates is kept on oiled reed lashed with eel-sinew, together with the gathered fen-sayings in a folded reed wrapper. A man who stepped on it paid and would not say whether he stepped before the paying or after.
+**Relations:** Among the dry boards at the Standing Post. Drawn on `atlas/the-standing-post`.
+
+### The reeve's stone
+**Kind:** shrine, stone. **Region:** the foot of the Standing Post, the Fenmarch.
+The small shrine at the foot of the Post over which an old woman preaches at the choosing of a reeve, speaking first to the peat, then to the board, then to the water in the prints of her feet and last to the standing row. The post itself has never counted a man and carries neither notch nor name.
+**Relations:** At the foot of the Standing Post; the peat-block niche is cut into it. Drawn on `atlas/the-standing-post`.
+
+### The peat-block niche
+**Kind:** niche, keeping. **Region:** the reeve's stone, the Standing Post.
+The hole in the reeve's stone in which a peat-block is laid for every stand that ends with a man walking back, and none for a stand that ends otherwise. The block is not the man; it is the shape of where he stood, and it has never agreed with the factor's book.
+**Relations:** Cut into the reeve's stone at the foot of the Standing Post. Drawn on `atlas/the-standing-post`.
+
+### The smuggler's path
+**Kind:** path, way. **Region:** the Fenmarch, through the reedbed toward the Peat Line.
+The way through the reedbed that carries what the ways with dues do not, with no due and no guarantee; a man comes back with wet boots and no figure.
+**Relations:** Runs south-east from the Standing Post through the reeds toward the Peat Line. Drawn on `atlas/the-standing-post`.
+
+### The winter way
+**Kind:** seasonal way. **Region:** the Fenmarch, across the bog.
+The crossing over the bog when it bears ice; nothing is charged and no reeve will stand on it.
+**Relations:** Runs east from the Standing Post across the bog. Drawn on `atlas/the-standing-post`.
 
 ### The Peat Line
 **Kind:** border, wetland. **Region:** between the Fenmarch and Sere.
