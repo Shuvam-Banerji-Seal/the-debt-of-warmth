@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Nine Wells — on the Keel</title>
+<style>
+@font-face{font-family:Fell;src:url('../../fonts/IMFeENrm28P.otf');}
+@font-face{font-family:FellIt;src:url('../../fonts/IMFeENit28P.otf');}
+@font-face{font-family:FellSC;src:url('../../fonts/IMFeENsc28P.otf');}
+@font-face{font-family:Cinzel;src:url('../../fonts/Cinzel-Regular.ttf');}
+@font-face{font-family:CinzelDec;src:url('../../fonts/CinzelDecorative-Bold.ttf');}
+@font-face{font-family:Garamond;src:url('../../fonts/EBGaramond-Regular.otf');}
+html,body{margin:0;width:2400px;height:1600px;overflow:hidden;background:#c9b791;}
+#paper{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 50% 48%, rgba(255,249,228,.38), rgba(125,90,50,.10) 62%, rgba(66,42,20,.30) 100%),
+  linear-gradient(115deg, rgba(150,110,62,.10), rgba(255,250,230,.06) 40%, rgba(120,80,40,.10));}
+svg{display:block;position:absolute;inset:0;width:2400px;height:1600px;}
+</style>
+</head>
+<body>
+<div id="paper"></div>
+<svg id="m" viewBox="0 0 2400 1600" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+(function(){
+  'use strict';
+  var NS='http://www.w3.org/2000/svg';
+  var svg=document.getElementById('m');
+  var INK='#2b1b0e', FADE='#6b5331', RED='#7e1f14', SEA='#547a72', SEAWASH='#a9bfb2',
+      GOLD='#a9833c', GREEN='#7c8a5e', MG='#5d6b46', PALE='#efe3c6', ASH='#9a9080',
+      EARTH='#d8c8a4', STONE='#cbb68d', WARM='#b05b38', STEAM='#d9d6c8', LEAD='#8c8d86';
+
+  function E(tag,attrs,parent){
+    var n=document.createElementNS(NS,tag),k;
+    for(k in attrs){ if(attrs[k]!==null && attrs[k]!==undefined && attrs[k]!==''){ n.setAttribute(k,attrs[k]); } }
+    (parent||svg).appendChild(n);
+    return n;
+  }
+  function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+  var rnd=mulberry32(812618);
+  function rr(a,b){return a+(b-a)*rnd();}
+  function jit(pts,amp,seg){
+    seg=seg||7; var out=[],i,s;
+    for(i=0;i<pts.length-1;i++){
+      var x1=pts[i][0],y1=pts[i][1],x2=pts[i+1][0],y2=pts[i+1][1];
+      var dx=x2-x1,dy=y2-y1,len=Math.sqrt(dx*dx+dy*dy)||1;
+      var nx=-dy/len,ny=dx/len,n=Math.max(1,Math.round(len/seg));
+      for(s=0;s<n;s++){ var t=s/n,o=(rnd()-0.5)*2*amp; out.push([x1+dx*t+nx*o,y1+dy*t+ny*o]); }
+    }
+    out.push(pts[pts.length-1]); return out;
+  }
+  function D(pts,close){
+    var s='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1);
+    for(var i=1;i<pts.length;i++){s+=' L'+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    return close?s+' Z':s;
+  }
+
+  var defs=E('defs',{});
+  E('image',{x:0,y:0,width:2400,height:1600,href:'../../design/textures/parchment.jpg',preserveAspectRatio:'xMidYMid slice',opacity:0.50});
+  var gWash=E('g',{}), gTerr=E('g',{}), gWater=E('g',{}), gStruct=E('g',{}),
+      gRoad=E('g',{}), gFrame=E('g',{}), gText=E('g',{});
+  var i,k,j;
+
+  /* foxing, folds and the old damp of the paper */
+  for(i=0;i<34;i++){
+    E('ellipse',{cx:rr(80,2320),cy:rr(80,1520),rx:rr(16,84),ry:rr(10,50),
+      fill:'#8a612f',opacity:rr(0.012,0.05),transform:'rotate('+rr(0,180)+' '+rr(200,2200)+' '+rr(200,1400)+')'},gWash);
+  }
+  [720,1240,1760].forEach(function(x){E('line',{x1:x,y1:60,x2:x+2,y2:1540,stroke:'#7a5a30','stroke-width':1,opacity:0.07},gWash);});
+  E('line',{x1:60,y1:806,x2:2340,y2:806,stroke:'#7a5a30','stroke-width':1,opacity:0.05},gWash);
+
+  /* ---------- the warm ground of the Keel ---------- */
+  E('path',{d:D(jit([[650,470],[840,392],[1120,356],[1420,372],[1660,438],[1750,590],[1720,772],[1740,940],
+                     [1620,1104],[1310,1150],[980,1120],[740,1050],[636,880],[630,640]],4,30),true),
+    fill:'#d3a878',opacity:0.24},gWash);
+  /* the hotter ground about the open wells */
+  E('path',{d:D(jit([[900,600],[1060,540],[1300,520],[1510,566],[1580,690],[1540,860],[1340,944],
+                     [1080,930],[920,846],[860,720]],3.6,26),true),
+    fill:WARM,opacity:0.13},gWash);
+  E('path',{d:D(jit([[1010,646],[1130,606],[1310,600],[1430,650],[1460,766],[1380,856],[1180,876],
+                     [1040,836],[990,742]],3,22),true),
+    fill:WARM,opacity:0.10},gWash);
+  /* the cooler patches where the four are covered */
+  [[720,640],[1560,600],[760,980],[1560,960]].forEach(function(c){
+    E('path',{d:D(jit([[c[0]-92,c[1]-40],[c[0]-20,c[1]-72],[c[0]+72,c[1]-46],[c[0]+96,c[1]+20],
+                       [c[0]+44,c[1]+62],[c[0]-46,c[1]+58],[c[0]-96,c[1]+18]],2.6,16),true),
+      fill:'#8ba095',opacity:0.13},gWash);
+  });
+  /* the Keel rising beyond, in faint warm ridges */
+  for(i=0;i<7;i++){
+    var ky=340+i*16;
+    E('path',{d:'M'+rr(650,790).toFixed(0)+' '+ky+' q110 -10 230 -2 q120 8 250 -3 q110 -8 220 2',
+      fill:'none',stroke:FADE,'stroke-width':1,opacity:rr(0.16,0.34)},gTerr);
+  }
+  for(i=0;i<6;i++){
+    E('path',{d:'M'+rr(940,1580).toFixed(0)+' '+rr(1040,1120).toFixed(0)+' q80 -8 170 0',
+      fill:'none',stroke:FADE,'stroke-width':1,opacity:0.22},gTerr);
+  }
+
+  /* ---------- terrain: warm-stone scree, lime bloom, cracks and grit ---------- */
+  function grit(x,y,s,p){
+    E('path',{d:'M'+x.toFixed(1)+' '+y.toFixed(1)+' l'+rr(3,7).toFixed(1)+' -'+rr(2,5).toFixed(1)+
+      ' l'+rr(2,5).toFixed(1)+' '+rr(3,6).toFixed(1)+' z',fill:STONE,stroke:FADE,'stroke-width':0.5,opacity:0.72},p);
+  }
+  function limeBloom(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M-9 0 q3 -7 9 -4 q7 -4 10 3 q-3 7 -11 5 q-7 2 -8 -4 z',fill:'#efe9d6',opacity:0.85},g);
+    for(j=0;j<5;j++){E('circle',{cx:rr(-8,9),cy:rr(-5,5),r:rr(0.8,2),fill:'#fff8e6',opacity:0.7},g);}
+  }
+  for(i=0;i<118;i++){grit(rr(650,1740),rr(430,1100),rr(0.6,1.3),gTerr);}
+  for(i=0;i<16;i++){limeBloom(rr(900,1500),rr(590,880),rr(0.5,1.1),gTerr);}
+  /* the ways in the warm ground, cut and patched */
+  for(i=0;i<9;i++){
+    var cx=rr(760,1660),cy=rr(500,1020);
+    E('path',{d:'M'+cx.toFixed(0)+' '+cy.toFixed(0)+' q'+rr(-34,34).toFixed(0)+' '+rr(18,42).toFixed(0)+
+      ' '+rr(-20,20).toFixed(0)+' '+rr(46,84).toFixed(0),fill:'none',stroke:FADE,'stroke-width':rr(0.8,1.5),
+      opacity:rr(0.25,0.5)},gTerr);
+  }
+
+  /* ---------- steam, drawn in fine engraved curls ---------- */
+  function steam(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p),q;
+    for(q=0;q<3;q++){
+      var ox=(q-1)*9;
+      E('path',{d:'M'+ox+' 0 q-8 -14 2 -26 q9 -12 -1 -24 q-8 -12 3 -25 q7 -10 -2 -21',
+        fill:'none',stroke:STEAM,'stroke-width':2.1,opacity:0.66,'stroke-linecap':'round'},g);
+      E('path',{d:'M'+(ox+2)+' -2 q-6 -12 2 -22 q7 -10 -2 -20',
+        fill:'none',stroke:'#fffdf2','stroke-width':0.9,opacity:0.45,'stroke-linecap':'round'},g);
+    }
+  }
+
+  /* ---------- the counting stone and its nine cups ---------- */
+  var slab=jit([[958,652],[1064,606],[1216,590],[1362,614],[1442,696],[1420,820],[1300,884],
+                [1116,878],[988,828],[938,740]],3.2,12);
+  E('path',{d:D(slab,true),fill:'#c9b48c',stroke:INK,'stroke-width':3,'stroke-linejoin':'round'},gStruct);
+  E('path',{d:D(jit([[984,664],[1076,624],[1214,610],[1344,630],[1412,700],[1392,802],[1288,856],
+                [1118,850],[1002,808],[960,736]],2.4,12),true),
+    fill:'none',stroke:FADE,'stroke-width':1,'stroke-dasharray':'5 6',opacity:0.7},gStruct);
+  /* hatching on the stone's flank */
+  for(i=0;i<34;i++){
+    var hx=960+i*13.6;
+    E('line',{x1:hx,y1:872-(i%3)*5,x2:hx+9,y2:892-(i%3)*5,stroke:FADE,'stroke-width':0.8,opacity:0.45},gStruct);
+  }
+
+  var openCups=[[1024,786],[1124,812],[1230,812],[1332,788],[1278,706]];
+  var stopCups=[[1044,678],[1142,666],[1246,666],[1346,682]];
+  /* the four stopped first, behind */
+  stopCups.forEach(function(c){
+    E('ellipse',{cx:c[0],cy:c[1],rx:23,ry:15,fill:LEAD,stroke:INK,'stroke-width':2},gStruct);
+    E('ellipse',{cx:c[0],cy:c[1],rx:14,ry:8,fill:'none',stroke:'#5d5d58','stroke-width':1.2,opacity:0.9},gStruct);
+    E('ellipse',{cx:c[0],cy:c[1],rx:29,ry:20,fill:'none',stroke:RED,'stroke-width':1.1,
+      'stroke-dasharray':'3 5',opacity:0.7},gStruct);
+    E('path',{d:'M'+(c[0]-5)+' '+(c[1]-5)+' l10 10 M'+(c[0]+5)+' '+(c[1]-5)+' l-10 10',
+      stroke:RED,'stroke-width':1.3,opacity:0.85},gStruct);
+  });
+  /* the five open, worn smooth with thumbs */
+  openCups.forEach(function(c,q){
+    E('ellipse',{cx:c[0],cy:c[1],rx:26,ry:17,fill:'#5f7c71',stroke:INK,'stroke-width':2},gStruct);
+    E('ellipse',{cx:c[0],cy:c[1],rx:19,ry:11,fill:'#93a99a',stroke:'none',opacity:0.85},gStruct);
+    E('path',{d:'M'+(c[0]-13)+' '+(c[1]-3)+' q13 -5 26 0',fill:'none',stroke:'#d4ddcf','stroke-width':1.2,opacity:0.8},gStruct);
+    E('ellipse',{cx:c[0],cy:c[1],rx:29,ry:20,fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.6},gStruct);
+    steam(c[0],c[1]-14,0.78,gStruct);
+  });
+  /* a copper bit left in the fifth cup, unspent */
+  E('circle',{cx:1278,cy:706,r:5.4,fill:GOLD,stroke:INK,'stroke-width':1.1},gStruct);
+  /* the grey on the fifth lip, left where it lies */
+  for(i=0;i<7;i++){limeBloom(1256+i*7,716+((i%2)?3:0),0.42,gStruct);}
+
+  /* the whitewashed lip and the dish set down at the first voice */
+  E('path',{d:D(jit([[880,690],[916,666],[966,662],[996,682],[990,712],[950,728],[904,722]],2,8),true),
+    fill:'#e8e2cf',stroke:INK,'stroke-width':1.8},gStruct);
+  E('ellipse',{cx:938,cy:694,rx:24,ry:12,fill:'#dcd7c4',stroke:INK,'stroke-width':1.5},gStruct);
+  E('ellipse',{cx:938,cy:694,rx:17,ry:7,fill:SEAWASH,stroke:'none',opacity:0.8},gStruct);
+  for(i=0;i<6;i++){limeBloom(rr(892,984),rr(680,714),0.5,gStruct);}
+  E('path',{d:'M926 692 q12 -4 24 0',fill:'none',stroke:'#fff8e6','stroke-width':1,opacity:0.7},gStruct);
+
+  /* the four covered springs: a stone and a ring of cold iron, no name cut upon it */
+  function sealedSpring(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p),q;
+    E('path',{d:D(jit([[-46,14],[-28,-16],[4,-26],[34,-14],[48,10],[30,28],[-10,30],[-40,24]],2.4,8),true),
+      fill:STONE,stroke:INK,'stroke-width':2},g);
+    for(q=0;q<6;q++){
+      var a=q*Math.PI/3;
+      E('line',{x1:(Math.cos(a)*22).toFixed(1),y1:(Math.sin(a)*13).toFixed(1),
+        x2:(Math.cos(a)*38).toFixed(1),y2:(Math.sin(a)*22).toFixed(1),stroke:FADE,'stroke-width':0.9,opacity:0.65},g);
+    }
+    E('ellipse',{cx:0,cy:2,rx:34,ry:18,fill:'none',stroke:'#4a4a45','stroke-width':3.2,opacity:0.9},g);
+    E('ellipse',{cx:0,cy:2,rx:28,ry:14,fill:'none',stroke:'#6b6b63','stroke-width':0.9,opacity:0.7},g);
+    E('path',{d:'M-6 -4 l12 12 M6 -4 l-12 12',stroke:RED,'stroke-width':1.6,opacity:0.9},g);
+    for(q=0;q<3;q++){
+      E('path',{d:'M'+(q*7-7)+' -30 q-5 -10 2 -18 q6 -8 -1 -16',fill:'none',stroke:STEAM,'stroke-width':1.2,
+        opacity:0.3,'stroke-linecap':'round'},g);
+    }
+  }
+  sealedSpring(720,640,1.0,gStruct);
+  sealedSpring(1560,600,1.0,gStruct);
+  sealedSpring(760,980,1.0,gStruct);
+  sealedSpring(1560,960,1.0,gStruct);
+  /* the fifth, sealed in Y.H. 618: a deeper red cross, no name under it */
+  E('ellipse',{cx:1560,cy:960,rx:58,ry:34,fill:'none',stroke:RED,'stroke-width':1.2,
+    'stroke-dasharray':'4 6',opacity:0.6},gStruct);
+
+  /* engraved figures, in fine line, not coloured in */
+  function reader(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M0 -26 q-10 0 -11 11 l-3 30 q14 7 28 0 l-3 -30 q-1 -11 -11 -11 z',
+      fill:'#e0d1ae',stroke:INK,'stroke-width':1.3},g);
+    E('circle',{cx:0,cy:-38,r:7,fill:'#e0d1ae',stroke:INK,'stroke-width':1.3},g);
+    E('path',{d:'M-7 -43 q7 -9 14 0',fill:'none',stroke:INK,'stroke-width':1.1},g);
+    E('path',{d:'M-9 -18 q-14 6 -18 16 M9 -18 q13 6 16 15',fill:'none',stroke:INK,'stroke-width':1.3},g);
+    E('path',{d:'M-27 -2 q9 -4 16 0',fill:'none',stroke:INK,'stroke-width':1.5},g);
+    E('path',{d:'M-9 13 q-5 10 -2 17 M9 13 q5 10 2 17',fill:'none',stroke:INK,'stroke-width':1.2},g);
+  }
+  function dishWoman(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M0 -26 q-9 0 -10 10 l-2 26 q12 6 24 0 l-2 -26 q-1 -10 -10 -10 z',
+      fill:'#e0d1ae',stroke:INK,'stroke-width':1.3},g);
+    E('circle',{cx:0,cy:-38,r:7,fill:'#e0d1ae',stroke:INK,'stroke-width':1.3},g);
+    E('path',{d:'M-7 -43 q7 -9 14 0',fill:'none',stroke:INK,'stroke-width':1.1},g);
+    E('path',{d:'M-8 -18 q-13 8 -15 20 M8 -18 q12 8 14 19',fill:'none',stroke:INK,'stroke-width':1.3},g);
+    E('ellipse',{cx:-22,cy:2,rx:11,ry:5,fill:'#e8e2cf',stroke:INK,'stroke-width':1.1},g);
+    E('path',{d:'M9 10 q10 4 9 17 l-13 -1 z',fill:'none',stroke:FADE,'stroke-width':1},g);
+  }
+  function softClerk(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M0 -26 q-9 0 -10 10 l-2 26 q12 6 24 0 l-2 -26 q-1 -10 -10 -10 z',
+      fill:'#e0d1ae',stroke:INK,'stroke-width':1.3},g);
+    E('circle',{cx:0,cy:-38,r:7,fill:'#e0d1ae',stroke:INK,'stroke-width':1.3},g);
+    E('path',{d:'M-7 -43 q7 -8 14 0',fill:'none',stroke:INK,'stroke-width':1.1},g);
+    E('path',{d:'M-9 -18 q-13 7 -16 18 M9 -18 q13 7 15 18',fill:'none',stroke:INK,'stroke-width':1.3},g);
+    E('path',{d:'M-18 -1 l30 -6 l2 14 l-30 6 z',fill:'#d9c7a1',stroke:INK,'stroke-width':1},g);
+    E('circle',{cx:15,cy:-6,r:4.6,fill:'none',stroke:RED,'stroke-width':1.2},g);
+    E('line',{x1:12,y1:-6,x2:18,y2:-6,stroke:RED,'stroke-width':0.9},g);
+  }
+  function keptOld(x,y,s,p){
+    var g=E('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+s.toFixed(2)+')'},p);
+    E('path',{d:'M0 -26 q-10 0 -11 11 l-3 30 q14 7 28 0 l-3 -30 q-1 -11 -11 -11 z',
+      fill:'#e0d1ae',stroke:INK,'stroke-width':1.2,opacity:0.8},g);
+    E('circle',{cx:0,cy:-38,r:7,fill:'#e0d1ae',stroke:INK,'stroke-width':1.2,opacity:0.8},g);
+    E('path',{d:'M-9 -18 q-12 6 -14 17 M9 -18 q12 6 14 17',fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},g);
+    E('path',{d:'M-23 -1 q8 -6 14 0 q-7 7 -14 0 z',fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.8},g);
+  }
+  reader(1190,1016,1.02,gStruct);
+  dishWoman(830,876,0.92,gStruct);
+  softClerk(1620,852,0.92,gStruct);
+  keptOld(1180,478,0.86,gStruct);
+
+  /* ---------- roads ---------- */
+  /* the Hearth Road comes up from Greybank and goes on to the Hearthseat, five leagues */
+  E('path',{d:D(jit([[640,1132],[760,1110],[890,1082],[1010,1042],[1130,1004],[1250,972]],2.4,24)),
+    fill:'none',stroke:INK,'stroke-width':2.6,'stroke-dasharray':'10 7','stroke-linecap':'round',opacity:0.78},gRoad);
+  E('path',{d:D(jit([[1370,600],[1450,540],[1540,470],[1640,400],[1740,330]],2.4,24)),
+    fill:'none',stroke:INK,'stroke-width':2.6,'stroke-dasharray':'10 7','stroke-linecap':'round',opacity:0.78},gRoad);
+  /* a faint south way, that a reeve says goes to a spring under the Cantons */
+  E('path',{d:D(jit([[1300,1080],[1310,1150],[1340,1220],[1390,1300],[1450,1370]],3,22)),
+    fill:'none',stroke:FADE,'stroke-width':1.6,'stroke-dasharray':'3 8',opacity:0.55},gRoad);
+  function edgeArrow(x,y,dir,p){
+    E('path',{d:'M'+x+' '+y+' L'+(x+dir*46)+' '+y+' M'+(x+dir*46)+' '+y+' l'+(dir*-9)+' -6 M'+(x+dir*46)+' '+y+' l'+(dir*-9)+' 6',
+      fill:'none',stroke:INK,'stroke-width':1.7},p);
+  }
+  edgeArrow(640,1132,-1,gRoad);
+  edgeArrow(1740,330,1,gRoad);
+
+  /* ---------- text helpers: every label inked last, above everything ---------- */
+  function T(x,y,text,o,p){
+    var t=E('text',{x:x,y:y,'font-family':(o&&o.font)||'Cinzel','font-size':(o&&o.size)||20,
+      fill:(o&&o.fill)||INK,'letter-spacing':(o&&o.ls)||0,
+      'text-anchor':(o&&o.anchor)||'start',opacity:(o&&o.opacity)||1,
+      'font-weight':(o&&o.weight)||null,
+      'stroke':(o&&o.halo)?PALE:null,'stroke-width':(o&&o.halo)?3.2:null,'paint-order':(o&&o.halo)?'stroke':null,
+      transform:(o&&o.rot)?('rotate('+o.rot+' '+x+' '+y+')'):null},p||gText);
+    t.textContent=text; return t;
+  }
+  function note(x,y,lines,o){
+    o=o||{};var lh=o.lh||22;
+    lines.forEach(function(ln,k){T(x,y+k*lh,ln,{font:'FellIt',size:o.size||16,fill:o.fill||'#5a4127',opacity:o.opacity||0.92});});
+  }
+  function leader(x1,y1,x2,y2,p){
+    E('path',{d:'M'+x1+' '+y1+' L'+x2+' '+y2,fill:'none',stroke:FADE,'stroke-width':0.9,opacity:0.6},p||gText);
+  }
+
+  /* the ground, named in place */
+  T(1190,506,'THE COUNTING STONE',{font:'FellSC',size:21,ls:4,fill:FADE,anchor:'middle',halo:true});
+  T(1190,532,'nine cups cut in one stone',{font:'FellIt',size:14,fill:FADE,anchor:'middle',halo:true});
+  leader(1096,772,1064,786,gText);
+  T(1050,776,'one — the child’s lip',{font:'FellIt',size:13,fill:INK,anchor:'end',halo:true});
+  leader(1156,808,1130,812,gText);
+  T(1120,840,'two — the bakehouse well',{font:'FellIt',size:13,fill:INK,anchor:'end',halo:true});
+  leader(1250,808,1240,812,gText);
+  T(1274,850,'three — the stone-warmer’s',{font:'FellIt',size:13,fill:INK,anchor:'start',halo:true});
+  leader(1332,788,1356,788,gText);
+  T(1372,782,'four — the milk well',{font:'FellIt',size:13,fill:INK,anchor:'start',halo:true});
+  leader(1278,706,1310,690,gText);
+  T(1332,674,'five — the last open, the bit unspent',{font:'FellIt',size:13,fill:RED,anchor:'start',halo:true});
+  leader(1246,660,1254,636,gText);
+  T(1258,622,'six, seven, eight, nine — stopped with lead',{font:'FellIt',size:13,fill:RED,anchor:'middle',halo:true});
+  T(1190,928,'five give and four stand stopped',{font:'Fell',size:16,fill:INK,anchor:'middle',halo:true});
+  leader(938,694,900,690,gText);
+  T(838,672,'the dish on the whitewashed lip',{font:'FellIt',size:13,fill:FADE,anchor:'end',halo:true});
+  T(838,694,'set down at the first voice',{font:'FellIt',size:12,fill:FADE,anchor:'end',halo:true});
+
+  /* the covered springs */
+  T(720,548,'a covered spring',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(720,570,'a stone and a ring of cold iron',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+  T(1560,508,'a covered spring',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1560,530,'no name cut upon the stone',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+  T(760,1054,'a covered spring',{font:'FellIt',size:14,fill:INK,anchor:'middle',halo:true});
+  T(1560,1034,'the fifth, sealed in Y.H. 618',{font:'FellIt',size:13,fill:RED,anchor:'middle',halo:true});
+  T(1560,1056,'the keeper hanged; the office, not the name',{font:'FellIt',size:12,fill:RED,anchor:'middle',halo:true});
+
+  /* the figures */
+  T(1190,1070,'the reader, palm flat on the stone',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  T(830,934,'the woman who keeps the stone',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+  T(1620,910,'a clerk, a nought in the space',{font:'FellIt',size:12,fill:RED,anchor:'middle',halo:true});
+  T(1180,410,'one of the Kept, held in the steam',{font:'FellIt',size:12,fill:FADE,anchor:'middle',halo:true});
+
+  /* roads and neighbourhood */
+  T(756,1164,'the Hearth Road from Greybank',{font:'FellIt',size:14,fill:INK,anchor:'start',halo:true});
+  T(1660,344,'five leagues to the Hearthseat',{font:'FellIt',size:14,fill:INK,anchor:'end',halo:true});
+  T(1390,1320,'a south way, by report, toward the Empty Cantons',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  T(1330,1408,'the road comes up frozen, hard enough for a cart',{font:'FellIt',size:13,fill:FADE,anchor:'middle',halo:true});
+  T(700,440,'the Keel — warm ground in winter',{font:'FellSC',size:15,ls:2,fill:FADE,anchor:'start',halo:true});
+  T(1700,1140,'warm-stone grit ground small between the cups',{font:'FellIt',size:12,fill:FADE,anchor:'end',halo:true});
+
+  /* ---------- marginal notes in the surveyor’s voice ---------- */
+  note(110,312,[
+    'Nine springs rise in the Keel, within twenty leagues of the',
+    'Hearthseat and five leagues short of it by the frozen road.',
+    'Here the ground gives back more than it takes. What it takes',
+    'is not written on the stone, and the answer is not safe to carry.'
+  ],{size:15,fill:'#574226'});
+  note(110,466,[
+    'Five cups are worn smooth with thumbs. Four are stopped with',
+    'lead. A hollow that does not wear belongs to the Court, not to',
+    'the hand that warms a child. Leave a bit in an open cup; take',
+    'nothing out of a cup that is stopped.'
+  ],{size:15,fill:'#574226'});
+  note(110,620,[
+    'The reader came up from the Hearthseat on Stone 22 of the',
+    'Thin Year and spoke four sentences over the steam. He spoke to',
+    'the stone, the wells, the dish, and last of all to us, the order',
+    'a reader uses when somebody may be listening who wants a figure.'
+  ],{size:15,fill:'#574226'});
+  note(110,774,[
+    'The people answered: The well gives back what the well got;',
+    'it does not say from where. The children said it twice, once',
+    'for the road up and once for the road down. The clerk put a',
+    'round nought against the space in the song. Four are four.'
+  ],{size:15,fill:'#574226'});
+  note(110,928,[
+    'On the Last Day the grey at the lip is left where it lies; in',
+    'the morning it is taken and called dealt with. The rich buy it',
+    'in a phial and call it quiet ash. The keeper has not swept the',
+    'grey off this stone and has entered neither level nor winter.'
+  ],{size:15,fill:'#574226'});
+
+  note(1810,312,[
+    'Four were sealed in the first hundred and twenty years; a',
+    'fifth was sealed in Y.H. 618 and the keeper of it was hanged',
+    'for drawing without a key. The roll gives the office and not',
+    'the name. His account stands open and is carried forward.'
+  ],{size:15,fill:'#574226'});
+  note(1810,466,[
+    'The books count five sealed; the stone shows four stopped',
+    'cups. A reeve come up from the Fenmarch says the spring of',
+    'Y.H. 618 is not under the Keel at all but under the Cantons,',
+    'set twenty leagues off so no collector need walk the south road.'
+  ],{size:15,fill:'#574226'});
+  note(1810,620,[
+    'He has set the saying beside the figure and joined neither.',
+    'A man who joins the two has drawn a map, and the keeper of',
+    'the key-slate has no licence to draw one. Both stand here,',
+    'as the five open cups stand beside the four.'
+  ],{size:15,fill:'#574226'});
+  note(1810,774,[
+    'At the foot, struck through and written again very small in',
+    'a hand nobody will own: Five were left open by a hand. Four',
+    'were stopped by another. The steam does not tell which hand',
+    'was kinder. Four answerings, and no hand.'
+  ],{size:15,fill:'#574226'});
+  note(1810,928,[
+    'One part in twelve of every measure is kept back for the',
+    'fire, as the notice says. A bit put into an open cup is a',
+    'keeping; a bit taken from a stopped cup is theft, and the',
+    'wrist is marked so the account may find the hand again.'
+  ],{size:15,fill:'#574226'});
+
+  /* ---------- title cartouche ---------- */
+  E('path',{d:'M660 58 L1740 58 L1760 78 L1760 194 L1740 214 L660 214 L640 194 L640 78 Z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':3,opacity:0.94},gFrame);
+  E('path',{d:'M666 68 L1734 68 L1750 84 L1750 188 L1734 204 L666 204 L650 188 L650 84 Z',
+    fill:'none',stroke:INK,'stroke-width':1.2,opacity:0.8},gFrame);
+  E('path',{d:'M604 136 q30 -22 54 0 q-24 22 -54 0 z M1796 136 q-30 -22 -54 0 q24 22 54 0 z',
+    fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  T(1200,118,'THE NINE WELLS',{font:'CinzelDec',size:38,ls:3,anchor:'middle',fill:INK});
+  T(1200,154,'on the Keel — five leagues short of the Hearthseat',{font:'FellIt',size:19,anchor:'middle',fill:FADE});
+  T(1200,186,'surveyed and inked in Y.H. 812 — the Thin Year, the Long Cold',{font:'FellSC',size:14,ls:2,anchor:'middle',fill:RED});
+  for(i=0;i<29;i++){
+    var sx=664+i*38;
+    E('path',{d:'M'+sx+' 72 l2.5 5 l5 0 l-4 3.5 l1.5 5 l-5 -3 l-5 3 l1.5 -5 l-4 -3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+    E('path',{d:'M'+sx+' 200 l2.5 -5 l5 0 l-4 -3.5 l1.5 -5 l-5 3 l-5 -3 l1.5 5 l-4 3.5 l5 0 z',
+      fill:GOLD,stroke:INK,'stroke-width':0.4,opacity:0.6},gFrame);
+  }
+
+  /* ---------- compass rose ---------- */
+  var rx=2180,ry=400;
+  E('circle',{cx:rx,cy:ry,r:48,fill:'none',stroke:INK,'stroke-width':1.1,opacity:0.6},gFrame);
+  E('circle',{cx:rx,cy:ry,r:38,fill:'none',stroke:INK,'stroke-width':0.7,opacity:0.4},gFrame);
+  for(i=0;i<16;i++){
+    var a=i*Math.PI/8,len=(i%2===0)?42:24;
+    E('path',{d:'M'+rx+' '+ry+' L'+(rx+Math.sin(a)*len).toFixed(1)+' '+(ry-Math.cos(a)*len).toFixed(1),
+      stroke:INK,'stroke-width':i%2===0?1.4:0.8,opacity:i%2===0?0.85:0.5},gFrame);
+  }
+  E('path',{d:'M'+rx+' '+(ry-42)+' L'+(rx-9)+' '+ry+' L'+rx+' '+(ry+42)+' L'+(rx+9)+' '+ry+' Z',fill:'#efe3c6',stroke:INK,'stroke-width':1.2},gFrame);
+  E('path',{d:'M'+rx+' '+(ry-42)+' L'+rx+' '+ry+' L'+(rx+9)+' '+ry+' Z',fill:RED,opacity:0.8},gFrame);
+  T(rx,ry-56,'N',{size:21,anchor:'middle',fill:RED});
+  ['E','S','W'].forEach(function(cdir,q){
+    var ca=[Math.PI/2,Math.PI,3*Math.PI/2][q];
+    T(rx+Math.sin(ca)*62+3,ry-Math.cos(ca)*62+7,cdir,{font:'FellSC',size:16,anchor:'middle',fill:FADE});
+  });
+
+  /* ---------- convention of signs ---------- */
+  E('rect',{x:110,y:1128,width:560,height:378,fill:'#e7d9b7',stroke:INK,'stroke-width':2.4,opacity:0.95},gFrame);
+  E('rect',{x:118,y:1136,width:544,height:362,fill:'none',stroke:INK,'stroke-width':0.9,opacity:0.7},gFrame);
+  T(390,1170,'CONVENTION OF SIGNS',{font:'FellSC',size:21,ls:3,anchor:'middle'});
+  E('line',{x1:140,y1:1182,x2:640,y2:1182,stroke:INK,'stroke-width':1,opacity:0.6},gFrame);
+  E('ellipse',{cx:166,cy:1218,rx:20,ry:12,fill:'#93a99a',stroke:INK,'stroke-width':1.8},gFrame);
+  T(238,1224,'an open cup, worn smooth',{font:'Fell',size:15});
+  E('ellipse',{cx:166,cy:1252,rx:20,ry:12,fill:LEAD,stroke:INK,'stroke-width':1.8},gFrame);
+  E('path',{d:'M161 1247 l10 10 M171 1247 l-10 10',stroke:RED,'stroke-width':1.3},gFrame);
+  T(238,1258,'a cup stopped with lead',{font:'Fell',size:15});
+  sealedSpring(166,1300,0.42,gFrame); T(238,1304,'a covered spring, cold-iron ring',{font:'Fell',size:15});
+  E('path',{d:'M154 1340 q-6 -12 3 -22 q7 -10 -1 -20',fill:'none',stroke:STEAM,'stroke-width':2.2,
+    opacity:0.8,'stroke-linecap':'round'},gFrame);
+  T(238,1340,'the steam — the giving',{font:'Fell',size:15});
+  E('circle',{cx:166,cy:1372,r:5,fill:GOLD,stroke:INK,'stroke-width':1},gFrame);
+  T(238,1378,'a bit left, unspent',{font:'Fell',size:15});
+  E('line',{x1:142,y1:1410,x2:190,y2:1410,stroke:INK,'stroke-width':2,'stroke-dasharray':'8 6'},gFrame);
+  T(238,1416,'the Hearth Road, frozen',{font:'Fell',size:15});
+
+  /* ---------- scale bar ---------- */
+  T(1560,1438,'ONE LEAGUE',{font:'FellSC',size:13,ls:1.4,fill:FADE});
+  E('rect',{x:1560,y:1448,width:480,height:13,fill:'#e7d9b7',stroke:INK,'stroke-width':1.6},gFrame);
+  for(i=0;i<4;i++){
+    E('rect',{x:1560+i*120,y:1448,width:120,height:13,fill:(i%2===0)?INK:'#e7d9b7',stroke:INK,'stroke-width':1.2},gFrame);
+    T(1560+i*120,1482,[0,1,2,3][i]+'',{font:'Fell',size:15,anchor:'middle',fill:INK});
+  }
+  T(2050,1462,'leagues',{font:'FellIt',size:16,fill:FADE});
+  T(1560,1512,'A league is three Sarnish miles; the road up is five leagues from the Hearthseat.',{font:'FellIt',size:13,fill:FADE});
+
+  /* ---------- engraved ornament: a key on a nail, carried in a wool sleeve ---------- */
+  var ox=340,oy=252;
+  var og=E('g',{transform:'translate('+ox+' '+oy+')'},gFrame);
+  E('circle',{cx:0,cy:-56,r:5,fill:'none',stroke:INK,'stroke-width':1.6},og);
+  E('path',{d:'M0 -50 L0 16',fill:'none',stroke:'#4a4a45','stroke-width':3},og);
+  E('path',{d:'M0 16 q-8 6 -2 14 q6 8 0 16 M-2 -34 q-12 4 -10 16 q2 10 -6 12',
+    fill:'none',stroke:INK,'stroke-width':1.4,opacity:0.85},og);
+  E('path',{d:'M-26 38 q26 -12 52 0 q-6 18 -26 16 q-20 2 -26 -16 z',fill:'#d8c8a4',stroke:INK,'stroke-width':1.2,opacity:0.85},og);
+  E('path',{d:'M-18 44 q18 -6 36 0',fill:'none',stroke:FADE,'stroke-width':0.8,opacity:0.7},og);
+  T(340,332,'nine keys upon the nail — the level is not entered',{font:'FellIt',size:13,fill:FADE,anchor:'middle'});
+
+  /* ---------- the ruled border and its hatch ---------- */
+  E('rect',{x:34,y:34,width:2332,height:1532,fill:'none',stroke:INK,'stroke-width':7},gFrame);
+  E('rect',{x:52,y:52,width:2296,height:1496,fill:'none',stroke:INK,'stroke-width':1.8},gFrame);
+  for(i=0;i<116;i++){
+    var px=56+i*19.7;
+    E('line',{x1:px,y1:34,x2:px,y2:52,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:px,y1:1548,x2:px,y2:1566,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  for(i=0;i<76;i++){
+    var py=56+i*19.6;
+    E('line',{x1:34,y1:py,x2:52,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+    E('line',{x1:2348,y1:py,x2:2366,y2:py,stroke:INK,'stroke-width':1,opacity:0.5},gFrame);
+  }
+  [[52,52,1,1],[2348,52,-1,1],[52,1548,1,-1],[2348,1548,-1,-1]].forEach(function(c){
+    E('path',{d:'M'+(c[0]+c[2]*8)+' '+(c[1]+c[3]*44)+' q'+(c[2]*30)+' '+(c[3]*4)+' '+(c[2]*44)+' '+(c[3]*34)
+      +' M'+(c[0]+c[2]*44)+' '+(c[1]+c[3]*8)+' q'+(c[2]*4)+' '+(c[3]*30)+' '+(c[2]*34)+' '+(c[3]*44),
+      fill:'none',stroke:INK,'stroke-width':1.6,opacity:0.8},gFrame);
+  });
+})();
+</script>
+</body>
+</html>

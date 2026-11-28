@@ -1622,8 +1622,35 @@ The road from Sill through Mud End and Reedholt and on into the Quiet Acre and t
 
 ### The Nine Wells
 **Kind:** hot springs. **Region:** the Keel.
-Nine springs where the ground gives back more than it takes; four sealed by the Court in Y.H. 1 to 120, a fifth in Y.H. 618, and the keys kept.
-**Relations:** On the Keel within twenty leagues of the Hearthseat and the Hearth beneath it.
+Nine springs where the ground gives back more than it takes; four sealed by the Court in Y.H. 1 to 120, a fifth in Y.H. 618, and the keys kept. Five stand open and four are stopped, though the Court's books count five sealed; the count on the stone and the count in the book are kept apart.
+**Relations:** On the Keel within twenty leagues of the Hearthseat and the Hearth beneath it, five leagues short of the Hearthseat by the frozen Hearth Road; a south way runs by report toward the Empty Cantons.
+
+*The close ground of the springs drawn on `atlas/the-nine-wells`: the counting stone with its nine cups, five worn smooth and open and four stopped with lead; the five open cups named in the well-ledger, the dish on the whitewashed lip with lime bloom in its grain, warm-stone grit ground between the cups, the grey left on the fifth lip, a copper bit unspent, four covered springs with stones and rings of cold iron and no name cut upon them, the fifth sealed in Y.H. 618 with the keeper hanged and the office entered and not the name, the frozen Hearth Road up to the Hearthseat and down to Greybank, and the south way by report toward the Cantons. Surveyed and inked in Y.H. 812, the Thin Year, the Long Cold.*
+
+### The counting stone
+**Kind:** shrine stone, counting stone. **Region:** the Nine Wells, the Keel.
+The stone among the five open wells with nine cups cut into it, at which a reader of the Return spoke on Stone 22, Y.H. 812; a woman keeps it and draws the water for the five. Her leaf is kept in a tin under the stone's lip with a lead stop in its fold. The grey on the lip is left on the Last Day and taken in the morning.
+**Relations:** At the Nine Wells, five leagues short of the Hearthseat. Drawn on `atlas/the-nine-wells`.
+
+### The nine cups
+**Kind:** cups cut in stone. **Region:** the counting stone, the Nine Wells.
+Nine hollows worn into the counting stone: five worn smooth with thumbs and open, four stopped with lead. A hollow that does not wear belongs to the Court, not to the hand that warms a child. The warming-song leaves the length of the four stopped cups as a space in which the singer makes no sound, and a clerk set a round nought against the space.
+**Relations:** Cut in the counting stone at the Nine Wells. Drawn on `atlas/the-nine-wells`.
+
+### The five open cups
+**Kind:** open cups, named hollows. **Region:** the counting stone, the Nine Wells.
+The five that give, named in the ledger as the child's lip, the bakehouse well, the stone-warmer's, the milk well and the last open. A bit left in an open cup is a keeping and goes up the road in a clean hand; nothing is taken out of a stopped cup. The milk well has a pale ring on its lip and the last open held a bit while the figure was read.
+**Relations:** Cut in the counting stone at the Nine Wells. Drawn on `atlas/the-nine-wells`.
+
+### The four stopped cups
+**Kind:** lead-stopped cups. **Region:** the counting stone, the Nine Wells.
+The four held cups, six, seven, eight and nine, each stopped with lead; a lead stop out of the sixth lies folded in the keeper's leaf. Lead does not give, take or sing; it stops. "Four were reserved to the Hearth" is what the reader said to the stone, and no key has been brought down to it.
+**Relations:** Cut in the counting stone at the Nine Wells. Drawn on `atlas/the-nine-wells`.
+
+### The dish at the counting stone
+**Kind:** dish, vessel. **Region:** the counting stone, the Nine Wells.
+The dish set on the whitewashed lip at the first voice and taken up before the reader saw it; the wet ring where it stood is worked into the keeper's leaf, and lime bloom from the lip will not wash out of the fold.
+**Relations:** On the counting stone's lip at the Nine Wells. Drawn on `atlas/the-nine-wells`.
 
 ### The Glaze Cliffs
 **Kind:** coastal cliffs. **Region:** Vhalen, Sallow shore.
