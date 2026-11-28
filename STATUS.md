@@ -1,11 +1,11 @@
 # The Debt of Warmth: press status
 
-- Chapters complete: **116**
-- Words of story: **2,143,740**
-- Current chapter: 117 (step: plan, scene 1)
-- Last chapter: A Man Stood at the Yard's Edge (Days 399–401 · Ilmen 5–7, Y.H. 814)
-- Author calls so far: 1245 (tokens in 228,276,492, out 28,741,845)
-- Updated: 2026-11-28 17:04
+- Chapters complete: **117**
+- Words of story: **2,165,088**
+- Current chapter: 117 (step: publish, scene 7)
+- Last chapter: The First Figure of the Year (Days 402–404 · Ilmen 8–10, Y.H. 814)
+- Author calls so far: 1255 (tokens in 229,814,810, out 28,995,494)
+- Updated: 2026-11-28 17:36
 
 **The complete book PDF** is at the repository root: `The-Debt-of-Warmth.pdf`
 (every chapter so far, the cast, atlas, lore and indices). It is rebuilt after every chapter and also

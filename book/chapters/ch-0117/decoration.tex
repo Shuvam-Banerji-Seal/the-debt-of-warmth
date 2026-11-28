@@ -1,0 +1,68 @@
+\begin{tikzpicture}
+  % The chapter's heart: the year's first figure, read twice and still one.
+  % One in twelve, marked among faint places. The figure passes twice over the
+  % basket; the dressed grain lies under wool with no voice to answer it.
+  % Between the two a line broken before it arrives -- no signature, no payer.
+  % A clean slate, and not a clean account.
+
+  \node at (0,1.72) {\pgfornament[width=0.40cm,color=ornament,opacity=0.20]{12}};
+
+  % —— flourishes holding the width, one to either hand ——
+  \node at (-3.45,0.14) {\pgfornament[width=3.0cm,color=ornament,opacity=0.18,symmetry=v]{81}};
+  \node at ( 3.45,0.14) {\pgfornament[width=3.0cm,color=ornament,opacity=0.18,symmetry=v]{81}};
+
+  % —— twelve places, one of them marked; the first, not a thirteenth ——
+  \foreach \a in {0,30,60,120,150,180,210,240,300,330}{
+    \pgfmathsetmacro{\dx}{1.08*cos(\a)}
+    \pgfmathsetmacro{\dy}{0.30+1.08*sin(\a)}
+    \fill[faded!20!ink, opacity=0.24] (\dx,\dy) circle (0.014);
+  }
+  \fill[rubric!55!ink, opacity=0.62] (0,1.38) circle (0.022);
+
+  % —— the medallion: a clean face, with ghosts still under the one figure ——
+  \fill[vellum, opacity=0.62] (0,0.30) circle (0.80);
+  \draw[ink, line width=0.50pt, opacity=0.40] (0,0.30) circle (0.84);
+  \draw[gold, line width=0.28pt, opacity=0.26] (0,0.30) circle (0.74);
+  \draw[faded, line width=0.24pt, opacity=0.22] (0,0.30) circle (0.92);
+  \draw[ash!50!faded, line width=0.20pt, opacity=0.20, line cap=round]
+    (-0.40,-0.14) -- (-0.20,0.06);
+  \draw[ash!50!faded, line width=0.20pt, opacity=0.18, line cap=round]
+    (0.26,-0.10) -- (0.42,0.06);
+
+  % —— the first figure, sent twice over the basket and still one ——
+  \node[font=\CinzelFont\Huge, text=rubric, opacity=0.88] at (0,0.30) {1};
+  \draw[rubric!50!ink, line width=0.34pt, opacity=0.42, line cap=round]
+    (-0.62,0.54) .. controls (-0.24,0.76) and (0.24,0.76) .. (0.62,0.54);
+  \draw[rubric!36!ink, line width=0.26pt, opacity=0.32, line cap=round]
+    (-0.60,0.48) .. controls (-0.22,0.70) and (0.26,0.70) .. (0.64,0.48);
+
+  % —— the dressed grain under the fold, heard by nobody ——
+  \foreach \x/\y in {-1.50/-1.20,-0.92/-1.28,-0.30/-1.32,0.30/-1.32,0.92/-1.28,1.50/-1.20}{
+    \pgfmathsetmacro{\ytop}{\y+0.18}
+    \draw[faded!26!ink, line width=0.22pt, opacity=0.26, line cap=round] (\x,\y) -- (\x,\ytop);
+    \fill[faded!32!ink, opacity=0.26] (\x,\ytop) circle (0.034);
+  }
+  \fill[faded!24!ink, opacity=0.14]
+    (-2.05,-1.02) .. controls (-1.20,-0.72) and (1.20,-0.72) .. (2.05,-1.02)
+    .. controls (1.10,-1.28) and (-1.10,-1.28) .. (-2.05,-1.02) -- cycle;
+  \draw[faded!28!ink, line width=0.30pt, opacity=0.30, line cap=round]
+    (-2.05,-1.02) .. controls (-1.10,-1.28) and (1.10,-1.28) .. (2.05,-1.02);
+  \draw[faded!44!ink, line width=0.46pt, opacity=0.48, line cap=round]
+    (-2.05,-1.02) .. controls (-1.20,-0.72) and (1.20,-0.72) .. (2.05,-1.02);
+  \draw[faded!20!ink, line width=0.22pt, opacity=0.24, line cap=round]
+    (-1.34,-0.88) .. controls (-1.16,-1.04) .. (-1.02,-1.14);
+  \draw[faded!20!ink, line width=0.22pt, opacity=0.24, line cap=round]
+    (0.92,-0.88) .. controls (1.10,-1.04) .. (1.22,-1.14);
+
+  % —— the line gone down and broken before it arrives: no payer, no signature ——
+  \draw[faded!16!ink, line width=0.22pt, opacity=0.22, dash pattern=on 1.2pt off 2.6pt, line cap=round]
+    (0,-0.60) -- (0,-0.70);
+  \draw[faded!16!ink, line width=0.22pt, opacity=0.18, dash pattern=on 1.2pt off 2.6pt, line cap=round]
+    (0,-0.76) -- (0,-0.84);
+
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.55,-1.48) -- (4.55,-1.48);
+
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.72)
+    {one figure read twice is one figure};
+  \node at (0,-2.00) {\pgfornament[width=4.2cm,color=ornament,opacity=0.20,symmetry=v]{98}};
+\end{tikzpicture}
