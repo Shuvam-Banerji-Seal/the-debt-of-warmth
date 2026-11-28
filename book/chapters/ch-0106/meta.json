@@ -1,0 +1,119 @@
+{
+  "number": 106,
+  "title": "The Tenth Figure and the Cold Iron",
+  "arc": {"number": 1, "title": "The Cold Stone", "subtitle": "a warm stone, already going cold"},
+  "epigraph": {
+    "text": "The bell gives four, four and a gap. The slate gives the same figure twice. Neither of them has ever told a mother what it cost.",
+    "attribution": "A saying of the Clay Yard, Low Kiln, said at the reading block"
+  },
+  "days": {"start": 369, "end": 371},
+  "when": "Days 369–371 · Stone 10–12, Y.H. 813",
+  "where": "Low Kiln, Sill",
+  "pov": "Daniel Marchetti (Corin), close third-person past tense inside a body of three hundred and sixty-nine to three hundred and seventy-one days, six months and one hundred and eighty-nine to one hundred and ninety-one days, carried everywhere in a basket and told by nobody. As in chapters 25 through 105 the old life is carried by the surgeon's register alone: no present-tense break and no tagged memory. The register takes the body each morning in its old order — the stiff leathery brown-edged barley crust two inches from the ear with its corner standing a hair off the wool, its empty place unnamed and no third; the thread of drool frozen in the dry kiln heat and unwiped, because nobody under any roof has ever been given an instruction about the thread; cold stopped at cheek, temple and the bare wrist-joint where the wool rides back, as at the end of a line written out for it with neither an order to go farther nor an order to go away; the afterdrop waiting past a warming nobody in this house will perform. He reads the world as a trauma bay is read, by the small sounds first because the small sounds do not lie. This chapter carries him to the tenth arithmetic at the Cross on Stone 10, through an ordinary tending day, and to the Hearth Drawing on Stone 12, witnessed only from a basket at the edge of the light: the cold iron tube, the small flat knock of a vessel giving way, a rekindled child worse on the third day, grey fingertips and a reason. He knows the warming that would be required and cannot perform it; knows a cold patient cannot clot and will seem better before he is worse; knows the composed face is not composure. The infant's want of the crust lifted, the thread wiped and a hand on the pot handle stays louder than the surgeon's knowing; neither wins, and the argument is the work. Ten readings are ten and not one account; the figure read is still not the figure paid and no doctrine comes out of ten. The flat knock at the Drawing is not made a seventh hearing, and the finding that the birth room, the kiln-house, the death-house and the Court's room share a gap in the count stands on its own place with a finger between every pair, advanced and not paid.",
+  "mode": "normal",
+  "characters": [
+    "dan-marchetti",
+    "sella-vail",
+    "tarn",
+    "jorra-vail",
+    "garl-vail",
+    "berr-clay",
+    "hessa-rale",
+    "ilva"
+  ],
+  "places": [
+    "Sarn",
+    "Grath",
+    "Sill",
+    "Low Kiln",
+    "High Kiln",
+    "Slate Row",
+    "Greybank",
+    "Cold Acre",
+    "Ash",
+    "Stone",
+    "the Ilm",
+    "the clay road",
+    "the Cross",
+    "the reading block under the moot-post",
+    "the moot-post",
+    "the pot board",
+    "the north bridge",
+    "the out-of-line landing",
+    "the Vail kiln-house",
+    "the hearth",
+    "the kiln mouth",
+    "the loaf shelf",
+    "the bed",
+    "the boards",
+    "the towel",
+    "the Debt Loft",
+    "the finger's-width door",
+    "the Clay Yard",
+    "the Vail corner",
+    "the drying racks",
+    "the lowest rack",
+    "the rack end",
+    "the yard well",
+    "the trough",
+    "the flat stone by the well",
+    "the worked strips",
+    "the kindling",
+    "the flagstones",
+    "the packing bench",
+    "the Vail wheel-shed",
+    "the back room",
+    "the damper",
+    "the death-house"
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "title": "The Tenth Figure",
+      "day": 369,
+      "flashback": false,
+      "synopsis": "First entry, the chapter's only \\dropcap and its first \\daymark{369}{Stone 10, Tenthday, Y.H. 813}: small hours under the Vail kiln-house roof into the morning of the deep-winter month's first Account-day and market, with the hand laid back on answer 312 and the count exact at 368 carried forward and not spent. Present: Corin/Dan, Sella Vail; Berr Clay, Hessa Rale, the soft-cuffed clerk, the green-mouthed woman and the foundling as sightings; Garl in objects. No recap of the unmarked birthday: nothing from Stone 7, 8 or 9 crosses as sign, lesson, mending, cause, payment or payer, the widow's mark was untouched and no eighth opening is made due on a market-day, and the river's skin stays on its own place beside water-over-water. Sella carries him down at the half-pace from every open slate, sets the basket in the moot-post's finger's width of shade where no slate lay and stands half a pace off through the reading and the bell. Berr comes up short off the clay road with the red cord folded, the sweet green of tasted glaze at one mouth-corner and the smell of nothing at all; wipes his thumb twice before touching nothing, holds the narrow slate inward, passes a finger over the figure, reads one in twelve, as the notice says twice over the basket — once for the moot, once for the late households — calls the levy, denies it with your house, never I, says something low to the block about kindness being entered, and goes off with the box locked and Stone's first true subtraction inside. Hessa takes the slate up the road before noon edge-on and unread, her hand to it before her eyes to the crowd; the soft-cuffed clerk stays set at the out-of-line landing for a measure nobody called; a silent woman at the pot board turns a cup a quarter and a small shape at the market's edge catches the light on a green sliver and goes dull, both sightings with no eighth. The bell goes four, four and a gap with nobody crossing himself, the heard bell kept in its square beside the told bell of the Long Night. Dramatic purpose: the boy's own exact tenth arithmetic stands against the district's figure read twice over him, and ten readings are ten and not one account — the figure read still not the figure paid, no signature on the space, no doctrine out of ten (T015/T041/T047, T077). The hand takes a small intake on the bell's own finishing under the morning and lays it down as answer 313. Count 369 exact, six months and one hundred and eighty-nine days told by nobody; fire's fifth unpaid and Garl's name unspoken the same number.",
+      "target_words": 3000
+    },
+    {
+      "n": 2,
+      "title": "What the Reading Left",
+      "day": 369,
+      "flashback": false,
+      "synopsis": "Second entry, no new dated heading: the afternoon of Stone 10 through the going of the light, hearth, pot board, loaf shelf, bed, boards and towel, then the small hours at the very end of the day. Present: Corin/Dan, Sella Vail, Tarn, Jorra Vail; Garl in objects. Walk-ons only: a Cold Acre hare-carrier, a cracked-jar man, a woman with kindling and two fence-menders; no Ilva, no runner on any road, no collector on the clay road, no ownerless voice over the boards — the Ash 5 joining, the Ash 17 direction and the Ash 23 direction stand where put and do not repeat and buy no lesson (T035/T031/T065/T095, T101 held). Dramatic purpose: to prove the tenth reading bought no lesson under this roof. Sella goes wide around the seven walked-around places with a look and a wide step and no number, widest around the returning-line place where a hand went in on Seed 15 and did not come out; three coverings stay weather entered nowhere with a finger between every pair; the river's winter skin is found where put on its own place beside water-over-water, not a fourth covering, not a sixth low thing, not a hearing and not spent on the reading or the Drawing two mornings off (T083/T085, T078). Dressed grain lies covered and unfigured, fingers in and out without closing; the empty fingers are a keeping beside the one handful of Bone 22 and not a second handful (T077, T060/T086). The twice-mended pot keeps its hairline showing between old-brass staple and tighter wire, both proverbs to the pot and the fire and never to a person, repair apart from restoration; the widow's mark hangs untouched because a market, a shelf, a yard and a bed are not openings (T058/T079). Sella's finger lies on top of the loaf shelf so the charcoal stays unread (T100). At the kindling Tarn keeps six where the house can check and the seventh at the lip beside Garl's unforged collector sentence, tells the wood Six counted. The next I don't count, finds the Ash 14 held breath and the Bone 26 thumb's resting where put and makes neither again, and brings the ear-sentence to the word that would call the loan and stops as a remembered ninth stopping with no tenth before the seventh year at its very end — the Seed 16 breath unspent and the loan uncalled, his stroke over the flagstones without the half-check (T036/T076/T006). Jorra comes off the wheel-shed with meal-fine grey slate dust, parts dusty forearms from clean as clot from vessel, speaks to the wheel before any person, withholds the full note three turns ahead, and puts his bent finger into the cold iron ahead of an unfinished sentence, one iron with two bites, taking it out without a second interval; he's not Vail stays sealed and the promise under the shed is neither given nor withdrawn (T062/T035/T031). In the small hours the file comes out on the towel with every gap left gap and the hand lays itself back on answer 314. Count 369 exact.",
+      "target_words": 3300
+    },
+    {
+      "n": 3,
+      "title": "The Eleventh Morning",
+      "day": 370,
+      "flashback": false,
+      "synopsis": "Third entry and the second dated \\daymark{370}{Stone 11, Firstday, Y.H. 813}: small hours under the Vail roof into a wholly ordinary tending morning, no market, Cross, bell, collector or runner and no ownerless voice. Present: Corin/Dan, Sella Vail; Ilva at the yard well; Garl in objects. No Berr, no Hessa, no soft-cuffed clerk, no green-mouthed woman or foundling sighting. New day, new date and no recap: nothing from the tenth reading crosses as sign, lesson, mending, cause, payment or payer. Open on the hand laid down on answer 314. Dramatic purpose: the house wakes to the same grammar and the reading leaves no residue; the boy's count goes 369 to 370 exact, six months and one hundred and eighty-nine to one hundred and ninety days told by nobody, while Sella goes to the hearth before the basket, tells the coals it is the thaw, turns them with a broken pot's back and says The house will keep it where another woman would say I. Body inventoried in the surgeon's old order with the surgeon/infant quarrel renewed and neither verdict: crust two inches off with its corner a hair off the wool, frozen thread unwiped, cold stopping at cheek, temple and wrist, afterdrop waiting past a warming nobody will perform. At the yard well Ilva draws with the pail against her knee, the rope stiff in the Stone cold giving its small dry rasp, clay pale in her nail crescents and grey rack dust in one thumb seam; her hand goes to her sleeve before her eyes go to the asker and her mouth opens after both with a half-beat, and she answers the question put and not the one behind it: Ask the pot what it cost. I keep the count, not the account. The notched birch strip is not taken out, read, copied or joined, no figure comes off the wood, and the boy files her order of reaching as the ninth record-first hand with a finger between it and Hessa Rale's eighth and files no tenth; she is expressly not the speaker of any voice (T080 advanced, not paid). The yard goes around its seven places with a look and no number; three coverings stay weather with a finger between every pair; grain under wool stays unfigured; the carried fire keeps four pulls and a gap under the floor with its payer unnamed 370 days; Garl's name unspoken 370 days; nine arithmetics stand behind one unsigned figure in Berr's locked box up the road and no tenth arithmetic is brought early (T015/T041/T047 held). The hand takes a small intake on the river's note and lays it down as answer 315.",
+      "target_words": 2800
+    },
+    {
+      "n": 4,
+      "title": "Two Nails Short of a Row",
+      "day": 370,
+      "flashback": false,
+      "synopsis": "Fourth entry, no new dated heading: the afternoon of Stone 11 through the going of the light and the small hours at the close of the day. Present: Corin/Dan, Sella Vail, Tarn, Jorra Vail; Garl in objects. Walk-ons only: a Cold Acre hare-carrier, a cracked-jar man, a woman with kindling and two fence-menders. No Ilva, Berr, Hessa, runner, collector, green-mouthed woman or foundling; no ownerless voice — the Ash 5 joining, the Ash 17 direction and the Ash 23 direction stand where put and do not repeat (T035/T031/T065/T095, T101 held). Dramatic purpose: the quiet before the Drawing gathers interest while the household keeps its ordinary afternoon. Sella carries him down and up at the half-pace, instruction to the wool, the river wind and the fire she will bank against their coming back and never to the basket; she goes wide around the seven walked-around places, widest around the returning-line place; the gone white frost, the skin on the trough and the silt-clouded plate of ice on its flat stone stay weather entered nowhere with a finger between every pair and the river's winter skin is found where put and not spent on the Drawing one morning ahead (T009/T013/T092, T098, T083/T085). At the kindling Tarn keeps six and the seventh, checks the Ash 14 breath and Bone 26 thumb's resting and makes neither again, brings the ear-sentence to the calling word and stops as a remembered ninth stopping with no tenth before the seventh year at its very end, chest tight since the dark, Ash in the knuckle creases, pale clip-ring at the left wrist, Seed 16 breath unspent and loan uncalled, his stroke going on over the flagstones without the half-check (T036/T076/T006). Jorra's three or more men unnamed go low into the back room before first grey and get no name; he parts dusty forearms from clean as clot from vessel, tells a pot You'll do, withholds the note he knows three turns ahead, and lets his bent finger lead at the damper without leaving the extra holding of Ash 26 a second time — gathered once on a place of its own, not a habit, way, sign, mending, cause, payment or rule (T062/T035/T031). The file comes out on the towel: 314 honest answers then 315 on the sixth place, six hearings beside and never among with the seventh place empty, heard bell beside told, told figure beside paid with no signature and no doctrine out of nine, nine hands with no tenth, nine stoppings with no tenth, five held objects with the pot-crack resting beside them, the hand-at-the-sill breath beside that and the Ash 26 holding beside all, burned slate five, shut-room tellings two, well-saying four shapings, row five askings with no witness, the three Ash directions held apart, and the river's skin beside water-over-water (T061/T082, T078, T080, T100). T093's cold foot stays uncured and unnamed, a cold to one woman and weather to the yard (T093/T094/T096 carried). The hand takes its small intake and lays it down as answer 316. Count 370 exact; the Drawing stands one morning off, earned by its own morning and not brought early.",
+      "target_words": 3300
+    },
+    {
+      "n": 5,
+      "title": "The Cold Iron Tube",
+      "day": 371,
+      "flashback": false,
+      "synopsis": "Fifth entry and the third dated \\daymark{371}{Stone 12, Secondday, Y.H. 813, the Hearth Drawing}: small hours under the Vail roof into the morning of the year's first collection — the chapter's earned event, rendered entirely from a basket at the edge of the light, with no Court interior, no inside of the collection, no named collector, no explanation of the second chill and no interior of the back room. Present: Corin/Dan, Sella Vail; the Drawing collector, the neighbour on the board-bed, the rekindled child's mother and the death-house women as walk-ons only; Garl in objects. No Berr, no Hessa, no Ilva, no runner, no green-mouthed woman or foundling, no ownerless voice. Sella carries him to the Drawing, sets him where he can see and not join and stands half a pace off, giving the instruction to the wool and the river wind and never to the basket; the widow's mark is not touched, because a Drawing is not an opening and the hand goes to the mark before the kiln and at no other hour (T058/T079). From the basket: a cuff soft from washing and folded back twice, a flat leather satchel, a cold iron tube coming out of its wool, a hand set on the slate before the eyes go to the bed, a neighbour on a board-bed whose ways the collector finds by touch and holds without pressing, fingertips grey at the tips the colour of skimmed milk gone off, the soft sentence to the slate — The measure is banked. The account stands. The return is recorded — and the collector's ordinary hand with no pause in it, filed on a place of its own and not joined to the neat dark hand or to Marra (T080 held, T090 held). The neighbour gives under the tube with a small flat knock and a pale round place left on the arm where the iron had been, not a wound and no blood; the boy does NOT make the flat knock a seventh hearing — a hearing wants a source standing and the room is seen from a basket, not entered — and the six hearings stay beside and never among with the seventh place empty (T061/T082). In the same room a rekindled child three days out of a thin return fares worse on the third day, grey at the fingertips with a red mark at the hairline, and the room calls it a graft settling; the boy reads the afterdrop of a rewarming patient who gets worse before getting better and knows the slow outside warming the child would need, and he cannot speak, reach or treat it (T012, T093/T094/T096 carried). The mother holds a cup of warm milk she never drinks and asks whether the child will know her; a death-house woman says warmth goes in slow; you can't hurry a graft. Bench, pot, draught and a place in the figures where a line should stand and does not — the boy sets the room on its own place beside the birth room, the kiln-house and the Court's room with a finger between every pair, advanced and NOT paid, and joins it to none of the Greybank saying, the burned slate of Slate Row or the Ash 5 joining and Ash 17 and Ash 23 directions (T081, T065/T095, T035/T031/T031, T101 held). The hand takes a small intake on the river's note under the finger's-width door at the going of the light and lays it down as answer 317. Count 371 exact, six months and one hundred and ninety-one days told by nobody.",
+      "target_words": 4000
+    },
+    {
+      "n": 6,
+      "title": "What the House Keeps",
+      "day": 371,
+      "flashback": false,
+      "synopsis": "Sixth and final entry, chapter close, no new dated heading: the going of the light after the Drawing, the carry home at the half-pace, the hearth grammar renewed under the Vail roof, the pot board, loaf shelf, bed, boards and towel, then the small hours at the very end of the day. Present: Corin/Dan, Sella Vail, Tarn, Jorra Vail; Garl in objects. No Ilva, Berr, Hessa, runner, collector, green-mouthed woman or foundling; no ownerless voice — the Ash 5 joining, the Ash 17 direction and the Ash 23 direction stand where put and do not repeat (T035/T031/T065/T095, T101 held). Dramatic purpose: the Drawing stands behind the household with no lesson made of it. Sella carries him up at the going of the light, says nothing of where they have been, goes wide around the seven walked-around places with a look and no number, widest around the returning-line place, comes to the hearth before the basket, tells the coals it is the thaw, turns them with the back of a broken pot and says The house will keep it; the twice-mended pot keeps its hairline showing with both proverbs to pot and fire, the dressed grain lies covered and unfigured with no handful, the widow's mark is untouched, the charcoal stays unread beneath her finger, and the carried fire keeps four pulls and a gap with its payer unnamed 371 days (T009/T013/T092, T098, T058/T079, T100, T088). At the kindling Tarn keeps six and the seventh beside Garl's unforged collector sentence, checks the Ash 14 breath and Bone 26 thumb's resting and makes neither again, brings the ear-sentence to the calling word and stops as a remembered ninth stopping with no tenth before the seventh year at its very end, Seed 16 breath unspent and loan uncalled; the equality under the roof holds at the place it moved to with no payer named (T036/T076/T006). Jorra parts dusty forearms from clean as clot from vessel, speaks to the wheel before any person, withholds the full note and puts his bent finger into the cold iron ahead of an unfinished sentence, taking it out without a second interval; he's not Vail stays sealed and the promise under the wheel-shed is neither given nor withdrawn (T062/T035/T031). In the small hours the file comes out on the towel with every gap left gap: 317 honest answers then 318 on the sixth place, six hearings with the seventh place empty and the flat knock not made a seventh, heard bell beside told, ten readings behind one unsigned figure with the figure read still not the figure paid, the four rooms with the gap held apart, nine hands and nine stoppings with no tenth, the held objects each on its own place, the burned slate at five, the shut-room tellings at two, the well-saying at four shapings and the row at five askings with no witness, the river's skin beside water-over-water and not spent on the Drawing (T061/T082, T015/T041/T047, T081, T080, T078, T083/T085). The hand outside the wool comes up an inch, takes a small intake from the room whose floor does not touch his, holds the interval whole on the note's own finishing under the ice, lets it go and lays itself back flat against the fold as a man puts away a tool where the next hand will find it without looking — answer 318, exact, complete, worth nothing at two inches of air, a restraint and not a payment. Count 371 exact, six months and one hundred and ninety-one days told by nobody, fire's fifth unpaid and Garl's name unspoken the same number. Forward, not closed: Stone 13 (Day 372) stands one morning off as an ordinary tending day, Stone 20's second arithmetic stands nine mornings off, and the year's last reading and the Five stand beyond, all unbrought.",
+      "target_words": 3500
+    }
+  ]
+}
