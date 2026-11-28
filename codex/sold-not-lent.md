@@ -13,17 +13,17 @@ I went up in Seed with two chests of Sallow salt, a coil of tarred rope, and a c
 
 Eighty leagues up the Salt Road to Greybank, and then the Rim Road north-west, a hundred and twenty more of improving road and worsening weather. I had been told to take a warm-stone. The advice came from a man who sold them, at Greybank, in the yard, with the price in his mouth before the reason. I bought none there. A woman who buys for a living learns that the first figure a man gives is the one he has said oftenest.
 
-Below the pass the reeds go and the road goes to stone. By the fourth day the ruts held frost in the morning that no ruts at home hold, and the rope in my bundle had gone stiff where the tar had crept into it. The salt-paper did the opposite of what it does at Vhal. Instead of going soft it went crisp, and the ink sat up on it. I put a leaf of it in the tin with my thumb and it did not come away. A buyer notices a thing that will not take the figure she brings to it.
+Below the pass the reeds go and the road goes to stone. By the fourth day the ruts held frost in the morning that no ruts at home hold, and the rope in my bundle had gone stiff where the tar had crept into it. The salt-paper did the opposite of what it does at Vhal: instead of going soft it went crisp, and the ink sat up on it. I put a leaf of it in the tin with my thumb and it did not come away. A buyer notices a thing that will not take the figure she brings.
 
-The smoke of Keld Keep is seen before the Keep. It lies low along the stone, the colour of a banked fire at home, with the same sweetness under it that the glaze room has when the lead is up. A furnace woman would have known the smell. I knew it and was not glad to know it.
+The smoke of Keld Keep is seen before the Keep. It lies low along the stone, the colour of a banked fire at home, with the same sweetness under it that the glaze room has when the lead is up. A furnace woman would have known the smell. I knew it and was not glad.
 
 # The weigh, or the number before the name
 
-At the Warden's hall I gave my name, and the clerk looked at me until I understood I had begun wrongly, as every traveller from the low countries does, and is allowed to do once. A man beside me said, “State what you hold, then say who you are,” in the voice of a man repeating a thing he has said to fools before. I went back to the foot of the post and came again with a figure, and the clerk wrote the figure first and asked the name second.
+At the Warden's hall I gave my name, and the clerk looked at me until I understood I had begun wrongly, as every traveller from the low countries does, and is allowed to do once. A man beside me said, “State what you hold, then say who you are,” in the voice of one who has said it to fools before. I went back to the foot of the post and came again with a figure, and the clerk wrote the figure first and asked the name second.
 
-At Vhal a name is written on salt-paper and the rain takes it, and we call the taking a virtue. Here the number goes down the shaft with a man and the name stays in the room where he said it. I have set the two customs side by side and joined neither.
+At Vhal a name is written on salt-paper and the rain takes it, and we call the taking a virtue. Here the number goes down the shaft with a man and the name stays in the room where he said it. I have joined neither.
 
-The mine-reeve checked me in red. He set his point where I had given my figure, drew a stroke through it, and wrote the same figure above, which is how that office tells a man it found no lie without giving him anything to thank it for. The red stands at the second corner. I have not wiped it off and have not entered it.
+The mine-reeve checked me in red. He set his point where I had given my figure, drew a stroke through it, and wrote the same figure above, which is how that office tells a man it found no lie without giving him anything to thank it for. The red stands at the second corner. I have not wiped it off or entered it.
 
 # What was carried, and what came back
 
@@ -65,7 +65,7 @@ A Vorr at the weigh sells numbers for a bit. He is tall and slow and his skin ha
 
 He cut it into a slip of bone with something I could not see. I asked whether it counted the iron, or the wells, or the doorways of a place I had passed on the road, and he said the numbers were correct, which is an answer a woman can carry away and still know nothing. I have not put the slip against the table. There is no column in it for a figure that will not say what it counts, and a buyer who makes a column for a thing she does not understand has made the figure current, which ought not to be done without a hand to pay for it.
 
-The slip lies in the fourth leaf with the warm-stone shaving. Both are cold and neither has been entered.
+The slip lies in the fourth leaf with the shaving. Both are cold, neither entered.
 
 # The song of the stone going up
 
@@ -89,20 +89,20 @@ The slip lies in the fourth leaf with the warm-stone shaving. Both are cold and 
 > Ask the rope what it carried up.
 > The rope has no account to enter.
 
-I have left the second line of the last part standing as it was said. A woman who counts at that mouth will say a thing about a cup and will not say what stands in it, and I have learned not to ask a second time in that country.
+I have left the last line as it was said, twice. A woman who counts at that mouth will say a thing about a cup and not what stands in it, and I have learned not to ask a second time there.
 
 # What the borrowed hands did
 
 Two hands have been at these leaves besides mine.
 
-- A clerk of the Council of Tides, borrowed at Greybank on the morning after the salt boats came up, in the leaning low hand with the ends of words let fall. He took the verbs out as though a verb were a thing a woman could carry off in a cuff. Where I wrote *they sold me the stone* he set *consideration passed*; where I wrote *the warm went out of it on the seventh day* he set *thermal loss, no claim lies*; where I wrote *the Vorr cut a number in bone* he set *token, no value entered*. I have put my words back underneath. A verb is a person standing in a sentence.
+- A clerk of the Council of Tides, borrowed at Greybank after the salt boats came up, in the leaning low hand with the ends of words let fall. He took the verbs out as though a verb were a thing a woman could carry off in a cuff. Where I wrote *they sold me the stone* he set *consideration passed*; where I wrote *the Vorr cut a number in bone* he set *token, no value entered*. I have put my words back underneath. A verb is a person standing in a sentence.
 - The factor's clerk, in the narrow upright hand, wrote *figures of price, not of account* against my table and set a round nought in the margin beside the number cut in bone. A nought is a figure. The bone was not, and nobody has poured it. He has never been up the Rim Road and has strong views about it.
 
 The mine-reeve's red stroke at the second corner is a check and not a correction. He found the figure I gave stood. I have kept his mark where it fell, which is more than I can say of the others.
 
 # At the head and in the gutter
 
-The white at the head is salt bloom off the tide-tallies; it has eaten the tails from two figures and I have not written them back, because a figure with the end gone is read slowly and everything on that road is read slowly. The tar at the crease is mine, off the coil I carried eighty leagues and have never got out of the seam. The red is the mine-reeve's point. The shaving in the fourth leaf held its heat one night on a stone floor and is cold now, which is the order of things up there. The slip of bone lies beside it with its figure unmatched, and I have kept the two apart because they are two different debts and a woman who joins them has drawn a conclusion, which I have no licence to draw. The frost-feather lay on the well lip at the Keep and was gone before I folded the leaf; the yard at home calls that weather. The square of bare paper is a word I took out with a knife and have not put back. The grey along the outer fold is not mine and not the Council's. A man of Keld called it Ash, which in Vhal is a thing a woman must buy before she will own to seeing it. I did not buy it. I have not swept it. There is no Last Day above that Keep.
+The white at the head is salt bloom off the tide-tallies; it has eaten the tails from two figures and I have not written them back, because a figure with the end gone is read slowly, and everything on that road the same. The tar at the crease is mine, off the coil I carried eighty leagues and have never got out of the seam. The red is the mine-reeve's point. The shaving in the fourth leaf held its heat one night on a stone floor and is cold now, which is the order of things up there. The slip of bone lies beside it with its figure unmatched. I have kept the two apart: they are different debts, and a woman who joins them has drawn a conclusion, which I have no licence to draw. The frost-feather lay on the well lip at the Keep and was gone before I folded the leaf; the yard at home calls that weather. The square of bare paper is a word I took out with a knife and have not put back. The grey along the outer fold is not mine and not the Council's. A man of Keld called it Ash, which in Vhal is a thing a woman must buy before she will own to seeing it. I did not buy it. I have not swept it. There is no Last Day above that Keep.
 
 # At the foot, in a hand nobody will own
 
@@ -113,4 +113,4 @@ The white at the head is salt bloom off the tide-tallies; it has eaten the tails
 >
 > Ask the cup what it holds.
 
-I asked the woman who counts at the mouth, a Vorr who sells numbers, and a Council clerk come up from Greybank, and had three answers and no hand. I have left the line where it was written. The leaves go back into the sailcloth and the sailcloth into the tin among the anneal-tools, where the tar keeps the damp out and the damp keeps the writing soft. Tomorrow I take the four bars to the third furnace and shall enter what iron fetched at the Keep and what it fetched at Greybank, leaving the difference standing between them, which is the only place in my book where a true thing has been kept without a signature.
+I asked the woman who counts at the mouth, a Vorr who sells numbers, and a Council clerk come up from Greybank, and had three answers and no hand. I have left the line where it was written. The leaves go back into the sailcloth and the sailcloth into the tin among the anneal-tools, where the tar keeps the damp out and the damp keeps the writing soft. Tomorrow I take the four bars to the third furnace and shall enter what iron fetched at the Keep and what it fetched at Greybank, leaving the difference standing between them, the only place in my book where a true thing is kept without a signature.
