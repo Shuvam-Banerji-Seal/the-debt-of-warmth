@@ -2,7 +2,7 @@
 
 - Chapters complete: **129**
 - Words of story: **2,425,536**
-- Current chapter: 129 (step: publish, scene 7)
+- Current chapter: 130 (step: plan, scene 1)
 - Last chapter: What the Wood Did Not Say (Days 438–440 · Silt 14–16, Y.H. 814)
 - Author calls so far: 1379 (tokens in 253,366,271, out 32,243,699)
 - Updated: 2026-11-29 01:26
