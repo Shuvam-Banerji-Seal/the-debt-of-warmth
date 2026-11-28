@@ -2,7 +2,7 @@
 
 - Chapters complete: **122**
 - Words of story: **2,275,053**
-- Current chapter: 122 (step: publish, scene 7)
+- Current chapter: 123 (step: plan, scene 1)
 - Last chapter: What the Well Gave Back (Days 417–419 · Ilmen 23–25, Y.H. 814)
 - Author calls so far: 1308 (tokens in 240,752,712, out 30,486,995)
 - Updated: 2026-11-28 21:09
