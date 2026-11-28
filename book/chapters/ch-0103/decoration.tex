@@ -1,0 +1,81 @@
+\begin{tikzpicture}
+  % The chapter's heart: the river puts on its skin. The Ilm goes from water
+  % over water in the open to low under a covering laid from bank to bank --
+  % a skin put on by the cold and taken off by the cold, entered nowhere, no
+  % figure opening it and no payer standing under it. The water still goes
+  % beneath in two layers; the new note is set on a place of its own beside
+  % the old, with a finger between, and is not a fourth of the three coverings.
+
+  % —— a small fleuron above ——
+  \node at (0,1.52) {\pgfornament[width=0.70cm,color=ornament,opacity=0.24]{11}};
+
+  % —— two notes kept apart above the far bank: a finger between ——
+  \draw[faded!34!ink, line width=0.34pt, opacity=0.50] (-3.55,1.04) circle (0.085);
+  \fill[faded!30!ink, opacity=0.50] (-3.55,1.04) circle (0.030);
+  \draw[faded!34!ink, line width=0.34pt, opacity=0.50] (-2.95,1.04) circle (0.085);
+  \draw[faded!26!ink, line width=0.30pt, opacity=0.40] (-3.25,0.90) -- (-3.25,1.18);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (-2.78,1.04) {a place of its own};
+
+  % —— the water still going beneath, in layers over layers ——
+  \draw[faded!30!ink, line width=0.48pt, opacity=0.46, line cap=round]
+    (-4.45,0.52) .. controls (-2.95,0.74) and (-1.55,0.32) .. (0,0.52)
+    .. controls (1.55,0.74) and (2.95,0.32) .. (4.45,0.52);
+  \draw[faded!30!ink, line width=0.48pt, opacity=0.42, line cap=round]
+    (-4.45,0.22) .. controls (-2.70,0.02) and (-1.40,0.46) .. (0,0.22)
+    .. controls (1.40,0.02) and (2.70,0.46) .. (4.45,0.22);
+  \draw[rubric!24!faded, line width=0.44pt, opacity=0.38, line cap=round]
+    (-4.45,-0.08) .. controls (-3.05,-0.28) and (-1.60,0.12) .. (0,-0.08)
+    .. controls (1.60,-0.28) and (3.05,0.12) .. (4.45,-0.08);
+  \draw[faded!28!ink, line width=0.48pt, opacity=0.40, line cap=round]
+    (-4.45,-0.38) .. controls (-2.80,-0.58) and (-1.50,-0.18) .. (0,-0.38)
+    .. controls (1.50,-0.58) and (2.80,-0.18) .. (4.45,-0.38);
+  \draw[faded!26!ink, line width=0.44pt, opacity=0.34, line cap=round]
+    (-4.45,-0.62) .. controls (-3.10,-0.44) and (-1.55,-0.80) .. (0,-0.62)
+    .. controls (1.55,-0.44) and (3.10,-0.80) .. (4.45,-0.62);
+
+  % —— the skin, laid across the whole channel from bank to bank ——
+  \fill[vellum, opacity=0.56]
+    (-4.48,0.76) .. controls (-2.2,0.82) and (2.2,0.82) .. (4.48,0.76)
+    -- (4.48,-0.76) .. controls (2.2,-0.82) and (-2.2,-0.82) .. (-4.48,-0.76)
+    -- cycle;
+  \draw[ornament!46!ink, line width=0.52pt, opacity=0.58, line cap=round]
+    (-4.48,0.76) .. controls (-2.2,0.82) and (2.2,0.82) .. (4.48,0.76);
+  \draw[ornament!46!ink, line width=0.52pt, opacity=0.58, line cap=round]
+    (-4.48,-0.76) .. controls (-2.2,-0.82) and (2.2,-0.82) .. (4.48,-0.76);
+
+  % —— frost feathering on the surface only: a covering, entered nowhere ——
+  \foreach \fx/\fy in {-3.85/0.40,-3.15/-0.26,-2.45/0.16,-1.75/-0.42,
+                       -1.05/0.30,-0.35/-0.20,0.40/0.36,1.10/-0.34,
+                       1.85/0.20,2.55/-0.28,3.25/0.40}{
+    \draw[faded!34!ink, line width=0.30pt, opacity=0.50, line cap=round]
+      (\fx,\fy) -- (\fx+0.24,\fy+0.06);
+    \draw[faded!30!ink, line width=0.26pt, opacity=0.40, line cap=round]
+      (\fx+0.10,\fy+0.03) -- (\fx+0.06,\fy+0.18);
+    \draw[faded!30!ink, line width=0.26pt, opacity=0.40, line cap=round]
+      (\fx+0.17,\fy+0.05) -- (\fx+0.21,\fy-0.09);
+  }
+
+  % —— the two banks, and a few stones set in them ——
+  \draw[faded!24!ink, line width=0.72pt, opacity=0.42, line cap=round]
+    (-4.5,0.90) .. controls (-2.3,0.98) and (2.3,0.98) .. (4.5,0.90);
+  \draw[faded!24!ink, line width=0.72pt, opacity=0.42, line cap=round]
+    (-4.5,-0.90) .. controls (-2.3,-0.98) and (2.3,-0.98) .. (4.5,-0.90);
+  \foreach \px/\py in {-3.4/0.94,-0.7/0.97,2.1/0.96,-2.0/-0.96,1.3/-0.97,3.8/-0.93}{
+    \fill[ash!30!ink, opacity=0.38] (\px,\py) circle (0.035);
+  }
+
+  % —— the surface is unbroken; nothing goes in ——
+  \draw[faded!26!ink, line width=0.26pt, opacity=0.34, line cap=round]
+    (2.72,0.46) -- (2.50,0.26);
+  \node[anchor=west, font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46]
+    at (2.80,0.50) {entered nowhere};
+
+  % —— a fine ground-rule, wider than the emblem ——
+  \draw[faded!18!ink, line width=0.22pt, opacity=0.18] (-4.6,-1.22) -- (4.6,-1.22);
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.46)
+    {the cold laid it on, the cold takes it off};
+  \node at (0,-1.82) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{82}};
+\end{tikzpicture}
