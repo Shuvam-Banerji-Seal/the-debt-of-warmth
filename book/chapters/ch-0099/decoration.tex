@@ -1,0 +1,83 @@
+\begin{tikzpicture}
+  % The chapter's heart: eight arithmetics go up the clay road locked and
+  % unread in one box, and one figure stands on the notice. Eight are eight
+  % and not one account; the figure read is still not the figure paid, and
+  % no hand writes on the space between the box and the board. What the
+  % notice does not know is the eight that stand behind its single mark.
+
+  % —— a small fleuron above ——
+  \node at (0,1.46) {\pgfornament[width=0.70cm,color=ornament,opacity=0.24]{11}};
+
+  % —— eight slats in a bound bundle, locked and unread ——
+  \foreach \k in {0,1,2,3,4,5,6,7}{
+    \pgfmathsetmacro{\sy}{-0.15 + 0.14*\k + (\k>3 ? 0.08 : 0)}
+    \draw[ink!46!faded, line width=1.1pt, opacity=0.54, line cap=round]
+      (-4.85,\sy) -- (-2.55,\sy);
+    \draw[faded!26!ink, line width=0.8pt, opacity=0.44, line cap=round]
+      (-2.63,\sy-0.06) -- (-2.63,\sy+0.06);
+  }
+  \foreach \cx in {-4.25,-2.95}{
+    \draw[ornament!44!ink, line width=0.7pt, opacity=0.50, line cap=round]
+      (\cx,-0.24) -- (\cx,0.96);
+    \draw[ornament!44!ink, line width=0.7pt, opacity=0.40, line cap=round]
+      (\cx-0.05,0.92) -- (\cx+0.05,0.92);
+  }
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.42] at (-3.70,-0.44)
+    {eight, locked and unread};
+
+  % —— the box: strapped, hasped, and padlocked ——
+  \fill[vellum, opacity=0.46]
+    (-2.35,-0.62) rectangle (-0.15,0.20);
+  \draw[ornament!42!ink, line width=0.42pt, opacity=0.52, line cap=round]
+    (-2.35,-0.62) rectangle (-0.15,0.20);
+  \draw[faded!30!ink, line width=0.28pt, opacity=0.36, line cap=round]
+    (-2.35,0.06) -- (-0.15,0.06);
+  \foreach \sx in {-1.85,-0.65}{
+    \draw[faded!34!ink, line width=0.5pt, opacity=0.38, line cap=round]
+      (\sx,-0.62) -- (\sx,0.20);
+  }
+  \draw[ink!58!night, line width=0.9pt, opacity=0.66]
+    (-1.40,-0.02) arc (180:0:0.15);
+  \fill[rubric!42!ink, opacity=0.56] (-1.45,-0.30) rectangle (-1.05,-0.02);
+  \fill[ink!52!night, opacity=0.70] (-1.25,-0.16) circle (0.034);
+  \draw[ink!52!night, line width=0.6pt, opacity=0.64, line cap=round]
+    (-1.25,-0.16) -- (-1.25,-0.25);
+
+  % —— the space between: no hand writes here ——
+  \draw[faded!28!ink, line width=0.26pt, opacity=0.32,
+        dash pattern=on 1pt off 2.4pt, line cap=round]
+    (-0.06,-0.06) -- (1.88,-0.06);
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.28] (-0.06,-0.13) -- (-0.06,0.01);
+  \draw[faded!26!ink, line width=0.22pt, opacity=0.28] (1.88,-0.13) -- (1.88,0.01);
+  \node[font=\FellFont\itshape\scriptsize, text=faded, opacity=0.46] at (0.91,0.22)
+    {no hand writes between};
+
+  % —— eight faint counts standing behind the notice's one figure ——
+  \foreach \i in {0,1,2,3,4,5,6,7}{
+    \draw[faded!22!ink, line width=0.8pt, opacity=0.20, line cap=round]
+      (2.32 + 0.24*\i,0.30) -- (2.32 + 0.24*\i,0.66);
+  }
+
+  % —— the notice board, its one figure and its nail heads ——
+  \fill[vellum, opacity=0.46]
+    (2.00,-0.38) -- (4.35,-0.48) -- (4.40,0.86) -- (2.05,0.76) -- cycle;
+  \draw[ornament!44!ink, line width=0.46pt, opacity=0.54, line cap=round]
+    (2.00,-0.38) -- (4.35,-0.48) -- (4.40,0.86) -- (2.05,0.76) -- cycle;
+  \foreach \ny in {0.63,0.66}{
+    \fill[ink!40!faded, opacity=0.42] (2.18,\ny) circle (0.026);
+    \fill[ink!40!faded, opacity=0.42] (4.22,\ny) circle (0.026);
+  }
+  \draw[rubric!60!ink, line width=3.0pt, opacity=0.86, line cap=round]
+    (3.05,-0.20) -- (3.10,0.52);
+  \draw[rubric!60!ink, line width=1.8pt, opacity=0.80, line cap=round]
+    (2.72,0.32) -- (3.10,0.52);
+  \draw[rubric!60!ink, line width=1.8pt, opacity=0.80, line cap=round]
+    (2.70,-0.20) -- (3.48,-0.20);
+  \node[font=\CinzelFont\scriptsize, text=faded, opacity=0.46] at (3.12,-0.34)
+    {one in twelve};
+
+  % —— the motto and a fine flourish ——
+  \node[font=\FellFont\itshape\small, text=faded] at (0,-1.24)
+    {the figure read is not the figure paid};
+  \node at (0,-1.60) {\pgfornament[width=4.6cm,color=ornament,opacity=0.22,symmetry=v]{82}};
+\end{tikzpicture}
