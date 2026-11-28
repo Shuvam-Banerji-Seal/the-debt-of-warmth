@@ -9,7 +9,7 @@ I keep the joining-slate. It lies in a box behind the counter with a string grow
 
 A joining is two measures under one sum. The Court does not ask what brought the two to the counter: it has no word for that and has managed eight hundred years without one. It asks for their numbers, their names, and whether either has been poured too often. I write the figure and the names under it and the count of pourings beside them, and the two go away as one household with two names still standing on the roll, one above the other, which is how the Court joins a thing without ever having to make it whole.
 
-These articles were set down in the first years after the Rising and gathered here after the house in Slate Row was built in Y.H. 776. One phrase was struck out in Y.H. 651, before my time and before my teacher's; the bare place is the length of it, and I have put no word into it. A rule with no thumb on it is a rule nobody has had to use. These have been used.
+These articles were set down after the Rising and gathered here when the house in Slate Row was built in Y.H. 776. One phrase was struck in Y.H. 651, before my time and my teacher's; the bare place is the length of it, and I have put no word into it. A rule with no thumb on it is a rule nobody has had to use. These have been used.
 
 # Title the Eleventh, as it stands in the assessor's house
 
@@ -19,7 +19,7 @@ These articles were set down in the first years after the Rising and gathered he
 
 1. The joining of vessels is the entering of two measures as one house. The sum is set down in embers, and the deduction of one in twelve is entered once upon the joined house, as the notice says. Two figures become one figure at this counter and nowhere else. The Keeping holds no second slate for what it has added.
 
-> *Margin:* I have restored the two who stood here beneath *the vessels are joined*. They stood close, and the woman put her hand to the man's sleeve and took it away before I looked up. I have entered neither. There is a column for embers and a column for names, and no column for the space between two people, which is the only part they came here to have entered.
+> *Margin:* I have restored the two who stood beneath *the vessels are joined*. The woman put her hand to the man's sleeve and took it away before I looked up; I have entered neither. There is a column for embers and a column for names, and none for the space between two people, which is the only part they came here to have entered.
 
 2. A joining is entered without regard to sex. In Grath a widow may hold a hearth in her own right, and a woman returned thin may keep the house though she may not keep the wheel. These are house customs and are not entered here, though they are the reason half the people who come to this counter are women.
 
@@ -35,11 +35,11 @@ These articles were set down in the first years after the Rising and gathered he
 
 5. The count of pourings stands in a column of its own and is entered before the sum. A vessel returned whole keeps the name it had. A vessel returned thin is given a name from the district's name-pot, and the former name is entered in a second column which the household is not shown.
 
-> *Margin:* A woman asked to see the second column. I told her there was none for her house. She asked what was written in it. I told her nothing she had not been given leave to read. Both answers were true, and neither was the one she had come for.
+> *Margin:* A woman asked to see the second column. I told her there was none for her house and nothing in it she had not been given leave to read. Both answers were true, and neither was the one she had come for.
 
 6. A vessel poured more than three times is unsafe to marry, of either sex. The figure is entered. The reason is not entered. Where a reason is demanded, give the date of the striking and no more; a date is safe, and the Court likes a date.
 
-> *Margin, written very small:* The older copy had a phrase here, struck through with a bone-stylus before this leaf was made. I have held the bare place to the lamp and read nothing. A clerk who supplies the words has begun to write a sermon, and sermons get copied.
+> *Margin, written very small:* The older copy had a phrase here, struck with a bone-stylus before this leaf was made. I have held the bare place to the lamp and read nothing. A clerk who supplies the words has begun to write a sermon, and sermons get copied.
 
 7. A vessel poured five times may carry five names and remember the wrong one. Where a person gives a name that belongs to another vessel on the roll, the figure is entered and the name is set at the edge; no second column is opened on the strength of a name spoken at a counter.
 
@@ -58,22 +58,21 @@ These articles were set down in the first years after the Rising and gathered he
 
 ## III. Of the house that comes of it
 
-8. Where two hearths are joined, the Court enters one hearth. The second is not entered and is not swept out on the Last Day. On the morning after, both corners are called dealt with, and the yard has never asked which corner was which.
+8. Where two hearths are joined, the Court enters one hearth. The second is not entered and is not swept out on the Last Day. On the morning after, both corners are called dealt with, and nobody has asked which was which.
 
-9. A boat-share in Vhal passes through women. A man who marries into a boat-owning family is said to come aboard, and his opinion on the boat is counted at half. This clause was added after the treaty and is entered here because a joining made at the Quay is entered at this counter. A contract written on salt-paper and gone damp in the journey is no contract, and the Council calls that a virtue; the joining stands where the paper went.
+9. A boat-share in Vhal passes through women. A man who marries into a boat-owning family is said to come aboard, and his opinion on the boat is counted at half. It is entered here because a joining made at the Quay is entered at this counter. A contract written on salt-paper and gone damp in the journey is no contract, and the Council calls that a virtue; the joining stands where the paper went.
 
 > *Margin:* A woman came up from the Quay with salt in the crease of her shoe and a sheet gone soft in her sleeve. By noon there was no writing on the sheet and by dusk she had a house. She asked whether the Council would count it a marriage. I told her it would count what was standing. That is true, and was not what she asked.
 
 10. A joining made in the Bowl of Sere is not entered here. A people who burn a household's debt-slates by lot at the end of a feast do not keep a joining-slate, and no figure goes up the Clay Road from such a house.
 
-> *Margin:* A woman come back from the south with a green at one corner of her mouth asked whether a bowl had forgotten her. I told her no bowl keeps a slate. That is true, and was not what she asked. I have not joined her to any figure, and I have not asked her name.
+> *Margin:* A woman come back from the south with a green at one corner of her mouth asked whether a bowl had forgotten her. I told her no bowl keeps a slate. That is true, and was not what she asked.
 
 ## IV. Of faults and their correcting
 
 | Fault | As entered at the counter | What the clerk sets beneath |
 |---|---|---|
 | A joining entered with nobody in it | The two names, in the same hand | The hand each used, and the order of reaching |
-| A figure read with feeling | The reader set back one tend | The person whose figure it was |
 | The struck phrase supplied | The word scraped out, the bare place kept | The length of the word, and nothing of it |
 | A second column opened on a spoken name | The name struck, the figure left standing | The fever, at the edge, the length of a hand |
 | The clip brought to this counter | Not entered | The officer's *once*, at the edge |
@@ -83,7 +82,7 @@ These articles were set down in the first years after the Rising and gathered he
 
 *Set out at the end. I have copied it with the blanks as they stand. In nine years no clerk has filled the last line with his own name.*
 
-> Entered this day, being ---day of -------, in the year of the Hearth ------, the joining of the vessels ------------------ and ------------------ into one house, their measures in the sum of ---- embers, the deduction one in twelve as the notice says, the pourings standing at --- and ---, the names as they stand upon the roll, the second column not shown; the clause concerning the unsafe not called, the reason not entered; written by ------------------, whose hand went to the slate before his eyes went to the two who stood there.
+> Entered this day, being ---day of -------, in the year of the Hearth ------, the joining of the vessels ------------------ and ------------------ into one house, their measures in the sum of ---- embers, the deduction one in twelve as the notice says, the pourings standing at --- and ---, the names as they stand upon the roll, the second column not shown; the clause concerning the unsafe not called, the reason not entered; written by ------------------, whose hand went to the slate before his eyes went to the two.
 
 # The joining-song, pasted inside the cover
 
@@ -103,23 +102,18 @@ These articles were set down in the first years after the Rising and gathered he
 > the older copies would not let stand;
 > hold the bare place to the lamp all night,
 > and read the length of what was taken out.
->
-> A boat goes out and a contract rots,
-> a woman comes back with the house standing;
-> the bowl forgets and the roll does not,
-> and the wanting goes where the figure cannot.
 
-The second verse came in with the Thin Year and is said by no officer of the College, who has no reason to sing it and several not to. I have copied it as it came.
+The second verse came in with the Thin Year and is said by no officer of the College. I have copied it as it came.
 
 # What the borrowed hands did
 
-The College man came down from Slate Row with ink in two fingers of a cuff gone soft from washing. On article one he struck *the two who stood* and set *the vessels are joined* above it, true of every joining and therefore of none. He drew a line under all my margins and wrote *no entry arising* above the whole of them, so that the edge would read as though it had never held anything. He had to look at every margin before he could write that there was nothing in them worth keeping, and I watched him do it.
+The College man came down from Slate Row with ink in two fingers of a cuff gone soft from washing. On article one he struck *the two who stood* and set *the vessels are joined* above it, true of every joining and therefore of none. He drew a line under all my margins and wrote *no entry arising* above the whole of them, so that the edge would read as though it had never held anything. He had to look at every margin before he could write that there was nothing in them worth keeping. I watched him.
 
-The other hand is tall and leaning and comes from the factor's house at Greybank. Against *unsafe to marry* it set *an impediment of account, not of person*, and against the struck phrase, *a matter of physiography, long since settled*. I have struck neither. A hand that writes a person out of an impediment knows the difference between a vessel and a figure, and trades on never saying which. I have left both readings standing, one above the other, as the names stand on the roll.
+The other hand is tall and leaning and comes from the factor's house at Greybank. Against *unsafe to marry* it set *an impediment of account, not of person*, and against the struck phrase, *a matter of physiography, long since settled*. I have struck neither. A hand that writes a person out of an impediment knows the difference between a vessel and a figure, and trades on never saying which. I have left both readings standing, as the names stand on the roll.
 
 # At the head and in the gutter
 
-The brown at the head is iron-gall and mine, from holding the quire open while two people read the form who could not read it together. The pale streak down the gutter came off slip carried in from the upper pit on a sleeve; it stayed in the fold instead of falling through, which is how I knew who had held the leaf. The grey wool through the tie-hole is a thread from a wrist-cord, tied there by a woman who went away with her question unentered; I have not untied it. The brown at the second fold is a barley crust set down while an old man found his name on the form and taken up again when he found it; the mark has eaten the corner of one line and not the sense. The green bead came off a glaze-mixer come up from High Kiln with the sweetness still at her mouth; she leaned to see the count of pourings and went back down the road without asking what it meant. The cold-iron score in the margin is the length of a clip, laid there by an officer who set it down before he remembered where he was; the clip is not used here, and the scratch is the only record of its having come. The tide-line along the foot is washing-water from a pail set down while I told a woman that the Council counts what is standing. There is no Last Day behind a counter. The slate is scraped for the next two who come, and what was written on it goes into no fire and is called dealt with by nobody.
+The brown at the head is iron-gall and mine, from holding the quire while two people read the form who could not read it together. The pale streak down the gutter is slip from the upper pit; it stayed in the fold instead of falling through, which is how I knew who had held the leaf. The grey wool through the tie-hole is a thread from a wrist-cord tied there by a woman who went away with her question unentered; I have not untied it. The brown at the second fold is a barley crust set down while an old man found his name and taken up again when he found it; the mark has eaten the corner of one line and not the sense. The green bead came off a glaze-mixer come up from High Kiln with the sweetness still at her mouth; she leaned to see the count of pourings and went back down the road. The cold-iron score in the margin is the length of a clip, laid there by an officer before he remembered where he was; the clip is not used here, and the scratch is the only record of its having come. The tide-line along the foot is washing-water from a pail set down while I told a woman that the Council counts what is standing. There is no Last Day behind a counter. The slate is scraped for the next two who come, and what was written on it goes into no fire and is called dealt with by nobody.
 
 # At the foot, in a hand nobody will own
 
@@ -127,4 +121,4 @@ The brown at the head is iron-gall and mine, from holding the quire open while t
 
 I asked the College clerk, a man come down from the factor's house, and a woman who held her pail while she waited for the form, and had three answers and no hand, as I have had before. I have left the line where it was written.
 
-The leaves go back into the box and the string across the hasp. Tomorrow two people will come and stand a little short of the slate's reach, and I shall read them what stands here, and put the persons back where a borrowed hand took them out, and give the date where the reason is asked for, and say nothing about the bare place.
+The leaves go back into the box. Tomorrow two people will stand a little short of the slate's reach; I shall read them what stands here, put the persons back where a borrowed hand took them out, give the date where the reason is asked for, and say nothing about the bare place.
