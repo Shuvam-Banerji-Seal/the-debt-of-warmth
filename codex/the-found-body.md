@@ -9,7 +9,7 @@ I keep the found-slate in the Court's room at Slate Row. A man comes in off the 
 
 > At the head of the first leaf, in mine, written small: Copied for the found and from the found. The verbs are mine. The absence of them is not. Let both stand.
 
-The order was set down in the years after the Rising, when it was found that a house would send for the collector for a body it knew and send for nobody for a body it did not, and that the Court was being asked to enter what it had not been asked to keep. A rule with no house on it is a rule nobody will claim. These have been claimed, and not always by the dead.
+The order was set down after the Rising, when it was found that a house would send for the collector for a body it knew and for nobody for a body it did not, and that the Court was being asked to enter what it had not been asked to keep. A rule with no house on it is a rule nobody will claim. These have been claimed, and not always by the dead.
 
 # The standing order, as it stands in the Court's room
 
@@ -22,7 +22,7 @@ The order was set down in the years after the Rising, when it was found that a h
 3. No slate is opened over a found body until a house is named. Where no house is named, no slate is opened.
 4. The face is covered before the body is moved. The hand that covers is not the hand that writes.
 
-> *Margin:* I asked a man come down from Cold Acre why the finder is not asked what he was doing there. He said a man who has found a body has already answered enough by finding it. I have set his words here, because the order has no place for them and the slate has room at the edge.
+> *Margin:* I asked a man come down from Cold Acre why the finder is not asked what he was doing there. He said a man who has found a body has already answered enough by finding it. The order has no place for his words and the slate has room at the edge.
 
 > *Margin:* A woman came in with her apron held over her face and would not say whether she had turned the body over. I entered the finding and not the turning. There is no column for what a hand does before it sends for anybody, and I have left a place the length of it.
 
@@ -71,7 +71,7 @@ The order was set down in the years after the Rising, when it was found that a h
 
 # The table of findings
 
-*Copied from the found-slate. The entries stand as the order has them. The last column is mine and has no standing at any Weighing.*
+*Copied from the found-slate. The last column is mine and has no standing at any Weighing.*
 
 | When | Where found | What the body held | House | As entered | What the edge keeps |
 |---|---|---|---|---|---|
@@ -85,13 +85,13 @@ Findings on this leaf: five. Deaths entered among them: one. Names spoken: none 
 
 # The form of finding
 
-*Set out at the end of the order. I have copied it with the blanks as they stand. In nine years no finder has filled the last line in the hand the Court requires.*
+*Set out at the end of the order, with the blanks as they stand. In nine years no finder has filled the last line in the hand the Court requires.*
 
 > Found this day, being ---day of -------, in the year of the Hearth ------, a vessel in ----------------------, the face covered before the moving and by a hand other than this hand, no slate opened, no house named, the body carried to the east ground and laid apart from the rows, no pot broken, the ash gathered to the ground and not to the vessel, the tube not set and no consent entered; the finding carried forward and not closed; entered by ----------------------, who found and did not ask. The body held ----------------------, which is returned to nobody.
 
 # The covering-song
 
-*Said low over the face at the finding, before the moving and never afterward. Not said at the Weighing and never within hearing of a house that has sent for the collector.*
+*Said low over the face at the finding, before the moving and never afterward. Never within hearing of a house that has sent for the collector.*
 
 > Cover the face and leave the boots,
 > the road keeps what the house might claim;
